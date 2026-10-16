@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and the original MOISE paper."
+title: "MOISE-DSGE-PY: an independent Python replication of the Bank of Israel MOISE DSGE model"
+type: software
+authors:
+  - family-names: Skiba
+    given-names: Daniel
+repository-code: "https://github.com/DanielSkiba/moise-dsge-py"
+license: MIT
+keywords: [DSGE, Israel, monetary policy, macroeconomics, replication, Python]
+references:
+  - type: report
+    title: "MOISE: A DSGE Model for the Israeli Economy"
+    authors:
+      - family-names: Argov
+        given-names: Eyal
+      - family-names: Barnea
+        given-names: Emanuel
+      - family-names: Binyamini
+        given-names: Alon
+      - family-names: Borenstein
+        given-names: Eliezer
+      - family-names: Elkayam
+        given-names: David
+      - family-names: Rozenshtrom
+        given-names: Irit
+    institution:
+      name: "Bank of Israel, Research Department"
+    number: "2012.06"
+    year: 2012
+    url: "https://boi.org.il/media/ybvpydng/dp12065e.pdf"

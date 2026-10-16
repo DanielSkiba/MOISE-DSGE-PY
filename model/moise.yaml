@@ -1,0 +1,15 @@
+# MOISE — log-linearized model definition.
+# Source: Argov et al. (2012), Bank of Israel Discussion Paper 2012.06.
+# Format: see docs/equation-spec.md
+# Status: empty — transcription starts in Phase 1.
+
+meta:
+  source: "Argov, Barnea, Binyamini, Borenstein, Elkayam & Rozenshtrom (2012), BoI DP 2012.06"
+  paper_url: "https://boi.org.il/media/ybvpydng/dp12065e.pdf"
+  appendix_equations: "D"
+  appendix_steady_state: "C"
+
+variables: []
+shocks: []
+parameters: []
+equations: []
