@@ -1,0 +1,31 @@
+latex_as_printed,code_name,reason
+\hat{\Delta inv},dinv,"hat over the whole group Delta-inv in (276), (280); same variable as Delta widehat{inv} in (284)"
+\Delta{\widehat{inv}},dinv,"inventory-investment ratio, log deviation (284), (317)"
+\Delta{inv},dinv_ss,steady-state inventory-investment ratio
+\Delta{\hat{S}},dS,model nominal depreciation (deviation) in the policy rule (259); distinct from the observed Delta S_t in (306)
+\hat{\Gamma}_{IM^{I}t}^{+},Gamma_IMI_p,(237) prints the subscript without the comma before t
+\hat{\nu}_{ct},nu_C,"(235) prints lower-case c and no comma; read as nu_{C,t}"
+\hat{p}_{g},p_G,(280) prints lower-case g
+\hat{p}_{OILl},p_OIL,(290) left-hand side prints a stray letter l
+\hat{\tau}^{k},tau_K,(254) left-hand side prints lower-case k
+\hat{\tau}^{c},tau_C,"lower-case c variant of the VAT rate (284), (314)"
+\tau^{c},tau_C_ss,lower-case c variant of the steady-state VAT rate
+\tau_{c},tau_C_ss,"lower-case c, subscript variant of the steady-state VAT rate"
+\hat{\tau}^{n},tau_N,lower-case n variant (315)
+\tau_{n},tau_N_ss,"lower-case n, subscript variant (315)"
+\hat{h}_{s},h_s,(285) subscript s; (274) writes the same variable with superscript s
+\hat{k}_{s},k_s,subscript s variant of capital services
+EX_{\Delta POil},EX_DeltaPOIL,(331) prints POil; (316) prints POIL
+\mu_{c},mu_C,(233) prints lower-case c
+\mu_{x},mu_X,lower-case x variant
+\nu_{x},nu_X_ss,(247) prints lower-case x
+\hat{p}_{x},p_X,"lower-case x variant (310), (311)"
+p_{x},p_X_ss,lower-case x variant
+\hat{p}_{y},p_Y,(281) prints lower-case y
+p_{y},p_Y_ss,lower-case y variant in steady-state coefficients (280)
+P_{y},p_Y_ss,"capital P, lower-case y in a steady-state coefficient of (280)"
+P_{Y},p_Y_ss,"capital P in steady-state coefficients (280), (282)"
+Y,y_ss,capital Y in the denominator P_Y Y of (282)
+P_{IM},p_IM_ss,capital P_{IM} in numerators of (284)
+\hat{\pi}_{y}^{*},pi_Y_star,"lower-case y variant (287), (288)"
+r,R_ss,lower-case r for the steady-state gross nominal rate in the observation equations

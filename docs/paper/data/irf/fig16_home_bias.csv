@@ -1,0 +1,1201 @@
+figure,page_pdf,shock,panel_title,series,quarter,value
+16,138,home_bias,Output,mean,1,0.713223
+16,138,home_bias,Output,mean,2,0.428934
+16,138,home_bias,Output,mean,3,0.241902
+16,138,home_bias,Output,mean,4,0.128425
+16,138,home_bias,Output,mean,5,0.064834
+16,138,home_bias,Output,mean,6,0.032425
+16,138,home_bias,Output,mean,7,0.018705
+16,138,home_bias,Output,mean,8,0.013722
+16,138,home_bias,Output,mean,9,0.014964
+16,138,home_bias,Output,mean,10,0.017463
+16,138,home_bias,Output,mean,11,0.019947
+16,138,home_bias,Output,mean,12,0.024944
+16,138,home_bias,Output,mean,13,0.028685
+16,138,home_bias,Output,mean,14,0.032425
+16,138,home_bias,Output,mean,15,0.034909
+16,138,home_bias,Output,mean,16,0.038650
+16,138,home_bias,Output,mean,17,0.041149
+16,138,home_bias,Output,mean,18,0.043647
+16,138,home_bias,Output,mean,19,0.046131
+16,138,home_bias,Output,mean,20,0.047388
+16,138,home_bias,Output,hpd70_lower,1,0.660854
+16,138,home_bias,Output,hpd70_lower,2,0.386530
+16,138,home_bias,Output,hpd70_lower,3,0.206979
+16,138,home_bias,Output,hpd70_lower,4,0.089777
+16,138,home_bias,Output,hpd70_lower,5,0.029927
+16,138,home_bias,Output,hpd70_lower,6,0.000001
+16,138,home_bias,Output,hpd70_lower,7,-0.009979
+16,138,home_bias,Output,hpd70_lower,8,-0.009979
+16,138,home_bias,Output,hpd70_lower,9,-0.004981
+16,138,home_bias,Output,hpd70_lower,10,0.000001
+16,138,home_bias,Output,hpd70_lower,11,0.006241
+16,138,home_bias,Output,hpd70_lower,12,0.009982
+16,138,home_bias,Output,hpd70_lower,13,0.014964
+16,138,home_bias,Output,hpd70_lower,14,0.018705
+16,138,home_bias,Output,hpd70_lower,15,0.022445
+16,138,home_bias,Output,hpd70_lower,16,0.024944
+16,138,home_bias,Output,hpd70_lower,17,0.028685
+16,138,home_bias,Output,hpd70_lower,18,0.031169
+16,138,home_bias,Output,hpd70_lower,19,0.032425
+16,138,home_bias,Output,hpd70_lower,20,0.033667
+16,138,home_bias,Output,hpd70_upper,1,0.754370
+16,138,home_bias,Output,hpd70_upper,2,0.468824
+16,138,home_bias,Output,hpd70_upper,3,0.285532
+16,138,home_bias,Output,hpd70_upper,4,0.163348
+16,138,home_bias,Output,hpd70_upper,5,0.093518
+16,138,home_bias,Output,hpd70_upper,6,0.054869
+16,138,home_bias,Output,hpd70_upper,7,0.036166
+16,138,home_bias,Output,hpd70_upper,8,0.024944
+16,138,home_bias,Output,hpd70_upper,9,0.022445
+16,138,home_bias,Output,hpd70_upper,10,0.022445
+16,138,home_bias,Output,hpd70_upper,11,0.024944
+16,138,home_bias,Output,hpd70_upper,12,0.027428
+16,138,home_bias,Output,hpd70_upper,13,0.031169
+16,138,home_bias,Output,hpd70_upper,14,0.036166
+16,138,home_bias,Output,hpd70_upper,15,0.039907
+16,138,home_bias,Output,hpd70_upper,16,0.043647
+16,138,home_bias,Output,hpd70_upper,17,0.046131
+16,138,home_bias,Output,hpd70_upper,18,0.048630
+16,138,home_bias,Output,hpd70_upper,19,0.049872
+16,138,home_bias,Output,hpd70_upper,20,0.052371
+16,138,home_bias,Output,hpd90_lower,1,0.602245
+16,138,home_bias,Output,hpd90_lower,2,0.326679
+16,138,home_bias,Output,hpd90_lower,3,0.137163
+16,138,home_bias,Output,hpd90_lower,4,0.031169
+16,138,home_bias,Output,hpd90_lower,5,-0.011220
+16,138,home_bias,Output,hpd90_lower,6,-0.026183
+16,138,home_bias,Output,hpd90_lower,7,-0.024941
+16,138,home_bias,Output,hpd90_lower,8,-0.019944
+16,138,home_bias,Output,hpd90_lower,9,-0.013719
+16,138,home_bias,Output,hpd90_lower,10,-0.007480
+16,138,home_bias,Output,hpd90_lower,11,-0.001240
+16,138,home_bias,Output,hpd90_lower,12,0.003742
+16,138,home_bias,Output,hpd90_lower,13,0.007483
+16,138,home_bias,Output,hpd90_lower,14,0.011223
+16,138,home_bias,Output,hpd90_lower,15,0.014964
+16,138,home_bias,Output,hpd90_lower,16,0.017463
+16,138,home_bias,Output,hpd90_lower,17,0.019947
+16,138,home_bias,Output,hpd90_lower,18,0.021203
+16,138,home_bias,Output,hpd90_lower,19,0.022445
+16,138,home_bias,Output,hpd90_lower,20,0.024944
+16,138,home_bias,Output,hpd90_upper,1,0.827926
+16,138,home_bias,Output,hpd90_upper,2,0.534914
+16,138,home_bias,Output,hpd90_upper,3,0.337901
+16,138,home_bias,Output,hpd90_upper,4,0.214460
+16,138,home_bias,Output,hpd90_upper,5,0.145887
+16,138,home_bias,Output,hpd90_upper,6,0.100999
+16,138,home_bias,Output,hpd90_upper,7,0.076056
+16,138,home_bias,Output,hpd90_upper,8,0.062351
+16,138,home_bias,Output,hpd90_upper,9,0.054869
+16,138,home_bias,Output,hpd90_upper,10,0.052371
+16,138,home_bias,Output,hpd90_upper,11,0.052371
+16,138,home_bias,Output,hpd90_upper,12,0.053612
+16,138,home_bias,Output,hpd90_upper,13,0.057353
+16,138,home_bias,Output,hpd90_upper,14,0.061094
+16,138,home_bias,Output,hpd90_upper,15,0.064834
+16,138,home_bias,Output,hpd90_upper,16,0.067333
+16,138,home_bias,Output,hpd90_upper,17,0.069832
+16,138,home_bias,Output,hpd90_upper,18,0.072316
+16,138,home_bias,Output,hpd90_upper,19,0.074814
+16,138,home_bias,Output,hpd90_upper,20,0.076056
+16,138,home_bias,Consumption,mean,1,0.014962
+16,138,home_bias,Consumption,mean,2,0.037901
+16,138,home_bias,Consumption,mean,3,0.065491
+16,138,home_bias,Consumption,mean,4,0.092419
+16,138,home_bias,Consumption,mean,5,0.115358
+16,138,home_bias,Consumption,mean,6,0.132979
+16,138,home_bias,Consumption,mean,7,0.144947
+16,138,home_bias,Consumption,mean,8,0.152260
+16,138,home_bias,Consumption,mean,9,0.155587
+16,138,home_bias,Consumption,mean,10,0.156249
+16,138,home_bias,Consumption,mean,11,0.154590
+16,138,home_bias,Consumption,mean,12,0.151598
+16,138,home_bias,Consumption,mean,13,0.147939
+16,138,home_bias,Consumption,mean,14,0.143619
+16,138,home_bias,Consumption,mean,15,0.139295
+16,138,home_bias,Consumption,mean,16,0.134974
+16,138,home_bias,Consumption,mean,17,0.130654
+16,138,home_bias,Consumption,mean,18,0.126664
+16,138,home_bias,Consumption,mean,19,0.122675
+16,138,home_bias,Consumption,mean,20,0.119017
+16,138,home_bias,Consumption,hpd70_lower,1,0.003991
+16,138,home_bias,Consumption,hpd70_lower,2,0.018285
+16,138,home_bias,Consumption,hpd70_lower,3,0.039229
+16,138,home_bias,Consumption,hpd70_lower,4,0.063832
+16,138,home_bias,Consumption,hpd70_lower,5,0.085438
+16,138,home_bias,Consumption,hpd70_lower,6,0.100398
+16,138,home_bias,Consumption,hpd70_lower,7,0.112366
+16,138,home_bias,Consumption,hpd70_lower,8,0.117688
+16,138,home_bias,Consumption,hpd70_lower,9,0.121011
+16,138,home_bias,Consumption,hpd70_lower,10,0.122340
+16,138,home_bias,Consumption,hpd70_lower,11,0.121342
+16,138,home_bias,Consumption,hpd70_lower,12,0.118019
+16,138,home_bias,Consumption,hpd70_lower,13,0.115693
+16,138,home_bias,Consumption,hpd70_lower,14,0.110372
+16,138,home_bias,Consumption,hpd70_lower,15,0.106717
+16,138,home_bias,Consumption,hpd70_lower,16,0.102062
+16,138,home_bias,Consumption,hpd70_lower,17,0.097075
+16,138,home_bias,Consumption,hpd70_lower,18,0.092755
+16,138,home_bias,Consumption,hpd70_lower,19,0.089096
+16,138,home_bias,Consumption,hpd70_lower,20,0.085438
+16,138,home_bias,Consumption,hpd70_upper,1,0.022605
+16,138,home_bias,Consumption,hpd70_upper,2,0.049534
+16,138,home_bias,Consumption,hpd70_upper,3,0.080786
+16,138,home_bias,Consumption,hpd70_upper,4,0.110040
+16,138,home_bias,Consumption,hpd70_upper,5,0.134643
+16,138,home_bias,Consumption,hpd70_upper,6,0.152926
+16,138,home_bias,Consumption,hpd70_upper,7,0.164228
+16,138,home_bias,Consumption,hpd70_upper,8,0.170547
+16,138,home_bias,Consumption,hpd70_upper,9,0.173204
+16,138,home_bias,Consumption,hpd70_upper,10,0.174868
+16,138,home_bias,Consumption,hpd70_upper,11,0.173539
+16,138,home_bias,Consumption,hpd70_upper,12,0.171545
+16,138,home_bias,Consumption,hpd70_upper,13,0.168217
+16,138,home_bias,Consumption,hpd70_upper,14,0.164894
+16,138,home_bias,Consumption,hpd70_upper,15,0.160574
+16,138,home_bias,Consumption,hpd70_upper,16,0.155252
+16,138,home_bias,Consumption,hpd70_upper,17,0.150600
+16,138,home_bias,Consumption,hpd70_upper,18,0.145279
+16,138,home_bias,Consumption,hpd70_upper,19,0.141624
+16,138,home_bias,Consumption,hpd70_upper,20,0.136638
+16,138,home_bias,Consumption,hpd90_lower,1,-0.009972
+16,138,home_bias,Consumption,hpd90_lower,2,-0.003657
+16,138,home_bias,Consumption,hpd90_lower,3,0.015959
+16,138,home_bias,Consumption,hpd90_lower,4,0.036903
+16,138,home_bias,Consumption,hpd90_lower,5,0.057181
+16,138,home_bias,Consumption,hpd90_lower,6,0.074136
+16,138,home_bias,Consumption,hpd90_lower,7,0.086104
+16,138,home_bias,Consumption,hpd90_lower,8,0.093086
+16,138,home_bias,Consumption,hpd90_lower,9,0.094749
+16,138,home_bias,Consumption,hpd90_lower,10,0.096409
+16,138,home_bias,Consumption,hpd90_lower,11,0.093752
+16,138,home_bias,Consumption,hpd90_lower,12,0.090425
+16,138,home_bias,Consumption,hpd90_lower,13,0.085438
+16,138,home_bias,Consumption,hpd90_lower,14,0.081784
+16,138,home_bias,Consumption,hpd90_lower,15,0.079123
+16,138,home_bias,Consumption,hpd90_lower,16,0.075465
+16,138,home_bias,Consumption,hpd90_lower,17,0.071810
+16,138,home_bias,Consumption,hpd90_lower,18,0.067821
+16,138,home_bias,Consumption,hpd90_lower,19,0.065491
+16,138,home_bias,Consumption,hpd90_lower,20,0.062168
+16,138,home_bias,Consumption,hpd90_upper,1,0.040893
+16,138,home_bias,Consumption,hpd90_upper,2,0.080120
+16,138,home_bias,Consumption,hpd90_upper,3,0.116691
+16,138,home_bias,Consumption,hpd90_upper,4,0.150932
+16,138,home_bias,Consumption,hpd90_upper,5,0.177529
+16,138,home_bias,Consumption,hpd90_upper,6,0.197140
+16,138,home_bias,Consumption,hpd90_upper,7,0.209775
+16,138,home_bias,Consumption,hpd90_upper,8,0.219417
+16,138,home_bias,Consumption,hpd90_upper,9,0.226063
+16,138,home_bias,Consumption,hpd90_upper,10,0.226730
+16,138,home_bias,Consumption,hpd90_upper,11,0.221743
+16,138,home_bias,Consumption,hpd90_upper,12,0.218420
+16,138,home_bias,Consumption,hpd90_upper,13,0.219082
+16,138,home_bias,Consumption,hpd90_upper,14,0.215759
+16,138,home_bias,Consumption,hpd90_upper,15,0.212101
+16,138,home_bias,Consumption,hpd90_upper,16,0.207449
+16,138,home_bias,Consumption,hpd90_upper,17,0.202793
+16,138,home_bias,Consumption,hpd90_upper,18,0.198138
+16,138,home_bias,Consumption,hpd90_upper,19,0.194148
+16,138,home_bias,Consumption,hpd90_upper,20,0.190825
+16,138,home_bias,Fixed investment,mean,1,0.108910
+16,138,home_bias,Fixed investment,mean,2,0.170083
+16,138,home_bias,Fixed investment,mean,3,0.258511
+16,138,home_bias,Fixed investment,mean,4,0.323674
+16,138,home_bias,Fixed investment,mean,5,0.386833
+16,138,home_bias,Fixed investment,mean,6,0.432711
+16,138,home_bias,Fixed investment,mean,7,0.469948
+16,138,home_bias,Fixed investment,mean,8,0.493884
+16,138,home_bias,Fixed investment,mean,9,0.508509
+16,138,home_bias,Fixed investment,mean,10,0.513169
+16,138,home_bias,Fixed investment,mean,11,0.510504
+16,138,home_bias,Fixed investment,mean,12,0.501863
+16,138,home_bias,Fixed investment,mean,13,0.487238
+16,138,home_bias,Fixed investment,mean,14,0.469286
+16,138,home_bias,Fixed investment,mean,15,0.448007
+16,138,home_bias,Fixed investment,mean,16,0.424070
+16,138,home_bias,Fixed investment,mean,17,0.398802
+16,138,home_bias,Fixed investment,mean,18,0.372871
+16,138,home_bias,Fixed investment,mean,19,0.346278
+16,138,home_bias,Fixed investment,mean,20,0.319684
+16,138,home_bias,Fixed investment,hpd70_lower,1,0.076333
+16,138,home_bias,Fixed investment,hpd70_lower,2,0.124867
+16,138,home_bias,Fixed investment,hpd70_lower,3,0.192687
+16,138,home_bias,Fixed investment,hpd70_lower,4,0.245211
+16,138,home_bias,Fixed investment,hpd70_lower,5,0.295748
+16,138,home_bias,Fixed investment,hpd70_lower,6,0.330982
+16,138,home_bias,Fixed investment,hpd70_lower,7,0.360903
+16,138,home_bias,Fixed investment,hpd70_lower,8,0.379525
+16,138,home_bias,Fixed investment,hpd70_lower,9,0.390823
+16,138,home_bias,Fixed investment,hpd70_lower,10,0.392155
+16,138,home_bias,Fixed investment,hpd70_lower,11,0.388166
+16,138,home_bias,Fixed investment,hpd70_lower,12,0.380849
+16,138,home_bias,Fixed investment,hpd70_lower,13,0.368219
+16,138,home_bias,Fixed investment,hpd70_lower,14,0.354256
+16,138,home_bias,Fixed investment,hpd70_lower,15,0.332315
+16,138,home_bias,Fixed investment,hpd70_lower,16,0.309711
+16,138,home_bias,Fixed investment,hpd70_lower,17,0.287769
+16,138,home_bias,Fixed investment,hpd70_lower,18,0.265828
+16,138,home_bias,Fixed investment,hpd70_lower,19,0.242554
+16,138,home_bias,Fixed investment,hpd70_lower,20,0.221945
+16,138,home_bias,Fixed investment,hpd70_upper,1,0.130851
+16,138,home_bias,Fixed investment,hpd70_upper,2,0.200003
+16,138,home_bias,Fixed investment,hpd70_upper,3,0.301062
+16,138,home_bias,Fixed investment,hpd70_upper,4,0.373541
+16,138,home_bias,Fixed investment,hpd70_upper,5,0.442022
+16,138,home_bias,Fixed investment,hpd70_upper,6,0.493884
+16,138,home_bias,Fixed investment,hpd70_upper,7,0.533778
+16,138,home_bias,Fixed investment,hpd70_upper,8,0.555720
+16,138,home_bias,Fixed investment,hpd70_upper,9,0.575004
+16,138,home_bias,Fixed investment,hpd70_upper,10,0.582313
+16,138,home_bias,Fixed investment,hpd70_upper,11,0.576999
+16,138,home_bias,Fixed investment,hpd70_upper,12,0.566355
+16,138,home_bias,Fixed investment,hpd70_upper,13,0.550398
+16,138,home_bias,Fixed investment,hpd70_upper,14,0.529789
+16,138,home_bias,Fixed investment,hpd70_upper,15,0.509842
+16,138,home_bias,Fixed investment,hpd70_upper,16,0.483249
+16,138,home_bias,Fixed investment,hpd70_upper,17,0.455323
+16,138,home_bias,Fixed investment,hpd70_upper,18,0.424733
+16,138,home_bias,Fixed investment,hpd70_upper,19,0.394812
+16,138,home_bias,Fixed investment,hpd70_upper,20,0.366887
+16,138,home_bias,Fixed investment,hpd90_lower,1,0.045080
+16,138,home_bias,Fixed investment,hpd90_lower,2,0.078990
+16,138,home_bias,Fixed investment,hpd90_lower,3,0.131514
+16,138,home_bias,Fixed investment,hpd90_lower,4,0.172740
+16,138,home_bias,Fixed investment,hpd90_lower,5,0.209306
+16,138,home_bias,Fixed investment,hpd90_lower,6,0.234575
+16,138,home_bias,Fixed investment,hpd90_lower,7,0.255854
+16,138,home_bias,Fixed investment,hpd90_lower,8,0.273807
+16,138,home_bias,Fixed investment,hpd90_lower,9,0.284442
+16,138,home_bias,Fixed investment,hpd90_lower,10,0.289764
+16,138,home_bias,Fixed investment,hpd90_lower,11,0.289764
+16,138,home_bias,Fixed investment,hpd90_lower,12,0.283110
+16,138,home_bias,Fixed investment,hpd90_lower,13,0.273136
+16,138,home_bias,Fixed investment,hpd90_lower,14,0.260506
+16,138,home_bias,Fixed investment,hpd90_lower,15,0.244549
+16,138,home_bias,Fixed investment,hpd90_lower,16,0.225934
+16,138,home_bias,Fixed investment,hpd90_lower,17,0.210639
+16,138,home_bias,Fixed investment,hpd90_lower,18,0.188035
+16,138,home_bias,Fixed investment,hpd90_lower,19,0.171407
+16,138,home_bias,Fixed investment,hpd90_lower,20,0.155450
+16,138,home_bias,Fixed investment,hpd90_upper,1,0.185370
+16,138,home_bias,Fixed investment,hpd90_upper,2,0.277126
+16,138,home_bias,Fixed investment,hpd90_upper,3,0.413435
+16,138,home_bias,Fixed investment,hpd90_upper,4,0.507185
+16,138,home_bias,Fixed investment,hpd90_upper,5,0.606249
+16,138,home_bias,Fixed investment,hpd90_upper,6,0.665427
+16,138,home_bias,Fixed investment,hpd90_upper,7,0.719946
+16,138,home_bias,Fixed investment,hpd90_upper,8,0.753193
+16,138,home_bias,Fixed investment,hpd90_upper,9,0.777130
+16,138,home_bias,Fixed investment,hpd90_upper,10,0.783114
+16,138,home_bias,Fixed investment,hpd90_upper,11,0.777130
+16,138,home_bias,Fixed investment,hpd90_upper,12,0.762505
+16,138,home_bias,Fixed investment,hpd90_upper,13,0.745877
+16,138,home_bias,Fixed investment,hpd90_upper,14,0.719946
+16,138,home_bias,Fixed investment,hpd90_upper,15,0.696010
+16,138,home_bias,Fixed investment,hpd90_upper,16,0.660776
+16,138,home_bias,Fixed investment,hpd90_upper,17,0.626196
+16,138,home_bias,Fixed investment,hpd90_upper,18,0.591624
+16,138,home_bias,Fixed investment,hpd90_upper,19,0.557714
+16,138,home_bias,Fixed investment,hpd90_upper,20,0.521148
+16,138,home_bias,Exports,mean,1,-0.123954
+16,138,home_bias,Exports,mean,2,-0.293673
+16,138,home_bias,Exports,mean,3,-0.440928
+16,138,home_bias,Exports,mean,4,-0.537438
+16,138,home_bias,Exports,mean,5,-0.583192
+16,138,home_bias,Exports,mean,6,-0.589851
+16,138,home_bias,Exports,mean,7,-0.569884
+16,138,home_bias,Exports,mean,8,-0.535771
+16,138,home_bias,Exports,mean,9,-0.494180
+16,138,home_bias,Exports,mean,10,-0.450083
+16,138,home_bias,Exports,mean,11,-0.406825
+16,138,home_bias,Exports,mean,12,-0.365224
+16,138,home_bias,Exports,mean,13,-0.326957
+16,138,home_bias,Exports,mean,14,-0.291177
+16,138,home_bias,Exports,mean,15,-0.257902
+16,138,home_bias,Exports,mean,16,-0.227952
+16,138,home_bias,Exports,mean,17,-0.200497
+16,138,home_bias,Exports,mean,18,-0.175539
+16,138,home_bias,Exports,mean,19,-0.153076
+16,138,home_bias,Exports,mean,20,-0.133109
+16,138,home_bias,Exports,hpd70_lower,1,-0.146417
+16,138,home_bias,Exports,hpd70_lower,2,-0.342761
+16,138,home_bias,Exports,hpd70_lower,3,-0.514147
+16,138,home_bias,Exports,hpd70_lower,4,-0.624793
+16,138,home_bias,Exports,hpd70_lower,5,-0.673881
+16,138,home_bias,Exports,hpd70_lower,6,-0.685522
+16,138,home_bias,Exports,hpd70_lower,7,-0.666394
+16,138,home_bias,Exports,hpd70_lower,8,-0.628956
+16,138,home_bias,Exports,hpd70_lower,9,-0.579867
+16,138,home_bias,Exports,hpd70_lower,10,-0.529122
+16,138,home_bias,Exports,hpd70_lower,11,-0.477537
+16,138,home_bias,Exports,hpd70_lower,12,-0.431783
+16,138,home_bias,Exports,hpd70_lower,13,-0.387686
+16,138,home_bias,Exports,hpd70_lower,14,-0.344428
+16,138,home_bias,Exports,hpd70_lower,15,-0.309486
+16,138,home_bias,Exports,hpd70_lower,16,-0.267885
+16,138,home_bias,Exports,hpd70_lower,17,-0.229619
+16,138,home_bias,Exports,hpd70_lower,18,-0.198830
+16,138,home_bias,Exports,hpd70_lower,19,-0.169718
+16,138,home_bias,Exports,hpd70_lower,20,-0.146417
+16,138,home_bias,Exports,hpd70_upper,1,-0.092347
+16,138,home_bias,Exports,hpd70_upper,2,-0.224627
+16,138,home_bias,Exports,hpd70_upper,3,-0.346924
+16,138,home_bias,Exports,hpd70_upper,4,-0.420961
+16,138,home_bias,Exports,hpd70_upper,5,-0.453407
+16,138,home_bias,Exports,hpd70_upper,6,-0.447587
+16,138,home_bias,Exports,hpd70_upper,7,-0.420961
+16,138,home_bias,Exports,hpd70_upper,8,-0.381866
+16,138,home_bias,Exports,hpd70_upper,9,-0.341094
+16,138,home_bias,Exports,hpd70_upper,10,-0.302827
+16,138,home_bias,Exports,hpd70_upper,11,-0.266218
+16,138,home_bias,Exports,hpd70_upper,12,-0.229619
+16,138,home_bias,Exports,hpd70_upper,13,-0.198001
+16,138,home_bias,Exports,hpd70_upper,14,-0.171376
+16,138,home_bias,Exports,hpd70_upper,15,-0.147256
+16,138,home_bias,Exports,hpd70_upper,16,-0.125621
+16,138,home_bias,Exports,hpd70_upper,17,-0.107322
+16,138,home_bias,Exports,hpd70_upper,18,-0.090679
+16,138,home_bias,Exports,hpd70_upper,19,-0.074037
+16,138,home_bias,Exports,hpd70_upper,20,-0.059062
+16,138,home_bias,Exports,hpd90_lower,1,-0.193838
+16,138,home_bias,Exports,hpd90_lower,2,-0.433440
+16,138,home_bias,Exports,hpd90_lower,3,-0.638101
+16,138,home_bias,Exports,hpd90_lower,4,-0.796178
+16,138,home_bias,Exports,hpd90_lower,5,-0.869387
+16,138,home_bias,Exports,hpd90_lower,6,-0.893517
+16,138,home_bias,Exports,hpd90_lower,7,-0.886858
+16,138,home_bias,Exports,hpd90_lower,8,-0.857736
+16,138,home_bias,Exports,hpd90_lower,9,-0.821137
+16,138,home_bias,Exports,hpd90_lower,10,-0.765389
+16,138,home_bias,Exports,hpd90_lower,11,-0.712148
+16,138,home_bias,Exports,hpd90_lower,12,-0.653076
+16,138,home_bias,Exports,hpd90_lower,13,-0.594014
+16,138,home_bias,Exports,hpd90_lower,14,-0.547421
+16,138,home_bias,Exports,hpd90_lower,15,-0.492512
+16,138,home_bias,Exports,hpd90_lower,16,-0.446758
+16,138,home_bias,Exports,hpd90_lower,17,-0.403490
+16,138,home_bias,Exports,hpd90_lower,18,-0.361899
+16,138,home_bias,Exports,hpd90_lower,19,-0.316974
+16,138,home_bias,Exports,hpd90_lower,20,-0.281193
+16,138,home_bias,Exports,hpd90_upper,1,-0.065721
+16,138,home_bias,Exports,hpd90_upper,2,-0.168880
+16,138,home_bias,Exports,hpd90_upper,3,-0.265389
+16,138,home_bias,Exports,hpd90_upper,4,-0.324461
+16,138,home_bias,Exports,hpd90_upper,5,-0.341932
+16,138,home_bias,Exports,hpd90_upper,6,-0.333606
+16,138,home_bias,Exports,hpd90_upper,7,-0.310315
+16,138,home_bias,Exports,hpd90_upper,8,-0.272048
+16,138,home_bias,Exports,hpd90_upper,9,-0.235439
+16,138,home_bias,Exports,hpd90_upper,10,-0.202993
+16,138,home_bias,Exports,hpd90_upper,11,-0.173043
+16,138,home_bias,Exports,hpd90_upper,12,-0.148913
+16,138,home_bias,Exports,hpd90_upper,13,-0.127289
+16,138,home_bias,Exports,hpd90_upper,14,-0.108150
+16,138,home_bias,Exports,hpd90_upper,15,-0.090679
+16,138,home_bias,Exports,hpd90_upper,16,-0.076533
+16,138,home_bias,Exports,hpd90_upper,17,-0.064892
+16,138,home_bias,Exports,hpd90_upper,18,-0.052413
+16,138,home_bias,Exports,hpd90_upper,19,-0.041591
+16,138,home_bias,Exports,hpd90_upper,20,-0.032446
+16,138,home_bias,Imports,mean,1,-1.718506
+16,138,home_bias,Imports,mean,2,-1.127038
+16,138,home_bias,Imports,mean,3,-0.725229
+16,138,home_bias,Imports,mean,4,-0.468188
+16,138,home_bias,Imports,mean,5,-0.295989
+16,138,home_bias,Imports,mean,6,-0.178683
+16,138,home_bias,Imports,mean,7,-0.093841
+16,138,home_bias,Imports,mean,8,-0.031430
+16,138,home_bias,Imports,mean,9,0.015977
+16,138,home_bias,Imports,mean,10,0.048411
+16,138,home_bias,Imports,mean,11,0.073387
+16,138,home_bias,Imports,mean,12,0.090846
+16,138,home_bias,Imports,mean,13,0.100819
+16,138,home_bias,Imports,mean,14,0.108306
+16,138,home_bias,Imports,mean,15,0.110822
+16,138,home_bias,Imports,mean,16,0.110822
+16,138,home_bias,Imports,mean,17,0.108306
+16,138,home_bias,Imports,mean,18,0.105820
+16,138,home_bias,Imports,mean,19,0.100819
+16,138,home_bias,Imports,mean,20,0.095848
+16,138,home_bias,Imports,hpd70_lower,1,-1.820808
+16,138,home_bias,Imports,hpd70_lower,2,-1.224368
+16,138,home_bias,Imports,hpd70_lower,3,-0.837534
+16,138,home_bias,Imports,hpd70_lower,4,-0.582978
+16,138,home_bias,Imports,hpd70_lower,5,-0.398290
+16,138,home_bias,Imports,hpd70_lower,6,-0.271012
+16,138,home_bias,Imports,hpd70_lower,7,-0.171196
+16,138,home_bias,Imports,hpd70_lower,8,-0.091326
+16,138,home_bias,Imports,hpd70_lower,9,-0.033946
+16,138,home_bias,Imports,hpd70_lower,10,0.020978
+16,138,home_bias,Imports,hpd70_lower,11,0.060899
+16,138,home_bias,Imports,hpd70_lower,12,0.085845
+16,138,home_bias,Imports,hpd70_lower,13,0.095848
+16,138,home_bias,Imports,hpd70_lower,14,0.103335
+16,138,home_bias,Imports,hpd70_lower,15,0.103335
+16,138,home_bias,Imports,hpd70_lower,16,0.103335
+16,138,home_bias,Imports,hpd70_lower,17,0.100819
+16,138,home_bias,Imports,hpd70_lower,18,0.093332
+16,138,home_bias,Imports,hpd70_lower,19,0.088361
+16,138,home_bias,Imports,hpd70_lower,20,0.080874
+16,138,home_bias,Imports,hpd70_upper,1,-1.598715
+16,138,home_bias,Imports,hpd70_upper,2,-1.027193
+16,138,home_bias,Imports,hpd70_upper,3,-0.617927
+16,138,home_bias,Imports,hpd70_upper,4,-0.353368
+16,138,home_bias,Imports,hpd70_upper,5,-0.178683
+16,138,home_bias,Imports,hpd70_upper,6,-0.061378
+16,138,home_bias,Imports,hpd70_upper,7,0.015977
+16,138,home_bias,Imports,hpd70_upper,8,0.068386
+16,138,home_bias,Imports,hpd70_upper,9,0.100819
+16,138,home_bias,Imports,hpd70_upper,10,0.120794
+16,138,home_bias,Imports,hpd70_upper,11,0.130767
+16,138,home_bias,Imports,hpd70_upper,12,0.135768
+16,138,home_bias,Imports,hpd70_upper,13,0.138254
+16,138,home_bias,Imports,hpd70_upper,14,0.138254
+16,138,home_bias,Imports,hpd70_upper,15,0.138254
+16,138,home_bias,Imports,hpd70_upper,16,0.133282
+16,138,home_bias,Imports,hpd70_upper,17,0.130767
+16,138,home_bias,Imports,hpd70_upper,18,0.125795
+16,138,home_bias,Imports,hpd70_upper,19,0.120794
+16,138,home_bias,Imports,hpd70_upper,20,0.115793
+16,138,home_bias,Imports,hpd90_lower,1,-1.995523
+16,138,home_bias,Imports,hpd90_lower,2,-1.374107
+16,138,home_bias,Imports,hpd90_lower,3,-0.994759
+16,138,home_bias,Imports,hpd90_lower,4,-0.747690
+16,138,home_bias,Imports,hpd90_lower,5,-0.570489
+16,138,home_bias,Imports,hpd90_lower,6,-0.430753
+16,138,home_bias,Imports,hpd90_lower,7,-0.330908
+16,138,home_bias,Imports,hpd90_lower,8,-0.241064
+16,138,home_bias,Imports,hpd90_lower,9,-0.166195
+16,138,home_bias,Imports,hpd90_lower,10,-0.103814
+16,138,home_bias,Imports,hpd90_lower,11,-0.043918
+16,138,home_bias,Imports,hpd90_lower,12,-0.008969
+16,138,home_bias,Imports,hpd90_lower,13,0.018463
+16,138,home_bias,Imports,hpd90_lower,14,0.040924
+16,138,home_bias,Imports,hpd90_lower,15,0.058413
+16,138,home_bias,Imports,hpd90_lower,16,0.065900
+16,138,home_bias,Imports,hpd90_lower,17,0.063384
+16,138,home_bias,Imports,hpd90_lower,18,0.060899
+16,138,home_bias,Imports,hpd90_lower,19,0.058413
+16,138,home_bias,Imports,hpd90_lower,20,0.055897
+16,138,home_bias,Imports,hpd90_upper,1,-1.473923
+16,138,home_bias,Imports,hpd90_upper,2,-0.892428
+16,138,home_bias,Imports,hpd90_upper,3,-0.455700
+16,138,home_bias,Imports,hpd90_upper,4,-0.191171
+16,138,home_bias,Imports,hpd90_upper,5,-0.041433
+16,138,home_bias,Imports,hpd90_upper,6,0.050926
+16,138,home_bias,Imports,hpd90_upper,7,0.098333
+16,138,home_bias,Imports,hpd90_upper,8,0.123280
+16,138,home_bias,Imports,hpd90_upper,9,0.140769
+16,138,home_bias,Imports,hpd90_upper,10,0.153228
+16,138,home_bias,Imports,hpd90_upper,11,0.158229
+16,138,home_bias,Imports,hpd90_upper,12,0.163230
+16,138,home_bias,Imports,hpd90_upper,13,0.160715
+16,138,home_bias,Imports,hpd90_upper,14,0.160715
+16,138,home_bias,Imports,hpd90_upper,15,0.158229
+16,138,home_bias,Imports,hpd90_upper,16,0.155743
+16,138,home_bias,Imports,hpd90_upper,17,0.153228
+16,138,home_bias,Imports,hpd90_upper,18,0.150742
+16,138,home_bias,Imports,hpd90_upper,19,0.145741
+16,138,home_bias,Imports,hpd90_upper,20,0.140769
+16,138,home_bias,Hours worked,mean,1,0.818696
+16,138,home_bias,Hours worked,mean,2,0.490514
+16,138,home_bias,Hours worked,mean,3,0.274651
+16,138,home_bias,Hours worked,mean,4,0.141129
+16,138,home_bias,Hours worked,mean,5,0.065017
+16,138,home_bias,Hours worked,mean,6,0.023838
+16,138,home_bias,Hours worked,mean,7,0.003863
+16,138,home_bias,Hours worked,mean,8,-0.007367
+16,138,home_bias,Hours worked,mean,9,-0.011111
+16,138,home_bias,Hours worked,mean,10,-0.013596
+16,138,home_bias,Hours worked,mean,11,-0.014854
+16,138,home_bias,Hours worked,mean,12,-0.014854
+16,138,home_bias,Hours worked,mean,13,-0.014854
+16,138,home_bias,Hours worked,mean,14,-0.014854
+16,138,home_bias,Hours worked,mean,15,-0.014854
+16,138,home_bias,Hours worked,mean,16,-0.014854
+16,138,home_bias,Hours worked,mean,17,-0.014854
+16,138,home_bias,Hours worked,mean,18,-0.016097
+16,138,home_bias,Hours worked,mean,19,-0.016097
+16,138,home_bias,Hours worked,mean,20,-0.016097
+16,138,home_bias,Hours worked,hpd70_lower,1,0.758801
+16,138,home_bias,Hours worked,hpd70_lower,2,0.441849
+16,138,home_bias,Hours worked,hpd70_lower,3,0.234715
+16,138,home_bias,Hours worked,hpd70_lower,4,0.098708
+16,138,home_bias,Hours worked,hpd70_lower,5,0.027582
+16,138,home_bias,Hours worked,hpd70_lower,6,-0.011111
+16,138,home_bias,Hours worked,hpd70_lower,7,-0.024827
+16,138,home_bias,Hours worked,hpd70_lower,8,-0.027327
+16,138,home_bias,Hours worked,hpd70_lower,9,-0.027327
+16,138,home_bias,Hours worked,hpd70_lower,10,-0.024827
+16,138,home_bias,Hours worked,hpd70_lower,11,-0.023584
+16,138,home_bias,Hours worked,hpd70_lower,12,-0.022341
+16,138,home_bias,Hours worked,hpd70_lower,13,-0.021083
+16,138,home_bias,Hours worked,hpd70_lower,14,-0.019840
+16,138,home_bias,Hours worked,hpd70_lower,15,-0.018598
+16,138,home_bias,Hours worked,hpd70_lower,16,-0.018598
+16,138,home_bias,Hours worked,hpd70_lower,17,-0.018598
+16,138,home_bias,Hours worked,hpd70_lower,18,-0.018598
+16,138,home_bias,Hours worked,hpd70_lower,19,-0.018598
+16,138,home_bias,Hours worked,hpd70_lower,20,-0.018598
+16,138,home_bias,Hours worked,hpd70_upper,1,0.866119
+16,138,home_bias,Hours worked,hpd70_upper,2,0.536693
+16,138,home_bias,Hours worked,hpd70_upper,3,0.323316
+16,138,home_bias,Hours worked,hpd70_upper,4,0.178563
+16,138,home_bias,Hours worked,hpd70_upper,5,0.097450
+16,138,home_bias,Hours worked,hpd70_upper,6,0.048785
+16,138,home_bias,Hours worked,hpd70_upper,7,0.021338
+16,138,home_bias,Hours worked,hpd70_upper,8,0.006364
+16,138,home_bias,Hours worked,hpd70_upper,9,-0.003624
+16,138,home_bias,Hours worked,hpd70_upper,10,-0.008610
+16,138,home_bias,Hours worked,hpd70_upper,11,-0.011111
+16,138,home_bias,Hours worked,hpd70_upper,12,-0.012353
+16,138,home_bias,Hours worked,hpd70_upper,13,-0.012353
+16,138,home_bias,Hours worked,hpd70_upper,14,-0.012353
+16,138,home_bias,Hours worked,hpd70_upper,15,-0.012353
+16,138,home_bias,Hours worked,hpd70_upper,16,-0.012353
+16,138,home_bias,Hours worked,hpd70_upper,17,-0.012353
+16,138,home_bias,Hours worked,hpd70_upper,18,-0.012353
+16,138,home_bias,Hours worked,hpd70_upper,19,-0.013596
+16,138,home_bias,Hours worked,hpd70_upper,20,-0.013596
+16,138,home_bias,Hours worked,hpd90_lower,1,0.691418
+16,138,home_bias,Hours worked,hpd90_lower,2,0.373224
+16,138,home_bias,Hours worked,hpd90_lower,3,0.154860
+16,138,home_bias,Hours worked,hpd90_lower,4,0.031325
+16,138,home_bias,Hours worked,hpd90_lower,5,-0.018598
+16,138,home_bias,Hours worked,hpd90_lower,6,-0.037315
+16,138,home_bias,Hours worked,hpd90_lower,7,-0.041058
+16,138,home_bias,Hours worked,hpd90_lower,8,-0.039801
+16,138,home_bias,Hours worked,hpd90_lower,9,-0.038558
+16,138,home_bias,Hours worked,hpd90_lower,10,-0.034814
+16,138,home_bias,Hours worked,hpd90_lower,11,-0.031071
+16,138,home_bias,Hours worked,hpd90_lower,12,-0.028570
+16,138,home_bias,Hours worked,hpd90_lower,13,-0.027327
+16,138,home_bias,Hours worked,hpd90_lower,14,-0.024827
+16,138,home_bias,Hours worked,hpd90_lower,15,-0.024827
+16,138,home_bias,Hours worked,hpd90_lower,16,-0.023584
+16,138,home_bias,Hours worked,hpd90_lower,17,-0.022341
+16,138,home_bias,Hours worked,hpd90_lower,18,-0.022341
+16,138,home_bias,Hours worked,hpd90_lower,19,-0.022341
+16,138,home_bias,Hours worked,hpd90_lower,20,-0.023584
+16,138,home_bias,Hours worked,hpd90_upper,1,0.949718
+16,138,home_bias,Hours worked,hpd90_upper,2,0.610305
+16,138,home_bias,Hours worked,hpd90_upper,3,0.381953
+16,138,home_bias,Hours worked,hpd90_upper,4,0.238459
+16,138,home_bias,Hours worked,hpd90_upper,5,0.154860
+16,138,home_bias,Hours worked,hpd90_upper,6,0.096207
+16,138,home_bias,Hours worked,hpd90_upper,7,0.058772
+16,138,home_bias,Hours worked,hpd90_upper,8,0.037554
+16,138,home_bias,Hours worked,hpd90_upper,9,0.023838
+16,138,home_bias,Hours worked,hpd90_upper,10,0.015094
+16,138,home_bias,Hours worked,hpd90_upper,11,0.008865
+16,138,home_bias,Hours worked,hpd90_upper,12,0.003863
+16,138,home_bias,Hours worked,hpd90_upper,13,0.000120
+16,138,home_bias,Hours worked,hpd90_upper,14,-0.003624
+16,138,home_bias,Hours worked,hpd90_upper,15,-0.006109
+16,138,home_bias,Hours worked,hpd90_upper,16,-0.007367
+16,138,home_bias,Hours worked,hpd90_upper,17,-0.008610
+16,138,home_bias,Hours worked,hpd90_upper,18,-0.008610
+16,138,home_bias,Hours worked,hpd90_upper,19,-0.008610
+16,138,home_bias,Hours worked,hpd90_upper,20,-0.009853
+16,138,home_bias,Interest rate,mean,1,0.045744
+16,138,home_bias,Interest rate,mean,2,0.048238
+16,138,home_bias,Interest rate,mean,3,0.023803
+16,138,home_bias,Interest rate,mean,4,-0.005285
+16,138,home_bias,Interest rate,mean,5,-0.028059
+16,138,home_bias,Interest rate,mean,6,-0.042686
+16,138,home_bias,Interest rate,mean,7,-0.050832
+16,138,home_bias,Interest rate,mean,8,-0.054488
+16,138,home_bias,Interest rate,mean,9,-0.055320
+16,138,home_bias,Interest rate,mean,10,-0.054488
+16,138,home_bias,Interest rate,mean,11,-0.052827
+16,138,home_bias,Interest rate,mean,12,-0.050832
+16,138,home_bias,Interest rate,mean,13,-0.048670
+16,138,home_bias,Interest rate,mean,14,-0.046675
+16,138,home_bias,Interest rate,mean,15,-0.044515
+16,138,home_bias,Interest rate,mean,16,-0.042520
+16,138,home_bias,Interest rate,mean,17,-0.040691
+16,138,home_bias,Interest rate,mean,18,-0.039029
+16,138,home_bias,Interest rate,mean,19,-0.037368
+16,138,home_bias,Interest rate,mean,20,-0.035872
+16,138,home_bias,Interest rate,hpd70_lower,1,0.028955
+16,138,home_bias,Interest rate,hpd70_lower,2,0.026795
+16,138,home_bias,Interest rate,hpd70_lower,3,0.006683
+16,138,home_bias,Interest rate,hpd70_lower,4,-0.016922
+16,138,home_bias,Interest rate,hpd70_lower,5,-0.038864
+16,138,home_bias,Interest rate,hpd70_lower,6,-0.054323
+16,138,home_bias,Interest rate,hpd70_lower,7,-0.062966
+16,138,home_bias,Interest rate,hpd70_lower,8,-0.064627
+16,138,home_bias,Interest rate,hpd70_lower,9,-0.064296
+16,138,home_bias,Interest rate,hpd70_lower,10,-0.063299
+16,138,home_bias,Interest rate,hpd70_lower,11,-0.060971
+16,138,home_bias,Interest rate,hpd70_lower,12,-0.058643
+16,138,home_bias,Interest rate,hpd70_lower,13,-0.055651
+16,138,home_bias,Interest rate,hpd70_lower,14,-0.053491
+16,138,home_bias,Interest rate,hpd70_lower,15,-0.051829
+16,138,home_bias,Interest rate,hpd70_lower,16,-0.049168
+16,138,home_bias,Interest rate,hpd70_lower,17,-0.047840
+16,138,home_bias,Interest rate,hpd70_lower,18,-0.046675
+16,138,home_bias,Interest rate,hpd70_lower,19,-0.044848
+16,138,home_bias,Interest rate,hpd70_lower,20,-0.043352
+16,138,home_bias,Interest rate,hpd70_upper,1,0.060040
+16,138,home_bias,Interest rate,hpd70_upper,2,0.066024
+16,138,home_bias,Interest rate,hpd70_upper,3,0.040592
+16,138,home_bias,Interest rate,hpd70_upper,4,0.008510
+16,138,home_bias,Interest rate,hpd70_upper,5,-0.014262
+16,138,home_bias,Interest rate,hpd70_upper,6,-0.027560
+16,138,home_bias,Interest rate,hpd70_upper,7,-0.035206
+16,138,home_bias,Interest rate,hpd70_upper,8,-0.039528
+16,138,home_bias,Interest rate,hpd70_upper,9,-0.041357
+16,138,home_bias,Interest rate,hpd70_upper,10,-0.041357
+16,138,home_bias,Interest rate,hpd70_upper,11,-0.040027
+16,138,home_bias,Interest rate,hpd70_upper,12,-0.038864
+16,138,home_bias,Interest rate,hpd70_upper,13,-0.036702
+16,138,home_bias,Interest rate,hpd70_upper,14,-0.035206
+16,138,home_bias,Interest rate,hpd70_upper,15,-0.033710
+16,138,home_bias,Interest rate,hpd70_upper,16,-0.031883
+16,138,home_bias,Interest rate,hpd70_upper,17,-0.030387
+16,138,home_bias,Interest rate,hpd70_upper,18,-0.028392
+16,138,home_bias,Interest rate,hpd70_upper,19,-0.026397
+16,138,home_bias,Interest rate,hpd70_upper,20,-0.025067
+16,138,home_bias,Interest rate,hpd90_lower,1,0.007347
+16,138,home_bias,Interest rate,hpd90_lower,2,0.004853
+16,138,home_bias,Interest rate,hpd90_lower,3,-0.014096
+16,138,home_bias,Interest rate,hpd90_lower,4,-0.039029
+16,138,home_bias,Interest rate,hpd90_lower,5,-0.059808
+16,138,home_bias,Interest rate,hpd90_lower,6,-0.076264
+16,138,home_bias,Interest rate,hpd90_lower,7,-0.084574
+16,138,home_bias,Interest rate,hpd90_lower,8,-0.088065
+16,138,home_bias,Interest rate,hpd90_lower,9,-0.086403
+16,138,home_bias,Interest rate,hpd90_lower,10,-0.082248
+16,138,home_bias,Interest rate,hpd90_lower,11,-0.077760
+16,138,home_bias,Interest rate,hpd90_lower,12,-0.074768
+16,138,home_bias,Interest rate,hpd90_lower,13,-0.071609
+16,138,home_bias,Interest rate,hpd90_lower,14,-0.069781
+16,138,home_bias,Interest rate,hpd90_lower,15,-0.066456
+16,138,home_bias,Interest rate,hpd90_lower,16,-0.064462
+16,138,home_bias,Interest rate,hpd90_lower,17,-0.062632
+16,138,home_bias,Interest rate,hpd90_lower,18,-0.060307
+16,138,home_bias,Interest rate,hpd90_lower,19,-0.057979
+16,138,home_bias,Interest rate,hpd90_lower,20,-0.056317
+16,138,home_bias,Interest rate,hpd90_upper,1,0.086302
+16,138,home_bias,Interest rate,hpd90_upper,2,0.094614
+16,138,home_bias,Interest rate,hpd90_upper,3,0.064195
+16,138,home_bias,Interest rate,hpd90_upper,4,0.027627
+16,138,home_bias,Interest rate,hpd90_upper,5,0.001528
+16,138,home_bias,Interest rate,hpd90_upper,6,-0.010605
+16,138,home_bias,Interest rate,hpd90_upper,7,-0.019747
+16,138,home_bias,Interest rate,hpd90_upper,8,-0.026397
+16,138,home_bias,Interest rate,hpd90_upper,9,-0.029056
+16,138,home_bias,Interest rate,hpd90_upper,10,-0.030387
+16,138,home_bias,Interest rate,hpd90_upper,11,-0.030053
+16,138,home_bias,Interest rate,hpd90_upper,12,-0.029056
+16,138,home_bias,Interest rate,hpd90_upper,13,-0.028224
+16,138,home_bias,Interest rate,hpd90_upper,14,-0.026728
+16,138,home_bias,Interest rate,hpd90_upper,15,-0.025232
+16,138,home_bias,Interest rate,hpd90_upper,16,-0.023736
+16,138,home_bias,Interest rate,hpd90_upper,17,-0.022240
+16,138,home_bias,Interest rate,hpd90_upper,18,-0.021077
+16,138,home_bias,Interest rate,hpd90_upper,19,-0.019914
+16,138,home_bias,Interest rate,hpd90_upper,20,-0.018917
+16,138,home_bias,Real wage,mean,1,0.136235
+16,138,home_bias,Real wage,mean,2,0.204720
+16,138,home_bias,Real wage,mean,3,0.230320
+16,138,home_bias,Real wage,mean,4,0.232977
+16,138,home_bias,Real wage,mean,5,0.224336
+16,138,home_bias,Real wage,mean,6,0.211370
+16,138,home_bias,Real wage,mean,7,0.197408
+16,138,home_bias,Real wage,mean,8,0.183776
+16,138,home_bias,Real wage,mean,9,0.171142
+16,138,home_bias,Real wage,mean,10,0.159509
+16,138,home_bias,Real wage,mean,11,0.149200
+16,138,home_bias,Real wage,mean,12,0.139562
+16,138,home_bias,Real wage,mean,13,0.131248
+16,138,home_bias,Real wage,mean,14,0.123270
+16,138,home_bias,Real wage,mean,15,0.116288
+16,138,home_bias,Real wage,mean,16,0.109642
+16,138,home_bias,Real wage,mean,17,0.103989
+16,138,home_bias,Real wage,mean,18,0.098336
+16,138,home_bias,Real wage,mean,19,0.093684
+16,138,home_bias,Real wage,mean,20,0.089029
+16,138,home_bias,Real wage,hpd70_lower,1,0.104320
+16,138,home_bias,Real wage,hpd70_lower,2,0.160506
+16,138,home_bias,Real wage,hpd70_lower,3,0.180453
+16,138,home_bias,Real wage,hpd70_lower,4,0.179121
+16,138,home_bias,Real wage,hpd70_lower,5,0.170144
+16,138,home_bias,Real wage,hpd70_lower,6,0.157845
+16,138,home_bias,Real wage,hpd70_lower,7,0.141557
+16,138,home_bias,Real wage,hpd70_lower,8,0.128591
+16,138,home_bias,Real wage,hpd70_lower,9,0.117285
+16,138,home_bias,Real wage,hpd70_lower,10,0.107312
+16,138,home_bias,Real wage,hpd70_lower,11,0.099333
+16,138,home_bias,Real wage,hpd70_lower,12,0.092021
+16,138,home_bias,Real wage,hpd70_lower,13,0.086703
+16,138,home_bias,Real wage,hpd70_lower,14,0.080384
+16,138,home_bias,Real wage,hpd70_lower,15,0.075397
+16,138,home_bias,Real wage,hpd70_lower,16,0.069748
+16,138,home_bias,Real wage,hpd70_lower,17,0.064762
+16,138,home_bias,Real wage,hpd70_lower,18,0.061770
+16,138,home_bias,Real wage,hpd70_lower,19,0.058442
+16,138,home_bias,Real wage,hpd70_lower,20,0.055786
+16,138,home_bias,Real wage,hpd70_upper,1,0.158843
+16,138,home_bias,Real wage,hpd70_upper,2,0.236304
+16,138,home_bias,Real wage,hpd70_upper,3,0.265889
+16,138,home_bias,Real wage,hpd70_upper,4,0.268881
+16,138,home_bias,Real wage,hpd70_upper,5,0.259905
+16,138,home_bias,Real wage,hpd70_upper,6,0.244945
+16,138,home_bias,Real wage,hpd70_upper,7,0.228656
+16,138,home_bias,Real wage,hpd70_upper,8,0.215025
+16,138,home_bias,Real wage,hpd70_upper,9,0.197408
+16,138,home_bias,Real wage,hpd70_upper,10,0.182448
+16,138,home_bias,Real wage,hpd70_upper,11,0.170480
+16,138,home_bias,Real wage,hpd70_upper,12,0.159509
+16,138,home_bias,Real wage,hpd70_upper,13,0.148538
+16,138,home_bias,Real wage,hpd70_upper,14,0.138896
+16,138,home_bias,Real wage,hpd70_upper,15,0.130251
+16,138,home_bias,Real wage,hpd70_upper,16,0.122607
+16,138,home_bias,Real wage,hpd70_upper,17,0.115626
+16,138,home_bias,Real wage,hpd70_upper,18,0.108976
+16,138,home_bias,Real wage,hpd70_upper,19,0.103989
+16,138,home_bias,Real wage,hpd70_upper,20,0.098671
+16,138,home_bias,Real wage,hpd90_lower,1,0.074400
+16,138,home_bias,Real wage,hpd90_lower,2,0.120613
+16,138,home_bias,Real wage,hpd90_lower,3,0.139562
+16,138,home_bias,Real wage,hpd90_lower,4,0.135238
+16,138,home_bias,Real wage,hpd90_lower,5,0.123936
+16,138,home_bias,Real wage,hpd90_lower,6,0.111968
+16,138,home_bias,Real wage,hpd90_lower,7,0.100331
+16,138,home_bias,Real wage,hpd90_lower,8,0.090357
+16,138,home_bias,Real wage,hpd90_lower,9,0.081050
+16,138,home_bias,Real wage,hpd90_lower,10,0.073403
+16,138,home_bias,Real wage,hpd90_lower,11,0.067754
+16,138,home_bias,Real wage,hpd90_lower,12,0.063429
+16,138,home_bias,Real wage,hpd90_lower,13,0.057780
+16,138,home_bias,Real wage,hpd90_lower,14,0.053456
+16,138,home_bias,Real wage,hpd90_lower,15,0.050464
+16,138,home_bias,Real wage,hpd90_lower,16,0.047472
+16,138,home_bias,Real wage,hpd90_lower,17,0.045477
+16,138,home_bias,Real wage,hpd90_lower,18,0.043151
+16,138,home_bias,Real wage,hpd90_lower,19,0.040490
+16,138,home_bias,Real wage,hpd90_lower,20,0.038831
+16,138,home_bias,Real wage,hpd90_upper,1,0.200731
+16,138,home_bias,Real wage,hpd90_upper,2,0.295809
+16,138,home_bias,Real wage,hpd90_upper,3,0.336038
+16,138,home_bias,Real wage,hpd90_upper,4,0.344679
+16,138,home_bias,Real wage,hpd90_upper,5,0.338364
+16,138,home_bias,Real wage,hpd90_upper,6,0.326064
+16,138,home_bias,Real wage,hpd90_upper,7,0.311435
+16,138,home_bias,Real wage,hpd90_upper,8,0.293152
+16,138,home_bias,Real wage,hpd90_upper,9,0.277857
+16,138,home_bias,Real wage,hpd90_upper,10,0.266886
+16,138,home_bias,Real wage,hpd90_upper,11,0.252592
+16,138,home_bias,Real wage,hpd90_upper,12,0.240293
+16,138,home_bias,Real wage,hpd90_upper,13,0.229654
+16,138,home_bias,Real wage,hpd90_upper,14,0.217354
+16,138,home_bias,Real wage,hpd90_upper,15,0.205051
+16,138,home_bias,Real wage,hpd90_upper,16,0.195744
+16,138,home_bias,Real wage,hpd90_upper,17,0.184773
+16,138,home_bias,Real wage,hpd90_upper,18,0.175131
+16,138,home_bias,Real wage,hpd90_upper,19,0.166490
+16,138,home_bias,Real wage,hpd90_upper,20,0.158843
+16,138,home_bias,Real exchange rate,mean,1,-0.369079
+16,138,home_bias,Real exchange rate,mean,2,-0.588535
+16,138,home_bias,Real exchange rate,mean,3,-0.679552
+16,138,home_bias,Real exchange rate,mean,4,-0.687034
+16,138,home_bias,Real exchange rate,mean,5,-0.649627
+16,138,home_bias,Real exchange rate,mean,6,-0.593518
+16,138,home_bias,Real exchange rate,mean,7,-0.533667
+16,138,home_bias,Real exchange rate,mean,8,-0.476316
+16,138,home_bias,Real exchange rate,mean,9,-0.423947
+16,138,home_bias,Real exchange rate,mean,10,-0.377802
+16,138,home_bias,Real exchange rate,mean,11,-0.335413
+16,138,home_bias,Real exchange rate,mean,12,-0.298007
+16,138,home_bias,Real exchange rate,mean,13,-0.264341
+16,138,home_bias,Real exchange rate,mean,14,-0.234416
+16,138,home_bias,Real exchange rate,mean,15,-0.205732
+16,138,home_bias,Real exchange rate,mean,16,-0.180805
+16,138,home_bias,Real exchange rate,mean,17,-0.158361
+16,138,home_bias,Real exchange rate,mean,18,-0.137159
+16,138,home_bias,Real exchange rate,mean,19,-0.118456
+16,138,home_bias,Real exchange rate,mean,20,-0.100994
+16,138,home_bias,Real exchange rate,hpd70_lower,1,-0.412725
+16,138,home_bias,Real exchange rate,hpd70_lower,2,-0.667089
+16,138,home_bias,Real exchange rate,hpd70_lower,3,-0.776809
+16,138,home_bias,Real exchange rate,hpd70_lower,4,-0.790530
+16,138,home_bias,Real exchange rate,hpd70_lower,5,-0.759348
+16,138,home_bias,Real exchange rate,hpd70_lower,6,-0.694515
+16,138,home_bias,Real exchange rate,hpd70_lower,7,-0.628425
+16,138,home_bias,Real exchange rate,hpd70_lower,8,-0.563592
+16,138,home_bias,Real exchange rate,hpd70_lower,9,-0.500001
+16,138,home_bias,Real exchange rate,hpd70_lower,10,-0.441393
+16,138,home_bias,Real exchange rate,hpd70_lower,11,-0.392765
+16,138,home_bias,Real exchange rate,hpd70_lower,12,-0.345393
+16,138,home_bias,Real exchange rate,hpd70_lower,13,-0.302989
+16,138,home_bias,Real exchange rate,hpd70_lower,14,-0.265583
+16,138,home_bias,Real exchange rate,hpd70_lower,15,-0.234416
+16,138,home_bias,Real exchange rate,hpd70_lower,16,-0.201992
+16,138,home_bias,Real exchange rate,hpd70_lower,17,-0.173324
+16,138,home_bias,Real exchange rate,hpd70_lower,18,-0.147139
+16,138,home_bias,Real exchange rate,hpd70_lower,19,-0.125937
+16,138,home_bias,Real exchange rate,hpd70_lower,20,-0.105992
+16,138,home_bias,Real exchange rate,hpd70_upper,1,-0.302989
+16,138,home_bias,Real exchange rate,hpd70_upper,2,-0.493762
+16,138,home_bias,Real exchange rate,hpd70_upper,3,-0.553612
+16,138,home_bias,Real exchange rate,hpd70_upper,4,-0.546131
+16,138,home_bias,Real exchange rate,hpd70_upper,5,-0.493762
+16,138,home_bias,Real exchange rate,hpd70_upper,6,-0.433912
+16,138,home_bias,Real exchange rate,hpd70_upper,7,-0.380301
+16,138,home_bias,Real exchange rate,hpd70_upper,8,-0.322949
+16,138,home_bias,Real exchange rate,hpd70_upper,9,-0.274321
+16,138,home_bias,Real exchange rate,hpd70_upper,10,-0.234416
+16,138,home_bias,Real exchange rate,hpd70_upper,11,-0.201992
+16,138,home_bias,Real exchange rate,hpd70_upper,12,-0.173324
+16,138,home_bias,Real exchange rate,hpd70_upper,13,-0.148381
+16,138,home_bias,Real exchange rate,hpd70_upper,14,-0.128436
+16,138,home_bias,Real exchange rate,hpd70_upper,15,-0.109733
+16,138,home_bias,Real exchange rate,hpd70_upper,16,-0.091029
+16,138,home_bias,Real exchange rate,hpd70_upper,17,-0.074810
+16,138,home_bias,Real exchange rate,hpd70_upper,18,-0.062346
+16,138,home_bias,Real exchange rate,hpd70_upper,19,-0.049882
+16,138,home_bias,Real exchange rate,hpd70_upper,20,-0.039902
+16,138,home_bias,Real exchange rate,hpd90_lower,1,-0.522445
+16,138,home_bias,Real exchange rate,hpd90_lower,2,-0.815458
+16,138,home_bias,Real exchange rate,hpd90_lower,3,-0.962600
+16,138,home_bias,Real exchange rate,hpd90_lower,4,-1.000006
+16,138,home_bias,Real exchange rate,hpd90_lower,5,-0.980046
+16,138,home_bias,Real exchange rate,hpd90_lower,6,-0.917712
+16,138,home_bias,Real exchange rate,hpd90_lower,7,-0.859103
+16,138,home_bias,Real exchange rate,hpd90_lower,8,-0.789273
+16,138,home_bias,Real exchange rate,hpd90_lower,9,-0.726939
+16,138,home_bias,Real exchange rate,hpd90_lower,10,-0.678311
+16,138,home_bias,Real exchange rate,hpd90_lower,11,-0.618460
+16,138,home_bias,Real exchange rate,hpd90_lower,12,-0.567333
+16,138,home_bias,Real exchange rate,hpd90_lower,13,-0.512465
+16,138,home_bias,Real exchange rate,hpd90_lower,14,-0.463837
+16,138,home_bias,Real exchange rate,hpd90_lower,15,-0.416465
+16,138,home_bias,Real exchange rate,hpd90_lower,16,-0.371578
+16,138,home_bias,Real exchange rate,hpd90_lower,17,-0.337912
+16,138,home_bias,Real exchange rate,hpd90_lower,18,-0.290525
+16,138,home_bias,Real exchange rate,hpd90_lower,19,-0.258101
+16,138,home_bias,Real exchange rate,hpd90_lower,20,-0.226934
+16,138,home_bias,Real exchange rate,hpd90_upper,1,-0.246880
+16,138,home_bias,Real exchange rate,hpd90_upper,2,-0.396505
+16,138,home_bias,Real exchange rate,hpd90_upper,3,-0.433912
+16,138,home_bias,Real exchange rate,hpd90_upper,4,-0.420206
+16,138,home_bias,Real exchange rate,hpd90_upper,5,-0.371578
+16,138,home_bias,Real exchange rate,hpd90_upper,6,-0.315468
+16,138,home_bias,Real exchange rate,hpd90_upper,7,-0.253119
+16,138,home_bias,Real exchange rate,hpd90_upper,8,-0.206989
+16,138,home_bias,Real exchange rate,hpd90_upper,9,-0.173324
+16,138,home_bias,Real exchange rate,hpd90_upper,10,-0.145882
+16,138,home_bias,Real exchange rate,hpd90_upper,11,-0.127179
+16,138,home_bias,Real exchange rate,hpd90_upper,12,-0.109733
+16,138,home_bias,Real exchange rate,hpd90_upper,13,-0.093513
+16,138,home_bias,Real exchange rate,hpd90_upper,14,-0.081049
+16,138,home_bias,Real exchange rate,hpd90_upper,15,-0.067329
+16,138,home_bias,Real exchange rate,hpd90_upper,16,-0.054865
+16,138,home_bias,Real exchange rate,hpd90_upper,17,-0.044885
+16,138,home_bias,Real exchange rate,hpd90_upper,18,-0.034920
+16,138,home_bias,Real exchange rate,hpd90_upper,19,-0.023698
+16,138,home_bias,Real exchange rate,hpd90_upper,20,-0.016216
+16,138,home_bias,CPI inflation,mean,1,-0.021782
+16,138,home_bias,CPI inflation,mean,2,-0.030159
+16,138,home_bias,CPI inflation,mean,3,-0.027301
+16,138,home_bias,CPI inflation,mean,4,-0.021516
+16,138,home_bias,CPI inflation,mean,5,-0.016197
+16,138,home_bias,CPI inflation,mean,6,-0.012340
+16,138,home_bias,CPI inflation,mean,7,-0.009681
+16,138,home_bias,CPI inflation,mean,8,-0.008018
+16,138,home_bias,CPI inflation,mean,9,-0.007088
+16,138,home_bias,CPI inflation,mean,10,-0.006556
+16,138,home_bias,CPI inflation,mean,11,-0.006356
+16,138,home_bias,CPI inflation,mean,12,-0.006223
+16,138,home_bias,CPI inflation,mean,13,-0.006223
+16,138,home_bias,CPI inflation,mean,14,-0.006223
+16,138,home_bias,CPI inflation,mean,15,-0.006223
+16,138,home_bias,CPI inflation,mean,16,-0.006223
+16,138,home_bias,CPI inflation,mean,17,-0.006290
+16,138,home_bias,CPI inflation,mean,18,-0.006290
+16,138,home_bias,CPI inflation,mean,19,-0.006290
+16,138,home_bias,CPI inflation,mean,20,-0.006290
+16,138,home_bias,CPI inflation,hpd70_lower,1,-0.031290
+16,138,home_bias,CPI inflation,hpd70_lower,2,-0.037939
+16,138,home_bias,CPI inflation,hpd70_lower,3,-0.031955
+16,138,home_bias,CPI inflation,hpd70_lower,4,-0.025904
+16,138,home_bias,CPI inflation,hpd70_lower,5,-0.019388
+16,138,home_bias,CPI inflation,hpd70_lower,6,-0.014601
+16,138,home_bias,CPI inflation,hpd70_lower,7,-0.011409
+16,138,home_bias,CPI inflation,hpd70_lower,8,-0.009681
+16,138,home_bias,CPI inflation,hpd70_lower,9,-0.008617
+16,138,home_bias,CPI inflation,hpd70_lower,10,-0.008018
+16,138,home_bias,CPI inflation,hpd70_lower,11,-0.007686
+16,138,home_bias,CPI inflation,hpd70_lower,12,-0.007619
+16,138,home_bias,CPI inflation,hpd70_lower,13,-0.007487
+16,138,home_bias,CPI inflation,hpd70_lower,14,-0.007420
+16,138,home_bias,CPI inflation,hpd70_lower,15,-0.007420
+16,138,home_bias,CPI inflation,hpd70_lower,16,-0.007354
+16,138,home_bias,CPI inflation,hpd70_lower,17,-0.007354
+16,138,home_bias,CPI inflation,hpd70_lower,18,-0.007288
+16,138,home_bias,CPI inflation,hpd70_lower,19,-0.007354
+16,138,home_bias,CPI inflation,hpd70_lower,20,-0.007288
+16,138,home_bias,CPI inflation,hpd70_upper,1,-0.009614
+16,138,home_bias,CPI inflation,hpd70_upper,2,-0.021516
+16,138,home_bias,CPI inflation,hpd70_upper,3,-0.021849
+16,138,home_bias,CPI inflation,hpd70_upper,4,-0.016396
+16,138,home_bias,CPI inflation,hpd70_upper,5,-0.011543
+16,138,home_bias,CPI inflation,hpd70_upper,6,-0.008417
+16,138,home_bias,CPI inflation,hpd70_upper,7,-0.006423
+16,138,home_bias,CPI inflation,hpd70_upper,8,-0.005160
+16,138,home_bias,CPI inflation,hpd70_upper,9,-0.004228
+16,138,home_bias,CPI inflation,hpd70_upper,10,-0.003830
+16,138,home_bias,CPI inflation,hpd70_upper,11,-0.003763
+16,138,home_bias,CPI inflation,hpd70_upper,12,-0.003763
+16,138,home_bias,CPI inflation,hpd70_upper,13,-0.003763
+16,138,home_bias,CPI inflation,hpd70_upper,14,-0.003763
+16,138,home_bias,CPI inflation,hpd70_upper,15,-0.003830
+16,138,home_bias,CPI inflation,hpd70_upper,16,-0.003830
+16,138,home_bias,CPI inflation,hpd70_upper,17,-0.003897
+16,138,home_bias,CPI inflation,hpd70_upper,18,-0.003963
+16,138,home_bias,CPI inflation,hpd70_upper,19,-0.003963
+16,138,home_bias,CPI inflation,hpd70_upper,20,-0.003963
+16,138,home_bias,CPI inflation,hpd90_lower,1,-0.053764
+16,138,home_bias,CPI inflation,hpd90_lower,2,-0.050106
+16,138,home_bias,CPI inflation,hpd90_lower,3,-0.040731
+16,138,home_bias,CPI inflation,hpd90_lower,4,-0.033019
+16,138,home_bias,CPI inflation,hpd90_lower,5,-0.026902
+16,138,home_bias,CPI inflation,hpd90_lower,6,-0.020784
+16,138,home_bias,CPI inflation,hpd90_lower,7,-0.016264
+16,138,home_bias,CPI inflation,hpd90_lower,8,-0.014069
+16,138,home_bias,CPI inflation,hpd90_lower,9,-0.012474
+16,138,home_bias,CPI inflation,hpd90_lower,10,-0.012008
+16,138,home_bias,CPI inflation,hpd90_lower,11,-0.011409
+16,138,home_bias,CPI inflation,hpd90_lower,12,-0.011210
+16,138,home_bias,CPI inflation,hpd90_lower,13,-0.011144
+16,138,home_bias,CPI inflation,hpd90_lower,14,-0.011077
+16,138,home_bias,CPI inflation,hpd90_lower,15,-0.011077
+16,138,home_bias,CPI inflation,hpd90_lower,16,-0.011077
+16,138,home_bias,CPI inflation,hpd90_lower,17,-0.011010
+16,138,home_bias,CPI inflation,hpd90_lower,18,-0.011077
+16,138,home_bias,CPI inflation,hpd90_lower,19,-0.011010
+16,138,home_bias,CPI inflation,hpd90_lower,20,-0.010878
+16,138,home_bias,CPI inflation,hpd90_upper,1,0.004614
+16,138,home_bias,CPI inflation,hpd90_upper,2,-0.011476
+16,138,home_bias,CPI inflation,hpd90_upper,3,-0.014401
+16,138,home_bias,CPI inflation,hpd90_upper,4,-0.010013
+16,138,home_bias,CPI inflation,hpd90_upper,5,-0.007619
+16,138,home_bias,CPI inflation,hpd90_upper,6,-0.005891
+16,138,home_bias,CPI inflation,hpd90_upper,7,-0.004295
+16,138,home_bias,CPI inflation,hpd90_upper,8,-0.003032
+16,138,home_bias,CPI inflation,hpd90_upper,9,-0.002367
+16,138,home_bias,CPI inflation,hpd90_upper,10,-0.002101
+16,138,home_bias,CPI inflation,hpd90_upper,11,-0.002168
+16,138,home_bias,CPI inflation,hpd90_upper,12,-0.002301
+16,138,home_bias,CPI inflation,hpd90_upper,13,-0.002433
+16,138,home_bias,CPI inflation,hpd90_upper,14,-0.002500
+16,138,home_bias,CPI inflation,hpd90_upper,15,-0.002567
+16,138,home_bias,CPI inflation,hpd90_upper,16,-0.002633
+16,138,home_bias,CPI inflation,hpd90_upper,17,-0.002633
+16,138,home_bias,CPI inflation,hpd90_upper,18,-0.002633
+16,138,home_bias,CPI inflation,hpd90_upper,19,-0.002633
+16,138,home_bias,CPI inflation,hpd90_upper,20,-0.002700
+16,138,home_bias,Domestic inflation,mean,1,0.086269
+16,138,home_bias,Domestic inflation,mean,2,0.058013
+16,138,home_bias,Domestic inflation,mean,3,0.016124
+16,138,home_bias,Domestic inflation,mean,4,-0.012966
+16,138,home_bias,Domestic inflation,mean,5,-0.027260
+16,138,home_bias,Domestic inflation,mean,6,-0.031915
+16,138,home_bias,Domestic inflation,mean,7,-0.031582
+16,138,home_bias,Domestic inflation,mean,8,-0.029089
+16,138,home_bias,Domestic inflation,mean,9,-0.026263
+16,138,home_bias,Domestic inflation,mean,10,-0.023769
+16,138,home_bias,Domestic inflation,mean,11,-0.021609
+16,138,home_bias,Domestic inflation,mean,12,-0.019947
+16,138,home_bias,Domestic inflation,mean,13,-0.018451
+16,138,home_bias,Domestic inflation,mean,14,-0.017286
+16,138,home_bias,Domestic inflation,mean,15,-0.016289
+16,138,home_bias,Domestic inflation,mean,16,-0.015459
+16,138,home_bias,Domestic inflation,mean,17,-0.014628
+16,138,home_bias,Domestic inflation,mean,18,-0.013796
+16,138,home_bias,Domestic inflation,mean,19,-0.013132
+16,138,home_bias,Domestic inflation,mean,20,-0.012467
+16,138,home_bias,Domestic inflation,hpd70_lower,1,0.067320
+16,138,home_bias,Domestic inflation,hpd70_lower,2,0.042719
+16,138,home_bias,Domestic inflation,hpd70_lower,3,0.006317
+16,138,home_bias,Domestic inflation,hpd70_lower,4,-0.020113
+16,138,home_bias,Domestic inflation,hpd70_lower,5,-0.032247
+16,138,home_bias,Domestic inflation,hpd70_lower,6,-0.035737
+16,138,home_bias,Domestic inflation,hpd70_lower,7,-0.035737
+16,138,home_bias,Domestic inflation,hpd70_lower,8,-0.033078
+16,138,home_bias,Domestic inflation,hpd70_lower,9,-0.030751
+16,138,home_bias,Domestic inflation,hpd70_lower,10,-0.028257
+16,138,home_bias,Domestic inflation,hpd70_lower,11,-0.026097
+16,138,home_bias,Domestic inflation,hpd70_lower,12,-0.024102
+16,138,home_bias,Domestic inflation,hpd70_lower,13,-0.022606
+16,138,home_bias,Domestic inflation,hpd70_lower,14,-0.021276
+16,138,home_bias,Domestic inflation,hpd70_lower,15,-0.019614
+16,138,home_bias,Domestic inflation,hpd70_lower,16,-0.018451
+16,138,home_bias,Domestic inflation,hpd70_lower,17,-0.017620
+16,138,home_bias,Domestic inflation,hpd70_lower,18,-0.016622
+16,138,home_bias,Domestic inflation,hpd70_lower,19,-0.015625
+16,138,home_bias,Domestic inflation,hpd70_lower,20,-0.014793
+16,138,home_bias,Domestic inflation,hpd70_upper,1,0.099568
+16,138,home_bias,Domestic inflation,hpd70_upper,2,0.068317
+16,138,home_bias,Domestic inflation,hpd70_upper,3,0.024103
+16,138,home_bias,Domestic inflation,hpd70_upper,4,-0.006649
+16,138,home_bias,Domestic inflation,hpd70_upper,5,-0.022273
+16,138,home_bias,Domestic inflation,hpd70_upper,6,-0.027094
+16,138,home_bias,Domestic inflation,hpd70_upper,7,-0.026761
+16,138,home_bias,Domestic inflation,hpd70_upper,8,-0.024102
+16,138,home_bias,Domestic inflation,hpd70_upper,9,-0.020945
+16,138,home_bias,Domestic inflation,hpd70_upper,10,-0.018284
+16,138,home_bias,Domestic inflation,hpd70_upper,11,-0.016124
+16,138,home_bias,Domestic inflation,hpd70_upper,12,-0.014294
+16,138,home_bias,Domestic inflation,hpd70_upper,13,-0.012966
+16,138,home_bias,Domestic inflation,hpd70_upper,14,-0.011969
+16,138,home_bias,Domestic inflation,hpd70_upper,15,-0.010971
+16,138,home_bias,Domestic inflation,hpd70_upper,16,-0.010140
+16,138,home_bias,Domestic inflation,hpd70_upper,17,-0.009475
+16,138,home_bias,Domestic inflation,hpd70_upper,18,-0.008977
+16,138,home_bias,Domestic inflation,hpd70_upper,19,-0.008478
+16,138,home_bias,Domestic inflation,hpd70_upper,20,-0.007979
+16,138,home_bias,Domestic inflation,hpd90_lower,1,0.050698
+16,138,home_bias,Domestic inflation,hpd90_lower,2,0.028092
+16,138,home_bias,Domestic inflation,hpd90_lower,3,-0.006150
+16,138,home_bias,Domestic inflation,hpd90_lower,4,-0.028590
+16,138,home_bias,Domestic inflation,hpd90_lower,5,-0.039894
+16,138,home_bias,Domestic inflation,hpd90_lower,6,-0.043716
+16,138,home_bias,Domestic inflation,hpd90_lower,7,-0.042553
+16,138,home_bias,Domestic inflation,hpd90_lower,8,-0.039727
+16,138,home_bias,Domestic inflation,hpd90_lower,9,-0.037233
+16,138,home_bias,Domestic inflation,hpd90_lower,10,-0.034907
+16,138,home_bias,Domestic inflation,hpd90_lower,11,-0.033078
+16,138,home_bias,Domestic inflation,hpd90_lower,12,-0.031249
+16,138,home_bias,Domestic inflation,hpd90_lower,13,-0.029921
+16,138,home_bias,Domestic inflation,hpd90_lower,14,-0.028756
+16,138,home_bias,Domestic inflation,hpd90_lower,15,-0.027593
+16,138,home_bias,Domestic inflation,hpd90_lower,16,-0.025931
+16,138,home_bias,Domestic inflation,hpd90_lower,17,-0.024601
+16,138,home_bias,Domestic inflation,hpd90_lower,18,-0.023271
+16,138,home_bias,Domestic inflation,hpd90_lower,19,-0.022108
+16,138,home_bias,Domestic inflation,hpd90_lower,20,-0.020945
+16,138,home_bias,Domestic inflation,hpd90_upper,1,0.125832
+16,138,home_bias,Domestic inflation,hpd90_upper,2,0.092253
+16,138,home_bias,Domestic inflation,hpd90_upper,3,0.038565
+16,138,home_bias,Domestic inflation,hpd90_upper,4,0.003159
+16,138,home_bias,Domestic inflation,hpd90_upper,5,-0.014129
+16,138,home_bias,Domestic inflation,hpd90_upper,6,-0.021110
+16,138,home_bias,Domestic inflation,hpd90_upper,7,-0.021942
+16,138,home_bias,Domestic inflation,hpd90_upper,8,-0.018284
+16,138,home_bias,Domestic inflation,hpd90_upper,9,-0.014628
+16,138,home_bias,Domestic inflation,hpd90_upper,10,-0.011969
+16,138,home_bias,Domestic inflation,hpd90_upper,11,-0.010305
+16,138,home_bias,Domestic inflation,hpd90_upper,12,-0.008977
+16,138,home_bias,Domestic inflation,hpd90_upper,13,-0.008478
+16,138,home_bias,Domestic inflation,hpd90_upper,14,-0.007812
+16,138,home_bias,Domestic inflation,hpd90_upper,15,-0.007313
+16,138,home_bias,Domestic inflation,hpd90_upper,16,-0.006982
+16,138,home_bias,Domestic inflation,hpd90_upper,17,-0.006649
+16,138,home_bias,Domestic inflation,hpd90_upper,18,-0.006316
+16,138,home_bias,Domestic inflation,hpd90_upper,19,-0.005985
+16,138,home_bias,Domestic inflation,hpd90_upper,20,-0.005652
+16,138,home_bias,Imported inflation,mean,1,-0.221944
+16,138,home_bias,Imported inflation,mean,2,-0.194018
+16,138,home_bias,Imported inflation,mean,3,-0.107577
+16,138,home_bias,Imported inflation,mean,4,-0.037101
+16,138,home_bias,Imported inflation,mean,5,0.004787
+16,138,home_bias,Imported inflation,mean,6,0.024072
+16,138,home_bias,Imported inflation,mean,7,0.030718
+16,138,home_bias,Imported inflation,mean,8,0.031380
+16,138,home_bias,Imported inflation,mean,9,0.028723
+16,138,home_bias,Imported inflation,mean,10,0.025396
+16,138,home_bias,Imported inflation,mean,11,0.022077
+16,138,home_bias,Imported inflation,mean,12,0.019412
+16,138,home_bias,Imported inflation,mean,13,0.016755
+16,138,home_bias,Imported inflation,mean,14,0.014761
+16,138,home_bias,Imported inflation,mean,15,0.012766
+16,138,home_bias,Imported inflation,mean,16,0.010771
+16,138,home_bias,Imported inflation,mean,17,0.009439
+16,138,home_bias,Imported inflation,mean,18,0.008114
+16,138,home_bias,Imported inflation,mean,19,0.006782
+16,138,home_bias,Imported inflation,mean,20,0.005449
+16,138,home_bias,Imported inflation,hpd70_lower,1,-0.253188
+16,138,home_bias,Imported inflation,hpd70_lower,2,-0.217954
+16,138,home_bias,Imported inflation,hpd70_lower,3,-0.126862
+16,138,home_bias,Imported inflation,hpd70_lower,4,-0.048407
+16,138,home_bias,Imported inflation,hpd70_lower,5,-0.002529
+16,138,home_bias,Imported inflation,hpd70_lower,6,0.019412
+16,138,home_bias,Imported inflation,hpd70_lower,7,0.026729
+16,138,home_bias,Imported inflation,hpd70_lower,8,0.027391
+16,138,home_bias,Imported inflation,hpd70_lower,9,0.024734
+16,138,home_bias,Imported inflation,hpd70_lower,10,0.021407
+16,138,home_bias,Imported inflation,hpd70_lower,11,0.018088
+16,138,home_bias,Imported inflation,hpd70_lower,12,0.015423
+16,138,home_bias,Imported inflation,hpd70_lower,13,0.012766
+16,138,home_bias,Imported inflation,hpd70_lower,14,0.010771
+16,138,home_bias,Imported inflation,hpd70_lower,15,0.008777
+16,138,home_bias,Imported inflation,hpd70_lower,16,0.007444
+16,138,home_bias,Imported inflation,hpd70_lower,17,0.005449
+16,138,home_bias,Imported inflation,hpd70_lower,18,0.004787
+16,138,home_bias,Imported inflation,hpd70_lower,19,0.003455
+16,138,home_bias,Imported inflation,hpd70_lower,20,0.002793
+16,138,home_bias,Imported inflation,hpd70_upper,1,-0.178061
+16,138,home_bias,Imported inflation,hpd70_upper,2,-0.156782
+16,138,home_bias,Imported inflation,hpd70_upper,3,-0.084311
+16,138,home_bias,Imported inflation,hpd70_upper,4,-0.019149
+16,138,home_bias,Imported inflation,hpd70_upper,5,0.018088
+16,138,home_bias,Imported inflation,hpd70_upper,6,0.032713
+16,138,home_bias,Imported inflation,hpd70_upper,7,0.036702
+16,138,home_bias,Imported inflation,hpd70_upper,8,0.035370
+16,138,home_bias,Imported inflation,hpd70_upper,9,0.032713
+16,138,home_bias,Imported inflation,hpd70_upper,10,0.029386
+16,138,home_bias,Imported inflation,hpd70_upper,11,0.026066
+16,138,home_bias,Imported inflation,hpd70_upper,12,0.023402
+16,138,home_bias,Imported inflation,hpd70_upper,13,0.020745
+16,138,home_bias,Imported inflation,hpd70_upper,14,0.018088
+16,138,home_bias,Imported inflation,hpd70_upper,15,0.015423
+16,138,home_bias,Imported inflation,hpd70_upper,16,0.014098
+16,138,home_bias,Imported inflation,hpd70_upper,17,0.012104
+16,138,home_bias,Imported inflation,hpd70_upper,18,0.010109
+16,138,home_bias,Imported inflation,hpd70_upper,19,0.008114
+16,138,home_bias,Imported inflation,hpd70_upper,20,0.006782
+16,138,home_bias,Imported inflation,hpd90_lower,1,-0.318351
+16,138,home_bias,Imported inflation,hpd90_lower,2,-0.271811
+16,138,home_bias,Imported inflation,hpd90_lower,3,-0.160771
+16,138,home_bias,Imported inflation,hpd90_lower,4,-0.079651
+16,138,home_bias,Imported inflation,hpd90_lower,5,-0.023801
+16,138,home_bias,Imported inflation,hpd90_lower,6,0.004787
+16,138,home_bias,Imported inflation,hpd90_lower,7,0.017418
+16,138,home_bias,Imported inflation,hpd90_lower,8,0.020082
+16,138,home_bias,Imported inflation,hpd90_lower,9,0.018088
+16,138,home_bias,Imported inflation,hpd90_lower,10,0.014761
+16,138,home_bias,Imported inflation,hpd90_lower,11,0.011433
+16,138,home_bias,Imported inflation,hpd90_lower,12,0.009439
+16,138,home_bias,Imported inflation,hpd90_lower,13,0.007444
+16,138,home_bias,Imported inflation,hpd90_lower,14,0.006120
+16,138,home_bias,Imported inflation,hpd90_lower,15,0.004787
+16,138,home_bias,Imported inflation,hpd90_lower,16,0.004125
+16,138,home_bias,Imported inflation,hpd90_lower,17,0.003455
+16,138,home_bias,Imported inflation,hpd90_lower,18,0.002130
+16,138,home_bias,Imported inflation,hpd90_lower,19,0.001460
+16,138,home_bias,Imported inflation,hpd90_lower,20,0.000798
+16,138,home_bias,Imported inflation,hpd90_upper,1,-0.142819
+16,138,home_bias,Imported inflation,hpd90_upper,2,-0.127524
+16,138,home_bias,Imported inflation,hpd90_upper,3,-0.057710
+16,138,home_bias,Imported inflation,hpd90_upper,4,-0.002529
+16,138,home_bias,Imported inflation,hpd90_upper,5,0.028723
+16,138,home_bias,Imported inflation,hpd90_upper,6,0.040691
+16,138,home_bias,Imported inflation,hpd90_upper,7,0.044019
+16,138,home_bias,Imported inflation,hpd90_upper,8,0.042686
+16,138,home_bias,Imported inflation,hpd90_upper,9,0.040029
+16,138,home_bias,Imported inflation,hpd90_upper,10,0.036040
+16,138,home_bias,Imported inflation,hpd90_upper,11,0.032713
+16,138,home_bias,Imported inflation,hpd90_upper,12,0.029386
+16,138,home_bias,Imported inflation,hpd90_upper,13,0.026066
+16,138,home_bias,Imported inflation,hpd90_upper,14,0.023402
+16,138,home_bias,Imported inflation,hpd90_upper,15,0.020745
+16,138,home_bias,Imported inflation,hpd90_upper,16,0.018750
+16,138,home_bias,Imported inflation,hpd90_upper,17,0.016755
+16,138,home_bias,Imported inflation,hpd90_upper,18,0.014098
+16,138,home_bias,Imported inflation,hpd90_upper,19,0.012766
+16,138,home_bias,Imported inflation,hpd90_upper,20,0.010771

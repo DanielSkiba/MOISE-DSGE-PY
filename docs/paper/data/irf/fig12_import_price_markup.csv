@@ -1,0 +1,1201 @@
+figure,page_pdf,shock,panel_title,series,quarter,value
+12,134,import_price_markup,Output,mean,1,0.160905
+12,134,import_price_markup,Output,mean,2,0.067486
+12,134,import_price_markup,Output,mean,3,-0.040889
+12,134,import_price_markup,Output,mean,4,-0.070810
+12,134,import_price_markup,Output,mean,5,-0.055518
+12,134,import_price_markup,Output,mean,6,-0.027593
+12,134,import_price_markup,Output,mean,7,-0.007977
+12,134,import_price_markup,Output,mean,8,0.001661
+12,134,import_price_markup,Output,mean,9,0.003325
+12,134,import_price_markup,Output,mean,10,0.001330
+12,134,import_price_markup,Output,mean,11,-0.001662
+12,134,import_price_markup,Output,mean,12,-0.004323
+12,134,import_price_markup,Output,mean,13,-0.006318
+12,134,import_price_markup,Output,mean,14,-0.007646
+12,134,import_price_markup,Output,mean,15,-0.008643
+12,134,import_price_markup,Output,mean,16,-0.009310
+12,134,import_price_markup,Output,mean,17,-0.009641
+12,134,import_price_markup,Output,mean,18,-0.009972
+12,134,import_price_markup,Output,mean,19,-0.009972
+12,134,import_price_markup,Output,mean,20,-0.009972
+12,134,import_price_markup,Output,hpd70_lower,1,0.139630
+12,134,import_price_markup,Output,hpd70_lower,2,0.051197
+12,134,import_price_markup,Output,hpd70_lower,3,-0.049534
+12,134,import_price_markup,Output,hpd70_lower,4,-0.080121
+12,134,import_price_markup,Output,hpd70_lower,5,-0.065492
+12,134,import_price_markup,Output,hpd70_lower,6,-0.034574
+12,134,import_price_markup,Output,hpd70_lower,7,-0.012302
+12,134,import_price_markup,Output,hpd70_lower,8,-0.000665
+12,134,import_price_markup,Output,hpd70_lower,9,0.001330
+12,134,import_price_markup,Output,hpd70_lower,10,-0.000334
+12,134,import_price_markup,Output,hpd70_lower,11,-0.002990
+12,134,import_price_markup,Output,hpd70_lower,12,-0.005651
+12,134,import_price_markup,Output,hpd70_lower,13,-0.007646
+12,134,import_price_markup,Output,hpd70_lower,14,-0.008974
+12,134,import_price_markup,Output,hpd70_lower,15,-0.009972
+12,134,import_price_markup,Output,hpd70_lower,16,-0.010638
+12,134,import_price_markup,Output,hpd70_lower,17,-0.011304
+12,134,import_price_markup,Output,hpd70_lower,18,-0.011304
+12,134,import_price_markup,Output,hpd70_lower,19,-0.011304
+12,134,import_price_markup,Output,hpd70_lower,20,-0.011304
+12,134,import_price_markup,Output,hpd70_upper,1,0.182515
+12,134,import_price_markup,Output,hpd70_upper,2,0.080120
+12,134,import_price_markup,Output,hpd70_upper,3,-0.031913
+12,134,import_price_markup,Output,hpd70_upper,4,-0.058511
+12,134,import_price_markup,Output,hpd70_upper,5,-0.041556
+12,134,import_price_markup,Output,hpd70_upper,6,-0.015956
+12,134,import_price_markup,Output,hpd70_upper,7,0.000333
+12,134,import_price_markup,Output,hpd70_upper,8,0.006317
+12,134,import_price_markup,Output,hpd70_upper,9,0.006317
+12,134,import_price_markup,Output,hpd70_upper,10,0.003656
+12,134,import_price_markup,Output,hpd70_upper,11,0.000333
+12,134,import_price_markup,Output,hpd70_upper,12,-0.002328
+12,134,import_price_markup,Output,hpd70_upper,13,-0.004323
+12,134,import_price_markup,Output,hpd70_upper,14,-0.005320
+12,134,import_price_markup,Output,hpd70_upper,15,-0.006318
+12,134,import_price_markup,Output,hpd70_upper,16,-0.006980
+12,134,import_price_markup,Output,hpd70_upper,17,-0.006980
+12,134,import_price_markup,Output,hpd70_upper,18,-0.007315
+12,134,import_price_markup,Output,hpd70_upper,19,-0.007315
+12,134,import_price_markup,Output,hpd70_upper,20,-0.007315
+12,134,import_price_markup,Output,hpd90_lower,1,0.107380
+12,134,import_price_markup,Output,hpd90_lower,2,0.033576
+12,134,import_price_markup,Output,hpd90_lower,3,-0.066158
+12,134,import_price_markup,Output,hpd90_lower,4,-0.099733
+12,134,import_price_markup,Output,hpd90_lower,5,-0.083113
+12,134,import_price_markup,Output,hpd90_lower,6,-0.051860
+12,134,import_price_markup,Output,hpd90_lower,7,-0.026264
+12,134,import_price_markup,Output,hpd90_lower,8,-0.009641
+12,134,import_price_markup,Output,hpd90_lower,9,-0.003657
+12,134,import_price_markup,Output,hpd90_lower,10,-0.003657
+12,134,import_price_markup,Output,hpd90_lower,11,-0.005982
+12,134,import_price_markup,Output,hpd90_lower,12,-0.008643
+12,134,import_price_markup,Output,hpd90_lower,13,-0.010969
+12,134,import_price_markup,Output,hpd90_lower,14,-0.012302
+12,134,import_price_markup,Output,hpd90_lower,15,-0.013630
+12,134,import_price_markup,Output,hpd90_lower,16,-0.014627
+12,134,import_price_markup,Output,hpd90_lower,17,-0.014959
+12,134,import_price_markup,Output,hpd90_lower,18,-0.015294
+12,134,import_price_markup,Output,hpd90_lower,19,-0.015294
+12,134,import_price_markup,Output,hpd90_lower,20,-0.015294
+12,134,import_price_markup,Output,hpd90_upper,1,0.212436
+12,134,import_price_markup,Output,hpd90_upper,2,0.104056
+12,134,import_price_markup,Output,hpd90_upper,3,-0.016622
+12,134,import_price_markup,Output,hpd90_upper,4,-0.045545
+12,134,import_price_markup,Output,hpd90_upper,5,-0.028590
+12,134,import_price_markup,Output,hpd90_upper,6,-0.005651
+12,134,import_price_markup,Output,hpd90_upper,7,0.006648
+12,134,import_price_markup,Output,hpd90_upper,8,0.012301
+12,134,import_price_markup,Output,hpd90_upper,9,0.010637
+12,134,import_price_markup,Output,hpd90_upper,10,0.007314
+12,134,import_price_markup,Output,hpd90_upper,11,0.003656
+12,134,import_price_markup,Output,hpd90_upper,12,0.000002
+12,134,import_price_markup,Output,hpd90_upper,13,-0.002328
+12,134,import_price_markup,Output,hpd90_upper,14,-0.003657
+12,134,import_price_markup,Output,hpd90_upper,15,-0.004654
+12,134,import_price_markup,Output,hpd90_upper,16,-0.004985
+12,134,import_price_markup,Output,hpd90_upper,17,-0.005320
+12,134,import_price_markup,Output,hpd90_upper,18,-0.005651
+12,134,import_price_markup,Output,hpd90_upper,19,-0.005651
+12,134,import_price_markup,Output,hpd90_upper,20,-0.005651
+12,134,import_price_markup,Consumption,mean,1,-0.108509
+12,134,import_price_markup,Consumption,mean,2,-0.164360
+12,134,import_price_markup,Consumption,mean,3,-0.156381
+12,134,import_price_markup,Consumption,mean,4,-0.115490
+12,134,import_price_markup,Consumption,mean,5,-0.074934
+12,134,import_price_markup,Consumption,mean,6,-0.048006
+12,134,import_price_markup,Consumption,mean,7,-0.034043
+12,134,import_price_markup,Consumption,mean,8,-0.028390
+12,134,import_price_markup,Consumption,mean,9,-0.026064
+12,134,import_price_markup,Consumption,mean,10,-0.025067
+12,134,import_price_markup,Consumption,mean,11,-0.024401
+12,134,import_price_markup,Consumption,mean,12,-0.023403
+12,134,import_price_markup,Consumption,mean,13,-0.022406
+12,134,import_price_markup,Consumption,mean,14,-0.021409
+12,134,import_price_markup,Consumption,mean,15,-0.020411
+12,134,import_price_markup,Consumption,mean,16,-0.019745
+12,134,import_price_markup,Consumption,mean,17,-0.019083
+12,134,import_price_markup,Consumption,mean,18,-0.018417
+12,134,import_price_markup,Consumption,mean,19,-0.018085
+12,134,import_price_markup,Consumption,mean,20,-0.017750
+12,134,import_price_markup,Consumption,hpd70_lower,1,-0.125463
+12,134,import_price_markup,Consumption,hpd70_lower,2,-0.189960
+12,134,import_price_markup,Consumption,hpd70_lower,3,-0.176663
+12,134,import_price_markup,Consumption,hpd70_lower,4,-0.131116
+12,134,import_price_markup,Consumption,hpd70_lower,5,-0.088231
+12,134,import_price_markup,Consumption,hpd70_lower,6,-0.057979
+12,134,import_price_markup,Consumption,hpd70_lower,7,-0.040358
+12,134,import_price_markup,Consumption,hpd70_lower,8,-0.033046
+12,134,import_price_markup,Consumption,hpd70_lower,9,-0.030054
+12,134,import_price_markup,Consumption,hpd70_lower,10,-0.029056
+12,134,import_price_markup,Consumption,hpd70_lower,11,-0.028721
+12,134,import_price_markup,Consumption,hpd70_lower,12,-0.027393
+12,134,import_price_markup,Consumption,hpd70_lower,13,-0.026395
+12,134,import_price_markup,Consumption,hpd70_lower,14,-0.025067
+12,134,import_price_markup,Consumption,hpd70_lower,15,-0.023734
+12,134,import_price_markup,Consumption,hpd70_lower,16,-0.022737
+12,134,import_price_markup,Consumption,hpd70_lower,17,-0.021740
+12,134,import_price_markup,Consumption,hpd70_lower,18,-0.021077
+12,134,import_price_markup,Consumption,hpd70_lower,19,-0.020411
+12,134,import_price_markup,Consumption,hpd70_lower,20,-0.019745
+12,134,import_price_markup,Consumption,hpd70_upper,1,-0.085905
+12,134,import_price_markup,Consumption,hpd70_upper,2,-0.133777
+12,134,import_price_markup,Consumption,hpd70_upper,3,-0.127458
+12,134,import_price_markup,Consumption,hpd70_upper,4,-0.090225
+12,134,import_price_markup,Consumption,hpd70_upper,5,-0.053990
+12,134,import_price_markup,Consumption,hpd70_upper,6,-0.031713
+12,134,import_price_markup,Consumption,hpd70_upper,7,-0.020742
+12,134,import_price_markup,Consumption,hpd70_upper,8,-0.018085
+12,134,import_price_markup,Consumption,hpd70_upper,9,-0.017750
+12,134,import_price_markup,Consumption,hpd70_upper,10,-0.017419
+12,134,import_price_markup,Consumption,hpd70_upper,11,-0.016753
+12,134,import_price_markup,Consumption,hpd70_upper,12,-0.015756
+12,134,import_price_markup,Consumption,hpd70_upper,13,-0.015425
+12,134,import_price_markup,Consumption,hpd70_upper,14,-0.015093
+12,134,import_price_markup,Consumption,hpd70_upper,15,-0.014427
+12,134,import_price_markup,Consumption,hpd70_upper,16,-0.014096
+12,134,import_price_markup,Consumption,hpd70_upper,17,-0.013761
+12,134,import_price_markup,Consumption,hpd70_upper,18,-0.013430
+12,134,import_price_markup,Consumption,hpd70_upper,19,-0.013099
+12,134,import_price_markup,Consumption,hpd70_upper,20,-0.013099
+12,134,import_price_markup,Consumption,hpd90_lower,1,-0.160370
+12,134,import_price_markup,Consumption,hpd90_lower,2,-0.239827
+12,134,import_price_markup,Consumption,hpd90_lower,3,-0.230184
+12,134,import_price_markup,Consumption,hpd90_lower,4,-0.177660
+12,134,import_price_markup,Consumption,hpd90_lower,5,-0.124801
+12,134,import_price_markup,Consumption,hpd90_lower,6,-0.085239
+12,134,import_price_markup,Consumption,hpd90_lower,7,-0.063963
+12,134,import_price_markup,Consumption,hpd90_lower,8,-0.052992
+12,134,import_price_markup,Consumption,hpd90_lower,9,-0.046011
+12,134,import_price_markup,Consumption,hpd90_lower,10,-0.042353
+12,134,import_price_markup,Consumption,hpd90_lower,11,-0.040689
+12,134,import_price_markup,Consumption,hpd90_lower,12,-0.038363
+12,134,import_price_markup,Consumption,hpd90_lower,13,-0.036038
+12,134,import_price_markup,Consumption,hpd90_lower,14,-0.034043
+12,134,import_price_markup,Consumption,hpd90_lower,15,-0.032710
+12,134,import_price_markup,Consumption,hpd90_lower,16,-0.031051
+12,134,import_price_markup,Consumption,hpd90_lower,17,-0.030385
+12,134,import_price_markup,Consumption,hpd90_lower,18,-0.029056
+12,134,import_price_markup,Consumption,hpd90_lower,19,-0.028059
+12,134,import_price_markup,Consumption,hpd90_lower,20,-0.027724
+12,134,import_price_markup,Consumption,hpd90_upper,1,-0.064294
+12,134,import_price_markup,Consumption,hpd90_upper,2,-0.101196
+12,134,import_price_markup,Consumption,hpd90_upper,3,-0.094881
+12,134,import_price_markup,Consumption,hpd90_upper,4,-0.064294
+12,134,import_price_markup,Consumption,hpd90_upper,5,-0.034043
+12,134,import_price_markup,Consumption,hpd90_upper,6,-0.014758
+12,134,import_price_markup,Consumption,hpd90_upper,7,-0.009109
+12,134,import_price_markup,Consumption,hpd90_upper,8,-0.009772
+12,134,import_price_markup,Consumption,hpd90_upper,9,-0.010769
+12,134,import_price_markup,Consumption,hpd90_upper,10,-0.010438
+12,134,import_price_markup,Consumption,hpd90_upper,11,-0.010438
+12,134,import_price_markup,Consumption,hpd90_upper,12,-0.010438
+12,134,import_price_markup,Consumption,hpd90_upper,13,-0.010438
+12,134,import_price_markup,Consumption,hpd90_upper,14,-0.010438
+12,134,import_price_markup,Consumption,hpd90_upper,15,-0.010438
+12,134,import_price_markup,Consumption,hpd90_upper,16,-0.010107
+12,134,import_price_markup,Consumption,hpd90_upper,17,-0.010107
+12,134,import_price_markup,Consumption,hpd90_upper,18,-0.009772
+12,134,import_price_markup,Consumption,hpd90_upper,19,-0.009772
+12,134,import_price_markup,Consumption,hpd90_upper,20,-0.009772
+12,134,import_price_markup,Fixed investment,mean,1,-0.178658
+12,134,import_price_markup,Fixed investment,mean,2,-0.181981
+12,134,import_price_markup,Fixed investment,mean,3,-0.197607
+12,134,import_price_markup,Fixed investment,mean,4,-0.160705
+12,134,import_price_markup,Fixed investment,mean,5,-0.143751
+12,134,import_price_markup,Fixed investment,mean,6,-0.122140
+12,134,import_price_markup,Fixed investment,mean,7,-0.112833
+12,134,import_price_markup,Fixed investment,mean,8,-0.102193
+12,134,import_price_markup,Fixed investment,mean,9,-0.094881
+12,134,import_price_markup,Fixed investment,mean,10,-0.086567
+12,134,import_price_markup,Fixed investment,mean,11,-0.078923
+12,134,import_price_markup,Fixed investment,mean,12,-0.070945
+12,134,import_price_markup,Fixed investment,mean,13,-0.063297
+12,134,import_price_markup,Fixed investment,mean,14,-0.055984
+12,134,import_price_markup,Fixed investment,mean,15,-0.049003
+12,134,import_price_markup,Fixed investment,mean,16,-0.042684
+12,134,import_price_markup,Fixed investment,mean,17,-0.036700
+12,134,import_price_markup,Fixed investment,mean,18,-0.031382
+12,134,import_price_markup,Fixed investment,mean,19,-0.026395
+12,134,import_price_markup,Fixed investment,mean,20,-0.022075
+12,134,import_price_markup,Fixed investment,hpd70_lower,1,-0.204253
+12,134,import_price_markup,Fixed investment,hpd70_lower,2,-0.205586
+12,134,import_price_markup,Fixed investment,hpd70_lower,3,-0.222206
+12,134,import_price_markup,Fixed investment,hpd70_lower,4,-0.180317
+12,134,import_price_markup,Fixed investment,hpd70_lower,5,-0.158376
+12,134,import_price_markup,Fixed investment,hpd70_lower,6,-0.135106
+12,134,import_price_markup,Fixed investment,hpd70_lower,7,-0.125798
+12,134,import_price_markup,Fixed investment,hpd70_lower,8,-0.113164
+12,134,import_price_markup,Fixed investment,hpd70_lower,9,-0.106183
+12,134,import_price_markup,Fixed investment,hpd70_lower,10,-0.097873
+12,134,import_price_markup,Fixed investment,hpd70_lower,11,-0.090891
+12,134,import_price_markup,Fixed investment,hpd70_lower,12,-0.080583
+12,134,import_price_markup,Fixed investment,hpd70_lower,13,-0.072604
+12,134,import_price_markup,Fixed investment,hpd70_lower,14,-0.063963
+12,134,import_price_markup,Fixed investment,hpd70_lower,15,-0.056316
+12,134,import_price_markup,Fixed investment,hpd70_lower,16,-0.049665
+12,134,import_price_markup,Fixed investment,hpd70_lower,17,-0.043019
+12,134,import_price_markup,Fixed investment,hpd70_lower,18,-0.037035
+12,134,import_price_markup,Fixed investment,hpd70_lower,19,-0.032048
+12,134,import_price_markup,Fixed investment,hpd70_lower,20,-0.027393
+12,134,import_price_markup,Fixed investment,hpd70_upper,1,-0.139761
+12,134,import_price_markup,Fixed investment,hpd70_upper,2,-0.133777
+12,134,import_price_markup,Fixed investment,hpd70_upper,3,-0.140759
+12,134,import_price_markup,Fixed investment,hpd70_upper,4,-0.109506
+12,134,import_price_markup,Fixed investment,hpd70_upper,5,-0.099201
+12,134,import_price_markup,Fixed investment,hpd70_upper,6,-0.085239
+12,134,import_price_markup,Fixed investment,hpd70_upper,7,-0.080583
+12,134,import_price_markup,Fixed investment,hpd70_upper,8,-0.074268
+12,134,import_price_markup,Fixed investment,hpd70_upper,9,-0.069281
+12,134,import_price_markup,Fixed investment,hpd70_upper,10,-0.062300
+12,134,import_price_markup,Fixed investment,hpd70_upper,11,-0.055649
+12,134,import_price_markup,Fixed investment,hpd70_upper,12,-0.050000
+12,134,import_price_markup,Fixed investment,hpd70_upper,13,-0.044347
+12,134,import_price_markup,Fixed investment,hpd70_upper,14,-0.039030
+12,134,import_price_markup,Fixed investment,hpd70_upper,15,-0.033708
+12,134,import_price_markup,Fixed investment,hpd70_upper,16,-0.029056
+12,134,import_price_markup,Fixed investment,hpd70_upper,17,-0.024401
+12,134,import_price_markup,Fixed investment,hpd70_upper,18,-0.020411
+12,134,import_price_markup,Fixed investment,hpd70_upper,19,-0.016753
+12,134,import_price_markup,Fixed investment,hpd70_upper,20,-0.013430
+12,134,import_price_markup,Fixed investment,hpd90_lower,1,-0.262099
+12,134,import_price_markup,Fixed investment,hpd90_lower,2,-0.275731
+12,134,import_price_markup,Fixed investment,hpd90_lower,3,-0.305982
+12,134,import_price_markup,Fixed investment,hpd90_lower,4,-0.259107
+12,134,import_price_markup,Fixed investment,hpd90_lower,5,-0.235171
+12,134,import_price_markup,Fixed investment,hpd90_lower,6,-0.199267
+12,134,import_price_markup,Fixed investment,hpd90_lower,7,-0.180983
+12,134,import_price_markup,Fixed investment,hpd90_lower,8,-0.160705
+12,134,import_price_markup,Fixed investment,hpd90_lower,9,-0.147074
+12,134,import_price_markup,Fixed investment,hpd90_lower,10,-0.133442
+12,134,import_price_markup,Fixed investment,hpd90_lower,11,-0.126130
+12,134,import_price_markup,Fixed investment,hpd90_lower,12,-0.115159
+12,134,import_price_markup,Fixed investment,hpd90_lower,13,-0.104519
+12,134,import_price_markup,Fixed investment,hpd90_lower,14,-0.094881
+12,134,import_price_markup,Fixed investment,hpd90_lower,15,-0.084907
+12,134,import_price_markup,Fixed investment,hpd90_lower,16,-0.074268
+12,134,import_price_markup,Fixed investment,hpd90_lower,17,-0.064625
+12,134,import_price_markup,Fixed investment,hpd90_lower,18,-0.056982
+12,134,import_price_markup,Fixed investment,hpd90_lower,19,-0.049003
+12,134,import_price_markup,Fixed investment,hpd90_lower,20,-0.042684
+12,134,import_price_markup,Fixed investment,hpd90_upper,1,-0.103522
+12,134,import_price_markup,Fixed investment,hpd90_upper,2,-0.097207
+12,134,import_price_markup,Fixed investment,hpd90_upper,3,-0.105517
+12,134,import_price_markup,Fixed investment,hpd90_upper,4,-0.082913
+12,134,import_price_markup,Fixed investment,hpd90_upper,5,-0.074599
+12,134,import_price_markup,Fixed investment,hpd90_upper,6,-0.063628
+12,134,import_price_markup,Fixed investment,hpd90_upper,7,-0.060971
+12,134,import_price_markup,Fixed investment,hpd90_upper,8,-0.054987
+12,134,import_price_markup,Fixed investment,hpd90_upper,9,-0.052657
+12,134,import_price_markup,Fixed investment,hpd90_upper,10,-0.047008
+12,134,import_price_markup,Fixed investment,hpd90_upper,11,-0.041355
+12,134,import_price_markup,Fixed investment,hpd90_upper,12,-0.035702
+12,134,import_price_markup,Fixed investment,hpd90_upper,13,-0.029718
+12,134,import_price_markup,Fixed investment,hpd90_upper,14,-0.025398
+12,134,import_price_markup,Fixed investment,hpd90_upper,15,-0.020080
+12,134,import_price_markup,Fixed investment,hpd90_upper,16,-0.016422
+12,134,import_price_markup,Fixed investment,hpd90_upper,17,-0.013099
+12,134,import_price_markup,Fixed investment,hpd90_upper,18,-0.009772
+12,134,import_price_markup,Fixed investment,hpd90_upper,19,-0.007115
+12,134,import_price_markup,Fixed investment,hpd90_upper,20,-0.004454
+12,134,import_price_markup,Exports,mean,1,-0.099304
+12,134,import_price_markup,Exports,mean,2,-0.201798
+12,134,import_price_markup,Exports,mean,3,-0.241732
+12,134,import_price_markup,Exports,mean,4,-0.215112
+12,134,import_price_markup,Exports,mean,5,-0.151218
+12,134,import_price_markup,Exports,mean,6,-0.081997
+12,134,import_price_markup,Exports,mean,7,-0.026089
+12,134,import_price_markup,Exports,mean,8,0.009188
+12,134,import_price_markup,Exports,mean,9,0.026487
+12,134,import_price_markup,Exports,mean,10,0.032477
+12,134,import_price_markup,Exports,mean,11,0.031151
+12,134,import_price_markup,Exports,mean,12,0.026487
+12,134,import_price_markup,Exports,mean,13,0.021831
+12,134,import_price_markup,Exports,mean,14,0.016504
+12,134,import_price_markup,Exports,mean,15,0.012510
+12,134,import_price_markup,Exports,mean,16,0.008517
+12,134,import_price_markup,Exports,mean,17,0.005857
+12,134,import_price_markup,Exports,mean,18,0.003198
+12,134,import_price_markup,Exports,mean,19,0.001201
+12,134,import_price_markup,Exports,mean,20,-0.000133
+12,134,import_price_markup,Exports,hpd70_lower,1,-0.114607
+12,134,import_price_markup,Exports,hpd70_lower,2,-0.235079
+12,134,import_price_markup,Exports,hpd70_lower,3,-0.283662
+12,134,import_price_markup,Exports,hpd70_lower,4,-0.257042
+12,134,import_price_markup,Exports,hpd70_lower,5,-0.180497
+12,134,import_price_markup,Exports,hpd70_lower,6,-0.101301
+12,134,import_price_markup,Exports,hpd70_lower,7,-0.040066
+12,134,import_price_markup,Exports,hpd70_lower,8,0.000530
+12,134,import_price_markup,Exports,hpd70_lower,9,0.018500
+12,134,import_price_markup,Exports,hpd70_lower,10,0.023828
+12,134,import_price_markup,Exports,hpd70_lower,11,0.022494
+12,134,import_price_markup,Exports,hpd70_lower,12,0.018500
+12,134,import_price_markup,Exports,hpd70_lower,13,0.013844
+12,134,import_price_markup,Exports,hpd70_lower,14,0.009851
+12,134,import_price_markup,Exports,hpd70_lower,15,0.005857
+12,134,import_price_markup,Exports,hpd70_lower,16,0.003198
+12,134,import_price_markup,Exports,hpd70_lower,17,0.001201
+12,134,import_price_markup,Exports,hpd70_lower,18,-0.000795
+12,134,import_price_markup,Exports,hpd70_lower,19,-0.002129
+12,134,import_price_markup,Exports,hpd70_lower,20,-0.002792
+12,134,import_price_markup,Exports,hpd70_upper,1,-0.074673
+12,134,import_price_markup,Exports,hpd70_upper,2,-0.155874
+12,134,import_price_markup,Exports,hpd70_upper,3,-0.185824
+12,134,import_price_markup,Exports,hpd70_upper,4,-0.159205
+12,134,import_price_markup,Exports,hpd70_upper,5,-0.101301
+12,134,import_price_markup,Exports,hpd70_upper,6,-0.042726
+12,134,import_price_markup,Exports,hpd70_upper,7,0.000530
+12,134,import_price_markup,Exports,hpd70_upper,8,0.026487
+12,134,import_price_markup,Exports,hpd70_upper,9,0.036471
+12,134,import_price_markup,Exports,hpd70_upper,10,0.040464
+12,134,import_price_markup,Exports,hpd70_upper,11,0.038467
+12,134,import_price_markup,Exports,hpd70_upper,12,0.032477
+12,134,import_price_markup,Exports,hpd70_upper,13,0.027158
+12,134,import_price_markup,Exports,hpd70_upper,14,0.021168
+12,134,import_price_markup,Exports,hpd70_upper,15,0.015841
+12,134,import_price_markup,Exports,hpd70_upper,16,0.011185
+12,134,import_price_markup,Exports,hpd70_upper,17,0.007854
+12,134,import_price_markup,Exports,hpd70_upper,18,0.005195
+12,134,import_price_markup,Exports,hpd70_upper,19,0.003198
+12,134,import_price_markup,Exports,hpd70_upper,20,0.001864
+12,134,import_price_markup,Exports,hpd90_lower,1,-0.153877
+12,134,import_price_markup,Exports,hpd90_lower,2,-0.299635
+12,134,import_price_markup,Exports,hpd90_lower,3,-0.357539
+12,134,import_price_markup,Exports,hpd90_lower,4,-0.334913
+12,134,import_price_markup,Exports,hpd90_lower,5,-0.255708
+12,134,import_price_markup,Exports,hpd90_lower,6,-0.164524
+12,134,import_price_markup,Exports,hpd90_lower,7,-0.085327
+12,134,import_price_markup,Exports,hpd90_lower,8,-0.029420
+12,134,import_price_markup,Exports,hpd90_lower,9,-0.000133
+12,134,import_price_markup,Exports,hpd90_lower,10,0.013181
+12,134,import_price_markup,Exports,hpd90_lower,11,0.013844
+12,134,import_price_markup,Exports,hpd90_lower,12,0.010514
+12,134,import_price_markup,Exports,hpd90_lower,13,0.007191
+12,134,import_price_markup,Exports,hpd90_lower,14,0.003198
+12,134,import_price_markup,Exports,hpd90_lower,15,0.001201
+12,134,import_price_markup,Exports,hpd90_lower,16,-0.000795
+12,134,import_price_markup,Exports,hpd90_lower,17,-0.002792
+12,134,import_price_markup,Exports,hpd90_lower,18,-0.004789
+12,134,import_price_markup,Exports,hpd90_lower,19,-0.005460
+12,134,import_price_markup,Exports,hpd90_lower,20,-0.006786
+12,134,import_price_markup,Exports,hpd90_upper,1,-0.053380
+12,134,import_price_markup,Exports,hpd90_upper,2,-0.111284
+12,134,import_price_markup,Exports,hpd90_upper,3,-0.138567
+12,134,import_price_markup,Exports,hpd90_upper,4,-0.116603
+12,134,import_price_markup,Exports,hpd90_upper,5,-0.068683
+12,134,import_price_markup,Exports,hpd90_upper,6,-0.015443
+12,134,import_price_markup,Exports,hpd90_upper,7,0.023165
+12,134,import_price_markup,Exports,hpd90_upper,8,0.044457
+12,134,import_price_markup,Exports,hpd90_upper,9,0.054441
+12,134,import_price_markup,Exports,hpd90_upper,10,0.054441
+12,134,import_price_markup,Exports,hpd90_upper,11,0.050447
+12,134,import_price_markup,Exports,hpd90_upper,12,0.046454
+12,134,import_price_markup,Exports,hpd90_upper,13,0.039138
+12,134,import_price_markup,Exports,hpd90_upper,14,0.031814
+12,134,import_price_markup,Exports,hpd90_upper,15,0.026487
+12,134,import_price_markup,Exports,hpd90_upper,16,0.020497
+12,134,import_price_markup,Exports,hpd90_upper,17,0.016504
+12,134,import_price_markup,Exports,hpd90_upper,18,0.012510
+12,134,import_price_markup,Exports,hpd90_upper,19,0.009188
+12,134,import_price_markup,Exports,hpd90_upper,20,0.006520
+12,134,import_price_markup,Imports,mean,1,-0.698840
+12,134,import_price_markup,Imports,mean,2,-0.638939
+12,134,import_price_markup,Imports,mean,3,-0.413474
+12,134,import_price_markup,Imports,mean,4,-0.247090
+12,134,import_price_markup,Imports,mean,5,-0.167222
+12,134,import_price_markup,Imports,mean,6,-0.128117
+12,134,import_price_markup,Imports,mean,7,-0.105655
+12,134,import_price_markup,Imports,mean,8,-0.084859
+12,134,import_price_markup,Imports,mean,9,-0.067388
+12,134,import_price_markup,Imports,mean,10,-0.053242
+12,134,import_price_markup,Imports,mean,11,-0.041591
+12,134,import_price_markup,Imports,mean,12,-0.034103
+12,134,import_price_markup,Imports,mean,13,-0.028283
+12,134,import_price_markup,Imports,mean,14,-0.023291
+12,134,import_price_markup,Imports,mean,15,-0.019967
+12,134,import_price_markup,Imports,mean,16,-0.017471
+12,134,import_price_markup,Imports,mean,17,-0.015804
+12,134,import_price_markup,Imports,mean,18,-0.013308
+12,134,import_price_markup,Imports,mean,19,-0.011641
+12,134,import_price_markup,Imports,mean,20,-0.010812
+12,134,import_price_markup,Imports,hpd70_lower,1,-0.772877
+12,134,import_price_markup,Imports,hpd70_lower,2,-0.712148
+12,134,import_price_markup,Imports,hpd70_lower,3,-0.469221
+12,134,import_price_markup,Imports,hpd70_lower,4,-0.285356
+12,134,import_price_markup,Imports,hpd70_lower,5,-0.192181
+12,134,import_price_markup,Imports,hpd70_lower,6,-0.143092
+12,134,import_price_markup,Imports,hpd70_lower,7,-0.118134
+12,134,import_price_markup,Imports,hpd70_lower,8,-0.096500
+12,134,import_price_markup,Imports,hpd70_lower,9,-0.076533
+12,134,import_price_markup,Imports,hpd70_lower,10,-0.060729
+12,134,import_price_markup,Imports,hpd70_lower,11,-0.049079
+12,134,import_price_markup,Imports,hpd70_lower,12,-0.039934
+12,134,import_price_markup,Imports,hpd70_lower,13,-0.032446
+12,134,import_price_markup,Imports,hpd70_lower,14,-0.027454
+12,134,import_price_markup,Imports,hpd70_lower,15,-0.024120
+12,134,import_price_markup,Imports,hpd70_lower,16,-0.020795
+12,134,import_price_markup,Imports,hpd70_lower,17,-0.018300
+12,134,import_price_markup,Imports,hpd70_lower,18,-0.015804
+12,134,import_price_markup,Imports,hpd70_lower,19,-0.014137
+12,134,import_price_markup,Imports,hpd70_lower,20,-0.012479
+12,134,import_price_markup,Imports,hpd70_upper,1,-0.625621
+12,134,import_price_markup,Imports,hpd70_upper,2,-0.550746
+12,134,import_price_markup,Imports,hpd70_upper,3,-0.316974
+12,134,import_price_markup,Imports,hpd70_upper,4,-0.174710
+12,134,import_price_markup,Imports,hpd70_upper,5,-0.118134
+12,134,import_price_markup,Imports,hpd70_upper,6,-0.089012
+12,134,import_price_markup,Imports,hpd70_upper,7,-0.074876
+12,134,import_price_markup,Imports,hpd70_upper,8,-0.058233
+12,134,import_price_markup,Imports,hpd70_upper,9,-0.044925
+12,134,import_price_markup,Imports,hpd70_upper,10,-0.034942
+12,134,import_price_markup,Imports,hpd70_upper,11,-0.027454
+12,134,import_price_markup,Imports,hpd70_upper,12,-0.021624
+12,134,import_price_markup,Imports,hpd70_upper,13,-0.017471
+12,134,import_price_markup,Imports,hpd70_upper,14,-0.014975
+12,134,import_price_markup,Imports,hpd70_upper,15,-0.012479
+12,134,import_price_markup,Imports,hpd70_upper,16,-0.010812
+12,134,import_price_markup,Imports,hpd70_upper,17,-0.009145
+12,134,import_price_markup,Imports,hpd70_upper,18,-0.008316
+12,134,import_price_markup,Imports,hpd70_upper,19,-0.007488
+12,134,import_price_markup,Imports,hpd70_upper,20,-0.005820
+12,134,import_price_markup,Imports,hpd90_lower,1,-0.887686
+12,134,import_price_markup,Imports,hpd90_lower,2,-0.858575
+12,134,import_price_markup,Imports,hpd90_lower,3,-0.633109
+12,134,import_price_markup,Imports,hpd90_lower,4,-0.410149
+12,134,import_price_markup,Imports,hpd90_lower,5,-0.279536
+12,134,import_price_markup,Imports,hpd90_lower,6,-0.205489
+12,134,import_price_markup,Imports,hpd90_lower,7,-0.167222
+12,134,import_price_markup,Imports,hpd90_lower,8,-0.136434
+12,134,import_price_markup,Imports,hpd90_lower,9,-0.108150
+12,134,import_price_markup,Imports,hpd90_lower,10,-0.088184
+12,134,import_price_markup,Imports,hpd90_lower,11,-0.072380
+12,134,import_price_markup,Imports,hpd90_lower,12,-0.059062
+12,134,import_price_markup,Imports,hpd90_lower,13,-0.048250
+12,134,import_price_markup,Imports,hpd90_lower,14,-0.040762
+12,134,import_price_markup,Imports,hpd90_lower,15,-0.035771
+12,134,import_price_markup,Imports,hpd90_lower,16,-0.030779
+12,134,import_price_markup,Imports,hpd90_lower,17,-0.027454
+12,134,import_price_markup,Imports,hpd90_lower,18,-0.024120
+12,134,import_price_markup,Imports,hpd90_lower,19,-0.021624
+12,134,import_price_markup,Imports,hpd90_lower,20,-0.019128
+12,134,import_price_markup,Imports,hpd90_upper,1,-0.511651
+12,134,import_price_markup,Imports,hpd90_upper,2,-0.433440
+12,134,import_price_markup,Imports,hpd90_upper,3,-0.237935
+12,134,import_price_markup,Imports,hpd90_upper,4,-0.118134
+12,134,import_price_markup,Imports,hpd90_upper,5,-0.079029
+12,134,import_price_markup,Imports,hpd90_upper,6,-0.063225
+12,134,import_price_markup,Imports,hpd90_upper,7,-0.052413
+12,134,import_price_markup,Imports,hpd90_upper,8,-0.040762
+12,134,import_price_markup,Imports,hpd90_upper,9,-0.030779
+12,134,import_price_markup,Imports,hpd90_upper,10,-0.023291
+12,134,import_price_markup,Imports,hpd90_upper,11,-0.016632
+12,134,import_price_markup,Imports,hpd90_upper,12,-0.013308
+12,134,import_price_markup,Imports,hpd90_upper,13,-0.010812
+12,134,import_price_markup,Imports,hpd90_upper,14,-0.009145
+12,134,import_price_markup,Imports,hpd90_upper,15,-0.007488
+12,134,import_price_markup,Imports,hpd90_upper,16,-0.006649
+12,134,import_price_markup,Imports,hpd90_upper,17,-0.005820
+12,134,import_price_markup,Imports,hpd90_upper,18,-0.004992
+12,134,import_price_markup,Imports,hpd90_upper,19,-0.004153
+12,134,import_price_markup,Imports,hpd90_upper,20,-0.003324
+12,134,import_price_markup,Hours worked,mean,1,0.185228
+12,134,import_price_markup,Hours worked,mean,2,0.080066
+12,134,import_price_markup,Hours worked,mean,3,-0.042394
+12,134,import_price_markup,Hours worked,mean,4,-0.075012
+12,134,import_price_markup,Hours worked,mean,5,-0.055708
+12,134,import_price_markup,Hours worked,mean,6,-0.022428
+12,134,import_price_markup,Hours worked,mean,7,0.001533
+12,134,import_price_markup,Hours worked,mean,8,0.012842
+12,134,import_price_markup,Hours worked,mean,9,0.016172
+12,134,import_price_markup,Hours worked,mean,10,0.014839
+12,134,import_price_markup,Hours worked,mean,11,0.012179
+12,134,import_price_markup,Hours worked,mean,12,0.009519
+12,134,import_price_markup,Hours worked,mean,13,0.007523
+12,134,import_price_markup,Hours worked,mean,14,0.006189
+12,134,import_price_markup,Hours worked,mean,15,0.005526
+12,134,import_price_markup,Hours worked,mean,16,0.004855
+12,134,import_price_markup,Hours worked,mean,17,0.004192
+12,134,import_price_markup,Hours worked,mean,18,0.004192
+12,134,import_price_markup,Hours worked,mean,19,0.004192
+12,134,import_price_markup,Hours worked,mean,20,0.004192
+12,134,import_price_markup,Hours worked,hpd70_lower,1,0.160597
+12,134,import_price_markup,Hours worked,hpd70_lower,2,0.060762
+12,134,import_price_markup,Hours worked,hpd70_lower,3,-0.052378
+12,134,import_price_markup,Hours worked,hpd70_lower,4,-0.085659
+12,134,import_price_markup,Hours worked,hpd70_lower,5,-0.067688
+12,134,import_price_markup,Hours worked,hpd70_lower,6,-0.030414
+12,134,import_price_markup,Hours worked,hpd70_lower,7,-0.003132
+12,134,import_price_markup,Hours worked,hpd70_lower,8,0.009519
+12,134,import_price_markup,Hours worked,hpd70_lower,9,0.012179
+12,134,import_price_markup,Hours worked,hpd70_lower,10,0.011516
+12,134,import_price_markup,Hours worked,hpd70_lower,11,0.008849
+12,134,import_price_markup,Hours worked,hpd70_lower,12,0.006189
+12,134,import_price_markup,Hours worked,hpd70_lower,13,0.004855
+12,134,import_price_markup,Hours worked,hpd70_lower,14,0.004192
+12,134,import_price_markup,Hours worked,hpd70_lower,15,0.003529
+12,134,import_price_markup,Hours worked,hpd70_lower,16,0.003529
+12,134,import_price_markup,Hours worked,hpd70_lower,17,0.002858
+12,134,import_price_markup,Hours worked,hpd70_lower,18,0.002858
+12,134,import_price_markup,Hours worked,hpd70_lower,19,0.002858
+12,134,import_price_markup,Hours worked,hpd70_lower,20,0.002858
+12,134,import_price_markup,Hours worked,hpd70_upper,1,0.209851
+12,134,import_price_markup,Hours worked,hpd70_upper,2,0.094043
+12,134,import_price_markup,Hours worked,hpd70_upper,3,-0.032411
+12,134,import_price_markup,Hours worked,hpd70_upper,4,-0.061698
+12,134,import_price_markup,Hours worked,hpd70_upper,5,-0.041069
+12,134,import_price_markup,Hours worked,hpd70_upper,6,-0.010447
+12,134,import_price_markup,Hours worked,hpd70_upper,7,0.008849
+12,134,import_price_markup,Hours worked,hpd70_upper,8,0.016835
+12,134,import_price_markup,Hours worked,hpd70_upper,9,0.018832
+12,134,import_price_markup,Hours worked,hpd70_upper,10,0.016835
+12,134,import_price_markup,Hours worked,hpd70_upper,11,0.014176
+12,134,import_price_markup,Hours worked,hpd70_upper,12,0.011516
+12,134,import_price_markup,Hours worked,hpd70_upper,13,0.008849
+12,134,import_price_markup,Hours worked,hpd70_upper,14,0.006852
+12,134,import_price_markup,Hours worked,hpd70_upper,15,0.006189
+12,134,import_price_markup,Hours worked,hpd70_upper,16,0.005526
+12,134,import_price_markup,Hours worked,hpd70_upper,17,0.004855
+12,134,import_price_markup,Hours worked,hpd70_upper,18,0.004855
+12,134,import_price_markup,Hours worked,hpd70_upper,19,0.004855
+12,134,import_price_markup,Hours worked,hpd70_upper,20,0.004855
+12,134,import_price_markup,Hours worked,hpd90_lower,1,0.123330
+12,134,import_price_markup,Hours worked,hpd90_lower,2,0.039470
+12,134,import_price_markup,Hours worked,hpd90_lower,3,-0.072345
+12,134,import_price_markup,Hours worked,hpd90_lower,4,-0.106288
+12,134,import_price_markup,Hours worked,hpd90_lower,5,-0.085659
+12,134,import_price_markup,Hours worked,hpd90_lower,6,-0.048384
+12,134,import_price_markup,Hours worked,hpd90_lower,7,-0.015775
+12,134,import_price_markup,Hours worked,hpd90_lower,8,0.002858
+12,134,import_price_markup,Hours worked,hpd90_lower,9,0.008849
+12,134,import_price_markup,Hours worked,hpd90_lower,10,0.008186
+12,134,import_price_markup,Hours worked,hpd90_lower,11,0.005526
+12,134,import_price_markup,Hours worked,hpd90_lower,12,0.004192
+12,134,import_price_markup,Hours worked,hpd90_lower,13,0.002858
+12,134,import_price_markup,Hours worked,hpd90_lower,14,0.002858
+12,134,import_price_markup,Hours worked,hpd90_lower,15,0.002196
+12,134,import_price_markup,Hours worked,hpd90_lower,16,0.002196
+12,134,import_price_markup,Hours worked,hpd90_lower,17,0.002196
+12,134,import_price_markup,Hours worked,hpd90_lower,18,0.002196
+12,134,import_price_markup,Hours worked,hpd90_lower,19,0.002196
+12,134,import_price_markup,Hours worked,hpd90_lower,20,0.002196
+12,134,import_price_markup,Hours worked,hpd90_upper,1,0.243795
+12,134,import_price_markup,Hours worked,hpd90_upper,2,0.121997
+12,134,import_price_markup,Hours worked,hpd90_upper,3,-0.015112
+12,134,import_price_markup,Hours worked,hpd90_upper,4,-0.048384
+12,134,import_price_markup,Hours worked,hpd90_upper,5,-0.027755
+12,134,import_price_markup,Hours worked,hpd90_upper,6,-0.000464
+12,134,import_price_markup,Hours worked,hpd90_upper,7,0.016172
+12,134,import_price_markup,Hours worked,hpd90_upper,8,0.024159
+12,134,import_price_markup,Hours worked,hpd90_upper,9,0.024822
+12,134,import_price_markup,Hours worked,hpd90_upper,10,0.022162
+12,134,import_price_markup,Hours worked,hpd90_upper,11,0.018832
+12,134,import_price_markup,Hours worked,hpd90_upper,12,0.015509
+12,134,import_price_markup,Hours worked,hpd90_upper,13,0.012842
+12,134,import_price_markup,Hours worked,hpd90_upper,14,0.010182
+12,134,import_price_markup,Hours worked,hpd90_upper,15,0.008849
+12,134,import_price_markup,Hours worked,hpd90_upper,16,0.008186
+12,134,import_price_markup,Hours worked,hpd90_upper,17,0.007523
+12,134,import_price_markup,Hours worked,hpd90_upper,18,0.006852
+12,134,import_price_markup,Hours worked,hpd90_upper,19,0.006189
+12,134,import_price_markup,Hours worked,hpd90_upper,20,0.006189
+12,134,import_price_markup,Interest rate,mean,1,0.143616
+12,134,import_price_markup,Interest rate,mean,2,0.212768
+12,134,import_price_markup,Interest rate,mean,3,0.233377
+12,134,import_price_markup,Interest rate,mean,4,0.099733
+12,134,import_price_markup,Interest rate,mean,5,0.001332
+12,134,import_price_markup,Interest rate,mean,6,-0.030583
+12,134,import_price_markup,Interest rate,mean,7,-0.025932
+12,134,import_price_markup,Interest rate,mean,8,-0.011969
+12,134,import_price_markup,Interest rate,mean,9,-0.000663
+12,134,import_price_markup,Interest rate,mean,10,0.005321
+12,134,import_price_markup,Interest rate,mean,11,0.007316
+12,134,import_price_markup,Interest rate,mean,12,0.007316
+12,134,import_price_markup,Interest rate,mean,13,0.007316
+12,134,import_price_markup,Interest rate,mean,14,0.006645
+12,134,import_price_markup,Interest rate,mean,15,0.005983
+12,134,import_price_markup,Interest rate,mean,16,0.005983
+12,134,import_price_markup,Interest rate,mean,17,0.005983
+12,134,import_price_markup,Interest rate,mean,18,0.005321
+12,134,import_price_markup,Interest rate,mean,19,0.005321
+12,134,import_price_markup,Interest rate,mean,20,0.005321
+12,134,import_price_markup,Interest rate,hpd70_lower,1,0.123669
+12,134,import_price_markup,Interest rate,hpd70_lower,2,0.180182
+12,134,import_price_markup,Interest rate,hpd70_lower,3,0.194815
+12,134,import_price_markup,Interest rate,hpd70_lower,4,0.066486
+12,134,import_price_markup,Interest rate,hpd70_lower,5,-0.017953
+12,134,import_price_markup,Interest rate,hpd70_lower,6,-0.039894
+12,134,import_price_markup,Interest rate,hpd70_lower,7,-0.029921
+12,134,import_price_markup,Interest rate,hpd70_lower,8,-0.015296
+12,134,import_price_markup,Interest rate,hpd70_lower,9,-0.003990
+12,134,import_price_markup,Interest rate,hpd70_lower,10,0.001332
+12,134,import_price_markup,Interest rate,hpd70_lower,11,0.003326
+12,134,import_price_markup,Interest rate,hpd70_lower,12,0.003989
+12,134,import_price_markup,Interest rate,hpd70_lower,13,0.003989
+12,134,import_price_markup,Interest rate,hpd70_lower,14,0.003989
+12,134,import_price_markup,Interest rate,hpd70_lower,15,0.003989
+12,134,import_price_markup,Interest rate,hpd70_lower,16,0.003989
+12,134,import_price_markup,Interest rate,hpd70_lower,17,0.003989
+12,134,import_price_markup,Interest rate,hpd70_lower,18,0.003989
+12,134,import_price_markup,Interest rate,hpd70_lower,19,0.003989
+12,134,import_price_markup,Interest rate,hpd70_lower,20,0.003989
+12,134,import_price_markup,Interest rate,hpd70_upper,1,0.160236
+12,134,import_price_markup,Interest rate,hpd70_upper,2,0.238698
+12,134,import_price_markup,Interest rate,hpd70_upper,3,0.263959
+12,134,import_price_markup,Interest rate,hpd70_upper,4,0.119018
+12,134,import_price_markup,Interest rate,hpd70_upper,5,0.014624
+12,134,import_price_markup,Interest rate,hpd70_upper,6,-0.018615
+12,134,import_price_markup,Interest rate,hpd70_upper,7,-0.019285
+12,134,import_price_markup,Interest rate,hpd70_upper,8,-0.007980
+12,134,import_price_markup,Interest rate,hpd70_upper,9,0.001994
+12,134,import_price_markup,Interest rate,hpd70_upper,10,0.007978
+12,134,import_price_markup,Interest rate,hpd70_upper,11,0.009973
+12,134,import_price_markup,Interest rate,hpd70_upper,12,0.009310
+12,134,import_price_markup,Interest rate,hpd70_upper,13,0.008640
+12,134,import_price_markup,Interest rate,hpd70_upper,14,0.007978
+12,134,import_price_markup,Interest rate,hpd70_upper,15,0.007316
+12,134,import_price_markup,Interest rate,hpd70_upper,16,0.006645
+12,134,import_price_markup,Interest rate,hpd70_upper,17,0.006645
+12,134,import_price_markup,Interest rate,hpd70_upper,18,0.005983
+12,134,import_price_markup,Interest rate,hpd70_upper,19,0.005983
+12,134,import_price_markup,Interest rate,hpd70_upper,20,0.005983
+12,134,import_price_markup,Interest rate,hpd90_lower,1,0.095082
+12,134,import_price_markup,Interest rate,hpd90_lower,2,0.138294
+12,134,import_price_markup,Interest rate,hpd90_lower,3,0.148268
+12,134,import_price_markup,Interest rate,hpd90_lower,4,0.039893
+12,134,import_price_markup,Interest rate,hpd90_lower,5,-0.041227
+12,134,import_price_markup,Interest rate,hpd90_lower,6,-0.062498
+12,134,import_price_markup,Interest rate,hpd90_lower,7,-0.045216
+12,134,import_price_markup,Interest rate,hpd90_lower,8,-0.021280
+12,134,import_price_markup,Interest rate,hpd90_lower,9,-0.008642
+12,134,import_price_markup,Interest rate,hpd90_lower,10,-0.003328
+12,134,import_price_markup,Interest rate,hpd90_lower,11,-0.000001
+12,134,import_price_markup,Interest rate,hpd90_lower,12,0.001332
+12,134,import_price_markup,Interest rate,hpd90_lower,13,0.001994
+12,134,import_price_markup,Interest rate,hpd90_lower,14,0.002656
+12,134,import_price_markup,Interest rate,hpd90_lower,15,0.002656
+12,134,import_price_markup,Interest rate,hpd90_lower,16,0.002656
+12,134,import_price_markup,Interest rate,hpd90_lower,17,0.002656
+12,134,import_price_markup,Interest rate,hpd90_lower,18,0.002656
+12,134,import_price_markup,Interest rate,hpd90_lower,19,0.002656
+12,134,import_price_markup,Interest rate,hpd90_lower,20,0.002656
+12,134,import_price_markup,Interest rate,hpd90_upper,1,0.194815
+12,134,import_price_markup,Interest rate,hpd90_upper,2,0.286571
+12,134,import_price_markup,Interest rate,hpd90_upper,3,0.319148
+12,134,import_price_markup,Interest rate,hpd90_upper,4,0.168214
+12,134,import_price_markup,Interest rate,hpd90_upper,5,0.054518
+12,134,import_price_markup,Interest rate,hpd90_upper,6,-0.003990
+12,134,import_price_markup,Interest rate,hpd90_upper,7,-0.012631
+12,134,import_price_markup,Interest rate,hpd90_upper,8,-0.003328
+12,134,import_price_markup,Interest rate,hpd90_upper,9,0.007316
+12,134,import_price_markup,Interest rate,hpd90_upper,10,0.013962
+12,134,import_price_markup,Interest rate,hpd90_upper,11,0.015957
+12,134,import_price_markup,Interest rate,hpd90_upper,12,0.015957
+12,134,import_price_markup,Interest rate,hpd90_upper,13,0.013962
+12,134,import_price_markup,Interest rate,hpd90_upper,14,0.012630
+12,134,import_price_markup,Interest rate,hpd90_upper,15,0.010635
+12,134,import_price_markup,Interest rate,hpd90_upper,16,0.009973
+12,134,import_price_markup,Interest rate,hpd90_upper,17,0.009310
+12,134,import_price_markup,Interest rate,hpd90_upper,18,0.009310
+12,134,import_price_markup,Interest rate,hpd90_upper,19,0.008640
+12,134,import_price_markup,Interest rate,hpd90_upper,20,0.007978
+12,134,import_price_markup,Real wage,mean,1,-0.315424
+12,134,import_price_markup,Real wage,mean,2,-0.171145
+12,134,import_price_markup,Real wage,mean,3,-0.079390
+12,134,import_price_markup,Real wage,mean,4,-0.048807
+12,134,import_price_markup,Real wage,mean,5,-0.042823
+12,134,import_price_markup,Real wage,mean,6,-0.041491
+12,134,import_price_markup,Real wage,mean,7,-0.038164
+12,134,import_price_markup,Real wage,mean,8,-0.032850
+12,134,import_price_markup,Real wage,mean,9,-0.027528
+12,134,import_price_markup,Real wage,mean,10,-0.023539
+12,134,import_price_markup,Real wage,mean,11,-0.020212
+12,134,import_price_markup,Real wage,mean,12,-0.017555
+12,134,import_price_markup,Real wage,mean,13,-0.015560
+12,134,import_price_markup,Real wage,mean,14,-0.014228
+12,134,import_price_markup,Real wage,mean,15,-0.013565
+12,134,import_price_markup,Real wage,mean,16,-0.012903
+12,134,import_price_markup,Real wage,mean,17,-0.012233
+12,134,import_price_markup,Real wage,mean,18,-0.011571
+12,134,import_price_markup,Real wage,mean,19,-0.010908
+12,134,import_price_markup,Real wage,mean,20,-0.010238
+12,134,import_price_markup,Real wage,hpd70_lower,1,-0.349334
+12,134,import_price_markup,Real wage,hpd70_lower,2,-0.199733
+12,134,import_price_markup,Real wage,hpd70_lower,3,-0.096009
+12,134,import_price_markup,Real wage,hpd70_lower,4,-0.056116
+12,134,import_price_markup,Real wage,hpd70_lower,5,-0.046813
+12,134,import_price_markup,Real wage,hpd70_lower,6,-0.046142
+12,134,import_price_markup,Real wage,hpd70_lower,7,-0.042153
+12,134,import_price_markup,Real wage,hpd70_lower,8,-0.038164
+12,134,import_price_markup,Real wage,hpd70_lower,9,-0.032180
+12,134,import_price_markup,Real wage,hpd70_lower,10,-0.026866
+12,134,import_price_markup,Real wage,hpd70_lower,11,-0.022877
+12,134,import_price_markup,Real wage,hpd70_lower,12,-0.020212
+12,134,import_price_markup,Real wage,hpd70_lower,13,-0.018217
+12,134,import_price_markup,Real wage,hpd70_lower,14,-0.016893
+12,134,import_price_markup,Real wage,hpd70_lower,15,-0.015560
+12,134,import_price_markup,Real wage,hpd70_lower,16,-0.014228
+12,134,import_price_markup,Real wage,hpd70_lower,17,-0.013565
+12,134,import_price_markup,Real wage,hpd70_lower,18,-0.013565
+12,134,import_price_markup,Real wage,hpd70_lower,19,-0.012903
+12,134,import_price_markup,Real wage,hpd70_lower,20,-0.012233
+12,134,import_price_markup,Real wage,hpd70_upper,1,-0.284179
+12,134,import_price_markup,Real wage,hpd70_upper,2,-0.133246
+12,134,import_price_markup,Real wage,hpd70_upper,3,-0.052127
+12,134,import_price_markup,Real wage,hpd70_upper,4,-0.030185
+12,134,import_price_markup,Real wage,hpd70_upper,5,-0.030185
+12,134,import_price_markup,Real wage,hpd70_upper,6,-0.031518
+12,134,import_price_markup,Real wage,hpd70_upper,7,-0.028190
+12,134,import_price_markup,Real wage,hpd70_upper,8,-0.023539
+12,134,import_price_markup,Real wage,hpd70_upper,9,-0.019549
+12,134,import_price_markup,Real wage,hpd70_upper,10,-0.016222
+12,134,import_price_markup,Real wage,hpd70_upper,11,-0.014228
+12,134,import_price_markup,Real wage,hpd70_upper,12,-0.012233
+12,134,import_price_markup,Real wage,hpd70_upper,13,-0.011571
+12,134,import_price_markup,Real wage,hpd70_upper,14,-0.010238
+12,134,import_price_markup,Real wage,hpd70_upper,15,-0.009576
+12,134,import_price_markup,Real wage,hpd70_upper,16,-0.008914
+12,134,import_price_markup,Real wage,hpd70_upper,17,-0.008914
+12,134,import_price_markup,Real wage,hpd70_upper,18,-0.008244
+12,134,import_price_markup,Real wage,hpd70_upper,19,-0.008244
+12,134,import_price_markup,Real wage,hpd70_upper,20,-0.007581
+12,134,import_price_markup,Real wage,hpd90_lower,1,-0.401195
+12,134,import_price_markup,Real wage,hpd90_lower,2,-0.248275
+12,134,import_price_markup,Real wage,hpd90_lower,3,-0.141225
+12,134,import_price_markup,Real wage,hpd90_lower,4,-0.089363
+12,134,import_price_markup,Real wage,hpd90_lower,5,-0.070079
+12,134,import_price_markup,Real wage,hpd90_lower,6,-0.062770
+12,134,import_price_markup,Real wage,hpd90_lower,7,-0.056786
+12,134,import_price_markup,Real wage,hpd90_lower,8,-0.050802
+12,134,import_price_markup,Real wage,hpd90_lower,9,-0.043486
+12,134,import_price_markup,Real wage,hpd90_lower,10,-0.037502
+12,134,import_price_markup,Real wage,hpd90_lower,11,-0.032850
+12,134,import_price_markup,Real wage,hpd90_lower,12,-0.028861
+12,134,import_price_markup,Real wage,hpd90_lower,13,-0.026196
+12,134,import_price_markup,Real wage,hpd90_lower,14,-0.023539
+12,134,import_price_markup,Real wage,hpd90_lower,15,-0.021544
+12,134,import_price_markup,Real wage,hpd90_lower,16,-0.020212
+12,134,import_price_markup,Real wage,hpd90_lower,17,-0.018887
+12,134,import_price_markup,Real wage,hpd90_lower,18,-0.018217
+12,134,import_price_markup,Real wage,hpd90_lower,19,-0.017555
+12,134,import_price_markup,Real wage,hpd90_lower,20,-0.016222
+12,134,import_price_markup,Real wage,hpd90_upper,1,-0.232980
+12,134,import_price_markup,Real wage,hpd90_upper,2,-0.099999
+12,134,import_price_markup,Real wage,hpd90_upper,3,-0.026196
+12,134,import_price_markup,Real wage,hpd90_upper,4,-0.018217
+12,134,import_price_markup,Real wage,hpd90_upper,5,-0.022206
+12,134,import_price_markup,Real wage,hpd90_upper,6,-0.024201
+12,134,import_price_markup,Real wage,hpd90_upper,7,-0.022206
+12,134,import_price_markup,Real wage,hpd90_upper,8,-0.017555
+12,134,import_price_markup,Real wage,hpd90_upper,9,-0.013565
+12,134,import_price_markup,Real wage,hpd90_upper,10,-0.011571
+12,134,import_price_markup,Real wage,hpd90_upper,11,-0.009576
+12,134,import_price_markup,Real wage,hpd90_upper,12,-0.008244
+12,134,import_price_markup,Real wage,hpd90_upper,13,-0.007581
+12,134,import_price_markup,Real wage,hpd90_upper,14,-0.006919
+12,134,import_price_markup,Real wage,hpd90_upper,15,-0.006919
+12,134,import_price_markup,Real wage,hpd90_upper,16,-0.006919
+12,134,import_price_markup,Real wage,hpd90_upper,17,-0.006919
+12,134,import_price_markup,Real wage,hpd90_upper,18,-0.006249
+12,134,import_price_markup,Real wage,hpd90_upper,19,-0.006249
+12,134,import_price_markup,Real wage,hpd90_upper,20,-0.005587
+12,134,import_price_markup,Real exchange rate,mean,1,-0.043754
+12,134,import_price_markup,Real exchange rate,mean,2,-0.127530
+12,134,import_price_markup,Real exchange rate,mean,3,-0.140160
+12,134,import_price_markup,Real exchange rate,mean,4,-0.071679
+12,134,import_price_markup,Real exchange rate,mean,5,0.008108
+12,134,import_price_markup,Real exchange rate,mean,6,0.058645
+12,134,import_price_markup,Real exchange rate,mean,7,0.075927
+12,134,import_price_markup,Real exchange rate,mean,8,0.070613
+12,134,import_price_markup,Real exchange rate,mean,9,0.057313
+12,134,import_price_markup,Real exchange rate,mean,10,0.042688
+12,134,import_price_markup,Real exchange rate,mean,11,0.030049
+12,134,import_price_markup,Real exchange rate,mean,12,0.020746
+12,134,import_price_markup,Real exchange rate,mean,13,0.014092
+12,134,import_price_markup,Real exchange rate,mean,14,0.009440
+12,134,import_price_markup,Real exchange rate,mean,15,0.006113
+12,134,import_price_markup,Real exchange rate,mean,16,0.003456
+12,134,import_price_markup,Real exchange rate,mean,17,0.001462
+12,134,import_price_markup,Real exchange rate,mean,18,-0.000533
+12,134,import_price_markup,Real exchange rate,mean,19,-0.001865
+12,134,import_price_markup,Real exchange rate,mean,20,-0.002528
+12,134,import_price_markup,Real exchange rate,hpd70_lower,1,-0.061036
+12,134,import_price_markup,Real exchange rate,hpd70_lower,2,-0.152129
+12,134,import_price_markup,Real exchange rate,hpd70_lower,3,-0.169418
+12,134,import_price_markup,Real exchange rate,hpd70_lower,4,-0.094945
+12,134,import_price_markup,Real exchange rate,hpd70_lower,5,-0.002528
+12,134,import_price_markup,Real exchange rate,hpd70_lower,6,0.048672
+12,134,import_price_markup,Real exchange rate,hpd70_lower,7,0.061964
+12,134,import_price_markup,Real exchange rate,hpd70_lower,8,0.055318
+12,134,import_price_markup,Real exchange rate,hpd70_lower,9,0.042017
+12,134,import_price_markup,Real exchange rate,hpd70_lower,10,0.028055
+12,134,import_price_markup,Real exchange rate,hpd70_lower,11,0.018752
+12,134,import_price_markup,Real exchange rate,hpd70_lower,12,0.012097
+12,134,import_price_markup,Real exchange rate,hpd70_lower,13,0.007446
+12,134,import_price_markup,Real exchange rate,hpd70_lower,14,0.004119
+12,134,import_price_markup,Real exchange rate,hpd70_lower,15,0.001462
+12,134,import_price_markup,Real exchange rate,hpd70_lower,16,-0.000533
+12,134,import_price_markup,Real exchange rate,hpd70_lower,17,-0.001865
+12,134,import_price_markup,Real exchange rate,hpd70_lower,18,-0.003190
+12,134,import_price_markup,Real exchange rate,hpd70_lower,19,-0.003860
+12,134,import_price_markup,Real exchange rate,hpd70_lower,20,-0.004522
+12,134,import_price_markup,Real exchange rate,hpd70_upper,1,-0.023807
+12,134,import_price_markup,Real exchange rate,hpd70_upper,2,-0.091626
+12,134,import_price_markup,Real exchange rate,hpd70_upper,3,-0.098272
+12,134,import_price_markup,Real exchange rate,hpd70_upper,4,-0.036437
+12,134,import_price_markup,Real exchange rate,hpd70_upper,5,0.028725
+12,134,import_price_markup,Real exchange rate,hpd70_upper,6,0.067948
+12,134,import_price_markup,Real exchange rate,hpd70_upper,7,0.085238
+12,134,import_price_markup,Real exchange rate,hpd70_upper,8,0.083244
+12,134,import_price_markup,Real exchange rate,hpd70_upper,9,0.067948
+12,134,import_price_markup,Real exchange rate,hpd70_upper,10,0.051329
+12,134,import_price_markup,Real exchange rate,hpd70_upper,11,0.036033
+12,134,import_price_markup,Real exchange rate,hpd70_upper,12,0.024736
+12,134,import_price_markup,Real exchange rate,hpd70_upper,13,0.017419
+12,134,import_price_markup,Real exchange rate,hpd70_upper,14,0.012097
+12,134,import_price_markup,Real exchange rate,hpd70_upper,15,0.008778
+12,134,import_price_markup,Real exchange rate,hpd70_upper,16,0.006113
+12,134,import_price_markup,Real exchange rate,hpd70_upper,17,0.003456
+12,134,import_price_markup,Real exchange rate,hpd70_upper,18,0.002124
+12,134,import_price_markup,Real exchange rate,hpd70_upper,19,0.000129
+12,134,import_price_markup,Real exchange rate,hpd70_upper,20,-0.000533
+12,134,import_price_markup,Real exchange rate,hpd90_lower,1,-0.093621
+12,134,import_price_markup,Real exchange rate,hpd90_lower,2,-0.209312
+12,134,import_price_markup,Real exchange rate,hpd90_lower,3,-0.231916
+12,134,import_price_markup,Real exchange rate,hpd90_lower,4,-0.148139
+12,134,import_price_markup,Real exchange rate,hpd90_lower,5,-0.040427
+12,134,import_price_markup,Real exchange rate,hpd90_lower,6,0.034039
+12,134,import_price_markup,Real exchange rate,hpd90_lower,7,0.046007
+12,134,import_price_markup,Real exchange rate,hpd90_lower,8,0.038698
+12,134,import_price_markup,Real exchange rate,hpd90_lower,9,0.027393
+12,134,import_price_markup,Real exchange rate,hpd90_lower,10,0.017419
+12,134,import_price_markup,Real exchange rate,hpd90_lower,11,0.009440
+12,134,import_price_markup,Real exchange rate,hpd90_lower,12,0.004789
+12,134,import_price_markup,Real exchange rate,hpd90_lower,13,0.002124
+12,134,import_price_markup,Real exchange rate,hpd90_lower,14,-0.000533
+12,134,import_price_markup,Real exchange rate,hpd90_lower,15,-0.002528
+12,134,import_price_markup,Real exchange rate,hpd90_lower,16,-0.004522
+12,134,import_price_markup,Real exchange rate,hpd90_lower,17,-0.005855
+12,134,import_price_markup,Real exchange rate,hpd90_lower,18,-0.006517
+12,134,import_price_markup,Real exchange rate,hpd90_lower,19,-0.007179
+12,134,import_price_markup,Real exchange rate,hpd90_lower,20,-0.007849
+12,134,import_price_markup,Real exchange rate,hpd90_upper,1,0.001462
+12,134,import_price_markup,Real exchange rate,hpd90_upper,2,-0.056384
+12,134,import_price_markup,Real exchange rate,hpd90_upper,3,-0.059711
+12,134,import_price_markup,Real exchange rate,hpd90_upper,4,-0.009174
+12,134,import_price_markup,Real exchange rate,hpd90_upper,5,0.045345
+12,134,import_price_markup,Real exchange rate,hpd90_upper,6,0.087233
+12,134,import_price_markup,Real exchange rate,hpd90_upper,7,0.107180
+12,134,import_price_markup,Real exchange rate,hpd90_upper,8,0.105847
+12,134,import_price_markup,Real exchange rate,hpd90_upper,9,0.091222
+12,134,import_price_markup,Real exchange rate,hpd90_upper,10,0.071938
+12,134,import_price_markup,Real exchange rate,hpd90_upper,11,0.052661
+12,134,import_price_markup,Real exchange rate,hpd90_upper,12,0.038698
+12,134,import_price_markup,Real exchange rate,hpd90_upper,13,0.030049
+12,134,import_price_markup,Real exchange rate,hpd90_upper,14,0.022071
+12,134,import_price_markup,Real exchange rate,hpd90_upper,15,0.016757
+12,134,import_price_markup,Real exchange rate,hpd90_upper,16,0.012768
+12,134,import_price_markup,Real exchange rate,hpd90_upper,17,0.009440
+12,134,import_price_markup,Real exchange rate,hpd90_upper,18,0.006784
+12,134,import_price_markup,Real exchange rate,hpd90_upper,19,0.004789
+12,134,import_price_markup,Real exchange rate,hpd90_upper,20,0.002794
+12,134,import_price_markup,CPI inflation,mean,1,0.327125
+12,134,import_price_markup,CPI inflation,mean,2,-0.023939
+12,134,import_price_markup,CPI inflation,mean,3,-0.103726
+12,134,import_price_markup,CPI inflation,mean,4,-0.065827
+12,134,import_price_markup,CPI inflation,mean,5,-0.021274
+12,134,import_price_markup,CPI inflation,mean,6,0.001992
+12,134,import_price_markup,CPI inflation,mean,7,0.007976
+12,134,import_price_markup,CPI inflation,mean,8,0.006652
+12,134,import_price_markup,CPI inflation,mean,9,0.004657
+12,134,import_price_markup,CPI inflation,mean,10,0.002662
+12,134,import_price_markup,CPI inflation,mean,11,0.001330
+12,134,import_price_markup,CPI inflation,mean,12,0.001330
+12,134,import_price_markup,CPI inflation,mean,13,0.001330
+12,134,import_price_markup,CPI inflation,mean,14,0.001330
+12,134,import_price_markup,CPI inflation,mean,15,0.001330
+12,134,import_price_markup,CPI inflation,mean,16,0.001330
+12,134,import_price_markup,CPI inflation,mean,17,0.001330
+12,134,import_price_markup,CPI inflation,mean,18,0.001330
+12,134,import_price_markup,CPI inflation,mean,19,0.001330
+12,134,import_price_markup,CPI inflation,mean,20,0.001330
+12,134,import_price_markup,CPI inflation,hpd70_lower,1,0.291221
+12,134,import_price_markup,CPI inflation,hpd70_lower,2,-0.043215
+12,134,import_price_markup,CPI inflation,hpd70_lower,3,-0.117018
+12,134,import_price_markup,CPI inflation,hpd70_lower,4,-0.075130
+12,134,import_price_markup,CPI inflation,hpd70_lower,5,-0.027258
+12,134,import_price_markup,CPI inflation,hpd70_lower,6,-0.001327
+12,134,import_price_markup,CPI inflation,hpd70_lower,7,0.005319
+12,134,import_price_markup,CPI inflation,hpd70_lower,8,0.004657
+12,134,import_price_markup,CPI inflation,hpd70_lower,9,0.002662
+12,134,import_price_markup,CPI inflation,hpd70_lower,10,0.001330
+12,134,import_price_markup,CPI inflation,hpd70_lower,11,0.000668
+12,134,import_price_markup,CPI inflation,hpd70_lower,12,0.000668
+12,134,import_price_markup,CPI inflation,hpd70_lower,13,0.000668
+12,134,import_price_markup,CPI inflation,hpd70_lower,14,0.000668
+12,134,import_price_markup,CPI inflation,hpd70_lower,15,0.000668
+12,134,import_price_markup,CPI inflation,hpd70_lower,16,0.000668
+12,134,import_price_markup,CPI inflation,hpd70_lower,17,0.000668
+12,134,import_price_markup,CPI inflation,hpd70_lower,18,0.000668
+12,134,import_price_markup,CPI inflation,hpd70_lower,19,0.000668
+12,134,import_price_markup,CPI inflation,hpd70_lower,20,0.000668
+12,134,import_price_markup,CPI inflation,hpd70_upper,1,0.363029
+12,134,import_price_markup,CPI inflation,hpd70_upper,2,-0.003322
+12,134,import_price_markup,CPI inflation,hpd70_upper,3,-0.090425
+12,134,import_price_markup,CPI inflation,hpd70_upper,4,-0.054521
+12,134,import_price_markup,CPI inflation,hpd70_upper,5,-0.012633
+12,134,import_price_markup,CPI inflation,hpd70_upper,6,0.006652
+12,134,import_price_markup,CPI inflation,hpd70_upper,7,0.010641
+12,134,import_price_markup,CPI inflation,hpd70_upper,8,0.007976
+12,134,import_price_markup,CPI inflation,hpd70_upper,9,0.005319
+12,134,import_price_markup,CPI inflation,hpd70_upper,10,0.003325
+12,134,import_price_markup,CPI inflation,hpd70_upper,11,0.001992
+12,134,import_price_markup,CPI inflation,hpd70_upper,12,0.001330
+12,134,import_price_markup,CPI inflation,hpd70_upper,13,0.001330
+12,134,import_price_markup,CPI inflation,hpd70_upper,14,0.001330
+12,134,import_price_markup,CPI inflation,hpd70_upper,15,0.001330
+12,134,import_price_markup,CPI inflation,hpd70_upper,16,0.001330
+12,134,import_price_markup,CPI inflation,hpd70_upper,17,0.001330
+12,134,import_price_markup,CPI inflation,hpd70_upper,18,0.001330
+12,134,import_price_markup,CPI inflation,hpd70_upper,19,0.001330
+12,134,import_price_markup,CPI inflation,hpd70_upper,20,0.001330
+12,134,import_price_markup,CPI inflation,hpd90_lower,1,0.237364
+12,134,import_price_markup,CPI inflation,hpd90_lower,2,-0.077125
+12,134,import_price_markup,CPI inflation,hpd90_lower,3,-0.138960
+12,134,import_price_markup,CPI inflation,hpd90_lower,4,-0.091087
+12,134,import_price_markup,CPI inflation,hpd90_lower,5,-0.041220
+12,134,import_price_markup,CPI inflation,hpd90_lower,6,-0.009976
+12,134,import_price_markup,CPI inflation,hpd90_lower,7,0.001992
+12,134,import_price_markup,CPI inflation,hpd90_lower,8,0.002662
+12,134,import_price_markup,CPI inflation,hpd90_lower,9,0.001330
+12,134,import_price_markup,CPI inflation,hpd90_lower,10,0.000668
+12,134,import_price_markup,CPI inflation,hpd90_lower,11,0.000668
+12,134,import_price_markup,CPI inflation,hpd90_lower,12,0.000668
+12,134,import_price_markup,CPI inflation,hpd90_lower,13,0.000668
+12,134,import_price_markup,CPI inflation,hpd90_lower,14,0.000668
+12,134,import_price_markup,CPI inflation,hpd90_lower,15,0.000668
+12,134,import_price_markup,CPI inflation,hpd90_lower,16,0.000668
+12,134,import_price_markup,CPI inflation,hpd90_lower,17,0.000668
+12,134,import_price_markup,CPI inflation,hpd90_lower,18,0.000668
+12,134,import_price_markup,CPI inflation,hpd90_lower,19,0.000668
+12,134,import_price_markup,CPI inflation,hpd90_lower,20,0.000668
+12,134,import_price_markup,CPI inflation,hpd90_upper,1,0.414891
+12,134,import_price_markup,CPI inflation,hpd90_upper,2,0.029256
+12,134,import_price_markup,CPI inflation,hpd90_upper,3,-0.069816
+12,134,import_price_markup,CPI inflation,hpd90_upper,4,-0.041220
+12,134,import_price_markup,CPI inflation,hpd90_upper,5,-0.003992
+12,134,import_price_markup,CPI inflation,hpd90_upper,6,0.011303
+12,134,import_price_markup,CPI inflation,hpd90_upper,7,0.015293
+12,134,import_price_markup,CPI inflation,hpd90_upper,8,0.011966
+12,134,import_price_markup,CPI inflation,hpd90_upper,9,0.007976
+12,134,import_price_markup,CPI inflation,hpd90_upper,10,0.004657
+12,134,import_price_markup,CPI inflation,hpd90_upper,11,0.003325
+12,134,import_price_markup,CPI inflation,hpd90_upper,12,0.001992
+12,134,import_price_markup,CPI inflation,hpd90_upper,13,0.001992
+12,134,import_price_markup,CPI inflation,hpd90_upper,14,0.001992
+12,134,import_price_markup,CPI inflation,hpd90_upper,15,0.001992
+12,134,import_price_markup,CPI inflation,hpd90_upper,16,0.001992
+12,134,import_price_markup,CPI inflation,hpd90_upper,17,0.001992
+12,134,import_price_markup,CPI inflation,hpd90_upper,18,0.001992
+12,134,import_price_markup,CPI inflation,hpd90_upper,19,0.001992
+12,134,import_price_markup,CPI inflation,hpd90_upper,20,0.001992
+12,134,import_price_markup,Domestic inflation,mean,1,0.031782
+12,134,import_price_markup,Domestic inflation,mean,2,0.033909
+12,134,import_price_markup,Domestic inflation,mean,3,0.014827
+12,134,import_price_markup,Domestic inflation,mean,4,0.000997
+12,134,import_price_markup,Domestic inflation,mean,5,-0.000998
+12,134,import_price_markup,Domestic inflation,mean,6,0.003258
+12,134,import_price_markup,Domestic inflation,mean,7,0.007713
+12,134,import_price_markup,Domestic inflation,mean,8,0.009641
+12,134,import_price_markup,Domestic inflation,mean,9,0.009375
+12,134,import_price_markup,Domestic inflation,mean,10,0.007846
+12,134,import_price_markup,Domestic inflation,mean,11,0.006117
+12,134,import_price_markup,Domestic inflation,mean,12,0.004655
+12,134,import_price_markup,Domestic inflation,mean,13,0.003590
+12,134,import_price_markup,Domestic inflation,mean,14,0.002926
+12,134,import_price_markup,Domestic inflation,mean,15,0.002460
+12,134,import_price_markup,Domestic inflation,mean,16,0.002128
+12,134,import_price_markup,Domestic inflation,mean,17,0.001928
+12,134,import_price_markup,Domestic inflation,mean,18,0.001795
+12,134,import_price_markup,Domestic inflation,mean,19,0.001663
+12,134,import_price_markup,Domestic inflation,mean,20,0.001529
+12,134,import_price_markup,Domestic inflation,hpd70_lower,1,0.026463
+12,134,import_price_markup,Domestic inflation,hpd70_lower,2,0.027660
+12,134,import_price_markup,Domestic inflation,hpd70_lower,3,0.011702
+12,134,import_price_markup,Domestic inflation,hpd70_lower,4,-0.001197
+12,134,import_price_markup,Domestic inflation,hpd70_lower,5,-0.002660
+12,134,import_price_markup,Domestic inflation,hpd70_lower,6,0.001862
+12,134,import_price_markup,Domestic inflation,hpd70_lower,7,0.005918
+12,134,import_price_markup,Domestic inflation,hpd70_lower,8,0.007779
+12,134,import_price_markup,Domestic inflation,hpd70_lower,9,0.007314
+12,134,import_price_markup,Domestic inflation,hpd70_lower,10,0.005918
+12,134,import_price_markup,Domestic inflation,hpd70_lower,11,0.004455
+12,134,import_price_markup,Domestic inflation,hpd70_lower,12,0.003324
+12,134,import_price_markup,Domestic inflation,hpd70_lower,13,0.002527
+12,134,import_price_markup,Domestic inflation,hpd70_lower,14,0.002061
+12,134,import_price_markup,Domestic inflation,hpd70_lower,15,0.001729
+12,134,import_price_markup,Domestic inflation,hpd70_lower,16,0.001529
+12,134,import_price_markup,Domestic inflation,hpd70_lower,17,0.001396
+12,134,import_price_markup,Domestic inflation,hpd70_lower,18,0.001264
+12,134,import_price_markup,Domestic inflation,hpd70_lower,19,0.001197
+12,134,import_price_markup,Domestic inflation,hpd70_lower,20,0.001130
+12,134,import_price_markup,Domestic inflation,hpd70_upper,1,0.035505
+12,134,import_price_markup,Domestic inflation,hpd70_upper,2,0.037699
+12,134,import_price_markup,Domestic inflation,hpd70_upper,3,0.016689
+12,134,import_price_markup,Domestic inflation,hpd70_upper,4,0.003989
+12,134,import_price_markup,Domestic inflation,hpd70_upper,5,0.001795
+12,134,import_price_markup,Domestic inflation,hpd70_upper,6,0.005186
+12,134,import_price_markup,Domestic inflation,hpd70_upper,7,0.008910
+12,134,import_price_markup,Domestic inflation,hpd70_upper,8,0.010838
+12,134,import_price_markup,Domestic inflation,hpd70_upper,9,0.010572
+12,134,import_price_markup,Domestic inflation,hpd70_upper,10,0.008843
+12,134,import_price_markup,Domestic inflation,hpd70_upper,11,0.007114
+12,134,import_price_markup,Domestic inflation,hpd70_upper,12,0.005385
+12,134,import_price_markup,Domestic inflation,hpd70_upper,13,0.004056
+12,134,import_price_markup,Domestic inflation,hpd70_upper,14,0.003191
+12,134,import_price_markup,Domestic inflation,hpd70_upper,15,0.002726
+12,134,import_price_markup,Domestic inflation,hpd70_upper,16,0.002393
+12,134,import_price_markup,Domestic inflation,hpd70_upper,17,0.002194
+12,134,import_price_markup,Domestic inflation,hpd70_upper,18,0.002061
+12,134,import_price_markup,Domestic inflation,hpd70_upper,19,0.001928
+12,134,import_price_markup,Domestic inflation,hpd70_upper,20,0.001795
+12,134,import_price_markup,Domestic inflation,hpd90_lower,1,0.020878
+12,134,import_price_markup,Domestic inflation,hpd90_lower,2,0.021809
+12,134,import_price_markup,Domestic inflation,hpd90_lower,3,0.007912
+12,134,import_price_markup,Domestic inflation,hpd90_lower,4,-0.005984
+12,134,import_price_markup,Domestic inflation,hpd90_lower,5,-0.007580
+12,134,import_price_markup,Domestic inflation,hpd90_lower,6,-0.001728
+12,134,import_price_markup,Domestic inflation,hpd90_lower,7,0.004122
+12,134,import_price_markup,Domestic inflation,hpd90_lower,8,0.005851
+12,134,import_price_markup,Domestic inflation,hpd90_lower,9,0.005452
+12,134,import_price_markup,Domestic inflation,hpd90_lower,10,0.004388
+12,134,import_price_markup,Domestic inflation,hpd90_lower,11,0.003191
+12,134,import_price_markup,Domestic inflation,hpd90_lower,12,0.002261
+12,134,import_price_markup,Domestic inflation,hpd90_lower,13,0.001729
+12,134,import_price_markup,Domestic inflation,hpd90_lower,14,0.001396
+12,134,import_price_markup,Domestic inflation,hpd90_lower,15,0.001197
+12,134,import_price_markup,Domestic inflation,hpd90_lower,16,0.001064
+12,134,import_price_markup,Domestic inflation,hpd90_lower,17,0.000997
+12,134,import_price_markup,Domestic inflation,hpd90_lower,18,0.000931
+12,134,import_price_markup,Domestic inflation,hpd90_lower,19,0.000865
+12,134,import_price_markup,Domestic inflation,hpd90_lower,20,0.000798
+12,134,import_price_markup,Domestic inflation,hpd90_upper,1,0.044415
+12,134,import_price_markup,Domestic inflation,hpd90_upper,2,0.047473
+12,134,import_price_markup,Domestic inflation,hpd90_upper,3,0.021875
+12,134,import_price_markup,Domestic inflation,hpd90_upper,4,0.007048
+12,134,import_price_markup,Domestic inflation,hpd90_upper,5,0.004986
+12,134,import_price_markup,Domestic inflation,hpd90_upper,6,0.007779
+12,134,import_price_markup,Domestic inflation,hpd90_upper,7,0.011835
+12,134,import_price_markup,Domestic inflation,hpd90_upper,8,0.013631
+12,134,import_price_markup,Domestic inflation,hpd90_upper,9,0.013564
+12,134,import_price_markup,Domestic inflation,hpd90_upper,10,0.011835
+12,134,import_price_markup,Domestic inflation,hpd90_upper,11,0.009375
+12,134,import_price_markup,Domestic inflation,hpd90_upper,12,0.007248
+12,134,import_price_markup,Domestic inflation,hpd90_upper,13,0.005784
+12,134,import_price_markup,Domestic inflation,hpd90_upper,14,0.004721
+12,134,import_price_markup,Domestic inflation,hpd90_upper,15,0.003857
+12,134,import_price_markup,Domestic inflation,hpd90_upper,16,0.003391
+12,134,import_price_markup,Domestic inflation,hpd90_upper,17,0.003059
+12,134,import_price_markup,Domestic inflation,hpd90_upper,18,0.002792
+12,134,import_price_markup,Domestic inflation,hpd90_upper,19,0.002660
+12,134,import_price_markup,Domestic inflation,hpd90_upper,20,0.002460
+12,134,import_price_markup,Imported inflation,mean,1,0.875997
+12,134,import_price_markup,Imported inflation,mean,2,-0.131316
+12,134,import_price_markup,Imported inflation,mean,3,-0.324141
+12,134,import_price_markup,Imported inflation,mean,4,-0.189500
+12,134,import_price_markup,Imported inflation,mean,5,-0.058171
+12,134,import_price_markup,Imported inflation,mean,6,-0.000006
+12,134,import_price_markup,Imported inflation,mean,7,0.008312
+12,134,import_price_markup,Imported inflation,mean,8,0.001670
+12,134,import_price_markup,Imported inflation,mean,9,-0.004993
+12,134,import_price_markup,Imported inflation,mean,10,-0.008304
+12,134,import_price_markup,Imported inflation,mean,11,-0.006648
+12,134,import_price_markup,Imported inflation,mean,12,-0.004993
+12,134,import_price_markup,Imported inflation,mean,13,-0.003317
+12,134,import_price_markup,Imported inflation,mean,14,-0.001662
+12,134,import_price_markup,Imported inflation,mean,15,-0.001662
+12,134,import_price_markup,Imported inflation,mean,16,-0.000006
+12,134,import_price_markup,Imported inflation,mean,17,-0.000006
+12,134,import_price_markup,Imported inflation,mean,18,-0.000006
+12,134,import_price_markup,Imported inflation,mean,19,-0.000006
+12,134,import_price_markup,Imported inflation,mean,20,-0.000006
+12,134,import_price_markup,Imported inflation,hpd70_lower,1,0.784581
+12,134,import_price_markup,Imported inflation,hpd70_lower,2,-0.187825
+12,134,import_price_markup,Imported inflation,hpd70_lower,3,-0.362359
+12,134,import_price_markup,Imported inflation,hpd70_lower,4,-0.216089
+12,134,import_price_markup,Imported inflation,hpd70_lower,5,-0.074806
+12,134,import_price_markup,Imported inflation,hpd70_lower,6,-0.008304
+12,134,import_price_markup,Imported inflation,hpd70_lower,7,0.001670
+12,134,import_price_markup,Imported inflation,hpd70_lower,8,-0.003317
+12,134,import_price_markup,Imported inflation,hpd70_lower,9,-0.006648
+12,134,import_price_markup,Imported inflation,hpd70_lower,10,-0.008304
+12,134,import_price_markup,Imported inflation,hpd70_lower,11,-0.008304
+12,134,import_price_markup,Imported inflation,hpd70_lower,12,-0.006648
+12,134,import_price_markup,Imported inflation,hpd70_lower,13,-0.004993
+12,134,import_price_markup,Imported inflation,hpd70_lower,14,-0.003317
+12,134,import_price_markup,Imported inflation,hpd70_lower,15,-0.001662
+12,134,import_price_markup,Imported inflation,hpd70_lower,16,-0.000006
+12,134,import_price_markup,Imported inflation,hpd70_lower,17,-0.000006
+12,134,import_price_markup,Imported inflation,hpd70_lower,18,-0.000006
+12,134,import_price_markup,Imported inflation,hpd70_lower,19,-0.000006
+12,134,import_price_markup,Imported inflation,hpd70_lower,20,-0.000006
+12,134,import_price_markup,Imported inflation,hpd70_upper,1,0.967413
+12,134,import_price_markup,Imported inflation,hpd70_upper,2,-0.074806
+12,134,import_price_markup,Imported inflation,hpd70_upper,3,-0.285903
+12,134,import_price_markup,Imported inflation,hpd70_upper,4,-0.157905
+12,134,import_price_markup,Imported inflation,hpd70_upper,5,-0.036568
+12,134,import_price_markup,Imported inflation,hpd70_upper,6,0.011643
+12,134,import_price_markup,Imported inflation,hpd70_upper,7,0.014954
+12,134,import_price_markup,Imported inflation,hpd70_upper,8,0.004981
+12,134,import_price_markup,Imported inflation,hpd70_upper,9,-0.003317
+12,134,import_price_markup,Imported inflation,hpd70_upper,10,-0.004993
+12,134,import_price_markup,Imported inflation,hpd70_upper,11,-0.004993
+12,134,import_price_markup,Imported inflation,hpd70_upper,12,-0.003317
+12,134,import_price_markup,Imported inflation,hpd70_upper,13,-0.001662
+12,134,import_price_markup,Imported inflation,hpd70_upper,14,-0.001662
+12,134,import_price_markup,Imported inflation,hpd70_upper,15,-0.000006
+12,134,import_price_markup,Imported inflation,hpd70_upper,16,-0.000006
+12,134,import_price_markup,Imported inflation,hpd70_upper,17,-0.000006
+12,134,import_price_markup,Imported inflation,hpd70_upper,18,-0.000006
+12,134,import_price_markup,Imported inflation,hpd70_upper,19,0.001670
+12,134,import_price_markup,Imported inflation,hpd70_upper,20,0.001670
+12,134,import_price_markup,Imported inflation,hpd90_lower,1,0.634980
+12,134,import_price_markup,Imported inflation,hpd90_lower,2,-0.284248
+12,134,import_price_markup,Imported inflation,hpd90_lower,3,-0.425531
+12,134,import_price_markup,Imported inflation,hpd90_lower,4,-0.259314
+12,134,import_price_markup,Imported inflation,hpd90_lower,5,-0.114700
+12,134,import_price_markup,Imported inflation,hpd90_lower,6,-0.033237
+12,134,import_price_markup,Imported inflation,hpd90_lower,7,-0.008304
+12,134,import_price_markup,Imported inflation,hpd90_lower,8,-0.006648
+12,134,import_price_markup,Imported inflation,hpd90_lower,9,-0.009979
+12,134,import_price_markup,Imported inflation,hpd90_lower,10,-0.011635
+12,134,import_price_markup,Imported inflation,hpd90_lower,11,-0.011635
+12,134,import_price_markup,Imported inflation,hpd90_lower,12,-0.008304
+12,134,import_price_markup,Imported inflation,hpd90_lower,13,-0.006648
+12,134,import_price_markup,Imported inflation,hpd90_lower,14,-0.004993
+12,134,import_price_markup,Imported inflation,hpd90_lower,15,-0.003317
+12,134,import_price_markup,Imported inflation,hpd90_lower,16,-0.001662
+12,134,import_price_markup,Imported inflation,hpd90_lower,17,-0.001662
+12,134,import_price_markup,Imported inflation,hpd90_lower,18,-0.000006
+12,134,import_price_markup,Imported inflation,hpd90_lower,19,-0.000006
+12,134,import_price_markup,Imported inflation,hpd90_lower,20,-0.000006
+12,134,import_price_markup,Imported inflation,hpd90_upper,1,1.108716
+12,134,import_price_markup,Imported inflation,hpd90_upper,2,0.021616
+12,134,import_price_markup,Imported inflation,hpd90_upper,3,-0.219421
+12,134,import_price_markup,Imported inflation,hpd90_upper,4,-0.121342
+12,134,import_price_markup,Imported inflation,hpd90_upper,5,-0.011635
+12,134,import_price_markup,Imported inflation,hpd90_upper,6,0.024927
+12,134,import_price_markup,Imported inflation,hpd90_upper,7,0.026603
+12,134,import_price_markup,Imported inflation,hpd90_upper,8,0.013299
+12,134,import_price_markup,Imported inflation,hpd90_upper,9,-0.000006
+12,134,import_price_markup,Imported inflation,hpd90_upper,10,-0.003317
+12,134,import_price_markup,Imported inflation,hpd90_upper,11,-0.003317
+12,134,import_price_markup,Imported inflation,hpd90_upper,12,-0.001662
+12,134,import_price_markup,Imported inflation,hpd90_upper,13,-0.000006
+12,134,import_price_markup,Imported inflation,hpd90_upper,14,-0.000006
+12,134,import_price_markup,Imported inflation,hpd90_upper,15,-0.000006
+12,134,import_price_markup,Imported inflation,hpd90_upper,16,0.001670
+12,134,import_price_markup,Imported inflation,hpd90_upper,17,0.001670
+12,134,import_price_markup,Imported inflation,hpd90_upper,18,0.001670
+12,134,import_price_markup,Imported inflation,hpd90_upper,19,0.001670
+12,134,import_price_markup,Imported inflation,hpd90_upper,20,0.001670

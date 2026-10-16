@@ -1,0 +1,335 @@
+code_name,latex_key,kind,meaning,used_with_time_index,first_used_in_eq
+alpha,\alpha,parameter,capital share in production,no,222
+beta,\beta,parameter,household discount factor,no,213
+beta_star,\beta^{*},parameter,foreign discount factor,no,229
+c,\hat{c},endogenous,"private consumption (detrended), log deviation",yes,212
+c_OIL_Delta,"c_{OIL,\Delta}",parameter,oil price lagged-change coefficient,no,290
+c_OIL_m,"c_{OIL,-}",parameter,oil price persistence coefficient,no,290
+c_pistar_DeltaOIL,"c_{\pi^{*},\Delta OIL}",parameter,foreign Phillips curve oil-price change coefficient,no,288
+c_pistar_OIL,"c_{\pi^{*},OIL}",parameter,foreign Phillips curve oil-price level coefficient,no,288
+c_pistar_p,"c_{\pi^{*},+}",parameter,forward-looking weight in foreign Phillips curve,no,288
+c_pistar_y,"c_{\pi^{*},y}",parameter,foreign Phillips curve output coefficient,no,288
+c_rstar_m,"c_{r^{*},-}",parameter,foreign interest-rate smoothing coefficient,no,287
+c_rstar_pi,"c_{r^{*},\pi}",parameter,foreign policy response to inflation gap,no,287
+c_rstar_y,"c_{r^{*},y}",parameter,foreign policy response to output,no,287
+c_ss,c,steady_state,steady-state consumption,no,280
+c_wt_m_star,"c_{wt,-}^{*}",parameter,world imports persistence,no,289
+c_wt_y,"c_{wt,y}",parameter,world imports response to current foreign output,no,289
+c_wt_ym,"c_{wt,y-}",parameter,world imports response to lagged foreign output,no,289
+c_ystar_p,"c_{y^{*},+}",parameter,forward-looking weight in foreign IS curve,no,286
+c_ystar_r,"c_{y^{*},r}",parameter,foreign IS curve real-rate sensitivity,no,286
+CA,CA,other,current account surplus (nominal),no,269
+CA_over_Y,(CA/Y),endogenous,model current-account-to-GDP ratio,yes,269
+chi_E,\chi_{E},parameter,persistence parameter of employment dynamics,no,301
+chi_H,\chi_{H},parameter,price indexation of domestic intermediate goods firms,no,226
+chi_star,\chi^{*},parameter,price indexation of foreign intermediate-goods firms,no,229
+chi_W,\chi_{W},parameter,wage indexation to past CPI inflation,no,221
+chi_W_g_z,"\chi_{W,g_{z}}",parameter,wage indexation to past productivity growth,no,221
+chi_X,\chi_{X},parameter,price indexation of exporters,no,248
+delta,\delta,parameter,capital depreciation rate,no,213
+Delta_C,\Delta{C},observable,per capita real private consumption growth,yes,292
+Delta_EM,\Delta{EM},observable,growth of employees per working-age person,yes,302
+Delta_G,\Delta{G},observable,per capita government consumption growth (excl. defence imports),yes,294
+Delta_I_NI,\Delta{I_{NI}},observable,observed real per-capita fixed investment growth (excluding inventories),yes,293
+Delta_IM,\Delta{IM},observable,"per capita imports growth (excl. defence, ships, aircraft, diamonds)",yes,296
+Delta_N,\Delta{N},observable,growth of hours worked per working-age person,yes,303
+Delta_P_C,\Delta{P_{C}},observable,"CPI inflation (excl. fruit/vegetables; housing excl. 1992-2006), VAT changes deducted",yes,298
+Delta_P_I,\Delta{P_{I}},observable,observed investment-deflator inflation,yes,299
+Delta_P_OIL,\Delta{P_{OIL}},observable,observed change in oil prices,yes,316
+Delta_P_X_NIS,\Delta{P_{X}^{NIS}},observable,export deflator inflation in domestic currency (NIS),yes,311
+Delta_P_Xstar,\Delta{P_{X^{*}}},observable,inflation in foreign competitors' price,yes,310
+Delta_P_Y_M,\Delta{P_{Y}^{M}},observable,"GDP deflator inflation, market prices",yes,297
+Delta_P_Ystar,\Delta{P_{Y^{*}}},observable,observed foreign price inflation (G4 CPI),yes,308
+Delta_S,\Delta{S},endogenous,nominal depreciation,yes,306
+Delta_W,\Delta{W},observable,nominal hourly wage growth,yes,304
+Delta_WT_star,\Delta{WT^{*}},observable,OECD import volume growth (world trade),yes,319
+Delta_X,\Delta{X},observable,"per capita exports growth (excl. diamonds, start-ups)",yes,295
+Delta_Y,\Delta{Y},observable,per capita real GDP growth (observed),yes,291
+Delta_Y_star,\Delta{Y^{*}},observable,G4 real GDP growth (weighted),yes,307
+dinv,\Delta{\widehat{inv}},endogenous,"change in inventories (share of GDP), model deviation",yes,284
+dinv,\hat{\Delta inv},shock_process,"inventory investment (share of GDP), deviation",yes,276
+dinv_ss,\Delta{inv},steady_state,steady-state inventory-change share of GDP,yes,276
+dS,\Delta{\hat{S}},endogenous,"nominal depreciation of the shekel, deviation (policy rule (259))",yes,259
+e,\hat{e},endogenous,"per-capita employment, deviation from HP trend",yes,301
+epsilon,\hat{\epsilon},shock_process,transitory technology shock,yes,222
+epsilon_C,\hat{\epsilon}^{C},shock_process,consumption-demand (preference) shock,yes,212
+epsilon_DRP,\hat{\epsilon}^{DRP},shock_process,"domestic, highly inertial risk-premium shock",yes,216
+epsilon_F,\hat{\epsilon}^{F},shock_process,shock in working-capital interest rate,yes,225
+epsilon_fwd_ob,\hat{\epsilon}_{fwd\_ob},shock_process,observation error in the domestic forward real rate,yes,312
+epsilon_fwd_obstar,\hat{\epsilon}_{fwd\_ob^{*}},shock_process,observation error in the foreign forward nominal rate,yes,318
+epsilon_I,\hat{\epsilon}^{I},shock_process,investment-specific technology shock,yes,214
+epsilon_IM,\hat{\epsilon}^{IM},shock_process,import demand shock (productivity of imported inputs),yes,234
+epsilon_IMstar,\hat{\epsilon}_{IM^{*}},innovation,world import (trade) shock,yes,289
+epsilon_N,\hat{\epsilon}_{N},shock_process,labor-supply shock,yes,220
+epsilon_OB_DPY,\hat{\epsilon}_{OB\_DPY},shock_process,observation error in GDP-deflator inflation,yes,297
+epsilon_OB_E,\hat{\epsilon}_{OB\_E},shock_process,observation shock in the employment equation,yes,301
+epsilon_RP,\hat{\epsilon}^{RP},shock_process,symmetric (common) risk-premium shock,yes,216
+epsilon_RPstar,\hat{\epsilon}^{RP^{*}},shock_process,external risk-premium shock,yes,217
+epsilon_Rstar,\hat{\epsilon}_{R^{*}},innovation,foreign monetary policy shock,yes,287
+epsilon_X,\hat{\epsilon}^{X},shock_process,shock in exports import-share cost (printed epsilon^X),yes,246
+epsilon_Ystar,\hat{\epsilon}_{Y^{*}},innovation,foreign demand (output) shock,yes,286
+eta,\eta,innovation,innovation of transitory technology shock,yes,260
+eta_DeltaP_I,\eta^{\Delta P_{I}},innovation,measurement error in investment-deflator inflation,yes,299
+eta_EX_C,\eta_{EX}^{C},innovation,innovation to the consumption excess trend,yes,323
+eta_EX_DeltaINV,\eta_{EX}^{\Delta INV},innovation,innovation (white noise) to the inventory-share excess term,yes,327
+eta_EX_I,\eta_{EX}^{I},innovation,innovation to the investment excess trend,yes,324
+eta_EX_IM,\eta_{EX}^{IM},innovation,innovation to the import excess trend,yes,325
+eta_EX_N,\eta_{EX}^{N},innovation,innovation to the hours excess trend,yes,322
+eta_EX_P_OILstar,\eta_{EX}^{P_{OIL}^{*}},innovation,innovation to the oil-price excess trend,yes,331
+eta_EX_S,\eta_{EX}^{S},innovation,innovation to the depreciation excess trend,yes,320
+eta_EX_W,\eta_{EX}^{W},innovation,innovation to the wage excess trend,yes,321
+eta_EX_WTstar,\eta_{EX}^{WT^{*}},innovation,innovation to the world-import excess trend,yes,330
+eta_EX_X,\eta_{EX}^{X},innovation,innovation to the export excess trend,yes,326
+eta_EX_Ystar,\eta_{EX}^{Y^{*}},innovation,innovation to the foreign-output excess trend,yes,329
+eta_FTR,\eta^{FTR},innovation,foreign transfers innovation,yes,270
+eta_G,\eta^{G},innovation,government consumption innovation,yes,251
+eta_OIL,\eta^{OIL},innovation,oil price innovation,yes,290
+eta_R,\eta^{R},innovation,monetary policy shock (white noise),yes,259
+eta_tauC,\eta^{\tau^{C}},innovation,consumption tax rate innovation,yes,252
+eta_tauD,\eta^{\tau^{D}},innovation,dividend tax rate innovation,yes,253
+eta_tauK,\eta^{\tau^{K}},innovation,capital rental tax rate innovation,yes,254
+eta_tauN,\eta^{\tau^{N}},innovation,household income tax rate innovation,yes,255
+eta_tauW_f,\eta^{\tau^{W_{f}}},innovation,firm payroll tax innovation,yes,257
+eta_tauW_h,\eta^{\tau^{W_{h}}},innovation,household payroll tax innovation,yes,256
+EX_DeltaC,EX_{\Delta C},shock_process,excess trend in consumption growth,yes,292
+EX_DeltaG,EX_{\Delta G},shock_process,excess trend in government consumption growth,yes,294
+EX_DeltaIM,EX_{\Delta IM},shock_process,excess trend in import growth,yes,296
+EX_DeltaINI,EX_{\Delta INI},shock_process,excess trend in fixed-investment growth,yes,293
+EX_DeltaINV,EX_{\Delta INV},shock_process,excess term in the inventory share,yes,317
+EX_DeltaN,EX_{\Delta N},shock_process,common excess trend in per-capita hours growth,yes,291
+EX_DeltaPOIL,EX_{\Delta POIL},shock_process,excess trend in oil-price changes,yes,316
+EX_DeltaPOIL,EX_{\Delta POil},shock_process,excess trend in oil-price changes (as printed in 331),yes,331
+EX_DeltaS,EX_{\Delta S},shock_process,excess trend in nominal depreciation,yes,306
+EX_DeltaW,EX_{\Delta W},shock_process,excess trend in nominal wage growth,yes,304
+EX_DeltaWTstar,EX_{\Delta WT*},shock_process,excess trend in world import growth,yes,319
+EX_DeltaX,EX_{\Delta X},shock_process,excess trend in export growth,yes,295
+EX_DeltaYstar,EX_{\Delta Y*},shock_process,excess trend in foreign output growth,yes,307
+fw_ristar,\hat{fw}_{ri^{*}},endogenous,forward real-rate term as printed in (312),yes,312
+fw_ristar,\widehat{fw}_{ri^{*}},shock_process,foreign forward (natural) real rate,yes,286
+g,\hat{g},endogenous,"government consumption, log deviation",yes,251
+g_DeltaC,g_{\Delta C},parameter,assumed long-run gross growth rate of consumption,no,323
+g_DeltaI,g_{\Delta I},parameter,assumed long-run gross growth rate of fixed investment,no,324
+g_DeltaIM,g_{\Delta IM},parameter,assumed long-run gross growth rate of imports,no,325
+g_DeltaN,g_{\Delta N},parameter,assumed long-run growth of per-capita hours,no,322
+g_DeltaW,g_{\Delta W},parameter,assumed long-run gross growth rate of nominal wages,no,321
+g_DeltaWTstar,g_{\Delta WT*},parameter,assumed long-run gross growth rate of world imports,no,330
+g_DeltaX,g_{\Delta X},parameter,assumed long-run gross growth rate of exports,no,326
+g_DeltaYstar,g_{\Delta Y^{*}},parameter,assumed long-run gross growth rate of foreign output,no,329
+g_ss,g,steady_state,steady-state government consumption,no,280
+g_Y,\hat{g}_{Y},endogenous,"output growth, deviation",yes,258
+g_z,\hat{g}_{z},shock_process,"growth rate of labor-augmenting productivity, deviation",yes,212
+g_z_ss,g_{z},parameter,steady-state gross productivity growth rate,no,212
+gamma_B,\gamma_{B},parameter,premium sensitivity to net foreign assets,no,217
+gamma_I,\gamma_{I},parameter,investment adjustment cost scale,no,214
+gamma_IM_C,\gamma_{IM}^{C},parameter,"import-share adjustment cost parameter, consumption sector",no,234
+gamma_IM_G,\gamma_{IM}^{G},parameter,"import-share adjustment cost parameter, public consumption sector",no,242
+gamma_IM_I,\gamma_{IM}^{I},parameter,"import-share adjustment cost parameter, investment sector",no,238
+gamma_IM_X,\gamma_{IM}^{X},parameter,"import-share adjustment cost parameter, exports sector",no,246
+Gamma_IMC_p,\hat{\Gamma}_{IM^{C}}^{+},endogenous,"import-share adjustment-cost term, consumption sector",yes,233
+Gamma_IMG_p,\hat{\Gamma}_{IM^{G}}^{+},endogenous,"import-share adjustment-cost term, public consumption sector",yes,241
+Gamma_IMI_p,\hat{\Gamma}_{IM^{I}t}^{+},endogenous,"import-share adjustment-cost term, investment sector (printed variant)",no,237
+Gamma_IMI_p,\hat{\Gamma}_{IM^{I}}^{+},endogenous,"import-share adjustment-cost term, investment sector",yes,238
+Gamma_IMX_p,\hat{\Gamma}_{IM^{X}}^{+},endogenous,"import-share adjustment-cost term, exports sector",yes,245
+gamma_S,\gamma_{S},parameter,premium sensitivity to expected depreciation,no,217
+gamma_star,\gamma^{*},parameter,export-share adjustment cost parameter,no,271
+gamma_u_1,"\gamma_{u,1}",parameter,linear coefficient of capital-utilization cost,no,213
+gamma_u_2,"\gamma_{u,2}",parameter,quadratic coefficient of capital-utilization cost,no,215
+h,\hat{h},endogenous,production-relevant aggregate of domestic intermediate goods,yes,274
+h_C,\hat{h}_{C},endogenous,"domestic intermediate input into consumption good, log deviation",yes,232
+h_G,\hat{h}_{G},endogenous,domestic intermediate input into public consumption good,yes,240
+h_I,\hat{h}_{I},endogenous,"domestic intermediate input into investment good, log deviation",yes,236
+h_s,\hat{h}^{s},endogenous,"supply of domestic intermediate goods, deviation",yes,274
+h_s,\hat{h}_{s},endogenous,"domestic intermediate goods supply (output), log deviation",yes,222
+h_ss,h,steady_state,steady-state domestic intermediate output,no,222
+h_X,\hat{h}_{X},endogenous,"domestic intermediate input into exported good, log deviation",yes,244
+i,\hat{\imath},endogenous,"investment (detrended), log deviation",yes,214
+i_ss,i,steady_state,steady-state investment,no,276
+im,\hat{im},endogenous,"imports (log deviation); Table 7 column header, same as \widehat{im}",yes,283
+im,\widehat{im},endogenous,"total imported intermediate goods, log deviation",yes,268
+im_C,\widehat{im}_{C},endogenous,"imported intermediate input into consumption good, log deviation",yes,233
+im_C_ss,im_{C},steady_state,steady-state imports used in the consumption good,no,280
+im_G,\widehat{im}_{G},endogenous,imported intermediate input into public consumption good,yes,241
+im_G_ss,im_{G},steady_state,steady-state imports used in the public consumption good,no,280
+im_I,\widehat{im}_{I},endogenous,"imported intermediate input into investment good, log deviation",yes,237
+im_I_ss,im_{I},steady_state,steady-state imports used in the investment good,no,280
+im_ss,im,steady_state,steady-state total imports,no,283
+im_star,\widehat{im}^{*},endogenous,"world imports (world trade), log deviation",yes,271
+im_X,\widehat{im}_{X},endogenous,"imported intermediate input into exported good, log deviation",yes,245
+im_X_ss,im_{X},steady_state,steady-state imports used in the export good,no,280
+k,\hat{k},endogenous,"capital stock (detrended), log deviation",yes,218
+k_s,\hat{k}^{s},endogenous,"capital services, log deviation",yes,222
+k_s,\hat{k}_{s},endogenous,"capital services demanded by firms, deviation",yes,279
+k_ss,k,steady_state,steady-state capital stock,no,276
+kappa,\kappa,parameter,degree of external habit formation,no,212
+lambda,\hat{\lambda},endogenous,"marginal utility of consumption (Lagrange multiplier), log deviation",yes,212
+mc,\widehat{mc},endogenous,"real marginal cost of domestic firms (vs CPI), log deviation",yes,224
+mc_H,\widehat{mc}^{H},endogenous,real marginal cost of domestic firms relative to domestic price index,yes,226
+mc_IM,\widehat{mc}_{IM},endogenous,real marginal cost of foreign intermediate goods firms,yes,229
+mc_X,\widehat{mc}^{X},endogenous,"exporters' real marginal cost, log deviation",yes,248
+mrs,\widehat{mrs},endogenous,"marginal rate of substitution consumption-leisure, log deviation",yes,220
+mu_C,\mu_{C},parameter,"elasticity of substitution domestic vs imported, consumption",no,232
+mu_C,\mu_{c},parameter,"elasticity of substitution, consumption (printed lower-case)",no,233
+mu_G,\mu_{G},parameter,"elasticity of substitution, public consumption sector",no,240
+mu_I,\mu_{I},parameter,"elasticity of substitution, investment sector",no,236
+mu_star,\mu^{*},parameter,price elasticity of export demand,no,271
+mu_X,\mu_{X},parameter,"elasticity of substitution, exports sector",no,244
+mu_X,\mu_{x},parameter,elasticity of substitution in exports (printed lower-case),no,247
+n,\hat{n},endogenous,"hours worked (employment), log deviation",yes,220
+nu_C,\hat{\nu}_{C},shock_process,"time-varying home bias, consumption sector",yes,232
+nu_C,\hat{\nu}_{ct},shock_process,"time-varying home bias, consumption sector (printed variant)",no,235
+nu_C_ss,\nu_{C},parameter,"steady-state home bias, consumption",no,235
+nu_E,\nu_{E},parameter,home-bias weight in (233) as printed,no,233
+nu_f,\hat{\nu}_{f},other,"time-varying working-capital share, deviation",yes,225
+nu_f_ss,\nu^{f},parameter,share of wage bill financed by working capital,no,225
+nu_G,\hat{\nu}_{G},shock_process,"time-varying home bias, public consumption sector",yes,240
+nu_G_ss,\nu_{G},parameter,"steady-state home bias, public consumption",no,241
+nu_I,\hat{\nu}_{I},shock_process,"time-varying home bias, investment sector",yes,236
+nu_I_ss,\nu_{I},parameter,"steady-state home bias, investment",no,237
+nu_star,\hat{\nu}^{*},shock_process,country-specific export-demand shock,yes,271
+nu_X,\hat{\nu}_{X},shock_process,"time-varying home bias, exports sector",yes,244
+nu_X_ss,\nu_{X},parameter,"steady-state home bias, exports",no,245
+nu_X_ss,\nu_{x},parameter,home bias in exports (printed lower-case),no,247
+omega_Gamma_I,\omega_{\Gamma_{I}},parameter,weight of second investment lag in adjustment cost,no,214
+omega_star,\omega^{*},parameter,share of oil in imports,no,230
+p_C_ss,p_{C},steady_state,steady-state relative consumption price,no,280
+p_DX,\hat{p}_{DX},endogenous,"domestic-currency relative price of exported good, log deviation",yes,244
+p_DX_ss,p_{DX},steady_state,steady-state relative price of exported good,no,247
+p_G,\hat{p}_{G},endogenous,"relative price of public consumption good, log deviation",yes,240
+p_G,\hat{p}_{g},endogenous,"relative price of public consumption good, log deviation (printed variant)",yes,280
+p_G_ss,p_{G},steady_state,steady-state relative price of public consumption good,no,243
+p_H,\hat{p}_{H},endogenous,"relative price of domestic intermediate goods (vs CPI), log deviation",yes,227
+p_H_ss,p_{H},steady_state,steady-state relative price of domestic goods,no,235
+p_I,\hat{p}_{I},endogenous,"relative price of investment good (vs CPI), log deviation",yes,213
+p_I_ss,p_{I},steady_state,steady-state relative price of investment,no,239
+p_IM,\hat{p}_{IM},endogenous,"relative price of imported goods (vs CPI), log deviation",yes,230
+p_IM_ss,P_{IM},endogenous,price index of imported intermediate goods,no,284
+p_IM_ss,p_{IM},steady_state,steady-state relative price of imports,no,235
+p_OIL,\hat{p}_{OILl},shock_process,"relative price of oil, log deviation (printed variant)",yes,290
+p_OIL,\hat{p}_{OIL},shock_process,"relative price of oil, log deviation",yes,230
+p_X,\hat{p}_{X},endogenous,"real export price (foreign currency, vs foreign output deflator)",yes,249
+p_X,\hat{p}_{x},endogenous,"real export price (foreign currency), deviation",yes,271
+p_X_ss,p_{X},steady_state,steady-state relative export price (foreign currency),no,267
+p_X_ss,p_{x},steady_state,export price in foreign markets (lowercase variant),no,284
+p_x_star,\hat{p}_{x}^{*},endogenous,"price of competing exporters (world-trade price aggregate), deviation",yes,271
+p_Y,\hat{p}_{Y},endogenous,"GDP (output) deflator relative to CPI, log deviation",yes,230
+p_Y,\hat{p}_{y},steady_state,steady-state relative output price,yes,281
+p_Y_M,\hat{p}_{Y}^{M},endogenous,"output deflator in market prices, deviation",yes,284
+p_Y_M_ss,p_{Y}^{M},steady_state,steady-state output deflator in market prices,no,284
+p_Y_ss,P_{Y},endogenous,domestic GDP deflator,no,280
+p_Y_ss,P_{y},steady_state,steady-state relative output price (printed variant),no,280
+p_Y_ss,p_{Y},steady_state,output (GDP) deflator relative to CPI,no,280
+p_Y_ss,p_{y},steady_state,steady-state relative output price,no,280
+phi_DeltaS,\phi_{\Delta S},parameter,policy response to nominal depreciation,no,259
+phi_Pi,\phi_{\Pi},parameter,policy response to CB inflation gap,no,259
+phi_R,\phi_{R},parameter,interest-rate smoothing coefficient,no,259
+phi_w,\hat{\phi}_{w},shock_process,wage markup shock,yes,221
+phi_w_ss,\phi_{w},parameter,steady-state wage markup,no,221
+phi_y,\phi_{y},parameter,policy response to output gap,no,259
+pi_C,\hat{\pi}_{C},endogenous,"CPI inflation, deviation",yes,216
+pi_CB,\hat{\pi}^{CB},endogenous,four-quarter inflation measure the central bank reacts to,yes,259
+pi_H,\hat{\pi}_{H},endogenous,"domestic intermediate goods inflation, deviation",yes,226
+pi_IM,\hat{\pi}_{IM},endogenous,"import price inflation (local currency), deviation",yes,229
+pi_ss,\pi,steady_state,gross steady-state (target) inflation rate,no,297
+pi_star_ss,\pi^{*},steady_state,steady-state foreign gross inflation,no,272
+pi_X,\hat{\pi}_{X},endogenous,"export price inflation in foreign currency, deviation",yes,248
+pi_Y,\hat{\pi}_{Y},endogenous,"inflation of output deflator, deviation",yes,217
+pi_Y_star,\hat{\pi}_{Y}^{*},endogenous,"foreign output-price inflation, deviation",yes,217
+pi_Y_star,\hat{\pi}_{y}^{*},endogenous,foreign output-price inflation (printed lower-case y),yes,217
+Pibar,\bar{\Pi},steady_state,steady-state (gross) inflation target,no,260
+pibar,\hat{\bar{\pi}},endogenous,"domestic inflation target, deviation",yes,217
+pibar_nohat,\bar{\pi},endogenous,"inflation-target term as printed (bar, no hat)",yes,259
+pibar_star,\hat{\bar{\pi}}^{*},endogenous,"foreign inflation objective, deviation",yes,217
+pibar_star_nohat,\bar{\pi}^{*},shock_process,foreign inflation target,yes,287
+psi,\psi,parameter,fixed cost parameter in production,no,222
+Q,\hat{Q},endogenous,"Tobin's Q (real price of installed capital), log deviation",yes,213
+q_C,\hat{q}_{C},endogenous,"output of final private consumption good, log deviation",yes,232
+q_G,\hat{q}_{G},endogenous,"output of final public consumption good, log deviation",yes,240
+q_I,\hat{q}_{I},endogenous,"output of final investment good, log deviation",yes,236
+q_I_ss,q^{I},steady_state,steady-state final investment good output,no,276
+q_X,\hat{q}_{X},endogenous,"output of final exports good, log deviation",yes,244
+q_X_ss,q^{X},steady_state,steady-state final export good output,no,278
+r,\hat{r},endogenous,"domestic nominal policy interest rate, deviation",yes,216
+R_f,\hat{R}_{f},endogenous,"gross interest rate on working capital, log deviation",yes,223
+r_k,\hat{r}_{k},endogenous,"real rental rate of capital, log deviation",yes,213
+r_OB,r^{OB},observable,observed annualized Bank of Israel nominal interest rate,yes,305
+R_ss,R,steady_state,steady-state gross nominal interest rate,no,225
+R_ss,r,steady_state,gross steady-state domestic nominal interest rate,no,305
+r_star,\hat{r}^{*},endogenous,"foreign nominal interest rate, deviation",yes,217
+r_star_ss,r^{*},steady_state,steady-state foreign gross interest rate,no,272
+r_starfwd_ob,r^{*fwd\_ob},observable,observed foreign 5-10 year forward nominal interest rate,yes,318
+R_starOB,R^{*OB},observable,observed annualized foreign (G4) nominal interest rate,yes,309
+rho_barpi,\rho_{\bar{\pi}},parameter,persistence of inflation target,no,260
+rho_EX_C,\rho_{EX}^{C},parameter,AR(1) coefficient of the consumption excess trend,no,323
+rho_EX_DeltaS,\rho_{EX}^{\Delta S},parameter,AR(1) coefficient of the depreciation excess trend,no,320
+rho_EX_DeltaW,\rho_{EX}^{\Delta W},parameter,AR(1) coefficient of the wage excess trend,no,321
+rho_EX_I,\rho_{EX}^{I},parameter,AR(1) coefficient of the investment excess trend,no,324
+rho_EX_IM,\rho_{EX}^{IM},parameter,AR(1) coefficient of the import excess trend,no,325
+rho_EX_N,\rho_{EX}^{N},parameter,AR(1) coefficient of the hours excess trend,no,322
+rho_EX_P_OILstar,\rho_{EX}^{P_{OIL}^{*}},parameter,AR(1) coefficient of the oil-price excess trend,no,331
+rho_EX_WTstar,\rho_{EX}^{WT^{*}},parameter,AR(1) coefficient of the world-import excess trend,no,330
+rho_EX_X,\rho_{EX}^{X},parameter,AR(1) coefficient of the export excess trend,no,326
+rho_EX_Ystar,\rho_{EX}^{Y^{*}},parameter,AR(1) coefficient of the foreign-output excess trend,no,329
+rho_FTR,\rho_{FTR},parameter,persistence of foreign transfers ratio,no,270
+rho_G,\rho_{G},parameter,persistence of government consumption process,no,251
+rho_tauC,\rho_{\tau^{C}},parameter,persistence of consumption tax rate,no,252
+rho_tauD,\rho_{\tau^{D}},parameter,persistence of dividend tax rate,no,253
+rho_tauK,\rho_{\tau^{K}},parameter,persistence of capital rental tax rate,no,254
+rho_tauN,\rho_{\tau^{N}},parameter,persistence of household income tax rate,no,255
+rho_tauW_f,\rho_{\tau^{W_{f}}},parameter,persistence of firm payroll tax,no,257
+rho_tauW_h,\rho_{\tau^{W_{h}}},parameter,persistence of household payroll tax,no,256
+ri,\widehat{ri},endogenous,real interest rate (nominal rate minus next-period CPI inflation),yes,261
+ri_star,\widehat{ri}^{*},endogenous,foreign real interest rate,yes,286
+rr_fw,\hat{rr}^{fw},endogenous,5-10 year forward expected real interest rate,yes,259
+rr_fwd_ob,rr^{fwd\_ob},observable,observed domestic 5-10 year forward real interest rate,yes,312
+s,\hat{s},endogenous,"real exchange rate, log deviation",yes,217
+s_Bstar,\hat{s}_{B^{*}},endogenous,"net foreign assets to nominal GDP ratio, deviation",yes,217
+s_Bstar_nohat,s_{B^{*}},endogenous,net foreign assets to output ratio,yes,272
+S_CA,S_{CA},observable,observed current-account-to-GDP ratio,yes,313
+s_FTR,\hat{s}_{FTR},shock_process,"foreign transfers to output ratio, deviation",yes,269
+s_G,s_{G},parameter,government consumption share of GDP,no,328
+s_IM,\hat{s}_{IM},endogenous,"imports to output ratio, deviation",yes,266
+s_IM_ss,s_{IM},steady_state,steady-state imports to output ratio,no,268
+s_ss,s,steady_state,steady-state real exchange rate,no,267
+s_TB,\hat{s}_{TB},endogenous,"trade balance to output ratio, deviation",yes,266
+s_X,\hat{s}_{X},endogenous,"exports to output ratio, deviation",yes,266
+s_X_ss,s_{X},steady_state,export share of GDP,no,328
+tau_C,\hat{\tau}^{C},shock_process,"consumption tax (VAT) rate, deviation",yes,212
+tau_C,\hat{\tau}^{c},shock_process,consumption tax-rate deviation,yes,284
+tau_C_OB,\tau^{C\_OB},observable,observed consumption (VAT) tax rate,yes,314
+tau_C_ss,\tau^{c},parameter,steady-state consumption tax rate,no,212
+tau_C_ss,\tau_{c},steady_state,steady-state consumption tax rate,no,284
+tau_D,\hat{\tau}^{D},endogenous,"dividend tax rate, deviation",yes,253
+tau_K,\hat{\tau}^{K},shock_process,"capital income tax rate, deviation",yes,213
+tau_K,\hat{\tau}^{k},shock_process,"capital income tax rate, deviation (printed variant)",yes,254
+tau_K_ss,\tau^{K},parameter,steady-state capital income tax rate,no,213
+tau_N,\hat{\tau}^{N},shock_process,"labor income tax rate on households, deviation",yes,219
+tau_N,\hat{\tau}^{n},shock_process,income tax-rate deviation,yes,315
+tau_N_OB,\tau^{N\_OB},observable,observed income tax rate,yes,315
+tau_N_ss,\tau^{N},parameter,steady-state labor income tax rate,no,219
+tau_N_ss,\tau_{n},steady_state,steady-state income tax rate,no,315
+tau_W_f,\hat{\tau}^{W_{f}},shock_process,"payroll (social security) tax rate on firms, deviation",yes,223
+tau_W_f_ss,\tau^{W_{f}},parameter,steady-state firm payroll tax rate,no,223
+tau_W_h,\hat{\tau}^{W_{h}},shock_process,"payroll (social security) tax rate on households, deviation",yes,219
+tau_W_h_ss,\tau^{W_{h}},parameter,steady-state household payroll tax rate,no,219
+tp,tp,parameter,constant average domestic term premium,no,312
+tp_star,tp^{*},parameter,constant average foreign term premium,no,318
+u,\hat{u},endogenous,"capital utilization intensity, deviation",yes,215
+varphi_H,\hat{\varphi}^{H},shock_process,domestic price markup shock,yes,226
+varphi_star,\hat{\varphi}^{*},shock_process,import price markup shock,yes,229
+varphi_X,\hat{\varphi}^{X},shock_process,export price markup shock,yes,248
+w,\hat{w},endogenous,"real wage (detrended), log deviation",yes,219
+w_tau,\hat{w}_{\tau},endogenous,"after-tax real wage, log deviation",yes,219
+x,\hat{x},endogenous,"exports, log deviation",yes,267
+x_ss,x,steady_state,steady-state exports,no,267
+xi_E,\xi_{E},parameter,Calvo-like employment adjustment parameter,no,301
+xi_H,\xi_{H},parameter,Calvo parameter of domestic intermediate goods firms,no,226
+xi_star,\xi^{*},parameter,Calvo parameter of foreign intermediate-goods firms,no,229
+xi_W,\xi_{W},parameter,Calvo parameter (probability of no wage reoptimization),no,221
+xi_X,\xi_{X},parameter,Calvo parameter of exporters,no,248
+y,\hat{y},endogenous,"real output (GDP), log deviation",yes,258
+y_GAP,y^{GAP},endogenous,output gap: output relative to technology-driven trend,yes,259
+y_ss,Y,other,appears in denominator P_{Y} Y of (282),no,269
+y_ss,y,steady_state,steady-state real output,no,267
+y_star,\hat{y}^{*},endogenous,"foreign output, log deviation",yes,286
+zeta,\zeta,parameter,inverse Frisch elasticity of labor supply,no,220
+ztilde,\hat{\tilde{z}},endogenous,"relative level of foreign to domestic technology, deviation",yes,271

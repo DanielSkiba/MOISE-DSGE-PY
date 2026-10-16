@@ -1,0 +1,1201 @@
+figure,page_pdf,shock,panel_title,series,quarter,value
+7,82,external_risk_premium,Output,mean,1,0.221413
+7,82,external_risk_premium,Output,mean,2,0.319815
+7,82,external_risk_premium,Output,mean,3,0.225403
+7,82,external_risk_premium,Output,mean,4,0.097743
+7,82,external_risk_premium,Output,mean,5,-0.001991
+7,82,external_risk_premium,Output,mean,6,-0.047869
+7,82,external_risk_premium,Output,mean,7,-0.060508
+7,82,external_risk_premium,Output,mean,8,-0.055848
+7,82,external_risk_premium,Output,mean,9,-0.046545
+7,82,external_risk_premium,Output,mean,10,-0.038566
+7,82,external_risk_premium,Output,mean,11,-0.032582
+7,82,external_risk_premium,Output,mean,12,-0.027260
+7,82,external_risk_premium,Output,mean,13,-0.023271
+7,82,external_risk_premium,Output,mean,14,-0.018619
+7,82,external_risk_premium,Output,mean,15,-0.014630
+7,82,external_risk_premium,Output,mean,16,-0.009970
+7,82,external_risk_premium,Output,mean,17,-0.005319
+7,82,external_risk_premium,Output,mean,18,-0.000667
+7,82,external_risk_premium,Output,mean,19,0.003993
+7,82,external_risk_premium,Output,mean,20,0.008644
+7,82,external_risk_premium,Output,hpd70_lower,1,0.188166
+7,82,external_risk_premium,Output,hpd70_lower,2,0.280584
+7,82,external_risk_premium,Output,hpd70_lower,3,0.190161
+7,82,external_risk_premium,Output,hpd70_lower,4,0.066490
+7,82,external_risk_premium,Output,hpd70_lower,5,-0.023271
+7,82,external_risk_premium,Output,hpd70_lower,6,-0.064497
+7,82,external_risk_premium,Output,hpd70_lower,7,-0.076465
+7,82,external_risk_premium,Output,hpd70_lower,8,-0.069149
+7,82,external_risk_premium,Output,hpd70_lower,9,-0.059175
+7,82,external_risk_premium,Output,hpd70_lower,10,-0.047869
+7,82,external_risk_premium,Output,hpd70_lower,11,-0.039891
+7,82,external_risk_premium,Output,hpd70_lower,12,-0.034577
+7,82,external_risk_premium,Output,hpd70_lower,13,-0.029255
+7,82,external_risk_premium,Output,hpd70_lower,14,-0.023933
+7,82,external_risk_premium,Output,hpd70_lower,15,-0.019281
+7,82,external_risk_premium,Output,hpd70_lower,16,-0.014630
+7,82,external_risk_premium,Output,hpd70_lower,17,-0.009970
+7,82,external_risk_premium,Output,hpd70_lower,18,-0.005319
+7,82,external_risk_premium,Output,hpd70_lower,19,0.000003
+7,82,external_risk_premium,Output,hpd70_lower,20,0.003993
+7,82,external_risk_premium,Output,hpd70_upper,1,0.250663
+7,82,external_risk_premium,Output,hpd70_upper,2,0.353063
+7,82,external_risk_premium,Output,hpd70_upper,3,0.253991
+7,82,external_risk_premium,Output,hpd70_upper,4,0.117019
+7,82,external_risk_premium,Output,hpd70_upper,5,0.016623
+7,82,external_risk_premium,Output,hpd70_upper,6,-0.032582
+7,82,external_risk_premium,Output,hpd70_upper,7,-0.047207
+7,82,external_risk_premium,Output,hpd70_upper,8,-0.041885
+7,82,external_risk_premium,Output,hpd70_upper,9,-0.033906
+7,82,external_risk_premium,Output,hpd70_upper,10,-0.025928
+7,82,external_risk_premium,Output,hpd70_upper,11,-0.021938
+7,82,external_risk_premium,Output,hpd70_upper,12,-0.016625
+7,82,external_risk_premium,Output,hpd70_upper,13,-0.013297
+7,82,external_risk_premium,Output,hpd70_upper,14,-0.009308
+7,82,external_risk_premium,Output,hpd70_upper,15,-0.005319
+7,82,external_risk_premium,Output,hpd70_upper,16,-0.001329
+7,82,external_risk_premium,Output,hpd70_upper,17,0.003322
+7,82,external_risk_premium,Output,hpd70_upper,18,0.007982
+7,82,external_risk_premium,Output,hpd70_upper,19,0.011971
+7,82,external_risk_premium,Output,hpd70_upper,20,0.015290
+7,82,external_risk_premium,Output,hpd90_lower,1,0.150929
+7,82,external_risk_premium,Output,hpd90_lower,2,0.236038
+7,82,external_risk_premium,Output,hpd90_lower,3,0.152924
+7,82,external_risk_premium,Output,hpd90_lower,4,0.037902
+7,82,external_risk_premium,Output,hpd90_lower,5,-0.051196
+7,82,external_risk_premium,Output,hpd90_lower,6,-0.086439
+7,82,external_risk_premium,Output,hpd90_lower,7,-0.095080
+7,82,external_risk_premium,Output,hpd90_lower,8,-0.087763
+7,82,external_risk_premium,Output,hpd90_lower,9,-0.077790
+7,82,external_risk_premium,Output,hpd90_lower,10,-0.067816
+7,82,external_risk_premium,Output,hpd90_lower,11,-0.060508
+7,82,external_risk_premium,Output,hpd90_lower,12,-0.053191
+7,82,external_risk_premium,Output,hpd90_lower,13,-0.047869
+7,82,external_risk_premium,Output,hpd90_lower,14,-0.041885
+7,82,external_risk_premium,Output,hpd90_lower,15,-0.035239
+7,82,external_risk_premium,Output,hpd90_lower,16,-0.028593
+7,82,external_risk_premium,Output,hpd90_lower,17,-0.022609
+7,82,external_risk_premium,Output,hpd90_lower,18,-0.017949
+7,82,external_risk_premium,Output,hpd90_lower,19,-0.011303
+7,82,external_risk_premium,Output,hpd90_lower,20,-0.005981
+7,82,external_risk_premium,Output,hpd90_upper,1,0.295879
+7,82,external_risk_premium,Output,hpd90_upper,2,0.411571
+7,82,external_risk_premium,Output,hpd90_upper,3,0.307185
+7,82,external_risk_premium,Output,hpd90_upper,4,0.162897
+7,82,external_risk_premium,Output,hpd90_upper,5,0.047205
+7,82,external_risk_premium,Output,hpd90_upper,6,-0.009308
+7,82,external_risk_premium,Output,hpd90_upper,7,-0.025265
+7,82,external_risk_premium,Output,hpd90_upper,8,-0.023933
+7,82,external_risk_premium,Output,hpd90_upper,9,-0.016625
+7,82,external_risk_premium,Output,hpd90_upper,10,-0.010640
+7,82,external_risk_premium,Output,hpd90_upper,11,-0.006651
+7,82,external_risk_premium,Output,hpd90_upper,12,-0.004656
+7,82,external_risk_premium,Output,hpd90_upper,13,-0.001991
+7,82,external_risk_premium,Output,hpd90_upper,14,0.000665
+7,82,external_risk_premium,Output,hpd90_upper,15,0.003993
+7,82,external_risk_premium,Output,hpd90_upper,16,0.007312
+7,82,external_risk_premium,Output,hpd90_upper,17,0.010639
+7,82,external_risk_premium,Output,hpd90_upper,18,0.015290
+7,82,external_risk_premium,Output,hpd90_upper,19,0.018618
+7,82,external_risk_premium,Output,hpd90_upper,20,0.022607
+7,82,external_risk_premium,Consumption,mean,1,-0.219450
+7,82,external_risk_premium,Consumption,mean,2,-0.402742
+7,82,external_risk_premium,Consumption,mean,3,-0.476313
+7,82,external_risk_premium,Consumption,mean,4,-0.437649
+7,82,external_risk_premium,Consumption,mean,5,-0.330428
+7,82,external_risk_premium,Consumption,mean,6,-0.204488
+7,82,external_risk_premium,Consumption,mean,7,-0.089769
+7,82,external_risk_premium,Consumption,mean,8,0.000006
+7,82,external_risk_premium,Consumption,mean,9,0.064839
+7,82,external_risk_premium,Consumption,mean,10,0.105986
+7,82,external_risk_premium,Consumption,mean,11,0.132170
+7,82,external_risk_premium,Consumption,mean,12,0.145891
+7,82,external_risk_premium,Consumption,mean,13,0.150874
+7,82,external_risk_premium,Consumption,mean,14,0.150874
+7,82,external_risk_premium,Consumption,mean,15,0.148375
+7,82,external_risk_premium,Consumption,mean,16,0.142150
+7,82,external_risk_premium,Consumption,mean,17,0.135911
+7,82,external_risk_premium,Consumption,mean,18,0.128430
+7,82,external_risk_premium,Consumption,mean,19,0.120949
+7,82,external_risk_premium,Consumption,mean,20,0.113467
+7,82,external_risk_premium,Consumption,hpd70_lower,1,-0.256857
+7,82,external_risk_premium,Consumption,hpd70_lower,2,-0.467575
+7,82,external_risk_premium,Consumption,hpd70_lower,3,-0.541146
+7,82,external_risk_premium,Consumption,hpd70_lower,4,-0.488777
+7,82,external_risk_premium,Consumption,hpd70_lower,5,-0.367834
+7,82,external_risk_premium,Consumption,hpd70_lower,6,-0.240652
+7,82,external_risk_premium,Consumption,hpd70_lower,7,-0.124692
+7,82,external_risk_premium,Consumption,hpd70_lower,8,-0.039899
+7,82,external_risk_premium,Consumption,hpd70_lower,9,0.031173
+7,82,external_risk_premium,Consumption,hpd70_lower,10,0.078560
+7,82,external_risk_premium,Consumption,hpd70_lower,11,0.104744
+7,82,external_risk_premium,Consumption,hpd70_lower,12,0.122190
+7,82,external_risk_premium,Consumption,hpd70_lower,13,0.129672
+7,82,external_risk_premium,Consumption,hpd70_lower,14,0.128430
+7,82,external_risk_premium,Consumption,hpd70_lower,15,0.124689
+7,82,external_risk_premium,Consumption,hpd70_lower,16,0.120949
+7,82,external_risk_premium,Consumption,hpd70_lower,17,0.114709
+7,82,external_risk_premium,Consumption,hpd70_lower,18,0.108485
+7,82,external_risk_premium,Consumption,hpd70_lower,19,0.102245
+7,82,external_risk_premium,Consumption,hpd70_lower,20,0.096006
+7,82,external_risk_premium,Consumption,hpd70_upper,1,-0.170822
+7,82,external_risk_premium,Consumption,hpd70_upper,2,-0.326687
+7,82,external_risk_premium,Consumption,hpd70_upper,3,-0.395260
+7,82,external_risk_premium,Consumption,hpd70_upper,4,-0.360353
+7,82,external_risk_premium,Consumption,hpd70_upper,5,-0.266837
+7,82,external_risk_premium,Consumption,hpd70_upper,6,-0.150877
+7,82,external_risk_premium,Consumption,hpd70_upper,7,-0.042398
+7,82,external_risk_premium,Consumption,hpd70_upper,8,0.048634
+7,82,external_risk_premium,Consumption,hpd70_upper,9,0.109727
+7,82,external_risk_premium,Consumption,hpd70_upper,10,0.142150
+7,82,external_risk_premium,Consumption,hpd70_upper,11,0.160854
+7,82,external_risk_premium,Consumption,hpd70_upper,12,0.170819
+7,82,external_risk_premium,Consumption,hpd70_upper,13,0.172076
+7,82,external_risk_premium,Consumption,hpd70_upper,14,0.170819
+7,82,external_risk_premium,Consumption,hpd70_upper,15,0.164594
+7,82,external_risk_premium,Consumption,hpd70_upper,16,0.157113
+7,82,external_risk_premium,Consumption,hpd70_upper,17,0.149632
+7,82,external_risk_premium,Consumption,hpd70_upper,18,0.139652
+7,82,external_risk_premium,Consumption,hpd70_upper,19,0.130929
+7,82,external_risk_premium,Consumption,hpd70_upper,20,0.123447
+7,82,external_risk_premium,Consumption,hpd90_lower,1,-0.320448
+7,82,external_risk_premium,Consumption,hpd90_lower,2,-0.568572
+7,82,external_risk_premium,Consumption,hpd90_lower,3,-0.659604
+7,82,external_risk_premium,Consumption,hpd90_lower,4,-0.608477
+7,82,external_risk_premium,Consumption,hpd90_lower,5,-0.470073
+7,82,external_risk_premium,Consumption,hpd90_lower,6,-0.321689
+7,82,external_risk_premium,Consumption,hpd90_lower,7,-0.203246
+7,82,external_risk_premium,Consumption,hpd90_lower,8,-0.098508
+7,82,external_risk_premium,Consumption,hpd90_lower,9,-0.033660
+7,82,external_risk_premium,Consumption,hpd90_lower,10,0.012470
+7,82,external_risk_premium,Consumption,hpd90_lower,11,0.048634
+7,82,external_risk_premium,Consumption,hpd90_lower,12,0.076061
+7,82,external_risk_premium,Consumption,hpd90_lower,13,0.091023
+7,82,external_risk_premium,Consumption,hpd90_lower,14,0.097263
+7,82,external_risk_premium,Consumption,hpd90_lower,15,0.098505
+7,82,external_risk_premium,Consumption,hpd90_lower,16,0.096006
+7,82,external_risk_premium,Consumption,hpd90_lower,17,0.094764
+7,82,external_risk_premium,Consumption,hpd90_lower,18,0.089781
+7,82,external_risk_premium,Consumption,hpd90_lower,19,0.086041
+7,82,external_risk_premium,Consumption,hpd90_lower,20,0.079801
+7,82,external_risk_premium,Consumption,hpd90_upper,1,-0.120952
+7,82,external_risk_premium,Consumption,hpd90_upper,2,-0.234413
+7,82,external_risk_premium,Consumption,hpd90_upper,3,-0.301744
+7,82,external_risk_premium,Consumption,hpd90_upper,4,-0.286782
+7,82,external_risk_premium,Consumption,hpd90_upper,5,-0.205729
+7,82,external_risk_premium,Consumption,hpd90_upper,6,-0.091026
+7,82,external_risk_premium,Consumption,hpd90_upper,7,0.018709
+7,82,external_risk_premium,Consumption,hpd90_upper,8,0.097263
+7,82,external_risk_premium,Consumption,hpd90_upper,9,0.155856
+7,82,external_risk_premium,Consumption,hpd90_upper,10,0.188280
+7,82,external_risk_premium,Consumption,hpd90_upper,11,0.203243
+7,82,external_risk_premium,Consumption,hpd90_upper,12,0.210724
+7,82,external_risk_premium,Consumption,hpd90_upper,13,0.210724
+7,82,external_risk_premium,Consumption,hpd90_upper,14,0.205741
+7,82,external_risk_premium,Consumption,hpd90_upper,15,0.195761
+7,82,external_risk_premium,Consumption,hpd90_upper,16,0.188280
+7,82,external_risk_premium,Consumption,hpd90_upper,17,0.179557
+7,82,external_risk_premium,Consumption,hpd90_upper,18,0.169577
+7,82,external_risk_premium,Consumption,hpd90_upper,19,0.160854
+7,82,external_risk_premium,Consumption,hpd90_upper,20,0.150874
+7,82,external_risk_premium,Fixed investment,mean,1,-0.493753
+7,82,external_risk_premium,Fixed investment,mean,2,-0.581045
+7,82,external_risk_premium,Fixed investment,mean,3,-0.678302
+7,82,external_risk_premium,Fixed investment,mean,4,-0.573564
+7,82,external_risk_premium,Fixed investment,mean,5,-0.451379
+7,82,external_risk_premium,Fixed investment,mean,6,-0.279309
+7,82,external_risk_premium,Fixed investment,mean,7,-0.124686
+7,82,external_risk_premium,Fixed investment,mean,8,0.024940
+7,82,external_risk_premium,Fixed investment,mean,9,0.147124
+7,82,external_risk_premium,Fixed investment,mean,10,0.249378
+7,82,external_risk_premium,Fixed investment,mean,11,0.329189
+7,82,external_risk_premium,Fixed investment,mean,12,0.391523
+7,82,external_risk_premium,Fixed investment,mean,13,0.436411
+7,82,external_risk_premium,Fixed investment,mean,14,0.468819
+7,82,external_risk_premium,Fixed investment,mean,15,0.486296
+7,82,external_risk_premium,Fixed investment,mean,16,0.493777
+7,82,external_risk_premium,Fixed investment,mean,17,0.491263
+7,82,external_risk_premium,Fixed investment,mean,18,0.483782
+7,82,external_risk_premium,Fixed investment,mean,19,0.468819
+7,82,external_risk_premium,Fixed investment,mean,20,0.448889
+7,82,external_risk_premium,Fixed investment,hpd70_lower,1,-0.558601
+7,82,external_risk_premium,Fixed investment,hpd70_lower,2,-0.660855
+7,82,external_risk_premium,Fixed investment,hpd70_lower,3,-0.770561
+7,82,external_risk_premium,Fixed investment,hpd70_lower,4,-0.640895
+7,82,external_risk_premium,Fixed investment,hpd70_lower,5,-0.503748
+7,82,external_risk_premium,Fixed investment,hpd70_lower,6,-0.326681
+7,82,external_risk_premium,Fixed investment,hpd70_lower,7,-0.164576
+7,82,external_risk_premium,Fixed investment,hpd70_lower,8,-0.014951
+7,82,external_risk_premium,Fixed investment,hpd70_lower,9,0.097269
+7,82,external_risk_premium,Fixed investment,hpd70_lower,10,0.189528
+7,82,external_risk_premium,Fixed investment,hpd70_lower,11,0.261857
+7,82,external_risk_premium,Fixed investment,hpd70_lower,12,0.316710
+7,82,external_risk_premium,Fixed investment,hpd70_lower,13,0.356600
+7,82,external_risk_premium,Fixed investment,hpd70_lower,14,0.389039
+7,82,external_risk_premium,Fixed investment,hpd70_lower,15,0.406485
+7,82,external_risk_premium,Fixed investment,hpd70_lower,16,0.413967
+7,82,external_risk_premium,Fixed investment,hpd70_lower,17,0.413967
+7,82,external_risk_premium,Fixed investment,hpd70_lower,18,0.404002
+7,82,external_risk_premium,Fixed investment,hpd70_lower,19,0.394007
+7,82,external_risk_premium,Fixed investment,hpd70_lower,20,0.379044
+7,82,external_risk_premium,Fixed investment,hpd70_upper,1,-0.394013
+7,82,external_risk_premium,Fixed investment,hpd70_upper,2,-0.448865
+7,82,external_risk_premium,Fixed investment,hpd70_upper,3,-0.516197
+7,82,external_risk_premium,Fixed investment,hpd70_upper,4,-0.406491
+7,82,external_risk_premium,Fixed investment,hpd70_upper,5,-0.301753
+7,82,external_risk_premium,Fixed investment,hpd70_upper,6,-0.149614
+7,82,external_risk_premium,Fixed investment,hpd70_upper,7,-0.014951
+7,82,external_risk_premium,Fixed investment,hpd70_upper,8,0.119713
+7,82,external_risk_premium,Fixed investment,hpd70_upper,9,0.224451
+7,82,external_risk_premium,Fixed investment,hpd70_upper,10,0.316710
+7,82,external_risk_premium,Fixed investment,hpd70_upper,11,0.391523
+7,82,external_risk_premium,Fixed investment,hpd70_upper,12,0.446376
+7,82,external_risk_premium,Fixed investment,hpd70_upper,13,0.491263
+7,82,external_risk_premium,Fixed investment,hpd70_upper,14,0.518705
+7,82,external_risk_premium,Fixed investment,hpd70_upper,15,0.533667
+7,82,external_risk_premium,Fixed investment,hpd70_upper,16,0.543632
+7,82,external_risk_premium,Fixed investment,hpd70_upper,17,0.541149
+7,82,external_risk_premium,Fixed investment,hpd70_upper,18,0.533667
+7,82,external_risk_premium,Fixed investment,hpd70_upper,19,0.513707
+7,82,external_risk_premium,Fixed investment,hpd70_upper,20,0.491263
+7,82,external_risk_premium,Fixed investment,hpd90_lower,1,-0.743149
+7,82,external_risk_premium,Fixed investment,hpd90_lower,2,-0.890261
+7,82,external_risk_premium,Fixed investment,hpd90_lower,3,-1.044885
+7,82,external_risk_premium,Fixed investment,hpd90_lower,4,-0.942630
+7,82,external_risk_premium,Fixed investment,hpd90_lower,5,-0.790521
+7,82,external_risk_premium,Fixed investment,hpd90_lower,6,-0.593524
+7,82,external_risk_premium,Fixed investment,hpd90_lower,7,-0.389015
+7,82,external_risk_premium,Fixed investment,hpd90_lower,8,-0.189534
+7,82,external_risk_premium,Fixed investment,hpd90_lower,9,-0.037394
+7,82,external_risk_premium,Fixed investment,hpd90_lower,10,0.087274
+7,82,external_risk_premium,Fixed investment,hpd90_lower,11,0.182047
+7,82,external_risk_premium,Fixed investment,hpd90_lower,12,0.236900
+7,82,external_risk_premium,Fixed investment,hpd90_lower,13,0.286785
+7,82,external_risk_premium,Fixed investment,hpd90_lower,14,0.316710
+7,82,external_risk_premium,Fixed investment,hpd90_lower,15,0.334156
+7,82,external_risk_premium,Fixed investment,hpd90_lower,16,0.344151
+7,82,external_risk_premium,Fixed investment,hpd90_lower,17,0.344151
+7,82,external_risk_premium,Fixed investment,hpd90_lower,18,0.339154
+7,82,external_risk_premium,Fixed investment,hpd90_lower,19,0.326675
+7,82,external_risk_premium,Fixed investment,hpd90_lower,20,0.311712
+7,82,external_risk_premium,Fixed investment,hpd90_upper,1,-0.296756
+7,82,external_risk_premium,Fixed investment,hpd90_upper,2,-0.331678
+7,82,external_risk_premium,Fixed investment,hpd90_upper,3,-0.379050
+7,82,external_risk_premium,Fixed investment,hpd90_upper,4,-0.289275
+7,82,external_risk_premium,Fixed investment,hpd90_upper,5,-0.187020
+7,82,external_risk_premium,Fixed investment,hpd90_upper,6,-0.049873
+7,82,external_risk_premium,Fixed investment,hpd90_upper,7,0.069827
+7,82,external_risk_premium,Fixed investment,hpd90_upper,8,0.197009
+7,82,external_risk_premium,Fixed investment,hpd90_upper,9,0.311712
+7,82,external_risk_premium,Fixed investment,hpd90_upper,10,0.406485
+7,82,external_risk_premium,Fixed investment,hpd90_upper,11,0.488780
+7,82,external_risk_premium,Fixed investment,hpd90_upper,12,0.556111
+7,82,external_risk_premium,Fixed investment,hpd90_upper,13,0.593518
+7,82,external_risk_premium,Fixed investment,hpd90_upper,14,0.625927
+7,82,external_risk_premium,Fixed investment,hpd90_upper,15,0.645887
+7,82,external_risk_premium,Fixed investment,hpd90_upper,16,0.663333
+7,82,external_risk_premium,Fixed investment,hpd90_upper,17,0.658365
+7,82,external_risk_premium,Fixed investment,hpd90_upper,18,0.653368
+7,82,external_risk_premium,Fixed investment,hpd90_upper,19,0.633408
+7,82,external_risk_premium,Fixed investment,hpd90_upper,20,0.608480
+7,82,external_risk_premium,Exports,mean,1,0.383202
+7,82,external_risk_premium,Exports,mean,2,0.714312
+7,82,external_risk_premium,Exports,mean,3,0.790845
+7,82,external_risk_premium,Exports,mean,4,0.664395
+7,82,external_risk_premium,Exports,mean,5,0.458078
+7,82,external_risk_premium,Exports,mean,6,0.255075
+7,82,external_risk_premium,Exports,mean,7,0.093682
+7,82,external_risk_premium,Exports,mean,8,-0.022804
+7,82,external_risk_premium,Exports,mean,9,-0.104329
+7,82,external_risk_premium,Exports,mean,10,-0.160895
+7,82,external_risk_premium,Exports,mean,11,-0.197514
+7,82,external_risk_premium,Exports,mean,12,-0.222473
+7,82,external_risk_premium,Exports,mean,13,-0.235771
+7,82,external_risk_premium,Exports,mean,14,-0.242440
+7,82,external_risk_premium,Exports,mean,15,-0.240762
+7,82,external_risk_premium,Exports,mean,16,-0.234113
+7,82,external_risk_premium,Exports,mean,17,-0.224130
+7,82,external_risk_premium,Exports,mean,18,-0.210812
+7,82,external_risk_premium,Exports,mean,19,-0.194180
+7,82,external_risk_premium,Exports,mean,20,-0.177547
+7,82,external_risk_premium,Exports,hpd70_lower,1,0.303334
+7,82,external_risk_premium,Exports,hpd70_lower,2,0.601160
+7,82,external_risk_premium,Exports,hpd70_lower,3,0.682705
+7,82,external_risk_premium,Exports,hpd70_lower,4,0.562904
+7,82,external_risk_premium,Exports,hpd70_lower,5,0.366550
+7,82,external_risk_premium,Exports,hpd70_lower,6,0.175207
+7,82,external_risk_premium,Exports,hpd70_lower,7,0.022121
+7,82,external_risk_premium,Exports,hpd70_lower,8,-0.082705
+7,82,external_risk_premium,Exports,hpd70_lower,9,-0.147597
+7,82,external_risk_premium,Exports,hpd70_lower,10,-0.190845
+7,82,external_risk_premium,Exports,hpd70_lower,11,-0.224130
+7,82,external_risk_premium,Exports,hpd70_lower,12,-0.247431
+7,82,external_risk_premium,Exports,hpd70_lower,13,-0.264064
+7,82,external_risk_premium,Exports,hpd70_lower,14,-0.270713
+7,82,external_risk_premium,Exports,hpd70_lower,15,-0.269055
+7,82,external_risk_premium,Exports,hpd70_lower,16,-0.260729
+7,82,external_risk_premium,Exports,hpd70_lower,17,-0.247431
+7,82,external_risk_premium,Exports,hpd70_lower,18,-0.227464
+7,82,external_risk_premium,Exports,hpd70_lower,19,-0.212489
+7,82,external_risk_premium,Exports,hpd70_lower,20,-0.194180
+7,82,external_risk_premium,Exports,hpd70_upper,1,0.446417
+7,82,external_risk_premium,Exports,hpd70_upper,2,0.804163
+7,82,external_risk_premium,Exports,hpd70_upper,3,0.869055
+7,82,external_risk_premium,Exports,hpd70_upper,4,0.739271
+7,82,external_risk_premium,Exports,hpd70_upper,5,0.522970
+7,82,external_risk_premium,Exports,hpd70_upper,6,0.323301
+7,82,external_risk_premium,Exports,hpd70_upper,7,0.148591
+7,82,external_risk_premium,Exports,hpd70_upper,8,0.013815
+7,82,external_risk_premium,Exports,hpd70_upper,9,-0.072721
+7,82,external_risk_premium,Exports,hpd70_upper,10,-0.132622
+7,82,external_risk_premium,Exports,hpd70_upper,11,-0.169221
+7,82,external_risk_premium,Exports,hpd70_upper,12,-0.189188
+7,82,external_risk_premium,Exports,hpd70_upper,13,-0.200829
+7,82,external_risk_premium,Exports,hpd70_upper,14,-0.202506
+7,82,external_risk_premium,Exports,hpd70_upper,15,-0.200829
+7,82,external_risk_premium,Exports,hpd70_upper,16,-0.194180
+7,82,external_risk_premium,Exports,hpd70_upper,17,-0.185853
+7,82,external_risk_premium,Exports,hpd70_upper,18,-0.172556
+7,82,external_risk_premium,Exports,hpd70_upper,19,-0.157580
+7,82,external_risk_premium,Exports,hpd70_upper,20,-0.142605
+7,82,external_risk_premium,Exports,hpd90_lower,1,0.225124
+7,82,external_risk_premium,Exports,hpd90_lower,2,0.459735
+7,82,external_risk_premium,Exports,hpd90_lower,3,0.551243
+7,82,external_risk_premium,Exports,hpd90_lower,4,0.471376
+7,82,external_risk_premium,Exports,hpd90_lower,5,0.271707
+7,82,external_risk_premium,Exports,hpd90_lower,6,0.090348
+7,82,external_risk_premium,Exports,hpd90_lower,7,-0.051077
+7,82,external_risk_premium,Exports,hpd90_lower,8,-0.132622
+7,82,external_risk_premium,Exports,hpd90_lower,9,-0.195837
+7,82,external_risk_premium,Exports,hpd90_lower,10,-0.239105
+7,82,external_risk_premium,Exports,hpd90_lower,11,-0.274047
+7,82,external_risk_premium,Exports,hpd90_lower,12,-0.297348
+7,82,external_risk_premium,Exports,hpd90_lower,13,-0.315638
+7,82,external_risk_premium,Exports,hpd90_lower,14,-0.318973
+7,82,external_risk_premium,Exports,hpd90_lower,15,-0.318973
+7,82,external_risk_premium,Exports,hpd90_lower,16,-0.312324
+7,82,external_risk_premium,Exports,hpd90_lower,17,-0.300663
+7,82,external_risk_premium,Exports,hpd90_lower,18,-0.289022
+7,82,external_risk_premium,Exports,hpd90_lower,19,-0.270713
+7,82,external_risk_premium,Exports,hpd90_lower,20,-0.250746
+7,82,external_risk_premium,Exports,hpd90_upper,1,0.557912
+7,82,external_risk_premium,Exports,hpd90_upper,2,0.977216
+7,82,external_risk_premium,Exports,hpd90_upper,3,1.043765
+7,82,external_risk_premium,Exports,hpd90_upper,4,0.875704
+7,82,external_risk_premium,Exports,hpd90_upper,5,0.654412
+7,82,external_risk_premium,Exports,hpd90_upper,6,0.444760
+7,82,external_risk_premium,Exports,hpd90_upper,7,0.253417
+7,82,external_risk_premium,Exports,hpd90_upper,8,0.105323
+7,82,external_risk_premium,Exports,hpd90_upper,9,0.000497
+7,82,external_risk_premium,Exports,hpd90_upper,10,-0.076036
+7,82,external_risk_premium,Exports,hpd90_upper,11,-0.127630
+7,82,external_risk_premium,Exports,hpd90_upper,12,-0.155903
+7,82,external_risk_premium,Exports,hpd90_upper,13,-0.167564
+7,82,external_risk_premium,Exports,hpd90_upper,14,-0.170878
+7,82,external_risk_premium,Exports,hpd90_upper,15,-0.170878
+7,82,external_risk_premium,Exports,hpd90_upper,16,-0.164229
+7,82,external_risk_premium,Exports,hpd90_upper,17,-0.154246
+7,82,external_risk_premium,Exports,hpd90_upper,18,-0.142605
+7,82,external_risk_premium,Exports,hpd90_upper,19,-0.129287
+7,82,external_risk_premium,Exports,hpd90_upper,20,-0.114312
+7,82,external_risk_premium,Imports,mean,1,-0.743268
+7,82,external_risk_premium,Imports,mean,2,-0.981193
+7,82,external_risk_premium,Imports,mean,3,-0.839768
+7,82,external_risk_premium,Imports,mean,4,-0.536931
+7,82,external_risk_premium,Imports,mean,5,-0.274047
+7,82,external_risk_premium,Imports,mean,6,-0.081027
+7,82,external_risk_premium,Imports,mean,7,0.042108
+7,82,external_risk_premium,Imports,mean,8,0.123633
+7,82,external_risk_premium,Imports,mean,9,0.180199
+7,82,external_risk_premium,Imports,mean,10,0.221810
+7,82,external_risk_premium,Imports,mean,11,0.250083
+7,82,external_risk_premium,Imports,mean,12,0.266735
+7,82,external_risk_premium,Imports,mean,13,0.276719
+7,82,external_risk_premium,Imports,mean,14,0.276719
+7,82,external_risk_premium,Imports,mean,15,0.271727
+7,82,external_risk_premium,Imports,mean,16,0.263401
+7,82,external_risk_premium,Imports,mean,17,0.251760
+7,82,external_risk_premium,Imports,mean,18,0.236785
+7,82,external_risk_premium,Imports,mean,19,0.221810
+7,82,external_risk_premium,Imports,mean,20,0.206835
+7,82,external_risk_premium,Imports,hpd70_lower,1,-0.814809
+7,82,external_risk_premium,Imports,hpd70_lower,2,-1.086019
+7,82,external_risk_premium,Imports,hpd70_lower,3,-0.942937
+7,82,external_risk_premium,Imports,hpd70_lower,4,-0.610149
+7,82,external_risk_premium,Imports,hpd70_lower,5,-0.323964
+7,82,external_risk_premium,Imports,hpd70_lower,6,-0.120961
+7,82,external_risk_premium,Imports,hpd70_lower,7,0.010481
+7,82,external_risk_premium,Imports,hpd70_lower,8,0.090348
+7,82,external_risk_premium,Imports,hpd70_lower,9,0.141942
+7,82,external_risk_premium,Imports,hpd70_lower,10,0.180199
+7,82,external_risk_premium,Imports,hpd70_lower,11,0.208492
+7,82,external_risk_premium,Imports,hpd70_lower,12,0.225124
+7,82,external_risk_premium,Imports,hpd70_lower,13,0.233450
+7,82,external_risk_premium,Imports,hpd70_lower,14,0.236785
+7,82,external_risk_premium,Imports,hpd70_lower,15,0.231793
+7,82,external_risk_premium,Imports,hpd70_lower,16,0.223467
+7,82,external_risk_premium,Imports,hpd70_lower,17,0.211826
+7,82,external_risk_premium,Imports,hpd70_lower,18,0.200166
+7,82,external_risk_premium,Imports,hpd70_lower,19,0.186868
+7,82,external_risk_premium,Imports,hpd70_lower,20,0.171893
+7,82,external_risk_premium,Imports,hpd70_upper,1,-0.668392
+7,82,external_risk_premium,Imports,hpd70_upper,2,-0.868061
+7,82,external_risk_premium,Imports,hpd70_upper,3,-0.714975
+7,82,external_risk_premium,Imports,hpd70_upper,4,-0.423798
+7,82,external_risk_premium,Imports,hpd70_upper,5,-0.180862
+7,82,external_risk_premium,Imports,hpd70_upper,6,-0.006152
+7,82,external_risk_premium,Imports,hpd70_upper,7,0.098674
+7,82,external_risk_premium,Imports,hpd70_upper,8,0.166901
+7,82,external_risk_premium,Imports,hpd70_upper,9,0.220133
+7,82,external_risk_premium,Imports,hpd70_upper,10,0.256752
+7,82,external_risk_premium,Imports,hpd70_upper,11,0.283368
+7,82,external_risk_premium,Imports,hpd70_upper,12,0.296686
+7,82,external_risk_premium,Imports,hpd70_upper,13,0.304992
+7,82,external_risk_premium,Imports,hpd70_upper,14,0.304992
+7,82,external_risk_premium,Imports,hpd70_upper,15,0.298343
+7,82,external_risk_premium,Imports,hpd70_upper,16,0.288359
+7,82,external_risk_premium,Imports,hpd70_upper,17,0.271727
+7,82,external_risk_premium,Imports,hpd70_upper,18,0.256752
+7,82,external_risk_premium,Imports,hpd70_upper,19,0.240099
+7,82,external_risk_premium,Imports,hpd70_upper,20,0.223467
+7,82,external_risk_premium,Imports,hpd90_lower,1,-0.926284
+7,82,external_risk_premium,Imports,hpd90_lower,2,-1.234113
+7,82,external_risk_premium,Imports,hpd90_lower,3,-1.104329
+7,82,external_risk_premium,Imports,hpd90_lower,4,-0.811475
+7,82,external_risk_premium,Imports,hpd90_lower,5,-0.495340
+7,82,external_risk_premium,Imports,hpd90_lower,6,-0.250746
+7,82,external_risk_premium,Imports,hpd90_lower,7,-0.100994
+7,82,external_risk_premium,Imports,hpd90_lower,8,0.003832
+7,82,external_risk_premium,Imports,hpd90_lower,9,0.080365
+7,82,external_risk_premium,Imports,hpd90_lower,10,0.135273
+7,82,external_risk_premium,Imports,hpd90_lower,11,0.163566
+7,82,external_risk_premium,Imports,hpd90_lower,12,0.186868
+7,82,external_risk_premium,Imports,hpd90_lower,13,0.200166
+7,82,external_risk_premium,Imports,hpd90_lower,14,0.200166
+7,82,external_risk_premium,Imports,hpd90_lower,15,0.196851
+7,82,external_risk_premium,Imports,hpd90_lower,16,0.186868
+7,82,external_risk_premium,Imports,hpd90_lower,17,0.176884
+7,82,external_risk_premium,Imports,hpd90_lower,18,0.166901
+7,82,external_risk_premium,Imports,hpd90_lower,19,0.156918
+7,82,external_risk_premium,Imports,hpd90_lower,20,0.146934
+7,82,external_risk_premium,Imports,hpd90_upper,1,-0.571873
+7,82,external_risk_premium,Imports,hpd90_upper,2,-0.749917
+7,82,external_risk_premium,Imports,hpd90_upper,3,-0.600166
+7,82,external_risk_premium,Imports,hpd90_upper,4,-0.323964
+7,82,external_risk_premium,Imports,hpd90_upper,5,-0.092668
+7,82,external_risk_premium,Imports,hpd90_upper,6,0.055406
+7,82,external_risk_premium,Imports,hpd90_upper,7,0.158575
+7,82,external_risk_premium,Imports,hpd90_upper,8,0.231793
+7,82,external_risk_premium,Imports,hpd90_upper,9,0.285025
+7,82,external_risk_premium,Imports,hpd90_upper,10,0.316652
+7,82,external_risk_premium,Imports,hpd90_upper,11,0.339934
+7,82,external_risk_premium,Imports,hpd90_upper,12,0.359901
+7,82,external_risk_premium,Imports,hpd90_upper,13,0.363235
+7,82,external_risk_premium,Imports,hpd90_upper,14,0.368227
+7,82,external_risk_premium,Imports,hpd90_upper,15,0.358243
+7,82,external_risk_premium,Imports,hpd90_upper,16,0.353252
+7,82,external_risk_premium,Imports,hpd90_upper,17,0.338276
+7,82,external_risk_premium,Imports,hpd90_upper,18,0.321644
+7,82,external_risk_premium,Imports,hpd90_upper,19,0.301677
+7,82,external_risk_premium,Imports,hpd90_upper,20,0.280033
+7,82,external_risk_premium,Hours worked,mean,1,0.254441
+7,82,external_risk_premium,Hours worked,mean,2,0.372916
+7,82,external_risk_premium,Hours worked,mean,3,0.271085
+7,82,external_risk_premium,Hours worked,mean,4,0.131317
+7,82,external_risk_premium,Hours worked,mean,5,0.022825
+7,82,external_risk_premium,Hours worked,mean,6,-0.025758
+7,82,external_risk_premium,Hours worked,mean,7,-0.037738
+7,82,external_risk_premium,Hours worked,mean,8,-0.031085
+7,82,external_risk_premium,Hours worked,mean,9,-0.022428
+7,82,external_risk_premium,Hours worked,mean,10,-0.015112
+7,82,external_risk_premium,Hours worked,mean,11,-0.011118
+7,82,external_risk_premium,Hours worked,mean,12,-0.009785
+7,82,external_risk_premium,Hours worked,mean,13,-0.009785
+7,82,external_risk_premium,Hours worked,mean,14,-0.009785
+7,82,external_risk_premium,Hours worked,mean,15,-0.010447
+7,82,external_risk_premium,Hours worked,mean,16,-0.010447
+7,82,external_risk_premium,Hours worked,mean,17,-0.010447
+7,82,external_risk_premium,Hours worked,mean,18,-0.010447
+7,82,external_risk_premium,Hours worked,mean,19,-0.010447
+7,82,external_risk_premium,Hours worked,mean,20,-0.010447
+7,82,external_risk_premium,Hours worked,hpd70_lower,1,0.216504
+7,82,external_risk_premium,Hours worked,hpd70_lower,2,0.326992
+7,82,external_risk_premium,Hours worked,hpd70_lower,3,0.229818
+7,82,external_risk_premium,Hours worked,hpd70_lower,4,0.094043
+7,82,external_risk_premium,Hours worked,hpd70_lower,5,-0.003795
+7,82,external_risk_premium,Hours worked,hpd70_lower,6,-0.045725
+7,82,external_risk_premium,Hours worked,hpd70_lower,7,-0.055045
+7,82,external_risk_premium,Hours worked,hpd70_lower,8,-0.047722
+7,82,external_risk_premium,Hours worked,hpd70_lower,9,-0.035741
+7,82,external_risk_premium,Hours worked,hpd70_lower,10,-0.024424
+7,82,external_risk_premium,Hours worked,hpd70_lower,11,-0.019768
+7,82,external_risk_premium,Hours worked,hpd70_lower,12,-0.016438
+7,82,external_risk_premium,Hours worked,hpd70_lower,13,-0.015112
+7,82,external_risk_premium,Hours worked,hpd70_lower,14,-0.015112
+7,82,external_risk_premium,Hours worked,hpd70_lower,15,-0.015112
+7,82,external_risk_premium,Hours worked,hpd70_lower,16,-0.015112
+7,82,external_risk_premium,Hours worked,hpd70_lower,17,-0.014441
+7,82,external_risk_premium,Hours worked,hpd70_lower,18,-0.013778
+7,82,external_risk_premium,Hours worked,hpd70_lower,19,-0.013115
+7,82,external_risk_premium,Hours worked,hpd70_lower,20,-0.011781
+7,82,external_risk_premium,Hours worked,hpd70_upper,1,0.287722
+7,82,external_risk_premium,Hours worked,hpd70_upper,2,0.410853
+7,82,external_risk_premium,Hours worked,hpd70_upper,3,0.303032
+7,82,external_risk_premium,Hours worked,hpd70_upper,4,0.152610
+7,82,external_risk_premium,Hours worked,hpd70_upper,5,0.045460
+7,82,external_risk_premium,Hours worked,hpd70_upper,6,-0.007788
+7,82,external_risk_premium,Hours worked,hpd70_upper,7,-0.024424
+7,82,external_risk_premium,Hours worked,hpd70_upper,8,-0.018434
+7,82,external_risk_premium,Hours worked,hpd70_upper,9,-0.011118
+7,82,external_risk_premium,Hours worked,hpd70_upper,10,-0.005128
+7,82,external_risk_premium,Hours worked,hpd70_upper,11,-0.003795
+7,82,external_risk_premium,Hours worked,hpd70_upper,12,-0.003795
+7,82,external_risk_premium,Hours worked,hpd70_upper,13,-0.005128
+7,82,external_risk_premium,Hours worked,hpd70_upper,14,-0.005791
+7,82,external_risk_premium,Hours worked,hpd70_upper,15,-0.006454
+7,82,external_risk_premium,Hours worked,hpd70_upper,16,-0.007125
+7,82,external_risk_premium,Hours worked,hpd70_upper,17,-0.007125
+7,82,external_risk_premium,Hours worked,hpd70_upper,18,-0.007125
+7,82,external_risk_premium,Hours worked,hpd70_upper,19,-0.007788
+7,82,external_risk_premium,Hours worked,hpd70_upper,20,-0.007788
+7,82,external_risk_premium,Hours worked,hpd90_lower,1,0.173911
+7,82,external_risk_premium,Hours worked,hpd90_lower,2,0.275741
+7,82,external_risk_premium,Hours worked,hpd90_lower,3,0.186554
+7,82,external_risk_premium,Hours worked,hpd90_lower,4,0.064093
+7,82,external_risk_premium,Hours worked,hpd90_lower,5,-0.029089
+7,82,external_risk_premium,Hours worked,hpd90_lower,6,-0.069685
+7,82,external_risk_premium,Hours worked,hpd90_lower,7,-0.075675
+7,82,external_risk_premium,Hours worked,hpd90_lower,8,-0.063695
+7,82,external_risk_premium,Hours worked,hpd90_lower,9,-0.051715
+7,82,external_risk_premium,Hours worked,hpd90_lower,10,-0.039072
+7,82,external_risk_premium,Hours worked,hpd90_lower,11,-0.031085
+7,82,external_risk_premium,Hours worked,hpd90_lower,12,-0.026421
+7,82,external_risk_premium,Hours worked,hpd90_lower,13,-0.024424
+7,82,external_risk_premium,Hours worked,hpd90_lower,14,-0.022428
+7,82,external_risk_premium,Hours worked,hpd90_lower,15,-0.021765
+7,82,external_risk_premium,Hours worked,hpd90_lower,16,-0.020431
+7,82,external_risk_premium,Hours worked,hpd90_lower,17,-0.019105
+7,82,external_risk_premium,Hours worked,hpd90_lower,18,-0.018434
+7,82,external_risk_premium,Hours worked,hpd90_lower,19,-0.017108
+7,82,external_risk_premium,Hours worked,hpd90_lower,20,-0.015775
+7,82,external_risk_premium,Hours worked,hpd90_upper,1,0.339635
+7,82,external_risk_premium,Hours worked,hpd90_upper,2,0.476744
+7,82,external_risk_premium,Hours worked,hpd90_upper,3,0.364259
+7,82,external_risk_premium,Hours worked,hpd90_upper,4,0.207191
+7,82,external_risk_premium,Hours worked,hpd90_upper,5,0.083397
+7,82,external_risk_premium,Hours worked,hpd90_upper,6,0.021500
+7,82,external_risk_premium,Hours worked,hpd90_upper,7,0.001533
+7,82,external_risk_premium,Hours worked,hpd90_upper,8,0.002196
+7,82,external_risk_premium,Hours worked,hpd90_upper,9,0.004855
+7,82,external_risk_premium,Hours worked,hpd90_upper,10,0.009519
+7,82,external_risk_premium,Hours worked,hpd90_upper,11,0.009519
+7,82,external_risk_premium,Hours worked,hpd90_upper,12,0.008186
+7,82,external_risk_premium,Hours worked,hpd90_upper,13,0.006189
+7,82,external_risk_premium,Hours worked,hpd90_upper,14,0.003529
+7,82,external_risk_premium,Hours worked,hpd90_upper,15,0.000862
+7,82,external_risk_premium,Hours worked,hpd90_upper,16,-0.001798
+7,82,external_risk_premium,Hours worked,hpd90_upper,17,-0.003132
+7,82,external_risk_premium,Hours worked,hpd90_upper,18,-0.004457
+7,82,external_risk_premium,Hours worked,hpd90_upper,19,-0.004457
+7,82,external_risk_premium,Hours worked,hpd90_upper,20,-0.005128
+7,82,external_risk_premium,Interest rate,mean,1,0.511972
+7,82,external_risk_premium,Interest rate,mean,2,0.751333
+7,82,external_risk_premium,Interest rate,mean,3,0.854379
+7,82,external_risk_premium,Interest rate,mean,4,0.706453
+7,82,external_risk_premium,Interest rate,mean,5,0.452132
+7,82,external_risk_premium,Interest rate,mean,6,0.222744
+7,82,external_risk_premium,Interest rate,mean,7,0.068156
+7,82,external_risk_premium,Interest rate,mean,8,-0.016618
+7,82,external_risk_premium,Interest rate,mean,9,-0.058187
+7,82,external_risk_premium,Interest rate,mean,10,-0.071471
+7,82,external_risk_premium,Interest rate,mean,11,-0.074802
+7,82,external_risk_premium,Interest rate,mean,12,-0.073147
+7,82,external_risk_premium,Interest rate,mean,13,-0.069816
+7,82,external_risk_premium,Interest rate,mean,14,-0.064829
+7,82,external_risk_premium,Interest rate,mean,15,-0.059842
+7,82,external_risk_premium,Interest rate,mean,16,-0.054856
+7,82,external_risk_premium,Interest rate,mean,17,-0.051525
+7,82,external_risk_premium,Interest rate,mean,18,-0.046538
+7,82,external_risk_premium,Interest rate,mean,19,-0.043227
+7,82,external_risk_premium,Interest rate,mean,20,-0.039896
+7,82,external_risk_premium,Interest rate,hpd70_lower,1,0.457118
+7,82,external_risk_premium,Interest rate,hpd70_lower,2,0.676533
+7,82,external_risk_premium,Interest rate,hpd70_lower,3,0.759631
+7,82,external_risk_premium,Interest rate,hpd70_lower,4,0.600057
+7,82,external_risk_premium,Interest rate,hpd70_lower,5,0.362371
+7,82,external_risk_premium,Interest rate,hpd70_lower,6,0.149599
+7,82,external_risk_premium,Interest rate,hpd70_lower,7,0.014958
+7,82,external_risk_premium,Interest rate,hpd70_lower,8,-0.054856
+7,82,external_risk_premium,Interest rate,hpd70_lower,9,-0.081445
+7,82,external_risk_premium,Interest rate,hpd70_lower,10,-0.089763
+7,82,external_risk_premium,Interest rate,hpd70_lower,11,-0.088107
+7,82,external_risk_premium,Interest rate,hpd70_lower,12,-0.083120
+7,82,external_risk_premium,Interest rate,hpd70_lower,13,-0.078134
+7,82,external_risk_premium,Interest rate,hpd70_lower,14,-0.073147
+7,82,external_risk_premium,Interest rate,hpd70_lower,15,-0.068160
+7,82,external_risk_premium,Interest rate,hpd70_lower,16,-0.063173
+7,82,external_risk_premium,Interest rate,hpd70_lower,17,-0.058187
+7,82,external_risk_premium,Interest rate,hpd70_lower,18,-0.053200
+7,82,external_risk_premium,Interest rate,hpd70_lower,19,-0.048213
+7,82,external_risk_premium,Interest rate,hpd70_lower,20,-0.043227
+7,82,external_risk_premium,Interest rate,hpd70_upper,1,0.556852
+7,82,external_risk_premium,Interest rate,hpd70_upper,2,0.814485
+7,82,external_risk_premium,Interest rate,hpd70_upper,3,0.939152
+7,82,external_risk_premium,Interest rate,hpd70_upper,4,0.774591
+7,82,external_risk_premium,Interest rate,hpd70_upper,5,0.516959
+7,82,external_risk_premium,Interest rate,hpd70_upper,6,0.269280
+7,82,external_risk_premium,Interest rate,hpd70_upper,7,0.093090
+7,82,external_risk_premium,Interest rate,hpd70_upper,8,-0.000002
+7,82,external_risk_premium,Interest rate,hpd70_upper,9,-0.044882
+7,82,external_risk_premium,Interest rate,hpd70_upper,10,-0.059842
+7,82,external_risk_premium,Interest rate,hpd70_upper,11,-0.061498
+7,82,external_risk_premium,Interest rate,hpd70_upper,12,-0.059842
+7,82,external_risk_premium,Interest rate,hpd70_upper,13,-0.056511
+7,82,external_risk_premium,Interest rate,hpd70_upper,14,-0.053200
+7,82,external_risk_premium,Interest rate,hpd70_upper,15,-0.048213
+7,82,external_risk_premium,Interest rate,hpd70_upper,16,-0.044882
+7,82,external_risk_premium,Interest rate,hpd70_upper,17,-0.041551
+7,82,external_risk_premium,Interest rate,hpd70_upper,18,-0.038240
+7,82,external_risk_premium,Interest rate,hpd70_upper,19,-0.034909
+7,82,external_risk_premium,Interest rate,hpd70_upper,20,-0.031578
+7,82,external_risk_premium,Interest rate,hpd90_lower,1,0.398934
+7,82,external_risk_premium,Interest rate,hpd90_lower,2,0.590084
+7,82,external_risk_premium,Interest rate,hpd90_lower,3,0.653255
+7,82,external_risk_premium,Interest rate,hpd90_lower,4,0.511972
+7,82,external_risk_premium,Interest rate,hpd90_lower,5,0.272611
+7,82,external_risk_premium,Interest rate,hpd90_lower,6,0.083116
+7,82,external_risk_premium,Interest rate,hpd90_lower,7,-0.033253
+7,82,external_risk_premium,Interest rate,hpd90_lower,8,-0.083120
+7,82,external_risk_premium,Interest rate,hpd90_lower,9,-0.106378
+7,82,external_risk_premium,Interest rate,hpd90_lower,10,-0.111365
+7,82,external_risk_premium,Interest rate,hpd90_lower,11,-0.109709
+7,82,external_risk_premium,Interest rate,hpd90_lower,12,-0.103067
+7,82,external_risk_premium,Interest rate,hpd90_lower,13,-0.098080
+7,82,external_risk_premium,Interest rate,hpd90_lower,14,-0.089763
+7,82,external_risk_premium,Interest rate,hpd90_lower,15,-0.084776
+7,82,external_risk_premium,Interest rate,hpd90_lower,16,-0.078134
+7,82,external_risk_premium,Interest rate,hpd90_lower,17,-0.071471
+7,82,external_risk_premium,Interest rate,hpd90_lower,18,-0.066485
+7,82,external_risk_premium,Interest rate,hpd90_lower,19,-0.061498
+7,82,external_risk_premium,Interest rate,hpd90_lower,20,-0.054856
+7,82,external_risk_premium,Interest rate,hpd90_upper,1,0.634964
+7,82,external_risk_premium,Interest rate,hpd90_upper,2,0.924192
+7,82,external_risk_premium,Interest rate,hpd90_upper,3,1.077124
+7,82,external_risk_premium,Interest rate,hpd90_upper,4,0.930854
+7,82,external_risk_premium,Interest rate,hpd90_upper,5,0.649924
+7,82,external_risk_premium,Interest rate,hpd90_upper,6,0.375656
+7,82,external_risk_premium,Interest rate,hpd90_upper,7,0.186161
+7,82,external_risk_premium,Interest rate,hpd90_upper,8,0.063169
+7,82,external_risk_premium,Interest rate,hpd90_upper,9,-0.000002
+7,82,external_risk_premium,Interest rate,hpd90_upper,10,-0.034909
+7,82,external_risk_premium,Interest rate,hpd90_upper,11,-0.044882
+7,82,external_risk_premium,Interest rate,hpd90_upper,12,-0.046538
+7,82,external_risk_premium,Interest rate,hpd90_upper,13,-0.043227
+7,82,external_risk_premium,Interest rate,hpd90_upper,14,-0.041551
+7,82,external_risk_premium,Interest rate,hpd90_upper,15,-0.038240
+7,82,external_risk_premium,Interest rate,hpd90_upper,16,-0.036564
+7,82,external_risk_premium,Interest rate,hpd90_upper,17,-0.033253
+7,82,external_risk_premium,Interest rate,hpd90_upper,18,-0.029922
+7,82,external_risk_premium,Interest rate,hpd90_upper,19,-0.028267
+7,82,external_risk_premium,Interest rate,hpd90_upper,20,-0.024935
+7,82,external_risk_premium,Real wage,mean,1,-0.376065
+7,82,external_risk_premium,Real wage,mean,2,-0.411969
+7,82,external_risk_premium,Real wage,mean,3,-0.300267
+7,82,external_risk_premium,Real wage,mean,4,-0.175935
+7,82,external_risk_premium,Real wage,mean,5,-0.082847
+7,82,external_risk_premium,Real wage,mean,6,-0.021674
+7,82,external_risk_premium,Real wage,mean,7,0.018219
+7,82,external_risk_premium,Real wage,mean,8,0.045475
+7,82,external_risk_premium,Real wage,mean,9,0.064759
+7,82,external_risk_premium,Real wage,mean,10,0.078060
+7,82,external_risk_premium,Real wage,mean,11,0.086701
+7,82,external_risk_premium,Real wage,mean,12,0.092022
+7,82,external_risk_premium,Real wage,mean,13,0.094017
+7,82,external_risk_premium,Real wage,mean,14,0.094017
+7,82,external_risk_premium,Real wage,mean,15,0.092022
+7,82,external_risk_premium,Real wage,mean,16,0.089358
+7,82,external_risk_premium,Real wage,mean,17,0.086038
+7,82,external_risk_premium,Real wage,mean,18,0.082049
+7,82,external_risk_premium,Real wage,mean,19,0.078060
+7,82,external_risk_premium,Real wage,mean,20,0.074070
+7,82,external_risk_premium,Real wage,hpd70_lower,1,-0.401995
+7,82,external_risk_premium,Real wage,hpd70_lower,2,-0.444546
+7,82,external_risk_premium,Real wage,hpd70_lower,3,-0.332844
+7,82,external_risk_premium,Real wage,hpd70_lower,4,-0.203860
+7,82,external_risk_premium,Real wage,hpd70_lower,5,-0.102794
+7,82,external_risk_premium,Real wage,hpd70_lower,6,-0.035637
+7,82,external_risk_premium,Real wage,hpd70_lower,7,0.006914
+7,82,external_risk_premium,Real wage,hpd70_lower,8,0.032844
+7,82,external_risk_premium,Real wage,hpd70_lower,9,0.052129
+7,82,external_risk_premium,Real wage,hpd70_lower,10,0.064759
+7,82,external_risk_premium,Real wage,hpd70_lower,11,0.072738
+7,82,external_risk_premium,Real wage,hpd70_lower,12,0.077390
+7,82,external_risk_premium,Real wage,hpd70_lower,13,0.079384
+7,82,external_risk_premium,Real wage,hpd70_lower,14,0.080717
+7,82,external_risk_premium,Real wage,hpd70_lower,15,0.079384
+7,82,external_risk_premium,Real wage,hpd70_lower,16,0.077390
+7,82,external_risk_premium,Real wage,hpd70_lower,17,0.074070
+7,82,external_risk_premium,Real wage,hpd70_lower,18,0.070743
+7,82,external_risk_premium,Real wage,hpd70_lower,19,0.067416
+7,82,external_risk_premium,Real wage,hpd70_lower,20,0.063427
+7,82,external_risk_premium,Real wage,hpd70_upper,1,-0.342817
+7,82,external_risk_premium,Real wage,hpd70_upper,2,-0.373408
+7,82,external_risk_premium,Real wage,hpd70_upper,3,-0.257716
+7,82,external_risk_premium,Real wage,hpd70_upper,4,-0.134709
+7,82,external_risk_premium,Real wage,hpd70_upper,5,-0.048275
+7,82,external_risk_premium,Real wage,hpd70_upper,6,0.006251
+7,82,external_risk_premium,Real wage,hpd70_upper,7,0.038828
+7,82,external_risk_premium,Real wage,hpd70_upper,8,0.060108
+7,82,external_risk_premium,Real wage,hpd70_upper,9,0.076727
+7,82,external_risk_premium,Real wage,hpd70_upper,10,0.088695
+7,82,external_risk_premium,Real wage,hpd70_upper,11,0.096674
+7,82,external_risk_premium,Real wage,hpd70_upper,12,0.101326
+7,82,external_risk_premium,Real wage,hpd70_upper,13,0.102658
+7,82,external_risk_premium,Real wage,hpd70_upper,14,0.103320
+7,82,external_risk_premium,Real wage,hpd70_upper,15,0.100663
+7,82,external_risk_premium,Real wage,hpd70_upper,16,0.097336
+7,82,external_risk_premium,Real wage,hpd70_upper,17,0.093347
+7,82,external_risk_premium,Real wage,hpd70_upper,18,0.089358
+7,82,external_risk_premium,Real wage,hpd70_upper,19,0.084044
+7,82,external_risk_premium,Real wage,hpd70_upper,20,0.080054
+7,82,external_risk_premium,Real wage,hpd90_lower,1,-0.456514
+7,82,external_risk_premium,Real wage,hpd90_lower,2,-0.504386
+7,82,external_risk_premium,Real wage,hpd90_lower,3,-0.413301
+7,82,external_risk_premium,Real wage,hpd90_lower,4,-0.286966
+7,82,external_risk_premium,Real wage,hpd90_lower,5,-0.165291
+7,82,external_risk_premium,Real wage,hpd90_lower,6,-0.084842
+7,82,external_risk_premium,Real wage,hpd90_lower,7,-0.030985
+7,82,external_risk_premium,Real wage,hpd90_lower,8,0.008908
+7,82,external_risk_premium,Real wage,hpd90_lower,9,0.032844
+7,82,external_risk_premium,Real wage,hpd90_lower,10,0.047469
+7,82,external_risk_premium,Real wage,hpd90_lower,11,0.058113
+7,82,external_risk_premium,Real wage,hpd90_lower,12,0.064097
+7,82,external_risk_premium,Real wage,hpd90_lower,13,0.066754
+7,82,external_risk_premium,Real wage,hpd90_lower,14,0.068086
+7,82,external_risk_premium,Real wage,hpd90_lower,15,0.066754
+7,82,external_risk_premium,Real wage,hpd90_lower,16,0.064759
+7,82,external_risk_premium,Real wage,hpd90_lower,17,0.063427
+7,82,external_risk_premium,Real wage,hpd90_lower,18,0.060108
+7,82,external_risk_premium,Real wage,hpd90_lower,19,0.057443
+7,82,external_risk_premium,Real wage,hpd90_lower,20,0.054124
+7,82,external_risk_premium,Real wage,hpd90_upper,1,-0.304256
+7,82,external_risk_premium,Real wage,hpd90_upper,2,-0.324865
+7,82,external_risk_premium,Real wage,hpd90_upper,3,-0.201195
+7,82,external_risk_premium,Real wage,hpd90_upper,4,-0.087499
+7,82,external_risk_premium,Real wage,hpd90_upper,5,-0.015028
+7,82,external_risk_premium,Real wage,hpd90_upper,6,0.030850
+7,82,external_risk_premium,Real wage,hpd90_upper,7,0.060108
+7,82,external_risk_premium,Real wage,hpd90_upper,8,0.084044
+7,82,external_risk_premium,Real wage,hpd90_upper,9,0.098007
+7,82,external_risk_premium,Real wage,hpd90_upper,10,0.110637
+7,82,external_risk_premium,Real wage,hpd90_upper,11,0.119948
+7,82,external_risk_premium,Real wage,hpd90_upper,12,0.123937
+7,82,external_risk_premium,Real wage,hpd90_upper,13,0.122605
+7,82,external_risk_premium,Real wage,hpd90_upper,14,0.123267
+7,82,external_risk_premium,Real wage,hpd90_upper,15,0.120610
+7,82,external_risk_premium,Real wage,hpd90_upper,16,0.115959
+7,82,external_risk_premium,Real wage,hpd90_upper,17,0.111969
+7,82,external_risk_premium,Real wage,hpd90_upper,18,0.107310
+7,82,external_risk_premium,Real wage,hpd90_upper,19,0.100663
+7,82,external_risk_premium,Real wage,hpd90_upper,20,0.096012
+7,82,external_risk_premium,Real exchange rate,mean,1,1.660834
+7,82,external_risk_premium,Real exchange rate,mean,2,1.556096
+7,82,external_risk_premium,Real exchange rate,mean,3,0.977553
+7,82,external_risk_premium,Real exchange rate,mean,4,0.456347
+7,82,external_risk_premium,Real exchange rate,mean,5,0.127170
+7,82,external_risk_premium,Real exchange rate,mean,6,-0.047383
+7,82,external_risk_premium,Real exchange rate,mean,7,-0.134675
+7,82,external_risk_premium,Real exchange rate,mean,8,-0.179563
+7,82,external_risk_premium,Real exchange rate,mean,9,-0.209488
+7,82,external_risk_premium,Real exchange rate,mean,10,-0.229418
+7,82,external_risk_premium,Real exchange rate,mean,11,-0.241897
+7,82,external_risk_premium,Real exchange rate,mean,12,-0.249378
+7,82,external_risk_premium,Real exchange rate,mean,13,-0.249378
+7,82,external_risk_premium,Real exchange rate,mean,14,-0.244381
+7,82,external_risk_premium,Real exchange rate,mean,15,-0.234416
+7,82,external_risk_premium,Real exchange rate,mean,16,-0.219453
+7,82,external_risk_premium,Real exchange rate,mean,17,-0.204491
+7,82,external_risk_premium,Real exchange rate,mean,18,-0.187044
+7,82,external_risk_premium,Real exchange rate,mean,19,-0.169568
+7,82,external_risk_premium,Real exchange rate,mean,20,-0.152122
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,1,1.553612
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,2,1.433912
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,3,0.842890
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,4,0.349125
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,5,0.039908
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,6,-0.107234
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,7,-0.174565
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,8,-0.211972
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,9,-0.239413
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,10,-0.259343
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,11,-0.271822
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,12,-0.274306
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,13,-0.276820
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,14,-0.271822
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,15,-0.259343
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,16,-0.241897
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,17,-0.221937
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,18,-0.204491
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,19,-0.187044
+7,82,external_risk_premium,Real exchange rate,hpd70_lower,20,-0.164600
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,1,1.740645
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,2,1.663348
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,3,1.087289
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,4,0.546122
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,5,0.177055
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,6,-0.017458
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,7,-0.109718
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,8,-0.144640
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,9,-0.172082
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,10,-0.189528
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,11,-0.202007
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,12,-0.209488
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,13,-0.209488
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,14,-0.202007
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,15,-0.192012
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,16,-0.182047
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,17,-0.167084
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,18,-0.152122
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,19,-0.137159
+7,82,external_risk_premium,Real exchange rate,hpd70_upper,20,-0.122196
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,1,1.428914
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,2,1.274321
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,3,0.693264
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,4,0.221943
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,5,-0.047383
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,6,-0.169568
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,7,-0.234416
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,8,-0.276820
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,9,-0.299264
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,10,-0.316710
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,11,-0.324191
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,12,-0.331672
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,13,-0.334156
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,14,-0.329189
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,15,-0.319194
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,16,-0.304231
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,17,-0.281787
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,18,-0.264341
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,19,-0.244381
+7,82,external_risk_premium,Real exchange rate,hpd90_lower,20,-0.224451
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,1,1.907717
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,2,1.830420
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,3,1.279288
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,4,0.710711
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,5,0.306721
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,6,0.097245
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,7,-0.027423
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,8,-0.097269
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,9,-0.129678
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,10,-0.154605
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,11,-0.172082
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,12,-0.177049
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,13,-0.177049
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,14,-0.169568
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,15,-0.162087
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,16,-0.149638
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,17,-0.137159
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,18,-0.124680
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,19,-0.109718
+7,82,external_risk_premium,Real exchange rate,hpd90_upper,20,-0.094755
+7,82,external_risk_premium,CPI inflation,mean,1,0.428853
+7,82,external_risk_premium,CPI inflation,mean,2,0.244019
+7,82,external_risk_premium,CPI inflation,mean,3,0.015293
+7,82,external_risk_premium,CPI inflation,mean,4,-0.090425
+7,82,external_risk_premium,CPI inflation,mean,5,-0.100399
+7,82,external_risk_premium,CPI inflation,mean,6,-0.072473
+7,82,external_risk_premium,CPI inflation,mean,7,-0.042553
+7,82,external_risk_premium,CPI inflation,mean,8,-0.021944
+7,82,external_risk_premium,CPI inflation,mean,9,-0.010638
+7,82,external_risk_premium,CPI inflation,mean,10,-0.005316
+7,82,external_risk_premium,CPI inflation,mean,11,-0.003322
+7,82,external_risk_premium,CPI inflation,mean,12,-0.002659
+7,82,external_risk_premium,CPI inflation,mean,13,-0.001997
+7,82,external_risk_premium,CPI inflation,mean,14,-0.001997
+7,82,external_risk_premium,CPI inflation,mean,15,-0.001997
+7,82,external_risk_premium,CPI inflation,mean,16,-0.001997
+7,82,external_risk_premium,CPI inflation,mean,17,-0.002659
+7,82,external_risk_premium,CPI inflation,mean,18,-0.002659
+7,82,external_risk_premium,CPI inflation,mean,19,-0.002659
+7,82,external_risk_premium,CPI inflation,mean,20,-0.002659
+7,82,external_risk_premium,CPI inflation,hpd70_lower,1,0.394282
+7,82,external_risk_premium,CPI inflation,hpd70_lower,2,0.214098
+7,82,external_risk_premium,CPI inflation,hpd70_lower,3,-0.012633
+7,82,external_risk_premium,CPI inflation,hpd70_lower,4,-0.107715
+7,82,external_risk_premium,CPI inflation,hpd70_lower,5,-0.111034
+7,82,external_risk_premium,CPI inflation,hpd70_lower,6,-0.082446
+7,82,external_risk_premium,CPI inflation,hpd70_lower,7,-0.049199
+7,82,external_risk_premium,CPI inflation,hpd70_lower,8,-0.026595
+7,82,external_risk_premium,CPI inflation,hpd70_lower,9,-0.013965
+7,82,external_risk_premium,CPI inflation,hpd70_lower,10,-0.007981
+7,82,external_risk_premium,CPI inflation,hpd70_lower,11,-0.004654
+7,82,external_risk_premium,CPI inflation,hpd70_lower,12,-0.003322
+7,82,external_risk_premium,CPI inflation,hpd70_lower,13,-0.002659
+7,82,external_risk_premium,CPI inflation,hpd70_lower,14,-0.002659
+7,82,external_risk_premium,CPI inflation,hpd70_lower,15,-0.002659
+7,82,external_risk_premium,CPI inflation,hpd70_lower,16,-0.002659
+7,82,external_risk_premium,CPI inflation,hpd70_lower,17,-0.002659
+7,82,external_risk_premium,CPI inflation,hpd70_lower,18,-0.003322
+7,82,external_risk_premium,CPI inflation,hpd70_lower,19,-0.003322
+7,82,external_risk_premium,CPI inflation,hpd70_lower,20,-0.003322
+7,82,external_risk_premium,CPI inflation,hpd70_upper,1,0.456117
+7,82,external_risk_premium,CPI inflation,hpd70_upper,2,0.267955
+7,82,external_risk_premium,CPI inflation,hpd70_upper,3,0.038567
+7,82,external_risk_premium,CPI inflation,hpd70_upper,4,-0.075800
+7,82,external_risk_premium,CPI inflation,hpd70_upper,5,-0.089093
+7,82,external_risk_premium,CPI inflation,hpd70_upper,6,-0.061167
+7,82,external_risk_premium,CPI inflation,hpd70_upper,7,-0.033242
+7,82,external_risk_premium,CPI inflation,hpd70_upper,8,-0.015290
+7,82,external_risk_premium,CPI inflation,hpd70_upper,9,-0.005986
+7,82,external_risk_premium,CPI inflation,hpd70_upper,10,-0.001997
+7,82,external_risk_premium,CPI inflation,hpd70_upper,11,-0.000665
+7,82,external_risk_premium,CPI inflation,hpd70_upper,12,-0.000665
+7,82,external_risk_premium,CPI inflation,hpd70_upper,13,-0.000665
+7,82,external_risk_premium,CPI inflation,hpd70_upper,14,-0.001327
+7,82,external_risk_premium,CPI inflation,hpd70_upper,15,-0.001327
+7,82,external_risk_premium,CPI inflation,hpd70_upper,16,-0.001327
+7,82,external_risk_premium,CPI inflation,hpd70_upper,17,-0.001327
+7,82,external_risk_premium,CPI inflation,hpd70_upper,18,-0.001997
+7,82,external_risk_premium,CPI inflation,hpd70_upper,19,-0.001997
+7,82,external_risk_premium,CPI inflation,hpd70_upper,20,-0.001997
+7,82,external_risk_premium,CPI inflation,hpd90_lower,1,0.356383
+7,82,external_risk_premium,CPI inflation,hpd90_lower,2,0.184178
+7,82,external_risk_premium,CPI inflation,hpd90_lower,3,-0.041891
+7,82,external_risk_premium,CPI inflation,hpd90_lower,4,-0.129656
+7,82,external_risk_premium,CPI inflation,hpd90_lower,5,-0.128986
+7,82,external_risk_premium,CPI inflation,hpd90_lower,6,-0.098404
+7,82,external_risk_premium,CPI inflation,hpd90_lower,7,-0.063162
+7,82,external_risk_premium,CPI inflation,hpd90_lower,8,-0.036569
+7,82,external_risk_premium,CPI inflation,hpd90_lower,9,-0.021274
+7,82,external_risk_premium,CPI inflation,hpd90_lower,10,-0.012633
+7,82,external_risk_premium,CPI inflation,hpd90_lower,11,-0.007981
+7,82,external_risk_premium,CPI inflation,hpd90_lower,12,-0.005986
+7,82,external_risk_premium,CPI inflation,hpd90_lower,13,-0.005316
+7,82,external_risk_premium,CPI inflation,hpd90_lower,14,-0.004654
+7,82,external_risk_premium,CPI inflation,hpd90_lower,15,-0.004654
+7,82,external_risk_premium,CPI inflation,hpd90_lower,16,-0.004654
+7,82,external_risk_premium,CPI inflation,hpd90_lower,17,-0.004654
+7,82,external_risk_premium,CPI inflation,hpd90_lower,18,-0.004654
+7,82,external_risk_premium,CPI inflation,hpd90_lower,19,-0.004654
+7,82,external_risk_premium,CPI inflation,hpd90_lower,20,-0.004654
+7,82,external_risk_premium,CPI inflation,hpd90_upper,1,0.510635
+7,82,external_risk_premium,CPI inflation,hpd90_upper,2,0.306516
+7,82,external_risk_premium,CPI inflation,hpd90_upper,3,0.078460
+7,82,external_risk_premium,CPI inflation,hpd90_upper,4,-0.047204
+7,82,external_risk_premium,CPI inflation,hpd90_upper,5,-0.071811
+7,82,external_risk_premium,CPI inflation,hpd90_upper,6,-0.049199
+7,82,external_risk_premium,CPI inflation,hpd90_upper,7,-0.023939
+7,82,external_risk_premium,CPI inflation,hpd90_upper,8,-0.008643
+7,82,external_risk_premium,CPI inflation,hpd90_upper,9,-0.001327
+7,82,external_risk_premium,CPI inflation,hpd90_upper,10,0.000668
+7,82,external_risk_premium,CPI inflation,hpd90_upper,11,0.000668
+7,82,external_risk_premium,CPI inflation,hpd90_upper,12,0.000668
+7,82,external_risk_premium,CPI inflation,hpd90_upper,13,-0.000002
+7,82,external_risk_premium,CPI inflation,hpd90_upper,14,-0.000002
+7,82,external_risk_premium,CPI inflation,hpd90_upper,15,-0.000002
+7,82,external_risk_premium,CPI inflation,hpd90_upper,16,-0.000665
+7,82,external_risk_premium,CPI inflation,hpd90_upper,17,-0.000665
+7,82,external_risk_premium,CPI inflation,hpd90_upper,18,-0.000665
+7,82,external_risk_premium,CPI inflation,hpd90_upper,19,-0.001327
+7,82,external_risk_premium,CPI inflation,hpd90_upper,20,-0.001327
+7,82,external_risk_premium,Domestic inflation,mean,1,0.103722
+7,82,external_risk_premium,Domestic inflation,mean,2,0.129653
+7,82,external_risk_premium,Domestic inflation,mean,3,0.103722
+7,82,external_risk_premium,Domestic inflation,mean,4,0.059508
+7,82,external_risk_premium,Domestic inflation,mean,5,0.023604
+7,82,external_risk_premium,Domestic inflation,mean,6,0.004323
+7,82,external_risk_premium,Domestic inflation,mean,7,-0.001330
+7,82,external_risk_premium,Domestic inflation,mean,8,-0.000663
+7,82,external_risk_premium,Domestic inflation,mean,9,0.001662
+7,82,external_risk_premium,Domestic inflation,mean,10,0.002329
+7,82,external_risk_premium,Domestic inflation,mean,11,0.001662
+7,82,external_risk_premium,Domestic inflation,mean,12,-0.000001
+7,82,external_risk_premium,Domestic inflation,mean,13,-0.001996
+7,82,external_risk_premium,Domestic inflation,mean,14,-0.004322
+7,82,external_risk_premium,Domestic inflation,mean,15,-0.005985
+7,82,external_risk_premium,Domestic inflation,mean,16,-0.007314
+7,82,external_risk_premium,Domestic inflation,mean,17,-0.008311
+7,82,external_risk_premium,Domestic inflation,mean,18,-0.008977
+7,82,external_risk_premium,Domestic inflation,mean,19,-0.009308
+7,82,external_risk_premium,Domestic inflation,mean,20,-0.009308
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,1,0.092420
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,2,0.115028
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,3,0.090094
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,4,0.047540
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,5,0.014297
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,6,-0.003324
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,7,-0.007314
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,8,-0.005650
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,9,-0.002327
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,10,-0.000663
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,11,-0.000999
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,12,-0.002327
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,13,-0.004322
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,14,-0.005985
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,15,-0.007645
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,16,-0.008642
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,17,-0.009639
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,18,-0.010306
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,19,-0.010637
+7,82,external_risk_premium,Domestic inflation,hpd70_lower,20,-0.010637
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,1,0.112367
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,2,0.140624
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,3,0.113695
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,4,0.068153
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,5,0.031583
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,6,0.010970
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,7,0.003988
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,8,0.002991
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,9,0.004323
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,10,0.004323
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,11,0.003657
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,12,0.001993
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,13,-0.000332
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,14,-0.002327
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,15,-0.003991
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,16,-0.005650
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,17,-0.006647
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,18,-0.007314
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,19,-0.007645
+7,82,external_risk_premium,Domestic inflation,hpd70_upper,20,-0.007980
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,1,0.080452
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,2,0.098404
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,3,0.075134
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,4,0.036900
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,5,0.001993
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,6,-0.014626
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,7,-0.016290
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,8,-0.011303
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,9,-0.007314
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,10,-0.004322
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,11,-0.003991
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,12,-0.005319
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,13,-0.007314
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,14,-0.009308
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,15,-0.010637
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,16,-0.011634
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,17,-0.012300
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,18,-0.012631
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,19,-0.012631
+7,82,external_risk_premium,Domestic inflation,hpd90_lower,20,-0.012967
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,1,0.129988
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,2,0.165226
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,3,0.132645
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,4,0.085770
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,5,0.046212
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,6,0.024601
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,7,0.014959
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,8,0.011636
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,9,0.010638
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,10,0.009972
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,11,0.008644
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,12,0.005983
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,13,0.002991
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,14,0.000665
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,15,-0.001661
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,16,-0.003324
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,17,-0.004653
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,18,-0.005319
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,19,-0.005985
+7,82,external_risk_premium,Domestic inflation,hpd90_upper,20,-0.006316
+7,82,external_risk_premium,Imported inflation,mean,1,1.032240
+7,82,external_risk_premium,Imported inflation,mean,2,0.455459
+7,82,external_risk_premium,Imported inflation,mean,3,-0.149607
+7,82,external_risk_premium,Imported inflation,mean,4,-0.369021
+7,82,external_risk_premium,Imported inflation,mean,5,-0.329128
+7,82,external_risk_premium,Imported inflation,mean,6,-0.216089
+7,82,external_risk_premium,Imported inflation,mean,7,-0.119687
+7,82,external_risk_premium,Imported inflation,mean,8,-0.061502
+7,82,external_risk_premium,Imported inflation,mean,9,-0.033237
+7,82,external_risk_premium,Imported inflation,mean,10,-0.019953
+7,82,external_risk_premium,Imported inflation,mean,11,-0.011635
+7,82,external_risk_premium,Imported inflation,mean,12,-0.006648
+7,82,external_risk_premium,Imported inflation,mean,13,-0.001662
+7,82,external_risk_premium,Imported inflation,mean,14,0.001670
+7,82,external_risk_premium,Imported inflation,mean,15,0.004981
+7,82,external_risk_premium,Imported inflation,mean,16,0.006656
+7,82,external_risk_premium,Imported inflation,mean,17,0.008312
+7,82,external_risk_premium,Imported inflation,mean,18,0.009967
+7,82,external_risk_premium,Imported inflation,mean,19,0.009967
+7,82,external_risk_premium,Imported inflation,mean,20,0.009967
+7,82,external_risk_premium,Imported inflation,hpd70_lower,1,0.945811
+7,82,external_risk_premium,Imported inflation,hpd70_lower,2,0.390632
+7,82,external_risk_premium,Imported inflation,hpd70_lower,3,-0.209447
+7,82,external_risk_premium,Imported inflation,hpd70_lower,4,-0.405584
+7,82,external_risk_premium,Imported inflation,hpd70_lower,5,-0.355717
+7,82,external_risk_premium,Imported inflation,hpd70_lower,6,-0.239367
+7,82,external_risk_premium,Imported inflation,hpd70_lower,7,-0.141289
+7,82,external_risk_premium,Imported inflation,hpd70_lower,8,-0.076462
+7,82,external_risk_premium,Imported inflation,hpd70_lower,9,-0.043211
+7,82,external_risk_premium,Imported inflation,hpd70_lower,10,-0.024939
+7,82,external_risk_premium,Imported inflation,hpd70_lower,11,-0.014966
+7,82,external_risk_premium,Imported inflation,hpd70_lower,12,-0.008304
+7,82,external_risk_premium,Imported inflation,hpd70_lower,13,-0.004993
+7,82,external_risk_premium,Imported inflation,hpd70_lower,14,-0.000006
+7,82,external_risk_premium,Imported inflation,hpd70_lower,15,0.003325
+7,82,external_risk_premium,Imported inflation,hpd70_lower,16,0.004981
+7,82,external_risk_premium,Imported inflation,hpd70_lower,17,0.006656
+7,82,external_risk_premium,Imported inflation,hpd70_lower,18,0.006656
+7,82,external_risk_premium,Imported inflation,hpd70_lower,19,0.008312
+7,82,external_risk_premium,Imported inflation,hpd70_lower,20,0.006656
+7,82,external_risk_premium,Imported inflation,hpd70_upper,1,1.105385
+7,82,external_risk_premium,Imported inflation,hpd70_upper,2,0.505326
+7,82,external_risk_premium,Imported inflation,hpd70_upper,3,-0.094753
+7,82,external_risk_premium,Imported inflation,hpd70_upper,4,-0.327452
+7,82,external_risk_premium,Imported inflation,hpd70_upper,5,-0.300863
+7,82,external_risk_premium,Imported inflation,hpd70_upper,6,-0.182838
+7,82,external_risk_premium,Imported inflation,hpd70_upper,7,-0.093078
+7,82,external_risk_premium,Imported inflation,hpd70_upper,8,-0.041555
+7,82,external_risk_premium,Imported inflation,hpd70_upper,9,-0.016622
+7,82,external_risk_premium,Imported inflation,hpd70_upper,10,-0.008304
+7,82,external_risk_premium,Imported inflation,hpd70_upper,11,-0.004993
+7,82,external_risk_premium,Imported inflation,hpd70_upper,12,-0.001662
+7,82,external_risk_premium,Imported inflation,hpd70_upper,13,0.001670
+7,82,external_risk_premium,Imported inflation,hpd70_upper,14,0.004981
+7,82,external_risk_premium,Imported inflation,hpd70_upper,15,0.006656
+7,82,external_risk_premium,Imported inflation,hpd70_upper,16,0.008312
+7,82,external_risk_premium,Imported inflation,hpd70_upper,17,0.009967
+7,82,external_risk_premium,Imported inflation,hpd70_upper,18,0.011643
+7,82,external_risk_premium,Imported inflation,hpd70_upper,19,0.011643
+7,82,external_risk_premium,Imported inflation,hpd70_upper,20,0.011643
+7,82,external_risk_premium,Imported inflation,hpd90_lower,1,0.851063
+7,82,external_risk_premium,Imported inflation,hpd90_lower,2,0.325805
+7,82,external_risk_premium,Imported inflation,hpd90_lower,3,-0.284248
+7,82,external_risk_premium,Imported inflation,hpd90_lower,4,-0.467080
+7,82,external_risk_premium,Imported inflation,hpd90_lower,5,-0.408915
+7,82,external_risk_premium,Imported inflation,hpd90_lower,6,-0.287559
+7,82,external_risk_premium,Imported inflation,hpd90_lower,7,-0.179527
+7,82,external_risk_premium,Imported inflation,hpd90_lower,8,-0.109713
+7,82,external_risk_premium,Imported inflation,hpd90_lower,9,-0.068144
+7,82,external_risk_premium,Imported inflation,hpd90_lower,10,-0.044886
+7,82,external_risk_premium,Imported inflation,hpd90_lower,11,-0.028251
+7,82,external_risk_premium,Imported inflation,hpd90_lower,12,-0.018277
+7,82,external_risk_premium,Imported inflation,hpd90_lower,13,-0.011635
+7,82,external_risk_premium,Imported inflation,hpd90_lower,14,-0.004993
+7,82,external_risk_premium,Imported inflation,hpd90_lower,15,-0.001662
+7,82,external_risk_premium,Imported inflation,hpd90_lower,16,0.001670
+7,82,external_risk_premium,Imported inflation,hpd90_lower,17,0.003325
+7,82,external_risk_premium,Imported inflation,hpd90_lower,18,0.004981
+7,82,external_risk_premium,Imported inflation,hpd90_lower,19,0.004981
+7,82,external_risk_premium,Imported inflation,hpd90_lower,20,0.004981
+7,82,external_risk_premium,Imported inflation,hpd90_upper,1,1.238370
+7,82,external_risk_premium,Imported inflation,hpd90_upper,2,0.603384
+7,82,external_risk_premium,Imported inflation,hpd90_upper,3,-0.006648
+7,82,external_risk_premium,Imported inflation,hpd90_upper,4,-0.274274
+7,82,external_risk_premium,Imported inflation,hpd90_upper,5,-0.255983
+7,82,external_risk_premium,Imported inflation,hpd90_upper,6,-0.147931
+7,82,external_risk_premium,Imported inflation,hpd90_upper,7,-0.063157
+7,82,external_risk_premium,Imported inflation,hpd90_upper,8,-0.019953
+7,82,external_risk_premium,Imported inflation,hpd90_upper,9,-0.004993
+7,82,external_risk_premium,Imported inflation,hpd90_upper,10,-0.001662
+7,82,external_risk_premium,Imported inflation,hpd90_upper,11,-0.000006
+7,82,external_risk_premium,Imported inflation,hpd90_upper,12,0.003325
+7,82,external_risk_premium,Imported inflation,hpd90_upper,13,0.004981
+7,82,external_risk_premium,Imported inflation,hpd90_upper,14,0.008312
+7,82,external_risk_premium,Imported inflation,hpd90_upper,15,0.011643
+7,82,external_risk_premium,Imported inflation,hpd90_upper,16,0.013299
+7,82,external_risk_premium,Imported inflation,hpd90_upper,17,0.013299
+7,82,external_risk_premium,Imported inflation,hpd90_upper,18,0.014954
+7,82,external_risk_premium,Imported inflation,hpd90_upper,19,0.014954
+7,82,external_risk_premium,Imported inflation,hpd90_upper,20,0.014954

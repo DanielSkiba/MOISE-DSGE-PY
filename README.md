@@ -39,19 +39,31 @@ See [`docs/ROADMAP.md`](docs/ROADMAP.md) for the phased plan.
 - **Pure Python, no Dynare dependency.** Linear rational-expectations solution via QZ decomposition (NumPy / SciPy), small enough to also run in the browser via Pyodide.
 - **Every equation is human-verified** against the PDF before it is marked `verified: true`. See [`docs/equation-spec.md`](docs/equation-spec.md).
 
+## The paper, in a form agents can read
+
+[`docs/paper/`](docs/paper/README.md) is an AI-readable edition of the paper: all 331 numbered
+equations (plus every unnumbered display and inline definition) in clean LaTeX with the paper's
+numbering and page references, a plain code form for the log-linearized equations (all but one that the paper prints with "…"), a notation
+table with code names, every table as CSV, and the impulse-response charts digitized as data.
+Each section was transcribed from page images and checked by an independent second pass.
+Explanations are paraphrased; it is not a substitute for the paper.
+
 ## Repository layout
 
 ```
+docs/paper/     AI-readable edition of the paper (equations, notation, tables, IRF data)
 model/          Model definition (equations, parameters, shocks) in YAML
 src/moise/      Python package: parser, solver, IRFs, simulation
 tests/          Tests, including replication checks against the paper
+tools/paper/    Checks for docs/paper (ids, completeness, LaTeX, code-form sync)
 docs/           Roadmap, equation-file spec, verification log
 web/            Browser playground (Phase 2)
 ```
 
 ## Status
 
-🚧 **Phase 0 — repository setup.** No model code yet.
+🚧 **Phase 0 done** (repository setup) and the **agent edition of the paper** is in `docs/paper/`.
+Next: Phase 1, transcribing the log-linearized model into `model/moise.yaml` and writing the solver.
 
 ## Contributing
 

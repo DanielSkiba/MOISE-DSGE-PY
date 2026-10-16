@@ -1,0 +1,1201 @@
+figure,page_pdf,shock,panel_title,series,quarter,value
+9,86,foreign_demand,Output,mean,1,0.115695
+9,86,foreign_demand,Output,mean,2,0.309842
+9,86,foreign_demand,Output,mean,3,0.393619
+9,86,foreign_demand,Output,mean,4,0.397608
+9,86,foreign_demand,Output,mean,5,0.347079
+9,86,foreign_demand,Output,mean,6,0.274600
+9,86,foreign_demand,Output,mean,7,0.195482
+9,86,foreign_demand,Output,mean,8,0.123004
+9,86,foreign_demand,Output,mean,9,0.061168
+9,86,foreign_demand,Output,mean,10,0.012634
+9,86,foreign_demand,Output,mean,11,-0.023271
+9,86,foreign_demand,Output,mean,12,-0.046545
+9,86,foreign_demand,Output,mean,13,-0.059175
+9,86,foreign_demand,Output,mean,14,-0.063827
+9,86,foreign_demand,Output,mean,15,-0.060508
+9,86,foreign_demand,Output,mean,16,-0.052529
+9,86,foreign_demand,Output,mean,17,-0.039891
+9,86,foreign_demand,Output,mean,18,-0.025928
+9,86,foreign_demand,Output,mean,19,-0.009970
+9,86,foreign_demand,Output,mean,20,0.005987
+9,86,foreign_demand,Output,hpd70_lower,1,0.091089
+9,86,foreign_demand,Output,hpd70_lower,2,0.271943
+9,86,foreign_demand,Output,hpd70_lower,3,0.349073
+9,86,foreign_demand,Output,hpd70_lower,4,0.348403
+9,86,foreign_demand,Output,hpd70_lower,5,0.299868
+9,86,foreign_demand,Output,hpd70_lower,6,0.235376
+9,86,foreign_demand,Output,hpd70_lower,7,0.157583
+9,86,foreign_demand,Output,hpd70_lower,8,0.089094
+9,86,foreign_demand,Output,hpd70_lower,9,0.028591
+9,86,foreign_demand,Output,hpd70_lower,10,-0.015954
+9,86,foreign_demand,Output,hpd70_lower,11,-0.049864
+9,86,foreign_demand,Output,hpd70_lower,12,-0.069811
+9,86,foreign_demand,Output,hpd70_lower,13,-0.079122
+9,86,foreign_demand,Output,hpd70_lower,14,-0.080454
+9,86,foreign_demand,Output,hpd70_lower,15,-0.076465
+9,86,foreign_demand,Output,hpd70_lower,16,-0.067154
+9,86,foreign_demand,Output,hpd70_lower,17,-0.054524
+9,86,foreign_demand,Output,hpd70_lower,18,-0.039891
+9,86,foreign_demand,Output,hpd70_lower,19,-0.023271
+9,86,foreign_demand,Output,hpd70_lower,20,-0.007313
+9,86,foreign_demand,Output,hpd70_upper,1,0.136304
+9,86,foreign_demand,Output,hpd70_upper,2,0.342419
+9,86,foreign_demand,Output,hpd70_upper,3,0.432850
+9,86,foreign_demand,Output,hpd70_upper,4,0.432180
+9,86,foreign_demand,Output,hpd70_upper,5,0.378994
+9,86,foreign_demand,Output,hpd70_upper,6,0.304520
+9,86,foreign_demand,Output,hpd70_upper,7,0.223408
+9,86,foreign_demand,Output,hpd70_upper,8,0.147610
+9,86,foreign_demand,Output,hpd70_upper,9,0.085775
+9,86,foreign_demand,Output,hpd70_upper,10,0.034575
+9,86,foreign_demand,Output,hpd70_upper,11,-0.005319
+9,86,foreign_demand,Output,hpd70_upper,12,-0.028593
+9,86,foreign_demand,Output,hpd70_upper,13,-0.043880
+9,86,foreign_demand,Output,hpd70_upper,14,-0.050534
+9,86,foreign_demand,Output,hpd70_upper,15,-0.045212
+9,86,foreign_demand,Output,hpd70_upper,16,-0.036571
+9,86,foreign_demand,Output,hpd70_upper,17,-0.024603
+9,86,foreign_demand,Output,hpd70_upper,18,-0.009970
+9,86,foreign_demand,Output,hpd70_upper,19,0.005317
+9,86,foreign_demand,Output,hpd70_upper,20,0.021275
+9,86,foreign_demand,Output,hpd90_lower,1,0.059844
+9,86,foreign_demand,Output,hpd90_lower,2,0.224070
+9,86,foreign_demand,Output,hpd90_lower,3,0.292552
+9,86,foreign_demand,Output,hpd90_lower,4,0.293884
+9,86,foreign_demand,Output,hpd90_lower,5,0.249339
+9,86,foreign_demand,Output,hpd90_lower,6,0.187504
+9,86,foreign_demand,Output,hpd90_lower,7,0.120347
+9,86,foreign_demand,Output,hpd90_lower,8,0.051865
+9,86,foreign_demand,Output,hpd90_lower,9,-0.001991
+9,86,foreign_demand,Output,hpd90_lower,10,-0.046545
+9,86,foreign_demand,Output,hpd90_lower,11,-0.077127
+9,86,foreign_demand,Output,hpd90_lower,12,-0.095080
+9,86,foreign_demand,Output,hpd90_lower,13,-0.105053
+9,86,foreign_demand,Output,hpd90_lower,14,-0.105715
+9,86,foreign_demand,Output,hpd90_lower,15,-0.099069
+9,86,foreign_demand,Output,hpd90_lower,16,-0.090428
+9,86,foreign_demand,Output,hpd90_lower,17,-0.079784
+9,86,foreign_demand,Output,hpd90_lower,18,-0.065821
+9,86,foreign_demand,Output,hpd90_lower,19,-0.047207
+9,86,foreign_demand,Output,hpd90_lower,20,-0.030587
+9,86,foreign_demand,Output,hpd90_upper,1,0.172871
+9,86,foreign_demand,Output,hpd90_upper,2,0.390291
+9,86,foreign_demand,Output,hpd90_upper,3,0.496680
+9,86,foreign_demand,Output,hpd90_upper,4,0.504659
+9,86,foreign_demand,Output,hpd90_upper,5,0.452797
+9,86,foreign_demand,Output,hpd90_upper,6,0.369682
+9,86,foreign_demand,Output,hpd90_upper,7,0.281916
+9,86,foreign_demand,Output,hpd90_upper,8,0.205456
+9,86,foreign_demand,Output,hpd90_upper,9,0.133647
+9,86,foreign_demand,Output,hpd90_upper,10,0.077796
+9,86,foreign_demand,Output,hpd90_upper,11,0.033243
+9,86,foreign_demand,Output,hpd90_upper,12,0.003993
+9,86,foreign_demand,Output,hpd90_upper,13,-0.013297
+9,86,foreign_demand,Output,hpd90_upper,14,-0.022609
+9,86,foreign_demand,Output,hpd90_upper,15,-0.021938
+9,86,foreign_demand,Output,hpd90_upper,16,-0.013960
+9,86,foreign_demand,Output,hpd90_upper,17,-0.001991
+9,86,foreign_demand,Output,hpd90_upper,18,0.013296
+9,86,foreign_demand,Output,hpd90_upper,19,0.027929
+9,86,foreign_demand,Output,hpd90_upper,20,0.042554
+9,86,foreign_demand,Consumption,mean,1,-0.042115
+9,86,foreign_demand,Consumption,mean,2,-0.082843
+9,86,foreign_demand,Consumption,mean,3,-0.117756
+9,86,foreign_demand,Consumption,mean,4,-0.138544
+9,86,foreign_demand,Consumption,mean,5,-0.137706
+9,86,foreign_demand,Consumption,mean,6,-0.116100
+9,86,foreign_demand,Consumption,mean,7,-0.076200
+9,86,foreign_demand,Consumption,mean,8,-0.022993
+9,86,foreign_demand,Consumption,mean,9,0.036020
+9,86,foreign_demand,Consumption,mean,10,0.096708
+9,86,foreign_demand,Consumption,mean,11,0.154893
+9,86,foreign_demand,Consumption,mean,12,0.206434
+9,86,foreign_demand,Consumption,mean,13,0.249656
+9,86,foreign_demand,Consumption,mean,14,0.283741
+9,86,foreign_demand,Consumption,mean,15,0.307840
+9,86,foreign_demand,Consumption,mean,16,0.323641
+9,86,foreign_demand,Consumption,mean,17,0.330284
+9,86,foreign_demand,Consumption,mean,18,0.330284
+9,86,foreign_demand,Consumption,mean,19,0.324469
+9,86,foreign_demand,Consumption,mean,20,0.314494
+9,86,foreign_demand,Consumption,hpd70_lower,1,-0.052918
+9,86,foreign_demand,Consumption,hpd70_lower,2,-0.103631
+9,86,foreign_demand,Consumption,hpd70_lower,3,-0.147681
+9,86,foreign_demand,Consumption,hpd70_lower,4,-0.172618
+9,86,foreign_demand,Consumption,hpd70_lower,5,-0.175112
+9,86,foreign_demand,Consumption,hpd70_lower,6,-0.151840
+9,86,foreign_demand,Consumption,hpd70_lower,7,-0.111112
+9,86,foreign_demand,Consumption,hpd70_lower,8,-0.054584
+9,86,foreign_demand,Consumption,hpd70_lower,9,0.001107
+9,86,foreign_demand,Consumption,hpd70_lower,10,0.058464
+9,86,foreign_demand,Consumption,hpd70_lower,11,0.115820
+9,86,foreign_demand,Consumption,hpd70_lower,12,0.169027
+9,86,foreign_demand,Consumption,hpd70_lower,13,0.209756
+9,86,foreign_demand,Consumption,hpd70_lower,14,0.243840
+9,86,foreign_demand,Consumption,hpd70_lower,15,0.267940
+9,86,foreign_demand,Consumption,hpd70_lower,16,0.286234
+9,86,foreign_demand,Consumption,hpd70_lower,17,0.292050
+9,86,foreign_demand,Consumption,hpd70_lower,18,0.288728
+9,86,foreign_demand,Consumption,hpd70_lower,19,0.280409
+9,86,foreign_demand,Consumption,hpd70_lower,20,0.269606
+9,86,foreign_demand,Consumption,hpd70_upper,1,-0.022993
+9,86,foreign_demand,Consumption,hpd70_upper,2,-0.051262
+9,86,foreign_demand,Consumption,hpd70_upper,3,-0.080349
+9,86,foreign_demand,Consumption,hpd70_upper,4,-0.094484
+9,86,foreign_demand,Consumption,hpd70_upper,5,-0.095312
+9,86,foreign_demand,Consumption,hpd70_upper,6,-0.075362
+9,86,foreign_demand,Consumption,hpd70_upper,7,-0.036299
+9,86,foreign_demand,Consumption,hpd70_upper,8,0.015242
+9,86,foreign_demand,Consumption,hpd70_upper,9,0.074264
+9,86,foreign_demand,Consumption,hpd70_upper,10,0.134115
+9,86,foreign_demand,Consumption,hpd70_upper,11,0.192299
+9,86,foreign_demand,Consumption,hpd70_upper,12,0.242175
+9,86,foreign_demand,Consumption,hpd70_upper,13,0.287890
+9,86,foreign_demand,Consumption,hpd70_upper,14,0.321147
+9,86,foreign_demand,Consumption,hpd70_upper,15,0.344419
+9,86,foreign_demand,Consumption,hpd70_upper,16,0.358554
+9,86,foreign_demand,Consumption,hpd70_upper,17,0.362703
+9,86,foreign_demand,Consumption,hpd70_upper,18,0.362703
+9,86,foreign_demand,Consumption,hpd70_upper,19,0.359382
+9,86,foreign_demand,Consumption,hpd70_upper,20,0.351072
+9,86,foreign_demand,Consumption,hpd90_lower,1,-0.081187
+9,86,foreign_demand,Consumption,hpd90_lower,2,-0.151840
+9,86,foreign_demand,Consumption,hpd90_lower,3,-0.207531
+9,86,foreign_demand,Consumption,hpd90_lower,4,-0.241616
+9,86,foreign_demand,Consumption,hpd90_lower,5,-0.237456
+9,86,foreign_demand,Consumption,hpd90_lower,6,-0.215012
+9,86,foreign_demand,Consumption,hpd90_lower,7,-0.174284
+9,86,foreign_demand,Consumption,hpd90_lower,8,-0.126903
+9,86,foreign_demand,Consumption,hpd90_lower,9,-0.060399
+9,86,foreign_demand,Consumption,hpd90_lower,10,-0.000549
+9,86,foreign_demand,Consumption,hpd90_lower,11,0.056808
+9,86,foreign_demand,Consumption,hpd90_lower,12,0.107511
+9,86,foreign_demand,Consumption,hpd90_lower,13,0.151571
+9,86,foreign_demand,Consumption,hpd90_lower,14,0.188978
+9,86,foreign_demand,Consumption,hpd90_lower,15,0.219731
+9,86,foreign_demand,Consumption,hpd90_lower,16,0.237187
+9,86,foreign_demand,Consumption,hpd90_lower,17,0.243840
+9,86,foreign_demand,Consumption,hpd90_lower,18,0.242175
+9,86,foreign_demand,Consumption,hpd90_lower,19,0.234693
+9,86,foreign_demand,Consumption,hpd90_lower,20,0.226384
+9,86,foreign_demand,Consumption,hpd90_upper,1,-0.008868
+9,86,foreign_demand,Consumption,hpd90_upper,2,-0.023830
+9,86,foreign_demand,Consumption,hpd90_upper,3,-0.041287
+9,86,foreign_demand,Consumption,hpd90_upper,4,-0.051262
+9,86,foreign_demand,Consumption,hpd90_upper,5,-0.047930
+9,86,foreign_demand,Consumption,hpd90_upper,6,-0.024658
+9,86,foreign_demand,Consumption,hpd90_upper,7,0.014414
+9,86,foreign_demand,Consumption,hpd90_upper,8,0.070933
+9,86,foreign_demand,Consumption,hpd90_upper,9,0.137436
+9,86,foreign_demand,Consumption,hpd90_upper,10,0.199781
+9,86,foreign_demand,Consumption,hpd90_upper,11,0.257965
+9,86,foreign_demand,Consumption,hpd90_upper,12,0.303691
+9,86,foreign_demand,Consumption,hpd90_upper,13,0.344419
+9,86,foreign_demand,Consumption,hpd90_upper,14,0.375172
+9,86,foreign_demand,Consumption,hpd90_upper,15,0.400110
+9,86,foreign_demand,Consumption,hpd90_upper,16,0.416738
+9,86,foreign_demand,Consumption,hpd90_upper,17,0.425885
+9,86,foreign_demand,Consumption,hpd90_upper,18,0.426713
+9,86,foreign_demand,Consumption,hpd90_upper,19,0.422554
+9,86,foreign_demand,Consumption,hpd90_upper,20,0.415910
+9,86,foreign_demand,Fixed investment,mean,1,-0.189513
+9,86,foreign_demand,Fixed investment,mean,2,-0.236914
+9,86,foreign_demand,Fixed investment,mean,3,-0.301732
+9,86,foreign_demand,Fixed investment,mean,4,-0.289284
+9,86,foreign_demand,Fixed investment,mean,5,-0.249363
+9,86,foreign_demand,Fixed investment,mean,6,-0.157104
+9,86,foreign_demand,Fixed investment,mean,7,-0.037403
+9,86,foreign_demand,Fixed investment,mean,8,0.107225
+9,86,foreign_demand,Fixed investment,mean,9,0.261848
+9,86,foreign_demand,Fixed investment,mean,10,0.418955
+9,86,foreign_demand,Fixed investment,mean,11,0.568581
+9,86,foreign_demand,Fixed investment,mean,12,0.705728
+9,86,foreign_demand,Fixed investment,mean,13,0.822945
+9,86,foreign_demand,Fixed investment,mean,14,0.917718
+9,86,foreign_demand,Fixed investment,mean,15,0.990017
+9,86,foreign_demand,Fixed investment,mean,16,1.037418
+9,86,foreign_demand,Fixed investment,mean,17,1.062346
+9,86,foreign_demand,Fixed investment,mean,18,1.064830
+9,86,foreign_demand,Fixed investment,mean,19,1.049867
+9,86,foreign_demand,Fixed investment,mean,20,1.017458
+9,86,foreign_demand,Fixed investment,hpd70_lower,1,-0.249363
+9,86,foreign_demand,Fixed investment,hpd70_lower,2,-0.321692
+9,86,foreign_demand,Fixed investment,hpd70_lower,3,-0.418949
+9,86,foreign_demand,Fixed investment,hpd70_lower,4,-0.418949
+9,86,foreign_demand,Fixed investment,hpd70_lower,5,-0.381543
+9,86,foreign_demand,Fixed investment,hpd70_lower,6,-0.296765
+9,86,foreign_demand,Fixed investment,hpd70_lower,7,-0.177064
+9,86,foreign_demand,Fixed investment,hpd70_lower,8,-0.022441
+9,86,foreign_demand,Fixed investment,hpd70_lower,9,0.142147
+9,86,foreign_demand,Fixed investment,hpd70_lower,10,0.299255
+9,86,foreign_demand,Fixed investment,hpd70_lower,11,0.446397
+9,86,foreign_demand,Fixed investment,hpd70_lower,12,0.581060
+9,86,foreign_demand,Fixed investment,hpd70_lower,13,0.688282
+9,86,foreign_demand,Fixed investment,hpd70_lower,14,0.768092
+9,86,foreign_demand,Fixed investment,hpd70_lower,15,0.842905
+9,86,foreign_demand,Fixed investment,hpd70_lower,16,0.885279
+9,86,foreign_demand,Fixed investment,hpd70_lower,17,0.907723
+9,86,foreign_demand,Fixed investment,hpd70_lower,18,0.902755
+9,86,foreign_demand,Fixed investment,hpd70_lower,19,0.890276
+9,86,foreign_demand,Fixed investment,hpd70_lower,20,0.847872
+9,86,foreign_demand,Fixed investment,hpd70_upper,1,-0.109733
+9,86,foreign_demand,Fixed investment,hpd70_upper,2,-0.132176
+9,86,foreign_demand,Fixed investment,hpd70_upper,3,-0.149623
+9,86,foreign_demand,Fixed investment,hpd70_upper,4,-0.114700
+9,86,foreign_demand,Fixed investment,hpd70_upper,5,-0.069812
+9,86,foreign_demand,Fixed investment,hpd70_upper,6,0.032412
+9,86,foreign_demand,Fixed investment,hpd70_upper,7,0.147145
+9,86,foreign_demand,Fixed investment,hpd70_upper,8,0.274327
+9,86,foreign_demand,Fixed investment,hpd70_upper,9,0.401509
+9,86,foreign_demand,Fixed investment,hpd70_upper,10,0.538656
+9,86,foreign_demand,Fixed investment,hpd70_upper,11,0.680800
+9,86,foreign_demand,Fixed investment,hpd70_upper,12,0.812980
+9,86,foreign_demand,Fixed investment,hpd70_upper,13,0.925199
+9,86,foreign_demand,Fixed investment,hpd70_upper,14,1.027423
+9,86,foreign_demand,Fixed investment,hpd70_upper,15,1.104750
+9,86,foreign_demand,Fixed investment,hpd70_upper,16,1.157119
+9,86,foreign_demand,Fixed investment,hpd70_upper,17,1.179563
+9,86,foreign_demand,Fixed investment,hpd70_upper,18,1.189528
+9,86,foreign_demand,Fixed investment,hpd70_upper,19,1.179563
+9,86,foreign_demand,Fixed investment,hpd70_upper,20,1.134675
+9,86,foreign_demand,Fixed investment,hpd90_lower,1,-0.366580
+9,86,foreign_demand,Fixed investment,hpd90_lower,2,-0.481283
+9,86,foreign_demand,Fixed investment,hpd90_lower,3,-0.630909
+9,86,foreign_demand,Fixed investment,hpd90_lower,4,-0.653353
+9,86,foreign_demand,Fixed investment,hpd90_lower,5,-0.643388
+9,86,foreign_demand,Fixed investment,hpd90_lower,6,-0.553612
+9,86,foreign_demand,Fixed investment,hpd90_lower,7,-0.433912
+9,86,foreign_demand,Fixed investment,hpd90_lower,8,-0.271807
+9,86,foreign_demand,Fixed investment,hpd90_lower,9,-0.092256
+9,86,foreign_demand,Fixed investment,hpd90_lower,10,0.102257
+9,86,foreign_demand,Fixed investment,hpd90_lower,11,0.266846
+9,86,foreign_demand,Fixed investment,hpd90_lower,12,0.416471
+9,86,foreign_demand,Fixed investment,hpd90_lower,13,0.528691
+9,86,foreign_demand,Fixed investment,hpd90_lower,14,0.620950
+9,86,foreign_demand,Fixed investment,hpd90_lower,15,0.688282
+9,86,foreign_demand,Fixed investment,hpd90_lower,16,0.730686
+9,86,foreign_demand,Fixed investment,hpd90_lower,17,0.740651
+9,86,foreign_demand,Fixed investment,hpd90_lower,18,0.738167
+9,86,foreign_demand,Fixed investment,hpd90_lower,19,0.728172
+9,86,foreign_demand,Fixed investment,hpd90_lower,20,0.695763
+9,86,foreign_demand,Fixed investment,hpd90_upper,1,-0.044885
+9,86,foreign_demand,Fixed investment,hpd90_upper,2,-0.039887
+9,86,foreign_demand,Fixed investment,hpd90_upper,3,-0.034920
+9,86,foreign_demand,Fixed investment,hpd90_upper,4,0.014966
+9,86,foreign_demand,Fixed investment,hpd90_upper,5,0.082297
+9,86,foreign_demand,Fixed investment,hpd90_upper,6,0.197000
+9,86,foreign_demand,Fixed investment,hpd90_upper,7,0.311733
+9,86,foreign_demand,Fixed investment,hpd90_upper,8,0.468840
+9,86,foreign_demand,Fixed investment,hpd90_upper,9,0.625948
+9,86,foreign_demand,Fixed investment,hpd90_upper,10,0.775573
+9,86,foreign_demand,Fixed investment,hpd90_upper,11,0.912720
+9,86,foreign_demand,Fixed investment,hpd90_upper,12,1.024940
+9,86,foreign_demand,Fixed investment,hpd90_upper,13,1.139643
+9,86,foreign_demand,Fixed investment,hpd90_upper,14,1.244381
+9,86,foreign_demand,Fixed investment,hpd90_upper,15,1.324191
+9,86,foreign_demand,Fixed investment,hpd90_upper,16,1.386525
+9,86,foreign_demand,Fixed investment,hpd90_upper,17,1.423932
+9,86,foreign_demand,Fixed investment,hpd90_upper,18,1.443892
+9,86,foreign_demand,Fixed investment,hpd90_upper,19,1.421448
+9,86,foreign_demand,Fixed investment,hpd90_upper,20,1.413967
+9,86,foreign_demand,Exports,mean,1,0.863992
+9,86,foreign_demand,Exports,mean,2,1.992004
+9,86,foreign_demand,Exports,mean,3,2.635880
+9,86,foreign_demand,Exports,mean,4,2.835572
+9,86,foreign_demand,Exports,mean,5,2.715781
+9,86,foreign_demand,Exports,mean,6,2.391327
+9,86,foreign_demand,Exports,mean,7,1.957085
+9,86,foreign_demand,Exports,mean,8,1.482892
+9,86,foreign_demand,Exports,mean,9,1.008760
+9,86,foreign_demand,Exports,mean,10,0.574517
+9,86,foreign_demand,Exports,mean,11,0.200171
+9,86,foreign_demand,Exports,mean,12,-0.114281
+9,86,foreign_demand,Exports,mean,13,-0.363865
+9,86,foreign_demand,Exports,mean,14,-0.548523
+9,86,foreign_demand,Exports,mean,15,-0.668314
+9,86,foreign_demand,Exports,mean,16,-0.743183
+9,86,foreign_demand,Exports,mean,17,-0.768160
+9,86,foreign_demand,Exports,mean,18,-0.763188
+9,86,foreign_demand,Exports,mean,19,-0.728209
+9,86,foreign_demand,Exports,mean,20,-0.673345
+9,86,foreign_demand,Exports,hpd70_lower,1,0.754204
+9,86,foreign_demand,Exports,hpd70_lower,2,1.822320
+9,86,foreign_demand,Exports,hpd70_lower,3,2.416304
+9,86,foreign_demand,Exports,hpd70_lower,4,2.581016
+9,86,foreign_demand,Exports,hpd70_lower,5,2.431277
+9,86,foreign_demand,Exports,hpd70_lower,6,2.071905
+9,86,foreign_demand,Exports,hpd70_lower,7,1.637662
+9,86,foreign_demand,Exports,hpd70_lower,8,1.183415
+9,86,foreign_demand,Exports,hpd70_lower,9,0.729227
+9,86,foreign_demand,Exports,hpd70_lower,10,0.314930
+9,86,foreign_demand,Exports,hpd70_lower,11,-0.044442
+9,86,foreign_demand,Exports,hpd70_lower,12,-0.333917
+9,86,foreign_demand,Exports,hpd70_lower,13,-0.543552
+9,86,foreign_demand,Exports,hpd70_lower,14,-0.698262
+9,86,foreign_demand,Exports,hpd70_lower,15,-0.788105
+9,86,foreign_demand,Exports,hpd70_lower,16,-0.838058
+9,86,foreign_demand,Exports,hpd70_lower,17,-0.858003
+9,86,foreign_demand,Exports,hpd70_lower,18,-0.843029
+9,86,foreign_demand,Exports,hpd70_lower,19,-0.828055
+9,86,foreign_demand,Exports,hpd70_lower,20,-0.783133
+9,86,foreign_demand,Exports,hpd70_upper,1,0.958807
+9,86,foreign_demand,Exports,hpd70_upper,2,2.146774
+9,86,foreign_demand,Exports,hpd70_upper,3,2.835572
+9,86,foreign_demand,Exports,hpd70_upper,4,3.065151
+9,86,foreign_demand,Exports,hpd70_upper,5,2.950332
+9,86,foreign_demand,Exports,hpd70_upper,6,2.635880
+9,86,foreign_demand,Exports,hpd70_upper,7,2.186664
+9,86,foreign_demand,Exports,hpd70_upper,8,1.707500
+9,86,foreign_demand,Exports,hpd70_upper,9,1.233368
+9,86,foreign_demand,Exports,hpd70_upper,10,0.769178
+9,86,foreign_demand,Exports,hpd70_upper,11,0.379857
+9,86,foreign_demand,Exports,hpd70_upper,12,0.045401
+9,86,foreign_demand,Exports,hpd70_upper,13,-0.244074
+9,86,foreign_demand,Exports,hpd70_upper,14,-0.458680
+9,86,foreign_demand,Exports,hpd70_upper,15,-0.573499
+9,86,foreign_demand,Exports,hpd70_upper,16,-0.643397
+9,86,foreign_demand,Exports,hpd70_upper,17,-0.673345
+9,86,foreign_demand,Exports,hpd70_upper,18,-0.658371
+9,86,foreign_demand,Exports,hpd70_upper,19,-0.618421
+9,86,foreign_demand,Exports,hpd70_upper,20,-0.563497
+9,86,foreign_demand,Exports,hpd90_lower,1,0.634413
+9,86,foreign_demand,Exports,hpd90_lower,2,1.617657
+9,86,foreign_demand,Exports,hpd90_lower,3,2.131800
+9,86,foreign_demand,Exports,hpd90_lower,4,2.266565
+9,86,foreign_demand,Exports,hpd90_lower,5,2.141743
+9,86,foreign_demand,Exports,hpd90_lower,6,1.812318
+9,86,foreign_demand,Exports,hpd90_lower,7,1.383106
+9,86,foreign_demand,Exports,hpd90_lower,8,0.893940
+9,86,foreign_demand,Exports,hpd90_lower,9,0.434721
+9,86,foreign_demand,Exports,hpd90_lower,10,0.035458
+9,86,foreign_demand,Exports,hpd90_lower,11,-0.284024
+9,86,foreign_demand,Exports,hpd90_lower,12,-0.553554
+9,86,foreign_demand,Exports,hpd90_lower,13,-0.733240
+9,86,foreign_demand,Exports,hpd90_lower,14,-0.843029
+9,86,foreign_demand,Exports,hpd90_lower,15,-0.917898
+9,86,foreign_demand,Exports,hpd90_lower,16,-0.972822
+9,86,foreign_demand,Exports,hpd90_lower,17,-1.012713
+9,86,foreign_demand,Exports,hpd90_lower,18,-1.007741
+9,86,foreign_demand,Exports,hpd90_lower,19,-0.972822
+9,86,foreign_demand,Exports,hpd90_lower,20,-0.932872
+9,86,foreign_demand,Exports,hpd90_upper,1,1.103574
+9,86,foreign_demand,Exports,hpd90_upper,2,2.411272
+9,86,foreign_demand,Exports,hpd90_upper,3,3.140021
+9,86,foreign_demand,Exports,hpd90_upper,4,3.429496
+9,86,foreign_demand,Exports,hpd90_upper,5,3.349655
+9,86,foreign_demand,Exports,hpd90_upper,6,3.075154
+9,86,foreign_demand,Exports,hpd90_upper,7,2.640912
+9,86,foreign_demand,Exports,hpd90_upper,8,2.146774
+9,86,foreign_demand,Exports,hpd90_upper,9,1.642634
+9,86,foreign_demand,Exports,hpd90_upper,10,1.178444
+9,86,foreign_demand,Exports,hpd90_upper,11,0.739230
+9,86,foreign_demand,Exports,hpd90_upper,12,0.369855
+9,86,foreign_demand,Exports,hpd90_upper,13,0.075349
+9,86,foreign_demand,Exports,hpd90_upper,14,-0.184179
+9,86,foreign_demand,Exports,hpd90_upper,15,-0.398784
+9,86,foreign_demand,Exports,hpd90_upper,16,-0.508632
+9,86,foreign_demand,Exports,hpd90_upper,17,-0.548523
+9,86,foreign_demand,Exports,hpd90_upper,18,-0.543552
+9,86,foreign_demand,Exports,hpd90_upper,19,-0.493659
+9,86,foreign_demand,Exports,hpd90_upper,20,-0.413758
+9,86,foreign_demand,Imports,mean,1,0.300829
+9,86,foreign_demand,Imports,mean,2,0.718475
+9,86,foreign_demand,Imports,mean,3,0.983036
+9,86,foreign_demand,Imports,mean,4,1.122804
+9,86,foreign_demand,Imports,mean,5,1.161061
+9,86,foreign_demand,Imports,mean,6,1.136102
+9,86,foreign_demand,Imports,mean,7,1.069553
+9,86,foreign_demand,Imports,mean,8,0.983036
+9,86,foreign_demand,Imports,mean,9,0.888194
+9,86,foreign_demand,Imports,mean,10,0.798343
+9,86,foreign_demand,Imports,mean,11,0.715141
+9,86,foreign_demand,Imports,mean,12,0.641922
+9,86,foreign_demand,Imports,mean,13,0.580365
+9,86,foreign_demand,Imports,mean,14,0.528790
+9,86,foreign_demand,Imports,mean,15,0.487179
+9,86,foreign_demand,Imports,mean,16,0.450580
+9,86,foreign_demand,Imports,mean,17,0.420630
+9,86,foreign_demand,Imports,mean,18,0.394014
+9,86,foreign_demand,Imports,mean,19,0.370713
+9,86,foreign_demand,Imports,mean,20,0.349089
+9,86,foreign_demand,Imports,hpd70_lower,1,0.244263
+9,86,foreign_demand,Imports,hpd70_lower,2,0.633616
+9,86,foreign_demand,Imports,hpd70_lower,3,0.866550
+9,86,foreign_demand,Imports,hpd70_lower,4,0.988028
+9,86,foreign_demand,Imports,hpd70_lower,5,1.014644
+9,86,foreign_demand,Imports,hpd70_lower,6,0.976367
+9,86,foreign_demand,Imports,hpd70_lower,7,0.898177
+9,86,foreign_demand,Imports,hpd70_lower,8,0.800000
+9,86,foreign_demand,Imports,hpd70_lower,9,0.705157
+9,86,foreign_demand,Imports,hpd70_lower,10,0.616964
+9,86,foreign_demand,Imports,hpd70_lower,11,0.545423
+9,86,foreign_demand,Imports,hpd70_lower,12,0.482188
+9,86,foreign_demand,Imports,hpd70_lower,13,0.430613
+9,86,foreign_demand,Imports,hpd70_lower,14,0.390679
+9,86,foreign_demand,Imports,hpd70_lower,15,0.362386
+9,86,foreign_demand,Imports,hpd70_lower,16,0.342420
+9,86,foreign_demand,Imports,hpd70_lower,17,0.322453
+9,86,foreign_demand,Imports,hpd70_lower,18,0.305820
+9,86,foreign_demand,Imports,hpd70_lower,19,0.290845
+9,86,foreign_demand,Imports,hpd70_lower,20,0.279205
+9,86,foreign_demand,Imports,hpd70_upper,1,0.347411
+9,86,foreign_demand,Imports,hpd70_upper,2,0.801657
+9,86,foreign_demand,Imports,hpd70_upper,3,1.079536
+9,86,foreign_demand,Imports,hpd70_upper,4,1.229287
+9,86,foreign_demand,Imports,hpd70_upper,5,1.269221
+9,86,foreign_demand,Imports,hpd70_upper,6,1.264229
+9,86,foreign_demand,Imports,hpd70_upper,7,1.202672
+9,86,foreign_demand,Imports,hpd70_upper,8,1.112821
+9,86,foreign_demand,Imports,hpd70_upper,9,1.016301
+9,86,foreign_demand,Imports,hpd70_upper,10,0.911475
+9,86,foreign_demand,Imports,hpd70_upper,11,0.818310
+9,86,foreign_demand,Imports,hpd70_upper,12,0.748426
+9,86,foreign_demand,Imports,hpd70_upper,13,0.686848
+9,86,foreign_demand,Imports,hpd70_upper,14,0.615307
+9,86,foreign_demand,Imports,hpd70_upper,15,0.552072
+9,86,foreign_demand,Imports,hpd70_upper,16,0.512138
+9,86,foreign_demand,Imports,hpd70_upper,17,0.477196
+9,86,foreign_demand,Imports,hpd70_upper,18,0.443931
+9,86,foreign_demand,Imports,hpd70_upper,19,0.417295
+9,86,foreign_demand,Imports,hpd70_upper,20,0.390679
+9,86,foreign_demand,Imports,hpd90_lower,1,0.189354
+9,86,foreign_demand,Imports,hpd90_lower,2,0.517130
+9,86,foreign_demand,Imports,hpd90_lower,3,0.733450
+9,86,foreign_demand,Imports,hpd90_lower,4,0.823301
+9,86,foreign_demand,Imports,hpd90_lower,5,0.833285
+9,86,foreign_demand,Imports,hpd90_lower,6,0.788359
+9,86,foreign_demand,Imports,hpd90_lower,7,0.716798
+9,86,foreign_demand,Imports,hpd90_lower,8,0.650249
+9,86,foreign_demand,Imports,hpd90_lower,9,0.557063
+9,86,foreign_demand,Imports,hpd90_lower,10,0.487179
+9,86,foreign_demand,Imports,hpd90_lower,11,0.415638
+9,86,foreign_demand,Imports,hpd90_lower,12,0.359072
+9,86,foreign_demand,Imports,hpd90_lower,13,0.322453
+9,86,foreign_demand,Imports,hpd90_lower,14,0.299171
+9,86,foreign_demand,Imports,hpd90_lower,15,0.277527
+9,86,foreign_demand,Imports,hpd90_lower,16,0.257560
+9,86,foreign_demand,Imports,hpd90_lower,17,0.245920
+9,86,foreign_demand,Imports,hpd90_lower,18,0.237594
+9,86,foreign_demand,Imports,hpd90_lower,19,0.229287
+9,86,foreign_demand,Imports,hpd90_lower,20,0.220961
+9,86,foreign_demand,Imports,hpd90_upper,1,0.415638
+9,86,foreign_demand,Imports,hpd90_upper,2,0.929785
+9,86,foreign_demand,Imports,hpd90_upper,3,1.270878
+9,86,foreign_demand,Imports,hpd90_upper,4,1.453915
+9,86,foreign_demand,Imports,hpd90_upper,5,1.522141
+9,86,foreign_demand,Imports,hpd90_upper,6,1.532125
+9,86,foreign_demand,Imports,hpd90_upper,7,1.465555
+9,86,foreign_demand,Imports,hpd90_upper,8,1.362406
+9,86,foreign_demand,Imports,hpd90_upper,9,1.262572
+9,86,foreign_demand,Imports,hpd90_upper,10,1.154412
+9,86,foreign_demand,Imports,hpd90_upper,11,1.064561
+9,86,foreign_demand,Imports,hpd90_upper,12,0.979702
+9,86,foreign_demand,Imports,hpd90_upper,13,0.898177
+9,86,foreign_demand,Imports,hpd90_upper,14,0.819967
+9,86,foreign_demand,Imports,hpd90_upper,15,0.750083
+9,86,foreign_demand,Imports,hpd90_upper,16,0.698508
+9,86,foreign_demand,Imports,hpd90_upper,17,0.641922
+9,86,foreign_demand,Imports,hpd90_upper,18,0.588691
+9,86,foreign_demand,Imports,hpd90_upper,19,0.545423
+9,86,foreign_demand,Imports,hpd90_upper,20,0.508823
+9,86,foreign_demand,Hours worked,mean,1,0.132643
+9,86,foreign_demand,Hours worked,mean,2,0.357606
+9,86,foreign_demand,Hours worked,mean,3,0.456777
+9,86,foreign_demand,Hours worked,mean,4,0.464093
+9,86,foreign_demand,Hours worked,mean,5,0.409519
+9,86,foreign_demand,Hours worked,mean,6,0.328318
+9,86,foreign_demand,Hours worked,mean,7,0.239138
+9,86,foreign_demand,Hours worked,mean,8,0.155940
+9,86,foreign_demand,Hours worked,mean,9,0.083397
+9,86,foreign_demand,Hours worked,mean,10,0.024822
+9,86,foreign_demand,Hours worked,mean,11,-0.021102
+9,86,foreign_demand,Hours worked,mean,12,-0.054375
+9,86,foreign_demand,Hours worked,mean,13,-0.077009
+9,86,foreign_demand,Hours worked,mean,14,-0.090315
+9,86,foreign_demand,Hours worked,mean,15,-0.096976
+9,86,foreign_demand,Hours worked,mean,16,-0.097639
+9,86,foreign_demand,Hours worked,mean,17,-0.094308
+9,86,foreign_demand,Hours worked,mean,18,-0.088318
+9,86,foreign_demand,Hours worked,mean,19,-0.081002
+9,86,foreign_demand,Hours worked,mean,20,-0.072345
+9,86,foreign_demand,Hours worked,hpd70_lower,1,0.104689
+9,86,foreign_demand,Hours worked,hpd70_lower,2,0.314341
+9,86,foreign_demand,Hours worked,hpd70_lower,3,0.406860
+9,86,foreign_demand,Hours worked,hpd70_lower,4,0.407523
+9,86,foreign_demand,Hours worked,hpd70_lower,5,0.354275
+9,86,foreign_demand,Hours worked,hpd70_lower,6,0.281732
+9,86,foreign_demand,Hours worked,hpd70_lower,7,0.195211
+9,86,foreign_demand,Hours worked,hpd70_lower,8,0.116007
+9,86,foreign_demand,Hours worked,hpd70_lower,9,0.045460
+9,86,foreign_demand,Hours worked,hpd70_lower,10,-0.009122
+9,86,foreign_demand,Hours worked,hpd70_lower,11,-0.051052
+9,86,foreign_demand,Hours worked,hpd70_lower,12,-0.079669
+9,86,foreign_demand,Hours worked,hpd70_lower,13,-0.098973
+9,86,foreign_demand,Hours worked,hpd70_lower,14,-0.110282
+9,86,foreign_demand,Hours worked,hpd70_lower,15,-0.111616
+9,86,foreign_demand,Hours worked,hpd70_lower,16,-0.109619
+9,86,foreign_demand,Hours worked,hpd70_lower,17,-0.106288
+9,86,foreign_demand,Hours worked,hpd70_lower,18,-0.100298
+9,86,foreign_demand,Hours worked,hpd70_lower,19,-0.095642
+9,86,foreign_demand,Hours worked,hpd70_lower,20,-0.086992
+9,86,foreign_demand,Hours worked,hpd70_upper,1,0.156603
+9,86,foreign_demand,Hours worked,hpd70_upper,2,0.394209
+9,86,foreign_demand,Hours worked,hpd70_upper,3,0.501367
+9,86,foreign_demand,Hours worked,hpd70_upper,4,0.504027
+9,86,foreign_demand,Hours worked,hpd70_upper,5,0.446123
+9,86,foreign_demand,Hours worked,hpd70_upper,6,0.362262
+9,86,foreign_demand,Hours worked,hpd70_upper,7,0.269751
+9,86,foreign_demand,Hours worked,hpd70_upper,8,0.185228
+9,86,foreign_demand,Hours worked,hpd70_upper,9,0.110679
+9,86,foreign_demand,Hours worked,hpd70_upper,10,0.050116
+9,86,foreign_demand,Hours worked,hpd70_upper,11,0.002196
+9,86,foreign_demand,Hours worked,hpd70_upper,12,-0.031085
+9,86,foreign_demand,Hours worked,hpd70_upper,13,-0.056371
+9,86,foreign_demand,Hours worked,hpd70_upper,14,-0.074341
+9,86,foreign_demand,Hours worked,hpd70_upper,15,-0.081002
+9,86,foreign_demand,Hours worked,hpd70_upper,16,-0.082999
+9,86,foreign_demand,Hours worked,hpd70_upper,17,-0.080331
+9,86,foreign_demand,Hours worked,hpd70_upper,18,-0.074341
+9,86,foreign_demand,Hours worked,hpd70_upper,19,-0.066355
+9,86,foreign_demand,Hours worked,hpd70_upper,20,-0.057042
+9,86,foreign_demand,Hours worked,hpd90_lower,1,0.068749
+9,86,foreign_demand,Hours worked,hpd90_lower,2,0.261102
+9,86,foreign_demand,Hours worked,hpd90_lower,3,0.340969
+9,86,foreign_demand,Hours worked,hpd90_lower,4,0.346288
+9,86,foreign_demand,Hours worked,hpd90_lower,5,0.299039
+9,86,foreign_demand,Hours worked,hpd90_lower,6,0.230481
+9,86,foreign_demand,Hours worked,hpd90_lower,7,0.152610
+9,86,foreign_demand,Hours worked,hpd90_lower,8,0.074076
+9,86,foreign_demand,Hours worked,hpd90_lower,9,0.005526
+9,86,foreign_demand,Hours worked,hpd90_lower,10,-0.047059
+9,86,foreign_demand,Hours worked,hpd90_lower,11,-0.088989
+9,86,foreign_demand,Hours worked,hpd90_lower,12,-0.114275
+9,86,foreign_demand,Hours worked,hpd90_lower,13,-0.130249
+9,86,foreign_demand,Hours worked,hpd90_lower,14,-0.135576
+9,86,foreign_demand,Hours worked,hpd90_lower,15,-0.137572
+9,86,foreign_demand,Hours worked,hpd90_lower,16,-0.132916
+9,86,foreign_demand,Hours worked,hpd90_lower,17,-0.128252
+9,86,foreign_demand,Hours worked,hpd90_lower,18,-0.122262
+9,86,foreign_demand,Hours worked,hpd90_lower,19,-0.115609
+9,86,foreign_demand,Hours worked,hpd90_lower,20,-0.108956
+9,86,foreign_demand,Hours worked,hpd90_upper,1,0.198534
+9,86,foreign_demand,Hours worked,hpd90_upper,2,0.450116
+9,86,foreign_demand,Hours worked,hpd90_upper,3,0.575907
+9,86,foreign_demand,Hours worked,hpd90_upper,4,0.584565
+9,86,foreign_demand,Hours worked,hpd90_upper,5,0.531317
+9,86,foreign_demand,Hours worked,hpd90_upper,6,0.440133
+9,86,foreign_demand,Hours worked,hpd90_upper,7,0.336976
+9,86,foreign_demand,Hours worked,hpd90_upper,8,0.248451
+9,86,foreign_demand,Hours worked,hpd90_upper,9,0.171251
+9,86,foreign_demand,Hours worked,hpd90_upper,10,0.106023
+9,86,foreign_demand,Hours worked,hpd90_upper,11,0.054109
+9,86,foreign_demand,Hours worked,hpd90_upper,12,0.012842
+9,86,foreign_demand,Hours worked,hpd90_upper,13,-0.021765
+9,86,foreign_demand,Hours worked,hpd90_upper,14,-0.047059
+9,86,foreign_demand,Hours worked,hpd90_upper,15,-0.057705
+9,86,foreign_demand,Hours worked,hpd90_upper,16,-0.065029
+9,86,foreign_demand,Hours worked,hpd90_upper,17,-0.063032
+9,86,foreign_demand,Hours worked,hpd90_upper,18,-0.059039
+9,86,foreign_demand,Hours worked,hpd90_upper,19,-0.049718
+9,86,foreign_demand,Hours worked,hpd90_upper,20,-0.039735
+9,86,foreign_demand,Interest rate,mean,1,0.029257
+9,86,foreign_demand,Interest rate,mean,2,0.108374
+9,86,foreign_demand,Interest rate,mean,3,0.204119
+9,86,foreign_demand,Interest rate,mean,4,0.280587
+9,86,foreign_demand,Interest rate,mean,5,0.320480
+9,86,foreign_demand,Interest rate,mean,6,0.322475
+9,86,foreign_demand,Interest rate,mean,7,0.293879
+9,86,foreign_demand,Interest rate,mean,8,0.245345
+9,86,foreign_demand,Interest rate,mean,9,0.186167
+9,86,foreign_demand,Interest rate,mean,10,0.125002
+9,86,foreign_demand,Interest rate,mean,11,0.065824
+9,86,foreign_demand,Interest rate,mean,12,0.012630
+9,86,foreign_demand,Interest rate,mean,13,-0.033248
+9,86,foreign_demand,Interest rate,mean,14,-0.070477
+9,86,foreign_demand,Interest rate,mean,15,-0.099072
+9,86,foreign_demand,Interest rate,mean,16,-0.119019
+9,86,foreign_demand,Interest rate,mean,17,-0.131650
+9,86,foreign_demand,Interest rate,mean,18,-0.137634
+9,86,foreign_demand,Interest rate,mean,19,-0.138966
+9,86,foreign_demand,Interest rate,mean,20,-0.135639
+9,86,foreign_demand,Interest rate,hpd70_lower,1,0.017289
+9,86,foreign_demand,Interest rate,hpd70_lower,2,0.083776
+9,86,foreign_demand,Interest rate,hpd70_lower,3,0.167552
+9,86,foreign_demand,Interest rate,hpd70_lower,4,0.237366
+9,86,foreign_demand,Interest rate,hpd70_lower,5,0.276597
+9,86,foreign_demand,Interest rate,hpd70_lower,6,0.277922
+9,86,foreign_demand,Interest rate,hpd70_lower,7,0.248002
+9,86,foreign_demand,Interest rate,hpd70_lower,8,0.199467
+9,86,foreign_demand,Interest rate,hpd70_lower,9,0.142284
+9,86,foreign_demand,Interest rate,hpd70_lower,10,0.081781
+9,86,foreign_demand,Interest rate,hpd70_lower,11,0.021278
+9,86,foreign_demand,Interest rate,hpd70_lower,12,-0.028589
+9,86,foreign_demand,Interest rate,hpd70_lower,13,-0.071147
+9,86,foreign_demand,Interest rate,hpd70_lower,14,-0.105719
+9,86,foreign_demand,Interest rate,hpd70_lower,15,-0.126998
+9,86,foreign_demand,Interest rate,hpd70_lower,16,-0.142285
+9,86,foreign_demand,Interest rate,hpd70_lower,17,-0.150264
+9,86,foreign_demand,Interest rate,hpd70_lower,18,-0.154923
+9,86,foreign_demand,Interest rate,hpd70_lower,19,-0.154923
+9,86,foreign_demand,Interest rate,hpd70_lower,20,-0.150934
+9,86,foreign_demand,Interest rate,hpd70_upper,1,0.043220
+9,86,foreign_demand,Interest rate,hpd70_upper,2,0.132980
+9,86,foreign_demand,Interest rate,hpd70_upper,3,0.237366
+9,86,foreign_demand,Interest rate,hpd70_upper,4,0.321142
+9,86,foreign_demand,Interest rate,hpd70_upper,5,0.363031
+9,86,foreign_demand,Interest rate,hpd70_upper,6,0.363693
+9,86,foreign_demand,Interest rate,hpd70_upper,7,0.333110
+9,86,foreign_demand,Interest rate,hpd70_upper,8,0.284576
+9,86,foreign_demand,Interest rate,hpd70_upper,9,0.222741
+9,86,foreign_demand,Interest rate,hpd70_upper,10,0.158241
+9,86,foreign_demand,Interest rate,hpd70_upper,11,0.094411
+9,86,foreign_demand,Interest rate,hpd70_upper,12,0.038560
+9,86,foreign_demand,Interest rate,hpd70_upper,13,-0.007317
+9,86,foreign_demand,Interest rate,hpd70_upper,14,-0.048535
+9,86,foreign_demand,Interest rate,hpd70_upper,15,-0.080450
+9,86,foreign_demand,Interest rate,hpd70_upper,16,-0.103062
+9,86,foreign_demand,Interest rate,hpd70_upper,17,-0.113697
+9,86,foreign_demand,Interest rate,hpd70_upper,18,-0.120344
+9,86,foreign_demand,Interest rate,hpd70_upper,19,-0.121676
+9,86,foreign_demand,Interest rate,hpd70_upper,20,-0.118349
+9,86,foreign_demand,Interest rate,hpd90_lower,1,-0.006647
+9,86,foreign_demand,Interest rate,hpd90_lower,2,0.050528
+9,86,foreign_demand,Interest rate,hpd90_lower,3,0.123007
+9,86,foreign_demand,Interest rate,hpd90_lower,4,0.186837
+9,86,foreign_demand,Interest rate,hpd90_lower,5,0.222741
+9,86,foreign_demand,Interest rate,hpd90_lower,6,0.222071
+9,86,foreign_demand,Interest rate,hpd90_lower,7,0.196140
+9,86,foreign_demand,Interest rate,hpd90_lower,8,0.148268
+9,86,foreign_demand,Interest rate,hpd90_lower,9,0.092417
+9,86,foreign_demand,Interest rate,hpd90_lower,10,0.035903
+9,86,foreign_demand,Interest rate,hpd90_lower,11,-0.018615
+9,86,foreign_demand,Interest rate,hpd90_lower,12,-0.068482
+9,86,foreign_demand,Interest rate,hpd90_lower,13,-0.107051
+9,86,foreign_demand,Interest rate,hpd90_lower,14,-0.131650
+9,86,foreign_demand,Interest rate,hpd90_lower,15,-0.153591
+9,86,foreign_demand,Interest rate,hpd90_lower,16,-0.169548
+9,86,foreign_demand,Interest rate,hpd90_lower,17,-0.177527
+9,86,foreign_demand,Interest rate,hpd90_lower,18,-0.178860
+9,86,foreign_demand,Interest rate,hpd90_lower,19,-0.181517
+9,86,foreign_demand,Interest rate,hpd90_lower,20,-0.180184
+9,86,foreign_demand,Interest rate,hpd90_upper,1,0.062496
+9,86,foreign_demand,Interest rate,hpd90_upper,2,0.169547
+9,86,foreign_demand,Interest rate,hpd90_upper,3,0.289890
+9,86,foreign_demand,Interest rate,hpd90_upper,4,0.377656
+9,86,foreign_demand,Interest rate,hpd90_upper,5,0.422209
+9,86,foreign_demand,Interest rate,hpd90_upper,6,0.431512
+9,86,foreign_demand,Interest rate,hpd90_upper,7,0.398935
+9,86,foreign_demand,Interest rate,hpd90_upper,8,0.345741
+9,86,foreign_demand,Interest rate,hpd90_upper,9,0.285900
+9,86,foreign_demand,Interest rate,hpd90_upper,10,0.223403
+9,86,foreign_demand,Interest rate,hpd90_upper,11,0.158911
+9,86,foreign_demand,Interest rate,hpd90_upper,12,0.099071
+9,86,foreign_demand,Interest rate,hpd90_upper,13,0.049866
+9,86,foreign_demand,Interest rate,hpd90_upper,14,0.005321
+9,86,foreign_demand,Interest rate,hpd90_upper,15,-0.037237
+9,86,foreign_demand,Interest rate,hpd90_upper,16,-0.069152
+9,86,foreign_demand,Interest rate,hpd90_upper,17,-0.088429
+9,86,foreign_demand,Interest rate,hpd90_upper,18,-0.098402
+9,86,foreign_demand,Interest rate,hpd90_upper,19,-0.098402
+9,86,foreign_demand,Interest rate,hpd90_upper,20,-0.096408
+9,86,foreign_demand,Real wage,mean,1,0.061434
+9,86,foreign_demand,Real wage,mean,2,0.114293
+9,86,foreign_demand,Real wage,mean,3,0.158176
+9,86,foreign_demand,Real wage,mean,4,0.193083
+9,86,foreign_demand,Real wage,mean,5,0.218352
+9,86,foreign_demand,Real wage,mean,6,0.234640
+9,86,foreign_demand,Real wage,mean,7,0.243616
+9,86,foreign_demand,Real wage,mean,8,0.246608
+9,86,foreign_demand,Real wage,mean,9,0.245611
+9,86,foreign_demand,Real wage,mean,10,0.241622
+9,86,foreign_demand,Real wage,mean,11,0.236304
+9,86,foreign_demand,Real wage,mean,12,0.229654
+9,86,foreign_demand,Real wage,mean,13,0.222672
+9,86,foreign_demand,Real wage,mean,14,0.215025
+9,86,foreign_demand,Real wage,mean,15,0.207381
+9,86,foreign_demand,Real wage,mean,16,0.199402
+9,86,foreign_demand,Real wage,mean,17,0.191424
+9,86,foreign_demand,Real wage,mean,18,0.183110
+9,86,foreign_demand,Real wage,mean,19,0.175131
+9,86,foreign_demand,Real wage,mean,20,0.167152
+9,86,foreign_demand,Real wage,hpd70_lower,1,0.044480
+9,86,foreign_demand,Real wage,hpd70_lower,2,0.085371
+9,86,foreign_demand,Real wage,hpd70_lower,3,0.122607
+9,86,foreign_demand,Real wage,hpd70_lower,4,0.152192
+9,86,foreign_demand,Real wage,hpd70_lower,5,0.174469
+9,86,foreign_demand,Real wage,hpd70_lower,6,0.188432
+9,86,foreign_demand,Real wage,hpd70_lower,7,0.198736
+9,86,foreign_demand,Real wage,hpd70_lower,8,0.202394
+9,86,foreign_demand,Real wage,hpd70_lower,9,0.201062
+9,86,foreign_demand,Real wage,hpd70_lower,10,0.196741
+9,86,foreign_demand,Real wage,hpd70_lower,11,0.192421
+9,86,foreign_demand,Real wage,hpd70_lower,12,0.187434
+9,86,foreign_demand,Real wage,hpd70_lower,13,0.182779
+9,86,foreign_demand,Real wage,hpd70_lower,14,0.177461
+9,86,foreign_demand,Real wage,hpd70_lower,15,0.171142
+9,86,foreign_demand,Real wage,hpd70_lower,16,0.164496
+9,86,foreign_demand,Real wage,hpd70_lower,17,0.157514
+9,86,foreign_demand,Real wage,hpd70_lower,18,0.150533
+9,86,foreign_demand,Real wage,hpd70_lower,19,0.143883
+9,86,foreign_demand,Real wage,hpd70_lower,20,0.137567
+9,86,foreign_demand,Real wage,hpd70_upper,1,0.076730
+9,86,foreign_demand,Real wage,hpd70_upper,2,0.140559
+9,86,foreign_demand,Real wage,hpd70_upper,3,0.192086
+9,86,foreign_demand,Real wage,hpd70_upper,4,0.226331
+9,86,foreign_demand,Real wage,hpd70_upper,5,0.252592
+9,86,foreign_demand,Real wage,hpd70_upper,6,0.266224
+9,86,foreign_demand,Real wage,hpd70_upper,7,0.271211
+9,86,foreign_demand,Real wage,hpd70_upper,8,0.276198
+9,86,foreign_demand,Real wage,hpd70_upper,9,0.276529
+9,86,foreign_demand,Real wage,hpd70_upper,10,0.270213
+9,86,foreign_demand,Real wage,hpd70_upper,11,0.263894
+9,86,foreign_demand,Real wage,hpd70_upper,12,0.257248
+9,86,foreign_demand,Real wage,hpd70_upper,13,0.251595
+9,86,foreign_demand,Real wage,hpd70_upper,14,0.243616
+9,86,foreign_demand,Real wage,hpd70_upper,15,0.234971
+9,86,foreign_demand,Real wage,hpd70_upper,16,0.223003
+9,86,foreign_demand,Real wage,hpd70_upper,17,0.215691
+9,86,foreign_demand,Real wage,hpd70_upper,18,0.207712
+9,86,foreign_demand,Real wage,hpd70_upper,19,0.198736
+9,86,foreign_demand,Real wage,hpd70_upper,20,0.189429
+9,86,foreign_demand,Real wage,hpd90_lower,1,0.023871
+9,86,foreign_demand,Real wage,hpd90_lower,2,0.052794
+9,86,foreign_demand,Real wage,hpd90_lower,3,0.078724
+9,86,foreign_demand,Real wage,hpd90_lower,4,0.101328
+9,86,foreign_demand,Real wage,hpd90_lower,5,0.120944
+9,86,foreign_demand,Real wage,hpd90_lower,6,0.139562
+9,86,foreign_demand,Real wage,hpd90_lower,7,0.149867
+9,86,foreign_demand,Real wage,hpd90_lower,8,0.155184
+9,86,foreign_demand,Real wage,hpd90_lower,9,0.159509
+9,86,foreign_demand,Real wage,hpd90_lower,10,0.158176
+9,86,foreign_demand,Real wage,hpd90_lower,11,0.155851
+9,86,foreign_demand,Real wage,hpd90_lower,12,0.153190
+9,86,foreign_demand,Real wage,hpd90_lower,13,0.149535
+9,86,foreign_demand,Real wage,hpd90_lower,14,0.145877
+9,86,foreign_demand,Real wage,hpd90_lower,15,0.140891
+9,86,foreign_demand,Real wage,hpd90_lower,16,0.136901
+9,86,foreign_demand,Real wage,hpd90_lower,17,0.131914
+9,86,foreign_demand,Real wage,hpd90_lower,18,0.126262
+9,86,foreign_demand,Real wage,hpd90_lower,19,0.120277
+9,86,foreign_demand,Real wage,hpd90_lower,20,0.115626
+9,86,foreign_demand,Real wage,hpd90_upper,1,0.102992
+9,86,foreign_demand,Real wage,hpd90_upper,2,0.185440
+9,86,foreign_demand,Real wage,hpd90_upper,3,0.245611
+9,86,foreign_demand,Real wage,hpd90_upper,4,0.292817
+9,86,foreign_demand,Real wage,hpd90_upper,5,0.327393
+9,86,foreign_demand,Real wage,hpd90_upper,6,0.339692
+9,86,foreign_demand,Real wage,hpd90_upper,7,0.349334
+9,86,foreign_demand,Real wage,hpd90_upper,8,0.352658
+9,86,foreign_demand,Real wage,hpd90_upper,9,0.342684
+9,86,foreign_demand,Real wage,hpd90_upper,10,0.339361
+9,86,foreign_demand,Real wage,hpd90_upper,11,0.332048
+9,86,foreign_demand,Real wage,hpd90_upper,12,0.319745
+9,86,foreign_demand,Real wage,hpd90_upper,13,0.308112
+9,86,foreign_demand,Real wage,hpd90_upper,14,0.301131
+9,86,foreign_demand,Real wage,hpd90_upper,15,0.289825
+9,86,foreign_demand,Real wage,hpd90_upper,16,0.274865
+9,86,foreign_demand,Real wage,hpd90_upper,17,0.266224
+9,86,foreign_demand,Real wage,hpd90_upper,18,0.250598
+9,86,foreign_demand,Real wage,hpd90_upper,19,0.239296
+9,86,foreign_demand,Real wage,hpd90_upper,20,0.226662
+9,86,foreign_demand,Real exchange rate,mean,1,-0.213214
+9,86,foreign_demand,Real exchange rate,mean,2,-0.423947
+9,86,foreign_demand,Real exchange rate,mean,3,-0.604740
+9,86,foreign_demand,Real exchange rate,mean,4,-0.744385
+9,86,foreign_demand,Real exchange rate,mean,5,-0.835418
+9,86,foreign_demand,Real exchange rate,mean,6,-0.877807
+9,86,foreign_demand,Real exchange rate,mean,7,-0.880305
+9,86,foreign_demand,Real exchange rate,mean,8,-0.852864
+9,86,foreign_demand,Real exchange rate,mean,9,-0.804236
+9,86,foreign_demand,Real exchange rate,mean,10,-0.745642
+9,86,foreign_demand,Real exchange rate,mean,11,-0.682051
+9,86,foreign_demand,Real exchange rate,mean,12,-0.618460
+9,86,foreign_demand,Real exchange rate,mean,13,-0.557353
+9,86,foreign_demand,Real exchange rate,mean,14,-0.498760
+9,86,foreign_demand,Real exchange rate,mean,15,-0.445134
+9,86,foreign_demand,Real exchange rate,mean,16,-0.395263
+9,86,foreign_demand,Real exchange rate,mean,17,-0.350376
+9,86,foreign_demand,Real exchange rate,mean,18,-0.307987
+9,86,foreign_demand,Real exchange rate,mean,19,-0.270580
+9,86,foreign_demand,Real exchange rate,mean,20,-0.234416
+9,86,foreign_demand,Real exchange rate,hpd70_lower,1,-0.256860
+9,86,foreign_demand,Real exchange rate,hpd70_lower,2,-0.490021
+9,86,foreign_demand,Real exchange rate,hpd70_lower,3,-0.689532
+9,86,foreign_demand,Real exchange rate,hpd70_lower,4,-0.835418
+9,86,foreign_demand,Real exchange rate,hpd70_lower,5,-0.938899
+9,86,foreign_demand,Real exchange rate,hpd70_lower,6,-0.986285
+9,86,foreign_demand,Real exchange rate,hpd70_lower,7,-0.993767
+9,86,foreign_demand,Real exchange rate,hpd70_lower,8,-0.968824
+9,86,foreign_demand,Real exchange rate,hpd70_lower,9,-0.908974
+9,86,foreign_demand,Real exchange rate,hpd70_lower,10,-0.844141
+9,86,foreign_demand,Real exchange rate,hpd70_lower,11,-0.780550
+9,86,foreign_demand,Real exchange rate,hpd70_lower,12,-0.710719
+9,86,foreign_demand,Real exchange rate,hpd70_lower,13,-0.638405
+9,86,foreign_demand,Real exchange rate,hpd70_lower,14,-0.573572
+9,86,foreign_demand,Real exchange rate,hpd70_lower,15,-0.508725
+9,86,foreign_demand,Real exchange rate,hpd70_lower,16,-0.456356
+9,86,foreign_demand,Real exchange rate,hpd70_lower,17,-0.399004
+9,86,foreign_demand,Real exchange rate,hpd70_lower,18,-0.355358
+9,86,foreign_demand,Real exchange rate,hpd70_lower,19,-0.314211
+9,86,foreign_demand,Real exchange rate,hpd70_lower,20,-0.273064
+9,86,foreign_demand,Real exchange rate,hpd70_upper,1,-0.164585
+9,86,foreign_demand,Real exchange rate,hpd70_upper,2,-0.351618
+9,86,foreign_demand,Real exchange rate,hpd70_upper,3,-0.513722
+9,86,foreign_demand,Real exchange rate,hpd70_upper,4,-0.639647
+9,86,foreign_demand,Real exchange rate,hpd70_upper,5,-0.718201
+9,86,foreign_demand,Real exchange rate,hpd70_upper,6,-0.745642
+9,86,foreign_demand,Real exchange rate,hpd70_upper,7,-0.733163
+9,86,foreign_demand,Real exchange rate,hpd70_upper,8,-0.698256
+9,86,foreign_demand,Real exchange rate,hpd70_upper,9,-0.652126
+9,86,foreign_demand,Real exchange rate,hpd70_upper,10,-0.596016
+9,86,foreign_demand,Real exchange rate,hpd70_upper,11,-0.537408
+9,86,foreign_demand,Real exchange rate,hpd70_upper,12,-0.483797
+9,86,foreign_demand,Real exchange rate,hpd70_upper,13,-0.431428
+9,86,foreign_demand,Real exchange rate,hpd70_upper,14,-0.377802
+9,86,foreign_demand,Real exchange rate,hpd70_upper,15,-0.337912
+9,86,foreign_demand,Real exchange rate,hpd70_upper,16,-0.296765
+9,86,foreign_demand,Real exchange rate,hpd70_upper,17,-0.260600
+9,86,foreign_demand,Real exchange rate,hpd70_upper,18,-0.228176
+9,86,foreign_demand,Real exchange rate,hpd70_upper,19,-0.195767
+9,86,foreign_demand,Real exchange rate,hpd70_upper,20,-0.168326
+9,86,foreign_demand,Real exchange rate,hpd90_lower,1,-0.335413
+9,86,foreign_demand,Real exchange rate,hpd90_lower,2,-0.609722
+9,86,foreign_demand,Real exchange rate,hpd90_lower,3,-0.851622
+9,86,foreign_demand,Real exchange rate,hpd90_lower,4,-1.027432
+9,86,foreign_demand,Real exchange rate,hpd90_lower,5,-1.152116
+9,86,foreign_demand,Real exchange rate,hpd90_lower,6,-1.210724
+9,86,foreign_demand,Real exchange rate,hpd90_lower,7,-1.211966
+9,86,foreign_demand,Real exchange rate,hpd90_lower,8,-1.177058
+9,86,foreign_demand,Real exchange rate,hpd90_lower,9,-1.122190
+9,86,foreign_demand,Real exchange rate,hpd90_lower,10,-1.056116
+9,86,foreign_demand,Real exchange rate,hpd90_lower,11,-0.990026
+9,86,foreign_demand,Real exchange rate,hpd90_lower,12,-0.910231
+9,86,foreign_demand,Real exchange rate,hpd90_lower,13,-0.827936
+9,86,foreign_demand,Real exchange rate,hpd90_lower,14,-0.749383
+9,86,foreign_demand,Real exchange rate,hpd90_lower,15,-0.675812
+9,86,foreign_demand,Real exchange rate,hpd90_lower,16,-0.607238
+9,86,foreign_demand,Real exchange rate,hpd90_lower,17,-0.551129
+9,86,foreign_demand,Real exchange rate,hpd90_lower,18,-0.501243
+9,86,foreign_demand,Real exchange rate,hpd90_lower,19,-0.446391
+9,86,foreign_demand,Real exchange rate,hpd90_lower,20,-0.389024
+9,86,foreign_demand,Real exchange rate,hpd90_upper,1,-0.102251
+9,86,foreign_demand,Real exchange rate,hpd90_upper,2,-0.241897
+9,86,foreign_demand,Real exchange rate,hpd90_upper,3,-0.390281
+9,86,foreign_demand,Real exchange rate,hpd90_upper,4,-0.497503
+9,86,foreign_demand,Real exchange rate,hpd90_upper,5,-0.581054
+9,86,foreign_demand,Real exchange rate,hpd90_upper,6,-0.612221
+9,86,foreign_demand,Real exchange rate,hpd90_upper,7,-0.596016
+9,86,foreign_demand,Real exchange rate,hpd90_upper,8,-0.581054
+9,86,foreign_demand,Real exchange rate,hpd90_upper,9,-0.541149
+9,86,foreign_demand,Real exchange rate,hpd90_upper,10,-0.490021
+9,86,foreign_demand,Real exchange rate,hpd90_upper,11,-0.435169
+9,86,foreign_demand,Real exchange rate,hpd90_upper,12,-0.387782
+9,86,foreign_demand,Real exchange rate,hpd90_upper,13,-0.339154
+9,86,foreign_demand,Real exchange rate,hpd90_upper,14,-0.296765
+9,86,foreign_demand,Real exchange rate,hpd90_upper,15,-0.254361
+9,86,foreign_demand,Real exchange rate,hpd90_upper,16,-0.215713
+9,86,foreign_demand,Real exchange rate,hpd90_upper,17,-0.187029
+9,86,foreign_demand,Real exchange rate,hpd90_upper,18,-0.163343
+9,86,foreign_demand,Real exchange rate,hpd90_upper,19,-0.140900
+9,86,foreign_demand,Real exchange rate,hpd90_upper,20,-0.118456
+9,86,foreign_demand,CPI inflation,mean,1,0.031914
+9,86,foreign_demand,CPI inflation,mean,2,0.050864
+9,86,foreign_demand,CPI inflation,mean,3,0.050533
+9,86,foreign_demand,CPI inflation,mean,4,0.037567
+9,86,foreign_demand,CPI inflation,mean,5,0.020612
+9,86,foreign_demand,CPI inflation,mean,6,0.005485
+9,86,foreign_demand,CPI inflation,mean,7,-0.005817
+9,86,foreign_demand,CPI inflation,mean,8,-0.013630
+9,86,foreign_demand,CPI inflation,mean,9,-0.018451
+9,86,foreign_demand,CPI inflation,mean,10,-0.021110
+9,86,foreign_demand,CPI inflation,mean,11,-0.022273
+9,86,foreign_demand,CPI inflation,mean,12,-0.022273
+9,86,foreign_demand,CPI inflation,mean,13,-0.021443
+9,86,foreign_demand,CPI inflation,mean,14,-0.020113
+9,86,foreign_demand,CPI inflation,mean,15,-0.018617
+9,86,foreign_demand,CPI inflation,mean,16,-0.017121
+9,86,foreign_demand,CPI inflation,mean,17,-0.015459
+9,86,foreign_demand,CPI inflation,mean,18,-0.013963
+9,86,foreign_demand,CPI inflation,mean,19,-0.012633
+9,86,foreign_demand,CPI inflation,mean,20,-0.011636
+9,86,foreign_demand,CPI inflation,hpd70_lower,1,0.022108
+9,86,foreign_demand,CPI inflation,hpd70_lower,2,0.039063
+9,86,foreign_demand,CPI inflation,hpd70_lower,3,0.040392
+9,86,foreign_demand,CPI inflation,hpd70_lower,4,0.029754
+9,86,foreign_demand,CPI inflation,hpd70_lower,5,0.013298
+9,86,foreign_demand,CPI inflation,hpd70_lower,6,-0.002161
+9,86,foreign_demand,CPI inflation,hpd70_lower,7,-0.013297
+9,86,foreign_demand,CPI inflation,hpd70_lower,8,-0.020446
+9,86,foreign_demand,CPI inflation,hpd70_lower,9,-0.024435
+9,86,foreign_demand,CPI inflation,hpd70_lower,10,-0.025931
+9,86,foreign_demand,CPI inflation,hpd70_lower,11,-0.026430
+9,86,foreign_demand,CPI inflation,hpd70_lower,12,-0.025931
+9,86,foreign_demand,CPI inflation,hpd70_lower,13,-0.024435
+9,86,foreign_demand,CPI inflation,hpd70_lower,14,-0.022772
+9,86,foreign_demand,CPI inflation,hpd70_lower,15,-0.021276
+9,86,foreign_demand,CPI inflation,hpd70_lower,16,-0.019449
+9,86,foreign_demand,CPI inflation,hpd70_lower,17,-0.017785
+9,86,foreign_demand,CPI inflation,hpd70_lower,18,-0.016457
+9,86,foreign_demand,CPI inflation,hpd70_lower,19,-0.015126
+9,86,foreign_demand,CPI inflation,hpd70_lower,20,-0.013963
+9,86,foreign_demand,CPI inflation,hpd70_upper,1,0.044050
+9,86,foreign_demand,CPI inflation,hpd70_upper,2,0.061503
+9,86,foreign_demand,CPI inflation,hpd70_upper,3,0.059509
+9,86,foreign_demand,CPI inflation,hpd70_upper,4,0.044549
+9,86,foreign_demand,CPI inflation,hpd70_upper,5,0.027095
+9,86,foreign_demand,CPI inflation,hpd70_upper,6,0.012301
+9,86,foreign_demand,CPI inflation,hpd70_upper,7,0.000498
+9,86,foreign_demand,CPI inflation,hpd70_upper,8,-0.008145
+9,86,foreign_demand,CPI inflation,hpd70_upper,9,-0.012966
+9,86,foreign_demand,CPI inflation,hpd70_upper,10,-0.016457
+9,86,foreign_demand,CPI inflation,hpd70_upper,11,-0.017953
+9,86,foreign_demand,CPI inflation,hpd70_upper,12,-0.018284
+9,86,foreign_demand,CPI inflation,hpd70_upper,13,-0.017953
+9,86,foreign_demand,CPI inflation,hpd70_upper,14,-0.016955
+9,86,foreign_demand,CPI inflation,hpd70_upper,15,-0.015459
+9,86,foreign_demand,CPI inflation,hpd70_upper,16,-0.013963
+9,86,foreign_demand,CPI inflation,hpd70_upper,17,-0.012300
+9,86,foreign_demand,CPI inflation,hpd70_upper,18,-0.010804
+9,86,foreign_demand,CPI inflation,hpd70_upper,19,-0.009475
+9,86,foreign_demand,CPI inflation,hpd70_upper,20,-0.008478
+9,86,foreign_demand,CPI inflation,hpd90_lower,1,0.000167
+9,86,foreign_demand,CPI inflation,hpd90_lower,2,0.022440
+9,86,foreign_demand,CPI inflation,hpd90_lower,3,0.028092
+9,86,foreign_demand,CPI inflation,hpd90_lower,4,0.017620
+9,86,foreign_demand,CPI inflation,hpd90_lower,5,0.002826
+9,86,foreign_demand,CPI inflation,hpd90_lower,6,-0.011302
+9,86,foreign_demand,CPI inflation,hpd90_lower,7,-0.022273
+9,86,foreign_demand,CPI inflation,hpd90_lower,8,-0.028923
+9,86,foreign_demand,CPI inflation,hpd90_lower,9,-0.032247
+9,86,foreign_demand,CPI inflation,hpd90_lower,10,-0.033078
+9,86,foreign_demand,CPI inflation,hpd90_lower,11,-0.032580
+9,86,foreign_demand,CPI inflation,hpd90_lower,12,-0.031748
+9,86,foreign_demand,CPI inflation,hpd90_lower,13,-0.030086
+9,86,foreign_demand,CPI inflation,hpd90_lower,14,-0.028756
+9,86,foreign_demand,CPI inflation,hpd90_lower,15,-0.027094
+9,86,foreign_demand,CPI inflation,hpd90_lower,16,-0.024934
+9,86,foreign_demand,CPI inflation,hpd90_lower,17,-0.023105
+9,86,foreign_demand,CPI inflation,hpd90_lower,18,-0.021609
+9,86,foreign_demand,CPI inflation,hpd90_lower,19,-0.020612
+9,86,foreign_demand,CPI inflation,hpd90_lower,20,-0.019449
+9,86,foreign_demand,CPI inflation,hpd90_upper,1,0.062666
+9,86,foreign_demand,CPI inflation,hpd90_upper,2,0.079455
+9,86,foreign_demand,CPI inflation,hpd90_upper,3,0.074136
+9,86,foreign_demand,CPI inflation,hpd90_upper,4,0.057015
+9,86,foreign_demand,CPI inflation,hpd90_upper,5,0.039727
+9,86,foreign_demand,CPI inflation,hpd90_upper,6,0.023936
+9,86,foreign_demand,CPI inflation,hpd90_upper,7,0.010970
+9,86,foreign_demand,CPI inflation,hpd90_upper,8,0.001330
+9,86,foreign_demand,CPI inflation,hpd90_upper,9,-0.005318
+9,86,foreign_demand,CPI inflation,hpd90_upper,10,-0.009475
+9,86,foreign_demand,CPI inflation,hpd90_upper,11,-0.011969
+9,86,foreign_demand,CPI inflation,hpd90_upper,12,-0.013465
+9,86,foreign_demand,CPI inflation,hpd90_upper,13,-0.013465
+9,86,foreign_demand,CPI inflation,hpd90_upper,14,-0.012798
+9,86,foreign_demand,CPI inflation,hpd90_upper,15,-0.011801
+9,86,foreign_demand,CPI inflation,hpd90_upper,16,-0.010473
+9,86,foreign_demand,CPI inflation,hpd90_upper,17,-0.008809
+9,86,foreign_demand,CPI inflation,hpd90_upper,18,-0.007148
+9,86,foreign_demand,CPI inflation,hpd90_upper,19,-0.006150
+9,86,foreign_demand,CPI inflation,hpd90_upper,20,-0.005153
+9,86,foreign_demand,Domestic inflation,mean,1,0.094746
+9,86,foreign_demand,Domestic inflation,mean,2,0.120346
+9,86,foreign_demand,Domestic inflation,mean,3,0.110703
+9,86,foreign_demand,Domestic inflation,mean,4,0.084110
+9,86,foreign_demand,Domestic inflation,mean,5,0.052527
+9,86,foreign_demand,Domestic inflation,mean,6,0.022606
+9,86,foreign_demand,Domestic inflation,mean,7,-0.001330
+9,86,foreign_demand,Domestic inflation,mean,8,-0.019282
+9,86,foreign_demand,Domestic inflation,mean,9,-0.030919
+9,86,foreign_demand,Domestic inflation,mean,10,-0.037900
+9,86,foreign_demand,Domestic inflation,mean,11,-0.041223
+9,86,foreign_demand,Domestic inflation,mean,12,-0.041889
+9,86,foreign_demand,Domestic inflation,mean,13,-0.040892
+9,86,foreign_demand,Domestic inflation,mean,14,-0.038897
+9,86,foreign_demand,Domestic inflation,mean,15,-0.036237
+9,86,foreign_demand,Domestic inflation,mean,16,-0.033576
+9,86,foreign_demand,Domestic inflation,mean,17,-0.030919
+9,86,foreign_demand,Domestic inflation,mean,18,-0.028589
+9,86,foreign_demand,Domestic inflation,mean,19,-0.026263
+9,86,foreign_demand,Domestic inflation,mean,20,-0.024268
+9,86,foreign_demand,Domestic inflation,hpd70_lower,1,0.082447
+9,86,foreign_demand,Domestic inflation,hpd70_lower,2,0.105386
+9,86,foreign_demand,Domestic inflation,hpd70_lower,3,0.096410
+9,86,foreign_demand,Domestic inflation,hpd70_lower,4,0.071807
+9,86,foreign_demand,Domestic inflation,hpd70_lower,5,0.041556
+9,86,foreign_demand,Domestic inflation,hpd70_lower,6,0.013962
+9,86,foreign_demand,Domestic inflation,hpd70_lower,7,-0.010306
+9,86,foreign_demand,Domestic inflation,hpd70_lower,8,-0.028258
+9,86,foreign_demand,Domestic inflation,hpd70_lower,9,-0.039895
+9,86,foreign_demand,Domestic inflation,hpd70_lower,10,-0.045879
+9,86,foreign_demand,Domestic inflation,hpd70_lower,11,-0.048536
+9,86,foreign_demand,Domestic inflation,hpd70_lower,12,-0.048871
+9,86,foreign_demand,Domestic inflation,hpd70_lower,13,-0.046541
+9,86,foreign_demand,Domestic inflation,hpd70_lower,14,-0.044546
+9,86,foreign_demand,Domestic inflation,hpd70_lower,15,-0.041554
+9,86,foreign_demand,Domestic inflation,hpd70_lower,16,-0.038897
+9,86,foreign_demand,Domestic inflation,hpd70_lower,17,-0.036568
+9,86,foreign_demand,Domestic inflation,hpd70_lower,18,-0.033245
+9,86,foreign_demand,Domestic inflation,hpd70_lower,19,-0.030919
+9,86,foreign_demand,Domestic inflation,hpd70_lower,20,-0.028589
+9,86,foreign_demand,Domestic inflation,hpd70_upper,1,0.104719
+9,86,foreign_demand,Domestic inflation,hpd70_upper,2,0.133311
+9,86,foreign_demand,Domestic inflation,hpd70_upper,3,0.122340
+9,86,foreign_demand,Domestic inflation,hpd70_upper,4,0.094415
+9,86,foreign_demand,Domestic inflation,hpd70_upper,5,0.062500
+9,86,foreign_demand,Domestic inflation,hpd70_upper,6,0.030916
+9,86,foreign_demand,Domestic inflation,hpd70_upper,7,0.006980
+9,86,foreign_demand,Domestic inflation,hpd70_upper,8,-0.011303
+9,86,foreign_demand,Domestic inflation,hpd70_upper,9,-0.023602
+9,86,foreign_demand,Domestic inflation,hpd70_upper,10,-0.030252
+9,86,foreign_demand,Domestic inflation,hpd70_upper,11,-0.033911
+9,86,foreign_demand,Domestic inflation,hpd70_upper,12,-0.034908
+9,86,foreign_demand,Domestic inflation,hpd70_upper,13,-0.033576
+9,86,foreign_demand,Domestic inflation,hpd70_upper,14,-0.031581
+9,86,foreign_demand,Domestic inflation,hpd70_upper,15,-0.029255
+9,86,foreign_demand,Domestic inflation,hpd70_upper,16,-0.027260
+9,86,foreign_demand,Domestic inflation,hpd70_upper,17,-0.024268
+9,86,foreign_demand,Domestic inflation,hpd70_upper,18,-0.021943
+9,86,foreign_demand,Domestic inflation,hpd70_upper,19,-0.019948
+9,86,foreign_demand,Domestic inflation,hpd70_upper,20,-0.017953
+9,86,foreign_demand,Domestic inflation,hpd90_lower,1,0.069150
+9,86,foreign_demand,Domestic inflation,hpd90_lower,2,0.087102
+9,86,foreign_demand,Domestic inflation,hpd90_lower,3,0.080121
+9,86,foreign_demand,Domestic inflation,hpd90_lower,4,0.058511
+9,86,foreign_demand,Domestic inflation,hpd90_lower,5,0.029257
+9,86,foreign_demand,Domestic inflation,hpd90_lower,6,0.000665
+9,86,foreign_demand,Domestic inflation,hpd90_lower,7,-0.023602
+9,86,foreign_demand,Domestic inflation,hpd90_lower,8,-0.041223
+9,86,foreign_demand,Domestic inflation,hpd90_lower,9,-0.051863
+9,86,foreign_demand,Domestic inflation,hpd90_lower,10,-0.057181
+9,86,foreign_demand,Domestic inflation,hpd90_lower,11,-0.060173
+9,86,foreign_demand,Domestic inflation,hpd90_lower,12,-0.059506
+9,86,foreign_demand,Domestic inflation,hpd90_lower,13,-0.057181
+9,86,foreign_demand,Domestic inflation,hpd90_lower,14,-0.054855
+9,86,foreign_demand,Domestic inflation,hpd90_lower,15,-0.051863
+9,86,foreign_demand,Domestic inflation,hpd90_lower,16,-0.049202
+9,86,foreign_demand,Domestic inflation,hpd90_lower,17,-0.046876
+9,86,foreign_demand,Domestic inflation,hpd90_lower,18,-0.043218
+9,86,foreign_demand,Domestic inflation,hpd90_lower,19,-0.040892
+9,86,foreign_demand,Domestic inflation,hpd90_lower,20,-0.038897
+9,86,foreign_demand,Domestic inflation,hpd90_upper,1,0.123007
+9,86,foreign_demand,Domestic inflation,hpd90_upper,2,0.150597
+9,86,foreign_demand,Domestic inflation,hpd90_upper,3,0.142287
+9,86,foreign_demand,Domestic inflation,hpd90_upper,4,0.112367
+9,86,foreign_demand,Domestic inflation,hpd90_upper,5,0.077129
+9,86,foreign_demand,Domestic inflation,hpd90_upper,6,0.045214
+9,86,foreign_demand,Domestic inflation,hpd90_upper,7,0.019614
+9,86,foreign_demand,Domestic inflation,hpd90_upper,8,0.002991
+9,86,foreign_demand,Domestic inflation,hpd90_upper,9,-0.009308
+9,86,foreign_demand,Domestic inflation,hpd90_upper,10,-0.017953
+9,86,foreign_demand,Domestic inflation,hpd90_upper,11,-0.023602
+9,86,foreign_demand,Domestic inflation,hpd90_upper,12,-0.025266
+9,86,foreign_demand,Domestic inflation,hpd90_upper,13,-0.025597
+9,86,foreign_demand,Domestic inflation,hpd90_upper,14,-0.024268
+9,86,foreign_demand,Domestic inflation,hpd90_upper,15,-0.022274
+9,86,foreign_demand,Domestic inflation,hpd90_upper,16,-0.020279
+9,86,foreign_demand,Domestic inflation,hpd90_upper,17,-0.017618
+9,86,foreign_demand,Domestic inflation,hpd90_upper,18,-0.015624
+9,86,foreign_demand,Domestic inflation,hpd90_upper,19,-0.013964
+9,86,foreign_demand,Domestic inflation,hpd90_upper,20,-0.012631
+9,86,foreign_demand,Imported inflation,mean,1,-0.084706
+9,86,foreign_demand,Imported inflation,mean,2,-0.078060
+9,86,foreign_demand,Imported inflation,mean,3,-0.060770
+9,86,foreign_demand,Imported inflation,mean,4,-0.048802
+9,86,foreign_demand,Imported inflation,mean,5,-0.038166
+9,86,foreign_demand,Imported inflation,mean,6,-0.026198
+9,86,foreign_demand,Imported inflation,mean,7,-0.013895
+9,86,foreign_demand,Imported inflation,mean,8,-0.003259
+9,86,foreign_demand,Imported inflation,mean,9,0.004719
+9,86,foreign_demand,Imported inflation,mean,10,0.010041
+9,86,foreign_demand,Imported inflation,mean,11,0.013033
+9,86,foreign_demand,Imported inflation,mean,12,0.014031
+9,86,foreign_demand,Imported inflation,mean,13,0.014362
+9,86,foreign_demand,Imported inflation,mean,14,0.014362
+9,86,foreign_demand,Imported inflation,mean,15,0.014031
+9,86,foreign_demand,Imported inflation,mean,16,0.014031
+9,86,foreign_demand,Imported inflation,mean,17,0.013695
+9,86,foreign_demand,Imported inflation,mean,18,0.013364
+9,86,foreign_demand,Imported inflation,mean,19,0.012698
+9,86,foreign_demand,Imported inflation,mean,20,0.012367
+9,86,foreign_demand,Imported inflation,hpd70_lower,1,-0.111634
+9,86,foreign_demand,Imported inflation,hpd70_lower,2,-0.102993
+9,86,foreign_demand,Imported inflation,hpd70_lower,3,-0.079057
+9,86,foreign_demand,Imported inflation,hpd70_lower,4,-0.063100
+9,86,foreign_demand,Imported inflation,hpd70_lower,5,-0.051794
+9,86,foreign_demand,Imported inflation,hpd70_lower,6,-0.035836
+9,86,foreign_demand,Imported inflation,hpd70_lower,7,-0.021211
+9,86,foreign_demand,Imported inflation,hpd70_lower,8,-0.012235
+9,86,foreign_demand,Imported inflation,hpd70_lower,9,-0.003259
+9,86,foreign_demand,Imported inflation,hpd70_lower,10,0.002725
+9,86,foreign_demand,Imported inflation,hpd70_lower,11,0.006052
+9,86,foreign_demand,Imported inflation,hpd70_lower,12,0.007380
+9,86,foreign_demand,Imported inflation,hpd70_lower,13,0.007380
+9,86,foreign_demand,Imported inflation,hpd70_lower,14,0.007711
+9,86,foreign_demand,Imported inflation,hpd70_lower,15,0.008047
+9,86,foreign_demand,Imported inflation,hpd70_lower,16,0.008378
+9,86,foreign_demand,Imported inflation,hpd70_lower,17,0.008047
+9,86,foreign_demand,Imported inflation,hpd70_lower,18,0.008047
+9,86,foreign_demand,Imported inflation,hpd70_lower,19,0.007711
+9,86,foreign_demand,Imported inflation,hpd70_lower,20,0.007711
+9,86,foreign_demand,Imported inflation,hpd70_upper,1,-0.051132
+9,86,foreign_demand,Imported inflation,hpd70_upper,2,-0.052460
+9,86,foreign_demand,Imported inflation,hpd70_upper,3,-0.041820
+9,86,foreign_demand,Imported inflation,hpd70_upper,4,-0.031516
+9,86,foreign_demand,Imported inflation,hpd70_upper,5,-0.023537
+9,86,foreign_demand,Imported inflation,hpd70_upper,6,-0.013233
+9,86,foreign_demand,Imported inflation,hpd70_upper,7,-0.002924
+9,86,foreign_demand,Imported inflation,hpd70_upper,8,0.007711
+9,86,foreign_demand,Imported inflation,hpd70_upper,9,0.015028
+9,86,foreign_demand,Imported inflation,hpd70_upper,10,0.018682
+9,86,foreign_demand,Imported inflation,hpd70_upper,11,0.020677
+9,86,foreign_demand,Imported inflation,hpd70_upper,12,0.021012
+9,86,foreign_demand,Imported inflation,hpd70_upper,13,0.021343
+9,86,foreign_demand,Imported inflation,hpd70_upper,14,0.020346
+9,86,foreign_demand,Imported inflation,hpd70_upper,15,0.019017
+9,86,foreign_demand,Imported inflation,hpd70_upper,16,0.017685
+9,86,foreign_demand,Imported inflation,hpd70_upper,17,0.017023
+9,86,foreign_demand,Imported inflation,hpd70_upper,18,0.017023
+9,86,foreign_demand,Imported inflation,hpd70_upper,19,0.016025
+9,86,foreign_demand,Imported inflation,hpd70_upper,20,0.015359
+9,86,foreign_demand,Imported inflation,hpd90_lower,1,-0.164162
+9,86,foreign_demand,Imported inflation,hpd90_lower,2,-0.146210
+9,86,foreign_demand,Imported inflation,hpd90_lower,3,-0.105985
+9,86,foreign_demand,Imported inflation,hpd90_lower,4,-0.086038
+9,86,foreign_demand,Imported inflation,hpd90_lower,5,-0.068749
+9,86,foreign_demand,Imported inflation,hpd90_lower,6,-0.058775
+9,86,foreign_demand,Imported inflation,hpd90_lower,7,-0.043153
+9,86,foreign_demand,Imported inflation,hpd90_lower,8,-0.027195
+9,86,foreign_demand,Imported inflation,hpd90_lower,9,-0.018551
+9,86,foreign_demand,Imported inflation,hpd90_lower,10,-0.011900
+9,86,foreign_demand,Imported inflation,hpd90_lower,11,-0.007249
+9,86,foreign_demand,Imported inflation,hpd90_lower,12,-0.004257
+9,86,foreign_demand,Imported inflation,hpd90_lower,13,-0.002262
+9,86,foreign_demand,Imported inflation,hpd90_lower,14,-0.000267
+9,86,foreign_demand,Imported inflation,hpd90_lower,15,0.000068
+9,86,foreign_demand,Imported inflation,hpd90_lower,16,0.001065
+9,86,foreign_demand,Imported inflation,hpd90_lower,17,0.002062
+9,86,foreign_demand,Imported inflation,hpd90_lower,18,0.003060
+9,86,foreign_demand,Imported inflation,hpd90_lower,19,0.003060
+9,86,foreign_demand,Imported inflation,hpd90_lower,20,0.003391
+9,86,foreign_demand,Imported inflation,hpd90_upper,1,-0.009574
+9,86,foreign_demand,Imported inflation,hpd90_upper,2,-0.012898
+9,86,foreign_demand,Imported inflation,hpd90_upper,3,-0.018219
+9,86,foreign_demand,Imported inflation,hpd90_upper,4,-0.015558
+9,86,foreign_demand,Imported inflation,hpd90_upper,5,-0.007580
+9,86,foreign_demand,Imported inflation,hpd90_upper,6,0.002725
+9,86,foreign_demand,Imported inflation,hpd90_upper,7,0.012367
+9,86,foreign_demand,Imported inflation,hpd90_upper,8,0.020015
+9,86,foreign_demand,Imported inflation,hpd90_upper,9,0.025999
+9,86,foreign_demand,Imported inflation,hpd90_upper,10,0.028991
+9,86,foreign_demand,Imported inflation,hpd90_upper,11,0.032314
+9,86,foreign_demand,Imported inflation,hpd90_upper,12,0.032980
+9,86,foreign_demand,Imported inflation,hpd90_upper,13,0.032645
+9,86,foreign_demand,Imported inflation,hpd90_upper,14,0.031648
+9,86,foreign_demand,Imported inflation,hpd90_upper,15,0.029988
+9,86,foreign_demand,Imported inflation,hpd90_upper,16,0.028991
+9,86,foreign_demand,Imported inflation,hpd90_upper,17,0.027658
+9,86,foreign_demand,Imported inflation,hpd90_upper,18,0.025332
+9,86,foreign_demand,Imported inflation,hpd90_upper,19,0.024004
+9,86,foreign_demand,Imported inflation,hpd90_upper,20,0.022340

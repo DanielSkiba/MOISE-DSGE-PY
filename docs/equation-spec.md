@@ -2,6 +2,13 @@
 
 The model is defined entirely in YAML so that it can be checked line by line against the paper without reading any solver code.
 
+## Source
+
+Transcribe from `docs/paper/10-log-linear-model.md`. Each equation there has a code form that
+already follows the timing convention below; variable and parameter names come from
+`docs/paper/data/notation_codes.csv`. The YAML `expr` should match that code form unless a
+documented decision (in `notes`) changes it, e.g. to correct a known misprint.
+
 ## Conventions
 - All variables are **log-deviations from steady state** (as in paper Appendix D) unless stated otherwise.
 - Timing: `x` = x_t, `x(+1)` = E_t x_{t+1}, `x(-1)` = x_{t-1}.

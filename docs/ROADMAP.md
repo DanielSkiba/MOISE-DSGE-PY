@@ -3,12 +3,17 @@
 ## Phase 0 — Repository setup ✅
 License, citation, project structure, CI, contributor and agent guidelines.
 
+## Phase 0.5 — Agent edition of the paper ✅
+`docs/paper/`: every equation in LaTeX with the paper's numbering and pages, code forms for
+Appendix D, notation with code names, Tables 1–7 as CSV, digitized impulse responses (Figures 6–18).
+Transcribed from page images and checked by an independent second pass (machine-verified only).
+
 ## Phase 1 — Core model
-1. Transcribe the log-linearized equations (paper Appendix D) into `model/moise.yaml`, one equation per entry, tagged with equation number and page.
+1. Transcribe the log-linearized equations (paper Appendix D) into `model/moise.yaml`, one equation per entry, tagged with equation number and page. Start from the code forms in `docs/paper/10-log-linear-model.md` and decide, with a `notes` entry, how to treat each known misprint listed in `docs/paper/README.md`.
 2. Transcribe parameter values (calibrated + posterior estimates from Section 4) and shock definitions.
 3. Human-verify every equation against the PDF; record it in `docs/verification-log.md`.
 4. Write the generic pieces in `src/moise/`: YAML parser → symbolic system → matrices; QZ-based linear RE solver with Blanchard–Kahn checks; IRF and simulation utilities.
-5. **Replication tests:** digitize key IRFs from the paper (Section 6) and assert that our responses match in sign, peak timing and approximate magnitude.
+5. **Replication tests:** compare our impulse responses with the digitized ones in `docs/paper/data/irf/` (sign, peak timing, magnitude; note the paper plots posterior means over parameter draws, not the posterior mode) and the variance decomposition with `docs/paper/data/table7_variance_decomposition.csv`.
 
 **Definition of done:** model solves uniquely, all equations verified, IRFs match the paper's figures.
 

@@ -1,0 +1,1201 @@
+figure,page_pdf,shock,panel_title,series,quarter,value
+13,135,oil_price,Output,mean,1,0.050663
+13,135,oil_price,Output,mean,2,0.124467
+13,135,oil_price,Output,mean,3,0.027397
+13,135,oil_price,Output,mean,4,-0.128858
+13,135,oil_price,Output,mean,5,-0.228593
+13,135,oil_price,Output,mean,6,-0.227260
+13,135,oil_price,Output,mean,7,-0.156114
+13,135,oil_price,Output,mean,8,-0.065028
+13,135,oil_price,Output,mean,9,0.006118
+13,135,oil_price,Output,mean,10,0.044679
+13,135,oil_price,Output,mean,11,0.053328
+13,135,oil_price,Output,mean,12,0.044679
+13,135,oil_price,Output,mean,13,0.028722
+13,135,oil_price,Output,mean,14,0.014097
+13,135,oil_price,Output,mean,15,0.002791
+13,135,oil_price,Output,mean,16,-0.005188
+13,135,oil_price,Output,mean,17,-0.010502
+13,135,oil_price,Output,mean,18,-0.015161
+13,135,oil_price,Output,mean,19,-0.019151
+13,135,oil_price,Output,mean,20,-0.022470
+13,135,oil_price,Output,hpd70_lower,1,0.040028
+13,135,oil_price,Output,hpd70_lower,2,0.102525
+13,135,oil_price,Output,hpd70_lower,3,0.003461
+13,135,oil_price,Output,hpd70_lower,4,-0.158779
+13,135,oil_price,Output,hpd70_lower,5,-0.258513
+13,135,oil_price,Output,hpd70_lower,6,-0.252529
+13,135,oil_price,Output,hpd70_lower,7,-0.184039
+13,135,oil_price,Output,hpd70_lower,8,-0.097606
+13,135,oil_price,Output,hpd70_lower,9,-0.025135
+13,135,oil_price,Output,hpd70_lower,10,0.021413
+13,135,oil_price,Output,hpd70_lower,11,0.032049
+13,135,oil_price,Output,hpd70_lower,12,0.027397
+13,135,oil_price,Output,hpd70_lower,13,0.015429
+13,135,oil_price,Output,hpd70_lower,14,0.004123
+13,135,oil_price,Output,hpd70_lower,15,-0.004518
+13,135,oil_price,Output,hpd70_lower,16,-0.010502
+13,135,oil_price,Output,hpd70_lower,17,-0.015161
+13,135,oil_price,Output,hpd70_lower,18,-0.019813
+13,135,oil_price,Output,hpd70_lower,19,-0.023140
+13,135,oil_price,Output,hpd70_lower,20,-0.026459
+13,135,oil_price,Output,hpd70_upper,1,0.061307
+13,135,oil_price,Output,hpd70_upper,2,0.145084
+13,135,oil_price,Output,hpd70_upper,3,0.051996
+13,135,oil_price,Output,hpd70_upper,4,-0.099600
+13,135,oil_price,Output,hpd70_upper,5,-0.198002
+13,135,oil_price,Output,hpd70_upper,6,-0.198002
+13,135,oil_price,Output,hpd70_upper,7,-0.124869
+13,135,oil_price,Output,hpd70_upper,8,-0.036433
+13,135,oil_price,Output,hpd70_upper,9,0.036038
+13,135,oil_price,Output,hpd70_upper,10,0.071943
+13,135,oil_price,Output,hpd70_upper,11,0.073275
+13,135,oil_price,Output,hpd70_upper,12,0.056647
+13,135,oil_price,Output,hpd70_upper,13,0.038695
+13,135,oil_price,Output,hpd70_upper,14,0.022738
+13,135,oil_price,Output,hpd70_upper,15,0.008775
+13,135,oil_price,Output,hpd70_upper,16,0.001466
+13,135,oil_price,Output,hpd70_upper,17,-0.004518
+13,135,oil_price,Output,hpd70_upper,18,-0.008507
+13,135,oil_price,Output,hpd70_upper,19,-0.013167
+13,135,oil_price,Output,hpd70_upper,20,-0.016486
+13,135,oil_price,Output,hpd90_lower,1,0.022738
+13,135,oil_price,Output,hpd90_lower,2,0.073275
+13,135,oil_price,Output,hpd90_lower,3,-0.039760
+13,135,oil_price,Output,hpd90_lower,4,-0.197340
+13,135,oil_price,Output,hpd90_lower,5,-0.296412
+13,135,oil_price,Output,hpd90_lower,6,-0.293747
+13,135,oil_price,Output,hpd90_lower,7,-0.225928
+13,135,oil_price,Output,hpd90_lower,8,-0.148805
+13,135,oil_price,Output,hpd90_lower,9,-0.071012
+13,135,oil_price,Output,hpd90_lower,10,-0.020475
+13,135,oil_price,Output,hpd90_lower,11,0.002129
+13,135,oil_price,Output,hpd90_lower,12,0.006118
+13,135,oil_price,Output,hpd90_lower,13,-0.001198
+13,135,oil_price,Output,hpd90_lower,14,-0.008507
+13,135,oil_price,Output,hpd90_lower,15,-0.015823
+13,135,oil_price,Output,hpd90_lower,16,-0.021808
+13,135,oil_price,Output,hpd90_lower,17,-0.026459
+13,135,oil_price,Output,hpd90_lower,18,-0.030448
+13,135,oil_price,Output,hpd90_lower,19,-0.031781
+13,135,oil_price,Output,hpd90_lower,20,-0.035108
+13,135,oil_price,Output,hpd90_upper,1,0.079921
+13,135,oil_price,Output,hpd90_upper,2,0.174334
+13,135,oil_price,Output,hpd90_upper,3,0.089895
+13,135,oil_price,Output,hpd90_upper,4,-0.060369
+13,135,oil_price,Output,hpd90_upper,5,-0.160773
+13,135,oil_price,Output,hpd90_upper,6,-0.162098
+13,135,oil_price,Output,hpd90_upper,7,-0.085637
+13,135,oil_price,Output,hpd90_upper,8,0.012102
+13,135,oil_price,Output,hpd90_upper,9,0.079921
+13,135,oil_price,Output,hpd90_upper,10,0.108509
+13,135,oil_price,Output,hpd90_upper,11,0.103195
+13,135,oil_price,Output,hpd90_upper,12,0.084573
+13,135,oil_price,Output,hpd90_upper,13,0.060637
+13,135,oil_price,Output,hpd90_upper,14,0.037371
+13,135,oil_price,Output,hpd90_upper,15,0.021413
+13,135,oil_price,Output,hpd90_upper,16,0.010107
+13,135,oil_price,Output,hpd90_upper,17,0.003461
+13,135,oil_price,Output,hpd90_upper,18,-0.002523
+13,135,oil_price,Output,hpd90_upper,19,-0.006512
+13,135,oil_price,Output,hpd90_upper,20,-0.009839
+13,135,oil_price,Consumption,mean,1,-0.067023
+13,135,oil_price,Consumption,mean,2,-0.166757
+13,135,oil_price,Consumption,mean,3,-0.240561
+13,135,oil_price,Consumption,mean,4,-0.244550
+13,135,oil_price,Consumption,mean,5,-0.186704
+13,135,oil_price,Consumption,mean,6,-0.105584
+13,135,oil_price,Consumption,mean,7,-0.041092
+13,135,oil_price,Consumption,mean,8,-0.009177
+13,135,oil_price,Consumption,mean,9,-0.009839
+13,135,oil_price,Consumption,mean,10,-0.028454
+13,135,oil_price,Consumption,mean,11,-0.052390
+13,135,oil_price,Consumption,mean,12,-0.073007
+13,135,oil_price,Consumption,mean,13,-0.086300
+13,135,oil_price,Consumption,mean,14,-0.091622
+13,135,oil_price,Consumption,mean,15,-0.091622
+13,135,oil_price,Consumption,mean,16,-0.088294
+13,135,oil_price,Consumption,mean,17,-0.083643
+13,135,oil_price,Consumption,mean,18,-0.077659
+13,135,oil_price,Consumption,mean,19,-0.072337
+13,135,oil_price,Consumption,mean,20,-0.067023
+13,135,oil_price,Consumption,hpd70_lower,1,-0.079653
+13,135,oil_price,Consumption,hpd70_lower,2,-0.196678
+13,135,oil_price,Consumption,hpd70_lower,3,-0.279784
+13,135,oil_price,Consumption,hpd70_lower,4,-0.281779
+13,135,oil_price,Consumption,hpd70_lower,5,-0.212635
+13,135,oil_price,Consumption,hpd70_lower,6,-0.132848
+13,135,oil_price,Consumption,hpd70_lower,7,-0.069018
+13,135,oil_price,Consumption,hpd70_lower,8,-0.033113
+13,135,oil_price,Consumption,hpd70_lower,9,-0.028454
+13,135,oil_price,Consumption,hpd70_lower,10,-0.041754
+13,135,oil_price,Consumption,hpd70_lower,11,-0.067023
+13,135,oil_price,Consumption,hpd70_lower,12,-0.086970
+13,135,oil_price,Consumption,hpd70_lower,13,-0.100263
+13,135,oil_price,Consumption,hpd70_lower,14,-0.102257
+13,135,oil_price,Consumption,hpd70_lower,15,-0.102927
+13,135,oil_price,Consumption,hpd70_lower,16,-0.098938
+13,135,oil_price,Consumption,hpd70_lower,17,-0.093616
+13,135,oil_price,Consumption,hpd70_lower,18,-0.088294
+13,135,oil_price,Consumption,hpd70_lower,19,-0.082310
+13,135,oil_price,Consumption,hpd70_lower,20,-0.076996
+13,135,oil_price,Consumption,hpd70_upper,1,-0.047738
+13,135,oil_price,Consumption,hpd70_upper,2,-0.127526
+13,135,oil_price,Consumption,hpd70_upper,3,-0.187366
+13,135,oil_price,Consumption,hpd70_upper,4,-0.192018
+13,135,oil_price,Consumption,hpd70_upper,5,-0.138162
+13,135,oil_price,Consumption,hpd70_upper,6,-0.067023
+13,135,oil_price,Consumption,hpd70_upper,7,-0.006512
+13,135,oil_price,Consumption,hpd70_upper,8,0.020743
+13,135,oil_price,Consumption,hpd70_upper,9,0.011440
+13,135,oil_price,Consumption,hpd70_upper,10,-0.014491
+13,135,oil_price,Consumption,hpd70_upper,11,-0.039760
+13,135,oil_price,Consumption,hpd70_upper,12,-0.057050
+13,135,oil_price,Consumption,hpd70_upper,13,-0.069680
+13,135,oil_price,Consumption,hpd70_upper,14,-0.075664
+13,135,oil_price,Consumption,hpd70_upper,15,-0.076996
+13,135,oil_price,Consumption,hpd70_upper,16,-0.073669
+13,135,oil_price,Consumption,hpd70_upper,17,-0.069018
+13,135,oil_price,Consumption,hpd70_upper,18,-0.065028
+13,135,oil_price,Consumption,hpd70_upper,19,-0.059707
+13,135,oil_price,Consumption,hpd70_upper,20,-0.053722
+13,135,oil_price,Consumption,hpd90_lower,1,-0.106247
+13,135,oil_price,Consumption,hpd90_lower,2,-0.249202
+13,135,oil_price,Consumption,hpd90_lower,3,-0.347604
+13,135,oil_price,Consumption,hpd90_lower,4,-0.364231
+13,135,oil_price,Consumption,hpd90_lower,5,-0.293085
+13,135,oil_price,Consumption,hpd90_lower,6,-0.205319
+13,135,oil_price,Consumption,hpd90_lower,7,-0.126193
+13,135,oil_price,Consumption,hpd90_lower,8,-0.076996
+13,135,oil_price,Consumption,hpd90_lower,9,-0.059707
+13,135,oil_price,Consumption,hpd90_lower,10,-0.068348
+13,135,oil_price,Consumption,hpd90_lower,11,-0.088294
+13,135,oil_price,Consumption,hpd90_lower,12,-0.109574
+13,135,oil_price,Consumption,hpd90_lower,13,-0.124199
+13,135,oil_price,Consumption,hpd90_lower,14,-0.128858
+13,135,oil_price,Consumption,hpd90_lower,15,-0.128188
+13,135,oil_price,Consumption,hpd90_lower,16,-0.122204
+13,135,oil_price,Consumption,hpd90_lower,17,-0.114225
+13,135,oil_price,Consumption,hpd90_lower,18,-0.108911
+13,135,oil_price,Consumption,hpd90_lower,19,-0.102257
+13,135,oil_price,Consumption,hpd90_lower,20,-0.096273
+13,135,oil_price,Consumption,hpd90_upper,1,-0.032443
+13,135,oil_price,Consumption,hpd90_upper,2,-0.090959
+13,135,oil_price,Consumption,hpd90_upper,3,-0.138162
+13,135,oil_price,Consumption,hpd90_upper,4,-0.140156
+13,135,oil_price,Consumption,hpd90_upper,5,-0.094278
+13,135,oil_price,Consumption,hpd90_upper,6,-0.016486
+13,135,oil_price,Consumption,hpd90_upper,7,0.042022
+13,135,oil_price,Consumption,hpd90_upper,8,0.059312
+13,135,oil_price,Consumption,hpd90_upper,9,0.040028
+13,135,oil_price,Consumption,hpd90_upper,10,0.010107
+13,135,oil_price,Consumption,hpd90_upper,11,-0.017818
+13,135,oil_price,Consumption,hpd90_upper,12,-0.037103
+13,135,oil_price,Consumption,hpd90_upper,13,-0.049733
+13,135,oil_price,Consumption,hpd90_upper,14,-0.058374
+13,135,oil_price,Consumption,hpd90_upper,15,-0.059044
+13,135,oil_price,Consumption,hpd90_upper,16,-0.058374
+13,135,oil_price,Consumption,hpd90_upper,17,-0.053722
+13,135,oil_price,Consumption,hpd90_upper,18,-0.050395
+13,135,oil_price,Consumption,hpd90_upper,19,-0.045082
+13,135,oil_price,Consumption,hpd90_upper,20,-0.039097
+13,135,oil_price,Fixed investment,mean,1,-0.201730
+13,135,oil_price,Fixed investment,mean,2,-0.280185
+13,135,oil_price,Fixed investment,mean,3,-0.351331
+13,135,oil_price,Fixed investment,mean,4,-0.324730
+13,135,oil_price,Fixed investment,mean,5,-0.276858
+13,135,oil_price,Fixed investment,mean,6,-0.217017
+13,135,oil_price,Fixed investment,mean,7,-0.184440
+13,135,oil_price,Fixed investment,mean,8,-0.175799
+13,135,oil_price,Fixed investment,mean,9,-0.190424
+13,135,oil_price,Fixed investment,mean,10,-0.212365
+13,135,oil_price,Fixed investment,mean,11,-0.234307
+13,135,oil_price,Fixed investment,mean,12,-0.248932
+13,135,oil_price,Fixed investment,mean,13,-0.254916
+13,135,oil_price,Fixed investment,mean,14,-0.252259
+13,135,oil_price,Fixed investment,mean,15,-0.243618
+13,135,oil_price,Fixed investment,mean,16,-0.230318
+13,135,oil_price,Fixed investment,mean,17,-0.213028
+13,135,oil_price,Fixed investment,mean,18,-0.194413
+13,135,oil_price,Fixed investment,mean,19,-0.173804
+13,135,oil_price,Fixed investment,mean,20,-0.152525
+13,135,oil_price,Fixed investment,hpd70_lower,1,-0.228985
+13,135,oil_price,Fixed investment,hpd70_lower,2,-0.319416
+13,135,oil_price,Fixed investment,hpd70_lower,3,-0.399204
+13,135,oil_price,Fixed investment,hpd70_lower,4,-0.369283
+13,135,oil_price,Fixed investment,hpd70_lower,5,-0.316089
+13,135,oil_price,Fixed investment,hpd70_lower,6,-0.256911
+13,135,oil_price,Fixed investment,hpd70_lower,7,-0.220344
+13,135,oil_price,Fixed investment,hpd70_lower,8,-0.209038
+13,135,oil_price,Fixed investment,hpd70_lower,9,-0.221006
+13,135,oil_price,Fixed investment,hpd70_lower,10,-0.247608
+13,135,oil_price,Fixed investment,hpd70_lower,11,-0.268879
+13,135,oil_price,Fixed investment,hpd70_lower,12,-0.280185
+13,135,oil_price,Fixed investment,hpd70_lower,13,-0.284836
+13,135,oil_price,Fixed investment,hpd70_lower,14,-0.283512
+13,135,oil_price,Fixed investment,hpd70_lower,15,-0.272868
+13,135,oil_price,Fixed investment,hpd70_lower,16,-0.258905
+13,135,oil_price,Fixed investment,hpd70_lower,17,-0.239629
+13,135,oil_price,Fixed investment,hpd70_lower,18,-0.220344
+13,135,oil_price,Fixed investment,hpd70_lower,19,-0.198403
+13,135,oil_price,Fixed investment,hpd70_lower,20,-0.176461
+13,135,oil_price,Fixed investment,hpd70_upper,1,-0.153857
+13,135,oil_price,Fixed investment,hpd70_upper,2,-0.216355
+13,135,oil_price,Fixed investment,hpd70_upper,3,-0.270211
+13,135,oil_price,Fixed investment,hpd70_upper,4,-0.236964
+13,135,oil_price,Fixed investment,hpd70_upper,5,-0.190424
+13,135,oil_price,Fixed investment,hpd70_upper,6,-0.143214
+13,135,oil_price,Fixed investment,hpd70_upper,7,-0.115958
+13,135,oil_price,Fixed investment,hpd70_upper,8,-0.119948
+13,135,oil_price,Fixed investment,hpd70_upper,9,-0.139224
+13,135,oil_price,Fixed investment,hpd70_upper,10,-0.163831
+13,135,oil_price,Fixed investment,hpd70_upper,11,-0.189762
+13,135,oil_price,Fixed investment,hpd70_upper,12,-0.205049
+13,135,oil_price,Fixed investment,hpd70_upper,13,-0.209709
+13,135,oil_price,Fixed investment,hpd70_upper,14,-0.207714
+13,135,oil_price,Fixed investment,hpd70_upper,15,-0.201730
+13,135,oil_price,Fixed investment,hpd70_upper,16,-0.190424
+13,135,oil_price,Fixed investment,hpd70_upper,17,-0.175129
+13,135,oil_price,Fixed investment,hpd70_upper,18,-0.159171
+13,135,oil_price,Fixed investment,hpd70_upper,19,-0.141219
+13,135,oil_price,Fixed investment,hpd70_upper,20,-0.120610
+13,135,oil_price,Fixed investment,hpd90_lower,1,-0.305453
+13,135,oil_price,Fixed investment,hpd90_lower,2,-0.431119
+13,135,oil_price,Fixed investment,hpd90_lower,3,-0.545478
+13,135,oil_price,Fixed investment,hpd90_lower,4,-0.517552
+13,135,oil_price,Fixed investment,hpd90_lower,5,-0.469018
+13,135,oil_price,Fixed investment,hpd90_lower,6,-0.389893
+13,135,oil_price,Fixed investment,hpd90_lower,7,-0.342020
+13,135,oil_price,Fixed investment,hpd90_lower,8,-0.305453
+13,135,oil_price,Fixed investment,hpd90_lower,9,-0.302126
+13,135,oil_price,Fixed investment,hpd90_lower,10,-0.322073
+13,135,oil_price,Fixed investment,hpd90_lower,11,-0.336698
+13,135,oil_price,Fixed investment,hpd90_lower,12,-0.353988
+13,135,oil_price,Fixed investment,hpd90_lower,13,-0.354650
+13,135,oil_price,Fixed investment,hpd90_lower,14,-0.352656
+13,135,oil_price,Fixed investment,hpd90_lower,15,-0.340688
+13,135,oil_price,Fixed investment,hpd90_lower,16,-0.320079
+13,135,oil_price,Fixed investment,hpd90_lower,17,-0.298799
+13,135,oil_price,Fixed investment,hpd90_lower,18,-0.272206
+13,135,oil_price,Fixed investment,hpd90_lower,19,-0.249602
+13,135,oil_price,Fixed investment,hpd90_lower,20,-0.226328
+13,135,oil_price,Fixed investment,hpd90_upper,1,-0.115958
+13,135,oil_price,Fixed investment,hpd90_upper,2,-0.155852
+13,135,oil_price,Fixed investment,hpd90_upper,3,-0.193751
+13,135,oil_price,Fixed investment,hpd90_upper,4,-0.162498
+13,135,oil_price,Fixed investment,hpd90_upper,5,-0.117953
+13,135,oil_price,Fixed investment,hpd90_upper,6,-0.072737
+13,135,oil_price,Fixed investment,hpd90_upper,7,-0.056118
+13,135,oil_price,Fixed investment,hpd90_upper,8,-0.065421
+13,135,oil_price,Fixed investment,hpd90_upper,9,-0.082711
+13,135,oil_price,Fixed investment,hpd90_upper,10,-0.110636
+13,135,oil_price,Fixed investment,hpd90_upper,11,-0.135235
+13,135,oil_price,Fixed investment,hpd90_upper,12,-0.149198
+13,135,oil_price,Fixed investment,hpd90_upper,13,-0.155852
+13,135,oil_price,Fixed investment,hpd90_upper,14,-0.159841
+13,135,oil_price,Fixed investment,hpd90_upper,15,-0.155182
+13,135,oil_price,Fixed investment,hpd90_upper,16,-0.148536
+13,135,oil_price,Fixed investment,hpd90_upper,17,-0.134573
+13,135,oil_price,Fixed investment,hpd90_upper,18,-0.121942
+13,135,oil_price,Fixed investment,hpd90_upper,19,-0.105985
+13,135,oil_price,Fixed investment,hpd90_upper,20,-0.086038
+13,135,oil_price,Exports,mean,1,0.145741
+13,135,oil_price,Exports,mean,2,-0.031430
+13,135,oil_price,Exports,mean,3,-0.555516
+13,135,oil_price,Exports,mean,4,-1.007247
+13,135,oil_price,Exports,mean,5,-1.151985
+13,135,oil_price,Exports,mean,6,-0.994759
+13,135,oil_price,Exports,mean,7,-0.662848
+13,135,oil_price,Exports,mean,8,-0.300960
+13,135,oil_price,Exports,mean,9,-0.006484
+13,135,oil_price,Exports,mean,10,0.185691
+13,135,oil_price,Exports,mean,11,0.283021
+13,135,oil_price,Exports,mean,12,0.312969
+13,135,oil_price,Exports,mean,13,0.305482
+13,135,oil_price,Exports,mean,14,0.283021
+13,135,oil_price,Exports,mean,15,0.253073
+13,135,oil_price,Exports,mean,16,0.220610
+13,135,oil_price,Exports,mean,17,0.190662
+13,135,oil_price,Exports,mean,18,0.158229
+13,135,oil_price,Exports,mean,19,0.125795
+13,135,oil_price,Exports,mean,20,0.095848
+13,135,oil_price,Exports,hpd70_lower,1,0.103335
+13,135,oil_price,Exports,hpd70_lower,2,-0.123789
+13,135,oil_price,Exports,hpd70_lower,3,-0.682794
+13,135,oil_price,Exports,hpd70_lower,4,-1.134525
+13,135,oil_price,Exports,hpd70_lower,5,-1.286750
+13,135,oil_price,Exports,hpd70_lower,6,-1.129524
+13,135,oil_price,Exports,hpd70_lower,7,-0.810071
+13,135,oil_price,Exports,hpd70_lower,8,-0.460701
+13,135,oil_price,Exports,hpd70_lower,9,-0.163709
+13,135,oil_price,Exports,hpd70_lower,10,0.043439
+13,135,oil_price,Exports,hpd70_lower,11,0.168201
+13,135,oil_price,Exports,hpd70_lower,12,0.208152
+13,135,oil_price,Exports,hpd70_lower,13,0.215639
+13,135,oil_price,Exports,hpd70_lower,14,0.208152
+13,135,oil_price,Exports,hpd70_lower,15,0.193178
+13,135,oil_price,Exports,hpd70_lower,16,0.163230
+13,135,oil_price,Exports,hpd70_lower,17,0.143255
+13,135,oil_price,Exports,hpd70_lower,18,0.115793
+13,135,oil_price,Exports,hpd70_lower,19,0.090846
+13,135,oil_price,Exports,hpd70_lower,20,0.063384
+13,135,oil_price,Exports,hpd70_upper,1,0.180690
+13,135,oil_price,Exports,hpd70_upper,2,0.068386
+13,135,oil_price,Exports,hpd70_upper,3,-0.428238
+13,135,oil_price,Exports,hpd70_upper,4,-0.867481
+13,135,oil_price,Exports,hpd70_upper,5,-0.999760
+13,135,oil_price,Exports,hpd70_upper,6,-0.835048
+13,135,oil_price,Exports,hpd70_upper,7,-0.530569
+13,135,oil_price,Exports,hpd70_upper,8,-0.151221
+13,135,oil_price,Exports,hpd70_upper,9,0.135768
+13,135,oil_price,Exports,hpd70_upper,10,0.325427
+13,135,oil_price,Exports,hpd70_upper,11,0.400296
+13,135,oil_price,Exports,hpd70_upper,12,0.402812
+13,135,oil_price,Exports,hpd70_upper,13,0.377836
+13,135,oil_price,Exports,hpd70_upper,14,0.325427
+13,135,oil_price,Exports,hpd70_upper,15,0.290508
+13,135,oil_price,Exports,hpd70_upper,16,0.250558
+13,135,oil_price,Exports,hpd70_upper,17,0.220610
+13,135,oil_price,Exports,hpd70_upper,18,0.185691
+13,135,oil_price,Exports,hpd70_upper,19,0.155743
+13,135,oil_price,Exports,hpd70_upper,20,0.128281
+13,135,oil_price,Exports,hpd90_lower,1,0.050926
+13,135,oil_price,Exports,hpd90_lower,2,-0.256038
+13,135,oil_price,Exports,hpd90_lower,3,-0.867481
+13,135,oil_price,Exports,hpd90_lower,4,-1.329186
+13,135,oil_price,Exports,hpd90_lower,5,-1.481410
+13,135,oil_price,Exports,hpd90_lower,6,-1.341644
+13,135,oil_price,Exports,hpd90_lower,7,-1.044682
+13,135,oil_price,Exports,hpd90_lower,8,-0.685309
+13,135,oil_price,Exports,hpd90_lower,9,-0.398290
+13,135,oil_price,Exports,hpd90_lower,10,-0.168711
+13,135,oil_price,Exports,hpd90_lower,11,-0.016456
+13,135,oil_price,Exports,hpd90_lower,12,0.090846
+13,135,oil_price,Exports,hpd90_lower,13,0.125795
+13,135,oil_price,Exports,hpd90_lower,14,0.128281
+13,135,oil_price,Exports,hpd90_lower,15,0.123280
+13,135,oil_price,Exports,hpd90_lower,16,0.118309
+13,135,oil_price,Exports,hpd90_lower,17,0.098333
+13,135,oil_price,Exports,hpd90_lower,18,0.068386
+13,135,oil_price,Exports,hpd90_lower,19,0.040924
+13,135,oil_price,Exports,hpd90_lower,20,0.010976
+13,135,oil_price,Exports,hpd90_upper,1,0.245586
+13,135,oil_price,Exports,hpd90_upper,2,0.190662
+13,135,oil_price,Exports,hpd90_upper,3,-0.248551
+13,135,oil_price,Exports,hpd90_upper,4,-0.662848
+13,135,oil_price,Exports,hpd90_upper,5,-0.822560
+13,135,oil_price,Exports,hpd90_upper,6,-0.665334
+13,135,oil_price,Exports,hpd90_upper,7,-0.300960
+13,135,oil_price,Exports,hpd90_upper,8,0.080874
+13,135,oil_price,Exports,hpd90_upper,9,0.385323
+13,135,oil_price,Exports,hpd90_upper,10,0.522603
+13,135,oil_price,Exports,hpd90_upper,11,0.575012
+13,135,oil_price,Exports,hpd90_upper,12,0.552551
+13,135,oil_price,Exports,hpd90_upper,13,0.497627
+13,135,oil_price,Exports,hpd90_upper,14,0.460192
+13,135,oil_price,Exports,hpd90_upper,15,0.397811
+13,135,oil_price,Exports,hpd90_upper,16,0.350404
+13,135,oil_price,Exports,hpd90_upper,17,0.307968
+13,135,oil_price,Exports,hpd90_upper,18,0.248072
+13,135,oil_price,Exports,hpd90_upper,19,0.210637
+13,135,oil_price,Exports,hpd90_upper,20,0.175688
+13,135,oil_price,Imports,mean,1,-0.187511
+13,135,oil_price,Imports,mean,2,-0.683368
+13,135,oil_price,Imports,mean,3,-1.027796
+13,135,oil_price,Imports,mean,4,-1.029453
+13,135,oil_price,Imports,mean,5,-0.816467
+13,135,oil_price,Imports,mean,6,-0.550249
+13,135,oil_price,Imports,mean,7,-0.337262
+13,135,oil_price,Imports,mean,8,-0.202486
+13,135,oil_price,Imports,mean,9,-0.129287
+13,135,oil_price,Imports,mean,10,-0.094345
+13,135,oil_price,Imports,mean,11,-0.076036
+13,135,oil_price,Imports,mean,12,-0.062718
+13,135,oil_price,Imports,mean,13,-0.052734
+13,135,oil_price,Imports,mean,14,-0.044428
+13,135,oil_price,Imports,mean,15,-0.037759
+13,135,oil_price,Imports,mean,16,-0.034445
+13,135,oil_price,Imports,mean,17,-0.032768
+13,135,oil_price,Imports,mean,18,-0.032768
+13,135,oil_price,Imports,mean,19,-0.032768
+13,135,oil_price,Imports,mean,20,-0.032768
+13,135,oil_price,Imports,hpd70_lower,1,-0.210812
+13,135,oil_price,Imports,hpd70_lower,2,-0.754909
+13,135,oil_price,Imports,hpd70_lower,3,-1.127630
+13,135,oil_price,Imports,hpd70_lower,4,-1.115969
+13,135,oil_price,Imports,hpd70_lower,5,-0.909652
+13,135,oil_price,Imports,hpd70_lower,6,-0.638442
+13,135,oil_price,Imports,hpd70_lower,7,-0.415472
+13,135,oil_price,Imports,hpd70_lower,8,-0.285688
+13,135,oil_price,Imports,hpd70_lower,9,-0.200829
+13,135,oil_price,Imports,hpd70_lower,10,-0.147577
+13,135,oil_price,Imports,hpd70_lower,11,-0.114312
+13,135,oil_price,Imports,hpd70_lower,12,-0.094345
+13,135,oil_price,Imports,hpd70_lower,13,-0.081027
+13,135,oil_price,Imports,hpd70_lower,14,-0.067710
+13,135,oil_price,Imports,hpd70_lower,15,-0.059403
+13,135,oil_price,Imports,hpd70_lower,16,-0.051077
+13,135,oil_price,Imports,hpd70_lower,17,-0.049420
+13,135,oil_price,Imports,hpd70_lower,18,-0.047743
+13,135,oil_price,Imports,hpd70_lower,19,-0.046085
+13,135,oil_price,Imports,hpd70_lower,20,-0.044428
+13,135,oil_price,Imports,hpd70_upper,1,-0.159238
+13,135,oil_price,Imports,hpd70_upper,2,-0.596831
+13,135,oil_price,Imports,hpd70_upper,3,-0.893020
+13,135,oil_price,Imports,hpd70_upper,4,-0.888028
+13,135,oil_price,Imports,hpd70_upper,5,-0.675041
+13,135,oil_price,Imports,hpd70_upper,6,-0.405489
+13,135,oil_price,Imports,hpd70_upper,7,-0.209155
+13,135,oil_price,Imports,hpd70_upper,8,-0.089354
+13,135,oil_price,Imports,hpd70_upper,9,-0.042751
+13,135,oil_price,Imports,hpd70_upper,10,-0.026119
+13,135,oil_price,Imports,hpd70_upper,11,-0.026119
+13,135,oil_price,Imports,hpd70_upper,12,-0.026119
+13,135,oil_price,Imports,hpd70_upper,13,-0.021127
+13,135,oil_price,Imports,hpd70_upper,14,-0.016135
+13,135,oil_price,Imports,hpd70_upper,15,-0.016135
+13,135,oil_price,Imports,hpd70_upper,16,-0.016135
+13,135,oil_price,Imports,hpd70_upper,17,-0.017792
+13,135,oil_price,Imports,hpd70_upper,18,-0.017792
+13,135,oil_price,Imports,hpd70_upper,19,-0.021127
+13,135,oil_price,Imports,hpd70_upper,20,-0.021127
+13,135,oil_price,Imports,hpd90_lower,1,-0.254080
+13,135,oil_price,Imports,hpd90_lower,2,-0.889685
+13,135,oil_price,Imports,hpd90_lower,3,-1.345588
+13,135,oil_price,Imports,hpd90_lower,4,-1.377216
+13,135,oil_price,Imports,hpd90_lower,5,-1.139271
+13,135,oil_price,Imports,hpd90_lower,6,-0.889685
+13,135,oil_price,Imports,hpd90_lower,7,-0.651740
+13,135,oil_price,Imports,hpd90_lower,8,-0.460398
+13,135,oil_price,Imports,hpd90_lower,9,-0.332270
+13,135,oil_price,Imports,hpd90_lower,10,-0.247411
+13,135,oil_price,Imports,hpd90_lower,11,-0.195837
+13,135,oil_price,Imports,hpd90_lower,12,-0.160895
+13,135,oil_price,Imports,hpd90_lower,13,-0.134279
+13,135,oil_price,Imports,hpd90_lower,14,-0.110978
+13,135,oil_price,Imports,hpd90_lower,15,-0.094345
+13,135,oil_price,Imports,hpd90_lower,16,-0.084362
+13,135,oil_price,Imports,hpd90_lower,17,-0.076036
+13,135,oil_price,Imports,hpd90_lower,18,-0.071044
+13,135,oil_price,Imports,hpd90_lower,19,-0.066052
+13,135,oil_price,Imports,hpd90_lower,20,-0.062718
+13,135,oil_price,Imports,hpd90_upper,1,-0.124296
+13,135,oil_price,Imports,hpd90_upper,2,-0.495340
+13,135,oil_price,Imports,hpd90_upper,3,-0.764892
+13,135,oil_price,Imports,hpd90_upper,4,-0.726616
+13,135,oil_price,Imports,hpd90_upper,5,-0.520298
+13,135,oil_price,Imports,hpd90_upper,6,-0.275704
+13,135,oil_price,Imports,hpd90_upper,7,-0.076036
+13,135,oil_price,Imports,hpd90_upper,8,0.037116
+13,135,oil_price,Imports,hpd90_upper,9,0.068724
+13,135,oil_price,Imports,hpd90_upper,10,0.053749
+13,135,oil_price,Imports,hpd90_upper,11,0.037116
+13,135,oil_price,Imports,hpd90_upper,12,0.030447
+13,135,oil_price,Imports,hpd90_upper,13,0.018807
+13,135,oil_price,Imports,hpd90_upper,14,0.015472
+13,135,oil_price,Imports,hpd90_upper,15,0.015472
+13,135,oil_price,Imports,hpd90_upper,16,0.013815
+13,135,oil_price,Imports,hpd90_upper,17,0.008823
+13,135,oil_price,Imports,hpd90_upper,18,0.005489
+13,135,oil_price,Imports,hpd90_upper,19,0.002174
+13,135,oil_price,Imports,hpd90_upper,20,-0.001160
+13,135,oil_price,Hours worked,mean,1,0.057771
+13,135,oil_price,Hours worked,mean,2,0.145625
+13,135,oil_price,Hours worked,mean,3,0.036471
+13,135,oil_price,Hours worked,mean,4,-0.139238
+13,135,oil_price,Hours worked,mean,5,-0.249718
+13,135,oil_price,Hours worked,mean,6,-0.245062
+13,135,oil_price,Hours worked,mean,7,-0.161864
+13,135,oil_price,Hours worked,mean,8,-0.056040
+13,135,oil_price,Hours worked,mean,9,0.027821
+13,135,oil_price,Hours worked,mean,10,0.073082
+13,135,oil_price,Hours worked,mean,11,0.085062
+13,135,oil_price,Hours worked,mean,12,0.077075
+13,135,oil_price,Hours worked,mean,13,0.061102
+13,135,oil_price,Hours worked,mean,14,0.046454
+13,135,oil_price,Hours worked,mean,15,0.035808
+13,135,oil_price,Hours worked,mean,16,0.028484
+13,135,oil_price,Hours worked,mean,17,0.023828
+13,135,oil_price,Hours worked,mean,18,0.020497
+13,135,oil_price,Hours worked,mean,19,0.017175
+13,135,oil_price,Hours worked,mean,20,0.014507
+13,135,oil_price,Hours worked,hpd70_lower,1,0.045791
+13,135,oil_price,Hours worked,hpd70_lower,2,0.120331
+13,135,oil_price,Hours worked,hpd70_lower,3,0.008517
+13,135,oil_price,Hours worked,hpd70_lower,4,-0.171848
+13,135,oil_price,Hours worked,hpd70_lower,5,-0.284325
+13,135,oil_price,Hours worked,hpd70_lower,6,-0.274341
+13,135,oil_price,Hours worked,hpd70_lower,7,-0.192477
+13,135,oil_price,Hours worked,hpd70_lower,8,-0.091317
+13,135,oil_price,Hours worked,hpd70_lower,9,-0.006123
+13,135,oil_price,Hours worked,hpd70_lower,10,0.047125
+13,135,oil_price,Hours worked,hpd70_lower,11,0.060431
+13,135,oil_price,Hours worked,hpd70_lower,12,0.056438
+13,135,oil_price,Hours worked,hpd70_lower,13,0.044457
+13,135,oil_price,Hours worked,hpd70_lower,14,0.031814
+13,135,oil_price,Hours worked,hpd70_lower,15,0.023165
+13,135,oil_price,Hours worked,hpd70_lower,16,0.018500
+13,135,oil_price,Hours worked,hpd70_lower,17,0.017175
+13,135,oil_price,Hours worked,hpd70_lower,18,0.014507
+13,135,oil_price,Hours worked,hpd70_lower,19,0.011848
+13,135,oil_price,Hours worked,hpd70_lower,20,0.009188
+13,135,oil_price,Hours worked,hpd70_upper,1,0.070414
+13,135,oil_price,Hours worked,hpd70_upper,2,0.168923
+13,135,oil_price,Hours worked,hpd70_upper,3,0.067755
+13,135,oil_price,Hours worked,hpd70_upper,4,-0.104623
+13,135,oil_price,Hours worked,hpd70_upper,5,-0.214441
+13,135,oil_price,Hours worked,hpd70_upper,6,-0.212444
+13,135,oil_price,Hours worked,hpd70_upper,7,-0.127920
+13,135,oil_price,Hours worked,hpd70_upper,8,-0.024756
+13,135,oil_price,Hours worked,hpd70_upper,9,0.057771
+13,135,oil_price,Hours worked,hpd70_upper,10,0.100365
+13,135,oil_price,Hours worked,hpd70_upper,11,0.106355
+13,135,oil_price,Hours worked,hpd70_upper,12,0.092378
+13,135,oil_price,Hours worked,hpd70_upper,13,0.074408
+13,135,oil_price,Hours worked,hpd70_upper,14,0.057771
+13,135,oil_price,Hours worked,hpd70_upper,15,0.043795
+13,135,oil_price,Hours worked,hpd70_upper,16,0.034474
+13,135,oil_price,Hours worked,hpd70_upper,17,0.028484
+13,135,oil_price,Hours worked,hpd70_upper,18,0.023828
+13,135,oil_price,Hours worked,hpd70_upper,19,0.021831
+13,135,oil_price,Hours worked,hpd70_upper,20,0.019171
+13,135,oil_price,Hours worked,hpd90_lower,1,0.026487
+13,135,oil_price,Hours worked,hpd90_lower,2,0.085062
+13,135,oil_price,Hours worked,hpd90_lower,3,-0.040729
+13,135,oil_price,Hours worked,hpd90_lower,4,-0.219105
+13,135,oil_price,Hours worked,hpd90_lower,5,-0.330249
+13,135,oil_price,Hours worked,hpd90_lower,6,-0.320265
+13,135,oil_price,Hours worked,hpd90_lower,7,-0.240398
+13,135,oil_price,Hours worked,hpd90_lower,8,-0.141234
+13,135,oil_price,Hours worked,hpd90_lower,9,-0.054706
+13,135,oil_price,Hours worked,hpd90_lower,10,0.003861
+13,135,oil_price,Hours worked,hpd90_lower,11,0.030481
+13,135,oil_price,Hours worked,hpd90_lower,12,0.033811
+13,135,oil_price,Hours worked,hpd90_lower,13,0.022494
+13,135,oil_price,Hours worked,hpd90_lower,14,0.014507
+13,135,oil_price,Hours worked,hpd90_lower,15,0.010514
+13,135,oil_price,Hours worked,hpd90_lower,16,0.008517
+13,135,oil_price,Hours worked,hpd90_lower,17,0.007854
+13,135,oil_price,Hours worked,hpd90_lower,18,0.005857
+13,135,oil_price,Hours worked,hpd90_lower,19,0.003861
+13,135,oil_price,Hours worked,hpd90_lower,20,0.002527
+13,135,oil_price,Hours worked,hpd90_upper,1,0.091715
+13,135,oil_price,Hours worked,hpd90_upper,2,0.203529
+13,135,oil_price,Hours worked,hpd90_upper,3,0.110348
+13,135,oil_price,Hours worked,hpd90_upper,4,-0.060033
+13,135,oil_price,Hours worked,hpd90_upper,5,-0.172510
+13,135,oil_price,Hours worked,hpd90_upper,6,-0.174507
+13,135,oil_price,Hours worked,hpd90_upper,7,-0.087324
+13,135,oil_price,Hours worked,hpd90_upper,8,0.029818
+13,135,oil_price,Hours worked,hpd90_upper,9,0.109685
+13,135,oil_price,Hours worked,hpd90_upper,10,0.144963
+13,135,oil_price,Hours worked,hpd90_upper,11,0.141632
+13,135,oil_price,Hours worked,hpd90_upper,12,0.124996
+13,135,oil_price,Hours worked,hpd90_upper,13,0.102361
+13,135,oil_price,Hours worked,hpd90_upper,14,0.080398
+13,135,oil_price,Hours worked,hpd90_upper,15,0.065095
+13,135,oil_price,Hours worked,hpd90_upper,16,0.053115
+13,135,oil_price,Hours worked,hpd90_upper,17,0.044457
+13,135,oil_price,Hours worked,hpd90_upper,18,0.037142
+13,135,oil_price,Hours worked,hpd90_upper,19,0.031151
+13,135,oil_price,Hours worked,hpd90_upper,20,0.026487
+13,135,oil_price,Interest rate,mean,1,0.108342
+13,135,oil_price,Interest rate,mean,2,0.258796
+13,135,oil_price,Interest rate,mean,3,0.351066
+13,135,oil_price,Interest rate,mean,4,0.323634
+13,135,oil_price,Interest rate,mean,5,0.160712
+13,135,oil_price,Interest rate,mean,6,-0.027159
+13,135,oil_price,Interest rate,mean,7,-0.145194
+13,135,oil_price,Interest rate,mean,8,-0.169303
+13,135,oil_price,Interest rate,mean,9,-0.126071
+13,135,oil_price,Interest rate,mean,10,-0.058740
+13,135,oil_price,Interest rate,mean,11,0.001111
+13,135,oil_price,Interest rate,mean,12,0.039345
+13,135,oil_price,Interest rate,mean,13,0.055973
+13,135,oil_price,Interest rate,mean,14,0.057629
+13,135,oil_price,Interest rate,mean,15,0.053480
+13,135,oil_price,Interest rate,mean,16,0.047654
+13,135,oil_price,Interest rate,mean,17,0.041839
+13,135,oil_price,Interest rate,mean,18,0.037679
+13,135,oil_price,Interest rate,mean,19,0.034357
+13,135,oil_price,Interest rate,mean,20,0.031036
+13,135,oil_price,Interest rate,hpd70_lower,1,0.091714
+13,135,oil_price,Interest rate,hpd70_lower,2,0.221390
+13,135,oil_price,Interest rate,hpd70_lower,3,0.296203
+13,135,oil_price,Interest rate,hpd70_lower,4,0.262118
+13,135,oil_price,Interest rate,hpd70_lower,5,0.099195
+13,135,oil_price,Interest rate,hpd70_lower,6,-0.078690
+13,135,oil_price,Interest rate,hpd70_lower,7,-0.190081
+13,135,oil_price,Interest rate,hpd70_lower,8,-0.197563
+13,135,oil_price,Interest rate,hpd70_lower,9,-0.149353
+13,135,oil_price,Interest rate,hpd70_lower,10,-0.080356
+13,135,oil_price,Interest rate,hpd70_lower,11,-0.022999
+13,135,oil_price,Interest rate,hpd70_lower,12,0.013579
+13,135,oil_price,Interest rate,hpd70_lower,13,0.032692
+13,135,oil_price,Interest rate,hpd70_lower,14,0.040173
+13,135,oil_price,Interest rate,hpd70_lower,15,0.039345
+13,135,oil_price,Interest rate,hpd70_lower,16,0.036023
+13,135,oil_price,Interest rate,hpd70_lower,17,0.032692
+13,135,oil_price,Interest rate,hpd70_lower,18,0.029370
+13,135,oil_price,Interest rate,hpd70_lower,19,0.026876
+13,135,oil_price,Interest rate,hpd70_lower,20,0.024382
+13,135,oil_price,Interest rate,hpd70_upper,1,0.121639
+13,135,oil_price,Interest rate,hpd70_upper,2,0.289549
+13,135,oil_price,Interest rate,hpd70_upper,3,0.394288
+13,135,oil_price,Interest rate,hpd70_upper,4,0.366028
+13,135,oil_price,Interest rate,hpd70_upper,5,0.208093
+13,135,oil_price,Interest rate,hpd70_upper,6,0.014407
+13,135,oil_price,Interest rate,hpd70_upper,7,-0.104466
+13,135,oil_price,Interest rate,hpd70_upper,8,-0.129403
+13,135,oil_price,Interest rate,hpd70_upper,9,-0.094490
+13,135,oil_price,Interest rate,hpd70_upper,10,-0.036296
+13,135,oil_price,Interest rate,hpd70_upper,11,0.026876
+13,135,oil_price,Interest rate,hpd70_upper,12,0.064283
+13,135,oil_price,Interest rate,hpd70_upper,13,0.073430
+13,135,oil_price,Interest rate,hpd70_upper,14,0.070098
+13,135,oil_price,Interest rate,hpd70_upper,15,0.063455
+13,135,oil_price,Interest rate,hpd70_upper,16,0.054308
+13,135,oil_price,Interest rate,hpd70_upper,17,0.048492
+13,135,oil_price,Interest rate,hpd70_upper,18,0.043505
+13,135,oil_price,Interest rate,hpd70_upper,19,0.039345
+13,135,oil_price,Interest rate,hpd70_upper,20,0.035185
+13,135,oil_price,Interest rate,hpd90_lower,1,0.070936
+13,135,oil_price,Interest rate,hpd90_lower,2,0.179824
+13,135,oil_price,Interest rate,hpd90_lower,3,0.234687
+13,135,oil_price,Interest rate,hpd90_lower,4,0.192293
+13,135,oil_price,Interest rate,hpd90_lower,5,0.039345
+13,135,oil_price,Interest rate,hpd90_lower,6,-0.143528
+13,135,oil_price,Interest rate,hpd90_lower,7,-0.260735
+13,135,oil_price,Interest rate,hpd90_lower,8,-0.269054
+13,135,oil_price,Interest rate,hpd90_lower,9,-0.198391
+13,135,oil_price,Interest rate,hpd90_lower,10,-0.118590
+13,135,oil_price,Interest rate,hpd90_lower,11,-0.062071
+13,135,oil_price,Interest rate,hpd90_lower,12,-0.017184
+13,135,oil_price,Interest rate,hpd90_lower,13,0.004432
+13,135,oil_price,Interest rate,hpd90_lower,14,0.018567
+13,135,oil_price,Interest rate,hpd90_lower,15,0.023554
+13,135,oil_price,Interest rate,hpd90_lower,16,0.022717
+13,135,oil_price,Interest rate,hpd90_lower,17,0.021061
+13,135,oil_price,Interest rate,hpd90_lower,18,0.020223
+13,135,oil_price,Interest rate,hpd90_lower,19,0.018567
+13,135,oil_price,Interest rate,hpd90_lower,20,0.016073
+13,135,oil_price,Interest rate,hpd90_upper,1,0.149071
+13,135,oil_price,Interest rate,hpd90_upper,2,0.352732
+13,135,oil_price,Interest rate,hpd90_upper,3,0.494038
+13,135,oil_price,Interest rate,hpd90_upper,4,0.479914
+13,135,oil_price,Interest rate,hpd90_upper,5,0.291215
+13,135,oil_price,Interest rate,hpd90_upper,6,0.097530
+13,135,oil_price,Interest rate,hpd90_upper,7,-0.037962
+13,135,oil_price,Interest rate,hpd90_upper,8,-0.091997
+13,135,oil_price,Interest rate,hpd90_upper,9,-0.064565
+13,135,oil_price,Interest rate,hpd90_upper,10,0.005260
+13,135,oil_price,Interest rate,hpd90_upper,11,0.064283
+13,135,oil_price,Interest rate,hpd90_upper,12,0.099195
+13,135,oil_price,Interest rate,hpd90_upper,13,0.106677
+13,135,oil_price,Interest rate,hpd90_upper,14,0.100023
+13,135,oil_price,Interest rate,hpd90_upper,15,0.088392
+13,135,oil_price,Interest rate,hpd90_upper,16,0.075086
+13,135,oil_price,Interest rate,hpd90_upper,17,0.064283
+13,135,oil_price,Interest rate,hpd90_upper,18,0.057629
+13,135,oil_price,Interest rate,hpd90_upper,19,0.050148
+13,135,oil_price,Interest rate,hpd90_upper,20,0.045998
+13,135,oil_price,Real wage,mean,1,-0.103456
+13,135,oil_price,Real wage,mean,2,-0.292288
+13,135,oil_price,Real wage,mean,3,-0.320876
+13,135,oil_price,Real wage,mean,4,-0.243754
+13,135,oil_price,Real wage,mean,5,-0.151998
+13,135,oil_price,Real wage,mean,6,-0.089493
+13,135,oil_price,Real wage,mean,7,-0.062900
+13,135,oil_price,Real wage,mean,8,-0.057578
+13,135,oil_price,Real wage,mean,9,-0.059573
+13,135,oil_price,Real wage,mean,10,-0.060243
+13,135,oil_price,Real wage,mean,11,-0.057578
+13,135,oil_price,Real wage,mean,12,-0.052265
+13,135,oil_price,Real wage,mean,13,-0.046281
+13,135,oil_price,Real wage,mean,14,-0.041621
+13,135,oil_price,Real wage,mean,15,-0.037632
+13,135,oil_price,Real wage,mean,16,-0.035637
+13,135,oil_price,Real wage,mean,17,-0.033642
+13,135,oil_price,Real wage,mean,18,-0.032318
+13,135,oil_price,Real wage,mean,19,-0.031648
+13,135,oil_price,Real wage,mean,20,-0.030323
+13,135,oil_price,Real wage,hpd70_lower,1,-0.114100
+13,135,oil_price,Real wage,hpd70_lower,2,-0.318881
+13,135,oil_price,Real wage,hpd70_lower,3,-0.354123
+13,135,oil_price,Real wage,hpd70_lower,4,-0.274998
+13,135,oil_price,Real wage,hpd70_lower,5,-0.181248
+13,135,oil_price,Real wage,hpd70_lower,6,-0.114762
+13,135,oil_price,Real wage,hpd70_lower,7,-0.084179
+13,135,oil_price,Real wage,hpd70_lower,8,-0.074206
+13,135,oil_price,Real wage,hpd70_lower,9,-0.072874
+13,135,oil_price,Real wage,hpd70_lower,10,-0.071541
+13,135,oil_price,Real wage,hpd70_lower,11,-0.067552
+13,135,oil_price,Real wage,hpd70_lower,12,-0.061568
+13,135,oil_price,Real wage,hpd70_lower,13,-0.055584
+13,135,oil_price,Real wage,hpd70_lower,14,-0.048937
+13,135,oil_price,Real wage,hpd70_lower,15,-0.044948
+13,135,oil_price,Real wage,hpd70_lower,16,-0.042291
+13,135,oil_price,Real wage,hpd70_lower,17,-0.039626
+13,135,oil_price,Real wage,hpd70_lower,18,-0.038302
+13,135,oil_price,Real wage,hpd70_lower,19,-0.036307
+13,135,oil_price,Real wage,hpd70_lower,20,-0.034975
+13,135,oil_price,Real wage,hpd70_upper,1,-0.089493
+13,135,oil_price,Real wage,hpd70_upper,2,-0.258379
+13,135,oil_price,Real wage,hpd70_upper,3,-0.275669
+13,135,oil_price,Real wage,hpd70_upper,4,-0.197876
+13,135,oil_price,Real wage,hpd70_upper,5,-0.106783
+13,135,oil_price,Real wage,hpd70_upper,6,-0.049600
+13,135,oil_price,Real wage,hpd70_upper,7,-0.026996
+13,135,oil_price,Real wage,hpd70_upper,8,-0.031648
+13,135,oil_price,Real wage,hpd70_upper,9,-0.038964
+13,135,oil_price,Real wage,hpd70_upper,10,-0.043616
+13,135,oil_price,Real wage,hpd70_upper,11,-0.042953
+13,135,oil_price,Real wage,hpd70_upper,12,-0.039626
+13,135,oil_price,Real wage,hpd70_upper,13,-0.034312
+13,135,oil_price,Real wage,hpd70_upper,14,-0.029653
+13,135,oil_price,Real wage,hpd70_upper,15,-0.027658
+13,135,oil_price,Real wage,hpd70_upper,16,-0.026334
+13,135,oil_price,Real wage,hpd70_upper,17,-0.025664
+13,135,oil_price,Real wage,hpd70_upper,18,-0.025001
+13,135,oil_price,Real wage,hpd70_upper,19,-0.024339
+13,135,oil_price,Real wage,hpd70_upper,20,-0.023669
+13,135,oil_price,Real wage,hpd90_lower,1,-0.133376
+13,135,oil_price,Real wage,hpd90_lower,2,-0.374070
+13,135,oil_price,Real wage,hpd90_lower,3,-0.427926
+13,135,oil_price,Real wage,hpd90_lower,4,-0.360769
+13,135,oil_price,Real wage,hpd90_lower,5,-0.259711
+13,135,oil_price,Real wage,hpd90_lower,6,-0.189897
+13,135,oil_price,Real wage,hpd90_lower,7,-0.143350
+13,135,oil_price,Real wage,hpd90_lower,8,-0.118751
+13,135,oil_price,Real wage,hpd90_lower,9,-0.104788
+13,135,oil_price,Real wage,hpd90_lower,10,-0.093483
+13,135,oil_price,Real wage,hpd90_lower,11,-0.087499
+13,135,oil_price,Real wage,hpd90_lower,12,-0.078858
+13,135,oil_price,Real wage,hpd90_lower,13,-0.071541
+13,135,oil_price,Real wage,hpd90_lower,14,-0.065557
+13,135,oil_price,Real wage,hpd90_lower,15,-0.060243
+13,135,oil_price,Real wage,hpd90_lower,16,-0.054921
+13,135,oil_price,Real wage,hpd90_lower,17,-0.052265
+13,135,oil_price,Real wage,hpd90_lower,18,-0.048937
+13,135,oil_price,Real wage,hpd90_lower,19,-0.046943
+13,135,oil_price,Real wage,hpd90_lower,20,-0.044948
+13,135,oil_price,Real wage,hpd90_upper,1,-0.074868
+13,135,oil_price,Real wage,hpd90_upper,2,-0.220480
+13,135,oil_price,Real wage,hpd90_upper,3,-0.229121
+13,135,oil_price,Real wage,hpd90_upper,4,-0.153323
+13,135,oil_price,Real wage,hpd90_upper,5,-0.060906
+13,135,oil_price,Real wage,hpd90_upper,6,-0.009044
+13,135,oil_price,Real wage,hpd90_upper,7,0.004257
+13,135,oil_price,Real wage,hpd90_upper,8,-0.000403
+13,135,oil_price,Real wage,hpd90_upper,9,-0.015028
+13,135,oil_price,Real wage,hpd90_upper,10,-0.025664
+13,135,oil_price,Real wage,hpd90_upper,11,-0.027658
+13,135,oil_price,Real wage,hpd90_upper,12,-0.025001
+13,135,oil_price,Real wage,hpd90_upper,13,-0.022344
+13,135,oil_price,Real wage,hpd90_upper,14,-0.019017
+13,135,oil_price,Real wage,hpd90_upper,15,-0.017685
+13,135,oil_price,Real wage,hpd90_upper,16,-0.017023
+13,135,oil_price,Real wage,hpd90_upper,17,-0.017023
+13,135,oil_price,Real wage,hpd90_upper,18,-0.017023
+13,135,oil_price,Real wage,hpd90_upper,19,-0.017023
+13,135,oil_price,Real wage,hpd90_upper,20,-0.016360
+13,135,oil_price,Real exchange rate,mean,1,-0.031786
+13,135,oil_price,Real exchange rate,mean,2,-0.048405
+13,135,oil_price,Real exchange rate,mean,3,-0.129525
+13,135,oil_price,Real exchange rate,mean,4,-0.170081
+13,135,oil_price,Real exchange rate,mean,5,-0.112235
+13,135,oil_price,Real exchange rate,mean,6,0.009440
+13,135,oil_price,Real exchange rate,mean,7,0.127789
+13,135,oil_price,Real exchange rate,mean,8,0.196940
+13,135,oil_price,Real exchange rate,mean,9,0.205581
+13,135,oil_price,Real exchange rate,mean,10,0.172342
+13,135,oil_price,Real exchange rate,mean,11,0.121805
+13,135,oil_price,Real exchange rate,mean,12,0.074603
+13,135,oil_price,Real exchange rate,mean,13,0.039361
+13,135,oil_price,Real exchange rate,mean,14,0.018081
+13,135,oil_price,Real exchange rate,mean,15,0.007446
+13,135,oil_price,Real exchange rate,mean,16,0.002794
+13,135,oil_price,Real exchange rate,mean,17,0.000129
+13,135,oil_price,Real exchange rate,mean,18,-0.002528
+13,135,oil_price,Real exchange rate,mean,19,-0.004522
+13,135,oil_price,Real exchange rate,mean,20,-0.007179
+13,135,oil_price,Real exchange rate,hpd70_lower,1,-0.063030
+13,135,oil_price,Real exchange rate,hpd70_lower,2,-0.086304
+13,135,oil_price,Real exchange rate,hpd70_lower,3,-0.183381
+13,135,oil_price,Real exchange rate,hpd70_lower,4,-0.229921
+13,135,oil_price,Real exchange rate,hpd70_lower,5,-0.163434
+13,135,oil_price,Real exchange rate,hpd70_lower,6,-0.037099
+13,135,oil_price,Real exchange rate,hpd70_lower,7,0.095874
+13,135,oil_price,Real exchange rate,hpd70_lower,8,0.159704
+13,135,oil_price,Real exchange rate,hpd70_lower,9,0.159704
+13,135,oil_price,Real exchange rate,hpd70_lower,10,0.125132
+13,135,oil_price,Real exchange rate,hpd70_lower,11,0.077259
+13,135,oil_price,Real exchange rate,hpd70_lower,12,0.032714
+13,135,oil_price,Real exchange rate,hpd70_lower,13,0.006113
+13,135,oil_price,Real exchange rate,hpd70_lower,14,-0.007179
+13,135,oil_price,Real exchange rate,hpd70_lower,15,-0.013833
+13,135,oil_price,Real exchange rate,hpd70_lower,16,-0.014496
+13,135,oil_price,Real exchange rate,hpd70_lower,17,-0.014496
+13,135,oil_price,Real exchange rate,hpd70_lower,18,-0.014496
+13,135,oil_price,Real exchange rate,hpd70_lower,19,-0.015158
+13,135,oil_price,Real exchange rate,hpd70_lower,20,-0.017153
+13,135,oil_price,Real exchange rate,hpd70_upper,1,0.003456
+13,135,oil_price,Real exchange rate,hpd70_upper,2,0.002124
+13,135,oil_price,Real exchange rate,hpd70_upper,3,-0.066357
+13,135,oil_price,Real exchange rate,hpd70_upper,4,-0.098934
+13,135,oil_price,Real exchange rate,hpd70_upper,5,-0.039764
+13,135,oil_price,Real exchange rate,hpd70_upper,6,0.069943
+13,135,oil_price,Real exchange rate,hpd70_upper,7,0.173666
+13,135,oil_price,Real exchange rate,hpd70_upper,8,0.232182
+13,135,oil_price,Real exchange rate,hpd70_upper,9,0.244150
+13,135,oil_price,Real exchange rate,hpd70_upper,10,0.214230
+13,135,oil_price,Real exchange rate,hpd70_upper,11,0.162368
+13,135,oil_price,Real exchange rate,hpd70_upper,12,0.108512
+13,135,oil_price,Real exchange rate,hpd70_upper,13,0.070613
+13,135,oil_price,Real exchange rate,hpd70_upper,14,0.042017
+13,135,oil_price,Real exchange rate,hpd70_upper,15,0.025398
+13,135,oil_price,Real exchange rate,hpd70_upper,16,0.018752
+13,135,oil_price,Real exchange rate,hpd70_upper,17,0.014762
+13,135,oil_price,Real exchange rate,hpd70_upper,18,0.012097
+13,135,oil_price,Real exchange rate,hpd70_upper,19,0.008108
+13,135,oil_price,Real exchange rate,hpd70_upper,20,0.005451
+13,135,oil_price,Real exchange rate,hpd90_lower,1,-0.110240
+13,135,oil_price,Real exchange rate,hpd90_lower,2,-0.169418
+13,135,oil_price,Real exchange rate,hpd90_lower,3,-0.281783
+13,135,oil_price,Real exchange rate,hpd90_lower,4,-0.340291
+13,135,oil_price,Real exchange rate,hpd90_lower,5,-0.275799
+13,135,oil_price,Real exchange rate,hpd90_lower,6,-0.125535
+13,135,oil_price,Real exchange rate,hpd90_lower,7,0.018752
+13,135,oil_price,Real exchange rate,hpd90_lower,8,0.099201
+13,135,oil_price,Real exchange rate,hpd90_lower,9,0.113164
+13,135,oil_price,Real exchange rate,hpd90_lower,10,0.078592
+13,135,oil_price,Real exchange rate,hpd90_lower,11,0.029387
+13,135,oil_price,Real exchange rate,hpd90_lower,12,-0.011839
+13,135,oil_price,Real exchange rate,hpd90_lower,13,-0.037770
+13,135,oil_price,Real exchange rate,hpd90_lower,14,-0.044416
+13,135,oil_price,Real exchange rate,hpd90_lower,15,-0.045748
+13,135,oil_price,Real exchange rate,hpd90_lower,16,-0.042421
+13,135,oil_price,Real exchange rate,hpd90_lower,17,-0.040427
+13,135,oil_price,Real exchange rate,hpd90_lower,18,-0.039764
+13,135,oil_price,Real exchange rate,hpd90_lower,19,-0.039764
+13,135,oil_price,Real exchange rate,hpd90_lower,20,-0.040427
+13,135,oil_price,Real exchange rate,hpd90_upper,1,0.048672
+13,135,oil_price,Real exchange rate,hpd90_upper,2,0.058645
+13,135,oil_price,Real exchange rate,hpd90_upper,3,0.007446
+13,135,oil_price,Real exchange rate,hpd90_upper,4,-0.017823
+13,135,oil_price,Real exchange rate,hpd90_upper,5,0.032714
+13,135,oil_price,Real exchange rate,hpd90_upper,6,0.127126
+13,135,oil_price,Real exchange rate,hpd90_upper,7,0.225528
+13,135,oil_price,Real exchange rate,hpd90_upper,8,0.293347
+13,135,oil_price,Real exchange rate,hpd90_upper,9,0.306647
+13,135,oil_price,Real exchange rate,hpd90_upper,10,0.268749
+13,135,oil_price,Real exchange rate,hpd90_upper,11,0.223533
+13,135,oil_price,Real exchange rate,hpd90_upper,12,0.167020
+13,135,oil_price,Real exchange rate,hpd90_upper,13,0.123137
+13,135,oil_price,Real exchange rate,hpd90_upper,14,0.087233
+13,135,oil_price,Real exchange rate,hpd90_upper,15,0.063959
+13,135,oil_price,Real exchange rate,hpd90_upper,16,0.048002
+13,135,oil_price,Real exchange rate,hpd90_upper,17,0.039361
+13,135,oil_price,Real exchange rate,hpd90_upper,18,0.032044
+13,135,oil_price,Real exchange rate,hpd90_upper,19,0.027393
+13,135,oil_price,Real exchange rate,hpd90_upper,20,0.022071
+13,135,oil_price,CPI inflation,mean,1,0.088434
+13,135,oil_price,CPI inflation,mean,2,0.208114
+13,135,oil_price,CPI inflation,mean,3,0.083774
+13,135,oil_price,CPI inflation,mean,4,-0.067151
+13,135,oil_price,CPI inflation,mean,5,-0.126329
+13,135,oil_price,CPI inflation,mean,6,-0.101061
+13,135,oil_price,CPI inflation,mean,7,-0.043215
+13,135,oil_price,CPI inflation,mean,8,0.005982
+13,135,oil_price,CPI inflation,mean,9,0.031250
+13,135,oil_price,CPI inflation,mean,10,0.033907
+13,135,oil_price,CPI inflation,mean,11,0.025928
+13,135,oil_price,CPI inflation,mean,12,0.014631
+13,135,oil_price,CPI inflation,mean,13,0.006652
+13,135,oil_price,CPI inflation,mean,14,0.002662
+13,135,oil_price,CPI inflation,mean,15,0.001330
+13,135,oil_price,CPI inflation,mean,16,0.001992
+13,135,oil_price,CPI inflation,mean,17,0.002662
+13,135,oil_price,CPI inflation,mean,18,0.003325
+13,135,oil_price,CPI inflation,mean,19,0.003325
+13,135,oil_price,CPI inflation,mean,20,0.002662
+13,135,oil_price,CPI inflation,hpd70_lower,1,0.075133
+13,135,oil_price,CPI inflation,hpd70_lower,2,0.182846
+13,135,oil_price,CPI inflation,hpd70_lower,3,0.062503
+13,135,oil_price,CPI inflation,hpd70_lower,4,-0.083779
+13,135,oil_price,CPI inflation,hpd70_lower,5,-0.142949
+13,135,oil_price,CPI inflation,hpd70_lower,6,-0.116356
+13,135,oil_price,CPI inflation,hpd70_lower,7,-0.055853
+13,135,oil_price,CPI inflation,hpd70_lower,8,-0.005986
+13,135,oil_price,CPI inflation,hpd70_lower,9,0.017950
+13,135,oil_price,CPI inflation,hpd70_lower,10,0.022609
+13,135,oil_price,CPI inflation,hpd70_lower,11,0.017287
+13,135,oil_price,CPI inflation,hpd70_lower,12,0.009971
+13,135,oil_price,CPI inflation,hpd70_lower,13,0.003325
+13,135,oil_price,CPI inflation,hpd70_lower,14,-0.000002
+13,135,oil_price,CPI inflation,hpd70_lower,15,-0.000665
+13,135,oil_price,CPI inflation,hpd70_lower,16,0.000668
+13,135,oil_price,CPI inflation,hpd70_lower,17,0.001330
+13,135,oil_price,CPI inflation,hpd70_lower,18,0.001992
+13,135,oil_price,CPI inflation,hpd70_lower,19,0.001992
+13,135,oil_price,CPI inflation,hpd70_lower,20,0.001992
+13,135,oil_price,CPI inflation,hpd70_upper,1,0.097075
+13,135,oil_price,CPI inflation,hpd70_upper,2,0.230718
+13,135,oil_price,CPI inflation,hpd70_upper,3,0.097737
+13,135,oil_price,CPI inflation,hpd70_upper,4,-0.049199
+13,135,oil_price,CPI inflation,hpd70_upper,5,-0.105050
+13,135,oil_price,CPI inflation,hpd70_upper,6,-0.081114
+13,135,oil_price,CPI inflation,hpd70_upper,7,-0.029252
+13,135,oil_price,CPI inflation,hpd70_upper,8,0.017950
+13,135,oil_price,CPI inflation,hpd70_upper,9,0.040561
+13,135,oil_price,CPI inflation,hpd70_upper,10,0.041886
+13,135,oil_price,CPI inflation,hpd70_upper,11,0.031250
+13,135,oil_price,CPI inflation,hpd70_upper,12,0.018620
+13,135,oil_price,CPI inflation,hpd70_upper,13,0.011303
+13,135,oil_price,CPI inflation,hpd70_upper,14,0.006652
+13,135,oil_price,CPI inflation,hpd70_upper,15,0.004657
+13,135,oil_price,CPI inflation,hpd70_upper,16,0.003987
+13,135,oil_price,CPI inflation,hpd70_upper,17,0.003987
+13,135,oil_price,CPI inflation,hpd70_upper,18,0.003987
+13,135,oil_price,CPI inflation,hpd70_upper,19,0.003987
+13,135,oil_price,CPI inflation,hpd70_upper,20,0.003987
+13,135,oil_price,CPI inflation,hpd90_lower,1,0.063165
+13,135,oil_price,CPI inflation,hpd90_lower,2,0.152926
+13,135,oil_price,CPI inflation,hpd90_lower,3,0.041224
+13,135,oil_price,CPI inflation,hpd90_lower,4,-0.111034
+13,135,oil_price,CPI inflation,hpd90_lower,5,-0.174202
+13,135,oil_price,CPI inflation,hpd90_lower,6,-0.146276
+13,135,oil_price,CPI inflation,hpd90_lower,7,-0.081114
+13,135,oil_price,CPI inflation,hpd90_lower,8,-0.025933
+13,135,oil_price,CPI inflation,hpd90_lower,9,0.003325
+13,135,oil_price,CPI inflation,hpd90_lower,10,0.013298
+13,135,oil_price,CPI inflation,hpd90_lower,11,0.010641
+13,135,oil_price,CPI inflation,hpd90_lower,12,0.003325
+13,135,oil_price,CPI inflation,hpd90_lower,13,-0.004654
+13,135,oil_price,CPI inflation,hpd90_lower,14,-0.007981
+13,135,oil_price,CPI inflation,hpd90_lower,15,-0.005986
+13,135,oil_price,CPI inflation,hpd90_lower,16,-0.002659
+13,135,oil_price,CPI inflation,hpd90_lower,17,-0.000665
+13,135,oil_price,CPI inflation,hpd90_lower,18,-0.000002
+13,135,oil_price,CPI inflation,hpd90_lower,19,0.000668
+13,135,oil_price,CPI inflation,hpd90_lower,20,0.000668
+13,135,oil_price,CPI inflation,hpd90_upper,1,0.117021
+13,135,oil_price,CPI inflation,hpd90_upper,2,0.269279
+13,135,oil_price,CPI inflation,hpd90_upper,3,0.130322
+13,135,oil_price,CPI inflation,hpd90_upper,4,-0.023268
+13,135,oil_price,CPI inflation,hpd90_upper,5,-0.079790
+13,135,oil_price,CPI inflation,hpd90_upper,6,-0.063162
+13,135,oil_price,CPI inflation,hpd90_upper,7,-0.009306
+13,135,oil_price,CPI inflation,hpd90_upper,8,0.036572
+13,135,oil_price,CPI inflation,hpd90_upper,9,0.062503
+13,135,oil_price,CPI inflation,hpd90_upper,10,0.059176
+13,135,oil_price,CPI inflation,hpd90_upper,11,0.043881
+13,135,oil_price,CPI inflation,hpd90_upper,12,0.027923
+13,135,oil_price,CPI inflation,hpd90_upper,13,0.016625
+13,135,oil_price,CPI inflation,hpd90_upper,14,0.011303
+13,135,oil_price,CPI inflation,hpd90_upper,15,0.007976
+13,135,oil_price,CPI inflation,hpd90_upper,16,0.006652
+13,135,oil_price,CPI inflation,hpd90_upper,17,0.006652
+13,135,oil_price,CPI inflation,hpd90_upper,18,0.005982
+13,135,oil_price,CPI inflation,hpd90_upper,19,0.005982
+13,135,oil_price,CPI inflation,hpd90_upper,20,0.005319
+13,135,oil_price,Domestic inflation,mean,1,0.009836
+13,135,oil_price,Domestic inflation,mean,2,0.013577
+13,135,oil_price,Domestic inflation,mean,3,0.006677
+13,135,oil_price,Domestic inflation,mean,4,-0.007869
+13,135,oil_price,Domestic inflation,mean,5,-0.017428
+13,135,oil_price,Domestic inflation,mean,6,-0.013937
+13,135,oil_price,Domestic inflation,mean,7,0.000194
+13,135,oil_price,Domestic inflation,mean,8,0.016652
+13,135,oil_price,Domestic inflation,mean,9,0.028207
+13,135,oil_price,Domestic inflation,mean,10,0.032031
+13,135,oil_price,Domestic inflation,mean,11,0.029371
+13,135,oil_price,Domestic inflation,mean,12,0.023220
+13,135,oil_price,Domestic inflation,mean,13,0.016652
+13,135,oil_price,Domestic inflation,mean,14,0.011250
+13,135,oil_price,Domestic inflation,mean,15,0.007759
+13,135,oil_price,Domestic inflation,mean,16,0.005764
+13,135,oil_price,Domestic inflation,mean,17,0.004766
+13,135,oil_price,Domestic inflation,mean,18,0.004267
+13,135,oil_price,Domestic inflation,mean,19,0.003934
+13,135,oil_price,Domestic inflation,mean,20,0.003685
+13,135,oil_price,Domestic inflation,hpd70_lower,1,0.005764
+13,135,oil_price,Domestic inflation,hpd70_lower,2,0.007675
+13,135,oil_price,Domestic inflation,hpd70_lower,3,0.000859
+13,135,oil_price,Domestic inflation,hpd70_lower,4,-0.011859
+13,135,oil_price,Domestic inflation,hpd70_lower,5,-0.021752
+13,135,oil_price,Domestic inflation,hpd70_lower,6,-0.019174
+13,135,oil_price,Domestic inflation,hpd70_lower,7,-0.004794
+13,135,oil_price,Domestic inflation,hpd70_lower,8,0.011415
+13,135,oil_price,Domestic inflation,hpd70_lower,9,0.022056
+13,135,oil_price,Domestic inflation,hpd70_lower,10,0.025963
+13,135,oil_price,Domestic inflation,hpd70_lower,11,0.023220
+13,135,oil_price,Domestic inflation,hpd70_lower,12,0.018066
+13,135,oil_price,Domestic inflation,hpd70_lower,13,0.012164
+13,135,oil_price,Domestic inflation,hpd70_lower,14,0.007260
+13,135,oil_price,Domestic inflation,hpd70_lower,15,0.004350
+13,135,oil_price,Domestic inflation,hpd70_lower,16,0.002937
+13,135,oil_price,Domestic inflation,hpd70_lower,17,0.002438
+13,135,oil_price,Domestic inflation,hpd70_lower,18,0.002438
+13,135,oil_price,Domestic inflation,hpd70_lower,19,0.002355
+13,135,oil_price,Domestic inflation,hpd70_lower,20,0.002106
+13,135,oil_price,Domestic inflation,hpd70_upper,1,0.014159
+13,135,oil_price,Domestic inflation,hpd70_upper,2,0.019230
+13,135,oil_price,Domestic inflation,hpd70_upper,3,0.012164
+13,135,oil_price,Domestic inflation,hpd70_upper,4,-0.002466
+13,135,oil_price,Domestic inflation,hpd70_upper,5,-0.011527
+13,135,oil_price,Domestic inflation,hpd70_upper,6,-0.006789
+13,135,oil_price,Domestic inflation,hpd70_upper,7,0.005514
+13,135,oil_price,Domestic inflation,hpd70_upper,8,0.021557
+13,135,oil_price,Domestic inflation,hpd70_upper,9,0.033278
+13,135,oil_price,Domestic inflation,hpd70_upper,10,0.036353
+13,135,oil_price,Domestic inflation,hpd70_upper,11,0.033694
+13,135,oil_price,Domestic inflation,hpd70_upper,12,0.026877
+13,135,oil_price,Domestic inflation,hpd70_upper,13,0.020061
+13,135,oil_price,Domestic inflation,hpd70_upper,14,0.014657
+13,135,oil_price,Domestic inflation,hpd70_upper,15,0.010502
+13,135,oil_price,Domestic inflation,hpd70_upper,16,0.008008
+13,135,oil_price,Domestic inflation,hpd70_upper,17,0.006345
+13,135,oil_price,Domestic inflation,hpd70_upper,18,0.005597
+13,135,oil_price,Domestic inflation,hpd70_upper,19,0.005265
+13,135,oil_price,Domestic inflation,hpd70_upper,20,0.004849
+13,135,oil_price,Domestic inflation,hpd90_lower,1,-0.000804
+13,135,oil_price,Domestic inflation,hpd90_lower,2,-0.000637
+13,135,oil_price,Domestic inflation,hpd90_lower,3,-0.007121
+13,135,oil_price,Domestic inflation,hpd90_lower,4,-0.021086
+13,135,oil_price,Domestic inflation,hpd90_lower,5,-0.030230
+13,135,oil_price,Domestic inflation,hpd90_lower,6,-0.026240
+13,135,oil_price,Domestic inflation,hpd90_lower,7,-0.012441
+13,135,oil_price,Domestic inflation,hpd90_lower,8,0.003186
+13,135,oil_price,Domestic inflation,hpd90_lower,9,0.015156
+13,135,oil_price,Domestic inflation,hpd90_lower,10,0.018897
+13,135,oil_price,Domestic inflation,hpd90_lower,11,0.018232
+13,135,oil_price,Domestic inflation,hpd90_lower,12,0.012746
+13,135,oil_price,Domestic inflation,hpd90_lower,13,0.006512
+13,135,oil_price,Domestic inflation,hpd90_lower,14,0.001856
+13,135,oil_price,Domestic inflation,hpd90_lower,15,-0.000139
+13,135,oil_price,Domestic inflation,hpd90_lower,16,-0.000388
+13,135,oil_price,Domestic inflation,hpd90_lower,17,-0.000139
+13,135,oil_price,Domestic inflation,hpd90_lower,18,0.000028
+13,135,oil_price,Domestic inflation,hpd90_lower,19,0.000360
+13,135,oil_price,Domestic inflation,hpd90_lower,20,0.000609
+13,135,oil_price,Domestic inflation,hpd90_upper,1,0.020144
+13,135,oil_price,Domestic inflation,hpd90_upper,2,0.027625
+13,135,oil_price,Domestic inflation,hpd90_upper,3,0.020726
+13,135,oil_price,Domestic inflation,hpd90_upper,4,0.004267
+13,135,oil_price,Domestic inflation,hpd90_upper,5,-0.005043
+13,135,oil_price,Domestic inflation,hpd90_upper,6,-0.001303
+13,135,oil_price,Domestic inflation,hpd90_upper,7,0.012746
+13,135,oil_price,Domestic inflation,hpd90_upper,8,0.031116
+13,135,oil_price,Domestic inflation,hpd90_upper,9,0.042173
+13,135,oil_price,Domestic inflation,hpd90_upper,10,0.044999
+13,135,oil_price,Domestic inflation,hpd90_upper,11,0.041175
+13,135,oil_price,Domestic inflation,hpd90_upper,12,0.034691
+13,135,oil_price,Domestic inflation,hpd90_upper,13,0.028041
+13,135,oil_price,Domestic inflation,hpd90_upper,14,0.020642
+13,135,oil_price,Domestic inflation,hpd90_upper,15,0.015821
+13,135,oil_price,Domestic inflation,hpd90_upper,16,0.012081
+13,135,oil_price,Domestic inflation,hpd90_upper,17,0.010169
+13,135,oil_price,Domestic inflation,hpd90_upper,18,0.008590
+13,135,oil_price,Domestic inflation,hpd90_upper,19,0.007509
+13,135,oil_price,Domestic inflation,hpd90_upper,20,0.007010
+13,135,oil_price,Imported inflation,mean,1,0.234409
+13,135,oil_price,Imported inflation,mean,2,0.568584
+13,135,oil_price,Imported inflation,mean,3,0.228184
+13,135,oil_price,Imported inflation,mean,4,-0.175806
+13,135,oil_price,Imported inflation,mean,5,-0.327931
+13,135,oil_price,Imported inflation,mean,6,-0.263098
+13,135,oil_price,Imported inflation,mean,7,-0.123437
+13,135,oil_price,Imported inflation,mean,8,-0.012474
+13,135,oil_price,Imported inflation,mean,9,0.036154
+13,135,oil_price,Imported inflation,mean,10,0.038653
+13,135,oil_price,Imported inflation,mean,11,0.018708
+13,135,oil_price,Imported inflation,mean,12,0.000004
+13,135,oil_price,Imported inflation,mean,13,-0.011217
+13,135,oil_price,Imported inflation,mean,14,-0.013716
+13,135,oil_price,Imported inflation,mean,15,-0.009976
+13,135,oil_price,Imported inflation,mean,16,-0.004993
+13,135,oil_price,Imported inflation,mean,17,-0.001252
+13,135,oil_price,Imported inflation,mean,18,0.001246
+13,135,oil_price,Imported inflation,mean,19,0.002488
+13,135,oil_price,Imported inflation,mean,20,0.001246
+13,135,oil_price,Imported inflation,hpd70_lower,1,0.203242
+13,135,oil_price,Imported inflation,hpd70_lower,2,0.501252
+13,135,oil_price,Imported inflation,hpd70_lower,3,0.174558
+13,135,oil_price,Imported inflation,hpd70_lower,4,-0.221951
+13,135,oil_price,Imported inflation,hpd70_lower,5,-0.372819
+13,135,oil_price,Imported inflation,hpd70_lower,6,-0.300505
+13,135,oil_price,Imported inflation,hpd70_lower,7,-0.154619
+13,135,oil_price,Imported inflation,hpd70_lower,8,-0.042400
+13,135,oil_price,Imported inflation,hpd70_lower,9,0.004987
+13,135,oil_price,Imported inflation,hpd70_lower,10,0.013710
+13,135,oil_price,Imported inflation,hpd70_lower,11,0.001246
+13,135,oil_price,Imported inflation,hpd70_lower,12,-0.009976
+13,135,oil_price,Imported inflation,hpd70_lower,13,-0.016215
+13,135,oil_price,Imported inflation,hpd70_lower,14,-0.016215
+13,135,oil_price,Imported inflation,hpd70_lower,15,-0.012474
+13,135,oil_price,Imported inflation,hpd70_lower,16,-0.007477
+13,135,oil_price,Imported inflation,hpd70_lower,17,-0.002494
+13,135,oil_price,Imported inflation,hpd70_lower,18,-0.001252
+13,135,oil_price,Imported inflation,hpd70_lower,19,0.000004
+13,135,oil_price,Imported inflation,hpd70_lower,20,0.000004
+13,135,oil_price,Imported inflation,hpd70_upper,1,0.256853
+13,135,oil_price,Imported inflation,hpd70_upper,2,0.625936
+13,135,oil_price,Imported inflation,hpd70_upper,3,0.264334
+13,135,oil_price,Imported inflation,hpd70_upper,4,-0.129677
+13,135,oil_price,Imported inflation,hpd70_upper,5,-0.270580
+13,135,oil_price,Imported inflation,hpd70_upper,6,-0.205732
+13,135,oil_price,Imported inflation,hpd70_upper,7,-0.082290
+13,135,oil_price,Imported inflation,hpd70_upper,8,0.016209
+13,135,oil_price,Imported inflation,hpd70_upper,9,0.061097
+13,135,oil_price,Imported inflation,hpd70_upper,10,0.053616
+13,135,oil_price,Imported inflation,hpd70_upper,11,0.029930
+13,135,oil_price,Imported inflation,hpd70_upper,12,0.006229
+13,135,oil_price,Imported inflation,hpd70_upper,13,-0.004993
+13,135,oil_price,Imported inflation,hpd70_upper,14,-0.006235
+13,135,oil_price,Imported inflation,hpd70_upper,15,-0.004993
+13,135,oil_price,Imported inflation,hpd70_upper,16,-0.001252
+13,135,oil_price,Imported inflation,hpd70_upper,17,0.001246
+13,135,oil_price,Imported inflation,hpd70_upper,18,0.002488
+13,135,oil_price,Imported inflation,hpd70_upper,19,0.003745
+13,135,oil_price,Imported inflation,hpd70_upper,20,0.002488
+13,135,oil_price,Imported inflation,hpd90_lower,1,0.168334
+13,135,oil_price,Imported inflation,hpd90_lower,2,0.418958
+13,135,oil_price,Imported inflation,hpd90_lower,3,0.114708
+13,135,oil_price,Imported inflation,hpd90_lower,4,-0.293024
+13,135,oil_price,Imported inflation,hpd90_lower,5,-0.461353
+13,135,oil_price,Imported inflation,hpd90_lower,6,-0.377802
+13,135,oil_price,Imported inflation,hpd90_lower,7,-0.220694
+13,135,oil_price,Imported inflation,hpd90_lower,8,-0.091028
+13,135,oil_price,Imported inflation,hpd90_lower,9,-0.032420
+13,135,oil_price,Imported inflation,hpd90_lower,10,-0.012474
+13,135,oil_price,Imported inflation,hpd90_lower,11,-0.014958
+13,135,oil_price,Imported inflation,hpd90_lower,12,-0.023696
+13,135,oil_price,Imported inflation,hpd90_lower,13,-0.031178
+13,135,oil_price,Imported inflation,hpd90_lower,14,-0.028679
+13,135,oil_price,Imported inflation,hpd90_lower,15,-0.021198
+13,135,oil_price,Imported inflation,hpd90_lower,16,-0.013716
+13,135,oil_price,Imported inflation,hpd90_lower,17,-0.008734
+13,135,oil_price,Imported inflation,hpd90_lower,18,-0.004993
+13,135,oil_price,Imported inflation,hpd90_lower,19,-0.002494
+13,135,oil_price,Imported inflation,hpd90_lower,20,-0.002494
+13,135,oil_price,Imported inflation,hpd90_upper,1,0.300499
+13,135,oil_price,Imported inflation,hpd90_upper,2,0.738156
+13,135,oil_price,Imported inflation,hpd90_upper,3,0.347885
+13,135,oil_price,Imported inflation,hpd90_upper,4,-0.058604
+13,135,oil_price,Imported inflation,hpd90_upper,5,-0.205732
+13,135,oil_price,Imported inflation,hpd90_upper,6,-0.158360
+13,135,oil_price,Imported inflation,hpd90_upper,7,-0.036160
+13,135,oil_price,Imported inflation,hpd90_upper,8,0.061097
+13,135,oil_price,Imported inflation,hpd90_upper,9,0.114708
+13,135,oil_price,Imported inflation,hpd90_upper,10,0.098503
+13,135,oil_price,Imported inflation,hpd90_upper,11,0.063596
+13,135,oil_price,Imported inflation,hpd90_upper,12,0.026189
+13,135,oil_price,Imported inflation,hpd90_upper,13,0.003745
+13,135,oil_price,Imported inflation,hpd90_upper,14,0.000004
+13,135,oil_price,Imported inflation,hpd90_upper,15,0.001246
+13,135,oil_price,Imported inflation,hpd90_upper,16,0.003745
+13,135,oil_price,Imported inflation,hpd90_upper,17,0.006229
+13,135,oil_price,Imported inflation,hpd90_upper,18,0.007486
+13,135,oil_price,Imported inflation,hpd90_upper,19,0.006229
+13,135,oil_price,Imported inflation,hpd90_upper,20,0.006229

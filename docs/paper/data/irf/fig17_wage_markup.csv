@@ -1,0 +1,1201 @@
+figure,page_pdf,shock,panel_title,series,quarter,value
+17,139,wage_markup,Output,mean,1,-0.158509
+17,139,wage_markup,Output,mean,2,-0.298799
+17,139,wage_markup,Output,mean,3,-0.375930
+17,139,wage_markup,Output,mean,4,-0.383246
+17,139,wage_markup,Output,mean,5,-0.344677
+17,139,wage_markup,Output,mean,6,-0.283512
+17,139,wage_markup,Output,mean,7,-0.219682
+17,139,wage_markup,Output,mean,8,-0.163161
+17,139,wage_markup,Output,mean,9,-0.119277
+17,139,wage_markup,Output,mean,10,-0.086700
+17,139,wage_markup,Output,mean,11,-0.064096
+17,139,wage_markup,Output,mean,12,-0.049463
+17,139,wage_markup,Output,mean,13,-0.039490
+17,139,wage_markup,Output,mean,14,-0.033506
+17,139,wage_markup,Output,mean,15,-0.030187
+17,139,wage_markup,Output,mean,16,-0.028192
+17,139,wage_markup,Output,mean,17,-0.026860
+17,139,wage_markup,Output,mean,18,-0.026197
+17,139,wage_markup,Output,mean,19,-0.025527
+17,139,wage_markup,Output,mean,20,-0.025527
+17,139,wage_markup,Output,hpd70_lower,1,-0.185772
+17,139,wage_markup,Output,hpd70_lower,2,-0.342682
+17,139,wage_markup,Output,hpd70_lower,3,-0.423802
+17,139,wage_markup,Output,hpd70_lower,4,-0.440422
+17,139,wage_markup,Output,hpd70_lower,5,-0.393882
+17,139,wage_markup,Output,hpd70_lower,6,-0.325400
+17,139,wage_markup,Output,hpd70_lower,7,-0.254916
+17,139,wage_markup,Output,hpd70_lower,8,-0.193081
+17,139,wage_markup,Output,hpd70_lower,9,-0.144546
+17,139,wage_markup,Output,hpd70_lower,10,-0.104652
+17,139,wage_markup,Output,hpd70_lower,11,-0.077389
+17,139,wage_markup,Output,hpd70_lower,12,-0.059437
+17,139,wage_markup,Output,hpd70_lower,13,-0.046807
+17,139,wage_markup,Output,hpd70_lower,14,-0.038166
+17,139,wage_markup,Output,hpd70_lower,15,-0.034176
+17,139,wage_markup,Output,hpd70_lower,16,-0.031511
+17,139,wage_markup,Output,hpd70_lower,17,-0.030187
+17,139,wage_markup,Output,hpd70_lower,18,-0.029517
+17,139,wage_markup,Output,hpd70_lower,19,-0.029517
+17,139,wage_markup,Output,hpd70_lower,20,-0.028854
+17,139,wage_markup,Output,hpd70_upper,1,-0.131246
+17,139,wage_markup,Output,hpd70_upper,2,-0.252921
+17,139,wage_markup,Output,hpd70_upper,3,-0.323406
+17,139,wage_markup,Output,hpd70_upper,4,-0.329390
+17,139,wage_markup,Output,hpd70_upper,5,-0.292153
+17,139,wage_markup,Output,hpd70_upper,6,-0.230980
+17,139,wage_markup,Output,hpd70_upper,7,-0.169815
+17,139,wage_markup,Output,hpd70_upper,8,-0.117283
+17,139,wage_markup,Output,hpd70_upper,9,-0.082711
+17,139,wage_markup,Output,hpd70_upper,10,-0.056780
+17,139,wage_markup,Output,hpd70_upper,11,-0.040160
+17,139,wage_markup,Output,hpd70_upper,12,-0.029517
+17,139,wage_markup,Output,hpd70_upper,13,-0.024203
+17,139,wage_markup,Output,hpd70_upper,14,-0.021538
+17,139,wage_markup,Output,hpd70_upper,15,-0.019543
+17,139,wage_markup,Output,hpd70_upper,16,-0.019543
+17,139,wage_markup,Output,hpd70_upper,17,-0.018881
+17,139,wage_markup,Output,hpd70_upper,18,-0.018881
+17,139,wage_markup,Output,hpd70_upper,19,-0.018881
+17,139,wage_markup,Output,hpd70_upper,20,-0.019543
+17,139,wage_markup,Output,hpd90_lower,1,-0.223671
+17,139,wage_markup,Output,hpd90_lower,2,-0.415161
+17,139,wage_markup,Output,hpd90_lower,3,-0.520209
+17,139,wage_markup,Output,hpd90_lower,4,-0.518885
+17,139,wage_markup,Output,hpd90_lower,5,-0.478321
+17,139,wage_markup,Output,hpd90_lower,6,-0.402523
+17,139,wage_markup,Output,hpd90_lower,7,-0.323406
+17,139,wage_markup,Output,hpd90_lower,8,-0.252921
+17,139,wage_markup,Output,hpd90_lower,9,-0.195746
+17,139,wage_markup,Output,hpd90_lower,10,-0.151863
+17,139,wage_markup,Output,hpd90_lower,11,-0.119277
+17,139,wage_markup,Output,hpd90_lower,12,-0.092022
+17,139,wage_markup,Output,hpd90_lower,13,-0.072075
+17,139,wage_markup,Output,hpd90_lower,14,-0.060107
+17,139,wage_markup,Output,hpd90_lower,15,-0.050796
+17,139,wage_markup,Output,hpd90_lower,16,-0.046144
+17,139,wage_markup,Output,hpd90_lower,17,-0.042817
+17,139,wage_markup,Output,hpd90_lower,18,-0.040822
+17,139,wage_markup,Output,hpd90_lower,19,-0.038828
+17,139,wage_markup,Output,hpd90_lower,20,-0.038828
+17,139,wage_markup,Output,hpd90_upper,1,-0.097336
+17,139,wage_markup,Output,hpd90_upper,2,-0.191086
+17,139,wage_markup,Output,hpd90_upper,3,-0.246275
+17,139,wage_markup,Output,hpd90_upper,4,-0.255586
+17,139,wage_markup,Output,hpd90_upper,5,-0.223001
+17,139,wage_markup,Output,hpd90_upper,6,-0.176461
+17,139,wage_markup,Output,hpd90_upper,7,-0.127926
+17,139,wage_markup,Output,hpd90_upper,8,-0.084043
+17,139,wage_markup,Output,hpd90_upper,9,-0.052791
+17,139,wage_markup,Output,hpd90_upper,10,-0.033506
+17,139,wage_markup,Output,hpd90_upper,11,-0.022208
+17,139,wage_markup,Output,hpd90_upper,12,-0.016886
+17,139,wage_markup,Output,hpd90_upper,13,-0.014892
+17,139,wage_markup,Output,hpd90_upper,14,-0.014229
+17,139,wage_markup,Output,hpd90_upper,15,-0.013559
+17,139,wage_markup,Output,hpd90_upper,16,-0.013559
+17,139,wage_markup,Output,hpd90_upper,17,-0.013559
+17,139,wage_markup,Output,hpd90_upper,18,-0.014229
+17,139,wage_markup,Output,hpd90_upper,19,-0.014229
+17,139,wage_markup,Output,hpd90_upper,20,-0.014892
+17,139,wage_markup,Consumption,mean,1,-0.042684
+17,139,wage_markup,Consumption,mean,2,-0.098870
+17,139,wage_markup,Consumption,mean,3,-0.140424
+17,139,wage_markup,Consumption,mean,4,-0.156716
+17,139,wage_markup,Consumption,mean,5,-0.153724
+17,139,wage_markup,Consumption,mean,6,-0.140092
+17,139,wage_markup,Consumption,mean,7,-0.124135
+17,139,wage_markup,Consumption,mean,8,-0.110172
+17,139,wage_markup,Consumption,mean,9,-0.098870
+17,139,wage_markup,Consumption,mean,10,-0.090225
+17,139,wage_markup,Consumption,mean,11,-0.083910
+17,139,wage_markup,Consumption,mean,12,-0.078588
+17,139,wage_markup,Consumption,mean,13,-0.074268
+17,139,wage_markup,Consumption,mean,14,-0.070609
+17,139,wage_markup,Consumption,mean,15,-0.067286
+17,139,wage_markup,Consumption,mean,16,-0.064294
+17,139,wage_markup,Consumption,mean,17,-0.061633
+17,139,wage_markup,Consumption,mean,18,-0.059308
+17,139,wage_markup,Consumption,mean,19,-0.056982
+17,139,wage_markup,Consumption,mean,20,-0.054987
+17,139,wage_markup,Consumption,hpd70_lower,1,-0.054987
+17,139,wage_markup,Consumption,hpd70_lower,2,-0.120812
+17,139,wage_markup,Consumption,hpd70_lower,3,-0.168349
+17,139,wage_markup,Consumption,hpd70_lower,4,-0.186301
+17,139,wage_markup,Consumption,hpd70_lower,5,-0.181650
+17,139,wage_markup,Consumption,hpd70_lower,6,-0.165692
+17,139,wage_markup,Consumption,hpd70_lower,7,-0.146743
+17,139,wage_markup,Consumption,hpd70_lower,8,-0.127127
+17,139,wage_markup,Consumption,hpd70_lower,9,-0.113495
+17,139,wage_markup,Consumption,hpd70_lower,10,-0.103522
+17,139,wage_markup,Consumption,hpd70_lower,11,-0.094215
+17,139,wage_markup,Consumption,hpd70_lower,12,-0.088897
+17,139,wage_markup,Consumption,hpd70_lower,13,-0.083575
+17,139,wage_markup,Consumption,hpd70_lower,14,-0.079921
+17,139,wage_markup,Consumption,hpd70_lower,15,-0.075596
+17,139,wage_markup,Consumption,hpd70_lower,16,-0.071942
+17,139,wage_markup,Consumption,hpd70_lower,17,-0.069281
+17,139,wage_markup,Consumption,hpd70_lower,18,-0.066955
+17,139,wage_markup,Consumption,hpd70_lower,19,-0.064294
+17,139,wage_markup,Consumption,hpd70_lower,20,-0.062300
+17,139,wage_markup,Consumption,hpd70_upper,1,-0.026726
+17,139,wage_markup,Consumption,hpd70_upper,2,-0.066955
+17,139,wage_markup,Consumption,hpd70_upper,3,-0.105852
+17,139,wage_markup,Consumption,hpd70_upper,4,-0.121143
+17,139,wage_markup,Consumption,hpd70_upper,5,-0.122140
+17,139,wage_markup,Consumption,hpd70_upper,6,-0.110172
+17,139,wage_markup,Consumption,hpd70_upper,7,-0.095543
+17,139,wage_markup,Consumption,hpd70_upper,8,-0.084907
+17,139,wage_markup,Consumption,hpd70_upper,9,-0.076262
+17,139,wage_markup,Consumption,hpd70_upper,10,-0.069947
+17,139,wage_markup,Consumption,hpd70_upper,11,-0.064961
+17,139,wage_markup,Consumption,hpd70_upper,12,-0.061302
+17,139,wage_markup,Consumption,hpd70_upper,13,-0.057313
+17,139,wage_markup,Consumption,hpd70_upper,14,-0.054652
+17,139,wage_markup,Consumption,hpd70_upper,15,-0.051329
+17,139,wage_markup,Consumption,hpd70_upper,16,-0.049003
+17,139,wage_markup,Consumption,hpd70_upper,17,-0.047008
+17,139,wage_markup,Consumption,hpd70_upper,18,-0.045345
+17,139,wage_markup,Consumption,hpd70_upper,19,-0.043681
+17,139,wage_markup,Consumption,hpd70_upper,20,-0.042353
+17,139,wage_markup,Consumption,hpd90_lower,1,-0.081915
+17,139,wage_markup,Consumption,hpd90_lower,2,-0.166690
+17,139,wage_markup,Consumption,hpd90_lower,3,-0.225864
+17,139,wage_markup,Consumption,hpd90_lower,4,-0.241490
+17,139,wage_markup,Consumption,hpd90_lower,5,-0.233843
+17,139,wage_markup,Consumption,hpd90_lower,6,-0.213230
+17,139,wage_markup,Consumption,hpd90_lower,7,-0.190291
+17,139,wage_markup,Consumption,hpd90_lower,8,-0.169346
+17,139,wage_markup,Consumption,hpd90_lower,9,-0.150397
+17,139,wage_markup,Consumption,hpd90_lower,10,-0.136434
+17,139,wage_markup,Consumption,hpd90_lower,11,-0.126461
+17,139,wage_markup,Consumption,hpd90_lower,12,-0.115825
+17,139,wage_markup,Consumption,hpd90_lower,13,-0.109175
+17,139,wage_markup,Consumption,hpd90_lower,14,-0.104188
+17,139,wage_markup,Consumption,hpd90_lower,15,-0.099201
+17,139,wage_markup,Consumption,hpd90_lower,16,-0.094215
+17,139,wage_markup,Consumption,hpd90_lower,17,-0.089559
+17,139,wage_markup,Consumption,hpd90_lower,18,-0.086236
+17,139,wage_markup,Consumption,hpd90_lower,19,-0.082913
+17,139,wage_markup,Consumption,hpd90_lower,20,-0.080583
+17,139,wage_markup,Consumption,hpd90_upper,1,-0.009772
+17,139,wage_markup,Consumption,hpd90_upper,2,-0.034043
+17,139,wage_markup,Consumption,hpd90_upper,3,-0.058641
+17,139,wage_markup,Consumption,hpd90_upper,4,-0.074934
+17,139,wage_markup,Consumption,hpd90_upper,5,-0.078257
+17,139,wage_markup,Consumption,hpd90_upper,6,-0.074268
+17,139,wage_markup,Consumption,hpd90_upper,7,-0.066620
+17,139,wage_markup,Consumption,hpd90_upper,8,-0.060305
+17,139,wage_markup,Consumption,hpd90_upper,9,-0.055649
+17,139,wage_markup,Consumption,hpd90_upper,10,-0.054321
+17,139,wage_markup,Consumption,hpd90_upper,11,-0.050663
+17,139,wage_markup,Consumption,hpd90_upper,12,-0.046342
+17,139,wage_markup,Consumption,hpd90_upper,13,-0.043681
+17,139,wage_markup,Consumption,hpd90_upper,14,-0.041355
+17,139,wage_markup,Consumption,hpd90_upper,15,-0.039361
+17,139,wage_markup,Consumption,hpd90_upper,16,-0.037366
+17,139,wage_markup,Consumption,hpd90_upper,17,-0.036038
+17,139,wage_markup,Consumption,hpd90_upper,18,-0.034705
+17,139,wage_markup,Consumption,hpd90_upper,19,-0.033377
+17,139,wage_markup,Consumption,hpd90_upper,20,-0.032710
+17,139,wage_markup,Fixed investment,mean,1,-0.111969
+17,139,wage_markup,Fixed investment,mean,2,-0.165825
+17,139,wage_markup,Fixed investment,mean,3,-0.226328
+17,139,wage_markup,Fixed investment,mean,4,-0.249602
+17,139,wage_markup,Fixed investment,mean,5,-0.266222
+17,139,wage_markup,Fixed investment,mean,6,-0.267554
+17,139,wage_markup,Fixed investment,mean,7,-0.266884
+17,139,wage_markup,Fixed investment,mean,8,-0.262233
+17,139,wage_markup,Fixed investment,mean,9,-0.256249
+17,139,wage_markup,Fixed investment,mean,10,-0.248932
+17,139,wage_markup,Fixed investment,mean,11,-0.240291
+17,139,wage_markup,Fixed investment,mean,12,-0.229655
+17,139,wage_markup,Fixed investment,mean,13,-0.218350
+17,139,wage_markup,Fixed investment,mean,14,-0.205719
+17,139,wage_markup,Fixed investment,mean,15,-0.192419
+17,139,wage_markup,Fixed investment,mean,16,-0.179118
+17,139,wage_markup,Fixed investment,mean,17,-0.165155
+17,139,wage_markup,Fixed investment,mean,18,-0.151192
+17,139,wage_markup,Fixed investment,mean,19,-0.137900
+17,139,wage_markup,Fixed investment,mean,20,-0.124599
+17,139,wage_markup,Fixed investment,hpd70_lower,1,-0.140557
+17,139,wage_markup,Fixed investment,hpd70_lower,2,-0.201730
+17,139,wage_markup,Fixed investment,hpd70_lower,3,-0.274863
+17,139,wage_markup,Fixed investment,hpd70_lower,4,-0.303459
+17,139,wage_markup,Fixed investment,hpd70_lower,5,-0.322735
+17,139,wage_markup,Fixed investment,hpd70_lower,6,-0.320741
+17,139,wage_markup,Fixed investment,hpd70_lower,7,-0.316751
+17,139,wage_markup,Fixed investment,hpd70_lower,8,-0.312762
+17,139,wage_markup,Fixed investment,hpd70_lower,9,-0.304783
+17,139,wage_markup,Fixed investment,hpd70_lower,10,-0.290158
+17,139,wage_markup,Fixed investment,hpd70_lower,11,-0.278852
+17,139,wage_markup,Fixed investment,hpd70_lower,12,-0.262233
+17,139,wage_markup,Fixed investment,hpd70_lower,13,-0.247608
+17,139,wage_markup,Fixed investment,hpd70_lower,14,-0.234307
+17,139,wage_markup,Fixed investment,hpd70_lower,15,-0.218350
+17,139,wage_markup,Fixed investment,hpd70_lower,16,-0.203054
+17,139,wage_markup,Fixed investment,hpd70_lower,17,-0.189091
+17,139,wage_markup,Fixed investment,hpd70_lower,18,-0.173134
+17,139,wage_markup,Fixed investment,hpd70_lower,19,-0.157176
+17,139,wage_markup,Fixed investment,hpd70_lower,20,-0.140557
+17,139,wage_markup,Fixed investment,hpd70_upper,1,-0.082049
+17,139,wage_markup,Fixed investment,hpd70_upper,2,-0.119948
+17,139,wage_markup,Fixed investment,hpd70_upper,3,-0.163161
+17,139,wage_markup,Fixed investment,hpd70_upper,4,-0.181113
+17,139,wage_markup,Fixed investment,hpd70_upper,5,-0.195746
+17,139,wage_markup,Fixed investment,hpd70_upper,6,-0.200397
+17,139,wage_markup,Fixed investment,hpd70_upper,7,-0.203724
+17,139,wage_markup,Fixed investment,hpd70_upper,8,-0.200397
+17,139,wage_markup,Fixed investment,hpd70_upper,9,-0.197740
+17,139,wage_markup,Fixed investment,hpd70_upper,10,-0.193081
+17,139,wage_markup,Fixed investment,hpd70_upper,11,-0.187097
+17,139,wage_markup,Fixed investment,hpd70_upper,12,-0.178456
+17,139,wage_markup,Fixed investment,hpd70_upper,13,-0.168482
+17,139,wage_markup,Fixed investment,hpd70_upper,14,-0.159841
+17,139,wage_markup,Fixed investment,hpd70_upper,15,-0.148536
+17,139,wage_markup,Fixed investment,hpd70_upper,16,-0.136567
+17,139,wage_markup,Fixed investment,hpd70_upper,17,-0.122605
+17,139,wage_markup,Fixed investment,hpd70_upper,18,-0.110636
+17,139,wage_markup,Fixed investment,hpd70_upper,19,-0.098668
+17,139,wage_markup,Fixed investment,hpd70_upper,20,-0.087362
+17,139,wage_markup,Fixed investment,hpd90_lower,1,-0.190424
+17,139,wage_markup,Fixed investment,hpd90_lower,2,-0.264227
+17,139,wage_markup,Fixed investment,hpd90_lower,3,-0.363299
+17,139,wage_markup,Fixed investment,hpd90_lower,4,-0.397209
+17,139,wage_markup,Fixed investment,hpd90_lower,5,-0.425135
+17,139,wage_markup,Fixed investment,hpd90_lower,6,-0.426459
+17,139,wage_markup,Fixed investment,hpd90_lower,7,-0.428454
+17,139,wage_markup,Fixed investment,hpd90_lower,8,-0.409839
+17,139,wage_markup,Fixed investment,hpd90_lower,9,-0.389230
+17,139,wage_markup,Fixed investment,hpd90_lower,10,-0.368613
+17,139,wage_markup,Fixed investment,hpd90_lower,11,-0.349337
+17,139,wage_markup,Fixed investment,hpd90_lower,12,-0.338693
+17,139,wage_markup,Fixed investment,hpd90_lower,13,-0.314757
+17,139,wage_markup,Fixed investment,hpd90_lower,14,-0.300794
+17,139,wage_markup,Fixed investment,hpd90_lower,15,-0.280185
+17,139,wage_markup,Fixed investment,hpd90_lower,16,-0.268879
+17,139,wage_markup,Fixed investment,hpd90_lower,17,-0.253592
+17,139,wage_markup,Fixed investment,hpd90_lower,18,-0.236964
+17,139,wage_markup,Fixed investment,hpd90_lower,19,-0.223001
+17,139,wage_markup,Fixed investment,hpd90_lower,20,-0.208376
+17,139,wage_markup,Fixed investment,hpd90_upper,1,-0.038828
+17,139,wage_markup,Fixed investment,hpd90_upper,2,-0.070743
+17,139,wage_markup,Fixed investment,hpd90_upper,3,-0.099331
+17,139,wage_markup,Fixed investment,hpd90_upper,4,-0.115958
+17,139,wage_markup,Fixed investment,hpd90_upper,5,-0.128589
+17,139,wage_markup,Fixed investment,hpd90_upper,6,-0.133910
+17,139,wage_markup,Fixed investment,hpd90_upper,7,-0.141889
+17,139,wage_markup,Fixed investment,hpd90_upper,8,-0.146541
+17,139,wage_markup,Fixed investment,hpd90_upper,9,-0.147873
+17,139,wage_markup,Fixed investment,hpd90_upper,10,-0.147203
+17,139,wage_markup,Fixed investment,hpd90_upper,11,-0.145208
+17,139,wage_markup,Fixed investment,hpd90_upper,12,-0.139895
+17,139,wage_markup,Fixed investment,hpd90_upper,13,-0.132578
+17,139,wage_markup,Fixed investment,hpd90_upper,14,-0.124599
+17,139,wage_markup,Fixed investment,hpd90_upper,15,-0.113293
+17,139,wage_markup,Fixed investment,hpd90_upper,16,-0.102658
+17,139,wage_markup,Fixed investment,hpd90_upper,17,-0.091352
+17,139,wage_markup,Fixed investment,hpd90_upper,18,-0.080716
+17,139,wage_markup,Fixed investment,hpd90_upper,19,-0.071405
+17,139,wage_markup,Fixed investment,hpd90_upper,20,-0.062102
+17,139,wage_markup,Exports,mean,1,-0.110560
+17,139,wage_markup,Exports,mean,2,-0.264042
+17,139,wage_markup,Exports,mean,3,-0.388819
+17,139,wage_markup,Exports,mean,4,-0.451215
+17,139,wage_markup,Exports,mean,5,-0.446214
+17,139,wage_markup,Exports,mean,6,-0.392562
+17,139,wage_markup,Exports,mean,7,-0.313950
+17,139,wage_markup,Exports,mean,8,-0.230351
+17,139,wage_markup,Exports,mean,9,-0.154223
+17,139,wage_markup,Exports,mean,10,-0.091842
+17,139,wage_markup,Exports,mean,11,-0.045663
+17,139,wage_markup,Exports,mean,12,-0.011972
+17,139,wage_markup,Exports,mean,13,0.009231
+17,139,wage_markup,Exports,mean,14,0.021720
+17,139,wage_markup,Exports,mean,15,0.029207
+17,139,wage_markup,Exports,mean,16,0.031692
+17,139,wage_markup,Exports,mean,17,0.030449
+17,139,wage_markup,Exports,mean,18,0.029207
+17,139,wage_markup,Exports,mean,19,0.025463
+17,139,wage_markup,Exports,mean,20,0.021720
+17,139,wage_markup,Exports,hpd70_lower,1,-0.128019
+17,139,wage_markup,Exports,hpd70_lower,2,-0.303962
+17,139,wage_markup,Exports,hpd70_lower,3,-0.447472
+17,139,wage_markup,Exports,hpd70_lower,4,-0.517340
+17,139,wage_markup,Exports,hpd70_lower,5,-0.506109
+17,139,wage_markup,Exports,hpd70_lower,6,-0.447472
+17,139,wage_markup,Exports,hpd70_lower,7,-0.360114
+17,139,wage_markup,Exports,hpd70_lower,8,-0.271529
+17,139,wage_markup,Exports,hpd70_lower,9,-0.192916
+17,139,wage_markup,Exports,hpd70_lower,10,-0.124276
+17,139,wage_markup,Exports,hpd70_lower,11,-0.068124
+17,139,wage_markup,Exports,hpd70_lower,12,-0.026945
+17,139,wage_markup,Exports,hpd70_lower,13,-0.003242
+17,139,wage_markup,Exports,hpd70_lower,14,0.010489
+17,139,wage_markup,Exports,hpd70_lower,15,0.015475
+17,139,wage_markup,Exports,hpd70_lower,16,0.017976
+17,139,wage_markup,Exports,hpd70_lower,17,0.017976
+17,139,wage_markup,Exports,hpd70_lower,18,0.015475
+17,139,wage_markup,Exports,hpd70_lower,19,0.012975
+17,139,wage_markup,Exports,hpd70_lower,20,0.010489
+17,139,wage_markup,Exports,hpd70_upper,1,-0.084355
+17,139,wage_markup,Exports,hpd70_upper,2,-0.207890
+17,139,wage_markup,Exports,hpd70_upper,3,-0.310206
+17,139,wage_markup,Exports,hpd70_upper,4,-0.370102
+17,139,wage_markup,Exports,hpd70_upper,5,-0.363858
+17,139,wage_markup,Exports,hpd70_upper,6,-0.311449
+17,139,wage_markup,Exports,hpd70_upper,7,-0.236580
+17,139,wage_markup,Exports,hpd70_upper,8,-0.164211
+17,139,wage_markup,Exports,hpd70_upper,9,-0.101815
+17,139,wage_markup,Exports,hpd70_upper,10,-0.046921
+17,139,wage_markup,Exports,hpd70_upper,11,-0.010729
+17,139,wage_markup,Exports,hpd70_upper,12,0.012975
+17,139,wage_markup,Exports,hpd70_upper,13,0.029207
+17,139,wage_markup,Exports,hpd70_upper,14,0.036693
+17,139,wage_markup,Exports,hpd70_upper,15,0.040437
+17,139,wage_markup,Exports,hpd70_upper,16,0.041680
+17,139,wage_markup,Exports,hpd70_upper,17,0.039179
+17,139,wage_markup,Exports,hpd70_upper,18,0.036693
+17,139,wage_markup,Exports,hpd70_upper,19,0.032950
+17,139,wage_markup,Exports,hpd70_upper,20,0.027949
+17,139,wage_markup,Exports,hpd90_lower,1,-0.167954
+17,139,wage_markup,Exports,hpd90_lower,2,-0.391320
+17,139,wage_markup,Exports,hpd90_lower,3,-0.558518
+17,139,wage_markup,Exports,hpd90_lower,4,-0.639631
+17,139,wage_markup,Exports,hpd90_lower,5,-0.639631
+17,139,wage_markup,Exports,hpd90_lower,6,-0.578493
+17,139,wage_markup,Exports,hpd90_lower,7,-0.483649
+17,139,wage_markup,Exports,hpd90_lower,8,-0.380089
+17,139,wage_markup,Exports,hpd90_lower,9,-0.274014
+17,139,wage_markup,Exports,hpd90_lower,10,-0.194159
+17,139,wage_markup,Exports,hpd90_lower,11,-0.129277
+17,139,wage_markup,Exports,hpd90_lower,12,-0.073125
+17,139,wage_markup,Exports,hpd90_lower,13,-0.040677
+17,139,wage_markup,Exports,hpd90_lower,14,-0.018216
+17,139,wage_markup,Exports,hpd90_lower,15,-0.001999
+17,139,wage_markup,Exports,hpd90_lower,16,0.004245
+17,139,wage_markup,Exports,hpd90_lower,17,0.005488
+17,139,wage_markup,Exports,hpd90_lower,18,0.004245
+17,139,wage_markup,Exports,hpd90_lower,19,0.001744
+17,139,wage_markup,Exports,hpd90_lower,20,-0.000741
+17,139,wage_markup,Exports,hpd90_upper,1,-0.059394
+17,139,wage_markup,Exports,hpd90_upper,2,-0.150480
+17,139,wage_markup,Exports,hpd90_upper,3,-0.234094
+17,139,wage_markup,Exports,hpd90_upper,4,-0.280258
+17,139,wage_markup,Exports,hpd90_upper,5,-0.280258
+17,139,wage_markup,Exports,hpd90_upper,6,-0.245324
+17,139,wage_markup,Exports,hpd90_upper,7,-0.175441
+17,139,wage_markup,Exports,hpd90_upper,8,-0.099329
+17,139,wage_markup,Exports,hpd90_upper,9,-0.046921
+17,139,wage_markup,Exports,hpd90_upper,10,-0.005742
+17,139,wage_markup,Exports,hpd90_upper,11,0.020462
+17,139,wage_markup,Exports,hpd90_upper,12,0.036693
+17,139,wage_markup,Exports,hpd90_upper,13,0.047924
+17,139,wage_markup,Exports,hpd90_upper,14,0.054153
+17,139,wage_markup,Exports,hpd90_upper,15,0.060397
+17,139,wage_markup,Exports,hpd90_upper,16,0.062898
+17,139,wage_markup,Exports,hpd90_upper,17,0.064141
+17,139,wage_markup,Exports,hpd90_upper,18,0.061640
+17,139,wage_markup,Exports,hpd90_upper,19,0.056654
+17,139,wage_markup,Exports,hpd90_upper,20,0.051667
+17,139,wage_markup,Imports,mean,1,0.169254
+17,139,wage_markup,Imports,mean,2,0.271748
+17,139,wage_markup,Imports,mean,3,0.263098
+17,139,wage_markup,Imports,mean,4,0.195211
+17,139,wage_markup,Imports,mean,5,0.104027
+17,139,wage_markup,Imports,mean,6,0.020829
+17,139,wage_markup,Imports,mean,7,-0.043728
+17,139,wage_markup,Imports,mean,8,-0.085659
+17,139,wage_markup,Imports,mean,9,-0.108285
+17,139,wage_markup,Imports,mean,10,-0.117606
+17,139,wage_markup,Imports,mean,11,-0.118268
+17,139,wage_markup,Imports,mean,12,-0.114275
+17,139,wage_markup,Imports,mean,13,-0.106959
+17,139,wage_markup,Imports,mean,14,-0.098973
+17,139,wage_markup,Imports,mean,15,-0.090986
+17,139,wage_markup,Imports,mean,16,-0.083662
+17,139,wage_markup,Imports,mean,17,-0.076338
+17,139,wage_markup,Imports,mean,18,-0.069022
+17,139,wage_markup,Imports,mean,19,-0.063032
+17,139,wage_markup,Imports,mean,20,-0.057042
+17,139,wage_markup,Imports,hpd70_lower,1,0.140630
+17,139,wage_markup,Imports,hpd70_lower,2,0.222494
+17,139,wage_markup,Imports,hpd70_lower,3,0.205195
+17,139,wage_markup,Imports,hpd70_lower,4,0.137970
+17,139,wage_markup,Imports,hpd70_lower,5,0.056769
+17,139,wage_markup,Imports,hpd70_lower,6,-0.019768
+17,139,wage_markup,Imports,hpd70_lower,7,-0.077009
+17,139,wage_markup,Imports,hpd70_lower,8,-0.112949
+17,139,wage_markup,Imports,hpd70_lower,9,-0.132916
+17,139,wage_markup,Imports,hpd70_lower,10,-0.138235
+17,139,wage_markup,Imports,hpd70_lower,11,-0.136910
+17,139,wage_markup,Imports,hpd70_lower,12,-0.131582
+17,139,wage_markup,Imports,hpd70_lower,13,-0.122933
+17,139,wage_markup,Imports,hpd70_lower,14,-0.113612
+17,139,wage_markup,Imports,hpd70_lower,15,-0.102966
+17,139,wage_markup,Imports,hpd70_lower,16,-0.093645
+17,139,wage_markup,Imports,hpd70_lower,17,-0.085659
+17,139,wage_markup,Imports,hpd70_lower,18,-0.077672
+17,139,wage_markup,Imports,hpd70_lower,19,-0.071019
+17,139,wage_markup,Imports,hpd70_lower,20,-0.065029
+17,139,wage_markup,Imports,hpd70_upper,1,0.195211
+17,139,wage_markup,Imports,hpd70_upper,2,0.307026
+17,139,wage_markup,Imports,hpd70_upper,3,0.302361
+17,139,wage_markup,Imports,hpd70_upper,4,0.231814
+17,139,wage_markup,Imports,hpd70_upper,5,0.133977
+17,139,wage_markup,Imports,hpd70_upper,6,0.046786
+17,139,wage_markup,Imports,hpd70_upper,7,-0.022428
+17,139,wage_markup,Imports,hpd70_upper,8,-0.065692
+17,139,wage_markup,Imports,hpd70_upper,9,-0.088989
+17,139,wage_markup,Imports,hpd70_upper,10,-0.098302
+17,139,wage_markup,Imports,hpd70_upper,11,-0.096976
+17,139,wage_markup,Imports,hpd70_upper,12,-0.091649
+17,139,wage_markup,Imports,hpd70_upper,13,-0.083662
+17,139,wage_markup,Imports,hpd70_upper,14,-0.076338
+17,139,wage_markup,Imports,hpd70_upper,15,-0.068351
+17,139,wage_markup,Imports,hpd70_upper,16,-0.061698
+17,139,wage_markup,Imports,hpd70_upper,17,-0.054375
+17,139,wage_markup,Imports,hpd70_upper,18,-0.048384
+17,139,wage_markup,Imports,hpd70_upper,19,-0.043728
+17,139,wage_markup,Imports,hpd70_upper,20,-0.039072
+17,139,wage_markup,Imports,hpd90_lower,1,0.098699
+17,139,wage_markup,Imports,hpd90_lower,2,0.161930
+17,139,wage_markup,Imports,hpd90_lower,3,0.149287
+17,139,wage_markup,Imports,hpd90_lower,4,0.088053
+17,139,wage_markup,Imports,hpd90_lower,5,0.010182
+17,139,wage_markup,Imports,hpd90_lower,6,-0.059702
+17,139,wage_markup,Imports,hpd90_lower,7,-0.114275
+17,139,wage_markup,Imports,hpd90_lower,8,-0.146222
+17,139,wage_markup,Imports,hpd90_lower,9,-0.162866
+17,139,wage_markup,Imports,hpd90_lower,10,-0.166860
+17,139,wage_markup,Imports,hpd90_lower,11,-0.169519
+17,139,wage_markup,Imports,hpd90_lower,12,-0.164192
+17,139,wage_markup,Imports,hpd90_lower,13,-0.159536
+17,139,wage_markup,Imports,hpd90_lower,14,-0.149553
+17,139,wage_markup,Imports,hpd90_lower,15,-0.139569
+17,139,wage_markup,Imports,hpd90_lower,16,-0.132916
+17,139,wage_markup,Imports,hpd90_lower,17,-0.124259
+17,139,wage_markup,Imports,hpd90_lower,18,-0.113612
+17,139,wage_markup,Imports,hpd90_lower,19,-0.103629
+17,139,wage_markup,Imports,hpd90_lower,20,-0.094979
+17,139,wage_markup,Imports,hpd90_upper,1,0.243795
+17,139,wage_markup,Imports,hpd90_upper,2,0.385559
+17,139,wage_markup,Imports,hpd90_upper,3,0.404192
+17,139,wage_markup,Imports,hpd90_upper,4,0.324325
+17,139,wage_markup,Imports,hpd90_upper,5,0.217838
+17,139,wage_markup,Imports,hpd90_upper,6,0.119337
+17,139,wage_markup,Imports,hpd90_upper,7,0.043463
+17,139,wage_markup,Imports,hpd90_upper,8,-0.015775
+17,139,wage_markup,Imports,hpd90_upper,9,-0.055045
+17,139,wage_markup,Imports,hpd90_upper,10,-0.067688
+17,139,wage_markup,Imports,hpd90_upper,11,-0.071019
+17,139,wage_markup,Imports,hpd90_upper,12,-0.068351
+17,139,wage_markup,Imports,hpd90_upper,13,-0.061035
+17,139,wage_markup,Imports,hpd90_upper,14,-0.055045
+17,139,wage_markup,Imports,hpd90_upper,15,-0.049055
+17,139,wage_markup,Imports,hpd90_upper,16,-0.043065
+17,139,wage_markup,Imports,hpd90_upper,17,-0.039072
+17,139,wage_markup,Imports,hpd90_upper,18,-0.035079
+17,139,wage_markup,Imports,hpd90_upper,19,-0.031748
+17,139,wage_markup,Imports,hpd90_upper,20,-0.028418
+17,139,wage_markup,Hours worked,mean,1,-0.182162
+17,139,wage_markup,Hours worked,mean,2,-0.341234
+17,139,wage_markup,Hours worked,mean,3,-0.428418
+17,139,wage_markup,Hours worked,mean,4,-0.434408
+17,139,wage_markup,Hours worked,mean,5,-0.387821
+17,139,wage_markup,Hours worked,mean,6,-0.314607
+17,139,wage_markup,Hours worked,mean,7,-0.238733
+17,139,wage_markup,Hours worked,mean,8,-0.171516
+17,139,wage_markup,Hours worked,mean,9,-0.117606
+17,139,wage_markup,Hours worked,mean,10,-0.078335
+17,139,wage_markup,Hours worked,mean,11,-0.050381
+17,139,wage_markup,Hours worked,mean,12,-0.031077
+17,139,wage_markup,Hours worked,mean,13,-0.017771
+17,139,wage_markup,Hours worked,mean,14,-0.009114
+17,139,wage_markup,Hours worked,mean,15,-0.003795
+17,139,wage_markup,Hours worked,mean,16,0.000199
+17,139,wage_markup,Hours worked,mean,17,0.002866
+17,139,wage_markup,Hours worked,mean,18,0.004863
+17,139,wage_markup,Hours worked,mean,19,0.006189
+17,139,wage_markup,Hours worked,mean,20,0.006860
+17,139,wage_markup,Hours worked,hpd70_lower,1,-0.212776
+17,139,wage_markup,Hours worked,hpd70_lower,2,-0.391151
+17,139,wage_markup,Hours worked,hpd70_lower,3,-0.484325
+17,139,wage_markup,Hours worked,hpd70_lower,4,-0.499635
+17,139,wage_markup,Hours worked,hpd70_lower,5,-0.443728
+17,139,wage_markup,Hours worked,hpd70_lower,6,-0.360530
+17,139,wage_markup,Hours worked,hpd70_lower,7,-0.276670
+17,139,wage_markup,Hours worked,hpd70_lower,8,-0.201466
+17,139,wage_markup,Hours worked,hpd70_lower,9,-0.145559
+17,139,wage_markup,Hours worked,hpd70_lower,10,-0.098965
+17,139,wage_markup,Hours worked,hpd70_lower,11,-0.064358
+17,139,wage_markup,Hours worked,hpd70_lower,12,-0.040398
+17,139,wage_markup,Hours worked,hpd70_lower,13,-0.024424
+17,139,wage_markup,Hours worked,hpd70_lower,14,-0.013778
+17,139,wage_markup,Hours worked,hpd70_lower,15,-0.005791
+17,139,wage_markup,Hours worked,hpd70_lower,16,-0.000464
+17,139,wage_markup,Hours worked,hpd70_lower,17,0.002866
+17,139,wage_markup,Hours worked,hpd70_lower,18,0.004863
+17,139,wage_markup,Hours worked,hpd70_lower,19,0.005526
+17,139,wage_markup,Hours worked,hpd70_lower,20,0.006189
+17,139,wage_markup,Hours worked,hpd70_upper,1,-0.150878
+17,139,wage_markup,Hours worked,hpd70_upper,2,-0.289983
+17,139,wage_markup,Hours worked,hpd70_upper,3,-0.367854
+17,139,wage_markup,Hours worked,hpd70_upper,4,-0.373181
+17,139,wage_markup,Hours worked,hpd70_upper,5,-0.325261
+17,139,wage_markup,Hours worked,hpd70_upper,6,-0.254043
+17,139,wage_markup,Hours worked,hpd70_upper,7,-0.183496
+17,139,wage_markup,Hours worked,hpd70_upper,8,-0.122262
+17,139,wage_markup,Hours worked,hpd70_upper,9,-0.078998
+17,139,wage_markup,Hours worked,hpd70_upper,10,-0.047722
+17,139,wage_markup,Hours worked,hpd70_upper,11,-0.024424
+17,139,wage_markup,Hours worked,hpd70_upper,12,-0.011110
+17,139,wage_markup,Hours worked,hpd70_upper,13,-0.002461
+17,139,wage_markup,Hours worked,hpd70_upper,14,0.002196
+17,139,wage_markup,Hours worked,hpd70_upper,15,0.004863
+17,139,wage_markup,Hours worked,hpd70_upper,16,0.006189
+17,139,wage_markup,Hours worked,hpd70_upper,17,0.006860
+17,139,wage_markup,Hours worked,hpd70_upper,18,0.008186
+17,139,wage_markup,Hours worked,hpd70_upper,19,0.008856
+17,139,wage_markup,Hours worked,hpd70_upper,20,0.008856
+17,139,wage_markup,Hours worked,hpd90_lower,1,-0.256703
+17,139,wage_markup,Hours worked,hpd90_lower,2,-0.474341
+17,139,wage_markup,Hours worked,hpd90_lower,3,-0.591483
+17,139,wage_markup,Hours worked,hpd90_lower,4,-0.588823
+17,139,wage_markup,Hours worked,hpd90_lower,5,-0.539569
+17,139,wage_markup,Hours worked,hpd90_lower,6,-0.443728
+17,139,wage_markup,Hours worked,hpd90_lower,7,-0.355874
+17,139,wage_markup,Hours worked,hpd90_lower,8,-0.272013
+17,139,wage_markup,Hours worked,hpd90_lower,9,-0.200795
+17,139,wage_markup,Hours worked,hpd90_lower,10,-0.146222
+17,139,wage_markup,Hours worked,hpd90_lower,11,-0.104292
+17,139,wage_markup,Hours worked,hpd90_lower,12,-0.071011
+17,139,wage_markup,Hours worked,hpd90_lower,13,-0.049047
+17,139,wage_markup,Hours worked,hpd90_lower,14,-0.033074
+17,139,wage_markup,Hours worked,hpd90_lower,15,-0.020431
+17,139,wage_markup,Hours worked,hpd90_lower,16,-0.011781
+17,139,wage_markup,Hours worked,hpd90_lower,17,-0.005120
+17,139,wage_markup,Hours worked,hpd90_lower,18,-0.001127
+17,139,wage_markup,Hours worked,hpd90_lower,19,0.002196
+17,139,wage_markup,Hours worked,hpd90_lower,20,0.004192
+17,139,wage_markup,Hours worked,hpd90_upper,1,-0.111616
+17,139,wage_markup,Hours worked,hpd90_upper,2,-0.218103
+17,139,wage_markup,Hours worked,hpd90_upper,3,-0.279337
+17,139,wage_markup,Hours worked,hpd90_upper,4,-0.289321
+17,139,wage_markup,Hours worked,hpd90_upper,5,-0.251384
+17,139,wage_markup,Hours worked,hpd90_upper,6,-0.196139
+17,139,wage_markup,Hours worked,hpd90_upper,7,-0.136902
+17,139,wage_markup,Hours worked,hpd90_upper,8,-0.085659
+17,139,wage_markup,Hours worked,hpd90_upper,9,-0.045725
+17,139,wage_markup,Hours worked,hpd90_upper,10,-0.020431
+17,139,wage_markup,Hours worked,hpd90_upper,11,-0.007117
+17,139,wage_markup,Hours worked,hpd90_upper,12,0.000199
+17,139,wage_markup,Hours worked,hpd90_upper,13,0.004192
+17,139,wage_markup,Hours worked,hpd90_upper,14,0.006189
+17,139,wage_markup,Hours worked,hpd90_upper,15,0.007523
+17,139,wage_markup,Hours worked,hpd90_upper,16,0.008856
+17,139,wage_markup,Hours worked,hpd90_upper,17,0.008856
+17,139,wage_markup,Hours worked,hpd90_upper,18,0.009519
+17,139,wage_markup,Hours worked,hpd90_upper,19,0.010182
+17,139,wage_markup,Hours worked,hpd90_upper,20,0.010853
+17,139,wage_markup,Interest rate,mean,1,0.077061
+17,139,wage_markup,Interest rate,mean,2,0.149867
+17,139,wage_markup,Interest rate,mean,3,0.211035
+17,139,wage_markup,Interest rate,mean,4,0.202394
+17,139,wage_markup,Interest rate,mean,5,0.155851
+17,139,wage_markup,Interest rate,mean,6,0.105653
+17,139,wage_markup,Interest rate,mean,7,0.068416
+17,139,wage_markup,Interest rate,mean,8,0.045812
+17,139,wage_markup,Interest rate,mean,9,0.034175
+17,139,wage_markup,Interest rate,mean,10,0.029189
+17,139,wage_markup,Interest rate,mean,11,0.026528
+17,139,wage_markup,Interest rate,mean,12,0.025199
+17,139,wage_markup,Interest rate,mean,13,0.024202
+17,139,wage_markup,Interest rate,mean,14,0.023204
+17,139,wage_markup,Interest rate,mean,15,0.021876
+17,139,wage_markup,Interest rate,mean,16,0.020879
+17,139,wage_markup,Interest rate,mean,17,0.019881
+17,139,wage_markup,Interest rate,mean,18,0.018884
+17,139,wage_markup,Interest rate,mean,19,0.017887
+17,139,wage_markup,Interest rate,mean,20,0.017220
+17,139,wage_markup,Interest rate,hpd70_lower,1,0.059775
+17,139,wage_markup,Interest rate,hpd70_lower,2,0.119280
+17,139,wage_markup,Interest rate,hpd70_lower,3,0.169482
+17,139,wage_markup,Interest rate,hpd70_lower,4,0.161835
+17,139,wage_markup,Interest rate,hpd70_lower,5,0.120277
+17,139,wage_markup,Interest rate,hpd70_lower,6,0.075066
+17,139,wage_markup,Interest rate,hpd70_lower,7,0.045477
+17,139,wage_markup,Interest rate,hpd70_lower,8,0.027194
+17,139,wage_markup,Interest rate,hpd70_lower,9,0.020879
+17,139,wage_markup,Interest rate,hpd70_lower,10,0.018884
+17,139,wage_markup,Interest rate,hpd70_lower,11,0.018549
+17,139,wage_markup,Interest rate,hpd70_lower,12,0.017887
+17,139,wage_markup,Interest rate,hpd70_lower,13,0.016889
+17,139,wage_markup,Interest rate,hpd70_lower,14,0.015892
+17,139,wage_markup,Interest rate,hpd70_lower,15,0.015226
+17,139,wage_markup,Interest rate,hpd70_lower,16,0.014560
+17,139,wage_markup,Interest rate,hpd70_lower,17,0.013897
+17,139,wage_markup,Interest rate,hpd70_lower,18,0.013562
+17,139,wage_markup,Interest rate,hpd70_lower,19,0.012900
+17,139,wage_markup,Interest rate,hpd70_lower,20,0.012565
+17,139,wage_markup,Interest rate,hpd70_upper,1,0.090692
+17,139,wage_markup,Interest rate,hpd70_upper,2,0.178123
+17,139,wage_markup,Interest rate,hpd70_upper,3,0.249269
+17,139,wage_markup,Interest rate,hpd70_upper,4,0.237632
+17,139,wage_markup,Interest rate,hpd70_upper,5,0.184107
+17,139,wage_markup,Interest rate,hpd70_upper,6,0.131248
+17,139,wage_markup,Interest rate,hpd70_upper,7,0.091024
+17,139,wage_markup,Interest rate,hpd70_upper,8,0.060106
+17,139,wage_markup,Interest rate,hpd70_upper,9,0.044149
+17,139,wage_markup,Interest rate,hpd70_upper,10,0.034841
+17,139,wage_markup,Interest rate,hpd70_upper,11,0.030517
+17,139,wage_markup,Interest rate,hpd70_upper,12,0.029855
+17,139,wage_markup,Interest rate,hpd70_upper,13,0.029189
+17,139,wage_markup,Interest rate,hpd70_upper,14,0.026863
+17,139,wage_markup,Interest rate,hpd70_upper,15,0.025865
+17,139,wage_markup,Interest rate,hpd70_upper,16,0.024533
+17,139,wage_markup,Interest rate,hpd70_upper,17,0.022873
+17,139,wage_markup,Interest rate,hpd70_upper,18,0.021876
+17,139,wage_markup,Interest rate,hpd70_upper,19,0.020544
+17,139,wage_markup,Interest rate,hpd70_upper,20,0.019546
+17,139,wage_markup,Interest rate,hpd90_lower,1,0.041157
+17,139,wage_markup,Interest rate,hpd90_lower,2,0.084708
+17,139,wage_markup,Interest rate,hpd90_lower,3,0.121610
+17,139,wage_markup,Interest rate,hpd90_lower,4,0.120944
+17,139,wage_markup,Interest rate,hpd90_lower,5,0.085371
+17,139,wage_markup,Interest rate,hpd90_lower,6,0.045477
+17,139,wage_markup,Interest rate,hpd90_lower,7,0.018549
+17,139,wage_markup,Interest rate,hpd90_lower,8,0.007578
+17,139,wage_markup,Interest rate,hpd90_lower,9,0.007578
+17,139,wage_markup,Interest rate,hpd90_lower,10,0.009573
+17,139,wage_markup,Interest rate,hpd90_lower,11,0.010570
+17,139,wage_markup,Interest rate,hpd90_lower,12,0.010239
+17,139,wage_markup,Interest rate,hpd90_lower,13,0.010239
+17,139,wage_markup,Interest rate,hpd90_lower,14,0.010239
+17,139,wage_markup,Interest rate,hpd90_lower,15,0.010239
+17,139,wage_markup,Interest rate,hpd90_lower,16,0.009908
+17,139,wage_markup,Interest rate,hpd90_lower,17,0.009908
+17,139,wage_markup,Interest rate,hpd90_lower,18,0.009573
+17,139,wage_markup,Interest rate,hpd90_lower,19,0.009242
+17,139,wage_markup,Interest rate,hpd90_lower,20,0.008911
+17,139,wage_markup,Interest rate,hpd90_upper,1,0.117621
+17,139,wage_markup,Interest rate,hpd90_upper,2,0.220678
+17,139,wage_markup,Interest rate,hpd90_upper,3,0.309772
+17,139,wage_markup,Interest rate,hpd90_upper,4,0.295809
+17,139,wage_markup,Interest rate,hpd90_upper,5,0.233974
+17,139,wage_markup,Interest rate,hpd90_upper,6,0.168816
+17,139,wage_markup,Interest rate,hpd90_upper,7,0.115626
+17,139,wage_markup,Interest rate,hpd90_upper,8,0.084373
+17,139,wage_markup,Interest rate,hpd90_upper,9,0.064427
+17,139,wage_markup,Interest rate,hpd90_upper,10,0.053791
+17,139,wage_markup,Interest rate,hpd90_upper,11,0.045477
+17,139,wage_markup,Interest rate,hpd90_upper,12,0.041157
+17,139,wage_markup,Interest rate,hpd90_upper,13,0.038165
+17,139,wage_markup,Interest rate,hpd90_upper,14,0.037167
+17,139,wage_markup,Interest rate,hpd90_upper,15,0.035839
+17,139,wage_markup,Interest rate,hpd90_upper,16,0.033509
+17,139,wage_markup,Interest rate,hpd90_upper,17,0.031514
+17,139,wage_markup,Interest rate,hpd90_upper,18,0.029855
+17,139,wage_markup,Interest rate,hpd90_upper,19,0.028522
+17,139,wage_markup,Interest rate,hpd90_upper,20,0.026863
+17,139,wage_markup,Real wage,mean,1,0.997337
+17,139,wage_markup,Real wage,mean,2,0.849392
+17,139,wage_markup,Real wage,mean,3,0.611706
+17,139,wage_markup,Real wage,mean,4,0.415549
+17,139,wage_markup,Real wage,mean,5,0.269280
+17,139,wage_markup,Real wage,mean,6,0.164559
+17,139,wage_markup,Real wage,mean,7,0.091414
+17,139,wage_markup,Real wage,mean,8,0.043223
+17,139,wage_markup,Real wage,mean,9,0.011627
+17,139,wage_markup,Real wage,mean,10,-0.008320
+17,139,wage_markup,Real wage,mean,11,-0.021604
+17,139,wage_markup,Real wage,mean,12,-0.028267
+17,139,wage_markup,Real wage,mean,13,-0.033253
+17,139,wage_markup,Real wage,mean,14,-0.034909
+17,139,wage_markup,Real wage,mean,15,-0.034909
+17,139,wage_markup,Real wage,mean,16,-0.034909
+17,139,wage_markup,Real wage,mean,17,-0.034909
+17,139,wage_markup,Real wage,mean,18,-0.034909
+17,139,wage_markup,Real wage,mean,19,-0.033253
+17,139,wage_markup,Real wage,mean,20,-0.031578
+17,139,wage_markup,Real wage,hpd70_lower,1,0.866027
+17,139,wage_markup,Real wage,hpd70_lower,2,0.751333
+17,139,wage_markup,Real wage,hpd70_lower,3,0.516959
+17,139,wage_markup,Real wage,hpd70_lower,4,0.327464
+17,139,wage_markup,Real wage,hpd70_lower,5,0.197810
+17,139,wage_markup,Real wage,hpd70_lower,6,0.109705
+17,139,wage_markup,Real wage,hpd70_lower,7,0.049865
+17,139,wage_markup,Real wage,hpd70_lower,8,0.009971
+17,139,wage_markup,Real wage,hpd70_lower,9,-0.013306
+17,139,wage_markup,Real wage,hpd70_lower,10,-0.028267
+17,139,wage_markup,Real wage,hpd70_lower,11,-0.034909
+17,139,wage_markup,Real wage,hpd70_lower,12,-0.036564
+17,139,wage_markup,Real wage,hpd70_lower,13,-0.038240
+17,139,wage_markup,Real wage,hpd70_lower,14,-0.041551
+17,139,wage_markup,Real wage,hpd70_lower,15,-0.041551
+17,139,wage_markup,Real wage,hpd70_lower,16,-0.041551
+17,139,wage_markup,Real wage,hpd70_lower,17,-0.039896
+17,139,wage_markup,Real wage,hpd70_lower,18,-0.039896
+17,139,wage_markup,Real wage,hpd70_lower,19,-0.038240
+17,139,wage_markup,Real wage,hpd70_lower,20,-0.036564
+17,139,wage_markup,Real wage,hpd70_upper,1,1.151925
+17,139,wage_markup,Real wage,hpd70_upper,2,0.965761
+17,139,wage_markup,Real wage,hpd70_upper,3,0.703122
+17,139,wage_markup,Real wage,hpd70_upper,4,0.478721
+17,139,wage_markup,Real wage,hpd70_upper,5,0.317491
+17,139,wage_markup,Real wage,hpd70_upper,6,0.202797
+17,139,wage_markup,Real wage,hpd70_upper,7,0.119679
+17,139,wage_markup,Real wage,hpd70_upper,8,0.063169
+17,139,wage_markup,Real wage,hpd70_upper,9,0.026587
+17,139,wage_markup,Real wage,hpd70_upper,10,0.001654
+17,139,wage_markup,Real wage,hpd70_upper,11,-0.014962
+17,139,wage_markup,Real wage,hpd70_upper,12,-0.023280
+17,139,wage_markup,Real wage,hpd70_upper,13,-0.026591
+17,139,wage_markup,Real wage,hpd70_upper,14,-0.028267
+17,139,wage_markup,Real wage,hpd70_upper,15,-0.028267
+17,139,wage_markup,Real wage,hpd70_upper,16,-0.028267
+17,139,wage_markup,Real wage,hpd70_upper,17,-0.028267
+17,139,wage_markup,Real wage,hpd70_upper,18,-0.026591
+17,139,wage_markup,Real wage,hpd70_upper,19,-0.026591
+17,139,wage_markup,Real wage,hpd70_upper,20,-0.024935
+17,139,wage_markup,Real wage,hpd90_lower,1,0.595070
+17,139,wage_markup,Real wage,hpd90_lower,2,0.543548
+17,139,wage_markup,Real wage,hpd90_lower,3,0.393947
+17,139,wage_markup,Real wage,hpd90_lower,4,0.250988
+17,139,wage_markup,Real wage,hpd90_lower,5,0.144612
+17,139,wage_markup,Real wage,hpd90_lower,6,0.069812
+17,139,wage_markup,Real wage,hpd90_lower,7,0.018289
+17,139,wage_markup,Real wage,hpd90_lower,8,-0.014962
+17,139,wage_markup,Real wage,hpd90_lower,9,-0.031578
+17,139,wage_markup,Real wage,hpd90_lower,10,-0.039896
+17,139,wage_markup,Real wage,hpd90_lower,11,-0.044882
+17,139,wage_markup,Real wage,hpd90_lower,12,-0.046538
+17,139,wage_markup,Real wage,hpd90_lower,13,-0.049869
+17,139,wage_markup,Real wage,hpd90_lower,14,-0.049869
+17,139,wage_markup,Real wage,hpd90_lower,15,-0.049869
+17,139,wage_markup,Real wage,hpd90_lower,16,-0.051525
+17,139,wage_markup,Real wage,hpd90_lower,17,-0.049869
+17,139,wage_markup,Real wage,hpd90_lower,18,-0.049869
+17,139,wage_markup,Real wage,hpd90_lower,19,-0.048213
+17,139,wage_markup,Real wage,hpd90_lower,20,-0.048213
+17,139,wage_markup,Real wage,hpd90_upper,1,1.334777
+17,139,wage_markup,Real wage,hpd90_upper,2,1.126991
+17,139,wage_markup,Real wage,hpd90_upper,3,0.834432
+17,139,wage_markup,Real wage,hpd90_upper,4,0.596746
+17,139,wage_markup,Real wage,hpd90_upper,5,0.418880
+17,139,wage_markup,Real wage,hpd90_upper,6,0.285895
+17,139,wage_markup,Real wage,hpd90_upper,7,0.184506
+17,139,wage_markup,Real wage,hpd90_upper,8,0.113036
+17,139,wage_markup,Real wage,hpd90_upper,9,0.064825
+17,139,wage_markup,Real wage,hpd90_upper,10,0.031574
+17,139,wage_markup,Real wage,hpd90_upper,11,0.008316
+17,139,wage_markup,Real wage,hpd90_upper,12,-0.004989
+17,139,wage_markup,Real wage,hpd90_upper,13,-0.014962
+17,139,wage_markup,Real wage,hpd90_upper,14,-0.019949
+17,139,wage_markup,Real wage,hpd90_upper,15,-0.021604
+17,139,wage_markup,Real wage,hpd90_upper,16,-0.021604
+17,139,wage_markup,Real wage,hpd90_upper,17,-0.021604
+17,139,wage_markup,Real wage,hpd90_upper,18,-0.019949
+17,139,wage_markup,Real wage,hpd90_upper,19,-0.019949
+17,139,wage_markup,Real wage,hpd90_upper,20,-0.019949
+17,139,wage_markup,Real exchange rate,mean,1,-0.349123
+17,139,wage_markup,Real exchange rate,mean,2,-0.588525
+17,139,wage_markup,Real exchange rate,mean,3,-0.662096
+17,139,wage_markup,Real exchange rate,mean,4,-0.603487
+17,139,wage_markup,Real exchange rate,mean,5,-0.475063
+17,139,wage_markup,Real exchange rate,mean,6,-0.329178
+17,139,wage_markup,Real exchange rate,mean,7,-0.201996
+17,139,wage_markup,Real exchange rate,mean,8,-0.104740
+17,139,wage_markup,Real exchange rate,mean,9,-0.037408
+17,139,wage_markup,Real exchange rate,mean,10,0.003739
+17,139,wage_markup,Real exchange rate,mean,11,0.027425
+17,139,wage_markup,Real exchange rate,mean,12,0.038647
+17,139,wage_markup,Real exchange rate,mean,13,0.042387
+17,139,wage_markup,Real exchange rate,mean,14,0.042387
+17,139,wage_markup,Real exchange rate,mean,15,0.039904
+17,139,wage_markup,Real exchange rate,mean,16,0.036163
+17,139,wage_markup,Real exchange rate,mean,17,0.031166
+17,139,wage_markup,Real exchange rate,mean,18,0.026183
+17,139,wage_markup,Real exchange rate,mean,19,0.021200
+17,139,wage_markup,Real exchange rate,mean,20,0.017460
+17,139,wage_markup,Real exchange rate,hpd70_lower,1,-0.397752
+17,139,wage_markup,Real exchange rate,hpd70_lower,2,-0.667078
+17,139,wage_markup,Real exchange rate,hpd70_lower,3,-0.751871
+17,139,wage_markup,Real exchange rate,hpd70_lower,4,-0.689522
+17,139,wage_markup,Real exchange rate,hpd70_lower,5,-0.546136
+17,139,wage_markup,Real exchange rate,hpd70_lower,6,-0.381547
+17,139,wage_markup,Real exchange rate,hpd70_lower,7,-0.249383
+17,139,wage_markup,Real exchange rate,hpd70_lower,8,-0.140904
+17,139,wage_markup,Real exchange rate,hpd70_lower,9,-0.067333
+17,139,wage_markup,Real exchange rate,hpd70_lower,10,-0.018705
+17,139,wage_markup,Real exchange rate,hpd70_lower,11,0.009979
+17,139,wage_markup,Real exchange rate,hpd70_lower,12,0.023684
+17,139,wage_markup,Real exchange rate,hpd70_lower,13,0.029924
+17,139,wage_markup,Real exchange rate,hpd70_lower,14,0.028682
+17,139,wage_markup,Real exchange rate,hpd70_lower,15,0.024941
+17,139,wage_markup,Real exchange rate,hpd70_lower,16,0.021200
+17,139,wage_markup,Real exchange rate,hpd70_lower,17,0.017460
+17,139,wage_markup,Real exchange rate,hpd70_lower,18,0.013719
+17,139,wage_markup,Real exchange rate,hpd70_lower,19,0.009979
+17,139,wage_markup,Real exchange rate,hpd70_lower,20,0.006238
+17,139,wage_markup,Real exchange rate,hpd70_upper,1,-0.295512
+17,139,wage_markup,Real exchange rate,hpd70_upper,2,-0.502490
+17,139,wage_markup,Real exchange rate,hpd70_upper,3,-0.564839
+17,139,wage_markup,Real exchange rate,hpd70_upper,4,-0.498749
+17,139,wage_markup,Real exchange rate,hpd70_upper,5,-0.376565
+17,139,wage_markup,Real exchange rate,hpd70_upper,6,-0.243143
+17,139,wage_markup,Real exchange rate,hpd70_upper,7,-0.132166
+17,139,wage_markup,Real exchange rate,hpd70_upper,8,-0.048630
+17,139,wage_markup,Real exchange rate,hpd70_upper,9,0.002497
+17,139,wage_markup,Real exchange rate,hpd70_upper,10,0.032422
+17,139,wage_markup,Real exchange rate,hpd70_upper,11,0.048627
+17,139,wage_markup,Real exchange rate,hpd70_upper,12,0.053609
+17,139,wage_markup,Real exchange rate,hpd70_upper,13,0.056108
+17,139,wage_markup,Real exchange rate,hpd70_upper,14,0.052368
+17,139,wage_markup,Real exchange rate,hpd70_upper,15,0.048627
+17,139,wage_markup,Real exchange rate,hpd70_upper,16,0.044886
+17,139,wage_markup,Real exchange rate,hpd70_upper,17,0.039904
+17,139,wage_markup,Real exchange rate,hpd70_upper,18,0.033664
+17,139,wage_markup,Real exchange rate,hpd70_upper,19,0.028682
+17,139,wage_markup,Real exchange rate,hpd70_upper,20,0.023684
+17,139,wage_markup,Real exchange rate,hpd90_lower,1,-0.487527
+17,139,wage_markup,Real exchange rate,hpd90_lower,2,-0.816704
+17,139,wage_markup,Real exchange rate,hpd90_lower,3,-0.906479
+17,139,wage_markup,Real exchange rate,hpd90_lower,4,-0.827926
+17,139,wage_markup,Real exchange rate,hpd90_lower,5,-0.684539
+17,139,wage_markup,Real exchange rate,hpd90_lower,6,-0.516210
+17,139,wage_markup,Real exchange rate,hpd90_lower,7,-0.357861
+17,139,wage_markup,Real exchange rate,hpd90_lower,8,-0.228181
+17,139,wage_markup,Real exchange rate,hpd90_lower,9,-0.129682
+17,139,wage_markup,Real exchange rate,hpd90_lower,10,-0.066091
+17,139,wage_markup,Real exchange rate,hpd90_lower,11,-0.024944
+17,139,wage_markup,Real exchange rate,hpd90_lower,12,0.001240
+17,139,wage_markup,Real exchange rate,hpd90_lower,13,0.008722
+17,139,wage_markup,Real exchange rate,hpd90_lower,14,0.011220
+17,139,wage_markup,Real exchange rate,hpd90_lower,15,0.011220
+17,139,wage_markup,Real exchange rate,hpd90_lower,16,0.008722
+17,139,wage_markup,Real exchange rate,hpd90_lower,17,0.004981
+17,139,wage_markup,Real exchange rate,hpd90_lower,18,0.002497
+17,139,wage_markup,Real exchange rate,hpd90_lower,19,-0.000001
+17,139,wage_markup,Real exchange rate,hpd90_lower,20,-0.002500
+17,139,wage_markup,Real exchange rate,hpd90_upper,1,-0.221941
+17,139,wage_markup,Real exchange rate,hpd90_upper,2,-0.382789
+17,139,wage_markup,Real exchange rate,hpd90_upper,3,-0.441398
+17,139,wage_markup,Real exchange rate,hpd90_upper,4,-0.399009
+17,139,wage_markup,Real exchange rate,hpd90_upper,5,-0.290530
+17,139,wage_markup,Real exchange rate,hpd90_upper,6,-0.178311
+17,139,wage_markup,Real exchange rate,hpd90_upper,7,-0.077313
+17,139,wage_markup,Real exchange rate,hpd90_upper,8,-0.003742
+17,139,wage_markup,Real exchange rate,hpd90_upper,9,0.043644
+17,139,wage_markup,Real exchange rate,hpd90_upper,10,0.066088
+17,139,wage_markup,Real exchange rate,hpd90_upper,11,0.074811
+17,139,wage_markup,Real exchange rate,hpd90_upper,12,0.078552
+17,139,wage_markup,Real exchange rate,hpd90_upper,13,0.078552
+17,139,wage_markup,Real exchange rate,hpd90_upper,14,0.077310
+17,139,wage_markup,Real exchange rate,hpd90_upper,15,0.076053
+17,139,wage_markup,Real exchange rate,hpd90_upper,16,0.069829
+17,139,wage_markup,Real exchange rate,hpd90_upper,17,0.062348
+17,139,wage_markup,Real exchange rate,hpd90_upper,18,0.056108
+17,139,wage_markup,Real exchange rate,hpd90_upper,19,0.048627
+17,139,wage_markup,Real exchange rate,hpd90_upper,20,0.042387
+17,139,wage_markup,CPI inflation,mean,1,0.144613
+17,139,wage_markup,CPI inflation,mean,2,0.109375
+17,139,wage_markup,CPI inflation,mean,3,0.049204
+17,139,wage_markup,CPI inflation,mean,4,0.012964
+17,139,wage_markup,CPI inflation,mean,5,-0.000332
+17,139,wage_markup,CPI inflation,mean,6,-0.000999
+17,139,wage_markup,CPI inflation,mean,7,0.001993
+17,139,wage_markup,CPI inflation,mean,8,0.004323
+17,139,wage_markup,CPI inflation,mean,9,0.005652
+17,139,wage_markup,CPI inflation,mean,10,0.005652
+17,139,wage_markup,CPI inflation,mean,11,0.005321
+17,139,wage_markup,CPI inflation,mean,12,0.004654
+17,139,wage_markup,CPI inflation,mean,13,0.004323
+17,139,wage_markup,CPI inflation,mean,14,0.003657
+17,139,wage_markup,CPI inflation,mean,15,0.003657
+17,139,wage_markup,CPI inflation,mean,16,0.003326
+17,139,wage_markup,CPI inflation,mean,17,0.003326
+17,139,wage_markup,CPI inflation,mean,18,0.003326
+17,139,wage_markup,CPI inflation,mean,19,0.002991
+17,139,wage_markup,CPI inflation,mean,20,0.002991
+17,139,wage_markup,CPI inflation,hpd70_lower,1,0.118351
+17,139,wage_markup,CPI inflation,hpd70_lower,2,0.092420
+17,139,wage_markup,CPI inflation,hpd70_lower,3,0.036900
+17,139,wage_markup,CPI inflation,hpd70_lower,4,0.003988
+17,139,wage_markup,CPI inflation,hpd70_lower,5,-0.007980
+17,139,wage_markup,CPI inflation,hpd70_lower,6,-0.006983
+17,139,wage_markup,CPI inflation,hpd70_lower,7,-0.001996
+17,139,wage_markup,CPI inflation,hpd70_lower,8,0.001331
+17,139,wage_markup,CPI inflation,hpd70_lower,9,0.002660
+17,139,wage_markup,CPI inflation,hpd70_lower,10,0.003326
+17,139,wage_markup,CPI inflation,hpd70_lower,11,0.003326
+17,139,wage_markup,CPI inflation,hpd70_lower,12,0.002991
+17,139,wage_markup,CPI inflation,hpd70_lower,13,0.002991
+17,139,wage_markup,CPI inflation,hpd70_lower,14,0.002660
+17,139,wage_markup,CPI inflation,hpd70_lower,15,0.002660
+17,139,wage_markup,CPI inflation,hpd70_lower,16,0.002329
+17,139,wage_markup,CPI inflation,hpd70_lower,17,0.002329
+17,139,wage_markup,CPI inflation,hpd70_lower,18,0.002329
+17,139,wage_markup,CPI inflation,hpd70_lower,19,0.002329
+17,139,wage_markup,CPI inflation,hpd70_lower,20,0.002329
+17,139,wage_markup,CPI inflation,hpd70_upper,1,0.166890
+17,139,wage_markup,CPI inflation,hpd70_upper,2,0.126330
+17,139,wage_markup,CPI inflation,hpd70_upper,3,0.061503
+17,139,wage_markup,CPI inflation,hpd70_upper,4,0.022275
+17,139,wage_markup,CPI inflation,hpd70_upper,5,0.008313
+17,139,wage_markup,CPI inflation,hpd70_upper,6,0.004985
+17,139,wage_markup,CPI inflation,hpd70_upper,7,0.005652
+17,139,wage_markup,CPI inflation,hpd70_upper,8,0.007315
+17,139,wage_markup,CPI inflation,hpd70_upper,9,0.007978
+17,139,wage_markup,CPI inflation,hpd70_upper,10,0.007315
+17,139,wage_markup,CPI inflation,hpd70_upper,11,0.006318
+17,139,wage_markup,CPI inflation,hpd70_upper,12,0.005321
+17,139,wage_markup,CPI inflation,hpd70_upper,13,0.004654
+17,139,wage_markup,CPI inflation,hpd70_upper,14,0.004323
+17,139,wage_markup,CPI inflation,hpd70_upper,15,0.003988
+17,139,wage_markup,CPI inflation,hpd70_upper,16,0.003988
+17,139,wage_markup,CPI inflation,hpd70_upper,17,0.003657
+17,139,wage_markup,CPI inflation,hpd70_upper,18,0.003657
+17,139,wage_markup,CPI inflation,hpd70_upper,19,0.003657
+17,139,wage_markup,CPI inflation,hpd70_upper,20,0.003657
+17,139,wage_markup,CPI inflation,hpd90_lower,1,0.082116
+17,139,wage_markup,CPI inflation,hpd90_lower,2,0.064164
+17,139,wage_markup,CPI inflation,hpd90_lower,3,0.021278
+17,139,wage_markup,CPI inflation,hpd90_lower,4,-0.012300
+17,139,wage_markup,CPI inflation,hpd90_lower,5,-0.021276
+17,139,wage_markup,CPI inflation,hpd90_lower,6,-0.016290
+17,139,wage_markup,CPI inflation,hpd90_lower,7,-0.007980
+17,139,wage_markup,CPI inflation,hpd90_lower,8,-0.003324
+17,139,wage_markup,CPI inflation,hpd90_lower,9,-0.000332
+17,139,wage_markup,CPI inflation,hpd90_lower,10,0.000996
+17,139,wage_markup,CPI inflation,hpd90_lower,11,0.001662
+17,139,wage_markup,CPI inflation,hpd90_lower,12,0.001993
+17,139,wage_markup,CPI inflation,hpd90_lower,13,0.001993
+17,139,wage_markup,CPI inflation,hpd90_lower,14,0.001993
+17,139,wage_markup,CPI inflation,hpd90_lower,15,0.001662
+17,139,wage_markup,CPI inflation,hpd90_lower,16,0.001662
+17,139,wage_markup,CPI inflation,hpd90_lower,17,0.001662
+17,139,wage_markup,CPI inflation,hpd90_lower,18,0.001662
+17,139,wage_markup,CPI inflation,hpd90_lower,19,0.001662
+17,139,wage_markup,CPI inflation,hpd90_lower,20,0.001662
+17,139,wage_markup,CPI inflation,hpd90_upper,1,0.211104
+17,139,wage_markup,CPI inflation,hpd90_upper,2,0.154921
+17,139,wage_markup,CPI inflation,hpd90_upper,3,0.079124
+17,139,wage_markup,CPI inflation,hpd90_upper,4,0.036569
+17,139,wage_markup,CPI inflation,hpd90_upper,5,0.018617
+17,139,wage_markup,CPI inflation,hpd90_upper,6,0.013299
+17,139,wage_markup,CPI inflation,hpd90_upper,7,0.011636
+17,139,wage_markup,CPI inflation,hpd90_upper,8,0.012302
+17,139,wage_markup,CPI inflation,hpd90_upper,9,0.012302
+17,139,wage_markup,CPI inflation,hpd90_upper,10,0.010970
+17,139,wage_markup,CPI inflation,hpd90_upper,11,0.009310
+17,139,wage_markup,CPI inflation,hpd90_upper,12,0.008313
+17,139,wage_markup,CPI inflation,hpd90_upper,13,0.006980
+17,139,wage_markup,CPI inflation,hpd90_upper,14,0.006318
+17,139,wage_markup,CPI inflation,hpd90_upper,15,0.005652
+17,139,wage_markup,CPI inflation,hpd90_upper,16,0.005321
+17,139,wage_markup,CPI inflation,hpd90_upper,17,0.004985
+17,139,wage_markup,CPI inflation,hpd90_upper,18,0.004985
+17,139,wage_markup,CPI inflation,hpd90_upper,19,0.004654
+17,139,wage_markup,CPI inflation,hpd90_upper,20,0.004654
+17,139,wage_markup,Domestic inflation,mean,1,0.266622
+17,139,wage_markup,Domestic inflation,mean,2,0.200798
+17,139,wage_markup,Domestic inflation,mean,3,0.078460
+17,139,wage_markup,Domestic inflation,mean,4,-0.006649
+17,139,wage_markup,Domestic inflation,mean,5,-0.045880
+17,139,wage_markup,Domestic inflation,mean,6,-0.053188
+17,139,wage_markup,Domestic inflation,mean,7,-0.045210
+17,139,wage_markup,Domestic inflation,mean,8,-0.031917
+17,139,wage_markup,Domestic inflation,mean,9,-0.019279
+17,139,wage_markup,Domestic inflation,mean,10,-0.009976
+17,139,wage_markup,Domestic inflation,mean,11,-0.003992
+17,139,wage_markup,Domestic inflation,mean,12,-0.000002
+17,139,wage_markup,Domestic inflation,mean,13,0.002662
+17,139,wage_markup,Domestic inflation,mean,14,0.003987
+17,139,wage_markup,Domestic inflation,mean,15,0.004657
+17,139,wage_markup,Domestic inflation,mean,16,0.004657
+17,139,wage_markup,Domestic inflation,mean,17,0.005319
+17,139,wage_markup,Domestic inflation,mean,18,0.005319
+17,139,wage_markup,Domestic inflation,mean,19,0.004657
+17,139,wage_markup,Domestic inflation,mean,20,0.004657
+17,139,wage_markup,Domestic inflation,hpd70_lower,1,0.221407
+17,139,wage_markup,Domestic inflation,hpd70_lower,2,0.172872
+17,139,wage_markup,Domestic inflation,hpd70_lower,3,0.059838
+17,139,wage_markup,Domestic inflation,hpd70_lower,4,-0.021274
+17,139,wage_markup,Domestic inflation,hpd70_lower,5,-0.061837
+17,139,wage_markup,Domestic inflation,hpd70_lower,6,-0.065827
+17,139,wage_markup,Domestic inflation,hpd70_lower,7,-0.052526
+17,139,wage_markup,Domestic inflation,hpd70_lower,8,-0.037231
+17,139,wage_markup,Domestic inflation,hpd70_lower,9,-0.023939
+17,139,wage_markup,Domestic inflation,hpd70_lower,10,-0.013965
+17,139,wage_markup,Domestic inflation,hpd70_lower,11,-0.006649
+17,139,wage_markup,Domestic inflation,hpd70_lower,12,-0.001997
+17,139,wage_markup,Domestic inflation,hpd70_lower,13,0.000668
+17,139,wage_markup,Domestic inflation,hpd70_lower,14,0.002662
+17,139,wage_markup,Domestic inflation,hpd70_lower,15,0.003987
+17,139,wage_markup,Domestic inflation,hpd70_lower,16,0.003987
+17,139,wage_markup,Domestic inflation,hpd70_lower,17,0.003987
+17,139,wage_markup,Domestic inflation,hpd70_lower,18,0.003987
+17,139,wage_markup,Domestic inflation,hpd70_lower,19,0.003987
+17,139,wage_markup,Domestic inflation,hpd70_lower,20,0.003987
+17,139,wage_markup,Domestic inflation,hpd70_upper,1,0.308510
+17,139,wage_markup,Domestic inflation,hpd70_upper,2,0.229386
+17,139,wage_markup,Domestic inflation,hpd70_upper,3,0.094418
+17,139,wage_markup,Domestic inflation,hpd70_upper,4,0.011966
+17,139,wage_markup,Domestic inflation,hpd70_upper,5,-0.026595
+17,139,wage_markup,Domestic inflation,hpd70_upper,6,-0.039226
+17,139,wage_markup,Domestic inflation,hpd70_upper,7,-0.036569
+17,139,wage_markup,Domestic inflation,hpd70_upper,8,-0.025263
+17,139,wage_markup,Domestic inflation,hpd70_upper,9,-0.014627
+17,139,wage_markup,Domestic inflation,hpd70_upper,10,-0.006649
+17,139,wage_markup,Domestic inflation,hpd70_upper,11,-0.000665
+17,139,wage_markup,Domestic inflation,hpd70_upper,12,0.002662
+17,139,wage_markup,Domestic inflation,hpd70_upper,13,0.004657
+17,139,wage_markup,Domestic inflation,hpd70_upper,14,0.005319
+17,139,wage_markup,Domestic inflation,hpd70_upper,15,0.005319
+17,139,wage_markup,Domestic inflation,hpd70_upper,16,0.005982
+17,139,wage_markup,Domestic inflation,hpd70_upper,17,0.005982
+17,139,wage_markup,Domestic inflation,hpd70_upper,18,0.005982
+17,139,wage_markup,Domestic inflation,hpd70_upper,19,0.005319
+17,139,wage_markup,Domestic inflation,hpd70_upper,20,0.005319
+17,139,wage_markup,Domestic inflation,hpd90_lower,1,0.161567
+17,139,wage_markup,Domestic inflation,hpd90_lower,2,0.128989
+17,139,wage_markup,Domestic inflation,hpd90_lower,3,0.035240
+17,139,wage_markup,Domestic inflation,hpd90_lower,4,-0.051194
+17,139,wage_markup,Domestic inflation,hpd90_lower,5,-0.087768
+17,139,wage_markup,Domestic inflation,hpd90_lower,6,-0.085103
+17,139,wage_markup,Domestic inflation,hpd90_lower,7,-0.066489
+17,139,wage_markup,Domestic inflation,hpd90_lower,8,-0.046542
+17,139,wage_markup,Domestic inflation,hpd90_lower,9,-0.030585
+17,139,wage_markup,Domestic inflation,hpd90_lower,10,-0.019279
+17,139,wage_markup,Domestic inflation,hpd90_lower,11,-0.011300
+17,139,wage_markup,Domestic inflation,hpd90_lower,12,-0.005316
+17,139,wage_markup,Domestic inflation,hpd90_lower,13,-0.001327
+17,139,wage_markup,Domestic inflation,hpd90_lower,14,0.000668
+17,139,wage_markup,Domestic inflation,hpd90_lower,15,0.001992
+17,139,wage_markup,Domestic inflation,hpd90_lower,16,0.002662
+17,139,wage_markup,Domestic inflation,hpd90_lower,17,0.003325
+17,139,wage_markup,Domestic inflation,hpd90_lower,18,0.003325
+17,139,wage_markup,Domestic inflation,hpd90_lower,19,0.003325
+17,139,wage_markup,Domestic inflation,hpd90_lower,20,0.002662
+17,139,wage_markup,Domestic inflation,hpd90_upper,1,0.384308
+17,139,wage_markup,Domestic inflation,hpd90_upper,2,0.271944
+17,139,wage_markup,Domestic inflation,hpd90_upper,3,0.121011
+17,139,wage_markup,Domestic inflation,hpd90_upper,4,0.032583
+17,139,wage_markup,Domestic inflation,hpd90_upper,5,-0.007981
+17,139,wage_markup,Domestic inflation,hpd90_upper,6,-0.023939
+17,139,wage_markup,Domestic inflation,hpd90_upper,7,-0.025263
+17,139,wage_markup,Domestic inflation,hpd90_upper,8,-0.017284
+17,139,wage_markup,Domestic inflation,hpd90_upper,9,-0.008643
+17,139,wage_markup,Domestic inflation,hpd90_upper,10,-0.001327
+17,139,wage_markup,Domestic inflation,hpd90_upper,11,0.002662
+17,139,wage_markup,Domestic inflation,hpd90_upper,12,0.005319
+17,139,wage_markup,Domestic inflation,hpd90_upper,13,0.006652
+17,139,wage_markup,Domestic inflation,hpd90_upper,14,0.006652
+17,139,wage_markup,Domestic inflation,hpd90_upper,15,0.006652
+17,139,wage_markup,Domestic inflation,hpd90_upper,16,0.007314
+17,139,wage_markup,Domestic inflation,hpd90_upper,17,0.007314
+17,139,wage_markup,Domestic inflation,hpd90_upper,18,0.007314
+17,139,wage_markup,Domestic inflation,hpd90_upper,19,0.007314
+17,139,wage_markup,Domestic inflation,hpd90_upper,20,0.006652
+17,139,wage_markup,Imported inflation,mean,1,-0.082049
+17,139,wage_markup,Imported inflation,mean,2,-0.060108
+17,139,wage_markup,Imported inflation,mean,3,-0.004919
+17,139,wage_markup,Imported inflation,mean,4,0.049269
+17,139,wage_markup,Imported inflation,mean,5,0.084507
+17,139,wage_markup,Imported inflation,mean,6,0.096143
+17,139,wage_markup,Imported inflation,mean,7,0.089162
+17,139,wage_markup,Imported inflation,mean,8,0.072207
+17,139,wage_markup,Imported inflation,mean,9,0.052592
+17,139,wage_markup,Imported inflation,mean,10,0.035306
+17,139,wage_markup,Imported inflation,mean,11,0.022340
+17,139,wage_markup,Imported inflation,mean,12,0.013033
+17,139,wage_markup,Imported inflation,mean,13,0.007380
+17,139,wage_markup,Imported inflation,mean,14,0.003722
+17,139,wage_markup,Imported inflation,mean,15,0.001727
+17,139,wage_markup,Imported inflation,mean,16,0.000730
+17,139,wage_markup,Imported inflation,mean,17,0.000068
+17,139,wage_markup,Imported inflation,mean,18,0.000068
+17,139,wage_markup,Imported inflation,mean,19,0.000068
+17,139,wage_markup,Imported inflation,mean,20,0.000068
+17,139,wage_markup,Imported inflation,hpd70_lower,1,-0.098338
+17,139,wage_markup,Imported inflation,hpd70_lower,2,-0.076065
+17,139,wage_markup,Imported inflation,hpd70_lower,3,-0.018551
+17,139,wage_markup,Imported inflation,hpd70_lower,4,0.034975
+17,139,wage_markup,Imported inflation,hpd70_lower,5,0.070213
+17,139,wage_markup,Imported inflation,hpd70_lower,6,0.080186
+17,139,wage_markup,Imported inflation,hpd70_lower,7,0.073205
+17,139,wage_markup,Imported inflation,hpd70_lower,8,0.056916
+17,139,wage_markup,Imported inflation,hpd70_lower,9,0.038629
+17,139,wage_markup,Imported inflation,hpd70_lower,10,0.024004
+17,139,wage_markup,Imported inflation,hpd70_lower,11,0.013033
+17,139,wage_markup,Imported inflation,hpd70_lower,12,0.005386
+17,139,wage_markup,Imported inflation,hpd70_lower,13,0.001727
+17,139,wage_markup,Imported inflation,hpd70_lower,14,-0.000267
+17,139,wage_markup,Imported inflation,hpd70_lower,15,-0.001265
+17,139,wage_markup,Imported inflation,hpd70_lower,16,-0.001596
+17,139,wage_markup,Imported inflation,hpd70_lower,17,-0.001265
+17,139,wage_markup,Imported inflation,hpd70_lower,18,-0.001265
+17,139,wage_markup,Imported inflation,hpd70_lower,19,-0.000930
+17,139,wage_markup,Imported inflation,hpd70_lower,20,-0.000930
+17,139,wage_markup,Imported inflation,hpd70_upper,1,-0.065757
+17,139,wage_markup,Imported inflation,hpd70_upper,2,-0.043815
+17,139,wage_markup,Imported inflation,hpd70_upper,3,0.009044
+17,139,wage_markup,Imported inflation,hpd70_upper,4,0.062900
+17,139,wage_markup,Imported inflation,hpd70_upper,5,0.099136
+17,139,wage_markup,Imported inflation,hpd70_upper,6,0.109775
+17,139,wage_markup,Imported inflation,hpd70_upper,7,0.100799
+17,139,wage_markup,Imported inflation,hpd70_upper,8,0.083178
+17,139,wage_markup,Imported inflation,hpd70_upper,9,0.060570
+17,139,wage_markup,Imported inflation,hpd70_upper,10,0.042287
+17,139,wage_markup,Imported inflation,hpd70_upper,11,0.027658
+17,139,wage_markup,Imported inflation,hpd70_upper,12,0.017023
+17,139,wage_markup,Imported inflation,hpd70_upper,13,0.010041
+17,139,wage_markup,Imported inflation,hpd70_upper,14,0.006052
+17,139,wage_markup,Imported inflation,hpd70_upper,15,0.003391
+17,139,wage_markup,Imported inflation,hpd70_upper,16,0.001727
+17,139,wage_markup,Imported inflation,hpd70_upper,17,0.001065
+17,139,wage_markup,Imported inflation,hpd70_upper,18,0.000730
+17,139,wage_markup,Imported inflation,hpd70_upper,19,0.000730
+17,139,wage_markup,Imported inflation,hpd70_upper,20,0.000730
+17,139,wage_markup,Imported inflation,hpd90_lower,1,-0.122605
+17,139,wage_markup,Imported inflation,hpd90_lower,2,-0.100999
+17,139,wage_markup,Imported inflation,hpd90_lower,3,-0.036171
+17,139,wage_markup,Imported inflation,hpd90_lower,4,0.017354
+17,139,wage_markup,Imported inflation,hpd90_lower,5,0.050266
+17,139,wage_markup,Imported inflation,hpd90_lower,6,0.062234
+17,139,wage_markup,Imported inflation,hpd90_lower,7,0.056250
+17,139,wage_markup,Imported inflation,hpd90_lower,8,0.041956
+17,139,wage_markup,Imported inflation,hpd90_lower,9,0.027993
+17,139,wage_markup,Imported inflation,hpd90_lower,10,0.015028
+17,139,wage_markup,Imported inflation,hpd90_lower,11,0.005717
+17,139,wage_markup,Imported inflation,hpd90_lower,12,0.000399
+17,139,wage_markup,Imported inflation,hpd90_lower,13,-0.002262
+17,139,wage_markup,Imported inflation,hpd90_lower,14,-0.003259
+17,139,wage_markup,Imported inflation,hpd90_lower,15,-0.003259
+17,139,wage_markup,Imported inflation,hpd90_lower,16,-0.003259
+17,139,wage_markup,Imported inflation,hpd90_lower,17,-0.002924
+17,139,wage_markup,Imported inflation,hpd90_lower,18,-0.002593
+17,139,wage_markup,Imported inflation,hpd90_lower,19,-0.002593
+17,139,wage_markup,Imported inflation,hpd90_lower,20,-0.002262
+17,139,wage_markup,Imported inflation,hpd90_upper,1,-0.041158
+17,139,wage_markup,Imported inflation,hpd90_upper,2,-0.023206
+17,139,wage_markup,Imported inflation,hpd90_upper,3,0.027658
+17,139,wage_markup,Imported inflation,hpd90_upper,4,0.082181
+17,139,wage_markup,Imported inflation,hpd90_upper,5,0.120411
+17,139,wage_markup,Imported inflation,hpd90_upper,6,0.134373
+17,139,wage_markup,Imported inflation,hpd90_upper,7,0.123403
+17,139,wage_markup,Imported inflation,hpd90_upper,8,0.104788
+17,139,wage_markup,Imported inflation,hpd90_upper,9,0.083509
+17,139,wage_markup,Imported inflation,hpd90_upper,10,0.060906
+17,139,wage_markup,Imported inflation,hpd90_upper,11,0.042953
+17,139,wage_markup,Imported inflation,hpd90_upper,12,0.029653
+17,139,wage_markup,Imported inflation,hpd90_upper,13,0.020015
+17,139,wage_markup,Imported inflation,hpd90_upper,14,0.012698
+17,139,wage_markup,Imported inflation,hpd90_upper,15,0.008047
+17,139,wage_markup,Imported inflation,hpd90_upper,16,0.005386
+17,139,wage_markup,Imported inflation,hpd90_upper,17,0.003391
+17,139,wage_markup,Imported inflation,hpd90_upper,18,0.002725
+17,139,wage_markup,Imported inflation,hpd90_upper,19,0.002394
+17,139,wage_markup,Imported inflation,hpd90_upper,20,0.002062

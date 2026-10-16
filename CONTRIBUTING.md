@@ -8,6 +8,13 @@ Thanks for helping. The most valuable contribution right now is **verifying tran
 3. Keep model changes (`model/moise.yaml`) and code changes (`src/`) in separate pull requests.
 4. `pytest` must pass.
 
+## Verifying the paper edition (`docs/paper/`)
+The edition was checked by machine. Human checks are very welcome: pick an equation, compare it with
+the PDF at the printed page given in its metadata line, and record the result in
+`docs/verification-log.md`. If you find a transcription error, fix the LaTeX and run
+`python tools/paper/check_paper.py --fix-code --write-json`. Misprints in the paper itself are kept
+as printed and recorded as `Note:` lines.
+
 ## Verifying equations
 - Open the [paper PDF](https://boi.org.il/media/ybvpydng/dp12065e.pdf) at the page listed in the entry.
 - Compare symbol by symbol, including timing and signs.

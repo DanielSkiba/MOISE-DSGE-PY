@@ -1,0 +1,1201 @@
+figure,page_pdf,shock,panel_title,series,quarter,value
+6,80,interest_rate,Output,mean,1,-0.183044
+6,80,interest_rate,Output,mean,2,-0.233246
+6,80,interest_rate,Output,mean,3,-0.209972
+6,80,interest_rate,Output,mean,4,-0.147139
+6,80,interest_rate,Output,mean,5,-0.091288
+6,80,interest_rate,Output,mean,6,-0.050397
+6,80,interest_rate,Output,mean,7,-0.027127
+6,80,interest_rate,Output,mean,8,-0.014828
+6,80,interest_rate,Output,mean,9,-0.010172
+6,80,interest_rate,Output,mean,10,-0.008177
+6,80,interest_rate,Output,mean,11,-0.008177
+6,80,interest_rate,Output,mean,12,-0.008177
+6,80,interest_rate,Output,mean,13,-0.008844
+6,80,interest_rate,Output,mean,14,-0.009175
+6,80,interest_rate,Output,mean,15,-0.009175
+6,80,interest_rate,Output,mean,16,-0.009506
+6,80,interest_rate,Output,mean,17,-0.009506
+6,80,interest_rate,Output,mean,18,-0.009841
+6,80,interest_rate,Output,mean,19,-0.009841
+6,80,interest_rate,Output,mean,20,-0.009841
+6,80,interest_rate,Output,hpd70_lower,1,-0.200334
+6,80,interest_rate,Output,hpd70_lower,2,-0.253524
+6,80,interest_rate,Output,hpd70_lower,3,-0.229919
+6,80,interest_rate,Output,hpd70_lower,4,-0.168083
+6,80,interest_rate,Output,hpd70_lower,5,-0.110573
+6,80,interest_rate,Output,hpd70_lower,6,-0.064695
+6,80,interest_rate,Output,hpd70_lower,7,-0.036103
+6,80,interest_rate,Output,hpd70_lower,8,-0.019814
+6,80,interest_rate,Output,hpd70_lower,9,-0.013164
+6,80,interest_rate,Output,hpd70_lower,10,-0.010172
+6,80,interest_rate,Output,hpd70_lower,11,-0.009506
+6,80,interest_rate,Output,hpd70_lower,12,-0.009506
+6,80,interest_rate,Output,hpd70_lower,13,-0.009841
+6,80,interest_rate,Output,hpd70_lower,14,-0.010172
+6,80,interest_rate,Output,hpd70_lower,15,-0.010503
+6,80,interest_rate,Output,hpd70_lower,16,-0.010838
+6,80,interest_rate,Output,hpd70_lower,17,-0.010838
+6,80,interest_rate,Output,hpd70_lower,18,-0.011169
+6,80,interest_rate,Output,hpd70_lower,19,-0.011169
+6,80,interest_rate,Output,hpd70_lower,20,-0.011169
+6,80,interest_rate,Output,hpd70_upper,1,-0.165758
+6,80,interest_rate,Output,hpd70_upper,2,-0.209972
+6,80,interest_rate,Output,hpd70_upper,3,-0.185038
+6,80,interest_rate,Output,hpd70_upper,4,-0.120877
+6,80,interest_rate,Output,hpd70_upper,5,-0.068349
+6,80,interest_rate,Output,hpd70_upper,6,-0.032114
+6,80,interest_rate,Output,hpd70_upper,7,-0.012833
+6,80,interest_rate,Output,hpd70_upper,8,-0.004519
+6,80,interest_rate,Output,hpd70_upper,9,-0.002524
+6,80,interest_rate,Output,hpd70_upper,10,-0.002860
+6,80,interest_rate,Output,hpd70_upper,11,-0.003857
+6,80,interest_rate,Output,hpd70_upper,12,-0.004854
+6,80,interest_rate,Output,hpd70_upper,13,-0.005852
+6,80,interest_rate,Output,hpd70_upper,14,-0.006514
+6,80,interest_rate,Output,hpd70_upper,15,-0.007180
+6,80,interest_rate,Output,hpd70_upper,16,-0.007180
+6,80,interest_rate,Output,hpd70_upper,17,-0.007511
+6,80,interest_rate,Output,hpd70_upper,18,-0.007511
+6,80,interest_rate,Output,hpd70_upper,19,-0.007846
+6,80,interest_rate,Output,hpd70_upper,20,-0.007846
+6,80,interest_rate,Output,hpd90_lower,1,-0.224932
+6,80,interest_rate,Output,hpd90_lower,2,-0.289428
+6,80,interest_rate,Output,hpd90_lower,3,-0.271807
+6,80,interest_rate,Output,hpd90_lower,4,-0.204654
+6,80,interest_rate,Output,hpd90_lower,5,-0.143150
+6,80,interest_rate,Output,hpd90_lower,6,-0.088631
+6,80,interest_rate,Output,hpd90_lower,7,-0.057713
+6,80,interest_rate,Output,hpd90_lower,8,-0.037431
+6,80,interest_rate,Output,hpd90_lower,9,-0.027458
+6,80,interest_rate,Output,hpd90_lower,10,-0.020812
+6,80,interest_rate,Output,hpd90_lower,11,-0.017820
+6,80,interest_rate,Output,hpd90_lower,12,-0.015825
+6,80,interest_rate,Output,hpd90_lower,13,-0.014828
+6,80,interest_rate,Output,hpd90_lower,14,-0.014493
+6,80,interest_rate,Output,hpd90_lower,15,-0.014161
+6,80,interest_rate,Output,hpd90_lower,16,-0.013830
+6,80,interest_rate,Output,hpd90_lower,17,-0.014161
+6,80,interest_rate,Output,hpd90_lower,18,-0.014161
+6,80,interest_rate,Output,hpd90_lower,19,-0.014161
+6,80,interest_rate,Output,hpd90_lower,20,-0.013830
+6,80,interest_rate,Output,hpd90_upper,1,-0.141821
+6,80,interest_rate,Output,hpd90_upper,2,-0.181715
+6,80,interest_rate,Output,hpd90_upper,3,-0.155118
+6,80,interest_rate,Output,hpd90_upper,4,-0.094946
+6,80,interest_rate,Output,hpd90_upper,5,-0.044748
+6,80,interest_rate,Output,hpd90_upper,6,-0.014161
+6,80,interest_rate,Output,hpd90_upper,7,-0.000530
+6,80,interest_rate,Output,hpd90_upper,8,0.003791
+6,80,interest_rate,Output,hpd90_upper,9,0.002793
+6,80,interest_rate,Output,hpd90_upper,10,0.000799
+6,80,interest_rate,Output,hpd90_upper,11,-0.001196
+6,80,interest_rate,Output,hpd90_upper,12,-0.002524
+6,80,interest_rate,Output,hpd90_upper,13,-0.003857
+6,80,interest_rate,Output,hpd90_upper,14,-0.004519
+6,80,interest_rate,Output,hpd90_upper,15,-0.005185
+6,80,interest_rate,Output,hpd90_upper,16,-0.005517
+6,80,interest_rate,Output,hpd90_upper,17,-0.005852
+6,80,interest_rate,Output,hpd90_upper,18,-0.006183
+6,80,interest_rate,Output,hpd90_upper,19,-0.006183
+6,80,interest_rate,Output,hpd90_upper,20,-0.006183
+6,80,interest_rate,Consumption,mean,1,-0.174668
+6,80,interest_rate,Consumption,mean,2,-0.191623
+6,80,interest_rate,Consumption,mean,3,-0.150397
+6,80,interest_rate,Consumption,mean,4,-0.104188
+6,80,interest_rate,Consumption,mean,5,-0.070945
+6,80,interest_rate,Consumption,mean,6,-0.051660
+6,80,interest_rate,Consumption,mean,7,-0.041687
+6,80,interest_rate,Consumption,mean,8,-0.036369
+6,80,interest_rate,Consumption,mean,9,-0.033046
+6,80,interest_rate,Consumption,mean,10,-0.030716
+6,80,interest_rate,Consumption,mean,11,-0.029056
+6,80,interest_rate,Consumption,mean,12,-0.027062
+6,80,interest_rate,Consumption,mean,13,-0.025729
+6,80,interest_rate,Consumption,mean,14,-0.024069
+6,80,interest_rate,Consumption,mean,15,-0.023072
+6,80,interest_rate,Consumption,mean,16,-0.022075
+6,80,interest_rate,Consumption,mean,17,-0.021077
+6,80,interest_rate,Consumption,mean,18,-0.020411
+6,80,interest_rate,Consumption,mean,19,-0.019745
+6,80,interest_rate,Consumption,mean,20,-0.019083
+6,80,interest_rate,Consumption,hpd70_lower,1,-0.199602
+6,80,interest_rate,Consumption,hpd70_lower,2,-0.213896
+6,80,interest_rate,Consumption,hpd70_lower,3,-0.166023
+6,80,interest_rate,Consumption,hpd70_lower,4,-0.120146
+6,80,interest_rate,Consumption,hpd70_lower,5,-0.084907
+6,80,interest_rate,Consumption,hpd70_lower,6,-0.063297
+6,80,interest_rate,Consumption,hpd70_lower,7,-0.049665
+6,80,interest_rate,Consumption,hpd70_lower,8,-0.042684
+6,80,interest_rate,Consumption,hpd70_lower,9,-0.038695
+6,80,interest_rate,Consumption,hpd70_lower,10,-0.035702
+6,80,interest_rate,Consumption,hpd70_lower,11,-0.033377
+6,80,interest_rate,Consumption,hpd70_lower,12,-0.031713
+6,80,interest_rate,Consumption,hpd70_lower,13,-0.029387
+6,80,interest_rate,Consumption,hpd70_lower,14,-0.027724
+6,80,interest_rate,Consumption,hpd70_lower,15,-0.026064
+6,80,interest_rate,Consumption,hpd70_lower,16,-0.024732
+6,80,interest_rate,Consumption,hpd70_lower,17,-0.023403
+6,80,interest_rate,Consumption,hpd70_lower,18,-0.022737
+6,80,interest_rate,Consumption,hpd70_lower,19,-0.021740
+6,80,interest_rate,Consumption,hpd70_lower,20,-0.021409
+6,80,interest_rate,Consumption,hpd70_upper,1,-0.142418
+6,80,interest_rate,Consumption,hpd70_upper,2,-0.162700
+6,80,interest_rate,Consumption,hpd70_upper,3,-0.128455
+6,80,interest_rate,Consumption,hpd70_upper,4,-0.087233
+6,80,interest_rate,Consumption,hpd70_upper,5,-0.054652
+6,80,interest_rate,Consumption,hpd70_upper,6,-0.037366
+6,80,interest_rate,Consumption,hpd70_upper,7,-0.029387
+6,80,interest_rate,Consumption,hpd70_upper,8,-0.026064
+6,80,interest_rate,Consumption,hpd70_upper,9,-0.024069
+6,80,interest_rate,Consumption,hpd70_upper,10,-0.023072
+6,80,interest_rate,Consumption,hpd70_upper,11,-0.021740
+6,80,interest_rate,Consumption,hpd70_upper,12,-0.020080
+6,80,interest_rate,Consumption,hpd70_upper,13,-0.019083
+6,80,interest_rate,Consumption,hpd70_upper,14,-0.018085
+6,80,interest_rate,Consumption,hpd70_upper,15,-0.017419
+6,80,interest_rate,Consumption,hpd70_upper,16,-0.016753
+6,80,interest_rate,Consumption,hpd70_upper,17,-0.016091
+6,80,interest_rate,Consumption,hpd70_upper,18,-0.015756
+6,80,interest_rate,Consumption,hpd70_upper,19,-0.015425
+6,80,interest_rate,Consumption,hpd70_upper,20,-0.015093
+6,80,interest_rate,Consumption,hpd90_lower,1,-0.251464
+6,80,interest_rate,Consumption,hpd90_lower,2,-0.265427
+6,80,interest_rate,Consumption,hpd90_lower,3,-0.204589
+6,80,interest_rate,Consumption,hpd90_lower,4,-0.144413
+6,80,interest_rate,Consumption,hpd90_lower,5,-0.107846
+6,80,interest_rate,Consumption,hpd90_lower,6,-0.086236
+6,80,interest_rate,Consumption,hpd90_lower,7,-0.070609
+6,80,interest_rate,Consumption,hpd90_lower,8,-0.059639
+6,80,interest_rate,Consumption,hpd90_lower,9,-0.052657
+6,80,interest_rate,Consumption,hpd90_lower,10,-0.048006
+6,80,interest_rate,Consumption,hpd90_lower,11,-0.044347
+6,80,interest_rate,Consumption,hpd90_lower,12,-0.041024
+6,80,interest_rate,Consumption,hpd90_lower,13,-0.038695
+6,80,interest_rate,Consumption,hpd90_lower,14,-0.036369
+6,80,interest_rate,Consumption,hpd90_lower,15,-0.034374
+6,80,interest_rate,Consumption,hpd90_lower,16,-0.032710
+6,80,interest_rate,Consumption,hpd90_lower,17,-0.031382
+6,80,interest_rate,Consumption,hpd90_lower,18,-0.029718
+6,80,interest_rate,Consumption,hpd90_lower,19,-0.028390
+6,80,interest_rate,Consumption,hpd90_lower,20,-0.027393
+6,80,interest_rate,Consumption,hpd90_upper,1,-0.104519
+6,80,interest_rate,Consumption,hpd90_upper,2,-0.127793
+6,80,interest_rate,Consumption,hpd90_upper,3,-0.104188
+6,80,interest_rate,Consumption,hpd90_upper,4,-0.063963
+6,80,interest_rate,Consumption,hpd90_upper,5,-0.035371
+6,80,interest_rate,Consumption,hpd90_upper,6,-0.022075
+6,80,interest_rate,Consumption,hpd90_upper,7,-0.018085
+6,80,interest_rate,Consumption,hpd90_upper,8,-0.018085
+6,80,interest_rate,Consumption,hpd90_upper,9,-0.018085
+6,80,interest_rate,Consumption,hpd90_upper,10,-0.018085
+6,80,interest_rate,Consumption,hpd90_upper,11,-0.017088
+6,80,interest_rate,Consumption,hpd90_upper,12,-0.016091
+6,80,interest_rate,Consumption,hpd90_upper,13,-0.015093
+6,80,interest_rate,Consumption,hpd90_upper,14,-0.014427
+6,80,interest_rate,Consumption,hpd90_upper,15,-0.013761
+6,80,interest_rate,Consumption,hpd90_upper,16,-0.013430
+6,80,interest_rate,Consumption,hpd90_upper,17,-0.013099
+6,80,interest_rate,Consumption,hpd90_upper,18,-0.012764
+6,80,interest_rate,Consumption,hpd90_upper,19,-0.012101
+6,80,interest_rate,Consumption,hpd90_upper,20,-0.012101
+6,80,interest_rate,Fixed investment,mean,1,-0.197272
+6,80,interest_rate,Fixed investment,mean,2,-0.143084
+6,80,interest_rate,Fixed investment,mean,3,-0.159708
+6,80,interest_rate,Fixed investment,mean,4,-0.122140
+6,80,interest_rate,Fixed investment,mean,5,-0.119479
+6,80,interest_rate,Fixed investment,mean,6,-0.104519
+6,80,interest_rate,Fixed investment,mean,7,-0.102193
+6,80,interest_rate,Fixed investment,mean,8,-0.094546
+6,80,interest_rate,Fixed investment,mean,9,-0.090891
+6,80,interest_rate,Fixed investment,mean,10,-0.084241
+6,80,interest_rate,Fixed investment,mean,11,-0.079254
+6,80,interest_rate,Fixed investment,mean,12,-0.072604
+6,80,interest_rate,Fixed investment,mean,13,-0.066955
+6,80,interest_rate,Fixed investment,mean,14,-0.060636
+6,80,interest_rate,Fixed investment,mean,15,-0.054987
+6,80,interest_rate,Fixed investment,mean,16,-0.049334
+6,80,interest_rate,Fixed investment,mean,17,-0.044016
+6,80,interest_rate,Fixed investment,mean,18,-0.039030
+6,80,interest_rate,Fixed investment,mean,19,-0.034374
+6,80,interest_rate,Fixed investment,mean,20,-0.030054
+6,80,interest_rate,Fixed investment,hpd70_lower,1,-0.225198
+6,80,interest_rate,Fixed investment,hpd70_lower,2,-0.170679
+6,80,interest_rate,Fixed investment,hpd70_lower,3,-0.187965
+6,80,interest_rate,Fixed investment,hpd70_lower,4,-0.146408
+6,80,interest_rate,Fixed investment,hpd70_lower,5,-0.140424
+6,80,interest_rate,Fixed investment,hpd70_lower,6,-0.124466
+6,80,interest_rate,Fixed investment,hpd70_lower,7,-0.120477
+6,80,interest_rate,Fixed investment,hpd70_lower,8,-0.109175
+6,80,interest_rate,Fixed investment,hpd70_lower,9,-0.104854
+6,80,interest_rate,Fixed investment,hpd70_lower,10,-0.096876
+6,80,interest_rate,Fixed investment,hpd70_lower,11,-0.089559
+6,80,interest_rate,Fixed investment,hpd70_lower,12,-0.082578
+6,80,interest_rate,Fixed investment,hpd70_lower,13,-0.075596
+6,80,interest_rate,Fixed investment,hpd70_lower,14,-0.068615
+6,80,interest_rate,Fixed investment,hpd70_lower,15,-0.062300
+6,80,interest_rate,Fixed investment,hpd70_lower,16,-0.056316
+6,80,interest_rate,Fixed investment,hpd70_lower,17,-0.050000
+6,80,interest_rate,Fixed investment,hpd70_lower,18,-0.044679
+6,80,interest_rate,Fixed investment,hpd70_lower,19,-0.039361
+6,80,interest_rate,Fixed investment,hpd70_lower,20,-0.034374
+6,80,interest_rate,Fixed investment,hpd70_upper,1,-0.160370
+6,80,interest_rate,Fixed investment,hpd70_upper,2,-0.108844
+6,80,interest_rate,Fixed investment,hpd70_upper,3,-0.124466
+6,80,interest_rate,Fixed investment,hpd70_upper,4,-0.088231
+6,80,interest_rate,Fixed investment,hpd70_upper,5,-0.090556
+6,80,interest_rate,Fixed investment,hpd70_upper,6,-0.077591
+6,80,interest_rate,Fixed investment,hpd70_upper,7,-0.077926
+6,80,interest_rate,Fixed investment,hpd70_upper,8,-0.072939
+6,80,interest_rate,Fixed investment,hpd70_upper,9,-0.070278
+6,80,interest_rate,Fixed investment,hpd70_upper,10,-0.065292
+6,80,interest_rate,Fixed investment,hpd70_upper,11,-0.062300
+6,80,interest_rate,Fixed investment,hpd70_upper,12,-0.056982
+6,80,interest_rate,Fixed investment,hpd70_upper,13,-0.051660
+6,80,interest_rate,Fixed investment,hpd70_upper,14,-0.046673
+6,80,interest_rate,Fixed investment,hpd70_upper,15,-0.041687
+6,80,interest_rate,Fixed investment,hpd70_upper,16,-0.037366
+6,80,interest_rate,Fixed investment,hpd70_upper,17,-0.033377
+6,80,interest_rate,Fixed investment,hpd70_upper,18,-0.029056
+6,80,interest_rate,Fixed investment,hpd70_upper,19,-0.025067
+6,80,interest_rate,Fixed investment,hpd70_upper,20,-0.021409
+6,80,interest_rate,Fixed investment,hpd90_lower,1,-0.276728
+6,80,interest_rate,Fixed investment,hpd90_lower,2,-0.210238
+6,80,interest_rate,Fixed investment,hpd90_lower,3,-0.236168
+6,80,interest_rate,Fixed investment,hpd90_lower,4,-0.187299
+6,80,interest_rate,Fixed investment,hpd90_lower,5,-0.178323
+6,80,interest_rate,Fixed investment,hpd90_lower,6,-0.157378
+6,80,interest_rate,Fixed investment,hpd90_lower,7,-0.148402
+6,80,interest_rate,Fixed investment,hpd90_lower,8,-0.136769
+6,80,interest_rate,Fixed investment,hpd90_lower,9,-0.131783
+6,80,interest_rate,Fixed investment,hpd90_lower,10,-0.123804
+6,80,interest_rate,Fixed investment,hpd90_lower,11,-0.115825
+6,80,interest_rate,Fixed investment,hpd90_lower,12,-0.106183
+6,80,interest_rate,Fixed investment,hpd90_lower,13,-0.098204
+6,80,interest_rate,Fixed investment,hpd90_lower,14,-0.089894
+6,80,interest_rate,Fixed investment,hpd90_lower,15,-0.081249
+6,80,interest_rate,Fixed investment,hpd90_lower,16,-0.073937
+6,80,interest_rate,Fixed investment,hpd90_lower,17,-0.067617
+6,80,interest_rate,Fixed investment,hpd90_lower,18,-0.060971
+6,80,interest_rate,Fixed investment,hpd90_lower,19,-0.054652
+6,80,interest_rate,Fixed investment,hpd90_lower,20,-0.048668
+6,80,interest_rate,Fixed investment,hpd90_upper,1,-0.127793
+6,80,interest_rate,Fixed investment,hpd90_upper,2,-0.078588
+6,80,interest_rate,Fixed investment,hpd90_upper,3,-0.092220
+6,80,interest_rate,Fixed investment,hpd90_upper,4,-0.061633
+6,80,interest_rate,Fixed investment,hpd90_upper,5,-0.065958
+6,80,interest_rate,Fixed investment,hpd90_upper,6,-0.057313
+6,80,interest_rate,Fixed investment,hpd90_upper,7,-0.059308
+6,80,interest_rate,Fixed investment,hpd90_upper,8,-0.057313
+6,80,interest_rate,Fixed investment,hpd90_upper,9,-0.057313
+6,80,interest_rate,Fixed investment,hpd90_upper,10,-0.052992
+6,80,interest_rate,Fixed investment,hpd90_upper,11,-0.049003
+6,80,interest_rate,Fixed investment,hpd90_upper,12,-0.044016
+6,80,interest_rate,Fixed investment,hpd90_upper,13,-0.041024
+6,80,interest_rate,Fixed investment,hpd90_upper,14,-0.037035
+6,80,interest_rate,Fixed investment,hpd90_upper,15,-0.032379
+6,80,interest_rate,Fixed investment,hpd90_upper,16,-0.028721
+6,80,interest_rate,Fixed investment,hpd90_upper,17,-0.025067
+6,80,interest_rate,Fixed investment,hpd90_upper,18,-0.021409
+6,80,interest_rate,Fixed investment,hpd90_upper,19,-0.017750
+6,80,interest_rate,Fixed investment,hpd90_upper,20,-0.014758
+6,80,interest_rate,Exports,mean,1,-0.103297
+6,80,interest_rate,Exports,mean,2,-0.199801
+6,80,interest_rate,Exports,mean,3,-0.228418
+6,80,interest_rate,Exports,mean,4,-0.198467
+6,80,interest_rate,Exports,mean,5,-0.141234
+6,80,interest_rate,Exports,mean,6,-0.083330
+6,80,interest_rate,Exports,mean,7,-0.037407
+6,80,interest_rate,Exports,mean,8,-0.007456
+6,80,interest_rate,Exports,mean,9,0.009851
+6,80,interest_rate,Exports,mean,10,0.017838
+6,80,interest_rate,Exports,mean,11,0.020497
+6,80,interest_rate,Exports,mean,12,0.019834
+6,80,interest_rate,Exports,mean,13,0.017838
+6,80,interest_rate,Exports,mean,14,0.015841
+6,80,interest_rate,Exports,mean,15,0.013181
+6,80,interest_rate,Exports,mean,16,0.010514
+6,80,interest_rate,Exports,mean,17,0.008517
+6,80,interest_rate,Exports,mean,18,0.006520
+6,80,interest_rate,Exports,mean,19,0.004524
+6,80,interest_rate,Exports,mean,20,0.003198
+6,80,interest_rate,Exports,hpd70_lower,1,-0.121930
+6,80,interest_rate,Exports,hpd70_lower,2,-0.228418
+6,80,interest_rate,Exports,hpd70_lower,3,-0.255045
+6,80,interest_rate,Exports,hpd70_lower,4,-0.224424
+6,80,interest_rate,Exports,hpd70_lower,5,-0.171185
+6,80,interest_rate,Exports,hpd70_lower,6,-0.108616
+6,80,interest_rate,Exports,hpd70_lower,7,-0.056040
+6,80,interest_rate,Exports,hpd70_lower,8,-0.020099
+6,80,interest_rate,Exports,hpd70_lower,9,0.002527
+6,80,interest_rate,Exports,hpd70_lower,10,0.013181
+6,80,interest_rate,Exports,hpd70_lower,11,0.015841
+6,80,interest_rate,Exports,hpd70_lower,12,0.015178
+6,80,interest_rate,Exports,hpd70_lower,13,0.013181
+6,80,interest_rate,Exports,hpd70_lower,14,0.011185
+6,80,interest_rate,Exports,hpd70_lower,15,0.008517
+6,80,interest_rate,Exports,hpd70_lower,16,0.006520
+6,80,interest_rate,Exports,hpd70_lower,17,0.004524
+6,80,interest_rate,Exports,hpd70_lower,18,0.003198
+6,80,interest_rate,Exports,hpd70_lower,19,0.001201
+6,80,interest_rate,Exports,hpd70_lower,20,0.000530
+6,80,interest_rate,Exports,hpd70_upper,1,-0.080663
+6,80,interest_rate,Exports,hpd70_upper,2,-0.163198
+6,80,interest_rate,Exports,hpd70_upper,3,-0.193148
+6,80,interest_rate,Exports,hpd70_upper,4,-0.163198
+6,80,interest_rate,Exports,hpd70_upper,5,-0.107291
+6,80,interest_rate,Exports,hpd70_upper,6,-0.053380
+6,80,interest_rate,Exports,hpd70_upper,7,-0.012776
+6,80,interest_rate,Exports,hpd70_upper,8,0.011185
+6,80,interest_rate,Exports,hpd70_upper,9,0.021831
+6,80,interest_rate,Exports,hpd70_upper,10,0.025824
+6,80,interest_rate,Exports,hpd70_upper,11,0.025824
+6,80,interest_rate,Exports,hpd70_upper,12,0.023828
+6,80,interest_rate,Exports,hpd70_upper,13,0.021831
+6,80,interest_rate,Exports,hpd70_upper,14,0.019171
+6,80,interest_rate,Exports,hpd70_upper,15,0.015841
+6,80,interest_rate,Exports,hpd70_upper,16,0.013844
+6,80,interest_rate,Exports,hpd70_upper,17,0.011185
+6,80,interest_rate,Exports,hpd70_upper,18,0.008517
+6,80,interest_rate,Exports,hpd70_upper,19,0.006520
+6,80,interest_rate,Exports,hpd70_upper,20,0.004524
+6,80,interest_rate,Exports,hpd90_lower,1,-0.151218
+6,80,interest_rate,Exports,hpd90_lower,2,-0.276338
+6,80,interest_rate,Exports,hpd90_lower,3,-0.311616
+6,80,interest_rate,Exports,hpd90_lower,4,-0.274341
+6,80,interest_rate,Exports,hpd90_lower,5,-0.213115
+6,80,interest_rate,Exports,hpd90_lower,6,-0.146554
+6,80,interest_rate,Exports,hpd90_lower,7,-0.091317
+6,80,interest_rate,Exports,hpd90_lower,8,-0.049387
+6,80,interest_rate,Exports,hpd90_lower,9,-0.019437
+6,80,interest_rate,Exports,hpd90_lower,10,-0.002129
+6,80,interest_rate,Exports,hpd90_lower,11,0.005857
+6,80,interest_rate,Exports,hpd90_lower,12,0.008517
+6,80,interest_rate,Exports,hpd90_lower,13,0.007854
+6,80,interest_rate,Exports,hpd90_lower,14,0.005857
+6,80,interest_rate,Exports,hpd90_lower,15,0.003861
+6,80,interest_rate,Exports,hpd90_lower,16,0.002527
+6,80,interest_rate,Exports,hpd90_lower,17,0.000530
+6,80,interest_rate,Exports,hpd90_lower,18,-0.000795
+6,80,interest_rate,Exports,hpd90_lower,19,-0.002129
+6,80,interest_rate,Exports,hpd90_lower,20,-0.002792
+6,80,interest_rate,Exports,hpd90_upper,1,-0.062693
+6,80,interest_rate,Exports,hpd90_upper,2,-0.129917
+6,80,interest_rate,Exports,hpd90_upper,3,-0.153214
+6,80,interest_rate,Exports,hpd90_upper,4,-0.128583
+6,80,interest_rate,Exports,hpd90_upper,5,-0.072676
+6,80,interest_rate,Exports,hpd90_upper,6,-0.019437
+6,80,interest_rate,Exports,hpd90_upper,7,0.013181
+6,80,interest_rate,Exports,hpd90_upper,8,0.027158
+6,80,interest_rate,Exports,hpd90_upper,9,0.033811
+6,80,interest_rate,Exports,hpd90_upper,10,0.033811
+6,80,interest_rate,Exports,hpd90_upper,11,0.033811
+6,80,interest_rate,Exports,hpd90_upper,12,0.032477
+6,80,interest_rate,Exports,hpd90_upper,13,0.029818
+6,80,interest_rate,Exports,hpd90_upper,14,0.026487
+6,80,interest_rate,Exports,hpd90_upper,15,0.023165
+6,80,interest_rate,Exports,hpd90_upper,16,0.020497
+6,80,interest_rate,Exports,hpd90_upper,17,0.017838
+6,80,interest_rate,Exports,hpd90_upper,18,0.014507
+6,80,interest_rate,Exports,hpd90_upper,19,0.011848
+6,80,interest_rate,Exports,hpd90_upper,20,0.009851
+6,80,interest_rate,Imports,mean,1,0.017237
+6,80,interest_rate,Imports,mean,2,0.060833
+6,80,interest_rate,Imports,mean,3,0.026558
+6,80,interest_rate,Imports,mean,4,-0.017705
+6,80,interest_rate,Imports,mean,5,-0.056640
+6,80,interest_rate,Imports,mean,6,-0.072278
+6,80,interest_rate,Imports,mean,7,-0.074275
+6,80,interest_rate,Imports,mean,8,-0.066955
+6,80,interest_rate,Imports,mean,9,-0.057970
+6,80,interest_rate,Imports,mean,10,-0.048985
+6,80,interest_rate,Imports,mean,11,-0.041997
+6,80,interest_rate,Imports,mean,12,-0.036338
+6,80,interest_rate,Imports,mean,13,-0.032013
+6,80,interest_rate,Imports,mean,14,-0.028351
+6,80,interest_rate,Imports,mean,15,-0.025025
+6,80,interest_rate,Imports,mean,16,-0.022361
+6,80,interest_rate,Imports,mean,17,-0.020033
+6,80,interest_rate,Imports,mean,18,-0.018036
+6,80,interest_rate,Imports,mean,19,-0.016040
+6,80,interest_rate,Imports,mean,20,-0.014375
+6,80,interest_rate,Imports,hpd70_lower,1,-0.003728
+6,80,interest_rate,Imports,hpd70_lower,2,0.034209
+6,80,interest_rate,Imports,hpd70_lower,3,0.000932
+6,80,interest_rate,Imports,hpd70_lower,4,-0.039002
+6,80,interest_rate,Imports,hpd70_lower,5,-0.072945
+6,80,interest_rate,Imports,hpd70_lower,6,-0.083596
+6,80,interest_rate,Imports,hpd70_lower,7,-0.083260
+6,80,interest_rate,Imports,hpd70_lower,8,-0.075273
+6,80,interest_rate,Imports,hpd70_lower,9,-0.066624
+6,80,interest_rate,Imports,hpd70_lower,10,-0.056972
+6,80,interest_rate,Imports,hpd70_lower,11,-0.048985
+6,80,interest_rate,Imports,hpd70_lower,12,-0.042664
+6,80,interest_rate,Imports,hpd70_lower,13,-0.037336
+6,80,interest_rate,Imports,hpd70_lower,14,-0.032680
+6,80,interest_rate,Imports,hpd70_lower,15,-0.028687
+6,80,interest_rate,Imports,hpd70_lower,16,-0.025356
+6,80,interest_rate,Imports,hpd70_lower,17,-0.022697
+6,80,interest_rate,Imports,hpd70_lower,18,-0.020365
+6,80,interest_rate,Imports,hpd70_lower,19,-0.018368
+6,80,interest_rate,Imports,hpd70_lower,20,-0.016371
+6,80,interest_rate,Imports,hpd70_upper,1,0.040866
+6,80,interest_rate,Imports,hpd70_upper,2,0.085124
+6,80,interest_rate,Imports,hpd70_upper,3,0.048186
+6,80,interest_rate,Imports,hpd70_upper,4,-0.002394
+6,80,interest_rate,Imports,hpd70_upper,5,-0.044992
+6,80,interest_rate,Imports,hpd70_upper,6,-0.061297
+6,80,interest_rate,Imports,hpd70_upper,7,-0.063293
+6,80,interest_rate,Imports,hpd70_upper,8,-0.055307
+6,80,interest_rate,Imports,hpd70_upper,9,-0.046322
+6,80,interest_rate,Imports,hpd70_upper,10,-0.038003
+6,80,interest_rate,Imports,hpd70_upper,11,-0.032013
+6,80,interest_rate,Imports,hpd70_upper,12,-0.027353
+6,80,interest_rate,Imports,hpd70_upper,13,-0.023360
+6,80,interest_rate,Imports,hpd70_upper,14,-0.020365
+6,80,interest_rate,Imports,hpd70_upper,15,-0.018036
+6,80,interest_rate,Imports,hpd70_upper,16,-0.016371
+6,80,interest_rate,Imports,hpd70_upper,17,-0.014710
+6,80,interest_rate,Imports,hpd70_upper,18,-0.013045
+6,80,interest_rate,Imports,hpd70_upper,19,-0.011380
+6,80,interest_rate,Imports,hpd70_upper,20,-0.010381
+6,80,interest_rate,Imports,hpd90_lower,1,-0.036338
+6,80,interest_rate,Imports,hpd90_lower,2,-0.000733
+6,80,interest_rate,Imports,hpd90_lower,3,-0.031682
+6,80,interest_rate,Imports,hpd90_lower,4,-0.062295
+6,80,interest_rate,Imports,hpd90_lower,5,-0.090249
+6,80,interest_rate,Imports,hpd90_lower,6,-0.098902
+6,80,interest_rate,Imports,hpd90_lower,7,-0.102896
+6,80,interest_rate,Imports,hpd90_lower,8,-0.095907
+6,80,interest_rate,Imports,hpd90_lower,9,-0.084594
+6,80,interest_rate,Imports,hpd90_lower,10,-0.073612
+6,80,interest_rate,Imports,hpd90_lower,11,-0.064292
+6,80,interest_rate,Imports,hpd90_lower,12,-0.055973
+6,80,interest_rate,Imports,hpd90_lower,13,-0.049317
+6,80,interest_rate,Imports,hpd90_lower,14,-0.043662
+6,80,interest_rate,Imports,hpd90_lower,15,-0.039333
+6,80,interest_rate,Imports,hpd90_lower,16,-0.035340
+6,80,interest_rate,Imports,hpd90_lower,17,-0.031682
+6,80,interest_rate,Imports,hpd90_lower,18,-0.028351
+6,80,interest_rate,Imports,hpd90_lower,19,-0.025356
+6,80,interest_rate,Imports,hpd90_lower,20,-0.023028
+6,80,interest_rate,Imports,hpd90_upper,1,0.072481
+6,80,interest_rate,Imports,hpd90_upper,2,0.125725
+6,80,interest_rate,Imports,hpd90_upper,3,0.088455
+6,80,interest_rate,Imports,hpd90_upper,4,0.031549
+6,80,interest_rate,Imports,hpd90_upper,5,-0.018703
+6,80,interest_rate,Imports,hpd90_upper,6,-0.045323
+6,80,interest_rate,Imports,hpd90_upper,7,-0.048318
+6,80,interest_rate,Imports,hpd90_upper,8,-0.041665
+6,80,interest_rate,Imports,hpd90_upper,9,-0.035008
+6,80,interest_rate,Imports,hpd90_upper,10,-0.028351
+6,80,interest_rate,Imports,hpd90_upper,11,-0.023695
+6,80,interest_rate,Imports,hpd90_upper,12,-0.020365
+6,80,interest_rate,Imports,hpd90_upper,13,-0.017705
+6,80,interest_rate,Imports,hpd90_upper,14,-0.015373
+6,80,interest_rate,Imports,hpd90_upper,15,-0.013712
+6,80,interest_rate,Imports,hpd90_upper,16,-0.012046
+6,80,interest_rate,Imports,hpd90_upper,17,-0.010717
+6,80,interest_rate,Imports,hpd90_upper,18,-0.009383
+6,80,interest_rate,Imports,hpd90_upper,19,-0.008384
+6,80,interest_rate,Imports,hpd90_upper,20,-0.007386
+6,80,interest_rate,Hours worked,mean,1,-0.210447
+6,80,interest_rate,Hours worked,mean,2,-0.265692
+6,80,interest_rate,Hours worked,mean,3,-0.237075
+6,80,interest_rate,Hours worked,mean,4,-0.163198
+6,80,interest_rate,Hours worked,mean,5,-0.097970
+6,80,interest_rate,Hours worked,mean,6,-0.050050
+6,80,interest_rate,Hours worked,mean,7,-0.022096
+6,80,interest_rate,Hours worked,mean,8,-0.007456
+6,80,interest_rate,Hours worked,mean,9,-0.000795
+6,80,interest_rate,Hours worked,mean,10,0.001864
+6,80,interest_rate,Hours worked,mean,11,0.002527
+6,80,interest_rate,Hours worked,mean,12,0.003198
+6,80,interest_rate,Hours worked,mean,13,0.003198
+6,80,interest_rate,Hours worked,mean,14,0.003198
+6,80,interest_rate,Hours worked,mean,15,0.003198
+6,80,interest_rate,Hours worked,mean,16,0.003198
+6,80,interest_rate,Hours worked,mean,17,0.003198
+6,80,interest_rate,Hours worked,mean,18,0.003861
+6,80,interest_rate,Hours worked,mean,19,0.003861
+6,80,interest_rate,Hours worked,mean,20,0.003861
+6,80,interest_rate,Hours worked,hpd70_lower,1,-0.229751
+6,80,interest_rate,Hours worked,hpd70_lower,2,-0.288318
+6,80,interest_rate,Hours worked,hpd70_lower,3,-0.259702
+6,80,interest_rate,Hours worked,hpd70_lower,4,-0.186487
+6,80,interest_rate,Hours worked,hpd70_lower,5,-0.120597
+6,80,interest_rate,Hours worked,hpd70_lower,6,-0.066023
+6,80,interest_rate,Hours worked,hpd70_lower,7,-0.031417
+6,80,interest_rate,Hours worked,hpd70_lower,8,-0.011450
+6,80,interest_rate,Hours worked,hpd70_lower,9,-0.003463
+6,80,interest_rate,Hours worked,hpd70_lower,10,-0.000133
+6,80,interest_rate,Hours worked,hpd70_lower,11,0.001201
+6,80,interest_rate,Hours worked,hpd70_lower,12,0.001864
+6,80,interest_rate,Hours worked,hpd70_lower,13,0.001864
+6,80,interest_rate,Hours worked,hpd70_lower,14,0.002527
+6,80,interest_rate,Hours worked,hpd70_lower,15,0.002527
+6,80,interest_rate,Hours worked,hpd70_lower,16,0.002527
+6,80,interest_rate,Hours worked,hpd70_lower,17,0.002527
+6,80,interest_rate,Hours worked,hpd70_lower,18,0.003198
+6,80,interest_rate,Hours worked,hpd70_lower,19,0.003198
+6,80,interest_rate,Hours worked,hpd70_lower,20,0.003198
+6,80,interest_rate,Hours worked,hpd70_upper,1,-0.190481
+6,80,interest_rate,Hours worked,hpd70_upper,2,-0.239072
+6,80,interest_rate,Hours worked,hpd70_upper,3,-0.208451
+6,80,interest_rate,Hours worked,hpd70_upper,4,-0.133911
+6,80,interest_rate,Hours worked,hpd70_upper,5,-0.072676
+6,80,interest_rate,Hours worked,hpd70_upper,6,-0.028749
+6,80,interest_rate,Hours worked,hpd70_upper,7,-0.006786
+6,80,interest_rate,Hours worked,hpd70_upper,8,0.003198
+6,80,interest_rate,Hours worked,hpd70_upper,9,0.006520
+6,80,interest_rate,Hours worked,hpd70_upper,10,0.007191
+6,80,interest_rate,Hours worked,hpd70_upper,11,0.006520
+6,80,interest_rate,Hours worked,hpd70_upper,12,0.005857
+6,80,interest_rate,Hours worked,hpd70_upper,13,0.005195
+6,80,interest_rate,Hours worked,hpd70_upper,14,0.004524
+6,80,interest_rate,Hours worked,hpd70_upper,15,0.003861
+6,80,interest_rate,Hours worked,hpd70_upper,16,0.003861
+6,80,interest_rate,Hours worked,hpd70_upper,17,0.003861
+6,80,interest_rate,Hours worked,hpd70_upper,18,0.003861
+6,80,interest_rate,Hours worked,hpd70_upper,19,0.003861
+6,80,interest_rate,Hours worked,hpd70_upper,20,0.003861
+6,80,interest_rate,Hours worked,hpd90_lower,1,-0.257705
+6,80,interest_rate,Hours worked,hpd90_lower,2,-0.330249
+6,80,interest_rate,Hours worked,hpd90_lower,3,-0.306959
+6,80,interest_rate,Hours worked,hpd90_lower,4,-0.229089
+6,80,interest_rate,Hours worked,hpd90_lower,5,-0.155211
+6,80,interest_rate,Hours worked,hpd90_lower,6,-0.092643
+6,80,interest_rate,Hours worked,hpd90_lower,7,-0.054043
+6,80,interest_rate,Hours worked,hpd90_lower,8,-0.030746
+6,80,interest_rate,Hours worked,hpd90_lower,9,-0.017440
+6,80,interest_rate,Hours worked,hpd90_lower,10,-0.010116
+6,80,interest_rate,Hours worked,hpd90_lower,11,-0.005460
+6,80,interest_rate,Hours worked,hpd90_lower,12,-0.002129
+6,80,interest_rate,Hours worked,hpd90_lower,13,-0.000133
+6,80,interest_rate,Hours worked,hpd90_lower,14,0.001201
+6,80,interest_rate,Hours worked,hpd90_lower,15,0.001864
+6,80,interest_rate,Hours worked,hpd90_lower,16,0.001864
+6,80,interest_rate,Hours worked,hpd90_lower,17,0.001864
+6,80,interest_rate,Hours worked,hpd90_lower,18,0.002527
+6,80,interest_rate,Hours worked,hpd90_lower,19,0.002527
+6,80,interest_rate,Hours worked,hpd90_lower,20,0.002527
+6,80,interest_rate,Hours worked,hpd90_upper,1,-0.162527
+6,80,interest_rate,Hours worked,hpd90_upper,2,-0.206454
+6,80,interest_rate,Hours worked,hpd90_upper,3,-0.175178
+6,80,interest_rate,Hours worked,hpd90_upper,4,-0.105294
+6,80,interest_rate,Hours worked,hpd90_upper,5,-0.046056
+6,80,interest_rate,Hours worked,hpd90_upper,6,-0.010116
+6,80,interest_rate,Hours worked,hpd90_upper,7,0.005857
+6,80,interest_rate,Hours worked,hpd90_upper,8,0.011185
+6,80,interest_rate,Hours worked,hpd90_upper,9,0.011848
+6,80,interest_rate,Hours worked,hpd90_upper,10,0.011185
+6,80,interest_rate,Hours worked,hpd90_upper,11,0.010514
+6,80,interest_rate,Hours worked,hpd90_upper,12,0.009188
+6,80,interest_rate,Hours worked,hpd90_upper,13,0.007854
+6,80,interest_rate,Hours worked,hpd90_upper,14,0.007191
+6,80,interest_rate,Hours worked,hpd90_upper,15,0.006520
+6,80,interest_rate,Hours worked,hpd90_upper,16,0.005857
+6,80,interest_rate,Hours worked,hpd90_upper,17,0.005857
+6,80,interest_rate,Hours worked,hpd90_upper,18,0.005195
+6,80,interest_rate,Hours worked,hpd90_upper,19,0.005195
+6,80,interest_rate,Hours worked,hpd90_upper,20,0.005195
+6,80,interest_rate,Interest rate,mean,1,0.780547
+6,80,interest_rate,Interest rate,mean,2,0.443889
+6,80,interest_rate,Interest rate,mean,3,0.174562
+6,80,interest_rate,Interest rate,mean,4,0.034917
+6,80,interest_rate,Interest rate,mean,5,-0.012470
+6,80,interest_rate,Interest rate,mean,6,-0.016210
+6,80,interest_rate,Interest rate,mean,7,-0.007487
+6,80,interest_rate,Interest rate,mean,8,0.001251
+6,80,interest_rate,Interest rate,mean,9,0.006233
+6,80,interest_rate,Interest rate,mean,10,0.008732
+6,80,interest_rate,Interest rate,mean,11,0.008732
+6,80,interest_rate,Interest rate,mean,12,0.008732
+6,80,interest_rate,Interest rate,mean,13,0.008732
+6,80,interest_rate,Interest rate,mean,14,0.007475
+6,80,interest_rate,Interest rate,mean,15,0.007475
+6,80,interest_rate,Interest rate,mean,16,0.007475
+6,80,interest_rate,Interest rate,mean,17,0.006233
+6,80,interest_rate,Interest rate,mean,18,0.006233
+6,80,interest_rate,Interest rate,mean,19,0.006233
+6,80,interest_rate,Interest rate,mean,20,0.006233
+6,80,interest_rate,Interest rate,hpd70_lower,1,0.731918
+6,80,interest_rate,Interest rate,hpd70_lower,2,0.415206
+6,80,interest_rate,Interest rate,hpd70_lower,3,0.153360
+6,80,interest_rate,Interest rate,hpd70_lower,4,0.014957
+6,80,interest_rate,Interest rate,hpd70_lower,5,-0.026190
+6,80,interest_rate,Interest rate,hpd70_lower,6,-0.026190
+6,80,interest_rate,Interest rate,hpd70_lower,7,-0.012470
+6,80,interest_rate,Interest rate,hpd70_lower,8,-0.002490
+6,80,interest_rate,Interest rate,hpd70_lower,9,0.003735
+6,80,interest_rate,Interest rate,hpd70_lower,10,0.006233
+6,80,interest_rate,Interest rate,hpd70_lower,11,0.006233
+6,80,interest_rate,Interest rate,hpd70_lower,12,0.006233
+6,80,interest_rate,Interest rate,hpd70_lower,13,0.006233
+6,80,interest_rate,Interest rate,hpd70_lower,14,0.006233
+6,80,interest_rate,Interest rate,hpd70_lower,15,0.006233
+6,80,interest_rate,Interest rate,hpd70_lower,16,0.004992
+6,80,interest_rate,Interest rate,hpd70_lower,17,0.004992
+6,80,interest_rate,Interest rate,hpd70_lower,18,0.004992
+6,80,interest_rate,Interest rate,hpd70_lower,19,0.004992
+6,80,interest_rate,Interest rate,hpd70_lower,20,0.004992
+6,80,interest_rate,Interest rate,hpd70_upper,1,0.814213
+6,80,interest_rate,Interest rate,hpd70_upper,2,0.467575
+6,80,interest_rate,Interest rate,hpd70_upper,3,0.198248
+6,80,interest_rate,Interest rate,hpd70_upper,4,0.052363
+6,80,interest_rate,Interest rate,hpd70_upper,5,0.002493
+6,80,interest_rate,Interest rate,hpd70_upper,6,-0.006230
+6,80,interest_rate,Interest rate,hpd70_upper,7,-0.002490
+6,80,interest_rate,Interest rate,hpd70_upper,8,0.004992
+6,80,interest_rate,Interest rate,hpd70_upper,9,0.008732
+6,80,interest_rate,Interest rate,hpd70_upper,10,0.011216
+6,80,interest_rate,Interest rate,hpd70_upper,11,0.011216
+6,80,interest_rate,Interest rate,hpd70_upper,12,0.011216
+6,80,interest_rate,Interest rate,hpd70_upper,13,0.009974
+6,80,interest_rate,Interest rate,hpd70_upper,14,0.008732
+6,80,interest_rate,Interest rate,hpd70_upper,15,0.008732
+6,80,interest_rate,Interest rate,hpd70_upper,16,0.007475
+6,80,interest_rate,Interest rate,hpd70_upper,17,0.007475
+6,80,interest_rate,Interest rate,hpd70_upper,18,0.007475
+6,80,interest_rate,Interest rate,hpd70_upper,19,0.007475
+6,80,interest_rate,Interest rate,hpd70_upper,20,0.007475
+6,80,interest_rate,Interest rate,hpd90_lower,1,0.683290
+6,80,interest_rate,Interest rate,hpd90_lower,2,0.382797
+6,80,interest_rate,Interest rate,hpd90_lower,3,0.122193
+6,80,interest_rate,Interest rate,hpd90_lower,4,-0.008729
+6,80,interest_rate,Interest rate,hpd90_lower,5,-0.046136
+6,80,interest_rate,Interest rate,hpd90_lower,6,-0.038654
+6,80,interest_rate,Interest rate,hpd90_lower,7,-0.021193
+6,80,interest_rate,Interest rate,hpd90_lower,8,-0.006230
+6,80,interest_rate,Interest rate,hpd90_lower,9,-0.000006
+6,80,interest_rate,Interest rate,hpd90_lower,10,0.002493
+6,80,interest_rate,Interest rate,hpd90_lower,11,0.002493
+6,80,interest_rate,Interest rate,hpd90_lower,12,0.003735
+6,80,interest_rate,Interest rate,hpd90_lower,13,0.003735
+6,80,interest_rate,Interest rate,hpd90_lower,14,0.003735
+6,80,interest_rate,Interest rate,hpd90_lower,15,0.003735
+6,80,interest_rate,Interest rate,hpd90_lower,16,0.003735
+6,80,interest_rate,Interest rate,hpd90_lower,17,0.003735
+6,80,interest_rate,Interest rate,hpd90_lower,18,0.003735
+6,80,interest_rate,Interest rate,hpd90_lower,19,0.003735
+6,80,interest_rate,Interest rate,hpd90_lower,20,0.003735
+6,80,interest_rate,Interest rate,hpd90_upper,1,0.894008
+6,80,interest_rate,Interest rate,hpd90_upper,2,0.516203
+6,80,interest_rate,Interest rate,hpd90_upper,3,0.224433
+6,80,interest_rate,Interest rate,hpd90_upper,4,0.079804
+6,80,interest_rate,Interest rate,hpd90_upper,5,0.022438
+6,80,interest_rate,Interest rate,hpd90_upper,6,0.007475
+6,80,interest_rate,Interest rate,hpd90_upper,7,0.006233
+6,80,interest_rate,Interest rate,hpd90_upper,8,0.009974
+6,80,interest_rate,Interest rate,hpd90_upper,9,0.013715
+6,80,interest_rate,Interest rate,hpd90_upper,10,0.014957
+6,80,interest_rate,Interest rate,hpd90_upper,11,0.014957
+6,80,interest_rate,Interest rate,hpd90_upper,12,0.014957
+6,80,interest_rate,Interest rate,hpd90_upper,13,0.013715
+6,80,interest_rate,Interest rate,hpd90_upper,14,0.012473
+6,80,interest_rate,Interest rate,hpd90_upper,15,0.011216
+6,80,interest_rate,Interest rate,hpd90_upper,16,0.009974
+6,80,interest_rate,Interest rate,hpd90_upper,17,0.009974
+6,80,interest_rate,Interest rate,hpd90_upper,18,0.009974
+6,80,interest_rate,Interest rate,hpd90_upper,19,0.008732
+6,80,interest_rate,Interest rate,hpd90_upper,20,0.008732
+6,80,interest_rate,Real wage,mean,1,0.051197
+6,80,interest_rate,Real wage,mean,2,0.052027
+6,80,interest_rate,Real wage,mean,3,0.028091
+6,80,interest_rate,Real wage,mean,4,0.003824
+6,80,interest_rate,Real wage,mean,5,-0.011803
+6,80,interest_rate,Real wage,mean,6,-0.019115
+6,80,interest_rate,Real wage,mean,7,-0.021110
+6,80,interest_rate,Real wage,mean,8,-0.020611
+6,80,interest_rate,Real wage,mean,9,-0.019283
+6,80,interest_rate,Real wage,mean,10,-0.017952
+6,80,interest_rate,Real wage,mean,11,-0.016622
+6,80,interest_rate,Real wage,mean,12,-0.015625
+6,80,interest_rate,Real wage,mean,13,-0.014795
+6,80,interest_rate,Real wage,mean,14,-0.013963
+6,80,interest_rate,Real wage,mean,15,-0.013464
+6,80,interest_rate,Real wage,mean,16,-0.012800
+6,80,interest_rate,Real wage,mean,17,-0.012301
+6,80,interest_rate,Real wage,mean,18,-0.011968
+6,80,interest_rate,Real wage,mean,19,-0.011470
+6,80,interest_rate,Real wage,mean,20,-0.011136
+6,80,interest_rate,Real wage,hpd70_lower,1,0.037733
+6,80,interest_rate,Real wage,hpd70_lower,2,0.032746
+6,80,interest_rate,Real wage,hpd70_lower,3,0.006317
+6,80,interest_rate,Real wage,hpd70_lower,4,-0.016291
+6,80,interest_rate,Real wage,hpd70_lower,5,-0.027427
+6,80,interest_rate,Real wage,hpd70_lower,6,-0.029587
+6,80,interest_rate,Real wage,hpd70_lower,7,-0.028757
+6,80,interest_rate,Real wage,hpd70_lower,8,-0.025432
+6,80,interest_rate,Real wage,hpd70_lower,9,-0.022275
+6,80,interest_rate,Real wage,hpd70_lower,10,-0.020779
+6,80,interest_rate,Real wage,hpd70_lower,11,-0.018950
+6,80,interest_rate,Real wage,hpd70_lower,12,-0.017454
+6,80,interest_rate,Real wage,hpd70_lower,13,-0.016456
+6,80,interest_rate,Real wage,hpd70_lower,14,-0.015625
+6,80,interest_rate,Real wage,hpd70_lower,15,-0.015126
+6,80,interest_rate,Real wage,hpd70_lower,16,-0.014462
+6,80,interest_rate,Real wage,hpd70_lower,17,-0.013963
+6,80,interest_rate,Real wage,hpd70_lower,18,-0.013464
+6,80,interest_rate,Real wage,hpd70_lower,19,-0.012966
+6,80,interest_rate,Real wage,hpd70_lower,20,-0.012467
+6,80,interest_rate,Real wage,hpd70_upper,1,0.066488
+6,80,interest_rate,Real wage,hpd70_upper,2,0.074136
+6,80,interest_rate,Real wage,hpd70_upper,3,0.049867
+6,80,interest_rate,Real wage,hpd70_upper,4,0.022939
+6,80,interest_rate,Real wage,hpd70_upper,5,0.003325
+6,80,interest_rate,Real wage,hpd70_upper,6,-0.007646
+6,80,interest_rate,Real wage,hpd70_upper,7,-0.013299
+6,80,interest_rate,Real wage,hpd70_upper,8,-0.014296
+6,80,interest_rate,Real wage,hpd70_upper,9,-0.013963
+6,80,interest_rate,Real wage,hpd70_upper,10,-0.013464
+6,80,interest_rate,Real wage,hpd70_upper,11,-0.013131
+6,80,interest_rate,Real wage,hpd70_upper,12,-0.012632
+6,80,interest_rate,Real wage,hpd70_upper,13,-0.011968
+6,80,interest_rate,Real wage,hpd70_upper,14,-0.011304
+6,80,interest_rate,Real wage,hpd70_upper,15,-0.010805
+6,80,interest_rate,Real wage,hpd70_upper,16,-0.010307
+6,80,interest_rate,Real wage,hpd70_upper,17,-0.009974
+6,80,interest_rate,Real wage,hpd70_upper,18,-0.009640
+6,80,interest_rate,Real wage,hpd70_upper,19,-0.009142
+6,80,interest_rate,Real wage,hpd70_upper,20,-0.008976
+6,80,interest_rate,Real wage,hpd90_lower,1,0.012467
+6,80,interest_rate,Real wage,hpd90_lower,2,-0.001496
+6,80,interest_rate,Real wage,hpd90_lower,3,-0.024601
+6,80,interest_rate,Real wage,hpd90_lower,4,-0.042054
+6,80,interest_rate,Real wage,hpd90_lower,5,-0.049368
+6,80,interest_rate,Real wage,hpd90_lower,6,-0.048371
+6,80,interest_rate,Real wage,hpd90_lower,7,-0.044715
+6,80,interest_rate,Real wage,hpd90_lower,8,-0.038398
+6,80,interest_rate,Real wage,hpd90_lower,9,-0.033246
+6,80,interest_rate,Real wage,hpd90_lower,10,-0.028091
+6,80,interest_rate,Real wage,hpd90_lower,11,-0.024435
+6,80,interest_rate,Real wage,hpd90_lower,12,-0.022773
+6,80,interest_rate,Real wage,hpd90_lower,13,-0.021443
+6,80,interest_rate,Real wage,hpd90_lower,14,-0.020280
+6,80,interest_rate,Real wage,hpd90_lower,15,-0.018950
+6,80,interest_rate,Real wage,hpd90_lower,16,-0.017952
+6,80,interest_rate,Real wage,hpd90_lower,17,-0.017121
+6,80,interest_rate,Real wage,hpd90_lower,18,-0.016456
+6,80,interest_rate,Real wage,hpd90_lower,19,-0.016123
+6,80,interest_rate,Real wage,hpd90_lower,20,-0.015625
+6,80,interest_rate,Real wage,hpd90_upper,1,0.087433
+6,80,interest_rate,Real wage,hpd90_upper,2,0.101563
+6,80,interest_rate,Real wage,hpd90_upper,3,0.082779
+6,80,interest_rate,Real wage,hpd90_upper,4,0.056515
+6,80,interest_rate,Real wage,hpd90_upper,5,0.029754
+6,80,interest_rate,Real wage,hpd90_upper,6,0.010805
+6,80,interest_rate,Real wage,hpd90_upper,7,-0.001163
+6,80,interest_rate,Real wage,hpd90_upper,8,-0.007315
+6,80,interest_rate,Real wage,hpd90_upper,9,-0.009640
+6,80,interest_rate,Real wage,hpd90_upper,10,-0.010472
+6,80,interest_rate,Real wage,hpd90_upper,11,-0.010139
+6,80,interest_rate,Real wage,hpd90_upper,12,-0.009640
+6,80,interest_rate,Real wage,hpd90_upper,13,-0.009475
+6,80,interest_rate,Real wage,hpd90_upper,14,-0.009142
+6,80,interest_rate,Real wage,hpd90_upper,15,-0.008643
+6,80,interest_rate,Real wage,hpd90_upper,16,-0.008478
+6,80,interest_rate,Real wage,hpd90_upper,17,-0.008144
+6,80,interest_rate,Real wage,hpd90_upper,18,-0.007813
+6,80,interest_rate,Real wage,hpd90_upper,19,-0.007646
+6,80,interest_rate,Real wage,hpd90_upper,20,-0.007315
+6,80,interest_rate,Real exchange rate,mean,1,-0.427926
+6,80,interest_rate,Real exchange rate,mean,2,-0.438562
+6,80,interest_rate,Real exchange rate,mean,3,-0.294945
+6,80,interest_rate,Real exchange rate,mean,4,-0.144020
+6,80,interest_rate,Real exchange rate,mean,5,-0.039626
+6,80,interest_rate,Real exchange rate,mean,6,0.015555
+6,80,interest_rate,Real exchange rate,mean,7,0.036834
+6,80,interest_rate,Real exchange rate,mean,8,0.040161
+6,80,interest_rate,Real exchange rate,mean,9,0.036171
+6,80,interest_rate,Real exchange rate,mean,10,0.030187
+6,80,interest_rate,Real exchange rate,mean,11,0.024203
+6,80,interest_rate,Real exchange rate,mean,12,0.019544
+6,80,interest_rate,Real exchange rate,mean,13,0.015555
+6,80,interest_rate,Real exchange rate,mean,14,0.012235
+6,80,interest_rate,Real exchange rate,mean,15,0.009570
+6,80,interest_rate,Real exchange rate,mean,16,0.006914
+6,80,interest_rate,Real exchange rate,mean,17,0.004919
+6,80,interest_rate,Real exchange rate,mean,18,0.003586
+6,80,interest_rate,Real exchange rate,mean,19,0.001592
+6,80,interest_rate,Real exchange rate,mean,20,0.000930
+6,80,interest_rate,Real exchange rate,hpd70_lower,1,-0.461836
+6,80,interest_rate,Real exchange rate,hpd70_lower,2,-0.474466
+6,80,interest_rate,Real exchange rate,hpd70_lower,3,-0.338166
+6,80,interest_rate,Real exchange rate,hpd70_lower,4,-0.181248
+6,80,interest_rate,Real exchange rate,hpd70_lower,5,-0.063562
+6,80,interest_rate,Real exchange rate,hpd70_lower,6,0.003586
+6,80,interest_rate,Real exchange rate,hpd70_lower,7,0.028193
+6,80,interest_rate,Real exchange rate,hpd70_lower,8,0.031512
+6,80,interest_rate,Real exchange rate,hpd70_lower,9,0.028193
+6,80,interest_rate,Real exchange rate,hpd70_lower,10,0.022209
+6,80,interest_rate,Real exchange rate,hpd70_lower,11,0.016887
+6,80,interest_rate,Real exchange rate,hpd70_lower,12,0.012898
+6,80,interest_rate,Real exchange rate,hpd70_lower,13,0.010241
+6,80,interest_rate,Real exchange rate,hpd70_lower,14,0.007576
+6,80,interest_rate,Real exchange rate,hpd70_lower,15,0.004919
+6,80,interest_rate,Real exchange rate,hpd70_lower,16,0.003586
+6,80,interest_rate,Real exchange rate,hpd70_lower,17,0.001592
+6,80,interest_rate,Real exchange rate,hpd70_lower,18,0.000267
+6,80,interest_rate,Real exchange rate,hpd70_lower,19,-0.001065
+6,80,interest_rate,Real exchange rate,hpd70_lower,20,-0.001727
+6,80,interest_rate,Real exchange rate,hpd70_upper,1,-0.394679
+6,80,interest_rate,Real exchange rate,hpd70_upper,2,-0.393355
+6,80,interest_rate,Real exchange rate,hpd70_upper,3,-0.245748
+6,80,interest_rate,Real exchange rate,hpd70_upper,4,-0.096147
+6,80,interest_rate,Real exchange rate,hpd70_upper,5,-0.005055
+6,80,interest_rate,Real exchange rate,hpd70_upper,6,0.034839
+6,80,interest_rate,Real exchange rate,hpd70_upper,7,0.050796
+6,80,interest_rate,Real exchange rate,hpd70_upper,8,0.049464
+6,80,interest_rate,Real exchange rate,hpd70_upper,9,0.043480
+6,80,interest_rate,Real exchange rate,hpd70_upper,10,0.036171
+6,80,interest_rate,Real exchange rate,hpd70_upper,11,0.029517
+6,80,interest_rate,Real exchange rate,hpd70_upper,12,0.023533
+6,80,interest_rate,Real exchange rate,hpd70_upper,13,0.018882
+6,80,interest_rate,Real exchange rate,hpd70_upper,14,0.014892
+6,80,interest_rate,Real exchange rate,hpd70_upper,15,0.012235
+6,80,interest_rate,Real exchange rate,hpd70_upper,16,0.009570
+6,80,interest_rate,Real exchange rate,hpd70_upper,17,0.007576
+6,80,interest_rate,Real exchange rate,hpd70_upper,18,0.004919
+6,80,interest_rate,Real exchange rate,hpd70_upper,19,0.003586
+6,80,interest_rate,Real exchange rate,hpd70_upper,20,0.002262
+6,80,interest_rate,Real exchange rate,hpd90_lower,1,-0.510370
+6,80,interest_rate,Real exchange rate,hpd90_lower,2,-0.542955
+6,80,interest_rate,Real exchange rate,hpd90_lower,3,-0.404652
+6,80,interest_rate,Real exchange rate,hpd90_lower,4,-0.239094
+6,80,interest_rate,Real exchange rate,hpd90_lower,5,-0.108778
+6,80,interest_rate,Real exchange rate,hpd90_lower,6,-0.028328
+6,80,interest_rate,Real exchange rate,hpd90_lower,7,0.006914
+6,80,interest_rate,Real exchange rate,hpd90_lower,8,0.020214
+6,80,interest_rate,Real exchange rate,hpd90_lower,9,0.016887
+6,80,interest_rate,Real exchange rate,hpd90_lower,10,0.013560
+6,80,interest_rate,Real exchange rate,hpd90_lower,11,0.010241
+6,80,interest_rate,Real exchange rate,hpd90_lower,12,0.007576
+6,80,interest_rate,Real exchange rate,hpd90_lower,13,0.004919
+6,80,interest_rate,Real exchange rate,hpd90_lower,14,0.002924
+6,80,interest_rate,Real exchange rate,hpd90_lower,15,0.001592
+6,80,interest_rate,Real exchange rate,hpd90_lower,16,-0.000403
+6,80,interest_rate,Real exchange rate,hpd90_lower,17,-0.001065
+6,80,interest_rate,Real exchange rate,hpd90_lower,18,-0.002398
+6,80,interest_rate,Real exchange rate,hpd90_lower,19,-0.003722
+6,80,interest_rate,Real exchange rate,hpd90_lower,20,-0.004392
+6,80,interest_rate,Real exchange rate,hpd90_upper,1,-0.341493
+6,80,interest_rate,Real exchange rate,hpd90_upper,2,-0.342817
+6,80,interest_rate,Real exchange rate,hpd90_upper,3,-0.193216
+6,80,interest_rate,Real exchange rate,hpd90_upper,4,-0.056254
+6,80,interest_rate,Real exchange rate,hpd90_upper,5,0.021539
+6,80,interest_rate,Real exchange rate,hpd90_upper,6,0.055448
+6,80,interest_rate,Real exchange rate,hpd90_upper,7,0.065421
+6,80,interest_rate,Real exchange rate,hpd90_upper,8,0.064097
+6,80,interest_rate,Real exchange rate,hpd90_upper,9,0.058775
+6,80,interest_rate,Real exchange rate,hpd90_upper,10,0.049464
+6,80,interest_rate,Real exchange rate,hpd90_upper,11,0.041485
+6,80,interest_rate,Real exchange rate,hpd90_upper,12,0.034177
+6,80,interest_rate,Real exchange rate,hpd90_upper,13,0.028193
+6,80,interest_rate,Real exchange rate,hpd90_upper,14,0.023533
+6,80,interest_rate,Real exchange rate,hpd90_upper,15,0.019544
+6,80,interest_rate,Real exchange rate,hpd90_upper,16,0.015555
+6,80,interest_rate,Real exchange rate,hpd90_upper,17,0.012898
+6,80,interest_rate,Real exchange rate,hpd90_upper,18,0.010241
+6,80,interest_rate,Real exchange rate,hpd90_upper,19,0.008908
+6,80,interest_rate,Real exchange rate,hpd90_upper,20,0.006914
+6,80,interest_rate,CPI inflation,mean,1,-0.174070
+6,80,interest_rate,CPI inflation,mean,2,-0.143484
+6,80,interest_rate,CPI inflation,mean,3,-0.072342
+6,80,interest_rate,CPI inflation,mean,4,-0.022475
+6,80,interest_rate,CPI inflation,mean,5,0.000464
+6,80,interest_rate,CPI inflation,mean,6,0.007114
+6,80,interest_rate,CPI inflation,mean,7,0.006448
+6,80,interest_rate,CPI inflation,mean,8,0.004453
+6,80,interest_rate,CPI inflation,mean,9,0.002794
+6,80,interest_rate,CPI inflation,mean,10,0.001796
+6,80,interest_rate,CPI inflation,mean,11,0.001461
+6,80,interest_rate,CPI inflation,mean,12,0.001130
+6,80,interest_rate,CPI inflation,mean,13,0.001130
+6,80,interest_rate,CPI inflation,mean,14,0.001130
+6,80,interest_rate,CPI inflation,mean,15,0.001130
+6,80,interest_rate,CPI inflation,mean,16,0.001130
+6,80,interest_rate,CPI inflation,mean,17,0.001130
+6,80,interest_rate,CPI inflation,mean,18,0.001130
+6,80,interest_rate,CPI inflation,mean,19,0.001130
+6,80,interest_rate,CPI inflation,mean,20,0.001130
+6,80,interest_rate,CPI inflation,hpd70_lower,1,-0.188695
+6,80,interest_rate,CPI inflation,hpd70_lower,2,-0.156118
+6,80,interest_rate,CPI inflation,hpd70_lower,3,-0.080983
+6,80,interest_rate,CPI inflation,hpd70_lower,4,-0.028459
+6,80,interest_rate,CPI inflation,hpd70_lower,5,-0.002193
+6,80,interest_rate,CPI inflation,hpd70_lower,6,0.004788
+6,80,interest_rate,CPI inflation,hpd70_lower,7,0.004122
+6,80,interest_rate,CPI inflation,hpd70_lower,8,0.002794
+6,80,interest_rate,CPI inflation,hpd70_lower,9,0.001796
+6,80,interest_rate,CPI inflation,hpd70_lower,10,0.001130
+6,80,interest_rate,CPI inflation,hpd70_lower,11,0.001130
+6,80,interest_rate,CPI inflation,hpd70_lower,12,0.000799
+6,80,interest_rate,CPI inflation,hpd70_lower,13,0.000799
+6,80,interest_rate,CPI inflation,hpd70_lower,14,0.000799
+6,80,interest_rate,CPI inflation,hpd70_lower,15,0.000799
+6,80,interest_rate,CPI inflation,hpd70_lower,16,0.000799
+6,80,interest_rate,CPI inflation,hpd70_lower,17,0.000799
+6,80,interest_rate,CPI inflation,hpd70_lower,18,0.000799
+6,80,interest_rate,CPI inflation,hpd70_lower,19,0.000799
+6,80,interest_rate,CPI inflation,hpd70_lower,20,0.000799
+6,80,interest_rate,CPI inflation,hpd70_upper,1,-0.155452
+6,80,interest_rate,CPI inflation,hpd70_upper,2,-0.128855
+6,80,interest_rate,CPI inflation,hpd70_upper,3,-0.061036
+6,80,interest_rate,CPI inflation,hpd70_upper,4,-0.015493
+6,80,interest_rate,CPI inflation,hpd70_upper,5,0.004122
+6,80,interest_rate,CPI inflation,hpd70_upper,6,0.009440
+6,80,interest_rate,CPI inflation,hpd70_upper,7,0.008443
+6,80,interest_rate,CPI inflation,hpd70_upper,8,0.005786
+6,80,interest_rate,CPI inflation,hpd70_upper,9,0.003456
+6,80,interest_rate,CPI inflation,hpd70_upper,10,0.002128
+6,80,interest_rate,CPI inflation,hpd70_upper,11,0.001461
+6,80,interest_rate,CPI inflation,hpd70_upper,12,0.001461
+6,80,interest_rate,CPI inflation,hpd70_upper,13,0.001461
+6,80,interest_rate,CPI inflation,hpd70_upper,14,0.001461
+6,80,interest_rate,CPI inflation,hpd70_upper,15,0.001461
+6,80,interest_rate,CPI inflation,hpd70_upper,16,0.001461
+6,80,interest_rate,CPI inflation,hpd70_upper,17,0.001461
+6,80,interest_rate,CPI inflation,hpd70_upper,18,0.001461
+6,80,interest_rate,CPI inflation,hpd70_upper,19,0.001461
+6,80,interest_rate,CPI inflation,hpd70_upper,20,0.001461
+6,80,interest_rate,CPI inflation,hpd90_lower,1,-0.212631
+6,80,interest_rate,CPI inflation,hpd90_lower,2,-0.180717
+6,80,interest_rate,CPI inflation,hpd90_lower,3,-0.099270
+6,80,interest_rate,CPI inflation,hpd90_lower,4,-0.038432
+6,80,interest_rate,CPI inflation,hpd90_lower,5,-0.007515
+6,80,interest_rate,CPI inflation,hpd90_lower,6,0.001461
+6,80,interest_rate,CPI inflation,hpd90_lower,7,0.002128
+6,80,interest_rate,CPI inflation,hpd90_lower,8,0.001461
+6,80,interest_rate,CPI inflation,hpd90_lower,9,0.001130
+6,80,interest_rate,CPI inflation,hpd90_lower,10,0.000799
+6,80,interest_rate,CPI inflation,hpd90_lower,11,0.000464
+6,80,interest_rate,CPI inflation,hpd90_lower,12,0.000464
+6,80,interest_rate,CPI inflation,hpd90_lower,13,0.000464
+6,80,interest_rate,CPI inflation,hpd90_lower,14,0.000464
+6,80,interest_rate,CPI inflation,hpd90_lower,15,0.000799
+6,80,interest_rate,CPI inflation,hpd90_lower,16,0.000799
+6,80,interest_rate,CPI inflation,hpd90_lower,17,0.000799
+6,80,interest_rate,CPI inflation,hpd90_lower,18,0.000799
+6,80,interest_rate,CPI inflation,hpd90_lower,19,0.000799
+6,80,interest_rate,CPI inflation,hpd90_lower,20,0.000799
+6,80,interest_rate,CPI inflation,hpd90_upper,1,-0.137831
+6,80,interest_rate,CPI inflation,hpd90_upper,2,-0.112898
+6,80,interest_rate,CPI inflation,hpd90_upper,3,-0.048737
+6,80,interest_rate,CPI inflation,hpd90_upper,4,-0.007846
+6,80,interest_rate,CPI inflation,hpd90_upper,5,0.007780
+6,80,interest_rate,CPI inflation,hpd90_upper,6,0.012432
+6,80,interest_rate,CPI inflation,hpd90_upper,7,0.011435
+6,80,interest_rate,CPI inflation,hpd90_upper,8,0.008778
+6,80,interest_rate,CPI inflation,hpd90_upper,9,0.005451
+6,80,interest_rate,CPI inflation,hpd90_upper,10,0.003456
+6,80,interest_rate,CPI inflation,hpd90_upper,11,0.002459
+6,80,interest_rate,CPI inflation,hpd90_upper,12,0.002128
+6,80,interest_rate,CPI inflation,hpd90_upper,13,0.001796
+6,80,interest_rate,CPI inflation,hpd90_upper,14,0.001796
+6,80,interest_rate,CPI inflation,hpd90_upper,15,0.001796
+6,80,interest_rate,CPI inflation,hpd90_upper,16,0.001796
+6,80,interest_rate,CPI inflation,hpd90_upper,17,0.001796
+6,80,interest_rate,CPI inflation,hpd90_upper,18,0.001796
+6,80,interest_rate,CPI inflation,hpd90_upper,19,0.001796
+6,80,interest_rate,CPI inflation,hpd90_upper,20,0.001796
+6,80,interest_rate,Domestic inflation,mean,1,-0.090193
+6,80,interest_rate,Domestic inflation,mean,2,-0.110140
+6,80,interest_rate,Domestic inflation,mean,3,-0.093683
+6,80,interest_rate,Domestic inflation,mean,4,-0.063430
+6,80,interest_rate,Domestic inflation,mean,5,-0.035006
+6,80,interest_rate,Domestic inflation,mean,6,-0.014894
+6,80,interest_rate,Domestic inflation,mean,7,-0.003259
+6,80,interest_rate,Domestic inflation,mean,8,0.002061
+6,80,interest_rate,Domestic inflation,mean,9,0.003890
+6,80,interest_rate,Domestic inflation,mean,10,0.004056
+6,80,interest_rate,Domestic inflation,mean,11,0.003557
+6,80,interest_rate,Domestic inflation,mean,12,0.003058
+6,80,interest_rate,Domestic inflation,mean,13,0.002725
+6,80,interest_rate,Domestic inflation,mean,14,0.002394
+6,80,interest_rate,Domestic inflation,mean,15,0.002227
+6,80,interest_rate,Domestic inflation,mean,16,0.002061
+6,80,interest_rate,Domestic inflation,mean,17,0.001896
+6,80,interest_rate,Domestic inflation,mean,18,0.001728
+6,80,interest_rate,Domestic inflation,mean,19,0.001728
+6,80,interest_rate,Domestic inflation,mean,20,0.001562
+6,80,interest_rate,Domestic inflation,hpd70_lower,1,-0.099502
+6,80,interest_rate,Domestic inflation,hpd70_lower,2,-0.120945
+6,80,interest_rate,Domestic inflation,hpd70_lower,3,-0.102161
+6,80,interest_rate,Domestic inflation,hpd70_lower,4,-0.070080
+6,80,interest_rate,Domestic inflation,hpd70_lower,5,-0.039993
+6,80,interest_rate,Domestic inflation,hpd70_lower,6,-0.019216
+6,80,interest_rate,Domestic inflation,hpd70_lower,7,-0.006251
+6,80,interest_rate,Domestic inflation,hpd70_lower,8,-0.000099
+6,80,interest_rate,Domestic inflation,hpd70_lower,9,0.002560
+6,80,interest_rate,Domestic inflation,hpd70_lower,10,0.003058
+6,80,interest_rate,Domestic inflation,hpd70_lower,11,0.002725
+6,80,interest_rate,Domestic inflation,hpd70_lower,12,0.002394
+6,80,interest_rate,Domestic inflation,hpd70_lower,13,0.002061
+6,80,interest_rate,Domestic inflation,hpd70_lower,14,0.001896
+6,80,interest_rate,Domestic inflation,hpd70_lower,15,0.001728
+6,80,interest_rate,Domestic inflation,hpd70_lower,16,0.001562
+6,80,interest_rate,Domestic inflation,hpd70_lower,17,0.001562
+6,80,interest_rate,Domestic inflation,hpd70_lower,18,0.001397
+6,80,interest_rate,Domestic inflation,hpd70_lower,19,0.001397
+6,80,interest_rate,Domestic inflation,hpd70_lower,20,0.001229
+6,80,interest_rate,Domestic inflation,hpd70_upper,1,-0.077560
+6,80,interest_rate,Domestic inflation,hpd70_upper,2,-0.097340
+6,80,interest_rate,Domestic inflation,hpd70_upper,3,-0.083876
+6,80,interest_rate,Domestic inflation,hpd70_upper,4,-0.055451
+6,80,interest_rate,Domestic inflation,hpd70_upper,5,-0.029521
+6,80,interest_rate,Domestic inflation,hpd70_upper,6,-0.010571
+6,80,interest_rate,Domestic inflation,hpd70_upper,7,0.000232
+6,80,interest_rate,Domestic inflation,hpd70_upper,8,0.004389
+6,80,interest_rate,Domestic inflation,hpd70_upper,9,0.005219
+6,80,interest_rate,Domestic inflation,hpd70_upper,10,0.004720
+6,80,interest_rate,Domestic inflation,hpd70_upper,11,0.004221
+6,80,interest_rate,Domestic inflation,hpd70_upper,12,0.003723
+6,80,interest_rate,Domestic inflation,hpd70_upper,13,0.003224
+6,80,interest_rate,Domestic inflation,hpd70_upper,14,0.002725
+6,80,interest_rate,Domestic inflation,hpd70_upper,15,0.002560
+6,80,interest_rate,Domestic inflation,hpd70_upper,16,0.002394
+6,80,interest_rate,Domestic inflation,hpd70_upper,17,0.002227
+6,80,interest_rate,Domestic inflation,hpd70_upper,18,0.002061
+6,80,interest_rate,Domestic inflation,hpd70_upper,19,0.001896
+6,80,interest_rate,Domestic inflation,hpd70_upper,20,0.001896
+6,80,interest_rate,Domestic inflation,hpd90_lower,1,-0.118950
+6,80,interest_rate,Domestic inflation,hpd90_lower,2,-0.143052
+6,80,interest_rate,Domestic inflation,hpd90_lower,3,-0.120945
+6,80,interest_rate,Domestic inflation,hpd90_lower,4,-0.081881
+6,80,interest_rate,Domestic inflation,hpd90_lower,5,-0.049302
+6,80,interest_rate,Domestic inflation,hpd90_lower,6,-0.025200
+6,80,interest_rate,Domestic inflation,hpd90_lower,7,-0.011070
+6,80,interest_rate,Domestic inflation,hpd90_lower,8,-0.003424
+6,80,interest_rate,Domestic inflation,hpd90_lower,9,0.000400
+6,80,interest_rate,Domestic inflation,hpd90_lower,10,0.001728
+6,80,interest_rate,Domestic inflation,hpd90_lower,11,0.001896
+6,80,interest_rate,Domestic inflation,hpd90_lower,12,0.001728
+6,80,interest_rate,Domestic inflation,hpd90_lower,13,0.001397
+6,80,interest_rate,Domestic inflation,hpd90_lower,14,0.001397
+6,80,interest_rate,Domestic inflation,hpd90_lower,15,0.001229
+6,80,interest_rate,Domestic inflation,hpd90_lower,16,0.001229
+6,80,interest_rate,Domestic inflation,hpd90_lower,17,0.001229
+6,80,interest_rate,Domestic inflation,hpd90_lower,18,0.001064
+6,80,interest_rate,Domestic inflation,hpd90_lower,19,0.001064
+6,80,interest_rate,Domestic inflation,hpd90_lower,20,0.000898
+6,80,interest_rate,Domestic inflation,hpd90_upper,1,-0.065592
+6,80,interest_rate,Domestic inflation,hpd90_upper,2,-0.080552
+6,80,interest_rate,Domestic inflation,hpd90_upper,3,-0.070579
+6,80,interest_rate,Domestic inflation,hpd90_upper,4,-0.046310
+6,80,interest_rate,Domestic inflation,hpd90_upper,5,-0.022374
+6,80,interest_rate,Domestic inflation,hpd90_upper,6,-0.004920
+6,80,interest_rate,Domestic inflation,hpd90_upper,7,0.004056
+6,80,interest_rate,Domestic inflation,hpd90_upper,8,0.007048
+6,80,interest_rate,Domestic inflation,hpd90_upper,9,0.007048
+6,80,interest_rate,Domestic inflation,hpd90_upper,10,0.006216
+6,80,interest_rate,Domestic inflation,hpd90_upper,11,0.005386
+6,80,interest_rate,Domestic inflation,hpd90_upper,12,0.004554
+6,80,interest_rate,Domestic inflation,hpd90_upper,13,0.004056
+6,80,interest_rate,Domestic inflation,hpd90_upper,14,0.003723
+6,80,interest_rate,Domestic inflation,hpd90_upper,15,0.003224
+6,80,interest_rate,Domestic inflation,hpd90_upper,16,0.003058
+6,80,interest_rate,Domestic inflation,hpd90_upper,17,0.002725
+6,80,interest_rate,Domestic inflation,hpd90_upper,18,0.002560
+6,80,interest_rate,Domestic inflation,hpd90_upper,19,0.002394
+6,80,interest_rate,Domestic inflation,hpd90_upper,20,0.002394
+6,80,interest_rate,Imported inflation,mean,1,-0.330319
+6,80,interest_rate,Imported inflation,mean,2,-0.205986
+6,80,interest_rate,Imported inflation,mean,3,-0.033112
+6,80,interest_rate,Imported inflation,mean,4,0.053992
+6,80,interest_rate,Imported inflation,mean,5,0.066622
+6,80,interest_rate,Imported inflation,mean,6,0.047338
+6,80,interest_rate,Imported inflation,mean,7,0.024734
+6,80,interest_rate,Imported inflation,mean,8,0.009439
+6,80,interest_rate,Imported inflation,mean,9,0.000798
+6,80,interest_rate,Imported inflation,mean,10,-0.001859
+6,80,interest_rate,Imported inflation,mean,11,-0.002529
+6,80,interest_rate,Imported inflation,mean,12,-0.001859
+6,80,interest_rate,Imported inflation,mean,13,-0.001859
+6,80,interest_rate,Imported inflation,mean,14,-0.001197
+6,80,interest_rate,Imported inflation,mean,15,-0.000535
+6,80,interest_rate,Imported inflation,mean,16,-0.000535
+6,80,interest_rate,Imported inflation,mean,17,0.000136
+6,80,interest_rate,Imported inflation,mean,18,0.000136
+6,80,interest_rate,Imported inflation,mean,19,0.000136
+6,80,interest_rate,Imported inflation,mean,20,0.000136
+6,80,interest_rate,Imported inflation,hpd70_lower,1,-0.354917
+6,80,interest_rate,Imported inflation,hpd70_lower,2,-0.227258
+6,80,interest_rate,Imported inflation,hpd70_lower,3,-0.048407
+6,80,interest_rate,Imported inflation,hpd70_lower,4,0.045343
+6,80,interest_rate,Imported inflation,hpd70_lower,5,0.059976
+6,80,interest_rate,Imported inflation,hpd70_lower,6,0.038035
+6,80,interest_rate,Imported inflation,hpd70_lower,7,0.016093
+6,80,interest_rate,Imported inflation,hpd70_lower,8,0.002130
+6,80,interest_rate,Imported inflation,hpd70_lower,9,-0.003191
+6,80,interest_rate,Imported inflation,hpd70_lower,10,-0.004524
+6,80,interest_rate,Imported inflation,hpd70_lower,11,-0.003854
+6,80,interest_rate,Imported inflation,hpd70_lower,12,-0.003191
+6,80,interest_rate,Imported inflation,hpd70_lower,13,-0.002529
+6,80,interest_rate,Imported inflation,hpd70_lower,14,-0.001859
+6,80,interest_rate,Imported inflation,hpd70_lower,15,-0.001197
+6,80,interest_rate,Imported inflation,hpd70_lower,16,-0.000535
+6,80,interest_rate,Imported inflation,hpd70_lower,17,-0.000535
+6,80,interest_rate,Imported inflation,hpd70_lower,18,0.000136
+6,80,interest_rate,Imported inflation,hpd70_lower,19,0.000136
+6,80,interest_rate,Imported inflation,hpd70_lower,20,0.000136
+6,80,interest_rate,Imported inflation,hpd70_upper,1,-0.299066
+6,80,interest_rate,Imported inflation,hpd70_upper,2,-0.181380
+6,80,interest_rate,Imported inflation,hpd70_upper,3,-0.014497
+6,80,interest_rate,Imported inflation,hpd70_upper,4,0.063965
+6,80,interest_rate,Imported inflation,hpd70_upper,5,0.073939
+6,80,interest_rate,Imported inflation,hpd70_upper,6,0.055316
+6,80,interest_rate,Imported inflation,hpd70_upper,7,0.031380
+6,80,interest_rate,Imported inflation,hpd70_upper,8,0.012766
+6,80,interest_rate,Imported inflation,hpd70_upper,9,0.003455
+6,80,interest_rate,Imported inflation,hpd70_upper,10,-0.001197
+6,80,interest_rate,Imported inflation,hpd70_upper,11,-0.001859
+6,80,interest_rate,Imported inflation,hpd70_upper,12,-0.001197
+6,80,interest_rate,Imported inflation,hpd70_upper,13,-0.000535
+6,80,interest_rate,Imported inflation,hpd70_upper,14,-0.000535
+6,80,interest_rate,Imported inflation,hpd70_upper,15,0.000136
+6,80,interest_rate,Imported inflation,hpd70_upper,16,0.000136
+6,80,interest_rate,Imported inflation,hpd70_upper,17,0.000136
+6,80,interest_rate,Imported inflation,hpd70_upper,18,0.000136
+6,80,interest_rate,Imported inflation,hpd70_upper,19,0.000798
+6,80,interest_rate,Imported inflation,hpd70_upper,20,0.000798
+6,80,interest_rate,Imported inflation,hpd90_lower,1,-0.399470
+6,80,interest_rate,Imported inflation,hpd90_lower,2,-0.257178
+6,80,interest_rate,Imported inflation,hpd90_lower,3,-0.074338
+6,80,interest_rate,Imported inflation,hpd90_lower,4,0.027391
+6,80,interest_rate,Imported inflation,hpd90_lower,5,0.048008
+6,80,interest_rate,Imported inflation,hpd90_lower,6,0.028061
+6,80,interest_rate,Imported inflation,hpd90_lower,7,0.008777
+6,80,interest_rate,Imported inflation,hpd90_lower,8,-0.001859
+6,80,interest_rate,Imported inflation,hpd90_lower,9,-0.005848
+6,80,interest_rate,Imported inflation,hpd90_lower,10,-0.006519
+6,80,interest_rate,Imported inflation,hpd90_lower,11,-0.005848
+6,80,interest_rate,Imported inflation,hpd90_lower,12,-0.004524
+6,80,interest_rate,Imported inflation,hpd90_lower,13,-0.003854
+6,80,interest_rate,Imported inflation,hpd90_lower,14,-0.003191
+6,80,interest_rate,Imported inflation,hpd90_lower,15,-0.001859
+6,80,interest_rate,Imported inflation,hpd90_lower,16,-0.001859
+6,80,interest_rate,Imported inflation,hpd90_lower,17,-0.001197
+6,80,interest_rate,Imported inflation,hpd90_lower,18,-0.000535
+6,80,interest_rate,Imported inflation,hpd90_lower,19,-0.000535
+6,80,interest_rate,Imported inflation,hpd90_lower,20,-0.000535
+6,80,interest_rate,Imported inflation,hpd90_upper,1,-0.265157
+6,80,interest_rate,Imported inflation,hpd90_upper,2,-0.156782
+6,80,interest_rate,Imported inflation,hpd90_upper,3,0.006120
+6,80,interest_rate,Imported inflation,hpd90_upper,4,0.076596
+6,80,interest_rate,Imported inflation,hpd90_upper,5,0.084574
+6,80,interest_rate,Imported inflation,hpd90_upper,6,0.067284
+6,80,interest_rate,Imported inflation,hpd90_upper,7,0.044019
+6,80,interest_rate,Imported inflation,hpd90_upper,8,0.023402
+6,80,interest_rate,Imported inflation,hpd90_upper,9,0.009439
+6,80,interest_rate,Imported inflation,hpd90_upper,10,0.002793
+6,80,interest_rate,Imported inflation,hpd90_upper,11,0.000798
+6,80,interest_rate,Imported inflation,hpd90_upper,12,0.000136
+6,80,interest_rate,Imported inflation,hpd90_upper,13,0.000136
+6,80,interest_rate,Imported inflation,hpd90_upper,14,0.000798
+6,80,interest_rate,Imported inflation,hpd90_upper,15,0.000798
+6,80,interest_rate,Imported inflation,hpd90_upper,16,0.000798
+6,80,interest_rate,Imported inflation,hpd90_upper,17,0.000798
+6,80,interest_rate,Imported inflation,hpd90_upper,18,0.000798
+6,80,interest_rate,Imported inflation,hpd90_upper,19,0.000798
+6,80,interest_rate,Imported inflation,hpd90_upper,20,0.000798

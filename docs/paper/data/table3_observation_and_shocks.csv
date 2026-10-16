@@ -1,0 +1,50 @@
+row_type,group,parameter,symbol,prior_type,prior_mean,prior_std,post_mode,post_std,post_mean,post_5pct,post_95pct,page,pdf_page
+group_label,Observation parameters,Observation parameters,,,,,,,,,,51,57
+data,Observation parameters,Obs. error output def.,"$\rho_{OB,\Delta Y}$",normal,0.00,0.25,-0.185,0.136,-0.189,-0.421,0.032,51,57
+data,Observation parameters,Employment,"$\rho_{OB,E}$",beta,0.70,0.15,0.907,0.044,0.837,0.718,0.959,51,57
+data,Observation parameters,Constant,$tp$,normal,0.01,0.01,0.012,0.004,0.011,0.004,0.018,51,57
+data,Observation parameters,Obs. error,"$\rho_{OB,fwd}$",beta,0.70,0.15,0.740,0.169,0.716,0.510,0.938,51,57
+data,Observation parameters,Constant,$tp^{*}$,normal,0.02,0.01,0.018,0.004,0.018,0.011,0.025,51,57
+data,Observation parameters,Obs. error,"$\rho_{OB,fwd^{*}}$",beta,0.70,0.15,0.832,0.104,0.791,0.631,0.958,51,57
+data,Observation parameters,Hours,$\rho_{EX}^{N}$,beta,0.70,0.15,0.933,0.038,0.792,0.569,0.979,51,57
+data,Observation parameters,Consumption,$\rho_{EX}^{C}$,beta,0.70,0.15,0.546,0.179,0.600,0.365,0.842,51,57
+data,Observation parameters,Investment,$\rho_{EX}^{I}$,beta,0.70,0.15,0.735,0.189,0.737,0.515,0.948,51,57
+data,Observation parameters,Export,$\rho_{EX}^{X}$,beta,0.70,0.15,0.602,0.169,0.580,0.332,0.824,51,57
+data,Observation parameters,Import,$\rho_{EX}^{IM}$,beta,0.70,0.15,0.675,0.160,0.615,0.377,0.855,51,57
+data,Observation parameters,Foreign GDP,$\rho_{EX}^{Y^{*}}$,beta,0.70,0.15,0.655,0.143,0.645,0.432,0.866,51,57
+data,Observation parameters,World trade,$\rho_{EX}^{WT^{*}}$,beta,0.70,0.15,0.849,0.077,0.800,0.654,0.950,51,57
+data,Observation parameters,Oil price,$\rho_{EX}^{P_{OIL}^{*}}$,beta,0.50,0.07,0.566,0.067,0.552,0.443,0.660,51,57
+group_label,Shocks' standard deviations,Shocks' standard deviations,,,,,,,,,,51,57
+data,Shocks' standard deviations,Obs. error output def.,S.D.($\eta^{\Delta P_{Y}^{M}}$),inv. gamma,0.01,Inf,0.007,0.001,0.007,0.006,0.009,51,57
+data,Shocks' standard deviations,Employment,"S.D.($\eta^{OB,E}$)",inv. gamma,0.01,Inf,0.003,0.000,0.003,0.002,0.003,51,57
+data,Shocks' standard deviations,Dom. term prem.,"S.D.($\eta^{fwd,OB}$)",inv. gamma,0.01,Inf,0.002,0.001,0.002,0.002,0.003,51,57
+data,Shocks' standard deviations,Foreign term prem.,"S.D.($\eta^{*,fwd,OB}$)",inv. gamma,0.01,Inf,0.002,0.000,0.002,0.001,0.002,51,57
+data,Shocks' standard deviations,Hours worked,S.D.($\eta_{EX}^{N}$),inv. gamma,0.00,0.00,0.001,0.000,0.001,0.000,0.001,51,57
+data,Shocks' standard deviations,Consumption,S.D.($\eta_{EX}^{C}$),inv. gamma,0.01,0.00,0.003,0.000,0.003,0.002,0.004,51,57
+data,Shocks' standard deviations,Investment,S.D.($\eta_{EX}^{I}$),inv. gamma,0.01,0.00,0.004,0.001,0.004,0.003,0.006,51,57
+data,Shocks' standard deviations,Export,S.D.($\eta_{EX}^{X}$),inv. gamma,0.01,0.00,0.003,0.001,0.003,0.002,0.005,51,57
+data,Shocks' standard deviations,Import,S.D.($\eta_{EX}^{IM}$),inv. gamma,0.01,0.00,0.003,0.001,0.003,0.002,0.004,51,57
+data,Shocks' standard deviations,Wages,S.D.($\eta_{EX}^{W}$),inv. gamma,0.01,0.00,0.010,0.002,0.011,0.007,0.016,51,57
+data,Shocks' standard deviations,Foreign GDP,S.D.($\eta_{EX}^{Y^{*}}$),inv. gamma,0.01,0.00,0.003,0.000,0.003,0.002,0.003,51,57
+data,Shocks' standard deviations,World trade,S.D.($\eta_{EX}^{WT^{*}}$),inv. gamma,0.01,0.00,0.004,0.001,0.004,0.003,0.006,51,57
+data,Shocks' standard deviations,Oil price,S.D.($\eta_{EX}^{P_{OIL}^{*}}$),inv. gamma,0.03,0.01,0.032,0.007,0.038,0.023,0.052,51,57
+data,Shocks' standard deviations,Exchange rate,S.D.($\eta_{EX}^{S}$),inv. gamma,0.01,0.01,0.013,0.002,0.014,0.010,0.018,51,57
+data,Shocks' standard deviations,Transitory techn.,S.D.($\eta$),inv. gamma,0.03,Inf,0.011,0.001,0.012,0.010,0.013,51,57
+data,Shocks' standard deviations,Permanent techn.,S.D.($\eta^{g_{z}}$),inv. gamma,0.01,Inf,0.002,0.000,0.002,0.001,0.002,51,57
+data,Shocks' standard deviations,Symmetric prem.,S.D.($\eta^{RP}$),inv. gamma,0.03,Inf,0.010,0.003,0.013,0.006,0.022,51,57
+data,Shocks' standard deviations,External prem.,S.D.($\eta^{RP^{*}}$),inv. gamma,0.03,Inf,0.011,0.002,0.011,0.008,0.014,51,57
+data,Shocks' standard deviations,Dom. prem.,S.D.($\eta^{DRP}$),inv. gamma,0.00,Inf,0.000,0.000,0.001,0.000,0.001,51,57
+data,Shocks' standard deviations,Consumption,S.D.($\eta^{C}$),inv. gamma,0.03,Inf,0.012,0.006,0.035,0.007,0.067,51,57
+data,Shocks' standard deviations,Inv. techn.,S.D.($\eta^{I}$),inv. gamma,0.05,Inf,0.042,0.009,0.052,0.020,0.081,51,57
+data,Shocks' standard deviations,Inventory inv.,S.D.($\eta^{\Delta INV}$),inv. gamma,0.01,Inf,0.013,0.001,0.013,0.011,0.015,51,57
+data,Shocks' standard deviations,Government,S.D.($\eta^{G}$),inv. gamma,0.01,Inf,0.006,0.001,0.006,0.004,0.008,51,57
+data,Shocks' standard deviations,Export share,S.D.($\eta^{\nu^{*}}$),inv. gamma,0.05,Inf,0.042,0.007,0.058,0.035,0.082,51,57
+data,Shocks' standard deviations,Home bias,S.D.($\eta^{\nu}$),inv. gamma,0.01,Inf,0.008,0.001,0.008,0.007,0.010,51,57
+data,Shocks' standard deviations,Domestic markup,S.D.($\eta^{\varphi^{H}}$),inv. gamma,0.05,Inf,0.028,0.009,0.038,0.016,0.059,51,57
+data,Shocks' standard deviations,Import markup,S.D.($\eta^{\varphi^{*}}$),inv. gamma,0.03,Inf,0.026,0.007,0.029,0.015,0.043,51,57
+data,Shocks' standard deviations,Wage markup,S.D.($\eta^{\varphi^{W}}$),inv. gamma,0.50,Inf,0.238,0.068,0.335,0.141,0.519,51,57
+data,Shocks' standard deviations,Export markup,S.D.($\eta^{\varphi^{X}}$),inv. gamma,0.10,Inf,0.066,0.017,0.076,0.042,0.107,51,57
+data,Shocks' standard deviations,Foreign transfers,S.D.($\eta^{FTR}$),inv. gamma,0.01,Inf,0.016,0.002,0.016,0.013,0.019,51,57
+data,Shocks' standard deviations,Interest rate,S.D.($\eta^{R}$),inv. gamma,0.01,Inf,0.002,0.000,0.002,0.002,0.003,51,57
+data,Shocks' standard deviations,Inf. target,S.D.($\eta^{\bar{\Pi}}$),inv. gamma,0.00,Inf,0.001,0.000,0.001,0.001,0.001,51,57
+data,Shocks' standard deviations,Consumption tax,S.D.($\eta^{\tau^{C}}$),inv. gamma,0.00,Inf,0.002,0.000,0.002,0.002,0.003,51,57

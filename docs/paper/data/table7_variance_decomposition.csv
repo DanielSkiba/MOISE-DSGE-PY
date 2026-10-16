@@ -1,0 +1,251 @@
+pdf_page,page,variable,variable_symbol,shock,shock_symbol,h1,h4,h_inf
+75,69,Interest rate,$r^{OB}$,Transitory techn.,$\eta$,2.6,7.2,2.1
+75,69,Interest rate,$r^{OB}$,Permanent techn.,$\eta^{g_{z}}$,0.0,0.0,0.2
+75,69,Interest rate,$r^{OB}$,Symmetric prem.,$\eta^{RP}$,0.7,5.5,3.7
+75,69,Interest rate,$r^{OB}$,External prem.,$\eta^{RP^{*}}$,25.8,42.9,7.0
+75,69,Interest rate,$r^{OB}$,Dom. prem.,$\eta^{DRP}$,0.6,2.3,75.5
+75,69,Interest rate,$r^{OB}$,Consumption,$\eta^{C}$,0.1,0.5,0.3
+75,69,Interest rate,$r^{OB}$,Inv. techn.,$\eta^{I}$,0.1,0.3,0.7
+75,69,Interest rate,$r^{OB}$,Inventory inv.,$\eta^{\Delta INV}$,0.9,1.4,0.4
+75,69,Interest rate,$r^{OB}$,Government,$\eta^{G}$,0.0,0.0,0.0
+75,69,Interest rate,$r^{OB}$,Export share,$\eta^{\nu^{*}}$,0.0,0.0,0.3
+75,69,Interest rate,$r^{OB}$,Home bias,$\eta^{\nu}$,0.2,0.1,0.2
+75,69,Interest rate,$r^{OB}$,Domestic markup,$\eta^{H}$,1.5,2.6,0.4
+75,69,Interest rate,$r^{OB}$,Import markup,$\eta^{*}$,2.1,2.9,0.4
+75,69,Interest rate,$r^{OB}$,Wage markup,$\eta^{W}$,0.6,2.8,0.6
+75,69,Interest rate,$r^{OB}$,Export markup,$\eta^{X}$,0.0,0.2,0.0
+75,69,Interest rate,$r^{OB}$,Foreign transfers,$\eta^{FTR}$,0.1,0.6,0.4
+75,69,Interest rate,$r^{OB}$,Interest rate,$\eta^{R}$,56.5,17.1,2.5
+75,69,Interest rate,$r^{OB}$,Inf. target,$\eta^{\bar{\Pi}}$,6.4,2.3,0.5
+75,69,Interest rate,$r^{OB}$,Consumption tax,$\eta^{\tau^{C}}$,0.0,0.0,0.0
+75,69,Interest rate,$r^{OB}$,Foreign demand,$\eta^{Y^{*}}$,0.1,2.8,2.4
+75,69,Interest rate,$r^{OB}$,Foreign supply,$\eta^{\Pi^{*}}$,0.2,0.5,0.1
+75,69,Interest rate,$r^{OB}$,Foreign interest rate,$\eta^{R^{*}}$,0.2,0.3,0.2
+75,69,Interest rate,$r^{OB}$,World trade,$\eta^{WT^{*}}$,0.0,0.0,0.0
+75,69,Interest rate,$r^{OB}$,Oil price,$\eta^{OIL}$,1.1,6.6,1.3
+75,69,Interest rate,$r^{OB}$,Foreign LR rate,"$\eta^{*,fwd}$",0.1,0.9,0.7
+75,69,Inflation,$\Delta P_{C}$,Transitory techn.,$\eta$,4.1,4.1,4.1
+75,69,Inflation,$\Delta P_{C}$,Permanent techn.,$\eta^{g_{z}}$,0.0,0.0,0.3
+75,69,Inflation,$\Delta P_{C}$,Symmetric prem.,$\eta^{RP}$,0.5,1.2,1.1
+75,69,Inflation,$\Delta P_{C}$,External prem.,$\eta^{RP^{*}}$,37.7,35.1,33.0
+75,69,Inflation,$\Delta P_{C}$,Dom. prem.,$\eta^{DRP}$,0.2,0.3,0.3
+75,69,Inflation,$\Delta P_{C}$,Consumption,$\eta^{C}$,0.0,0.0,0.1
+75,69,Inflation,$\Delta P_{C}$,Inv. techn.,$\eta^{I}$,0.0,0.1,2.6
+75,69,Inflation,$\Delta P_{C}$,Inventory inv.,$\eta^{\Delta INV}$,0.1,0.1,0.1
+75,69,Inflation,$\Delta P_{C}$,Government,$\eta^{G}$,0.0,0.0,0.0
+75,69,Inflation,$\Delta P_{C}$,Export share,$\eta^{\nu^{*}}$,0.2,0.5,0.8
+75,69,Inflation,$\Delta P_{C}$,Home bias,$\eta^{\nu}$,0.1,0.3,0.5
+75,69,Inflation,$\Delta P_{C}$,Domestic markup,$\eta^{H}$,20.6,15.5,13.7
+75,69,Inflation,$\Delta P_{C}$,Import markup,$\eta^{*}$,22.9,18.0,15.8
+75,69,Inflation,$\Delta P_{C}$,Wage markup,$\eta^{W}$,4.6,5.5,4.8
+75,69,Inflation,$\Delta P_{C}$,Export markup,$\eta^{X}$,0.0,0.0,0.0
+75,69,Inflation,$\Delta P_{C}$,Foreign transfers,$\eta^{FTR}$,0.2,0.3,0.4
+75,69,Inflation,$\Delta P_{C}$,Interest rate,$\eta^{R}$,6.0,7.6,6.6
+75,69,Inflation,$\Delta P_{C}$,Inf. target,$\eta^{\bar{\Pi}}$,0.3,0.6,0.8
+75,69,Inflation,$\Delta P_{C}$,Consumption tax,$\eta^{\tau^{C}}$,0.0,0.0,0.1
+75,69,Inflation,$\Delta P_{C}$,Foreign demand,$\eta^{Y^{*}}$,0.2,1.0,1.8
+75,69,Inflation,$\Delta P_{C}$,Foreign supply,$\eta^{\Pi^{*}}$,0.4,0.4,0.5
+75,69,Inflation,$\Delta P_{C}$,Foreign interest rate,$\eta^{R^{*}}$,0.3,0.3,0.4
+75,69,Inflation,$\Delta P_{C}$,World trade,$\eta^{WT^{*}}$,0.0,0.0,0.0
+75,69,Inflation,$\Delta P_{C}$,Oil price,$\eta^{OIL}$,1.5,8.7,11.5
+75,69,Inflation,$\Delta P_{C}$,Foreign LR rate,"$\eta^{*,fwd}$",0.2,0.4,0.6
+75,69,Real exchange rate,$\hat{s}$,Transitory techn.,$\eta$,12.1,24.9,19.0
+75,69,Real exchange rate,$\hat{s}$,Permanent techn.,$\eta^{g_{z}}$,0.0,0.2,0.5
+75,69,Real exchange rate,$\hat{s}$,Symmetric prem.,$\eta^{RP}$,4.0,10.1,12.6
+75,69,Real exchange rate,$\hat{s}$,External prem.,$\eta^{RP^{*}}$,55.7,24.6,13.0
+75,69,Real exchange rate,$\hat{s}$,Dom. prem.,$\eta^{DRP}$,0.1,0.1,0.0
+75,69,Real exchange rate,$\hat{s}$,Consumption,$\eta^{C}$,0.3,0.6,0.4
+75,69,Real exchange rate,$\hat{s}$,Inv. techn.,$\eta^{I}$,0.0,0.1,8.2
+75,69,Real exchange rate,$\hat{s}$,Inventory inv.,$\eta^{\Delta INV}$,0.4,0.4,0.4
+75,69,Real exchange rate,$\hat{s}$,Government,$\eta^{G}$,0.0,0.0,0.0
+75,69,Real exchange rate,$\hat{s}$,Export share,$\eta^{\nu^{*}}$,6.3,12.3,11.8
+75,69,Real exchange rate,$\hat{s}$,Home bias,$\eta^{\nu}$,2.6,5.4,5.6
+75,69,Real exchange rate,$\hat{s}$,Domestic markup,$\eta^{H}$,4.7,3.1,1.6
+75,69,Real exchange rate,$\hat{s}$,Import markup,$\eta^{*}$,0.0,0.2,0.1
+75,69,Real exchange rate,$\hat{s}$,Wage markup,$\eta^{W}$,3.0,6.2,3.8
+75,69,Real exchange rate,$\hat{s}$,Export markup,$\eta^{X}$,2.7,0.8,0.4
+75,69,Real exchange rate,$\hat{s}$,Foreign transfers,$\eta^{FTR}$,0.4,0.9,1.4
+75,69,Real exchange rate,$\hat{s}$,Interest rate,$\eta^{R}$,3.7,1.9,0.9
+75,69,Real exchange rate,$\hat{s}$,Inf. target,$\eta^{\bar{\Pi}}$,0.6,0.4,0.2
+75,69,Real exchange rate,$\hat{s}$,Consumption tax,$\eta^{\tau^{C}}$,0.0,0.0,0.1
+75,69,Real exchange rate,$\hat{s}$,Foreign demand,$\eta^{Y^{*}}$,1.0,4.9,14.0
+75,69,Real exchange rate,$\hat{s}$,Foreign supply,$\eta^{\Pi^{*}}$,1.0,0.8,1.0
+75,69,Real exchange rate,$\hat{s}$,Foreign interest rate,$\eta^{R^{*}}$,1.0,1.8,3.2
+75,69,Real exchange rate,$\hat{s}$,World trade,$\eta^{WT^{*}}$,0.1,0.0,0.0
+75,69,Real exchange rate,$\hat{s}$,Oil price,$\eta^{OIL}$,0.0,0.2,0.5
+75,69,Real exchange rate,$\hat{s}$,Foreign LR rate,"$\eta^{*,fwd}$",0.1,0.2,1.0
+75,69,Real wage,$\hat{w}$,Transitory techn.,$\eta$,0.3,1.5,10.0
+75,69,Real wage,$\hat{w}$,Permanent techn.,$\eta^{g_{z}}$,0.3,0.8,2.6
+75,69,Real wage,$\hat{w}$,Symmetric prem.,$\eta^{RP}$,5.9,13.6,11.1
+75,69,Real wage,$\hat{w}$,External prem.,$\eta^{RP^{*}}$,8.4,7.9,5.0
+75,69,Real wage,$\hat{w}$,Dom. prem.,$\eta^{DRP}$,0.0,0.0,0.4
+75,69,Real wage,$\hat{w}$,Consumption,$\eta^{C}$,0.0,0.1,1.1
+75,69,Real wage,$\hat{w}$,Inv. techn.,$\eta^{I}$,0.0,0.1,6.4
+75,69,Real wage,$\hat{w}$,Inventory inv.,$\eta^{\Delta INV}$,0.1,0.0,1.1
+75,69,Real wage,$\hat{w}$,Government,$\eta^{G}$,0.0,0.0,0.0
+75,69,Real wage,$\hat{w}$,Export share,$\eta^{\nu^{*}}$,1.6,5.3,8.2
+75,69,Real wage,$\hat{w}$,Home bias,$\eta^{\nu}$,1.0,2.9,4.4
+75,69,Real wage,$\hat{w}$,Domestic markup,$\eta^{H}$,8.0,6.4,3.5
+75,69,Real wage,$\hat{w}$,Import markup,$\eta^{*}$,6.3,2.7,1.4
+75,69,Real wage,$\hat{w}$,Wage markup,$\eta^{W}$,66.4,49.5,24.2
+75,69,Real wage,$\hat{w}$,Export markup,$\eta^{X}$,0.1,0.2,0.1
+75,69,Real wage,$\hat{w}$,Foreign transfers,$\eta^{FTR}$,0.2,0.8,2.7
+75,69,Real wage,$\hat{w}$,Interest rate,$\eta^{R}$,0.2,0.1,0.1
+75,69,Real wage,$\hat{w}$,Inf. target,$\eta^{\bar{\Pi}}$,0.1,0.1,0.1
+75,69,Real wage,$\hat{w}$,Consumption tax,$\eta^{\tau^{C}}$,0.0,0.0,0.8
+75,69,Real wage,$\hat{w}$,Foreign demand,$\eta^{Y^{*}}$,0.2,1.5,10.2
+75,69,Real wage,$\hat{w}$,Foreign supply,$\eta^{\Pi^{*}}$,0.1,0.2,0.5
+75,69,Real wage,$\hat{w}$,Foreign interest rate,$\eta^{R^{*}}$,0.2,0.7,2.0
+75,69,Real wage,$\hat{w}$,World trade,$\eta^{WT^{*}}$,0.0,0.0,0.0
+75,69,Real wage,$\hat{w}$,Oil price,$\eta^{OIL}$,0.6,5.0,2.9
+75,69,Real wage,$\hat{w}$,Foreign LR rate,"$\eta^{*,fwd}$",0.1,0.4,1.1
+75,69,Hours worked,$\hat{N}$,Transitory techn.,$\eta$,37.9,23.8,20.2
+75,69,Hours worked,$\hat{N}$,Permanent techn.,$\eta^{g_{z}}$,0.1,0.5,1.4
+75,69,Hours worked,$\hat{N}$,Symmetric prem.,$\eta^{RP}$,7.3,9.3,8.0
+75,69,Hours worked,$\hat{N}$,External prem.,$\eta^{RP^{*}}$,1.5,3.2,2.7
+75,69,Hours worked,$\hat{N}$,Dom. prem.,$\eta^{DRP}$,0.0,0.1,0.1
+75,69,Hours worked,$\hat{N}$,Consumption,$\eta^{C}$,2.2,3.7,3.4
+75,69,Hours worked,$\hat{N}$,Inv. techn.,$\eta^{I}$,2.1,2.5,4.3
+75,69,Hours worked,$\hat{N}$,Inventory inv.,$\eta^{\Delta INV}$,14.8,9.6,7.9
+75,69,Hours worked,$\hat{N}$,Government,$\eta^{G}$,0.5,0.3,0.3
+75,69,Hours worked,$\hat{N}$,Export share,$\eta^{\nu^{*}}$,11.0,13.1,11.2
+75,69,Hours worked,$\hat{N}$,Home bias,$\eta^{\nu}$,15.6,11.0,9.2
+75,69,Hours worked,$\hat{N}$,Domestic markup,$\eta^{H}$,1.6,3.6,3.1
+75,69,Hours worked,$\hat{N}$,Import markup,$\eta^{*}$,0.8,0.6,0.5
+75,69,Hours worked,$\hat{N}$,Wage markup,$\eta^{W}$,0.9,6.8,9.4
+75,69,Hours worked,$\hat{N}$,Export markup,$\eta^{X}$,1.0,2.0,1.7
+75,69,Hours worked,$\hat{N}$,Foreign transfers,$\eta^{FTR}$,0.0,0.0,0.2
+75,69,Hours worked,$\hat{N}$,Interest rate,$\eta^{R}$,0.9,2.0,1.7
+75,69,Hours worked,$\hat{N}$,Inf. target,$\eta^{\bar{\Pi}}$,0.1,0.3,0.2
+75,69,Hours worked,$\hat{N}$,Consumption tax,$\eta^{\tau^{C}}$,0.0,0.0,1.3
+75,69,Hours worked,$\hat{N}$,Foreign demand,$\eta^{Y^{*}}$,0.4,6.1,9.0
+75,69,Hours worked,$\hat{N}$,Foreign supply,$\eta^{\Pi^{*}}$,0.1,0.2,0.4
+75,69,Hours worked,$\hat{N}$,Foreign interest rate,$\eta^{R^{*}}$,0.0,0.3,0.9
+75,69,Hours worked,$\hat{N}$,World trade,$\eta^{WT^{*}}$,0.8,0.4,0.3
+75,69,Hours worked,$\hat{N}$,Oil price,$\eta^{OIL}$,0.1,0.5,2.2
+75,69,Hours worked,$\hat{N}$,Foreign LR rate,"$\eta^{*,fwd}$",0.0,0.1,0.4
+76,70,Output,$\hat{y}$,Transitory techn.,$\eta$,6.5,28.7,36.4
+76,70,Output,$\hat{y}$,Permanent techn.,$\eta^{g_{z}}$,0.0,0.1,1.1
+76,70,Output,$\hat{y}$,Symmetric prem.,$\eta^{RP}$,11.0,9.3,5.7
+76,70,Output,$\hat{y}$,External prem.,$\eta^{RP^{*}}$,2.3,2.7,1.6
+76,70,Output,$\hat{y}$,Dom. prem.,$\eta^{DRP}$,0.0,0.1,0.1
+76,70,Output,$\hat{y}$,Consumption,$\eta^{C}$,3.3,3.3,2.0
+76,70,Output,$\hat{y}$,Inv. techn.,$\eta^{I}$,3.2,4.8,18.7
+76,70,Output,$\hat{y}$,Inventory inv.,$\eta^{\Delta INV}$,22.4,8.5,4.4
+76,70,Output,$\hat{y}$,Government,$\eta^{G}$,0.8,0.3,0.1
+76,70,Output,$\hat{y}$,Export share,$\eta^{\nu^{*}}$,16.6,11.8,6.4
+76,70,Output,$\hat{y}$,Home bias,$\eta^{\nu}$,23.6,9.9,5.1
+76,70,Output,$\hat{y}$,Domestic markup,$\eta^{H}$,2.4,3.2,1.6
+76,70,Output,$\hat{y}$,Import markup,$\eta^{*}$,1.3,0.5,0.3
+76,70,Output,$\hat{y}$,Wage markup,$\eta^{W}$,1.4,6.2,5.2
+76,70,Output,$\hat{y}$,Export markup,$\eta^{X}$,1.6,1.8,0.9
+76,70,Output,$\hat{y}$,Foreign transfers,$\eta^{FTR}$,0.0,0.0,0.6
+76,70,Output,$\hat{y}$,Interest rate,$\eta^{R}$,1.4,1.8,0.9
+76,70,Output,$\hat{y}$,Inf. target,$\eta^{\bar{\Pi}}$,0.2,0.2,0.1
+76,70,Output,$\hat{y}$,Consumption tax,$\eta^{\tau^{C}}$,0.0,0.0,0.2
+76,70,Output,$\hat{y}$,Foreign demand,$\eta^{Y^{*}}$,0.6,5.4,5.5
+76,70,Output,$\hat{y}$,Foreign supply,$\eta^{\Pi^{*}}$,0.2,0.2,0.2
+76,70,Output,$\hat{y}$,Foreign interest rate,$\eta^{R^{*}}$,0.0,0.2,0.6
+76,70,Output,$\hat{y}$,World trade,$\eta^{WT^{*}}$,1.2,0.3,0.2
+76,70,Output,$\hat{y}$,Oil price,$\eta^{OIL}$,0.1,0.5,1.2
+76,70,Output,$\hat{y}$,Foreign LR rate,"$\eta^{*,fwd}$",0.0,0.1,0.8
+76,70,Consumption,$\hat{c}$,Transitory techn.,$\eta$,1.4,3.5,9.4
+76,70,Consumption,$\hat{c}$,Permanent techn.,$\eta^{g_{z}}$,0.2,0.3,3.3
+76,70,Consumption,$\hat{c}$,Symmetric prem.,$\eta^{RP}$,55.9,55.6,34.8
+76,70,Consumption,$\hat{c}$,External prem.,$\eta^{RP^{*}}$,1.9,4.2,3.6
+76,70,Consumption,$\hat{c}$,Dom. prem.,$\eta^{DRP}$,0.0,0.0,0.0
+76,70,Consumption,$\hat{c}$,Consumption,$\eta^{C}$,36.4,28.7,16.5
+76,70,Consumption,$\hat{c}$,Inv. techn.,$\eta^{I}$,0.5,1.0,8.9
+76,70,Consumption,$\hat{c}$,Inventory inv.,$\eta^{\Delta INV}$,0.4,0.9,2.0
+76,70,Consumption,$\hat{c}$,Government,$\eta^{G}$,0.0,0.0,0.0
+76,70,Consumption,$\hat{c}$,Export share,$\eta^{\nu^{*}}$,0.0,0.2,3.5
+76,70,Consumption,$\hat{c}$,Home bias,$\eta^{\nu}$,0.0,0.1,1.7
+76,70,Consumption,$\hat{c}$,Domestic markup,$\eta^{H}$,0.3,0.5,0.3
+76,70,Consumption,$\hat{c}$,Import markup,$\eta^{*}$,0.5,0.6,0.3
+76,70,Consumption,$\hat{c}$,Wage markup,$\eta^{W}$,0.1,0.5,1.0
+76,70,Consumption,$\hat{c}$,Export markup,$\eta^{X}$,0.0,0.1,0.1
+76,70,Consumption,$\hat{c}$,Foreign transfers,$\eta^{FTR}$,0.3,0.7,2.7
+76,70,Consumption,$\hat{c}$,Interest rate,$\eta^{R}$,1.2,0.7,0.4
+76,70,Consumption,$\hat{c}$,Inf. target,$\eta^{\bar{\Pi}}$,0.1,0.0,0.0
+76,70,Consumption,$\hat{c}$,Consumption tax,$\eta^{\tau^{C}}$,0.0,0.0,0.7
+76,70,Consumption,$\hat{c}$,Foreign demand,$\eta^{Y^{*}}$,0.1,0.3,6.7
+76,70,Consumption,$\hat{c}$,Foreign supply,$\eta^{\Pi^{*}}$,0.0,0.1,0.2
+76,70,Consumption,$\hat{c}$,Foreign interest rate,$\eta^{R^{*}}$,0.0,0.0,0.9
+76,70,Consumption,$\hat{c}$,World trade,$\eta^{WT^{*}}$,0.0,0.0,0.0
+76,70,Consumption,$\hat{c}$,Oil price,$\eta^{OIL}$,0.2,1.1,1.0
+76,70,Consumption,$\hat{c}$,Foreign LR rate,"$\eta^{*,fwd}$",0.3,0.7,1.9
+76,70,Investment,$\hat{i}$,Transitory techn.,$\eta$,1.5,2.8,7.0
+76,70,Investment,$\hat{i}$,Permanent techn.,$\eta^{g_{z}}$,0.5,1.1,1.8
+76,70,Investment,$\hat{i}$,Symmetric prem.,$\eta^{RP}$,33.6,28.4,20.8
+76,70,Investment,$\hat{i}$,External prem.,$\eta^{RP^{*}}$,2.0,2.0,2.5
+76,70,Investment,$\hat{i}$,Dom. prem.,$\eta^{DRP}$,0.0,0.0,0.0
+76,70,Investment,$\hat{i}$,Consumption,$\eta^{C}$,0.4,0.7,1.9
+76,70,Investment,$\hat{i}$,Inv. techn.,$\eta^{I}$,58.2,58.6,41.0
+76,70,Investment,$\hat{i}$,Inventory inv.,$\eta^{\Delta INV}$,0.4,0.7,1.6
+76,70,Investment,$\hat{i}$,Government,$\eta^{G}$,0.0,0.0,0.0
+76,70,Investment,$\hat{i}$,Export share,$\eta^{\nu^{*}}$,0.3,0.8,4.0
+76,70,Investment,$\hat{i}$,Home bias,$\eta^{\nu}$,0.1,0.4,1.9
+76,70,Investment,$\hat{i}$,Domestic markup,$\eta^{H}$,0.2,0.2,0.1
+76,70,Investment,$\hat{i}$,Import markup,$\eta^{*}$,0.3,0.2,0.1
+76,70,Investment,$\hat{i}$,Wage markup,$\eta^{W}$,0.2,0.4,0.7
+76,70,Investment,$\hat{i}$,Export markup,$\eta^{X}$,0.0,0.0,0.0
+76,70,Investment,$\hat{i}$,Foreign transfers,$\eta^{FTR}$,0.5,0.9,2.7
+76,70,Investment,$\hat{i}$,Interest rate,$\eta^{R}$,0.3,0.2,0.1
+76,70,Investment,$\hat{i}$,Inf. target,$\eta^{\bar{\Pi}}$,0.0,0.0,0.0
+76,70,Investment,$\hat{i}$,Consumption tax,$\eta^{\tau^{C}}$,0.0,0.0,0.1
+76,70,Investment,$\hat{i}$,Foreign demand,$\eta^{Y^{*}}$,0.3,0.3,8.5
+76,70,Investment,$\hat{i}$,Foreign supply,$\eta^{\Pi^{*}}$,0.0,0.0,0.2
+76,70,Investment,$\hat{i}$,Foreign interest rate,$\eta^{R^{*}}$,0.0,0.0,1.0
+76,70,Investment,$\hat{i}$,World trade,$\eta^{WT^{*}}$,0.0,0.0,0.0
+76,70,Investment,$\hat{i}$,Oil price,$\eta^{OIL}$,0.4,0.6,0.7
+76,70,Investment,$\hat{i}$,Foreign LR rate,"$\eta^{*,fwd}$",0.7,1.5,3.1
+76,70,Exports,$\hat{x}$,Transitory techn.,$\eta$,0.5,3.8,6.2
+76,70,Exports,$\hat{x}$,Permanent techn.,$\eta^{g_{z}}$,0.0,0.0,0.2
+76,70,Exports,$\hat{x}$,Symmetric prem.,$\eta^{RP}$,0.2,1.5,4.3
+76,70,Exports,$\hat{x}$,External prem.,$\eta^{RP^{*}}$,1.2,2.6,2.1
+76,70,Exports,$\hat{x}$,Dom. prem.,$\eta^{DRP}$,0.0,0.0,0.0
+76,70,Exports,$\hat{x}$,Consumption,$\eta^{C}$,0.0,0.1,0.1
+76,70,Exports,$\hat{x}$,Inv. techn.,$\eta^{I}$,0.0,0.0,3.8
+76,70,Exports,$\hat{x}$,Inventory inv.,$\eta^{\Delta INV}$,0.0,0.0,0.1
+76,70,Exports,$\hat{x}$,Government,$\eta^{G}$,0.0,0.0,0.0
+76,70,Exports,$\hat{x}$,Export share,$\eta^{\nu^{*}}$,76.0,42.4,23.5
+76,70,Exports,$\hat{x}$,Home bias,$\eta^{\nu}$,0.1,0.9,2.1
+76,70,Exports,$\hat{x}$,Domestic markup,$\eta^{H}$,0.1,0.3,0.2
+76,70,Exports,$\hat{x}$,Import markup,$\eta^{*}$,0.1,0.3,0.2
+76,70,Exports,$\hat{x}$,Wage markup,$\eta^{W}$,0.1,0.9,1.0
+76,70,Exports,$\hat{x}$,Export markup,$\eta^{X}$,8.6,7.8,4.4
+76,70,Exports,$\hat{x}$,Foreign transfers,$\eta^{FTR}$,0.0,0.2,0.6
+76,70,Exports,$\hat{x}$,Interest rate,$\eta^{R}$,0.1,0.2,0.1
+76,70,Exports,$\hat{x}$,Inf. target,$\eta^{\bar{\Pi}}$,0.0,0.0,0.0
+76,70,Exports,$\hat{x}$,Consumption tax,$\eta^{\tau^{C}}$,0.0,0.0,0.0
+76,70,Exports,$\hat{x}$,Foreign demand,$\eta^{Y^{*}}$,7.0,31.8,37.1
+76,70,Exports,$\hat{x}$,Foreign supply,$\eta^{\Pi^{*}}$,0.4,0.2,1.2
+76,70,Exports,$\hat{x}$,Foreign interest rate,$\eta^{R^{*}}$,0.2,2.2,4.4
+76,70,Exports,$\hat{x}$,World trade,$\eta^{WT^{*}}$,4.8,0.9,0.4
+76,70,Exports,$\hat{x}$,Oil price,$\eta^{OIL}$,0.2,2.3,4.3
+76,70,Exports,$\hat{x}$,Foreign LR rate,"$\eta^{*,fwd}$",0.2,1.6,3.5
+76,70,Imports,$\hat{im}$,Transitory techn.,$\eta$,0.8,1.6,2.2
+76,70,Imports,$\hat{im}$,Permanent techn.,$\eta^{g_{z}}$,0.0,0.1,0.2
+76,70,Imports,$\hat{im}$,Symmetric prem.,$\eta^{RP}$,14.2,23.4,22.5
+76,70,Imports,$\hat{im}$,External prem.,$\eta^{RP^{*}}$,6.0,6.4,5.0
+76,70,Imports,$\hat{im}$,Dom. prem.,$\eta^{DRP}$,0.0,0.0,0.0
+76,70,Imports,$\hat{im}$,Consumption,$\eta^{C}$,2.2,2.8,2.1
+76,70,Imports,$\hat{im}$,Inv. techn.,$\eta^{I}$,2.2,2.3,2.6
+76,70,Imports,$\hat{im}$,Inventory inv.,$\eta^{\Delta INV}$,17.9,7.4,4.7
+76,70,Imports,$\hat{im}$,Government,$\eta^{G}$,0.0,0.0,0.0
+76,70,Imports,$\hat{im}$,Export share,$\eta^{\nu^{*}}$,13.0,18.3,16.9
+76,70,Imports,$\hat{im}$,Home bias,$\eta^{\nu}$,33.3,13.7,8.3
+76,70,Imports,$\hat{im}$,Domestic markup,$\eta^{H}$,0.9,0.5,0.4
+76,70,Imports,$\hat{im}$,Import markup,$\eta^{*}$,5.6,3.1,1.9
+76,70,Imports,$\hat{im}$,Wage markup,$\eta^{W}$,0.4,0.7,0.7
+76,70,Imports,$\hat{im}$,Export markup,$\eta^{X}$,1.0,1.5,0.9
+76,70,Imports,$\hat{im}$,Foreign transfers,$\eta^{FTR}$,0.2,0.8,2.1
+76,70,Imports,$\hat{im}$,Interest rate,$\eta^{R}$,0.0,0.0,0.1
+76,70,Imports,$\hat{im}$,Inf. target,$\eta^{\bar{\Pi}}$,0.0,0.0,0.0
+76,70,Imports,$\hat{im}$,Consumption tax,$\eta^{\tau^{C}}$,0.0,0.0,0.0
+76,70,Imports,$\hat{im}$,Foreign demand,$\eta^{Y^{*}}$,1.1,8.1,18.1
+76,70,Imports,$\hat{im}$,Foreign supply,$\eta^{\Pi^{*}}$,0.0,0.2,0.9
+76,70,Imports,$\hat{im}$,Foreign interest rate,$\eta^{R^{*}}$,0.3,1.7,3.7
+76,70,Imports,$\hat{im}$,World trade,$\eta^{WT^{*}}$,0.5,0.2,0.1
+76,70,Imports,$\hat{im}$,Oil price,$\eta^{OIL}$,0.4,7.2,5.8
+76,70,Imports,$\hat{im}$,Foreign LR rate,"$\eta^{*,fwd}$",0.1,0.1,0.7

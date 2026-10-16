@@ -1,0 +1,669 @@
+latex,kind,meaning,first_seen,sections_chunks,notes
+h,index,household index on the unit interval,0.i1,"T01,T02,T04,T09,T10,T11,T12",
+k,index,periods-ahead index in discounted sums,1,"T01,T02,T03,T07,T09,T10,T12",
+s,index,product index in accumulated growth and inflation terms,15.i1,"T01,T02,T03,T05,T09,T10,T12",
+E,operator,"mathematical expectations operator, conditional on period-t information",1,"T01,T02,T03,T04,T05",printed E_{t}
+\beta,parameter,household discount factor,1,"T01,T02,T05,T06,T09,T10,T11,T13",
+\varepsilon^{C},shock_process,consumption-demand (preference) shock,1,"T01,T06",log-AR(1) per footnote 4
+\varepsilon^{N},shock_process,labor supply shock,1,"T01,T06",
+\kappa,parameter,degree of external habit persistence,1,"T01,T06,T09,T10,T11",
+\zeta,parameter,inverse of the Frisch elasticity of labor supply,1,"T01,T06,T09,T10,T11",
+C_{h},endogenous,consumption composite of household h,1,T01,
+C,endogenous,composite of aggregate consumption,1,"T01,T02,T04,T09",enters habit term as C_{t-1}
+N_{h},endogenous,working hours (labor services) of household h,1,"T01,T04",
+\rho^{C},parameter,AR(1) coefficient of log consumption-demand shock,1.i1,T01,footnote 4 example
+\eta^{C},innovation,white-noise innovation to consumption-demand shock,1.i1,"T01,T06,T08",footnote 4
+\tau^{C},shock_process,value added tax (VAT) rate,2,"T01,T04,T05,T06,T09,T10",time-varying; its process is outside this chunk
+w_{\tau^{C}},parameter,share of goods subject to VAT,2,"T01,T06,T09,T10",
+P_{C},endogenous,pre-tax price of the consumption good,2,"T01,T02,T03,T04,T05,T09,T11",
+P_{I},endogenous,price of investment goods,2,"T01,T04",not defined in this chunk beyond use in (2)
+I_{h},endogenous,fixed capital investment of household h,2,T01,
+\Delta INV,other,"change in inventories (level), common to all households",2,"T01,T02,T04",described as exogenous (p.7); its GDP share \Delta inv_{t} (2.i2) follows (3)
+\varepsilon^{RP},shock_process,symmetric risk-premium shock on domestic and foreign bond prices,2,"T01,T06,T07",
+\varepsilon^{DRP},shock_process,"domestic-currency bond risk-premium shock, near unit root",2,"T01,T04,T06,T07",process 3.u1
+R,endogenous,short-term gross nominal interest rate set by central bank,2,"T01,T02,T04,T09,T10,T11",
+B_{h},endogenous,domestic-currency bond holdings of household h (beginning of period),2,T01,
+\Gamma_{B^{*}},endogenous,external financial intermediation premium on foreign-currency bonds,2,T01,"printed with time subscript in (2),(7) but not on LHS of (4)"
+R^{*},endogenous,foreign risk-free nominal interest rate,2,"T01,T04,T09,T10",foreign variable from foreign-economy block (Sec. 3.6); exogenous to domestic economy
+S,endogenous,nominal exchange rate,2,"T01,T02,T03,T04,T05,T09",
+B_{h}^{*},endogenous,foreign-currency bond holdings of household h (beginning of period),2,T01,
+\Xi,other,lump-sum transfers,2,T01,p.8; role not detailed in this chunk
+\Upsilon_{h},endogenous,household h's state-contingent securities insuring labor-income risk,2,T01,
+\tau^{N},parameter,direct income tax rate on labor income,2,"T01,T04,T06,T09,T10,T11",printed with t subscript; constant per p.25
+\tau^{W_{h}},parameter,social security tax rate on household labor income,2,"T01,T04,T06,T09,T10,T11",printed with t subscript; constant per p.25
+W_{h},endogenous,hourly nominal wage rate of household h,2,"T01,T02,T04",
+\tau^{K},parameter,tax rate on net capital income,2,"T01,T04,T06,T09,T10,T11",printed with t subscript; constant per p.25
+R_{K},endogenous,nominal price (rental rate) of capital services,2,"T01,T02,T04",
+u_{h},endogenous,intensity of capital utilization of household h,2,"T01,T04",
+\Gamma_{u},function,cost function of capital utilization intensity,2,"T01,T04",functional form (8)
+K_{h},endogenous,capital stock owned by household h,2,"T01,T04",
+\delta,parameter,depreciation rate of capital,2,"T01,T04,T06,T09,T10,T11",
+\tau^{D},parameter,tax rate on dividend income,2,"T01,T04,T06,T09,T10",printed with t subscript; constant per p.25
+D_{h},endogenous,dividends to household h from monopolistic firms,2,T01,
+T,endogenous,lump-sum tax,2,"T01,T04",set by fiscal rule outside this chunk
+\Delta inv_{t},shock_process,change in inventories as a share of GDP,2.i2,"T01,T13",AR(1) in (3); time index kept to distinguish from steady state \Delta inv
+Y,endogenous,GDP (real output),2.i2,"T01,T04,T05,T12",used in ratios; defined outside this chunk
+\rho_{\Delta INV},parameter,AR(1) coefficient of inventory-change share,3,"T01,T06",
+\Delta inv,steady_state,steady-state inventory-change share of GDP,3,"T01,T06,T09,T10,T12,T13",printed without time subscript in (3)
+\eta^{\Delta INV},innovation,innovation to inventory-change share process,3,"T01,T06,T08",
+\eta^{DRP},innovation,innovation to domestic risk-premium shock,3.u1,"T01,T06,T08",
+\varepsilon^{RP^{*}},shock_process,exogenous shock to the external premium,4,"T01,T06,T07",
+\gamma_{B^{*}},parameter,sensitivity of external premium to net foreign assets ratio,4,T01,
+s_{B^{*}},endogenous,ratio of total net foreign assets to nominal GDP,4,"T01,T12","defined 4.i1, dated t+1"
+\gamma_{S},parameter,sensitivity of external premium to target-adjusted expected depreciation,4,"T01,T06,T11",
+\bar{\Pi}^{*},other,foreign (gross) inflation target,4,"T01,T03,T05",foreign counterpart of \bar{\Pi}; its process is not given in this chunk
+\bar{\Pi},shock_process,domestic (gross) inflation target,4,"T01,T02,T05,T06",time-varying target; its process (64) is outside this chunk
+B^{*},endogenous,aggregate net foreign-currency bond holdings,4.i1,"T01,T04,T09",appears in 4.i1 without h
+P_{Y},endogenous,"price level of GDP (P_{Y,t}Y_{t} is nominal GDP)",4.i1,"T01,T04,T05,T09",further defined outside this chunk
+\Lambda_{h},endogenous,marginal utility of consumption; scaled budget-constraint multiplier,4.i3,"T01,T02",written without h in (15)
+\Lambda,endogenous,"marginal utility of consumption, as printed in (15) without household index",15,"T01,T03,T09",same object as \Lambda_{h}; h omitted in print
+"\gamma_{u,1}",parameter,linear coefficient of utilization cost,8,"T01,T09,T10,T11,T12",positive
+"\gamma_{u,2}",parameter,quadratic coefficient of utilization cost,8,"T01,T06,T11",positive
+\varepsilon^{I},shock_process,investment-specific technology shock,9,"T01,T06",
+\Gamma_{I},function,investment adjustment cost function,9,T01,functional form (10)
+\tilde{I}_{h},endogenous,investment-growth index with two lags,9,T01,defined in 10.u1; printed with a wide tilde
+\gamma_{I},parameter,scale of investment adjustment costs,10,"T01,T06,T11",
+g_{z},parameter,long-run (gross) labor-productivity growth rate,10,"T01,T02,T05,T06,T09,T10,T11,T12,T13",
+\omega_{\Gamma_{I}},parameter,weight on lagged investment growth in adjustment cost,10,"T01,T06,T11",zero gives standard specification
+Q_{h},endogenous,Tobin's Q: price of installed capital in consumption-good units,10.i2,T01,
+\Gamma'_{I},function,first derivative of investment adjustment cost function,11,T01,
+\Gamma'_{u},function,first derivative of utilization cost function,13,T01,
+\xi_{W},parameter,Calvo probability of not reoptimizing the wage,13.i1,"T01,T06,T11",
+"g_{z,t}",shock_process,(gross) growth rate of labor productivity,14,T01,time index kept to distinguish from parameter g_{z}; listed as permanent labor-productivity shock (printed p.45)
+"\chi_{W,g_{z}}",parameter,degree of wage indexation to productivity growth,14,"T01,T06,T11",
+\chi_{W},parameter,degree of wage indexation to inflation,14.i1,"T01,T06,T11",
+\Pi_{C}^{\dagger},endogenous,wage-indexation inflation factor (lagged CPI inflation and target),14,T01,defined 14.i1
+\Pi_{C},endogenous,gross CPI inflation,14.i1,T01,defined 14.i2
+\tilde{W},endogenous,new optimal wage common to reoptimizing households,p.11,T01,printed with a narrow tilde; introduced in text just before (15)
+"g_{z;t,t+k}",endogenous,accumulated productivity growth from t to t+k,15,T01,"defined 15.i1; in (15) as g_{z;t-1,t+k-1}; time-window indices kept to distinguish from per-period symbol"
+"\Pi_{C;t,t+k}^{\dagger}",endogenous,accumulated wage-indexation inflation from t to t+k,15,T01,defined 15.i2; time-window indices kept to distinguish from per-period symbol
+"\Pi_{C;t,t+k}",endogenous,accumulated CPI inflation from t to t+k,15,T01,defined 15.i3; time-window indices kept to distinguish from per-period symbol
+\varphi^{W},shock_process,wage markup shock,15,"T01,T02,T04,T06,T09,T10",defined p.14 (pdf 20) as markup > 1; not defined in this chunk
+W,endogenous,aggregate wage composite,16,"T01,T02,T04,T05,T09",
+H_{f},endogenous,differentiated intermediate good produced by domestic firm f,16.i1,"T02,T04","f in [0,1]; also used in (27), (28), 27.i2"
+f,index,"index of domestic intermediate goods firms, on [0,1]",16.i1,"T02,T03,T04",
+IM_{f^{*}},endogenous,differentiated imported intermediate good of foreign firm f*,16.i2,"T02,T04","f* in [0,1]"
+f^{*},index,"index of foreign intermediate goods firms, on [0,1]",16.i2,"T02,T03,T04",
+Q^{C},endogenous,"final consumption good, perfectly competitive producers",16.i3,"T02,T03,T04",
+Q^{I},endogenous,final investment good,16.i3,"T02,T03,T04",
+Q^{G},endogenous,final government-consumption good,16.i3,"T02,T03,T04",
+Q^{X},endogenous,"final homogeneous export good, bought by exporters",16.i3,"T02,T03,T04",
+X_{f^{X}},endogenous,differentiated (branded) export good of exporter f^X,16.i4,"T02,T03,T04","text prints f^{X} in subscript, f^{x} in index set; Figure 1 prints X_{f^{x},t}"
+f^{x},index,"index of exporters, on [0,1]",16.i4,"T02,T03",printed lower-case in the index set (and in Figure 1)
+X,endogenous,homogeneous exported good assembled by foreign retail firms,16.i5,"T02,T03,T04",
+I,endogenous,"investment (final use, Figure 1)",p.13,"T02,T04",Figure 1 label only; defined in 3.1
+G,endogenous,"government consumption (final use, Figure 1)",p.13,"T02,T04",Figure 1 label only; process given in 3.3
+WT^{*},other,foreign demand / world trade (Figure 1),p.13,"T02,T03,T04,T09","figure prints WT_t*; foreign variable defined in 3.2.5/3.6, not this chunk"
+X^{*},other,foreign competitors' exports (Figure 1),p.13,T02,figure prints X_t*; not defined in this chunk
+H_{f}^{s},endogenous,output (supply) of domestic intermediate goods firm f,17,"T02,T04",superscript s
+\varepsilon,shock_process,"transitory technology shock, symmetric across firms",17,"T02,T04,T06,T08",its process is not given in this chunk
+K_{f}^{s},endogenous,homogeneous capital services rented by firm f,17,"T02,T04","printed K^{S} (upper-case S) in (23), (24)"
+K_{f}^{S},endogenous,"capital services of firm f (as printed in (23), (24))",23,T02,same variable as K_{f}^{s}; capitalization differs as printed
+\alpha,parameter,capital elasticity in production (Cobb-Douglas exponent),17,"T02,T06,T09,T10,T11",Table 1 (p.44) calls it capital share in production
+z,shock_process,difference-stationary labor-augmenting productivity level,17,"T02,T03,T04,T05,T08,T09","unit-root level, growth g_{z,t}; sets balanced growth path; symmetric across firms"
+N_{f},endogenous,CES labor composite employed by firm f,17,"T02,T04",defined in (19)
+\psi,parameter,"fixed-cost coefficient, calibrated for zero steady-state profits",17,"T02,T04,T09,T10,T11",fixed cost is \psi z_{t}
+\max,operator,"maximum (of two arguments; or maximization in (27), (32))",17,T02,
+\rho_{g_{z}},parameter,persistence of productivity growth AR(1),18,"T02,T06",
+\eta^{g_{z}},innovation,innovation to productivity growth,18,"T02,T06,T08",
+N_{f}^{h},endogenous,labor of household h employed by firm f,19,"T02,T04",
+\int,operator,integral over households,19,T02,
+\rho_{W},parameter,persistence of wage markup AR(1),20,"T02,T06",
+\eta^{W},innovation,innovation to the wage markup,20,"T02,T06,T08",
+\log,operator,logarithm,20,T02,
+TVC,endogenous,total variable production cost,23,T02,
+R^{F},endogenous,effective gross interest factor on wage bill (working capital),23,"T02,T09,T10",R^{F}_{t}=1+\nu^{F}(R_{t}-1)
+\tau^{W_{f}},parameter,social security tax rate levied on firms,23,"T02,T04,T06,T09,T10,T11","carries time index t; assumed constant (pp.25, 46)"
+\nu^{F},parameter,fraction of wage bill borrowed before production,23.i1,"T02,T06,T09,T10",Greek nu (zoom-checked)
+MC,endogenous,nominal marginal cost of domestic intermediate goods firms,25,"T02,T04",identical across firms
+"P_{H,f}",endogenous,price of domestic intermediate good f,26,"T02,T03,T04",
+\Pi_{H},endogenous,gross domestic intermediate goods inflation,26,T02,"\Pi_{H,t}=P_{H,t}/P_{H,t-1}"
+\chi_{H},parameter,indexation of domestic prices to past domestic inflation,26,"T02,T06,T11",
+\xi_{H},parameter,probability a domestic firm does not reoptimize (Calvo),p.15,"T02,T06,T11",defined in text before (26)
+P_{H},endogenous,aggregate price index of domestic intermediate goods,26.i1,"T02,T03,T04,T09,T11",
+"\Lambda_{t,t+k}",other,firms' stochastic discount factor between t and t+k,27,T02,defined in 27.i1
+\sum,operator,summation over k,27,T02,
+\tilde{P}_{H},endogenous,reset price chosen by reoptimizing domestic firms,28,T02,tilde printed wide
+"\Pi_{H,t,t+k}^{\dagger}",other,cumulative domestic indexation factor from t to t+k,28,T02,defined in 28.i1; =1 for k=0
+\varphi^{H},shock_process,optimal markup of domestic intermediate goods firms,28,"T02,T03,T04,T06,T09,T10",time-varying (p.19); Table 1: 1.3
+\prod,operator,product over s,28.i1,T02,
+\bar{\Pi}_{H},other,"barred Pi with subscript H, as printed in (29)",29,T02,likely typo for \bar{\Pi}_{t} as in (26)
+MC^{*},endogenous,nominal marginal cost of foreign intermediate goods firms,30,T02,in domestic currency via S_{t}
+\bar{\Pi}_{Y}^{*},steady_state,gross steady-state inflation rate in the foreign economy,30,T02,producer currency
+P_{OIL}^{*},other,global price of oil,30,"T02,T04,T05","producer currency; enters (30) lagged t-1; exogenous foreign variable (relative oil price AR(2), Section 3.6)"
+P_{Y}^{*},endogenous,global price of foreign intermediate goods,30,"T02,T04,T05,T09",producer currency
+\omega^{*},parameter,oil share in the import basket,30,"T02,T06,T09,T10,T11",
+"P_{IM,f^{*}}",endogenous,consumer-currency price of imported good f*,31,"T02,T03,T04",
+\Pi_{IM},endogenous,gross import price inflation,31,T02,"\Pi_{IM,t}=P_{IM,t}/P_{IM,t-1}"
+\chi^{*},parameter,indexation of import prices to past import inflation,31,"T02,T11",
+\xi^{*},parameter,probability a foreign firm does not reoptimize (Calvo),p.17,"T02,T11",defined in text before (31)
+P_{IM},endogenous,aggregate import price index (consumer currency),31.i1,"T02,T03,T04",
+"\Lambda_{t,t+k}^{*}",other,"foreign counterpart of the discount factor \Lambda_{t,t+k}",32,T02,no explicit formula in this chunk
+\tilde{P}_{IM},endogenous,reset price chosen by reoptimizing import firms,33,T02,tilde printed wide
+"\Pi_{IM,t,t+k}^{\dagger}",other,cumulative import-price indexation factor from t to t+k,33,T02,defined in 33.i1; =1 for k=0
+\varphi^{*},shock_process,optimal markup of foreign intermediate goods firms,33,"T02,T03,T04,T06,T09,T10",time-varying (p.19); Table 1: 1.3
+\bar{\Pi}_{IM},other,"barred Pi with subscript IM, as printed in (34)",34,T02,likely typo for \bar{\Pi}_{t} as in (31)
+Q_{f^{X}}^{X},endogenous,homogeneous export good bought by exporter f^X,p.21,T03,
+H^{C},endogenous,bundle of domestic intermediate goods used in sector C,p.18,"T03,T04",
+H_{f}^{C},endogenous,domestic intermediate variety f used in sector C,36,"T03,T04",
+IM^{C},endogenous,bundle of imported intermediate goods used in sector C,p.18,"T03,T04",IM^C/Q^C is import intensity (37.i1); lagged ratio is aggregate (38.i1)
+IM_{f^{*}}^{C},endogenous,imported intermediate variety f* used in sector C,37,"T03,T04",
+\nu_{C},shock_process,time-varying home-bias weight in sector C,35,"T03,T09,T10,T11",AR(1) like (20) per footnote 15; 1-nu_C is steady-state import intensity
+\mu_{C},parameter,elasticity of substitution between domestic and imported bundles,35,"T03,T09,T10,T11",printed as CES between domestic and imported goods
+\Gamma_{IM^{C}},function,adjustment cost of changing import intensity in sector C,35,"T03,T04",defined in (38)
+\Gamma_{IM^{C}}^{\dagger},function,auxiliary function: 1 - Gamma - Gamma' times IM^C,44,"T03,T04",defined in 44.i1
+\Gamma'_{IM^{C}},function,derivative of the import-intensity adjustment cost,44.i1,T03,argument of differentiation not stated in chunk
+\varepsilon^{IM},shock_process,import-demand shock acting via imported-input productivity,35,"T03,T06",
+\gamma_{IM^{C}},parameter,scale of import-intensity adjustment cost in sector C,38,"T03,T06",
+\varphi^{X},shock_process,optimal price-markup shock of exporters,50,"T03,T04,T06,T09,T10",also governs CES aggregator in (51)-(54)
+P_{DX},endogenous,"price of homogeneous exported final good, domestic currency",45.i1,"T03,T04",exception to the C-to-X renaming
+f^{X},index,index of exporters / differentiated export goods,p.21,"T03,T04",same index as f^x
+\psi^{X},parameter,fixed-cost parameter of brand naming,46,"T03,T04,T09,T10",
+\xi_{X},parameter,Calvo probability that an exporter does not reoptimize,p.22,"T03,T06,T11",named in text before (47)
+\chi_{X},parameter,weight on past export inflation in export price indexation,47,"T03,T06,T11",
+"P_{X,f^{X}}",endogenous,foreign-currency price of exporter f^X,47,"T03,T04",
+P_{X},endogenous,aggregate foreign-currency export price,p.21,"T03,T04,T05",equal to retailers' marginal cost; index (54)
+\Pi_{X},endogenous,gross foreign-currency inflation of export prices,47,T03,defined in 47.i1
+\bar{\Pi}_{X}^{*},shock_process,"foreign inflation objective, as printed with subscript X",50.i1,T03,appears in 50.i1 and (51); cf. bar Pi^* in (47)
+\Pi_{X}^{\dagger},endogenous,cumulative indexation factor of export prices from t to t+k,50,T03,"written with time subscripts t,t+k; defined in 50.i1 and 50.i2"
+\tilde{P}_{X},endogenous,optimal foreign-currency price of reoptimizing exporters,p.22,T03,"printed with wide tilde; used in (50), (51)"
+MC^{X},endogenous,exporters' nominal marginal cost in domestic currency,48,"T03,T04",equals P_DX by (49)
+"P_{X}^{c,*}",endogenous,price aggregate of world trade,55,"T03,T04,T06",
+\mu^{*},parameter,price elasticity of exports,55,"T03,T06,T09,T10,T12",
+\nu^{*},shock_process,country-specific export-demand shock,55,"T03,T06,T09,T10",
+\Gamma_{X},function,adjustment cost of changing exports' share of world trade,55,T03,defined in (56)
+\Gamma_{X}^{\dagger},function,auxiliary function: 1 - Gamma_X - Gamma'_X times X,55,T03,defined in (57)
+\Gamma'_{X},function,derivative of the world-trade-share adjustment cost,57,T03,argument of differentiation not stated in chunk
+\varepsilon^{X},shock_process,shock in the export adjustment cost function,55,"T03,T06",not separately defined in chunk; enters like eps^IM in (38)
+\gamma^{*},parameter,scale of export adjustment cost,56,"T03,T06,T12",
+P_{G},endogenous,price of government-consumption final good,58,T04,
+B,endogenous,government bonds (domestic-currency debt),58,T04,B_{t+1} issued at t
+N,endogenous,production-relevant aggregate of labor services,58,"T04,T09,T10",defined 71.i2
+u,endogenous,aggregate capital utilization rate,58,"T04,T09,T10",u_{t}K_{t} defined 72.i2
+K,endogenous,capital stock,58,"T04,T05,T09",
+D,endogenous,aggregate profits (dividends) of intermediate firms and exporters,58,T04,defined (88)
+g,endogenous,government spending stationarized by productivity,59,"T04,T09,T10,T12",g_{t} = G_{t}/z_{t} (59.i1); g without t is steady state
+\rho_{G},parameter,persistence of government spending,59,"T04,T06,T12",
+\eta^{G},innovation,government spending innovation,59,"T04,T06,T08,T12",
+\eta^{\tau^{C}},innovation,VAT rate innovation,60,"T04,T06,T08,T12",
+s_{T},endogenous,lump-sum taxes as share of GDP,61,"T04,T09,T10",defined 61.i1
+\phi_{B},parameter,response of lump-sum taxes to debt-to-GDP gap,61,T04,
+s_{B},endogenous,government debt as share of GDP,61,"T04,T09,T10","s_{B,t+1} defined 61.i2; s_{B} without t is steady state"
+\hat{r},endogenous,nominal policy interest rate (log deviation),62,"T04,T11,T12,T13",
+\phi_{R},parameter,interest-rate smoothing coefficient,62,"T04,T06,T12",
+\widehat{rr}^{fwd},endogenous,forward real rate: average expected real rate 5-10 years ahead,62,"T04,T05",defined (63)
+\hat{\bar{\pi}},shock_process,time-varying inflation target (deviation),62,"T04,T05,T11,T12,T13",hat over bar; printed wide hat over full-width bar; process (64)
+\phi_{\Pi},parameter,response to deviation of CB inflation measure from target,62,"T04,T06,T12",
+\hat{\pi}^{CB},endogenous,inflation measure the central bank reacts to,62,"T04,T06,T12",defined (65)
+\phi_{y},parameter,response to the output gap,62,"T04,T06,T12",
+\hat{y}^{GAP},endogenous,output deviation from technology-driven trend,62,T04,defined 62.i1
+\phi_{\Delta S},parameter,response to nominal depreciation,62,"T04,T06,T12",
+\Delta S,endogenous,nominal depreciation,62,"T04,T05,T07,T13",defined 62.i2
+\eta^{R},innovation,monetary policy shock (white noise),62,"T04,T06,T08,T12",
+Z,other,productivity trend in output-gap definition,62.i1,T04,printed upper case Z_{t} here; elsewhere productivity is z_{t}
+y,steady_state,steady-state (detrended) output,62.i1,"T04,T05,T09,T10,T12",log y in 62.i1
+\hat{s},endogenous,real exchange rate (log deviation),62.i2,"T04,T05,T08,T11,T12",not defined in this chunk
+\hat{\pi}_{Y},endogenous,inflation of P_{Y} (GDP-deflator) prices,62.i2,"T04,T05,T11,T12,T13",not defined in this chunk
+\hat{\pi}_{Y}^{*},endogenous,foreign intermediate-goods (world) inflation,62.i2,"T04,T05,T11,T12,T13",Phillips curve (92)
+\widehat{ri},endogenous,log-linearized one-quarter real interest rate,63,"T04,T12",defined 63.i1
+\hat{\pi}_{C},endogenous,CPI inflation (log deviation),63.i1,"T04,T05,T06,T11,T12,T13",
+\eta^{\bar{\Pi}},innovation,inflation target innovation,64,"T04,T06,T08,T12",bar printed full width over Pi
+TB,endogenous,trade balance,66,T04,
+IM,endogenous,aggregate imports (sum of sectoral import aggregates),66,T04,defined 79.i1
+CA,endogenous,current account,67,"T04,T05",
+FTR,shock_process,exogenous foreign transfers,67,T04,share s_{FTR} follows (69)
+s_{FTR},shock_process,foreign transfers as share of nominal GDP,68.i1,"T04,T06,T09,T10",s_{FTR} without t is steady state
+\rho_{FTR},parameter,persistence of foreign-transfers share,69,"T04,T06,T12",
+\eta^{FTR},innovation,foreign-transfers innovation,69,"T04,T06,T08,T12",
+\check{s}_{W},endogenous,wage dispersion measure,71,T04,defined 71.i1
+K^{s},endogenous,aggregate capital services demanded by firms,72.i1,T04,
+H,endogenous,sum of sectoral domestic intermediate aggregates,74.u1,T04,defined 74.i1
+H^{s},endogenous,simple sum of domestic intermediate supply,74.i2,T04,
+\check{s}_{H},endogenous,price dispersion of domestic intermediate goods,74.i3,T04,
+\check{s}_{IM},endogenous,price dispersion of imported intermediate goods,76.i1,T04,
+IM^{s},endogenous,simple sum of imported intermediate goods,76.i2,T04,
+Q_{f^{X}},endogenous,homogeneous export good bought by exporter f^{X},82.u1,T04,
+\check{s}_{X},endogenous,price dispersion in the export sector,82.i1,T04,
+Q,endogenous,"output of final-goods sectors (Q^{C},Q^{I},Q^{G},Q^{X})",85,"T04,T09,T10",
+\epsilon^{IM},shock_process,import-productivity shock,85,T04,printed lunate epsilon in (85)-(86); varepsilon in (38)
+P_{Y}^{M},endogenous,GDP deflator at market prices (incl. VAT),86,"T04,T05",
+"D_{H,f}",endogenous,profits of domestic intermediate-goods firm f,88,T04,
+"D_{X,f^{X}}",endogenous,profits of exporter f^{X},88,T04,
+s_{D},endogenous,profits as share of nominal GDP,88.u1,"T04,T09,T10",
+\hat{y}^{*},endogenous,foreign output (log deviation),89,"T04,T12,T13",
+"c_{y^{*},+}",parameter,forward-looking weight in foreign IS curve,89,"T04,T06,T12",
+"c_{y^{*},r}",parameter,real-rate sensitivity in foreign IS curve,89,"T04,T06,T12",
+\hat{r}^{*},endogenous,foreign nominal interest rate (log deviation),89,"T04,T11,T12,T13",
+"\widehat{rr}^{*,fwd}",shock_process,foreign forward rate; proxy for foreign natural rate,89,"T04,T05",near random walk (90)
+\varepsilon^{Y^{*}},innovation,foreign output (demand) shock,89,"T04,T06",
+"\varepsilon^{*,fwd}",innovation,foreign forward-rate shock,90,T04,
+\widehat{wt}^{*},endogenous,world trade (log deviation),91,T04,
+"c_{wt,y}",parameter,response of world trade to foreign output,91,"T04,T06,T12",
+"c_{wt,y\_lag}",parameter,response of world trade to lagged foreign output,91,T04,underscore printed literally
+"c_{wt,-}",parameter,persistence of world trade,91,"T04,T06",
+\varepsilon^{WT^{*}},innovation,world trade shock,91,"T04,T06",
+"c_{\pi^{*},+}",parameter,forward-looking weight in foreign Phillips curve,92,"T04,T06,T12",
+"c_{\pi^{*},y}",parameter,response of foreign inflation to average foreign output,92,"T04,T06,T12",
+"c_{\pi^{*},OIL}",parameter,response of foreign inflation to relative oil price,92,"T04,T06,T12",
+"c_{\pi^{*},\Delta OIL}",parameter,response of foreign inflation to two-quarter oil-price change,92,"T04,T06,T12",
+\hat{p}_{OIL}^{*},endogenous,relative price of oil (log deviation),92,"T04,T05",AR(2) process (93)
+\varepsilon^{\Pi^{*}},innovation,foreign inflation (cost-push) shock,92,"T04,T06",
+p_{OIL}^{*},endogenous,"relative price of oil, P_{OIL}^{*}/P_{Y}^{*}",92.i1,"T04,T05,T09,T10",
+"c_{oil,-}",parameter,persistence of relative oil price,93,"T04,T06",
+"c_{oil,\Delta}",parameter,coefficient on lagged change in relative oil price,93,"T04,T06",
+\varepsilon^{OIL},innovation,oil price shock,93,"T04,T06",
+"c_{r^{*},-}",parameter,interest-rate smoothing in foreign Taylor rule,94,"T04,T06,T12",
+\hat{\bar{\pi}}^{*},shock_process,foreign inflation target (deviation),94,"T04,T05,T11",hat over bar; process not given in this chunk
+"c_{r^{*},\pi}",parameter,response to foreign inflation gap (5-quarter average),94,"T04,T06,T12",
+"c_{r^{*},y}",parameter,response to foreign output,94,"T04,T06,T12",
+\varepsilon^{R^{*}},innovation,foreign monetary policy shock,94,"T04,T06",
+"p_{X}^{c,*}",other,competitors' export price relative to P_{Y}^{*}; fixed at 1,94.i1,"T04,T06,T09,T10",
+\Delta,operator,log-difference operator (quarterly log change),94.i2,"T05,T12,T13",defined p.34 as log(X_t/X_{t-1}); p.87 prints lower-case x inside the log
+\Delta Y,observable,per capita real GDP growth (observed),p.35,"T05,T07,T13",CBS; written \Delta Y_{t}^{OB} in (101)
+\Delta C,observable,per capita real private consumption growth,p.35,"T05,T07,T13",CBS; covered by (104) with J=C
+\Delta I,observable,"per capita fixed capital investment growth (excl. ships, aircraft)",p.35,"T05,T07",CBS; covered by (104) with J=I
+\Delta G,observable,per capita government consumption growth (excl. defence imports),p.35,"T05,T13",CBS; covered by (104) with J=G
+\Delta X,observable,"per capita exports growth (excl. diamonds, start-ups)",p.35,"T05,T07,T13","CBS; covered by (104) with J=X; 94.i2, 95.u1 and 97.i101 also use X_t for a generic series"
+\Delta IM,observable,"per capita imports growth (excl. defence, ships, aircraft, diamonds)",p.35,"T05,T07,T13",CBS; covered by (104) with J=IM
+\Delta P_{Y}^{M},observable,"GDP deflator inflation, market prices",p.35,"T05,T13",CBS; its observation equation has measurement error (fn 52); detrended by inflation target
+\Delta P_{X}^{NIS},observable,export deflator inflation in domestic currency (NIS),94.i3,"T05,T13","defined as \Delta(S_t P_{X,t})"
+s_{CA},observable,current account surplus as share of nominal GDP,94.i4,"T05,T07",printed '=' on p.35 and '\equiv' on p.90
+\Delta P_{C},observable,"CPI inflation (excl. fruit/vegetables; housing excl. 1992-2006), VAT changes deducted",p.35,"T05,T08,T13",CBS; detrended by inflation target
+\bar{\pi},observable,inflation target (quarterly); observed annualized as 4 times it,94.i5,"T05,T09,T13",Bank of Israel; bar over pi
+\Delta W,observable,nominal hourly wage growth,p.35,"T05,T07,T13",total wages / total hours; detrended by inflation target; written \Delta W_{t}^{OB} in (106)
+\Delta N,observable,growth of hours worked per working-age person,p.35,"T05,T07,T13",written \Delta N_{t}^{OB} in (99)
+\Delta EM,observable,growth of employees per working-age person,p.35,"T05,T07,T13",written \Delta EM_{t}^{OB} in (100)
+r^{OB},observable,Bank of Israel key nominal interest rate (annualized),p.35,"T05,T07,T08,T13",level; detrended by inflation target
+"rr^{fwd,OB}",observable,observed 5-10 year forward real interest rate (annualized),p.35,T05,from indexed government bond yields; LHS of (108)
+"r^{*,OB}",observable,G4 nominal central bank key interest rate (weighted),p.35,T05,Bloomberg; level
+\Delta P_{Y}^{*},observable,G4 CPI inflation (weighted),p.35,T05,OECD; also appears on RHS of (107)
+\Delta Y^{*},observable,G4 real GDP growth (weighted),p.35,"T05,T13",OECD; covered by (104) with J=Y^{*}
+\Delta WT^{*},observable,OECD import volume growth (world trade),p.35,"T05,T13",OECD; covered by (104) with J=WT^{*}
+"r^{*,fwd,OB}",observable,observed 5-10 year forward G4 nominal interest rate (annualized),p.35,T05,Bloomberg; LHS of (109)
+\Delta P_{OIL}^{*},observable,Brent crude oil price change (effective exchange rate terms),p.35,T05,"Bloomberg; written \Delta P_{OIL,t}^{*,OB} in (107)"
+\widehat{EM},endogenous,"employment, log deviation from steady state",95,T05,wide hat over EM
+\hat{N},endogenous,"per capita hours worked, log deviation from steady state",95,"T05,T08","printed with wide hat in (95), narrow hat in (99)"
+\chi_{EM},parameter,persistence parameter of employment dynamics,95,T05,added by the authors (footnote 20)
+\xi_{EM},parameter,Calvo-like employment adjustment parameter,95,T05,higher value means employment less sensitive to hours
+\varepsilon^{EM},shock_process,"employment equation shock (non-structural, no feedback)",95,T05,non-structural; process type (AR or i.i.d.) not stated in this chunk
+\hat{x},endogenous,"generic model counterpart of an observable, log deviation",95.u1,"T05,T08,T12,T13",generic notation p.39
+J^{g},index,0/1 selection indicator for technology growth in observation equation,95.u1,T05,upper-case J; not the component index J of B.2
+J^{N},index,0/1 selection indicator for hours-trend growth in observation equation,95.u1,T05,
+\hat{g}_{z},shock_process,"growth rate of labor-augmenting productivity shock, deviation",95.u1,"T05,T06,T11,T12,T13",process is eq. (18); printed with wide hat on p.39
+GR^{N},shock_process,secular (trend) growth component of per capita hours worked,95.u1,T05,"unobserved AR(1) trend component, eq. (98)"
+EX,shock_process,generic idiosyncratic trend shock (AR(1)) in observation equation,95.u1,T05,"generic form, p.39"
+\theta_{i},parameter,parameter vector of model i,96,T05,theta_j for comparison model j (97.u1)
+M_{i},index,model i (j for comparison model),96,T05,
+p,function,"probability density (likelihood, prior, posterior, marginal)",96,T05,
+BF_{ij},other,Bayes factor of model i versus model j,97.u1,T05,
+x,other,generic series level in log-difference definition,97.i101,"T05,T09,T10,T12",lower-case x printed inside the log on p.87
+\rho_{GR}^{N},parameter,AR(1) persistence of secular hours growth,98,T05,estimated
+g_{\Delta N},steady_state,(gross) long-run growth rate of per capita hours (and employment rate),98,"T05,T13",constant of AR process within sample (fn 53)
+\eta_{GR}^{N},innovation,i.i.d. innovation to secular hours growth,98,T05,
+\hat{y},endogenous,"stationarized per capita output, log deviation from steady state",98.i1,"T05,T06,T08,T12,T13","\hat{y}_t = y_t - y, y_t = log(Y_t/z_t), y its steady state (fn 54)"
+\Delta N^{OB},observable,observed per capita hours growth (incl. excess trend),99,T05,
+\Delta EM^{OB},observable,observed employment-rate growth (incl. excess trend),100,T05,
+\Delta Y^{OB},observable,observed per capita GDP growth (incl. excess trend),101,T05,
+J,index,"real component index: C, I, G, X, IM, Y*, WT*",101.i1,T05,"AR process for C, I, X, IM, Y*, WT*; G via (103)"
+EX^{J},shock_process,excess trend of component J (AR(1)),102,T05,EX^{G} instead determined by (103)
+\rho_{EX}^{J},parameter,AR(1) persistence of excess trend of component J,102,T05,estimated
+g_{\Delta J},steady_state,assumed long-run growth rate of component J,102,T05,
+j^{H},function,"domestic-component indicator (1 for C, I, X, IM; 0 for Y*, WT*)",102,T05,printed without argument in (104)
+\eta_{EX}^{J},innovation,i.i.d. innovation to excess growth of component J,102,T05,
+s_{J},parameter,share of component J in GDP,103,T05,"s_C, s_I, s_G, s_X, s_IM in (103); calibrated in 4.4 (outside chunk)"
+EX^{G},shock_process,"excess trend of government consumption, set by (103)",103,T05,no own AR process
+\Delta J^{OB},observable,observed growth of real component J,104,T05,
+\hat{\jmath},endogenous,log deviation of J_t/z_t from steady state,104,T05,printed as hatted dotless j
+\Delta S^{OB},observable,observed nominal depreciation rate,105,T05,
+EX^{S},innovation,i.i.d. exchange-rate observation term,105,T05,"specified as i.i.d., not AR"
+\Delta W^{OB},observable,observed nominal hourly wage growth,106,T05,
+\hat{w},endogenous,"scaled real wage, log deviation from steady state",106,"T05,T08,T11,T13","w_t = W_t/(P_{C,t} z_t)"
+EX^{W},innovation,i.i.d. wage observation term,106,T05,"specified as i.i.d., not AR"
+"\Delta P_{OIL}^{*,OB}",observable,observed quarterly change in Brent oil price,107,T05,
+EX^{P_{OIL}^{*}},shock_process,"excess trend of the oil price (AR(1), zero in steady state)",107,T05,persistence \rho_{EX}^{P_{OIL}^{*}}
+\rho_{EX}^{P_{OIL}^{*}},parameter,AR(1) persistence of oil-price excess trend,p.94,"T05,T06,T13",pattern of (102)
+w,endogenous,scaled real wage level,107.i2,"T05,T09,T10",
+tp,parameter,constant domestic term premium,108,"T05,T06,T13",estimated
+"\varepsilon^{fwd,OB}",shock_process,"serially correlated observation error, domestic forward rate",108,T05,
+tp^{*},parameter,constant foreign term premium,109,"T05,T06,T13",estimated
+"\varepsilon^{*,fwd,OB}",shock_process,"serially correlated observation error, foreign forward rate",109,T05,
+\mu^{C},parameter,"elasticity of substitution, domestic vs imported inputs, consumption",p.42,"T06,T10",Table 1: 1.1
+\mu^{I},parameter,"elasticity of substitution, domestic vs imported inputs, investment",p.42,"T06,T10",Table 1: 1.1
+\mu^{G},parameter,"elasticity of substitution, domestic vs imported inputs, government",p.42,"T06,T10",Table 1: 0.2
+\mu^{X},parameter,"elasticity of substitution, domestic vs imported inputs, exports",p.42,"T06,T10",Table 1: 1.1
+p_{X}^{C},parameter,export competitors' relative price (steady state),p.43,"T06,T10",Table 1: 1.0 (normalized); capital C in Table 1
+\tilde{z},steady_state,steady-state relative level of foreign technology,p.43,"T06,T09,T10",Table 1: 1.0 (normalized); wide tilde
+IM^{*},endogenous,world imports (as in Table 1 label X's weight in IM*),p.44,T06,
+\nu^{C},parameter,"home bias, consumption (time-varying nu_t^C shares the common process)",p.42,T06,Table 1: 0.65
+\nu^{I},parameter,"home bias, investment",p.42,T06,Table 1: 0.60
+\nu^{G},parameter,"home bias, government consumption",p.42,T06,Table 1: 0.95
+\nu^{X},parameter,"home bias, exports",p.42,T06,Table 1: 0.68
+s_{G},steady_state,government consumption to GDP ratio,p.41,"T06,T09,T10,T13",Table 1: 0.26
+s_{TR},steady_state,government transfers to GDP ratio,p.43,T06,Table 1: 0.15; set to balance budget
+P^{DX},endogenous,price of exporters' inputs,p.42,T06,printed P_t^{DX}
+\gamma_{IM^{I}},parameter,"import-intensity adjustment cost, investment final goods",97.i3,T06,set to 0
+\gamma_{IM^{G}},parameter,"import-intensity adjustment cost, government final goods",97.i3,T06,set to 0
+\gamma_{IM^{X}},parameter,"import-intensity adjustment cost, export final goods",97.i3,T06,set to 0
+g_{\Delta Y^{*}},steady_state,long-run growth rate of foreign GDP (annual),p.43,"T06,T13",2.2%
+g_{\Delta WT^{*}},steady_state,long-run growth rate of world trade (annual),p.43,T06,5.3%
+g_{\Delta C},steady_state,long-run growth of per capita private consumption (annual),p.43,"T06,T13",1.7%
+g_{\Delta I},steady_state,long-run growth of per capita fixed capital investment (annual),p.43,"T06,T13",1.7%
+g_{\Delta X},steady_state,long-run growth of per capita exports (annual),p.43,"T06,T13",4.9%
+g_{\Delta IM},steady_state,long-run growth of per capita imports (annual),p.45,"T06,T13",2.9%
+g_{\Delta G},steady_state,implied long-run growth of per capita government consumption (annual),p.45,T06,(-1%)
+\varepsilon^{G},shock_process,government consumption shock,p.45,T06,
+\nu,shock_process,common time-varying home bias process of all final-good sectors,p.45,T06,"printed nu_t; shared by nu^C, nu^G, nu^I, nu^X; AR rho_nu, innovation eta^nu"
+P^{*},endogenous,foreign price level,97.i5,T06,"printed P_t^*; Section 3.6 uses P_{Y,t}^*"
+\eta,innovation,innovation of transitory technology shock,p.45,"T06,T08",Table 3 S.D.(eta)
+\eta^{RP},innovation,innovation of symmetric premium shock,p.45,"T06,T08",
+\eta^{RP^{*}},innovation,innovation of external premium shock,p.45,"T06,T08",
+\eta^{I},innovation,innovation of investment technology shock,p.45,"T06,T08",
+\eta^{\Delta inv},innovation,innovation of inventory investment shock,p.45,T06,Table 3 prints eta^{Delta INV}
+\eta^{\nu^{*}},innovation,innovation of time-varying export share,p.45,"T06,T08",
+\eta^{\nu},innovation,common innovation of home bias (general negative import demand shock),p.45,"T06,T08",
+\eta^{H},innovation,innovation of domestic price markup (4.4.2 label),p.45,"T06,T08",Table 3: eta^{varphi^H}
+\eta^{*},innovation,innovation of import price markup (4.4.2 label),p.45,"T06,T08",Table 3: eta^{varphi^*}
+\eta^{X},innovation,innovation of export price markup (4.4.2 label),p.45,"T06,T08",Table 3: eta^{varphi^X}
+\eta^{\varphi^{H}},innovation,domestic markup innovation (Table 3 label),p.51,T06,
+\eta^{\varphi^{*}},innovation,import markup innovation (Table 3 label),p.51,T06,
+\eta^{\varphi^{W}},innovation,wage markup innovation (Table 3 label),p.51,T06,
+\eta^{\varphi^{X}},innovation,export markup innovation (Table 3 label),p.51,T06,
+\eta^{Y^{*}},innovation,world demand innovation,p.45,"T06,T08",Table 4: Demand
+\eta^{\Pi^{*}},innovation,world cost push innovation,p.45,"T06,T08",Table 4: Supply
+\eta^{R^{*}},innovation,world interest rate innovation,p.45,"T06,T08",Table 4: Interest rate
+\eta^{WT^{*}},innovation,world trade innovation,p.45,"T06,T08",Table 4: World trade
+\eta^{OIL},innovation,oil price innovation,p.45,"T06,T08,T12",Table 4: Oil price
+"\eta^{*,fwd}",innovation,world long-run (forward) rate innovation,p.45,"T06,T08","Table 4: LR rate; eq (90) prints epsilon^{*,fwd}"
+\chi_{E},parameter,"indexation, employment (equation)",p.50,"T06,T13",eq (95) writes chi_{EM}
+\chi_{IM},parameter,"indexation, import prices",p.50,T06,
+\xi_{E},parameter,"Calvo parameter, employment (equation)",p.50,"T06,T13",eq (95) writes xi_{EM}
+\xi_{IM},parameter,"Calvo parameter, import prices",p.50,T06,
+\gamma_{B},parameter,FX (external) premium coefficient on net foreign assets,p.48,"T06,T11",Table 2: FX premium - B*
+\rho,parameter,"AR coefficient, transitory technology",p.45,T06,
+\rho_{RP},parameter,"AR coefficient, symmetric premium",p.45,T06,
+\rho_{RP^{*}},parameter,"AR coefficient, external premium",p.45,T06,
+\rho_{DRP},parameter,"AR coefficient, domestic premium (listed, not estimated)",p.45,T06,no estimate in Tables 2-4
+\rho_{C},parameter,"AR coefficient, consumption demand",p.45,T06,
+\rho_{I},parameter,"AR coefficient, investment technology",p.45,T06,
+\rho_{\Delta inv},parameter,"AR coefficient, inventory investment (4.4.2 label)",p.45,T06,tables: rho_{Delta INV}
+\rho_{\nu^{*}},parameter,"AR coefficient, export share",p.45,T06,
+\rho_{\nu},parameter,"AR coefficient, common home bias",p.45,T06,
+\rho_{H},parameter,"AR coefficient, domestic price markup (4.4.2/Table 5 label)",p.45,T06,Table 2: rho_{varphi^H}
+\rho^{*},parameter,"AR coefficient, import price markup (4.4.2/Table 5 label)",p.45,T06,Table 2: rho_{varphi^*}
+\rho_{X},parameter,"AR coefficient, export price markup (4.4.2/Table 5 label)",p.45,T06,Table 2: rho_{varphi^X}
+\rho_{\varphi^{H}},parameter,"AR coefficient, domestic markup (Table 2 label)",p.50,T06,
+\rho_{\varphi^{*}},parameter,"AR coefficient, import markup (Table 2 label)",p.50,T06,
+\rho_{\varphi^{W}},parameter,"AR coefficient, wage markup (Table 2 label)",p.50,T06,
+\rho_{\varphi^{X}},parameter,"AR coefficient, export markup (Table 2 label)",p.50,T06,
+\rho_{Y^{*}},parameter,"AR coefficient, world demand shock (Table 4: AR in shock, output eq.)",p.45,T06,
+\rho_{\Pi^{*}},parameter,"AR coefficient, world cost push shock (Table 4: inflation eq.)",p.45,T06,
+\rho_{R^{*}},parameter,"AR coefficient, world interest rate shock (Table 4: policy eq.)",p.45,T06,
+\rho_{WT^{*}},parameter,"AR coefficient, world trade shock (listed, not reported)",p.45,T06,
+\rho_{OIL},parameter,"AR coefficient, oil price shock (listed, not reported)",p.45,T06,
+"\rho_{OB,\Delta Y}",parameter,"AR coeff of observation error, output deflator",p.51,T06,Table 3; normal prior
+"\rho_{OB,E}",parameter,"AR coeff of observation error, employment",p.51,T06,Table 3
+"\rho_{OB,fwd}",parameter,AR coeff of domestic forward-rate observation error,p.51,T06,Table 3: Obs. error
+"\rho_{OB,fwd^{*}}",parameter,AR coeff of foreign forward-rate observation error,p.51,T06,Table 3: Obs. error
+\rho_{EX}^{N},parameter,"AR coeff of excess trend, hours",p.51,"T06,T13",Table 3
+\rho_{EX}^{C},parameter,"AR coeff of excess trend, consumption",p.51,"T06,T13",
+\rho_{EX}^{I},parameter,"AR coeff of excess trend, investment",p.51,"T06,T13",
+\rho_{EX}^{X},parameter,"AR coeff of excess trend, exports",p.51,"T06,T13",
+\rho_{EX}^{IM},parameter,"AR coeff of excess trend, imports",p.51,"T06,T13",
+\rho_{EX}^{Y^{*}},parameter,"AR coeff of excess trend, foreign GDP",p.51,"T06,T13",
+\rho_{EX}^{WT^{*}},parameter,"AR coeff of excess trend, world trade",p.51,"T06,T13",
+\eta^{\Delta P_{Y}^{M}},innovation,"observation error, output deflator",p.51,T06,Table 3 S.D.
+"\eta^{OB,E}",innovation,"observation error, employment",p.51,T06,
+"\eta^{fwd,OB}",innovation,domestic term premium observation error,p.51,T06,
+"\eta^{*,fwd,OB}",innovation,foreign term premium observation error,p.51,T06,
+\eta_{EX}^{N},innovation,"excess-trend innovation, hours worked",p.51,"T06,T13",
+\eta_{EX}^{C},innovation,"excess-trend innovation, consumption",p.51,"T06,T13",
+\eta_{EX}^{I},innovation,"excess-trend innovation, investment",p.51,"T06,T13",
+\eta_{EX}^{X},innovation,"excess-trend innovation, exports",p.51,"T06,T13",
+\eta_{EX}^{IM},innovation,"excess-trend innovation, imports",p.51,"T06,T13",
+\eta_{EX}^{W},innovation,"excess-trend innovation, wages",p.51,"T06,T13",
+\eta_{EX}^{Y^{*}},innovation,"excess-trend innovation, foreign GDP",p.51,"T06,T13",
+\eta_{EX}^{WT^{*}},innovation,"excess-trend innovation, world trade",p.51,"T06,T13",
+\eta_{EX}^{P_{OIL}^{*}},innovation,"excess-trend innovation, oil price",p.51,"T06,T13",
+\eta_{EX}^{S},innovation,"excess-trend innovation, exchange rate",p.51,"T06,T13",
+\mathrm{S.D.},operator,standard deviation of the shock in parentheses,p.51,T06,printed S.D.(...)
+"c_{wt,y-}",parameter,world trade equation: lagged output,p.52,"T06,T12","eq (91) prints c_{wt,y_lag}"
+\Delta R,endogenous,change in the policy interest rate (enters lagged),97.i6,T06,printed Delta R_{t-1}
+\phi_{\Delta R},parameter,policy response to lagged interest rate change,p.58,T06,Table 5
+\phi_{\Delta Y},parameter,policy response to lagged output growth,p.59,T06,Table 5
+E_{t},operator,expectation conditional on time-t information,97.u2,"T06,T11,T12,T13",
+\Delta P_{c},observable,CPI inflation (log change of observed CPI),97.i11,T07,lower-case c in Sec. 5.1 text and Table 6; upper-case \Delta P_{C} in Sec. 5.2 and Figs 4-5
+\hat{c},endogenous,"consumption (stationarized), deviation from steady state",p.70,"T08,T11,T12,T13",
+\hat{i},endogenous,"investment (stationarized), deviation from steady state",p.70,T08,hat over dotted italic i in Table 7 header
+\widehat{im},endogenous,"imports (stationarized), deviation from steady state",p.70,"T08,T12,T13",Table 7 header (p.70) prints a narrow hat over im; text p.71 prints a wide hat
+p_{H},endogenous,"price of domestic goods relative to the CPI, stationarized",p.72,"T08,T09,T10,T11,T12","printed p_{H,t} without hat (p.72); defined p_{H,t} = P_{H,t}/P_{C,t} in App. C (p.95)"
+\hat{im},endogenous,"imports (log deviation); Table 7 column header, same as \widehat{im}",Table 7 (p.70),T08,narrow hat as printed in Table 7
+t,index,"time (quarter) subscript, dropped in the steady state",109.i2,T09,
+c,steady_state,consumption divided by productivity,109.i4,"T09,T10,T12",c_t = C_t/z_t
+\xi,parameter,"Calvo parameters (probability of not reoptimizing), generic",109.i10,T09,printed as \xi's; all set to zero for the steady-state solution
+\lambda,steady_state,normalized marginal utility of the consumer's income,110,"T09,T10",\lambda_t = \Lambda_t z_t (110.i1)
+\Pi,parameter,steady-state gross domestic inflation rate,111,"T09,T10",not defined in this chunk; consistent with the target \bar{\pi}
+\Pi^{*},parameter,steady-state gross foreign inflation rate,112,T09,assumed equal to \Pi (112.i1)
+i,steady_state,investment divided by productivity,113,"T09,T10,T12",
+p_{I},steady_state,price of investment goods relative to the CPI,114,"T09,T10,T11,T12",not defined in this chunk; lower-case convention gives P_I/P_C
+r_{K},steady_state,real rental rate of capital services,114.u1,"T09,T10","not defined in this chunk; nominal R_{K,t} defined p.9"
+h^{s},steady_state,supply of domestic intermediate goods (normalized),118,"T09,T10",
+k^{s},steady_state,capital services used in production (normalized),118,"T09,T10",equals k by (145)
+mc,steady_state,"real marginal cost of domestic intermediate firms, in consumer prices",121,"T09,T10",
+p_{Y},steady_state,domestic GDP deflator relative to the CPI,123,"T09,T10",not defined in this chunk; lower-case convention gives P_Y/P_C
+p_{IM},steady_state,price of imported intermediate goods relative to the CPI,123,"T09,T10,T11,T12",
+h^{C},steady_state,domestic intermediate goods used by consumption-goods producers,124,"T09,T10",
+q^{C},steady_state,output of final consumption goods,124,"T09,T10",
+h^{I},steady_state,domestic intermediate goods used by investment-goods producers,125,"T09,T10",
+\nu_{I},parameter,"home-bias weight on domestic inputs, investment goods",125,"T09,T10,T11",
+\mu_{I},parameter,"elasticity of substitution between domestic and imported inputs, investment goods",125,"T09,T10,T11",
+q^{I},steady_state,output of final investment goods,125,"T09,T10,T12",
+h^{G},steady_state,domestic intermediate goods used by government-goods producers,126,"T09,T10",
+\nu_{G},parameter,"home-bias weight on domestic inputs, government-consumption goods",126,"T09,T10,T11",
+\mu_{G},parameter,"elasticity of substitution between domestic and imported inputs, government goods",126,"T09,T10,T11",also printed in the exponent of the export-sector equation (131)
+q^{G},steady_state,output of final government-consumption goods,126,"T09,T10",
+p_{G},steady_state,price of government-consumption goods relative to the CPI,126,"T09,T10,T11,T12",
+h^{X},steady_state,domestic intermediate goods used by export-goods producers,127,"T09,T10",
+\nu_{X},parameter,"home-bias weight on domestic inputs, export goods",127,"T09,T10,T11",
+\mu_{X},parameter,"elasticity of substitution between domestic and imported inputs, export goods",127,"T09,T10,T11",
+q^{X},steady_state,output of the homogeneous final export good,127,"T09,T10,T12",
+p_{DX},steady_state,price of the homogeneous domestic export good relative to the CPI,127,"T09,T10,T11,T12",
+im^{C},steady_state,imported intermediate goods used by consumption-goods producers,128,"T09,T10",
+im^{I},steady_state,imported intermediate goods used by investment-goods producers,129,"T09,T10",
+im^{G},steady_state,imported intermediate goods used by government-goods producers,130,"T09,T10",
+im^{X},steady_state,imported intermediate goods used by export-goods producers,131,"T09,T10",exponent printed as -\mu_{G} in (131); suspected typo
+p_{x},steady_state,export price in foreign markets (lower-case subscript variant),136,"T09,T10",as printed in (136); same variable as p_{X}; suspected typo
+p_{X},steady_state,"exporters' foreign-currency export price, relative",137,"T09,T10,T12","P_{X,t} defined p.21; normalization not stated in this chunk"
+wt^{*},steady_state,world trade scaled by foreign productivity,137,"T09,T10",wt^{*}_t = WT^{*}_t/z^{*}_t (137.i1)
+z^{*},shock_process,foreign technology (productivity) level,137.i2,T09,not defined further in this chunk
+s_{TB},steady_state,trade balance as a share of GDP,141,"T09,T10",
+s_{X},steady_state,exports as a share of GDP,141,"T09,T10,T13",defined by (142)
+s_{IM},steady_state,imports as a share of GDP,141,"T09,T10,T12",defined by (143)
+im,steady_state,total imports of intermediate goods (normalized),143,"T09,T10,T12",sum of sector imports in (147)
+p_{Y}^{M},steady_state,"GDP deflator at market prices (including VAT), relative to the CPI",154,"T09,T10,T12",not defined in this chunk; market-price GDP as in (86)
+s_{DX},steady_state,export-sector profit share of nominal GDP,156,"T09,T10",
+p_{IM\_H},steady_state,ratio of import price to domestic intermediate price,159,T10,defined in (159) as p_{IM}/p_{H}
+A_{C},steady_state,CES price composite of the consumption sector,160,T10,defined in (160); p_{H}=(A_{C})^{-1}
+A_{I},steady_state,CES price composite of the investment sector,164,T10,defined in (164)
+A_{G},steady_state,CES price composite of the government sector,165,T10,defined in (165)
+A_{X},steady_state,CES price composite of the export sector,166,T10,defined in (166)
+h_{C},steady_state,domestic intermediates used in consumption sector (subscript variant),197.i1,T10,same as h^{C}
+h_{I},steady_state,domestic intermediates used in investment sector (subscript variant),197.i1,T10,same as h^{I}
+h_{G},steady_state,domestic intermediates used in government sector (subscript variant),197.i1,T10,same as h^{G}
+h_{X},steady_state,domestic intermediates used in export sector (subscript variant),197.i1,T10,same as h^{X}
+\hat{\lambda},endogenous,"marginal utility of consumption (Lagrange multiplier), log deviation",212,T11,
+\hat{\tau}^{C},shock_process,"consumption tax (VAT) rate, deviation",212,"T11,T12","exogenous AR(1) (252, next chunk); absolute deviation"
+\hat{\epsilon}^{C},shock_process,consumption-demand (preference) shock,212,T11,lunate epsilon in App. D; main text uses varepsilon
+\tau^{c},parameter,steady-state consumption tax rate,212,T11,printed lower-case c in (212); Table 1 writes tau^C
+\hat{Q},endogenous,"Tobin's Q (real price of installed capital), log deviation",213,T11,
+\hat{\tau}^{K},shock_process,"capital income tax rate, deviation",213,"T11,T12",exogenous AR(1) (254); held constant in estimation
+\hat{r}_{k},endogenous,"real rental rate of capital, log deviation",213,T11,
+\hat{p}_{I},endogenous,"relative price of investment good (vs CPI), log deviation",213,"T11,T12,T13",
+\hat{\imath},endogenous,"investment (detrended), log deviation",214,"T11,T12,T13",printed as dotless i with hat
+\hat{\epsilon}^{I},shock_process,investment-specific technology shock,214,T11,
+\hat{u},endogenous,"capital utilization intensity, deviation",215,"T11,T12",
+\hat{\epsilon}^{RP},shock_process,symmetric (common) risk-premium shock,216,T11,
+\hat{\epsilon}^{DRP},shock_process,"domestic, highly inertial risk-premium shock",216,T11,
+\hat{\pi}_{y}^{*},endogenous,foreign output-price inflation (printed lower-case y),217,"T11,T12","in (217), (230); appears to be the same variable as \hat{\pi}_{Y}^{*} (depreciation definition p.25, eq. 30)"
+\hat{s}_{B^{*}},endogenous,"net foreign assets to nominal GDP ratio, deviation",217,T11,defined main text p.8
+\hat{\epsilon}^{RP^{*}},shock_process,external risk-premium shock,217,T11,
+\hat{k},endogenous,"capital stock (detrended), log deviation",218,"T11,T12",
+\hat{w}_{\tau},endogenous,"after-tax real wage, log deviation",219,T11,
+\hat{\tau}^{N},shock_process,"labor income tax rate on households, deviation",219,"T11,T12",exogenous AR(1) (255)
+\hat{\tau}^{W_{h}},shock_process,"payroll (social security) tax rate on households, deviation",219,"T11,T12",exogenous AR(1) (256)
+\widehat{mrs},endogenous,"marginal rate of substitution consumption-leisure, log deviation",220,T11,
+\hat{\epsilon}_{N},shock_process,labor-supply shock,220,T11,printed with subscript N; main text varepsilon_t^N; not used in estimation
+\hat{n},endogenous,"hours worked (employment), log deviation",220,"T11,T13",
+\phi_{w},parameter,steady-state wage markup,221,T11,printed phi lower-case w; Table 1 writes varphi^W
+\hat{\phi}_{w},shock_process,wage markup shock,221,T11,printed phi; main text varphi_t^W
+\hat{h}_{s},endogenous,"domestic intermediate goods supply (output), log deviation",222,T11,
+\hat{\epsilon},shock_process,transitory technology shock,222,"T11,T12",no superscript
+\hat{k}^{s},endogenous,"capital services, log deviation",222,T11,hat spans k^s in print
+\hat{\tau}^{W_{f}},shock_process,"payroll (social security) tax rate on firms, deviation",223,"T11,T12",exogenous AR(1) (257)
+\hat{R}_{f},endogenous,"gross interest rate on working capital, log deviation",223,T11,
+\widehat{mc},endogenous,"real marginal cost of domestic firms (vs CPI), log deviation",224,T11,
+\nu^{f},parameter,share of wage bill financed by working capital,225,T11,Table 1 nu^F = 0.2
+\hat{\epsilon}^{F},shock_process,shock in working-capital interest rate,225,T11,not defined in chunk
+\hat{\nu}_{f},other,"time-varying working-capital share, deviation",225,T11,not defined in chunk
+\hat{\pi}_{H},endogenous,"domestic intermediate goods inflation, deviation",226,T11,
+\widehat{mc}^{H},endogenous,real marginal cost of domestic firms relative to domestic price index,226,T11,
+\hat{\varphi}^{H},shock_process,domestic price markup shock,226,T11,curly phi
+\hat{p}_{H},endogenous,"relative price of domestic intermediate goods (vs CPI), log deviation",227,"T11,T12",defined p.114 as ln(P_H/P_C)
+\hat{\pi}_{IM},endogenous,"import price inflation (local currency), deviation",229,T11,
+\widehat{mc}_{IM},endogenous,real marginal cost of foreign intermediate goods firms,229,T11,
+\hat{\varphi}^{*},shock_process,import price markup shock,229,T11,curly phi
+\beta^{*},parameter,foreign discount factor,229,T11,
+\hat{p}_{Y},endogenous,"GDP (output) deflator relative to CPI, log deviation",230,"T11,T12",cf. (281)-(282) in D.8; s p_Y = S P*_Y / P_C
+\hat{p}_{OIL},shock_process,"relative price of oil, log deviation",230,"T11,T12,T13","exogenous AR(2), eq. (290) in D.9"
+\hat{p}_{IM},endogenous,"relative price of imported goods (vs CPI), log deviation",230,"T11,T12",
+\ln,operator,natural logarithm,231.i1,T11,
+\hat{h}_{C},endogenous,"domestic intermediate input into consumption good, log deviation",232,T11,
+\hat{q}_{C},endogenous,"output of final private consumption good, log deviation",232,"T11,T12",
+\mu_{c},parameter,"elasticity of substitution, consumption (printed lower-case)",233,T11,printed in (233); presumably mu_C
+\hat{\nu}_{C},shock_process,"time-varying home bias, consumption sector",232,T11,printed \hat{\nu}_{ct} in (235)
+\widehat{im}_{C},endogenous,"imported intermediate input into consumption good, log deviation",233,"T11,T12",
+\hat{\Gamma}_{IM^{C}}^{+},endogenous,"import-share adjustment-cost term, consumption sector",233,"T11,T12",
+\nu_{E},parameter,home-bias weight in (233) as printed,233,T11,suspected typo for nu_C
+\gamma_{IM}^{C},parameter,"import-share adjustment cost parameter, consumption sector",234,T11,main text gamma_{IM^C}
+\hat{\epsilon}^{IM},shock_process,import demand shock (productivity of imported inputs),234,T11,not used in estimation
+\hat{\nu}_{c},shock_process,"home bias, consumption (printed \hat{\nu}_{ct}, no comma)",235,T11,presumably \hat{\nu}_{C}
+\hat{h}_{I},endogenous,"domestic intermediate input into investment good, log deviation",236,T11,
+\hat{q}_{I},endogenous,"output of final investment good, log deviation",236,"T11,T12",
+\hat{\nu}_{I},shock_process,"time-varying home bias, investment sector",236,T11,
+\widehat{im}_{I},endogenous,"imported intermediate input into investment good, log deviation",237,T11,
+\hat{\Gamma}_{IM^{I}}^{+},endogenous,"import-share adjustment-cost term, investment sector",237,T11,subscript printed IM^I t (no comma) in (237)
+\gamma_{IM}^{I},parameter,"import-share adjustment cost parameter, investment sector",238,T11,
+\hat{h}_{G},endogenous,domestic intermediate input into public consumption good,240,T11,
+\hat{q}_{G},endogenous,"output of final public consumption good, log deviation",240,"T11,T12",
+\hat{p}_{G},endogenous,"relative price of public consumption good, log deviation",240,"T11,T12",
+\hat{\nu}_{G},shock_process,"time-varying home bias, public consumption sector",240,T11,
+\widehat{im}_{G},endogenous,imported intermediate input into public consumption good,241,T11,
+\hat{\Gamma}_{IM^{G}}^{+},endogenous,"import-share adjustment-cost term, public consumption sector",241,T11,
+\gamma_{IM}^{G},parameter,"import-share adjustment cost parameter, public consumption sector",242,T11,
+\hat{h}_{X},endogenous,"domestic intermediate input into exported good, log deviation",244,T11,
+\hat{q}_{X},endogenous,"output of final exports good, log deviation",244,"T11,T12",
+\hat{p}_{DX},endogenous,"domestic-currency relative price of exported good, log deviation",244,"T11,T12",
+\hat{\nu}_{X},shock_process,"time-varying home bias, exports sector",244,T11,
+\widehat{im}_{X},endogenous,"imported intermediate input into exported good, log deviation",245,T11,
+\hat{\Gamma}_{IM^{X}}^{+},endogenous,"import-share adjustment-cost term, exports sector",245,T11,
+\gamma_{IM}^{X},parameter,"import-share adjustment cost parameter, exports sector",246,T11,
+\hat{\epsilon}^{X},shock_process,shock in exports import-share cost (printed epsilon^X),246,T11,analogous eqs use epsilon^IM; possible typo
+\nu_{x},parameter,home bias in exports (printed lower-case),247,T11,presumably nu_X
+\mu_{x},parameter,elasticity of substitution in exports (printed lower-case),247,T11,presumably mu_X
+\hat{\pi}_{X},endogenous,"export price inflation in foreign currency, deviation",248,T11,
+\widehat{mc}^{X},endogenous,"exporters' real marginal cost, log deviation",248,T11,
+\hat{\varphi}^{X},shock_process,export price markup shock,248,T11,curly phi
+\hat{p}_{X},endogenous,"real export price (foreign currency, vs foreign output deflator)",249,"T11,T12",
+\hat{g},endogenous,"government consumption, log deviation",251,"T12,T13",(277) equates final government good output to it
+\rho_{\tau^{C}},parameter,persistence of consumption tax rate,252,T12,
+\hat{\tau}^{D},endogenous,"dividend tax rate, deviation",253,T12,
+\rho_{\tau^{D}},parameter,persistence of dividend tax rate,253,T12,
+\eta^{\tau^{D}},innovation,dividend tax rate innovation,253,T12,
+\rho_{\tau^{K}},parameter,persistence of capital rental tax rate,254,T12,
+\eta^{\tau^{K}},innovation,capital rental tax rate innovation,254,T12,
+\rho_{\tau^{N}},parameter,persistence of household income tax rate,255,T12,
+\eta^{\tau^{N}},innovation,household income tax rate innovation,255,T12,
+\rho_{\tau^{W_{h}}},parameter,persistence of household payroll tax,256,T12,
+\eta^{\tau^{W_{h}}},innovation,household payroll tax innovation,256,T12,
+\rho_{\tau^{W_{f}}},parameter,persistence of firm payroll tax,257,T12,
+\eta^{\tau^{W_{f}}},innovation,firm payroll tax innovation,257,T12,
+\hat{g}_{Y},endogenous,"output growth, deviation",258,T12,
+\hat{rr}^{fw},endogenous,5-10 year forward expected real interest rate,259,T12,narrow hat over rr in (259); wide hat \widehat{rr}^{fw} in (262); main text writes fwd
+y^{GAP},endogenous,output gap: output relative to technology-driven trend,259,T12,printed without hat in (259) and (264); main text uses \hat{y}^{GAP}
+\Delta\hat{S},endogenous,nominal exchange-rate depreciation,259,T12,defined in (263)
+\rho_{\bar{\pi}},parameter,persistence of inflation target,260,T12,main text (64) sets it to 0.99
+\hat{s}_{TB},endogenous,"trade balance to output ratio, deviation",266,T12,
+\hat{s}_{X},endogenous,"exports to output ratio, deviation",266,T12,
+\hat{s}_{IM},endogenous,"imports to output ratio, deviation",266,T12,
+\left(CA/Y\right),endogenous,current account to output ratio,269,T12,no hat printed
+\hat{s}_{FTR},shock_process,"foreign transfers to output ratio, deviation",269,T12,AR(1) in (270)
+\hat{\tilde{z}},endogenous,"relative level of foreign to domestic technology, deviation",271,"T12,T13",hat over tilde; \tilde{z}_{t}=z^{*}_{t}/z_{t} (p.100)
+\widehat{im}^{*},endogenous,"world imports (world trade), log deviation",271,"T12,T13",main text calls it world trade \widehat{wt}^{*}
+\hat{\nu}^{*},shock_process,country-specific export-demand shock,271,T12,Greek nu
+\hat{p}_{x},endogenous,"real export price (foreign currency), deviation",271,"T12,T13",printed lowercase x in (271)
+\hat{p}_{x}^{*},endogenous,"price of competing exporters (world-trade price aggregate), deviation",271,"T12,T13","main text P^{c,*}_{X,t}"
+r^{*},steady_state,steady-state foreign gross interest rate,272,"T12,T13",
+\pi^{*},steady_state,steady-state foreign gross inflation,272,"T12,T13",
+\hat{h}^{s},endogenous,"supply of domestic intermediate goods, deviation",274,T12,"printed \hat{h}_{s,t} (subscript) in (285)"
+\hat{h},endogenous,production-relevant aggregate of domestic intermediate goods,274,T12,
+\hat{\Delta inv},shock_process,"inventory investment (share of GDP), deviation",276,T12,"narrow hat over \Delta inv in (276),(280); \Delta\widehat{inv} in (284)"
+\hat{k}_{s},endogenous,"capital services demanded by firms, deviation",279,T12,
+p_{C},steady_state,steady-state relative consumption price,280,T12,
+p_{y},steady_state,steady-state relative output price,280,T12,"printed variously p_{y}, P_{y}, p_{Y}, P_{Y}"
+im_{C},steady_state,steady-state imports used in consumption good,280,T12,"also im_{I}, im_{G}, im_{X} for other uses"
+\hat{p}_{Y}^{M},endogenous,"output deflator in market prices, deviation",284,"T12,T13",
+\tau_{c},steady_state,steady-state consumption tax rate,284,"T12,T13",printed lowercase c; 0.78 is a fixed weight
+\widehat{ri}^{*},endogenous,foreign real interest rate,286,T12,
+\widehat{fw}_{ri^{*}},shock_process,foreign forward (natural) real rate,286,"T12,T13","main text \widehat{rr}^{*,fwd}, near random walk (90)"
+\hat{\epsilon}_{Y^{*}},innovation,foreign demand (output) shock,286,T12,lunate epsilon; main text \varepsilon_{t}^{Y^{*}}
+\bar{\pi}^{*},shock_process,foreign inflation target,287,"T12,T13","bar only, no hat as printed"
+\hat{\epsilon}_{R^{*}},innovation,foreign monetary policy shock,287,T12,lunate epsilon
+"c_{wt,-}^{*}",parameter,world imports persistence,289,T12,star printed here only
+\hat{\epsilon}_{IM^{*}},innovation,world import (trade) shock,289,T12,printed \hat{\epsilon}_{IM_{t}^{*}}
+"c_{OIL,-}",parameter,oil price persistence coefficient,290,T12,
+"c_{OIL,\Delta}",parameter,oil price lagged-change coefficient,290,T12,enters with minus sign here
+EX_{\Delta N},shock_process,common excess trend in per-capita hours growth,291,T13,AR(1) in (322); enters all domestic real growth rates
+EX_{\Delta C},shock_process,excess trend in consumption growth,292,T13,AR(1) in (323)
+\Delta I_{NI},observable,observed real per-capita fixed investment growth (excluding inventories),293,T13,
+EX_{\Delta INI},shock_process,excess trend in fixed-investment growth,293,T13,AR(1) in (324)
+EX_{\Delta G},shock_process,excess trend in government consumption growth,294,T13,no own process; pinned down by (328)
+EX_{\Delta X},shock_process,excess trend in export growth,295,T13,AR(1) in (326)
+EX_{\Delta IM},shock_process,excess trend in import growth,296,T13,AR(1) in (325)
+\hat{\epsilon}_{OB\_DPY},shock_process,observation error in GDP-deflator inflation,297,T13,lunate epsilon with hat; Table 3: obs. error output def.
+\pi,steady_state,gross steady-state (target) inflation rate,297,T13,enters as \pi-1
+\Delta P_{I},observable,observed investment-deflator inflation,299,T13,
+\eta^{\Delta P_{I}},innovation,measurement error in investment-deflator inflation,299,T13,
+\hat{e},endogenous,"per-capita employment, deviation from HP trend",301,T13,written \widehat{EM} in eq. (95)
+\hat{\epsilon}_{OB\_E},shock_process,observation shock in the employment equation,301,T13,lunate epsilon with hat; Table 3 gives its AR coefficient
+EX_{\Delta W},shock_process,excess trend in nominal wage growth,304,T13,AR(1) in (321)
+r,steady_state,gross steady-state domestic nominal interest rate,305,T13,enters as r-1
+EX_{\Delta S},shock_process,excess trend in nominal depreciation,306,T13,AR(1) in (320)
+EX_{\Delta Y*},shock_process,excess trend in foreign output growth,307,T13,asterisk inline in subscript; AR(1) in (329)
+\Delta P_{Y^{*}},observable,observed foreign price inflation (G4 CPI),308,T13,
+R^{*OB},observable,observed annualized foreign (G4) nominal interest rate,309,T13,"data list writes r_{t}^{*,OB}"
+\Delta P_{X^{*}},observable,inflation in foreign competitors' price,310,T13,not in the data list of section 4.1
+rr^{fwd\_ob},observable,observed domestic 5-10 year forward real interest rate,312,T13,
+\hat{\epsilon}_{fwd\_ob},shock_process,observation error in the domestic forward real rate,312,T13,lunate epsilon with hat; serially correlated (Appendix B)
+\hat{fw}_{ri^{*}},endogenous,forward real-rate term as printed in (312),312,T13,narrow hat over fw; same letters as \widehat{fw}_{ri^{*}}; see notes
+S_{CA},observable,observed current-account-to-GDP ratio,313,T13,"capital S as printed; data list writes s_{CA,t}"
+(CA/Y),endogenous,model current-account-to-GDP ratio,313,T13,
+\tau^{C\_OB},observable,observed consumption (VAT) tax rate,314,T13,
+\hat{\tau}^{c},shock_process,consumption tax-rate deviation,314,T13,lowercase c as printed; (252) writes \hat{\tau}^{C}
+\tau^{N\_OB},observable,observed income tax rate,315,T13,
+\tau_{n},steady_state,steady-state income tax rate,315,T13,lowercase n as printed
+\hat{\tau}^{n},shock_process,income tax-rate deviation,315,T13,lowercase n as printed; (255) writes \hat{\tau}^{N}
+\Delta P_{OIL},observable,observed change in oil prices,316,T13,"data list writes \Delta P_{OIL,t}^{*}"
+EX_{\Delta POIL},shock_process,excess trend in oil-price changes,316,T13,"AR(1) in (331), printed there as EX_{\Delta POil}"
+\Delta \widehat{inv},endogenous,"change in inventories (share of GDP), model deviation",317,T13,wide hat over inv only
+EX_{\Delta INV},shock_process,excess term in the inventory share,317,T13,white noise in (327)
+r^{*fwd\_ob},observable,observed foreign 5-10 year forward nominal interest rate,318,T13,
+\hat{\epsilon}_{fwd\_ob^{*}},shock_process,observation error in the foreign forward nominal rate,318,T13,lunate epsilon with hat
+EX_{\Delta WT*},shock_process,excess trend in world import growth,319,T13,asterisk inline in subscript; AR(1) in (330)
+\rho_{EX}^{\Delta S},parameter,AR(1) coefficient of the depreciation excess trend,320,T13,
+\rho_{EX}^{\Delta W},parameter,AR(1) coefficient of the wage excess trend,321,T13,
+g_{\Delta W},parameter,assumed long-run gross growth rate of nominal wages,321,T13,
+\eta_{EX}^{\Delta INV},innovation,innovation (white noise) to the inventory-share excess term,327,T13,
+c/y,steady_state,steady-state consumption-to-output ratio,328,T13,weight in (328)
+i/y,steady_state,steady-state investment-to-output ratio,328,T13,weight in (328)
+im/y,steady_state,steady-state import-to-output ratio,328,T13,weight in (328)
+g_{\Delta WT*},parameter,assumed long-run gross growth rate of world imports,330,T13,asterisk inline in subscript
+EX_{\Delta POil},shock_process,excess trend in oil-price changes (as printed in 331),331,T13,presumably the same as EX_{\Delta POIL} in (316)

@@ -1,0 +1,1201 @@
+figure,page_pdf,shock,panel_title,series,quarter,value
+18,140,inventories_investment_demand,Output,mean,1,0.693263
+18,140,inventories_investment_demand,Output,mean,2,0.381547
+18,140,inventories_investment_demand,Output,mean,3,0.185792
+18,140,inventories_investment_demand,Output,mean,4,0.078555
+18,140,inventories_investment_demand,Output,mean,5,0.022445
+18,140,inventories_investment_demand,Output,mean,6,-0.003739
+18,140,inventories_investment_demand,Output,mean,7,-0.016203
+18,140,inventories_investment_demand,Output,mean,8,-0.019944
+18,140,inventories_investment_demand,Output,mean,9,-0.022442
+18,140,inventories_investment_demand,Output,mean,10,-0.024941
+18,140,inventories_investment_demand,Output,mean,11,-0.026183
+18,140,inventories_investment_demand,Output,mean,12,-0.028682
+18,140,inventories_investment_demand,Output,mean,13,-0.031166
+18,140,inventories_investment_demand,Output,mean,14,-0.033664
+18,140,inventories_investment_demand,Output,mean,15,-0.036163
+18,140,inventories_investment_demand,Output,mean,16,-0.038647
+18,140,inventories_investment_demand,Output,mean,17,-0.039904
+18,140,inventories_investment_demand,Output,mean,18,-0.042387
+18,140,inventories_investment_demand,Output,mean,19,-0.043644
+18,140,inventories_investment_demand,Output,mean,20,-0.044886
+18,140,inventories_investment_demand,Output,hpd70_lower,1,0.659597
+18,140,inventories_investment_demand,Output,hpd70_lower,2,0.349123
+18,140,inventories_investment_demand,Output,hpd70_lower,3,0.149627
+18,140,inventories_investment_demand,Output,hpd70_lower,4,0.041149
+18,140,inventories_investment_demand,Output,hpd70_lower,5,-0.009979
+18,140,inventories_investment_demand,Output,hpd70_lower,6,-0.027425
+18,140,inventories_investment_demand,Output,hpd70_lower,7,-0.031166
+18,140,inventories_investment_demand,Output,hpd70_lower,8,-0.032422
+18,140,inventories_investment_demand,Output,hpd70_lower,9,-0.031166
+18,140,inventories_investment_demand,Output,hpd70_lower,10,-0.032422
+18,140,inventories_investment_demand,Output,hpd70_lower,11,-0.033664
+18,140,inventories_investment_demand,Output,hpd70_lower,12,-0.034906
+18,140,inventories_investment_demand,Output,hpd70_lower,13,-0.037405
+18,140,inventories_investment_demand,Output,hpd70_lower,14,-0.041146
+18,140,inventories_investment_demand,Output,hpd70_lower,15,-0.043644
+18,140,inventories_investment_demand,Output,hpd70_lower,16,-0.046128
+18,140,inventories_investment_demand,Output,hpd70_lower,17,-0.048627
+18,140,inventories_investment_demand,Output,hpd70_lower,18,-0.049869
+18,140,inventories_investment_demand,Output,hpd70_lower,19,-0.051126
+18,140,inventories_investment_demand,Output,hpd70_lower,20,-0.052368
+18,140,inventories_investment_demand,Output,hpd70_upper,1,0.716963
+18,140,inventories_investment_demand,Output,hpd70_upper,2,0.413971
+18,140,inventories_investment_demand,Output,hpd70_upper,3,0.219458
+18,140,inventories_investment_demand,Output,hpd70_upper,4,0.109722
+18,140,inventories_investment_demand,Output,hpd70_upper,5,0.042390
+18,140,inventories_investment_demand,Output,hpd70_upper,6,0.006241
+18,140,inventories_investment_demand,Output,hpd70_upper,7,-0.011220
+18,140,inventories_investment_demand,Output,hpd70_upper,8,-0.017460
+18,140,inventories_investment_demand,Output,hpd70_upper,9,-0.018702
+18,140,inventories_investment_demand,Output,hpd70_upper,10,-0.019944
+18,140,inventories_investment_demand,Output,hpd70_upper,11,-0.021200
+18,140,inventories_investment_demand,Output,hpd70_upper,12,-0.022442
+18,140,inventories_investment_demand,Output,hpd70_upper,13,-0.023684
+18,140,inventories_investment_demand,Output,hpd70_upper,14,-0.026183
+18,140,inventories_investment_demand,Output,hpd70_upper,15,-0.027425
+18,140,inventories_investment_demand,Output,hpd70_upper,16,-0.028682
+18,140,inventories_investment_demand,Output,hpd70_upper,17,-0.031166
+18,140,inventories_investment_demand,Output,hpd70_upper,18,-0.031166
+18,140,inventories_investment_demand,Output,hpd70_upper,19,-0.032422
+18,140,inventories_investment_demand,Output,hpd70_upper,20,-0.032422
+18,140,inventories_investment_demand,Output,hpd90_lower,1,0.617208
+18,140,inventories_investment_demand,Output,hpd90_lower,2,0.293014
+18,140,inventories_investment_demand,Output,hpd90_lower,3,0.094760
+18,140,inventories_investment_demand,Output,hpd90_lower,4,0.006241
+18,140,inventories_investment_demand,Output,hpd90_lower,5,-0.029924
+18,140,inventories_investment_demand,Output,hpd90_lower,6,-0.038647
+18,140,inventories_investment_demand,Output,hpd90_lower,7,-0.041146
+18,140,inventories_investment_demand,Output,hpd90_lower,8,-0.041146
+18,140,inventories_investment_demand,Output,hpd90_lower,9,-0.041146
+18,140,inventories_investment_demand,Output,hpd90_lower,10,-0.042387
+18,140,inventories_investment_demand,Output,hpd90_lower,11,-0.043644
+18,140,inventories_investment_demand,Output,hpd90_lower,12,-0.046128
+18,140,inventories_investment_demand,Output,hpd90_lower,13,-0.048627
+18,140,inventories_investment_demand,Output,hpd90_lower,14,-0.052368
+18,140,inventories_investment_demand,Output,hpd90_lower,15,-0.057350
+18,140,inventories_investment_demand,Output,hpd90_lower,16,-0.059849
+18,140,inventories_investment_demand,Output,hpd90_lower,17,-0.062348
+18,140,inventories_investment_demand,Output,hpd90_lower,18,-0.064831
+18,140,inventories_investment_demand,Output,hpd90_lower,19,-0.067330
+18,140,inventories_investment_demand,Output,hpd90_lower,20,-0.069829
+18,140,inventories_investment_demand,Output,hpd90_upper,1,0.781796
+18,140,inventories_investment_demand,Output,hpd90_upper,2,0.463841
+18,140,inventories_investment_demand,Output,hpd90_upper,3,0.273069
+18,140,inventories_investment_demand,Output,hpd90_upper,4,0.160849
+18,140,inventories_investment_demand,Output,hpd90_upper,5,0.089777
+18,140,inventories_investment_demand,Output,hpd90_upper,6,0.048630
+18,140,inventories_investment_demand,Output,hpd90_upper,7,0.022445
+18,140,inventories_investment_demand,Output,hpd90_upper,8,0.007483
+18,140,inventories_investment_demand,Output,hpd90_upper,9,-0.003739
+18,140,inventories_investment_demand,Output,hpd90_upper,10,-0.007480
+18,140,inventories_investment_demand,Output,hpd90_upper,11,-0.011220
+18,140,inventories_investment_demand,Output,hpd90_upper,12,-0.012462
+18,140,inventories_investment_demand,Output,hpd90_upper,13,-0.014961
+18,140,inventories_investment_demand,Output,hpd90_upper,14,-0.017460
+18,140,inventories_investment_demand,Output,hpd90_upper,15,-0.018702
+18,140,inventories_investment_demand,Output,hpd90_upper,16,-0.019944
+18,140,inventories_investment_demand,Output,hpd90_upper,17,-0.021200
+18,140,inventories_investment_demand,Output,hpd90_upper,18,-0.021200
+18,140,inventories_investment_demand,Output,hpd90_upper,19,-0.022442
+18,140,inventories_investment_demand,Output,hpd90_upper,20,-0.023684
+18,140,inventories_investment_demand,Consumption,mean,1,-0.113164
+18,140,inventories_investment_demand,Consumption,mean,2,-0.183309
+18,140,inventories_investment_demand,Consumption,mean,3,-0.219549
+18,140,inventories_investment_demand,Consumption,mean,4,-0.232179
+18,140,inventories_investment_demand,Consumption,mean,5,-0.230851
+18,140,inventories_investment_demand,Consumption,mean,6,-0.222872
+18,140,inventories_investment_demand,Consumption,mean,7,-0.211570
+18,140,inventories_investment_demand,Consumption,mean,8,-0.199933
+18,140,inventories_investment_demand,Consumption,mean,9,-0.188296
+18,140,inventories_investment_demand,Consumption,mean,10,-0.177660
+18,140,inventories_investment_demand,Consumption,mean,11,-0.167352
+18,140,inventories_investment_demand,Consumption,mean,12,-0.158045
+18,140,inventories_investment_demand,Consumption,mean,13,-0.149400
+18,140,inventories_investment_demand,Consumption,mean,14,-0.141756
+18,140,inventories_investment_demand,Consumption,mean,15,-0.134439
+18,140,inventories_investment_demand,Consumption,mean,16,-0.128124
+18,140,inventories_investment_demand,Consumption,mean,17,-0.122140
+18,140,inventories_investment_demand,Consumption,mean,18,-0.117154
+18,140,inventories_investment_demand,Consumption,mean,19,-0.112498
+18,140,inventories_investment_demand,Consumption,mean,20,-0.108177
+18,140,inventories_investment_demand,Consumption,hpd70_lower,1,-0.131447
+18,140,inventories_investment_demand,Consumption,hpd70_lower,2,-0.211570
+18,140,inventories_investment_demand,Consumption,hpd70_lower,3,-0.251464
+18,140,inventories_investment_demand,Consumption,hpd70_lower,4,-0.262099
+18,140,inventories_investment_demand,Consumption,hpd70_lower,5,-0.259107
+18,140,inventories_investment_demand,Consumption,hpd70_lower,6,-0.252126
+18,140,inventories_investment_demand,Consumption,hpd70_lower,7,-0.241155
+18,140,inventories_investment_demand,Consumption,hpd70_lower,8,-0.226530
+18,140,inventories_investment_demand,Consumption,hpd70_lower,9,-0.211235
+18,140,inventories_investment_demand,Consumption,hpd70_lower,10,-0.197272
+18,140,inventories_investment_demand,Consumption,hpd70_lower,11,-0.188296
+18,140,inventories_investment_demand,Consumption,hpd70_lower,12,-0.178323
+18,140,inventories_investment_demand,Consumption,hpd70_lower,13,-0.168349
+18,140,inventories_investment_demand,Consumption,hpd70_lower,14,-0.158711
+18,140,inventories_investment_demand,Consumption,hpd70_lower,15,-0.150397
+18,140,inventories_investment_demand,Consumption,hpd70_lower,16,-0.142418
+18,140,inventories_investment_demand,Consumption,hpd70_lower,17,-0.135772
+18,140,inventories_investment_demand,Consumption,hpd70_lower,18,-0.130785
+18,140,inventories_investment_demand,Consumption,hpd70_lower,19,-0.125463
+18,140,inventories_investment_demand,Consumption,hpd70_lower,20,-0.121143
+18,140,inventories_investment_demand,Consumption,hpd70_upper,1,-0.082578
+18,140,inventories_investment_demand,Consumption,hpd70_upper,2,-0.135772
+18,140,inventories_investment_demand,Consumption,hpd70_upper,3,-0.163698
+18,140,inventories_investment_demand,Consumption,hpd70_upper,4,-0.174002
+18,140,inventories_investment_demand,Consumption,hpd70_upper,5,-0.172674
+18,140,inventories_investment_demand,Consumption,hpd70_upper,6,-0.167021
+18,140,inventories_investment_demand,Consumption,hpd70_upper,7,-0.157378
+18,140,inventories_investment_demand,Consumption,hpd70_upper,8,-0.145410
+18,140,inventories_investment_demand,Consumption,hpd70_upper,9,-0.136434
+18,140,inventories_investment_demand,Consumption,hpd70_upper,10,-0.128124
+18,140,inventories_investment_demand,Consumption,hpd70_upper,11,-0.119479
+18,140,inventories_investment_demand,Consumption,hpd70_upper,12,-0.113164
+18,140,inventories_investment_demand,Consumption,hpd70_upper,13,-0.106514
+18,140,inventories_investment_demand,Consumption,hpd70_upper,14,-0.100530
+18,140,inventories_investment_demand,Consumption,hpd70_upper,15,-0.094215
+18,140,inventories_investment_demand,Consumption,hpd70_upper,16,-0.088897
+18,140,inventories_investment_demand,Consumption,hpd70_upper,17,-0.084241
+18,140,inventories_investment_demand,Consumption,hpd70_upper,18,-0.081580
+18,140,inventories_investment_demand,Consumption,hpd70_upper,19,-0.077926
+18,140,inventories_investment_demand,Consumption,hpd70_upper,20,-0.075265
+18,140,inventories_investment_demand,Consumption,hpd90_lower,1,-0.180317
+18,140,inventories_investment_demand,Consumption,hpd90_lower,2,-0.287033
+18,140,inventories_investment_demand,Consumption,hpd90_lower,3,-0.337566
+18,140,inventories_investment_demand,Consumption,hpd90_lower,4,-0.364163
+18,140,inventories_investment_demand,Consumption,hpd90_lower,5,-0.357844
+18,140,inventories_investment_demand,Consumption,hpd90_lower,6,-0.355187
+18,140,inventories_investment_demand,Consumption,hpd90_lower,7,-0.346542
+18,140,inventories_investment_demand,Consumption,hpd90_lower,8,-0.325598
+18,140,inventories_investment_demand,Consumption,hpd90_lower,9,-0.308643
+18,140,inventories_investment_demand,Consumption,hpd90_lower,10,-0.296675
+18,140,inventories_investment_demand,Consumption,hpd90_lower,11,-0.284707
+18,140,inventories_investment_demand,Consumption,hpd90_lower,12,-0.268750
+18,140,inventories_investment_demand,Consumption,hpd90_lower,13,-0.256115
+18,140,inventories_investment_demand,Consumption,hpd90_lower,14,-0.242153
+18,140,inventories_investment_demand,Consumption,hpd90_lower,15,-0.231517
+18,140,inventories_investment_demand,Consumption,hpd90_lower,16,-0.221208
+18,140,inventories_investment_demand,Consumption,hpd90_lower,17,-0.210238
+18,140,inventories_investment_demand,Consumption,hpd90_lower,18,-0.199267
+18,140,inventories_investment_demand,Consumption,hpd90_lower,19,-0.192952
+18,140,inventories_investment_demand,Consumption,hpd90_lower,20,-0.187299
+18,140,inventories_investment_demand,Consumption,hpd90_upper,1,-0.057644
+18,140,inventories_investment_demand,Consumption,hpd90_upper,2,-0.099201
+18,140,inventories_investment_demand,Consumption,hpd90_upper,3,-0.123469
+18,140,inventories_investment_demand,Consumption,hpd90_upper,4,-0.132114
+18,140,inventories_investment_demand,Consumption,hpd90_upper,5,-0.129788
+18,140,inventories_investment_demand,Consumption,hpd90_upper,6,-0.123138
+18,140,inventories_investment_demand,Consumption,hpd90_upper,7,-0.115825
+18,140,inventories_investment_demand,Consumption,hpd90_upper,8,-0.108509
+18,140,inventories_investment_demand,Consumption,hpd90_upper,9,-0.101862
+18,140,inventories_investment_demand,Consumption,hpd90_upper,10,-0.094881
+18,140,inventories_investment_demand,Consumption,hpd90_upper,11,-0.089228
+18,140,inventories_investment_demand,Consumption,hpd90_upper,12,-0.083910
+18,140,inventories_investment_demand,Consumption,hpd90_upper,13,-0.079254
+18,140,inventories_investment_demand,Consumption,hpd90_upper,14,-0.075265
+18,140,inventories_investment_demand,Consumption,hpd90_upper,15,-0.070945
+18,140,inventories_investment_demand,Consumption,hpd90_upper,16,-0.067286
+18,140,inventories_investment_demand,Consumption,hpd90_upper,17,-0.063963
+18,140,inventories_investment_demand,Consumption,hpd90_upper,18,-0.060971
+18,140,inventories_investment_demand,Consumption,hpd90_upper,19,-0.058641
+18,140,inventories_investment_demand,Consumption,hpd90_upper,20,-0.056647
+18,140,inventories_investment_demand,Fixed investment,mean,1,-0.223741
+18,140,inventories_investment_demand,Fixed investment,mean,2,-0.285257
+18,140,inventories_investment_demand,Fixed investment,mean,3,-0.389167
+18,140,inventories_investment_demand,Fixed investment,mean,4,-0.431561
+18,140,inventories_investment_demand,Fixed investment,mean,5,-0.476449
+18,140,inventories_investment_demand,Fixed investment,mean,6,-0.495561
+18,140,inventories_investment_demand,Fixed investment,mean,7,-0.509696
+18,140,inventories_investment_demand,Fixed investment,mean,8,-0.510524
+18,140,inventories_investment_demand,Fixed investment,mean,9,-0.507202
+18,140,inventories_investment_demand,Fixed investment,mean,10,-0.495561
+18,140,inventories_investment_demand,Fixed investment,mean,11,-0.479771
+18,140,inventories_investment_demand,Fixed investment,mean,12,-0.458993
+18,140,inventories_investment_demand,Fixed investment,mean,13,-0.435711
+18,140,inventories_investment_demand,Fixed investment,mean,14,-0.410773
+18,140,inventories_investment_demand,Fixed investment,mean,15,-0.383342
+18,140,inventories_investment_demand,Fixed investment,mean,16,-0.355910
+18,140,inventories_investment_demand,Fixed investment,mean,17,-0.327651
+18,140,inventories_investment_demand,Fixed investment,mean,18,-0.300219
+18,140,inventories_investment_demand,Fixed investment,mean,19,-0.273616
+18,140,inventories_investment_demand,Fixed investment,mean,20,-0.247022
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,1,-0.261985
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,2,-0.339292
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,3,-0.462314
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,4,-0.508868
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,5,-0.560399
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,6,-0.582015
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,7,-0.597805
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,8,-0.598643
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,9,-0.589496
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,10,-0.572040
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,11,-0.549596
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,12,-0.524658
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,13,-0.498893
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,14,-0.466474
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,15,-0.434055
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,16,-0.397476
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,17,-0.364229
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,18,-0.328479
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,19,-0.296060
+18,140,inventories_investment_demand,Fixed investment,hpd70_lower,20,-0.268628
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,1,-0.174703
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,2,-0.215431
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,3,-0.298554
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,4,-0.318504
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,5,-0.352589
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,6,-0.360898
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,7,-0.370873
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,8,-0.370045
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,9,-0.367551
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,10,-0.360070
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,11,-0.346773
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,12,-0.328479
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,13,-0.313516
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,14,-0.295232
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,15,-0.273616
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,16,-0.251172
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,17,-0.231222
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,18,-0.209616
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,19,-0.188000
+18,140,inventories_investment_demand,Fixed investment,hpd70_upper,20,-0.169716
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,1,-0.337626
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,2,-0.446524
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,3,-0.606125
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,4,-0.685925
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,5,-0.760738
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,6,-0.792319
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,7,-0.808948
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,8,-0.814763
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,9,-0.807282
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,10,-0.795651
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,11,-0.772369
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,12,-0.743282
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,13,-0.719172
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,14,-0.686753
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,15,-0.654334
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,16,-0.608618
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,17,-0.566224
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,18,-0.521337
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,19,-0.479771
+18,140,inventories_investment_demand,Fixed investment,hpd90_lower,20,-0.439870
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,1,-0.124828
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,2,-0.155581
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,3,-0.211272
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,4,-0.222913
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,5,-0.242035
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,6,-0.252010
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,7,-0.261147
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,8,-0.260319
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,9,-0.260319
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,10,-0.256160
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,11,-0.251172
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,12,-0.242035
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,13,-0.232060
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,14,-0.219591
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,15,-0.202963
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,16,-0.188000
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,17,-0.170544
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,18,-0.157247
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,19,-0.141446
+18,140,inventories_investment_demand,Fixed investment,hpd90_upper,20,-0.127322
+18,140,inventories_investment_demand,Exports,mean,1,-0.037672
+18,140,inventories_investment_demand,Exports,mean,2,-0.083260
+18,140,inventories_investment_demand,Exports,mean,3,-0.111214
+18,140,inventories_investment_demand,Exports,mean,4,-0.112548
+18,140,inventories_investment_demand,Exports,mean,5,-0.090915
+18,140,inventories_investment_demand,Exports,mean,6,-0.055973
+18,140,inventories_investment_demand,Exports,mean,7,-0.017370
+18,140,inventories_investment_demand,Exports,mean,8,0.018571
+18,140,inventories_investment_demand,Exports,mean,9,0.047187
+18,140,inventories_investment_demand,Exports,mean,10,0.068152
+18,140,inventories_investment_demand,Exports,mean,11,0.081131
+18,140,inventories_investment_demand,Exports,mean,12,0.087456
+18,140,inventories_investment_demand,Exports,mean,13,0.088786
+18,140,inventories_investment_demand,Exports,mean,14,0.085791
+18,140,inventories_investment_demand,Exports,mean,15,0.080468
+18,140,inventories_investment_demand,Exports,mean,16,0.073144
+18,140,inventories_investment_demand,Exports,mean,17,0.065157
+18,140,inventories_investment_demand,Exports,mean,18,0.056508
+18,140,inventories_investment_demand,Exports,mean,19,0.047523
+18,140,inventories_investment_demand,Exports,mean,20,0.039201
+18,140,inventories_investment_demand,Exports,hpd70_lower,1,-0.044325
+18,140,inventories_investment_demand,Exports,hpd70_lower,2,-0.098235
+18,140,inventories_investment_demand,Exports,hpd70_lower,3,-0.132514
+18,140,inventories_investment_demand,Exports,hpd70_lower,4,-0.135174
+18,140,inventories_investment_demand,Exports,hpd70_lower,5,-0.111214
+18,140,inventories_investment_demand,Exports,hpd70_lower,6,-0.074942
+18,140,inventories_investment_demand,Exports,hpd70_lower,7,-0.034341
+18,140,inventories_investment_demand,Exports,hpd70_lower,8,0.004925
+18,140,inventories_investment_demand,Exports,hpd70_lower,9,0.036541
+18,140,inventories_investment_demand,Exports,hpd70_lower,10,0.057171
+18,140,inventories_investment_demand,Exports,hpd70_lower,11,0.069818
+18,140,inventories_investment_demand,Exports,hpd70_lower,12,0.076475
+18,140,inventories_investment_demand,Exports,hpd70_lower,13,0.076806
+18,140,inventories_investment_demand,Exports,hpd70_lower,14,0.074478
+18,140,inventories_investment_demand,Exports,hpd70_lower,15,0.068488
+18,140,inventories_investment_demand,Exports,hpd70_lower,16,0.061164
+18,140,inventories_investment_demand,Exports,hpd70_lower,17,0.053844
+18,140,inventories_investment_demand,Exports,hpd70_lower,18,0.045191
+18,140,inventories_investment_demand,Exports,hpd70_lower,19,0.036541
+18,140,inventories_investment_demand,Exports,hpd70_lower,20,0.028886
+18,140,inventories_investment_demand,Exports,hpd70_upper,1,-0.027353
+18,140,inventories_investment_demand,Exports,hpd70_upper,2,-0.061297
+18,140,inventories_investment_demand,Exports,hpd70_upper,3,-0.082597
+18,140,inventories_investment_demand,Exports,hpd70_upper,4,-0.080265
+18,140,inventories_investment_demand,Exports,hpd70_upper,5,-0.059635
+18,140,inventories_investment_demand,Exports,hpd70_upper,6,-0.027022
+18,140,inventories_investment_demand,Exports,hpd70_upper,7,0.010249
+18,140,inventories_investment_demand,Exports,hpd70_upper,8,0.043529
+18,140,inventories_investment_demand,Exports,hpd70_upper,9,0.070149
+18,140,inventories_investment_demand,Exports,hpd70_upper,10,0.085124
+18,140,inventories_investment_demand,Exports,hpd70_upper,11,0.094776
+18,140,inventories_investment_demand,Exports,hpd70_upper,12,0.099101
+18,140,inventories_investment_demand,Exports,hpd70_upper,13,0.098438
+18,140,inventories_investment_demand,Exports,hpd70_upper,14,0.095775
+18,140,inventories_investment_demand,Exports,hpd70_upper,15,0.090116
+18,140,inventories_investment_demand,Exports,hpd70_upper,16,0.083128
+18,140,inventories_investment_demand,Exports,hpd70_upper,17,0.074478
+18,140,inventories_investment_demand,Exports,hpd70_upper,18,0.066156
+18,140,inventories_investment_demand,Exports,hpd70_upper,19,0.056508
+18,140,inventories_investment_demand,Exports,hpd70_upper,20,0.047523
+18,140,inventories_investment_demand,Exports,hpd90_lower,1,-0.060298
+18,140,inventories_investment_demand,Exports,hpd90_lower,2,-0.133177
+18,140,inventories_investment_demand,Exports,hpd90_lower,3,-0.177440
+18,140,inventories_investment_demand,Exports,hpd90_lower,4,-0.182096
+18,140,inventories_investment_demand,Exports,hpd90_lower,5,-0.161798
+18,140,inventories_investment_demand,Exports,hpd90_lower,6,-0.123194
+18,140,inventories_investment_demand,Exports,hpd90_lower,7,-0.077270
+18,140,inventories_investment_demand,Exports,hpd90_lower,8,-0.034677
+18,140,inventories_investment_demand,Exports,hpd90_lower,9,0.001264
+18,140,inventories_investment_demand,Exports,hpd90_lower,10,0.030882
+18,140,inventories_investment_demand,Exports,hpd90_lower,11,0.051848
+18,140,inventories_investment_demand,Exports,hpd90_lower,12,0.061164
+18,140,inventories_investment_demand,Exports,hpd90_lower,13,0.061831
+18,140,inventories_investment_demand,Exports,hpd90_lower,14,0.059834
+18,140,inventories_investment_demand,Exports,hpd90_lower,15,0.055509
+18,140,inventories_investment_demand,Exports,hpd90_lower,16,0.048186
+18,140,inventories_investment_demand,Exports,hpd90_lower,17,0.039867
+18,140,inventories_investment_demand,Exports,hpd90_lower,18,0.031881
+18,140,inventories_investment_demand,Exports,hpd90_lower,19,0.023894
+18,140,inventories_investment_demand,Exports,hpd90_lower,20,0.017572
+18,140,inventories_investment_demand,Exports,hpd90_upper,1,-0.018036
+18,140,inventories_investment_demand,Exports,hpd90_upper,2,-0.042664
+18,140,inventories_investment_demand,Exports,hpd90_upper,3,-0.056640
+18,140,inventories_investment_demand,Exports,hpd90_upper,4,-0.054308
+18,140,inventories_investment_demand,Exports,hpd90_upper,5,-0.034010
+18,140,inventories_investment_demand,Exports,hpd90_upper,6,0.001930
+18,140,inventories_investment_demand,Exports,hpd90_upper,7,0.038538
+18,140,inventories_investment_demand,Exports,hpd90_upper,8,0.066156
+18,140,inventories_investment_demand,Exports,hpd90_upper,9,0.088119
+18,140,inventories_investment_demand,Exports,hpd90_upper,10,0.102763
+18,140,inventories_investment_demand,Exports,hpd90_upper,11,0.111417
+18,140,inventories_investment_demand,Exports,hpd90_upper,12,0.114076
+18,140,inventories_investment_demand,Exports,hpd90_upper,13,0.116740
+18,140,inventories_investment_demand,Exports,hpd90_upper,14,0.113078
+18,140,inventories_investment_demand,Exports,hpd90_upper,15,0.106425
+18,140,inventories_investment_demand,Exports,hpd90_upper,16,0.098770
+18,140,inventories_investment_demand,Exports,hpd90_upper,17,0.089453
+18,140,inventories_investment_demand,Exports,hpd90_upper,18,0.080468
+18,140,inventories_investment_demand,Exports,hpd90_upper,19,0.072146
+18,140,inventories_investment_demand,Exports,hpd90_upper,20,0.063161
+18,140,inventories_investment_demand,Imports,mean,1,1.258409
+18,140,inventories_investment_demand,Imports,mean,2,0.857415
+18,140,inventories_investment_demand,Imports,mean,3,0.551243
+18,140,inventories_investment_demand,Imports,mean,4,0.329950
+18,140,inventories_investment_demand,Imports,mean,5,0.161889
+18,140,inventories_investment_demand,Imports,mean,6,0.043765
+18,140,inventories_investment_demand,Imports,mean,7,-0.039437
+18,140,inventories_investment_demand,Imports,mean,8,-0.094345
+18,140,inventories_investment_demand,Imports,mean,9,-0.127630
+18,140,inventories_investment_demand,Imports,mean,10,-0.145920
+18,140,inventories_investment_demand,Imports,mean,11,-0.154246
+18,140,inventories_investment_demand,Imports,mean,12,-0.155903
+18,140,inventories_investment_demand,Imports,mean,13,-0.154246
+18,140,inventories_investment_demand,Imports,mean,14,-0.147597
+18,140,inventories_investment_demand,Imports,mean,15,-0.140928
+18,140,inventories_investment_demand,Imports,mean,16,-0.132622
+18,140,inventories_investment_demand,Imports,mean,17,-0.124296
+18,140,inventories_investment_demand,Imports,mean,18,-0.114312
+18,140,inventories_investment_demand,Imports,mean,19,-0.105986
+18,140,inventories_investment_demand,Imports,mean,20,-0.097680
+18,140,inventories_investment_demand,Imports,hpd70_lower,1,1.195174
+18,140,inventories_investment_demand,Imports,hpd70_lower,2,0.767564
+18,140,inventories_investment_demand,Imports,hpd70_lower,3,0.446417
+18,140,inventories_investment_demand,Imports,hpd70_lower,4,0.223467
+18,140,inventories_investment_demand,Imports,hpd70_lower,5,0.065389
+18,140,inventories_investment_demand,Imports,hpd70_lower,6,-0.037779
+18,140,inventories_investment_demand,Imports,hpd70_lower,7,-0.100994
+18,140,inventories_investment_demand,Imports,hpd70_lower,8,-0.135936
+18,140,inventories_investment_demand,Imports,hpd70_lower,9,-0.157580
+18,140,inventories_investment_demand,Imports,hpd70_lower,10,-0.169221
+18,140,inventories_investment_demand,Imports,hpd70_lower,11,-0.175870
+18,140,inventories_investment_demand,Imports,hpd70_lower,12,-0.175870
+18,140,inventories_investment_demand,Imports,hpd70_lower,13,-0.174213
+18,140,inventories_investment_demand,Imports,hpd70_lower,14,-0.169221
+18,140,inventories_investment_demand,Imports,hpd70_lower,15,-0.162572
+18,140,inventories_investment_demand,Imports,hpd70_lower,16,-0.152589
+18,140,inventories_investment_demand,Imports,hpd70_lower,17,-0.144263
+18,140,inventories_investment_demand,Imports,hpd70_lower,18,-0.134279
+18,140,inventories_investment_demand,Imports,hpd70_lower,19,-0.124296
+18,140,inventories_investment_demand,Imports,hpd70_lower,20,-0.114312
+18,140,inventories_investment_demand,Imports,hpd70_upper,1,1.308326
+18,140,inventories_investment_demand,Imports,hpd70_upper,2,0.938939
+18,140,inventories_investment_demand,Imports,hpd70_upper,3,0.642771
+18,140,inventories_investment_demand,Imports,hpd70_upper,4,0.408160
+18,140,inventories_investment_demand,Imports,hpd70_upper,5,0.220133
+18,140,inventories_investment_demand,Imports,hpd70_upper,6,0.082022
+18,140,inventories_investment_demand,Imports,hpd70_upper,7,-0.019470
+18,140,inventories_investment_demand,Imports,hpd70_upper,8,-0.082705
+18,140,inventories_investment_demand,Imports,hpd70_upper,9,-0.119304
+18,140,inventories_investment_demand,Imports,hpd70_upper,10,-0.134279
+18,140,inventories_investment_demand,Imports,hpd70_upper,11,-0.139271
+18,140,inventories_investment_demand,Imports,hpd70_upper,12,-0.139271
+18,140,inventories_investment_demand,Imports,hpd70_upper,13,-0.135936
+18,140,inventories_investment_demand,Imports,hpd70_upper,14,-0.129287
+18,140,inventories_investment_demand,Imports,hpd70_upper,15,-0.119304
+18,140,inventories_investment_demand,Imports,hpd70_upper,16,-0.110978
+18,140,inventories_investment_demand,Imports,hpd70_upper,17,-0.100994
+18,140,inventories_investment_demand,Imports,hpd70_upper,18,-0.092688
+18,140,inventories_investment_demand,Imports,hpd70_upper,19,-0.082705
+18,140,inventories_investment_demand,Imports,hpd70_upper,20,-0.074379
+18,140,inventories_investment_demand,Imports,hpd90_lower,1,1.116984
+18,140,inventories_investment_demand,Imports,hpd90_lower,2,0.666052
+18,140,inventories_investment_demand,Imports,hpd90_lower,3,0.328293
+18,140,inventories_investment_demand,Imports,hpd90_lower,4,0.121956
+18,140,inventories_investment_demand,Imports,hpd90_lower,5,-0.007829
+18,140,inventories_investment_demand,Imports,hpd90_lower,6,-0.087696
+18,140,inventories_investment_demand,Imports,hpd90_lower,7,-0.132622
+18,140,inventories_investment_demand,Imports,hpd90_lower,8,-0.164229
+18,140,inventories_investment_demand,Imports,hpd90_lower,9,-0.182539
+18,140,inventories_investment_demand,Imports,hpd90_lower,10,-0.197514
+18,140,inventories_investment_demand,Imports,hpd90_lower,11,-0.202506
+18,140,inventories_investment_demand,Imports,hpd90_lower,12,-0.204163
+18,140,inventories_investment_demand,Imports,hpd90_lower,13,-0.202506
+18,140,inventories_investment_demand,Imports,hpd90_lower,14,-0.195837
+18,140,inventories_investment_demand,Imports,hpd90_lower,15,-0.190845
+18,140,inventories_investment_demand,Imports,hpd90_lower,16,-0.184196
+18,140,inventories_investment_demand,Imports,hpd90_lower,17,-0.175870
+18,140,inventories_investment_demand,Imports,hpd90_lower,18,-0.167564
+18,140,inventories_investment_demand,Imports,hpd90_lower,19,-0.159238
+18,140,inventories_investment_demand,Imports,hpd90_lower,20,-0.147597
+18,140,inventories_investment_demand,Imports,hpd90_upper,1,1.414809
+18,140,inventories_investment_demand,Imports,hpd90_upper,2,1.043765
+18,140,inventories_investment_demand,Imports,hpd90_upper,3,0.777547
+18,140,inventories_investment_demand,Imports,hpd90_upper,4,0.561226
+18,140,inventories_investment_demand,Imports,hpd90_upper,5,0.373218
+18,140,inventories_investment_demand,Imports,hpd90_upper,6,0.221790
+18,140,inventories_investment_demand,Imports,hpd90_upper,7,0.103666
+18,140,inventories_investment_demand,Imports,hpd90_upper,8,0.013815
+18,140,inventories_investment_demand,Imports,hpd90_upper,9,-0.056069
+18,140,inventories_investment_demand,Imports,hpd90_upper,10,-0.096003
+18,140,inventories_investment_demand,Imports,hpd90_upper,11,-0.109321
+18,140,inventories_investment_demand,Imports,hpd90_upper,12,-0.110978
+18,140,inventories_investment_demand,Imports,hpd90_upper,13,-0.107663
+18,140,inventories_investment_demand,Imports,hpd90_upper,14,-0.100994
+18,140,inventories_investment_demand,Imports,hpd90_upper,15,-0.092688
+18,140,inventories_investment_demand,Imports,hpd90_upper,16,-0.084362
+18,140,inventories_investment_demand,Imports,hpd90_upper,17,-0.076036
+18,140,inventories_investment_demand,Imports,hpd90_upper,18,-0.069387
+18,140,inventories_investment_demand,Imports,hpd90_upper,19,-0.062738
+18,140,inventories_investment_demand,Imports,hpd90_upper,20,-0.056069
+18,140,inventories_investment_demand,Hours worked,mean,1,0.794993
+18,140,inventories_investment_demand,Hours worked,mean,2,0.440606
+18,140,inventories_investment_demand,Hours worked,mean,3,0.218499
+18,140,inventories_investment_demand,Hours worked,mean,4,0.099951
+18,140,inventories_investment_demand,Hours worked,mean,5,0.038812
+18,140,inventories_investment_demand,Hours worked,mean,6,0.013851
+18,140,inventories_investment_demand,Hours worked,mean,7,0.006364
+18,140,inventories_investment_demand,Hours worked,mean,8,0.006364
+18,140,inventories_investment_demand,Hours worked,mean,9,0.007607
+18,140,inventories_investment_demand,Hours worked,mean,10,0.010107
+18,140,inventories_investment_demand,Hours worked,mean,11,0.012608
+18,140,inventories_investment_demand,Hours worked,mean,12,0.015094
+18,140,inventories_investment_demand,Hours worked,mean,13,0.015094
+18,140,inventories_investment_demand,Hours worked,mean,14,0.016351
+18,140,inventories_investment_demand,Hours worked,mean,15,0.017594
+18,140,inventories_investment_demand,Hours worked,mean,16,0.017594
+18,140,inventories_investment_demand,Hours worked,mean,17,0.017594
+18,140,inventories_investment_demand,Hours worked,mean,18,0.017594
+18,140,inventories_investment_demand,Hours worked,mean,19,0.018837
+18,140,inventories_investment_demand,Hours worked,mean,20,0.018837
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,1,0.756300
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,2,0.403171
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,3,0.174820
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,4,0.053786
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,5,0.000120
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,6,-0.017340
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,7,-0.018598
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,8,-0.012353
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,9,-0.006109
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,10,-0.001123
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,11,0.002620
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,12,0.006364
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,13,0.007607
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,14,0.008865
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,15,0.010107
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,16,0.011350
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,17,0.011350
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,18,0.011350
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,19,0.011350
+18,140,inventories_investment_demand,Hours worked,hpd70_lower,20,0.012608
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,1,0.822440
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,2,0.478041
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,3,0.257176
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,4,0.134885
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,5,0.065017
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,6,0.027582
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,7,0.015094
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,8,0.010107
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,9,0.010107
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,10,0.011350
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,11,0.012608
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,12,0.013851
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,13,0.015094
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,14,0.016351
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,15,0.017594
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,16,0.017594
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,17,0.017594
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,18,0.018837
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,19,0.018837
+18,140,inventories_investment_demand,Hours worked,hpd70_upper,20,0.018837
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,1,0.707635
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,2,0.338290
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,3,0.113682
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,4,0.013851
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,5,-0.026084
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,6,-0.033571
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,7,-0.028570
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,8,-0.022341
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,9,-0.016097
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,10,-0.008610
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,11,-0.004867
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,12,0.000120
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,13,0.003863
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,14,0.006364
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,15,0.007607
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,16,0.008865
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,17,0.008865
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,18,0.008865
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,19,0.010107
+18,140,inventories_investment_demand,Hours worked,hpd90_lower,20,0.010107
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,1,0.897309
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,2,0.535436
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,3,0.318315
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,4,0.198524
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,5,0.122411
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,6,0.083734
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,7,0.062516
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,8,0.051286
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,9,0.045041
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,10,0.040055
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,11,0.037554
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,12,0.035069
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,13,0.033811
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,14,0.033811
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,15,0.032568
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,16,0.032568
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,17,0.032568
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,18,0.031325
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,19,0.031325
+18,140,inventories_investment_demand,Hours worked,hpd90_upper,20,0.030068
+18,140,inventories_investment_demand,Interest rate,mean,1,0.097373
+18,140,inventories_investment_demand,Interest rate,mean,2,0.138099
+18,140,inventories_investment_demand,Interest rate,mean,3,0.145579
+18,140,inventories_investment_demand,Interest rate,mean,4,0.130120
+18,140,inventories_investment_demand,Interest rate,mean,5,0.108344
+18,140,inventories_investment_demand,Interest rate,mean,6,0.089728
+18,140,inventories_investment_demand,Interest rate,mean,7,0.076429
+18,140,inventories_investment_demand,Interest rate,mean,8,0.067619
+18,140,inventories_investment_demand,Interest rate,mean,9,0.061635
+18,140,inventories_investment_demand,Interest rate,mean,10,0.057314
+18,140,inventories_investment_demand,Interest rate,mean,11,0.053656
+18,140,inventories_investment_demand,Interest rate,mean,12,0.050333
+18,140,inventories_investment_demand,Interest rate,mean,13,0.047173
+18,140,inventories_investment_demand,Interest rate,mean,14,0.044514
+18,140,inventories_investment_demand,Interest rate,mean,15,0.041856
+18,140,inventories_investment_demand,Interest rate,mean,16,0.039528
+18,140,inventories_investment_demand,Interest rate,mean,17,0.037533
+18,140,inventories_investment_demand,Interest rate,mean,18,0.035704
+18,140,inventories_investment_demand,Interest rate,mean,19,0.034042
+18,140,inventories_investment_demand,Interest rate,mean,20,0.032546
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,1,0.081250
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,2,0.119315
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,3,0.127294
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,4,0.111835
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,5,0.089062
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,6,0.069448
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,7,0.057147
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,8,0.049667
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,9,0.045179
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,10,0.041189
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,11,0.038365
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,12,0.035704
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,13,0.033544
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,14,0.031050
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,15,0.029056
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,16,0.027061
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,17,0.025731
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,18,0.023903
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,19,0.022573
+18,140,inventories_investment_demand,Interest rate,hpd70_lower,20,0.021410
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,1,0.107181
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,2,0.153390
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,3,0.161536
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,4,0.146576
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,5,0.124966
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,6,0.106184
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,7,0.091224
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,8,0.080752
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,9,0.072773
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,10,0.067120
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,11,0.062301
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,12,0.058477
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,13,0.054653
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,14,0.051496
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,15,0.048171
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,16,0.045512
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,17,0.042520
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,18,0.040858
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,19,0.039029
+18,140,inventories_investment_demand,Interest rate,hpd70_upper,20,0.037368
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,1,0.068285
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,2,0.100699
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,3,0.106016
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,4,0.090725
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,5,0.066290
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,6,0.048005
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,7,0.038032
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,8,0.032879
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,9,0.030386
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,10,0.028557
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,11,0.026728
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,12,0.025066
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,13,0.023405
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,14,0.021909
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,15,0.020413
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,16,0.019248
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,17,0.018418
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,18,0.017421
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,19,0.016423
+18,140,inventories_investment_demand,Interest rate,hpd90_lower,20,0.015258
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,1,0.130950
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,2,0.179819
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,3,0.183809
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,4,0.172339
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,5,0.150731
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,6,0.132613
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,7,0.118483
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,8,0.107845
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,9,0.098536
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,10,0.093717
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,11,0.086403
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,12,0.084075
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,13,0.080419
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,14,0.075266
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,15,0.071608
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,16,0.067619
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,17,0.066290
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,18,0.062800
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,19,0.060472
+18,140,inventories_investment_demand,Interest rate,hpd90_upper,20,0.057645
+18,140,inventories_investment_demand,Real wage,mean,1,0.032315
+18,140,inventories_investment_demand,Real wage,mean,2,0.033312
+18,140,inventories_investment_demand,Real wage,mean,3,0.017019
+18,140,inventories_investment_demand,Real wage,mean,4,-0.004922
+18,140,inventories_investment_demand,Real wage,mean,5,-0.026528
+18,140,inventories_investment_demand,Real wage,mean,6,-0.044816
+18,140,inventories_investment_demand,Real wage,mean,7,-0.058443
+18,140,inventories_investment_demand,Real wage,mean,8,-0.068086
+18,140,inventories_investment_demand,Real wage,mean,9,-0.074070
+18,140,inventories_investment_demand,Real wage,mean,10,-0.077393
+18,140,inventories_investment_demand,Real wage,mean,11,-0.078725
+18,140,inventories_investment_demand,Real wage,mean,12,-0.078390
+18,140,inventories_investment_demand,Real wage,mean,13,-0.077728
+18,140,inventories_investment_demand,Real wage,mean,14,-0.076064
+18,140,inventories_investment_demand,Real wage,mean,15,-0.074070
+18,140,inventories_investment_demand,Real wage,mean,16,-0.072075
+18,140,inventories_investment_demand,Real wage,mean,17,-0.069749
+18,140,inventories_investment_demand,Real wage,mean,18,-0.067419
+18,140,inventories_investment_demand,Real wage,mean,19,-0.065425
+18,140,inventories_investment_demand,Real wage,mean,20,-0.063099
+18,140,inventories_investment_demand,Real wage,hpd70_lower,1,0.019014
+18,140,inventories_investment_demand,Real wage,hpd70_lower,2,0.020678
+18,140,inventories_investment_demand,Real wage,hpd70_lower,3,0.006715
+18,140,inventories_investment_demand,Real wage,hpd70_lower,4,-0.013898
+18,140,inventories_investment_demand,Real wage,hpd70_lower,5,-0.034176
+18,140,inventories_investment_demand,Real wage,hpd70_lower,6,-0.053125
+18,140,inventories_investment_demand,Real wage,hpd70_lower,7,-0.067088
+18,140,inventories_investment_demand,Real wage,hpd70_lower,8,-0.077062
+18,140,inventories_investment_demand,Real wage,hpd70_lower,9,-0.083712
+18,140,inventories_investment_demand,Real wage,hpd70_lower,10,-0.086369
+18,140,inventories_investment_demand,Real wage,hpd70_lower,11,-0.088699
+18,140,inventories_investment_demand,Real wage,hpd70_lower,12,-0.088699
+18,140,inventories_investment_demand,Real wage,hpd70_lower,13,-0.087701
+18,140,inventories_investment_demand,Real wage,hpd70_lower,14,-0.086369
+18,140,inventories_investment_demand,Real wage,hpd70_lower,15,-0.084374
+18,140,inventories_investment_demand,Real wage,hpd70_lower,16,-0.081717
+18,140,inventories_investment_demand,Real wage,hpd70_lower,17,-0.079387
+18,140,inventories_investment_demand,Real wage,hpd70_lower,18,-0.077062
+18,140,inventories_investment_demand,Real wage,hpd70_lower,19,-0.074401
+18,140,inventories_investment_demand,Real wage,hpd70_lower,20,-0.071409
+18,140,inventories_investment_demand,Real wage,hpd70_upper,1,0.042950
+18,140,inventories_investment_demand,Real wage,hpd70_upper,2,0.043948
+18,140,inventories_investment_demand,Real wage,hpd70_upper,3,0.026662
+18,140,inventories_investment_demand,Real wage,hpd70_upper,4,0.003057
+18,140,inventories_investment_demand,Real wage,hpd70_upper,5,-0.019216
+18,140,inventories_investment_demand,Real wage,hpd70_upper,6,-0.035840
+18,140,inventories_investment_demand,Real wage,hpd70_upper,7,-0.047473
+18,140,inventories_investment_demand,Real wage,hpd70_upper,8,-0.055451
+18,140,inventories_investment_demand,Real wage,hpd70_upper,9,-0.060438
+18,140,inventories_investment_demand,Real wage,hpd70_upper,10,-0.062433
+18,140,inventories_investment_demand,Real wage,hpd70_upper,11,-0.063099
+18,140,inventories_investment_demand,Real wage,hpd70_upper,12,-0.062433
+18,140,inventories_investment_demand,Real wage,hpd70_upper,13,-0.061435
+18,140,inventories_investment_demand,Real wage,hpd70_upper,14,-0.058778
+18,140,inventories_investment_demand,Real wage,hpd70_upper,15,-0.056784
+18,140,inventories_investment_demand,Real wage,hpd70_upper,16,-0.054789
+18,140,inventories_investment_demand,Real wage,hpd70_upper,17,-0.052128
+18,140,inventories_investment_demand,Real wage,hpd70_upper,18,-0.050133
+18,140,inventories_investment_demand,Real wage,hpd70_upper,19,-0.047808
+18,140,inventories_investment_demand,Real wage,hpd70_upper,20,-0.045813
+18,140,inventories_investment_demand,Real wage,hpd90_lower,1,0.005051
+18,140,inventories_investment_demand,Real wage,hpd90_lower,2,0.002394
+18,140,inventories_investment_demand,Real wage,hpd90_lower,3,-0.007248
+18,140,inventories_investment_demand,Real wage,hpd90_lower,4,-0.024534
+18,140,inventories_investment_demand,Real wage,hpd90_lower,5,-0.047141
+18,140,inventories_investment_demand,Real wage,hpd90_lower,6,-0.066757
+18,140,inventories_investment_demand,Real wage,hpd90_lower,7,-0.083712
+18,140,inventories_investment_demand,Real wage,hpd90_lower,8,-0.095345
+18,140,inventories_investment_demand,Real wage,hpd90_lower,9,-0.103659
+18,140,inventories_investment_demand,Real wage,hpd90_lower,10,-0.108976
+18,140,inventories_investment_demand,Real wage,hpd90_lower,11,-0.110971
+18,140,inventories_investment_demand,Real wage,hpd90_lower,12,-0.111968
+18,140,inventories_investment_demand,Real wage,hpd90_lower,13,-0.112635
+18,140,inventories_investment_demand,Real wage,hpd90_lower,14,-0.113297
+18,140,inventories_investment_demand,Real wage,hpd90_lower,15,-0.112300
+18,140,inventories_investment_demand,Real wage,hpd90_lower,16,-0.111968
+18,140,inventories_investment_demand,Real wage,hpd90_lower,17,-0.110640
+18,140,inventories_investment_demand,Real wage,hpd90_lower,18,-0.108645
+18,140,inventories_investment_demand,Real wage,hpd90_lower,19,-0.106316
+18,140,inventories_investment_demand,Real wage,hpd90_lower,20,-0.103990
+18,140,inventories_investment_demand,Real wage,hpd90_upper,1,0.062897
+18,140,inventories_investment_demand,Real wage,hpd90_upper,2,0.063232
+18,140,inventories_investment_demand,Real wage,hpd90_upper,3,0.043285
+18,140,inventories_investment_demand,Real wage,hpd90_upper,4,0.016022
+18,140,inventories_investment_demand,Real wage,hpd90_upper,5,-0.005584
+18,140,inventories_investment_demand,Real wage,hpd90_upper,6,-0.022874
+18,140,inventories_investment_demand,Real wage,hpd90_upper,7,-0.035840
+18,140,inventories_investment_demand,Real wage,hpd90_upper,8,-0.044149
+18,140,inventories_investment_demand,Real wage,hpd90_upper,9,-0.047808
+18,140,inventories_investment_demand,Real wage,hpd90_upper,10,-0.049467
+18,140,inventories_investment_demand,Real wage,hpd90_upper,11,-0.049136
+18,140,inventories_investment_demand,Real wage,hpd90_upper,12,-0.048805
+18,140,inventories_investment_demand,Real wage,hpd90_upper,13,-0.047808
+18,140,inventories_investment_demand,Real wage,hpd90_upper,14,-0.046144
+18,140,inventories_investment_demand,Real wage,hpd90_upper,15,-0.044149
+18,140,inventories_investment_demand,Real wage,hpd90_upper,16,-0.042155
+18,140,inventories_investment_demand,Real wage,hpd90_upper,17,-0.040160
+18,140,inventories_investment_demand,Real wage,hpd90_upper,18,-0.038165
+18,140,inventories_investment_demand,Real wage,hpd90_upper,19,-0.036502
+18,140,inventories_investment_demand,Real wage,hpd90_upper,20,-0.034842
+18,140,inventories_investment_demand,Real exchange rate,mean,1,-0.135509
+18,140,inventories_investment_demand,Real exchange rate,mean,2,-0.196011
+18,140,inventories_investment_demand,Real exchange rate,mean,3,-0.188033
+18,140,inventories_investment_demand,Real exchange rate,mean,4,-0.137504
+18,140,inventories_investment_demand,Real exchange rate,mean,5,-0.072341
+18,140,inventories_investment_demand,Real exchange rate,mean,6,-0.011169
+18,140,inventories_investment_demand,Real exchange rate,mean,7,0.036704
+18,140,inventories_investment_demand,Real exchange rate,mean,8,0.069943
+18,140,inventories_investment_demand,Real exchange rate,mean,9,0.089228
+18,140,inventories_investment_demand,Real exchange rate,mean,10,0.098539
+18,140,inventories_investment_demand,Real exchange rate,mean,11,0.100533
+18,140,inventories_investment_demand,Real exchange rate,mean,12,0.097206
+18,140,inventories_investment_demand,Real exchange rate,mean,13,0.090560
+18,140,inventories_investment_demand,Real exchange rate,mean,14,0.082581
+18,140,inventories_investment_demand,Real exchange rate,mean,15,0.073270
+18,140,inventories_investment_demand,Real exchange rate,mean,16,0.063297
+18,140,inventories_investment_demand,Real exchange rate,mean,17,0.053323
+18,140,inventories_investment_demand,Real exchange rate,mean,18,0.044012
+18,140,inventories_investment_demand,Real exchange rate,mean,19,0.035371
+18,140,inventories_investment_demand,Real exchange rate,mean,20,0.027393
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,1,-0.154123
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,2,-0.224599
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,3,-0.217291
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,4,-0.162764
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,5,-0.093621
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,6,-0.027796
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,7,0.024065
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,8,0.059307
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,9,0.079916
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,10,0.087233
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,11,0.087233
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,12,0.083906
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,13,0.077259
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,14,0.068619
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,15,0.060640
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,16,0.051329
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,17,0.042017
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,18,0.034039
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,19,0.026060
+18,140,inventories_investment_demand,Real exchange rate,hpd70_lower,20,0.018081
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,1,-0.112235
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,2,-0.160769
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,3,-0.148139
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,4,-0.099605
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,5,-0.038432
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,6,0.018752
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,7,0.061964
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,8,0.089228
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,9,0.103853
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,10,0.112501
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,11,0.113164
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,12,0.108512
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,13,0.100533
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,14,0.091884
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,15,0.083244
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,16,0.072608
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,17,0.061964
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,18,0.051991
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,19,0.043350
+18,140,inventories_investment_demand,Real exchange rate,hpd70_upper,20,0.034709
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,1,-0.184706
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,2,-0.275799
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,3,-0.272471
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,4,-0.223937
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,5,-0.154785
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,6,-0.077663
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,7,-0.020480
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,8,0.024065
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,9,0.052661
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,10,0.066624
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,11,0.069943
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,12,0.069281
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,13,0.063297
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,14,0.056650
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,15,0.047339
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,16,0.038028
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,17,0.029387
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,18,0.021408
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,19,0.014762
+18,140,inventories_investment_demand,Real exchange rate,hpd90_lower,20,0.006784
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,1,-0.087637
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,2,-0.121546
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,3,-0.106251
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,4,-0.059711
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,5,-0.003860
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,6,0.044682
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,7,0.081911
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,8,0.107842
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,9,0.121805
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,10,0.129783
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,11,0.133110
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,12,0.129783
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,13,0.121142
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,14,0.110507
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,15,0.099863
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,16,0.089890
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,17,0.078592
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,18,0.068619
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,19,0.056650
+18,140,inventories_investment_demand,Real exchange rate,hpd90_upper,20,0.046677
+18,140,inventories_investment_demand,CPI inflation,mean,1,0.017307
+18,140,inventories_investment_demand,CPI inflation,mean,2,0.003641
+18,140,inventories_investment_demand,CPI inflation,mean,3,-0.005437
+18,140,inventories_investment_demand,CPI inflation,mean,4,-0.006733
+18,140,inventories_investment_demand,CPI inflation,mean,5,-0.004189
+18,140,inventories_investment_demand,CPI inflation,mean,6,-0.000848
+18,140,inventories_investment_demand,CPI inflation,mean,7,0.001845
+18,140,inventories_investment_demand,CPI inflation,mean,8,0.003541
+18,140,inventories_investment_demand,CPI inflation,mean,9,0.004439
+18,140,inventories_investment_demand,CPI inflation,mean,10,0.004888
+18,140,inventories_investment_demand,CPI inflation,mean,11,0.005087
+18,140,inventories_investment_demand,CPI inflation,mean,12,0.005237
+18,140,inventories_investment_demand,CPI inflation,mean,13,0.005336
+18,140,inventories_investment_demand,CPI inflation,mean,14,0.005387
+18,140,inventories_investment_demand,CPI inflation,mean,15,0.005486
+18,140,inventories_investment_demand,CPI inflation,mean,16,0.005536
+18,140,inventories_investment_demand,CPI inflation,mean,17,0.005636
+18,140,inventories_investment_demand,CPI inflation,mean,18,0.005686
+18,140,inventories_investment_demand,CPI inflation,mean,19,0.005686
+18,140,inventories_investment_demand,CPI inflation,mean,20,0.005686
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,1,0.008628
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,2,-0.001995
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,3,-0.009177
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,4,-0.009327
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,5,-0.006085
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,6,-0.002444
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,7,0.000249
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,8,0.002045
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,9,0.002942
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,10,0.003292
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,11,0.003491
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,12,0.003591
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,13,0.003641
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,14,0.003641
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,15,0.003641
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,16,0.003591
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,17,0.003591
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,18,0.003641
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,19,0.003691
+18,140,inventories_investment_demand,CPI inflation,hpd70_lower,20,0.003691
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,1,0.024937
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,2,0.009227
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,3,-0.000998
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,4,-0.003641
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,5,-0.001995
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,6,0.000898
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,7,0.003342
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,8,0.004788
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,9,0.005636
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,10,0.005985
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,11,0.006085
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,12,0.006135
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,13,0.006234
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,14,0.006334
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,15,0.006484
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,16,0.006584
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,17,0.006584
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,18,0.006584
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,19,0.006584
+18,140,inventories_investment_demand,CPI inflation,hpd70_upper,20,0.006633
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,1,-0.002394
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,2,-0.011172
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,3,-0.015910
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,4,-0.014265
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,5,-0.009776
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,6,-0.005287
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,7,-0.002145
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,8,-0.000100
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,9,0.000997
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,10,0.001696
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,11,0.002145
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,12,0.002294
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,13,0.002294
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,14,0.002294
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,15,0.002294
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,16,0.002294
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,17,0.002344
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,18,0.002394
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,19,0.002394
+18,140,inventories_investment_demand,CPI inflation,hpd90_lower,20,0.002394
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,1,0.035960
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,2,0.017955
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,3,0.004090
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,4,0.000548
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,5,0.001097
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,6,0.003292
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,7,0.005387
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,8,0.007132
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,9,0.007781
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,10,0.008179
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,11,0.008579
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,12,0.009027
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,13,0.009077
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,14,0.009327
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,15,0.009825
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,16,0.009825
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,17,0.009975
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,18,0.010224
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,19,0.010324
+18,140,inventories_investment_demand,CPI inflation,hpd90_upper,20,0.010274
+18,140,inventories_investment_demand,Domestic inflation,mean,1,0.058677
+18,140,inventories_investment_demand,Domestic inflation,mean,2,0.028258
+18,140,inventories_investment_demand,Domestic inflation,mean,3,-0.005153
+18,140,inventories_investment_demand,Domestic inflation,mean,4,-0.022772
+18,140,inventories_investment_demand,Domestic inflation,mean,5,-0.026761
+18,140,inventories_investment_demand,Domestic inflation,mean,6,-0.022772
+18,140,inventories_investment_demand,Domestic inflation,mean,7,-0.015958
+18,140,inventories_investment_demand,Domestic inflation,mean,8,-0.008977
+18,140,inventories_investment_demand,Domestic inflation,mean,9,-0.003158
+18,140,inventories_investment_demand,Domestic inflation,mean,10,0.001330
+18,140,inventories_investment_demand,Domestic inflation,mean,11,0.004322
+18,140,inventories_investment_demand,Domestic inflation,mean,12,0.006317
+18,140,inventories_investment_demand,Domestic inflation,mean,13,0.007647
+18,140,inventories_investment_demand,Domestic inflation,mean,14,0.008477
+18,140,inventories_investment_demand,Domestic inflation,mean,15,0.008975
+18,140,inventories_investment_demand,Domestic inflation,mean,16,0.009143
+18,140,inventories_investment_demand,Domestic inflation,mean,17,0.009143
+18,140,inventories_investment_demand,Domestic inflation,mean,18,0.009143
+18,140,inventories_investment_demand,Domestic inflation,mean,19,0.008975
+18,140,inventories_investment_demand,Domestic inflation,mean,20,0.008644
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,1,0.047872
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,2,0.022274
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,3,-0.009475
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,4,-0.027260
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,5,-0.030252
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,6,-0.025931
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,7,-0.018617
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,8,-0.011137
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,9,-0.004820
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,10,-0.000166
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,11,0.002826
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,12,0.004986
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,13,0.006151
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,14,0.006650
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,15,0.006981
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,16,0.007148
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,17,0.007148
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,18,0.006815
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,19,0.006650
+18,140,inventories_investment_demand,Domestic inflation,hpd70_lower,20,0.006317
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,1,0.066490
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,2,0.032912
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,3,-0.001329
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,4,-0.017454
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,5,-0.022606
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,6,-0.019449
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,7,-0.012966
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,8,-0.006483
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,9,-0.000665
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,10,0.003159
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,11,0.005652
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,12,0.007647
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,13,0.008810
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,14,0.009807
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,15,0.010306
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,16,0.010471
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,17,0.010639
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,18,0.010471
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,19,0.010306
+18,140,inventories_investment_demand,Domestic inflation,hpd70_upper,20,0.010140
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,1,0.035405
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,2,0.014794
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,3,-0.015790
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,4,-0.035406
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,5,-0.037899
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,6,-0.031417
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,7,-0.022606
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,8,-0.015126
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,9,-0.008644
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,10,-0.003324
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,11,0.000666
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,12,0.002991
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,13,0.004487
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,14,0.005154
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,15,0.005319
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,16,0.005319
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,17,0.005154
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,18,0.004986
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,19,0.004821
+18,140,inventories_investment_demand,Domestic inflation,hpd90_lower,20,0.004655
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,1,0.083112
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,2,0.043053
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,3,0.006151
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,4,-0.011137
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,5,-0.016124
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,6,-0.014294
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,7,-0.009142
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,8,-0.003324
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,9,0.001663
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,10,0.005319
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,11,0.007813
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,12,0.009973
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,13,0.010970
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,14,0.012301
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,15,0.012965
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,16,0.013463
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,17,0.013797
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,18,0.013797
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,19,0.013631
+18,140,inventories_investment_demand,Domestic inflation,hpd90_upper,20,0.013797
+18,140,inventories_investment_demand,Imported inflation,mean,1,-0.059308
+18,140,inventories_investment_demand,Imported inflation,mean,2,-0.042187
+18,140,inventories_investment_demand,Imported inflation,mean,3,-0.005950
+18,140,inventories_investment_demand,Imported inflation,mean,4,0.022973
+18,140,inventories_investment_demand,Imported inflation,mean,5,0.037600
+18,140,inventories_investment_demand,Imported inflation,mean,6,0.039927
+18,140,inventories_investment_demand,Imported inflation,mean,7,0.034773
+18,140,inventories_investment_demand,Imported inflation,mean,8,0.026629
+18,140,inventories_investment_demand,Imported inflation,mean,9,0.018485
+18,140,inventories_investment_demand,Imported inflation,mean,10,0.011669
+18,140,inventories_investment_demand,Imported inflation,mean,11,0.006682
+18,140,inventories_investment_demand,Imported inflation,mean,12,0.003191
+18,140,inventories_investment_demand,Imported inflation,mean,13,0.001031
+18,140,inventories_investment_demand,Imported inflation,mean,14,-0.000134
+18,140,inventories_investment_demand,Imported inflation,mean,15,-0.000798
+18,140,inventories_investment_demand,Imported inflation,mean,16,-0.000963
+18,140,inventories_investment_demand,Imported inflation,mean,17,-0.000963
+18,140,inventories_investment_demand,Imported inflation,mean,18,-0.000632
+18,140,inventories_investment_demand,Imported inflation,mean,19,-0.000299
+18,140,inventories_investment_demand,Imported inflation,mean,20,0.000199
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,1,-0.070945
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,2,-0.051828
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,3,-0.011934
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,4,0.018152
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,5,0.032613
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,6,0.034608
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,7,0.029621
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,8,0.021309
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,9,0.013498
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,10,0.006848
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,11,0.002360
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,12,-0.000632
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,13,-0.002128
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,14,-0.002793
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,15,-0.003126
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,16,-0.003126
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,17,-0.002793
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,18,-0.002459
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,19,-0.001961
+18,140,inventories_investment_demand,Imported inflation,hpd70_lower,20,-0.001462
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,1,-0.043185
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,2,-0.028059
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,3,0.002527
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,4,0.027959
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,5,0.042421
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,6,0.044415
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,7,0.039760
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,8,0.031450
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,9,0.022805
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,10,0.015325
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,11,0.009674
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,12,0.005685
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,13,0.002858
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,14,0.001362
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,15,0.000533
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,16,-0.000134
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,17,0.000034
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,18,0.000199
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,19,0.000365
+18,140,inventories_investment_demand,Imported inflation,hpd70_upper,20,0.000864
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,1,-0.094713
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,2,-0.072939
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,3,-0.025731
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,4,0.011170
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,5,0.026629
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,6,0.027293
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,7,0.021808
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,8,0.013997
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,9,0.007346
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,10,0.001861
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,11,-0.001462
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,12,-0.003291
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,13,-0.004622
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,14,-0.004953
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,15,-0.004953
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,16,-0.004787
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,17,-0.004454
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,18,-0.004123
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,19,-0.003457
+18,140,inventories_investment_demand,Imported inflation,hpd90_lower,20,-0.002958
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,1,-0.027726
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,2,-0.014262
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,3,0.011170
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,4,0.034941
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,5,0.049568
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,6,0.051728
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,7,0.047240
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,8,0.039096
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,9,0.030951
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,10,0.022640
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,11,0.015658
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,12,0.011170
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,13,0.008013
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,14,0.006018
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,15,0.004687
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,16,0.004023
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,17,0.003856
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,18,0.003856
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,19,0.004023
+18,140,inventories_investment_demand,Imported inflation,hpd90_upper,20,0.004522

@@ -1,0 +1,1201 @@
+figure,page_pdf,shock,panel_title,series,quarter,value
+10,88,transitory_technology,Output,mean,1,0.377802
+10,88,transitory_technology,Output,mean,2,0.677054
+10,88,transitory_technology,Output,mean,3,0.861602
+10,88,transitory_technology,Output,mean,4,0.915213
+10,88,transitory_technology,Output,mean,5,0.887787
+10,88,transitory_technology,Output,mean,6,0.812974
+10,88,transitory_technology,Output,mean,7,0.724440
+10,88,transitory_technology,Output,mean,8,0.637163
+10,88,transitory_technology,Output,mean,9,0.559852
+10,88,transitory_technology,Output,mean,10,0.495019
+10,88,transitory_technology,Output,mean,11,0.441393
+10,88,transitory_technology,Output,mean,12,0.397762
+10,88,transitory_technology,Output,mean,13,0.362840
+10,88,transitory_technology,Output,mean,14,0.332914
+10,88,transitory_technology,Output,mean,15,0.309229
+10,88,transitory_technology,Output,mean,16,0.288027
+10,88,transitory_technology,Output,mean,17,0.270580
+10,88,transitory_technology,Output,mean,18,0.254361
+10,88,transitory_technology,Output,mean,19,0.241897
+10,88,transitory_technology,Output,mean,20,0.229433
+10,88,transitory_technology,Output,hpd70_lower,1,0.330431
+10,88,transitory_technology,Output,hpd70_lower,2,0.596016
+10,88,transitory_technology,Output,hpd70_lower,3,0.753123
+10,88,transitory_technology,Output,hpd70_lower,4,0.791772
+10,88,transitory_technology,Output,hpd70_lower,5,0.764345
+10,88,transitory_technology,Output,hpd70_lower,6,0.683293
+10,88,transitory_technology,Output,hpd70_lower,7,0.588535
+10,88,transitory_technology,Output,hpd70_lower,8,0.493762
+10,88,transitory_technology,Output,hpd70_lower,9,0.410226
+10,88,transitory_technology,Output,hpd70_lower,10,0.340396
+10,88,transitory_technology,Output,hpd70_lower,11,0.286785
+10,88,transitory_technology,Output,hpd70_lower,12,0.240655
+10,88,transitory_technology,Output,hpd70_lower,13,0.208231
+10,88,transitory_technology,Output,hpd70_lower,14,0.180805
+10,88,transitory_technology,Output,hpd70_lower,15,0.159603
+10,88,transitory_technology,Output,hpd70_lower,16,0.143398
+10,88,transitory_technology,Output,hpd70_lower,17,0.129678
+10,88,transitory_technology,Output,hpd70_lower,18,0.118456
+10,88,transitory_technology,Output,hpd70_lower,19,0.110974
+10,88,transitory_technology,Output,hpd70_lower,20,0.104735
+10,88,transitory_technology,Output,hpd70_upper,1,0.416465
+10,88,transitory_technology,Output,hpd70_upper,2,0.748126
+10,88,transitory_technology,Output,hpd70_upper,3,0.953861
+10,88,transitory_technology,Output,hpd70_upper,4,1.011228
+10,88,transitory_technology,Output,hpd70_upper,5,0.993767
+10,88,transitory_technology,Output,hpd70_upper,6,0.918954
+10,88,transitory_technology,Output,hpd70_upper,7,0.829178
+10,88,transitory_technology,Output,hpd70_upper,8,0.743143
+10,88,transitory_technology,Output,hpd70_upper,9,0.662091
+10,88,transitory_technology,Output,hpd70_upper,10,0.597258
+10,88,transitory_technology,Output,hpd70_upper,11,0.536166
+10,88,transitory_technology,Output,hpd70_upper,12,0.481298
+10,88,transitory_technology,Output,hpd70_upper,13,0.436411
+10,88,transitory_technology,Output,hpd70_upper,14,0.402745
+10,88,transitory_technology,Output,hpd70_upper,15,0.369079
+10,88,transitory_technology,Output,hpd70_upper,16,0.341653
+10,88,transitory_technology,Output,hpd70_upper,17,0.317952
+10,88,transitory_technology,Output,hpd70_upper,18,0.296765
+10,88,transitory_technology,Output,hpd70_upper,19,0.278062
+10,88,transitory_technology,Output,hpd70_upper,20,0.260600
+10,88,transitory_technology,Output,hpd90_lower,1,0.273064
+10,88,transitory_technology,Output,hpd90_lower,2,0.502500
+10,88,transitory_technology,Output,hpd90_lower,3,0.638405
+10,88,transitory_technology,Output,hpd90_lower,4,0.660849
+10,88,transitory_technology,Output,hpd90_lower,5,0.609722
+10,88,transitory_technology,Output,hpd90_lower,6,0.521203
+10,88,transitory_technology,Output,hpd90_lower,7,0.422690
+10,88,transitory_technology,Output,hpd90_lower,8,0.326690
+10,88,transitory_technology,Output,hpd90_lower,9,0.249378
+10,88,transitory_technology,Output,hpd90_lower,10,0.194511
+10,88,transitory_technology,Output,hpd90_lower,11,0.155862
+10,88,transitory_technology,Output,hpd90_lower,12,0.123438
+10,88,transitory_technology,Output,hpd90_lower,13,0.102251
+10,88,transitory_technology,Output,hpd90_lower,14,0.087289
+10,88,transitory_technology,Output,hpd90_lower,15,0.076067
+10,88,transitory_technology,Output,hpd90_lower,16,0.068585
+10,88,transitory_technology,Output,hpd90_lower,17,0.062346
+10,88,transitory_technology,Output,hpd90_lower,18,0.058605
+10,88,transitory_technology,Output,hpd90_lower,19,0.056107
+10,88,transitory_technology,Output,hpd90_lower,20,0.053623
+10,88,transitory_technology,Output,hpd90_upper,1,0.488780
+10,88,transitory_technology,Output,hpd90_upper,2,0.870325
+10,88,transitory_technology,Output,hpd90_upper,3,1.108485
+10,88,transitory_technology,Output,hpd90_upper,4,1.178300
+10,88,transitory_technology,Output,hpd90_upper,5,1.159597
+10,88,transitory_technology,Output,hpd90_upper,6,1.107228
+10,88,transitory_technology,Output,hpd90_upper,7,1.038654
+10,88,transitory_technology,Output,hpd90_upper,8,0.966340
+10,88,transitory_technology,Output,hpd90_upper,9,0.890270
+10,88,transitory_technology,Output,hpd90_upper,10,0.832919
+10,88,transitory_technology,Output,hpd90_upper,11,0.784290
+10,88,transitory_technology,Output,hpd90_upper,12,0.740645
+10,88,transitory_technology,Output,hpd90_upper,13,0.703238
+10,88,transitory_technology,Output,hpd90_upper,14,0.669572
+10,88,transitory_technology,Output,hpd90_upper,15,0.637163
+10,88,transitory_technology,Output,hpd90_upper,16,0.609722
+10,88,transitory_technology,Output,hpd90_upper,17,0.582296
+10,88,transitory_technology,Output,hpd90_upper,18,0.557353
+10,88,transitory_technology,Output,hpd90_upper,19,0.533667
+10,88,transitory_technology,Output,hpd90_upper,20,0.511223
+10,88,transitory_technology,Consumption,mean,1,0.189360
+10,88,transitory_technology,Consumption,mean,2,0.331652
+10,88,transitory_technology,Consumption,mean,3,0.417424
+10,88,transitory_technology,Consumption,mean,4,0.452658
+10,88,transitory_technology,Consumption,mean,5,0.453991
+10,88,transitory_technology,Consumption,mean,6,0.438033
+10,88,transitory_technology,Consumption,mean,7,0.416092
+10,88,transitory_technology,Consumption,mean,8,0.394150
+10,88,transitory_technology,Consumption,mean,9,0.373541
+10,88,transitory_technology,Consumption,mean,10,0.355589
+10,88,transitory_technology,Consumption,mean,11,0.340293
+10,88,transitory_technology,Consumption,mean,12,0.325668
+10,88,transitory_technology,Consumption,mean,13,0.312368
+10,88,transitory_technology,Consumption,mean,14,0.300400
+10,88,transitory_technology,Consumption,mean,15,0.289764
+10,88,transitory_technology,Consumption,mean,16,0.279120
+10,88,transitory_technology,Consumption,mean,17,0.269817
+10,88,transitory_technology,Consumption,mean,18,0.260506
+10,88,transitory_technology,Consumption,mean,19,0.252527
+10,88,transitory_technology,Consumption,mean,20,0.245211
+10,88,transitory_technology,Consumption,hpd70_lower,1,0.141487
+10,88,transitory_technology,Consumption,hpd70_lower,2,0.262501
+10,88,transitory_technology,Consumption,hpd70_lower,3,0.327663
+10,88,transitory_technology,Consumption,hpd70_lower,4,0.359578
+10,88,transitory_technology,Consumption,hpd70_lower,5,0.356913
+10,88,transitory_technology,Consumption,hpd70_lower,6,0.332977
+10,88,transitory_technology,Consumption,hpd70_lower,7,0.307716
+10,88,transitory_technology,Consumption,hpd70_lower,8,0.281785
+10,88,transitory_technology,Consumption,hpd70_lower,9,0.263163
+10,88,transitory_technology,Consumption,hpd70_lower,10,0.247876
+10,88,transitory_technology,Consumption,hpd70_lower,11,0.236570
+10,88,transitory_technology,Consumption,hpd70_lower,12,0.220612
+10,88,transitory_technology,Consumption,hpd70_lower,13,0.208644
+10,88,transitory_technology,Consumption,hpd70_lower,14,0.198009
+10,88,transitory_technology,Consumption,hpd70_lower,15,0.188035
+10,88,transitory_technology,Consumption,hpd70_lower,16,0.177391
+10,88,transitory_technology,Consumption,hpd70_lower,17,0.168088
+10,88,transitory_technology,Consumption,hpd70_lower,18,0.161434
+10,88,transitory_technology,Consumption,hpd70_lower,19,0.155450
+10,88,transitory_technology,Consumption,hpd70_lower,20,0.149466
+10,88,transitory_technology,Consumption,hpd70_upper,1,0.230586
+10,88,transitory_technology,Consumption,hpd70_upper,2,0.398139
+10,88,transitory_technology,Consumption,hpd70_upper,3,0.493884
+10,88,transitory_technology,Consumption,hpd70_upper,4,0.525799
+10,88,transitory_technology,Consumption,hpd70_upper,5,0.524467
+10,88,transitory_technology,Consumption,hpd70_upper,6,0.505190
+10,88,transitory_technology,Consumption,hpd70_upper,7,0.481916
+10,88,transitory_technology,Consumption,hpd70_upper,8,0.457980
+10,88,transitory_technology,Consumption,hpd70_upper,9,0.436038
+10,88,transitory_technology,Consumption,hpd70_upper,10,0.418086
+10,88,transitory_technology,Consumption,hpd70_upper,11,0.398139
+10,88,transitory_technology,Consumption,hpd70_upper,12,0.381520
+10,88,transitory_technology,Consumption,hpd70_upper,13,0.364892
+10,88,transitory_technology,Consumption,hpd70_upper,14,0.350267
+10,88,transitory_technology,Consumption,hpd70_upper,15,0.334309
+10,88,transitory_technology,Consumption,hpd70_upper,16,0.321009
+10,88,transitory_technology,Consumption,hpd70_upper,17,0.310373
+10,88,transitory_technology,Consumption,hpd70_upper,18,0.299737
+10,88,transitory_technology,Consumption,hpd70_upper,19,0.287769
+10,88,transitory_technology,Consumption,hpd70_upper,20,0.277126
+10,88,transitory_technology,Consumption,hpd90_lower,1,0.093615
+10,88,transitory_technology,Consumption,hpd90_lower,2,0.173402
+10,88,transitory_technology,Consumption,hpd90_lower,3,0.229253
+10,88,transitory_technology,Consumption,hpd90_lower,4,0.255184
+10,88,transitory_technology,Consumption,hpd90_lower,5,0.251865
+10,88,transitory_technology,Consumption,hpd90_lower,6,0.231918
+10,88,transitory_technology,Consumption,hpd90_lower,7,0.209306
+10,88,transitory_technology,Consumption,hpd90_lower,8,0.194019
+10,88,transitory_technology,Consumption,hpd90_lower,9,0.176729
+10,88,transitory_technology,Consumption,hpd90_lower,10,0.164761
+10,88,transitory_technology,Consumption,hpd90_lower,11,0.157445
+10,88,transitory_technology,Consumption,hpd90_lower,12,0.146809
+10,88,transitory_technology,Consumption,hpd90_lower,13,0.139492
+10,88,transitory_technology,Consumption,hpd90_lower,14,0.129519
+10,88,transitory_technology,Consumption,hpd90_lower,15,0.122873
+10,88,transitory_technology,Consumption,hpd90_lower,16,0.114894
+10,88,transitory_technology,Consumption,hpd90_lower,17,0.110905
+10,88,transitory_technology,Consumption,hpd90_lower,18,0.108248
+10,88,transitory_technology,Consumption,hpd90_lower,19,0.103588
+10,88,transitory_technology,Consumption,hpd90_lower,20,0.100269
+10,88,transitory_technology,Consumption,hpd90_upper,1,0.279791
+10,88,transitory_technology,Consumption,hpd90_upper,2,0.473275
+10,88,transitory_technology,Consumption,hpd90_upper,3,0.598940
+10,88,transitory_technology,Consumption,hpd90_upper,4,0.659443
+10,88,transitory_technology,Consumption,hpd90_upper,5,0.676733
+10,88,transitory_technology,Consumption,hpd90_upper,6,0.668754
+10,88,transitory_technology,Consumption,hpd90_upper,7,0.648808
+10,88,transitory_technology,Consumption,hpd90_upper,8,0.626866
+10,88,transitory_technology,Consumption,hpd90_upper,9,0.598940
+10,88,transitory_technology,Consumption,hpd90_upper,10,0.574334
+10,88,transitory_technology,Consumption,hpd90_upper,11,0.557052
+10,88,transitory_technology,Consumption,hpd90_upper,12,0.545746
+10,88,transitory_technology,Consumption,hpd90_upper,13,0.535773
+10,88,transitory_technology,Consumption,hpd90_upper,14,0.525137
+10,88,transitory_technology,Consumption,hpd90_upper,15,0.513831
+10,88,transitory_technology,Consumption,hpd90_upper,16,0.497211
+10,88,transitory_technology,Consumption,hpd90_upper,17,0.481916
+10,88,transitory_technology,Consumption,hpd90_upper,18,0.469948
+10,88,transitory_technology,Consumption,hpd90_upper,19,0.458642
+10,88,transitory_technology,Consumption,hpd90_upper,20,0.447344
+10,88,transitory_technology,Fixed investment,mean,1,0.377802
+10,88,transitory_technology,Fixed investment,mean,2,0.493762
+10,88,transitory_technology,Fixed investment,mean,3,0.674570
+10,88,transitory_technology,Fixed investment,mean,4,0.744385
+10,88,transitory_technology,Fixed investment,mean,5,0.817956
+10,88,transitory_technology,Fixed investment,mean,6,0.846640
+10,88,transitory_technology,Fixed investment,mean,7,0.871567
+10,88,transitory_technology,Fixed investment,mean,8,0.876565
+10,88,transitory_technology,Fixed investment,mean,9,0.876565
+10,88,transitory_technology,Fixed investment,mean,10,0.865343
+10,88,transitory_technology,Fixed investment,mean,11,0.849123
+10,88,transitory_technology,Fixed investment,mean,12,0.825438
+10,88,transitory_technology,Fixed investment,mean,13,0.798011
+10,88,transitory_technology,Fixed investment,mean,14,0.765587
+10,88,transitory_technology,Fixed investment,mean,15,0.729423
+10,88,transitory_technology,Fixed investment,mean,16,0.692016
+10,88,transitory_technology,Fixed investment,mean,17,0.653368
+10,88,transitory_technology,Fixed investment,mean,18,0.613463
+10,88,transitory_technology,Fixed investment,mean,19,0.573572
+10,88,transitory_technology,Fixed investment,mean,20,0.533667
+10,88,transitory_technology,Fixed investment,hpd70_lower,1,0.311727
+10,88,transitory_technology,Fixed investment,hpd70_lower,2,0.400246
+10,88,transitory_technology,Fixed investment,hpd70_lower,3,0.544889
+10,88,transitory_technology,Fixed investment,hpd70_lower,4,0.589777
+10,88,transitory_technology,Fixed investment,hpd70_lower,5,0.655867
+10,88,transitory_technology,Fixed investment,hpd70_lower,6,0.664590
+10,88,transitory_technology,Fixed investment,hpd70_lower,7,0.680794
+10,88,transitory_technology,Fixed investment,hpd70_lower,8,0.673313
+10,88,transitory_technology,Fixed investment,hpd70_lower,9,0.669572
+10,88,transitory_technology,Fixed investment,hpd70_lower,10,0.652126
+10,88,transitory_technology,Fixed investment,hpd70_lower,11,0.627183
+10,88,transitory_technology,Fixed investment,hpd70_lower,12,0.602241
+10,88,transitory_technology,Fixed investment,hpd70_lower,13,0.568575
+10,88,transitory_technology,Fixed investment,hpd70_lower,14,0.542390
+10,88,transitory_technology,Fixed investment,hpd70_lower,15,0.521203
+10,88,transitory_technology,Fixed investment,hpd70_lower,16,0.482540
+10,88,transitory_technology,Fixed investment,hpd70_lower,17,0.445134
+10,88,transitory_technology,Fixed investment,hpd70_lower,18,0.408984
+10,88,transitory_technology,Fixed investment,hpd70_lower,19,0.370321
+10,88,transitory_technology,Fixed investment,hpd70_lower,20,0.335413
+10,88,transitory_technology,Fixed investment,hpd70_upper,1,0.422690
+10,88,transitory_technology,Fixed investment,hpd70_upper,2,0.552371
+10,88,transitory_technology,Fixed investment,hpd70_upper,3,0.770570
+10,88,transitory_technology,Fixed investment,hpd70_upper,4,0.857861
+10,88,transitory_technology,Fixed investment,hpd70_upper,5,0.950121
+10,88,transitory_technology,Fixed investment,hpd70_upper,6,0.992525
+10,88,transitory_technology,Fixed investment,hpd70_upper,7,1.037412
+10,88,transitory_technology,Fixed investment,hpd70_upper,8,1.046136
+10,88,transitory_technology,Fixed investment,hpd70_upper,9,1.049876
+10,88,transitory_technology,Fixed investment,hpd70_upper,10,1.033672
+10,88,transitory_technology,Fixed investment,hpd70_upper,11,1.014969
+10,88,transitory_technology,Fixed investment,hpd70_upper,12,0.983787
+10,88,transitory_technology,Fixed investment,hpd70_upper,13,0.945138
+10,88,transitory_technology,Fixed investment,hpd70_upper,14,0.911472
+10,88,transitory_technology,Fixed investment,hpd70_upper,15,0.869083
+10,88,transitory_technology,Fixed investment,hpd70_upper,16,0.827936
+10,88,transitory_technology,Fixed investment,hpd70_upper,17,0.778051
+10,88,transitory_technology,Fixed investment,hpd70_upper,18,0.731921
+10,88,transitory_technology,Fixed investment,hpd70_upper,19,0.697014
+10,88,transitory_technology,Fixed investment,hpd70_upper,20,0.654610
+10,88,transitory_technology,Fixed investment,hpd90_lower,1,0.235658
+10,88,transitory_technology,Fixed investment,hpd90_lower,2,0.291767
+10,88,transitory_technology,Fixed investment,hpd90_lower,3,0.391523
+10,88,transitory_technology,Fixed investment,hpd90_lower,4,0.421448
+10,88,transitory_technology,Fixed investment,hpd90_lower,5,0.445134
+10,88,transitory_technology,Fixed investment,hpd90_lower,6,0.448874
+10,88,transitory_technology,Fixed investment,hpd90_lower,7,0.448874
+10,88,transitory_technology,Fixed investment,hpd90_lower,8,0.448874
+10,88,transitory_technology,Fixed investment,hpd90_lower,9,0.440151
+10,88,transitory_technology,Fixed investment,hpd90_lower,10,0.450131
+10,88,transitory_technology,Fixed investment,hpd90_lower,11,0.433912
+10,88,transitory_technology,Fixed investment,hpd90_lower,12,0.408984
+10,88,transitory_technology,Fixed investment,hpd90_lower,13,0.390281
+10,88,transitory_technology,Fixed investment,hpd90_lower,14,0.362840
+10,88,transitory_technology,Fixed investment,hpd90_lower,15,0.331672
+10,88,transitory_technology,Fixed investment,hpd90_lower,16,0.300505
+10,88,transitory_technology,Fixed investment,hpd90_lower,17,0.280545
+10,88,transitory_technology,Fixed investment,hpd90_lower,18,0.250620
+10,88,transitory_technology,Fixed investment,hpd90_lower,19,0.223194
+10,88,transitory_technology,Fixed investment,hpd90_lower,20,0.194511
+10,88,transitory_technology,Fixed investment,hpd90_upper,1,0.519947
+10,88,transitory_technology,Fixed investment,hpd90_upper,2,0.697014
+10,88,transitory_technology,Fixed investment,hpd90_upper,3,0.940156
+10,88,transitory_technology,Fixed investment,hpd90_upper,4,1.063597
+10,88,transitory_technology,Fixed investment,hpd90_upper,5,1.178300
+10,88,transitory_technology,Fixed investment,hpd90_upper,6,1.228185
+10,88,transitory_technology,Fixed investment,hpd90_upper,7,1.270574
+10,88,transitory_technology,Fixed investment,hpd90_upper,8,1.293018
+10,88,transitory_technology,Fixed investment,hpd90_upper,9,1.307981
+10,88,transitory_technology,Fixed investment,hpd90_upper,10,1.316704
+10,88,transitory_technology,Fixed investment,hpd90_upper,11,1.307981
+10,88,transitory_technology,Fixed investment,hpd90_upper,12,1.310479
+10,88,transitory_technology,Fixed investment,hpd90_upper,13,1.285537
+10,88,transitory_technology,Fixed investment,hpd90_upper,14,1.249372
+10,88,transitory_technology,Fixed investment,hpd90_upper,15,1.210724
+10,88,transitory_technology,Fixed investment,hpd90_upper,16,1.183298
+10,88,transitory_technology,Fixed investment,hpd90_upper,17,1.142150
+10,88,transitory_technology,Fixed investment,hpd90_upper,18,1.082300
+10,88,transitory_technology,Fixed investment,hpd90_upper,19,1.019951
+10,88,transitory_technology,Fixed investment,hpd90_upper,20,0.977562
+10,88,transitory_technology,Exports,mean,1,0.245091
+10,88,transitory_technology,Exports,mean,2,0.581193
+10,88,transitory_technology,Exports,mean,3,0.864064
+10,88,transitory_technology,Exports,mean,4,1.030447
+10,88,transitory_technology,Exports,mean,5,1.075373
+10,88,transitory_technology,Exports,mean,6,1.028790
+10,88,transitory_technology,Exports,mean,7,0.927299
+10,88,transitory_technology,Exports,mean,8,0.802506
+10,88,transitory_technology,Exports,mean,9,0.679370
+10,88,transitory_technology,Exports,mean,10,0.566218
+10,88,transitory_technology,Exports,mean,11,0.469718
+10,88,transitory_technology,Exports,mean,12,0.391508
+10,88,transitory_technology,Exports,mean,13,0.328293
+10,88,transitory_technology,Exports,mean,14,0.278376
+10,88,transitory_technology,Exports,mean,15,0.240099
+10,88,transitory_technology,Exports,mean,16,0.210149
+10,88,transitory_technology,Exports,mean,17,0.186848
+10,88,transitory_technology,Exports,mean,18,0.168558
+10,88,transitory_technology,Exports,mean,19,0.155240
+10,88,transitory_technology,Exports,mean,20,0.145257
+10,88,transitory_technology,Exports,hpd70_lower,1,0.190182
+10,88,transitory_technology,Exports,hpd70_lower,2,0.469718
+10,88,transitory_technology,Exports,hpd70_lower,3,0.715969
+10,88,transitory_technology,Exports,hpd70_lower,4,0.859072
+10,88,transitory_technology,Exports,hpd70_lower,5,0.915638
+10,88,transitory_technology,Exports,hpd70_lower,6,0.872390
+10,88,transitory_technology,Exports,hpd70_lower,7,0.770878
+10,88,transitory_technology,Exports,hpd70_lower,8,0.644428
+10,88,transitory_technology,Exports,hpd70_lower,9,0.512986
+10,88,transitory_technology,Exports,hpd70_lower,10,0.389851
+10,88,transitory_technology,Exports,hpd70_lower,11,0.293351
+10,88,transitory_technology,Exports,hpd70_lower,12,0.213484
+10,88,transitory_technology,Exports,hpd70_lower,13,0.156898
+10,88,transitory_technology,Exports,hpd70_lower,14,0.110315
+10,88,transitory_technology,Exports,hpd70_lower,15,0.073716
+10,88,transitory_technology,Exports,hpd70_lower,16,0.052072
+10,88,transitory_technology,Exports,hpd70_lower,17,0.038774
+10,88,transitory_technology,Exports,hpd70_lower,18,0.027113
+10,88,transitory_technology,Exports,hpd70_lower,19,0.022121
+10,88,transitory_technology,Exports,hpd70_lower,20,0.018807
+10,88,transitory_technology,Exports,hpd70_upper,1,0.276699
+10,88,transitory_technology,Exports,hpd70_upper,2,0.654412
+10,88,transitory_technology,Exports,hpd70_upper,3,0.973881
+10,88,transitory_technology,Exports,hpd70_upper,4,1.158575
+10,88,transitory_technology,Exports,hpd70_upper,5,1.208492
+10,88,transitory_technology,Exports,hpd70_upper,6,1.173550
+10,88,transitory_technology,Exports,hpd70_upper,7,1.062075
+10,88,transitory_technology,Exports,hpd70_upper,8,0.943931
+10,88,transitory_technology,Exports,hpd70_upper,9,0.815804
+10,88,transitory_technology,Exports,hpd70_upper,10,0.689354
+10,88,transitory_technology,Exports,hpd70_upper,11,0.591177
+10,88,transitory_technology,Exports,hpd70_upper,12,0.496334
+10,88,transitory_technology,Exports,hpd70_upper,13,0.423136
+10,88,transitory_technology,Exports,hpd70_upper,14,0.358243
+10,88,transitory_technology,Exports,hpd70_upper,15,0.308326
+10,88,transitory_technology,Exports,hpd70_upper,16,0.271707
+10,88,transitory_technology,Exports,hpd70_upper,17,0.240099
+10,88,transitory_technology,Exports,hpd70_upper,18,0.213484
+10,88,transitory_technology,Exports,hpd70_upper,19,0.190182
+10,88,transitory_technology,Exports,hpd70_upper,20,0.173550
+10,88,transitory_technology,Exports,hpd90_lower,1,0.145257
+10,88,transitory_technology,Exports,hpd90_lower,2,0.373218
+10,88,transitory_technology,Exports,hpd90_lower,3,0.586185
+10,88,transitory_technology,Exports,hpd90_lower,4,0.722638
+10,88,transitory_technology,Exports,hpd90_lower,5,0.757580
+10,88,transitory_technology,Exports,hpd90_lower,6,0.681027
+10,88,transitory_technology,Exports,hpd90_lower,7,0.579536
+10,88,transitory_technology,Exports,hpd90_lower,8,0.449751
+10,88,transitory_technology,Exports,hpd90_lower,9,0.309983
+10,88,transitory_technology,Exports,hpd90_lower,10,0.205157
+10,88,transitory_technology,Exports,hpd90_lower,11,0.126947
+10,88,transitory_technology,Exports,hpd90_lower,12,0.072038
+10,88,transitory_technology,Exports,hpd90_lower,13,0.030447
+10,88,transitory_technology,Exports,hpd90_lower,14,0.007146
+10,88,transitory_technology,Exports,hpd90_lower,15,-0.007829
+10,88,transitory_technology,Exports,hpd90_lower,16,-0.019470
+10,88,transitory_technology,Exports,hpd90_lower,17,-0.026119
+10,88,transitory_technology,Exports,hpd90_lower,18,-0.024461
+10,88,transitory_technology,Exports,hpd90_lower,19,-0.026119
+10,88,transitory_technology,Exports,hpd90_lower,20,-0.026119
+10,88,transitory_technology,Exports,hpd90_upper,1,0.363235
+10,88,transitory_technology,Exports,hpd90_upper,2,0.820795
+10,88,transitory_technology,Exports,hpd90_upper,3,1.186868
+10,88,transitory_technology,Exports,hpd90_upper,4,1.386536
+10,88,transitory_technology,Exports,hpd90_upper,5,1.439768
+10,88,transitory_technology,Exports,hpd90_upper,6,1.398177
+10,88,transitory_technology,Exports,hpd90_upper,7,1.295008
+10,88,transitory_technology,Exports,hpd90_upper,8,1.193517
+10,88,transitory_technology,Exports,hpd90_upper,9,1.085356
+10,88,transitory_technology,Exports,hpd90_upper,10,0.972224
+10,88,transitory_technology,Exports,hpd90_upper,11,0.867398
+10,88,transitory_technology,Exports,hpd90_upper,12,0.757580
+10,88,transitory_technology,Exports,hpd90_upper,13,0.691011
+10,88,transitory_technology,Exports,hpd90_upper,14,0.624461
+10,88,transitory_technology,Exports,hpd90_upper,15,0.577879
+10,88,transitory_technology,Exports,hpd90_upper,16,0.546251
+10,88,transitory_technology,Exports,hpd90_upper,17,0.514644
+10,88,transitory_technology,Exports,hpd90_upper,18,0.479702
+10,88,transitory_technology,Exports,hpd90_upper,19,0.448094
+10,88,transitory_technology,Exports,hpd90_upper,20,0.426450
+10,88,transitory_technology,Imports,mean,1,-0.245324
+10,88,transitory_technology,Imports,mean,2,-0.428754
+10,88,transitory_technology,Imports,mean,3,-0.421267
+10,88,transitory_technology,Imports,mean,4,-0.325180
+10,88,transitory_technology,Imports,mean,5,-0.184171
+10,88,transitory_technology,Imports,mean,6,-0.053150
+10,88,transitory_technology,Imports,mean,7,0.056654
+10,88,transitory_technology,Imports,mean,8,0.132766
+10,88,transitory_technology,Imports,mean,9,0.183932
+10,88,transitory_technology,Imports,mean,10,0.213879
+10,88,transitory_technology,Imports,mean,11,0.230096
+10,88,transitory_technology,Imports,mean,12,0.236340
+10,88,transitory_technology,Imports,mean,13,0.235097
+10,88,transitory_technology,Imports,mean,14,0.230096
+10,88,transitory_technology,Imports,mean,15,0.223867
+10,88,transitory_technology,Imports,mean,16,0.215122
+10,88,transitory_technology,Imports,mean,17,0.205150
+10,88,transitory_technology,Imports,mean,18,0.195162
+10,88,transitory_technology,Imports,mean,19,0.183932
+10,88,transitory_technology,Imports,mean,20,0.173944
+10,88,transitory_technology,Imports,hpd70_lower,1,-0.275272
+10,88,transitory_technology,Imports,hpd70_lower,2,-0.478662
+10,88,transitory_technology,Imports,hpd70_lower,3,-0.486149
+10,88,transitory_technology,Imports,hpd70_lower,4,-0.392562
+10,88,transitory_technology,Imports,hpd70_lower,5,-0.255297
+10,88,transitory_technology,Imports,hpd70_lower,6,-0.115546
+10,88,transitory_technology,Imports,hpd70_lower,7,0.001744
+10,88,transitory_technology,Imports,hpd70_lower,8,0.091588
+10,88,transitory_technology,Imports,hpd70_lower,9,0.152741
+10,88,transitory_technology,Imports,hpd70_lower,10,0.185174
+10,88,transitory_technology,Imports,hpd70_lower,11,0.195162
+10,88,transitory_technology,Imports,hpd70_lower,12,0.198905
+10,88,transitory_technology,Imports,hpd70_lower,13,0.200148
+10,88,transitory_technology,Imports,hpd70_lower,14,0.195162
+10,88,transitory_technology,Imports,hpd70_lower,15,0.188918
+10,88,transitory_technology,Imports,hpd70_lower,16,0.177687
+10,88,transitory_technology,Imports,hpd70_lower,17,0.168958
+10,88,transitory_technology,Imports,hpd70_lower,18,0.156484
+10,88,transitory_technology,Imports,hpd70_lower,19,0.143996
+10,88,transitory_technology,Imports,hpd70_lower,20,0.132766
+10,88,transitory_technology,Imports,hpd70_upper,1,-0.205389
+10,88,transitory_technology,Imports,hpd70_upper,2,-0.368859
+10,88,transitory_technology,Imports,hpd70_upper,3,-0.343897
+10,88,transitory_technology,Imports,hpd70_upper,4,-0.242824
+10,88,transitory_technology,Imports,hpd70_upper,5,-0.103073
+10,88,transitory_technology,Imports,hpd70_upper,6,0.017976
+10,88,transitory_technology,Imports,hpd70_upper,7,0.115306
+10,88,transitory_technology,Imports,hpd70_upper,8,0.181431
+10,88,transitory_technology,Imports,hpd70_upper,9,0.221366
+10,88,transitory_technology,Imports,hpd70_upper,10,0.245070
+10,88,transitory_technology,Imports,hpd70_upper,11,0.260044
+10,88,transitory_technology,Imports,hpd70_upper,12,0.265045
+10,88,transitory_technology,Imports,hpd70_upper,13,0.263787
+10,88,transitory_technology,Imports,hpd70_upper,14,0.261302
+10,88,transitory_technology,Imports,hpd70_upper,15,0.255057
+10,88,transitory_technology,Imports,hpd70_upper,16,0.245070
+10,88,transitory_technology,Imports,hpd70_upper,17,0.238841
+10,88,transitory_technology,Imports,hpd70_upper,18,0.228853
+10,88,transitory_technology,Imports,hpd70_upper,19,0.218866
+10,88,transitory_technology,Imports,hpd70_upper,20,0.208893
+10,88,transitory_technology,Imports,hpd90_lower,1,-0.340154
+10,88,transitory_technology,Imports,hpd90_lower,2,-0.578493
+10,88,transitory_technology,Imports,hpd90_lower,3,-0.600954
+10,88,transitory_technology,Imports,hpd90_lower,4,-0.508610
+10,88,transitory_technology,Imports,hpd90_lower,5,-0.358871
+10,88,transitory_technology,Imports,hpd90_lower,6,-0.206632
+10,88,transitory_technology,Imports,hpd90_lower,7,-0.083097
+10,88,transitory_technology,Imports,hpd90_lower,8,0.016718
+10,88,transitory_technology,Imports,hpd90_lower,9,0.089102
+10,88,transitory_technology,Imports,hpd90_lower,10,0.127780
+10,88,transitory_technology,Imports,hpd90_lower,11,0.152741
+10,88,transitory_technology,Imports,hpd90_lower,12,0.153984
+10,88,transitory_technology,Imports,hpd90_lower,13,0.156484
+10,88,transitory_technology,Imports,hpd90_lower,14,0.150240
+10,88,transitory_technology,Imports,hpd90_lower,15,0.140253
+10,88,transitory_technology,Imports,hpd90_lower,16,0.130280
+10,88,transitory_technology,Imports,hpd90_lower,17,0.116549
+10,88,transitory_technology,Imports,hpd90_lower,18,0.107819
+10,88,transitory_technology,Imports,hpd90_lower,19,0.096589
+10,88,transitory_technology,Imports,hpd90_lower,20,0.086601
+10,88,transitory_technology,Imports,hpd90_upper,1,-0.159225
+10,88,transitory_technology,Imports,hpd90_upper,2,-0.281501
+10,88,transitory_technology,Imports,hpd90_upper,3,-0.260298
+10,88,transitory_technology,Imports,hpd90_upper,4,-0.166712
+10,88,transitory_technology,Imports,hpd90_upper,5,-0.030689
+10,88,transitory_technology,Imports,hpd90_upper,6,0.090345
+10,88,transitory_technology,Imports,hpd90_upper,7,0.176445
+10,88,transitory_technology,Imports,hpd90_upper,8,0.233839
+10,88,transitory_technology,Imports,hpd90_upper,9,0.278761
+10,88,transitory_technology,Imports,hpd90_upper,10,0.299979
+10,88,transitory_technology,Imports,hpd90_upper,11,0.313710
+10,88,transitory_technology,Imports,hpd90_upper,12,0.317454
+10,88,transitory_technology,Imports,hpd90_upper,13,0.313710
+10,88,transitory_technology,Imports,hpd90_upper,14,0.308709
+10,88,transitory_technology,Imports,hpd90_upper,15,0.301222
+10,88,transitory_technology,Imports,hpd90_upper,16,0.293735
+10,88,transitory_technology,Imports,hpd90_upper,17,0.288749
+10,88,transitory_technology,Imports,hpd90_upper,18,0.281262
+10,88,transitory_technology,Imports,hpd90_upper,19,0.273775
+10,88,transitory_technology,Imports,hpd90_upper,20,0.263787
+10,88,transitory_technology,Hours worked,mean,1,-1.280696
+10,88,transitory_technology,Hours worked,mean,2,-0.690017
+10,88,transitory_technology,Hours worked,mean,3,-0.277362
+10,88,transitory_technology,Hours worked,mean,4,-0.051077
+10,88,transitory_technology,Hours worked,mean,5,0.055406
+10,88,transitory_technology,Hours worked,mean,6,0.082042
+10,88,transitory_technology,Hours worked,mean,7,0.073716
+10,88,transitory_technology,Hours worked,mean,8,0.052092
+10,88,transitory_technology,Hours worked,mean,9,0.028790
+10,88,transitory_technology,Hours worked,mean,10,0.008823
+10,88,transitory_technology,Hours worked,mean,11,-0.004495
+10,88,transitory_technology,Hours worked,mean,12,-0.016135
+10,88,transitory_technology,Hours worked,mean,13,-0.022784
+10,88,transitory_technology,Hours worked,mean,14,-0.026119
+10,88,transitory_technology,Hours worked,mean,15,-0.029453
+10,88,transitory_technology,Hours worked,mean,16,-0.031110
+10,88,transitory_technology,Hours worked,mean,17,-0.032768
+10,88,transitory_technology,Hours worked,mean,18,-0.034445
+10,88,transitory_technology,Hours worked,mean,19,-0.034445
+10,88,transitory_technology,Hours worked,mean,20,-0.036102
+10,88,transitory_technology,Hours worked,hpd70_lower,1,-1.350580
+10,88,transitory_technology,Hours worked,hpd70_lower,2,-0.743268
+10,88,transitory_technology,Hours worked,hpd70_lower,3,-0.320630
+10,88,transitory_technology,Hours worked,hpd70_lower,4,-0.081027
+10,88,transitory_technology,Hours worked,hpd70_lower,5,0.030447
+10,88,transitory_technology,Hours worked,hpd70_lower,6,0.063732
+10,88,transitory_technology,Hours worked,hpd70_lower,7,0.055406
+10,88,transitory_technology,Hours worked,hpd70_lower,8,0.033782
+10,88,transitory_technology,Hours worked,hpd70_lower,9,0.010481
+10,88,transitory_technology,Hours worked,hpd70_lower,10,-0.006152
+10,88,transitory_technology,Hours worked,hpd70_lower,11,-0.017792
+10,88,transitory_technology,Hours worked,hpd70_lower,12,-0.022784
+10,88,transitory_technology,Hours worked,hpd70_lower,13,-0.027776
+10,88,transitory_technology,Hours worked,hpd70_lower,14,-0.029453
+10,88,transitory_technology,Hours worked,hpd70_lower,15,-0.032768
+10,88,transitory_technology,Hours worked,hpd70_lower,16,-0.034445
+10,88,transitory_technology,Hours worked,hpd70_lower,17,-0.034445
+10,88,transitory_technology,Hours worked,hpd70_lower,18,-0.036102
+10,88,transitory_technology,Hours worked,hpd70_lower,19,-0.037759
+10,88,transitory_technology,Hours worked,hpd70_lower,20,-0.037759
+10,88,transitory_technology,Hours worked,hpd70_upper,1,-1.190845
+10,88,transitory_technology,Hours worked,hpd70_upper,2,-0.633450
+10,88,transitory_technology,Hours worked,hpd70_upper,3,-0.229122
+10,88,transitory_technology,Hours worked,hpd70_upper,4,-0.009486
+10,88,transitory_technology,Hours worked,hpd70_upper,5,0.080365
+10,88,transitory_technology,Hours worked,hpd70_upper,6,0.105323
+10,88,transitory_technology,Hours worked,hpd70_upper,7,0.098674
+10,88,transitory_technology,Hours worked,hpd70_upper,8,0.075373
+10,88,transitory_technology,Hours worked,hpd70_upper,9,0.050414
+10,88,transitory_technology,Hours worked,hpd70_upper,10,0.027133
+10,88,transitory_technology,Hours worked,hpd70_upper,11,0.008823
+10,88,transitory_technology,Hours worked,hpd70_upper,12,-0.002817
+10,88,transitory_technology,Hours worked,hpd70_upper,13,-0.011144
+10,88,transitory_technology,Hours worked,hpd70_upper,14,-0.016135
+10,88,transitory_technology,Hours worked,hpd70_upper,15,-0.019470
+10,88,transitory_technology,Hours worked,hpd70_upper,16,-0.021127
+10,88,transitory_technology,Hours worked,hpd70_upper,17,-0.022784
+10,88,transitory_technology,Hours worked,hpd70_upper,18,-0.024461
+10,88,transitory_technology,Hours worked,hpd70_upper,19,-0.024461
+10,88,transitory_technology,Hours worked,hpd70_upper,20,-0.024461
+10,88,transitory_technology,Hours worked,hpd90_lower,1,-1.473716
+10,88,transitory_technology,Hours worked,hpd90_lower,2,-0.834776
+10,88,transitory_technology,Hours worked,hpd90_lower,3,-0.400497
+10,88,transitory_technology,Hours worked,hpd90_lower,4,-0.145920
+10,88,transitory_technology,Hours worked,hpd90_lower,5,-0.009486
+10,88,transitory_technology,Hours worked,hpd90_lower,6,0.028790
+10,88,transitory_technology,Hours worked,hpd90_lower,7,0.025456
+10,88,transitory_technology,Hours worked,hpd90_lower,8,-0.001160
+10,88,transitory_technology,Hours worked,hpd90_lower,9,-0.017792
+10,88,transitory_technology,Hours worked,hpd90_lower,10,-0.032768
+10,88,transitory_technology,Hours worked,hpd90_lower,11,-0.041094
+10,88,transitory_technology,Hours worked,hpd90_lower,12,-0.046085
+10,88,transitory_technology,Hours worked,hpd90_lower,13,-0.047743
+10,88,transitory_technology,Hours worked,hpd90_lower,14,-0.051077
+10,88,transitory_technology,Hours worked,hpd90_lower,15,-0.051077
+10,88,transitory_technology,Hours worked,hpd90_lower,16,-0.054412
+10,88,transitory_technology,Hours worked,hpd90_lower,17,-0.054412
+10,88,transitory_technology,Hours worked,hpd90_lower,18,-0.056069
+10,88,transitory_technology,Hours worked,hpd90_lower,19,-0.057726
+10,88,transitory_technology,Hours worked,hpd90_lower,20,-0.059403
+10,88,transitory_technology,Hours worked,hpd90_upper,1,-1.096003
+10,88,transitory_technology,Hours worked,hpd90_upper,2,-0.543600
+10,88,transitory_technology,Hours worked,hpd90_upper,3,-0.152569
+10,88,transitory_technology,Hours worked,hpd90_upper,4,0.035439
+10,88,transitory_technology,Hours worked,hpd90_upper,5,0.121976
+10,88,transitory_technology,Hours worked,hpd90_upper,6,0.131959
+10,88,transitory_technology,Hours worked,hpd90_upper,7,0.118641
+10,88,transitory_technology,Hours worked,hpd90_upper,8,0.097017
+10,88,transitory_technology,Hours worked,hpd90_upper,9,0.075373
+10,88,transitory_technology,Hours worked,hpd90_upper,10,0.052092
+10,88,transitory_technology,Hours worked,hpd90_upper,11,0.032125
+10,88,transitory_technology,Hours worked,hpd90_upper,12,0.015472
+10,88,transitory_technology,Hours worked,hpd90_upper,13,0.002174
+10,88,transitory_technology,Hours worked,hpd90_upper,14,-0.007809
+10,88,transitory_technology,Hours worked,hpd90_upper,15,-0.012801
+10,88,transitory_technology,Hours worked,hpd90_upper,16,-0.016135
+10,88,transitory_technology,Hours worked,hpd90_upper,17,-0.017792
+10,88,transitory_technology,Hours worked,hpd90_upper,18,-0.017792
+10,88,transitory_technology,Hours worked,hpd90_upper,19,-0.019470
+10,88,transitory_technology,Hours worked,hpd90_upper,20,-0.019470
+10,88,transitory_technology,Interest rate,mean,1,-0.169813
+10,88,transitory_technology,Interest rate,mean,2,-0.280852
+10,88,transitory_technology,Interest rate,mean,3,-0.344682
+10,88,transitory_technology,Interest rate,mean,4,-0.321408
+10,88,transitory_technology,Interest rate,mean,5,-0.260906
+10,88,transitory_technology,Interest rate,mean,6,-0.201727
+10,88,transitory_technology,Interest rate,mean,7,-0.158515
+10,88,transitory_technology,Interest rate,mean,8,-0.131914
+10,88,transitory_technology,Interest rate,mean,9,-0.116626
+10,88,transitory_technology,Interest rate,mean,10,-0.107978
+10,88,transitory_technology,Interest rate,mean,11,-0.101993
+10,88,transitory_technology,Interest rate,mean,12,-0.097342
+10,88,transitory_technology,Interest rate,mean,13,-0.093353
+10,88,transitory_technology,Interest rate,mean,14,-0.089363
+10,88,transitory_technology,Interest rate,mean,15,-0.085374
+10,88,transitory_technology,Interest rate,mean,16,-0.082047
+10,88,transitory_technology,Interest rate,mean,17,-0.078728
+10,88,transitory_technology,Interest rate,mean,18,-0.076063
+10,88,transitory_technology,Interest rate,mean,19,-0.073406
+10,88,transitory_technology,Interest rate,mean,20,-0.070749
+10,88,transitory_technology,Interest rate,hpd70_lower,1,-0.196414
+10,88,transitory_technology,Interest rate,hpd70_lower,2,-0.314762
+10,88,transitory_technology,Interest rate,hpd70_lower,3,-0.383913
+10,88,transitory_technology,Interest rate,hpd70_lower,4,-0.351998
+10,88,transitory_technology,Interest rate,hpd70_lower,5,-0.288169
+10,88,transitory_technology,Interest rate,hpd70_lower,6,-0.234975
+10,88,transitory_technology,Interest rate,hpd70_lower,7,-0.193749
+10,88,transitory_technology,Interest rate,hpd70_lower,8,-0.163829
+10,88,transitory_technology,Interest rate,hpd70_lower,9,-0.145876
+10,88,transitory_technology,Interest rate,hpd70_lower,10,-0.134579
+10,88,transitory_technology,Interest rate,hpd70_lower,11,-0.123935
+10,88,transitory_technology,Interest rate,hpd70_lower,12,-0.117951
+10,88,transitory_technology,Interest rate,hpd70_lower,13,-0.113962
+10,88,transitory_technology,Interest rate,hpd70_lower,14,-0.109310
+10,88,transitory_technology,Interest rate,hpd70_lower,15,-0.101993
+10,88,transitory_technology,Interest rate,hpd70_lower,16,-0.098004
+10,88,transitory_technology,Interest rate,hpd70_lower,17,-0.094685
+10,88,transitory_technology,Interest rate,hpd70_lower,18,-0.092020
+10,88,transitory_technology,Interest rate,hpd70_lower,19,-0.087369
+10,88,transitory_technology,Interest rate,hpd70_lower,20,-0.083379
+10,88,transitory_technology,Interest rate,hpd70_upper,1,-0.136573
+10,88,transitory_technology,Interest rate,hpd70_upper,2,-0.240296
+10,88,transitory_technology,Interest rate,hpd70_upper,3,-0.298142
+10,88,transitory_technology,Interest rate,hpd70_upper,4,-0.277525
+10,88,transitory_technology,Interest rate,hpd70_upper,5,-0.221012
+10,88,transitory_technology,Interest rate,hpd70_upper,6,-0.162504
+10,88,transitory_technology,Interest rate,hpd70_upper,7,-0.120616
+10,88,transitory_technology,Interest rate,hpd70_upper,8,-0.096680
+10,88,transitory_technology,Interest rate,hpd70_upper,9,-0.087369
+10,88,transitory_technology,Interest rate,hpd70_upper,10,-0.084041
+10,88,transitory_technology,Interest rate,hpd70_upper,11,-0.077395
+10,88,transitory_technology,Interest rate,hpd70_upper,12,-0.072744
+10,88,transitory_technology,Interest rate,hpd70_upper,13,-0.068754
+10,88,transitory_technology,Interest rate,hpd70_upper,14,-0.064095
+10,88,transitory_technology,Interest rate,hpd70_upper,15,-0.060105
+10,88,transitory_technology,Interest rate,hpd70_upper,16,-0.056786
+10,88,transitory_technology,Interest rate,hpd70_upper,17,-0.054121
+10,88,transitory_technology,Interest rate,hpd70_upper,18,-0.051464
+10,88,transitory_technology,Interest rate,hpd70_upper,19,-0.048807
+10,88,transitory_technology,Interest rate,hpd70_upper,20,-0.046813
+10,88,transitory_technology,Interest rate,hpd90_lower,1,-0.248275
+10,88,transitory_technology,Interest rate,hpd90_lower,2,-0.389897
+10,88,transitory_technology,Interest rate,hpd90_lower,3,-0.457046
+10,88,transitory_technology,Interest rate,hpd90_lower,4,-0.423807
+10,88,transitory_technology,Interest rate,hpd90_lower,5,-0.361972
+10,88,transitory_technology,Interest rate,hpd90_lower,6,-0.305451
+10,88,transitory_technology,Interest rate,hpd90_lower,7,-0.256916
+10,88,transitory_technology,Interest rate,hpd90_lower,8,-0.213695
+10,88,transitory_technology,Interest rate,hpd90_lower,9,-0.191092
+10,88,transitory_technology,Interest rate,hpd90_lower,10,-0.174472
+10,88,transitory_technology,Interest rate,hpd90_lower,11,-0.164499
+10,88,transitory_technology,Interest rate,hpd90_lower,12,-0.158515
+10,88,transitory_technology,Interest rate,hpd90_lower,13,-0.152531
+10,88,transitory_technology,Interest rate,hpd90_lower,14,-0.147209
+10,88,transitory_technology,Interest rate,hpd90_lower,15,-0.140563
+10,88,transitory_technology,Interest rate,hpd90_lower,16,-0.136573
+10,88,transitory_technology,Interest rate,hpd90_lower,17,-0.131914
+10,88,transitory_technology,Interest rate,hpd90_lower,18,-0.128595
+10,88,transitory_technology,Interest rate,hpd90_lower,19,-0.125267
+10,88,transitory_technology,Interest rate,hpd90_lower,20,-0.122610
+10,88,transitory_technology,Interest rate,hpd90_upper,1,-0.105983
+10,88,transitory_technology,Interest rate,hpd90_upper,2,-0.186440
+10,88,transitory_technology,Interest rate,hpd90_upper,3,-0.242291
+10,88,transitory_technology,Interest rate,hpd90_upper,4,-0.230323
+10,88,transitory_technology,Interest rate,hpd90_upper,5,-0.178461
+10,88,transitory_technology,Interest rate,hpd90_upper,6,-0.113962
+10,88,transitory_technology,Interest rate,hpd90_upper,7,-0.069416
+10,88,transitory_technology,Interest rate,hpd90_upper,8,-0.050802
+10,88,transitory_technology,Interest rate,hpd90_upper,9,-0.043486
+10,88,transitory_technology,Interest rate,hpd90_upper,10,-0.043486
+10,88,transitory_technology,Interest rate,hpd90_upper,11,-0.042823
+10,88,transitory_technology,Interest rate,hpd90_upper,12,-0.041491
+10,88,transitory_technology,Interest rate,hpd90_upper,13,-0.039496
+10,88,transitory_technology,Interest rate,hpd90_upper,14,-0.038164
+10,88,transitory_technology,Interest rate,hpd90_upper,15,-0.036169
+10,88,transitory_technology,Interest rate,hpd90_upper,16,-0.034174
+10,88,transitory_technology,Interest rate,hpd90_upper,17,-0.032180
+10,88,transitory_technology,Interest rate,hpd90_upper,18,-0.031518
+10,88,transitory_technology,Interest rate,hpd90_upper,19,-0.030185
+10,88,transitory_technology,Interest rate,hpd90_upper,20,-0.028861
+10,88,transitory_technology,Real wage,mean,1,0.069151
+10,88,transitory_technology,Real wage,mean,2,0.115028
+10,88,transitory_technology,Real wage,mean,3,0.157579
+10,88,transitory_technology,Real wage,mean,4,0.196810
+10,88,transitory_technology,Real wage,mean,5,0.230049
+10,88,transitory_technology,Real wage,mean,6,0.253323
+10,88,transitory_technology,Real wage,mean,7,0.267286
+10,88,transitory_technology,Real wage,mean,8,0.271938
+10,88,transitory_technology,Real wage,mean,9,0.270613
+10,88,transitory_technology,Real wage,mean,10,0.265291
+10,88,transitory_technology,Real wage,mean,11,0.256650
+10,88,transitory_technology,Real wage,mean,12,0.246007
+10,88,transitory_technology,Real wage,mean,13,0.235371
+10,88,transitory_technology,Real wage,mean,14,0.224736
+10,88,transitory_technology,Real wage,mean,15,0.214762
+10,88,transitory_technology,Real wage,mean,16,0.204789
+10,88,transitory_technology,Real wage,mean,17,0.195478
+10,88,transitory_technology,Real wage,mean,18,0.186837
+10,88,transitory_technology,Real wage,mean,19,0.178858
+10,88,transitory_technology,Real wage,mean,20,0.171542
+10,88,transitory_technology,Real wage,hpd70_lower,1,0.030582
+10,88,transitory_technology,Real wage,hpd70_lower,2,0.068480
+10,88,transitory_technology,Real wage,hpd70_lower,3,0.104385
+10,88,transitory_technology,Real wage,hpd70_lower,4,0.139627
+10,88,transitory_technology,Real wage,hpd70_lower,5,0.165557
+10,88,transitory_technology,Real wage,hpd70_lower,6,0.182847
+10,88,transitory_technology,Real wage,hpd70_lower,7,0.197472
+10,88,transitory_technology,Real wage,hpd70_lower,8,0.202794
+10,88,transitory_technology,Real wage,hpd70_lower,9,0.201462
+10,88,transitory_technology,Real wage,hpd70_lower,10,0.194145
+10,88,transitory_technology,Real wage,hpd70_lower,11,0.186167
+10,88,transitory_technology,Real wage,hpd70_lower,12,0.176193
+10,88,transitory_technology,Real wage,hpd70_lower,13,0.164895
+10,88,transitory_technology,Real wage,hpd70_lower,14,0.154252
+10,88,transitory_technology,Real wage,hpd70_lower,15,0.142954
+10,88,transitory_technology,Real wage,hpd70_lower,16,0.134305
+10,88,transitory_technology,Real wage,hpd70_lower,17,0.126996
+10,88,transitory_technology,Real wage,hpd70_lower,18,0.119018
+10,88,transitory_technology,Real wage,hpd70_lower,19,0.112363
+10,88,transitory_technology,Real wage,hpd70_lower,20,0.105717
+10,88,transitory_technology,Real wage,hpd70_upper,1,0.103060
+10,88,transitory_technology,Real wage,hpd70_upper,2,0.158241
+10,88,transitory_technology,Real wage,hpd70_upper,3,0.202124
+10,88,transitory_technology,Real wage,hpd70_upper,4,0.246007
+10,88,transitory_technology,Real wage,hpd70_upper,5,0.272608
+10,88,transitory_technology,Real wage,hpd70_upper,6,0.298539
+10,88,transitory_technology,Real wage,hpd70_upper,7,0.311169
+10,88,transitory_technology,Real wage,hpd70_upper,8,0.315158
+10,88,transitory_technology,Real wage,hpd70_upper,9,0.317815
+10,88,transitory_technology,Real wage,hpd70_upper,10,0.307180
+10,88,transitory_technology,Real wage,hpd70_upper,11,0.297206
+10,88,transitory_technology,Real wage,hpd70_upper,12,0.285238
+10,88,transitory_technology,Real wage,hpd70_upper,13,0.271938
+10,88,transitory_technology,Real wage,hpd70_upper,14,0.258645
+10,88,transitory_technology,Real wage,hpd70_upper,15,0.246677
+10,88,transitory_technology,Real wage,hpd70_upper,16,0.234039
+10,88,transitory_technology,Real wage,hpd70_upper,17,0.222071
+10,88,transitory_technology,Real wage,hpd70_upper,18,0.212768
+10,88,transitory_technology,Real wage,hpd70_upper,19,0.204119
+10,88,transitory_technology,Real wage,hpd70_upper,20,0.194815
+10,88,transitory_technology,Real wage,hpd90_lower,1,-0.015958
+10,88,transitory_technology,Real wage,hpd90_lower,2,0.010635
+10,88,transitory_technology,Real wage,hpd90_lower,3,0.041225
+10,88,transitory_technology,Real wage,hpd90_lower,4,0.075797
+10,88,transitory_technology,Real wage,hpd90_lower,5,0.101066
+10,88,transitory_technology,Real wage,hpd90_lower,6,0.123669
+10,88,transitory_technology,Real wage,hpd90_lower,7,0.135637
+10,88,transitory_technology,Real wage,hpd90_lower,8,0.142284
+10,88,transitory_technology,Real wage,hpd90_lower,9,0.140289
+10,88,transitory_technology,Real wage,hpd90_lower,10,0.134975
+10,88,transitory_technology,Real wage,hpd90_lower,11,0.125002
+10,88,transitory_technology,Real wage,hpd90_lower,12,0.115028
+10,88,transitory_technology,Real wage,hpd90_lower,13,0.107712
+10,88,transitory_technology,Real wage,hpd90_lower,14,0.099733
+10,88,transitory_technology,Real wage,hpd90_lower,15,0.091754
+10,88,transitory_technology,Real wage,hpd90_lower,16,0.085108
+10,88,transitory_technology,Real wage,hpd90_lower,17,0.079124
+10,88,transitory_technology,Real wage,hpd90_lower,18,0.074465
+10,88,transitory_technology,Real wage,hpd90_lower,19,0.070475
+10,88,transitory_technology,Real wage,hpd90_lower,20,0.066486
+10,88,transitory_technology,Real wage,hpd90_upper,1,0.155584
+10,88,transitory_technology,Real wage,hpd90_upper,2,0.226730
+10,88,transitory_technology,Real wage,hpd90_upper,3,0.283244
+10,88,transitory_technology,Real wage,hpd90_upper,4,0.321805
+10,88,transitory_technology,Real wage,hpd90_upper,5,0.359704
+10,88,transitory_technology,Real wage,hpd90_upper,6,0.390294
+10,88,transitory_technology,Real wage,hpd90_upper,7,0.404257
+10,88,transitory_technology,Real wage,hpd90_upper,8,0.412235
+10,88,transitory_technology,Real wage,hpd90_upper,9,0.410241
+10,88,transitory_technology,Real wage,hpd90_upper,10,0.408246
+10,88,transitory_technology,Real wage,hpd90_upper,11,0.398273
+10,88,transitory_technology,Real wage,hpd90_upper,12,0.388299
+10,88,transitory_technology,Real wage,hpd90_upper,13,0.380321
+10,88,transitory_technology,Real wage,hpd90_upper,14,0.370347
+10,88,transitory_technology,Real wage,hpd90_upper,15,0.360374
+10,88,transitory_technology,Real wage,hpd90_upper,16,0.351725
+10,88,transitory_technology,Real wage,hpd90_upper,17,0.342422
+10,88,transitory_technology,Real wage,hpd90_upper,18,0.329783
+10,88,transitory_technology,Real wage,hpd90_upper,19,0.320480
+10,88,transitory_technology,Real wage,hpd90_upper,20,0.310507
+10,88,transitory_technology,Real exchange rate,mean,1,0.748117
+10,88,transitory_technology,Real exchange rate,mean,2,1.219438
+10,88,transitory_technology,Real exchange rate,mean,3,1.391508
+10,88,transitory_technology,Real exchange rate,mean,4,1.341653
+10,88,transitory_technology,Real exchange rate,mean,5,1.174550
+10,88,transitory_technology,Real exchange rate,mean,6,0.970072
+10,88,transitory_technology,Real exchange rate,mean,7,0.775558
+10,88,transitory_technology,Real exchange rate,mean,8,0.610970
+10,88,transitory_technology,Real exchange rate,mean,9,0.483788
+10,88,transitory_technology,Real exchange rate,mean,10,0.386531
+10,88,transitory_technology,Real exchange rate,mean,11,0.316716
+10,88,transitory_technology,Real exchange rate,mean,12,0.264347
+10,88,transitory_technology,Real exchange rate,mean,13,0.224427
+10,88,transitory_technology,Real exchange rate,mean,14,0.197015
+10,88,transitory_technology,Real exchange rate,mean,15,0.174571
+10,88,transitory_technology,Real exchange rate,mean,16,0.159609
+10,88,transitory_technology,Real exchange rate,mean,17,0.147130
+10,88,transitory_technology,Real exchange rate,mean,18,0.137165
+10,88,transitory_technology,Real exchange rate,mean,19,0.129684
+10,88,transitory_technology,Real exchange rate,mean,20,0.124686
+10,88,transitory_technology,Real exchange rate,hpd70_lower,1,0.663339
+10,88,transitory_technology,Real exchange rate,hpd70_lower,2,1.097254
+10,88,transitory_technology,Real exchange rate,hpd70_lower,3,1.239398
+10,88,transitory_technology,Real exchange rate,hpd70_lower,4,1.192027
+10,88,transitory_technology,Real exchange rate,hpd70_lower,5,1.022441
+10,88,transitory_technology,Real exchange rate,hpd70_lower,6,0.805483
+10,88,transitory_technology,Real exchange rate,hpd70_lower,7,0.613454
+10,88,transitory_technology,Real exchange rate,hpd70_lower,8,0.446382
+10,88,transitory_technology,Real exchange rate,hpd70_lower,9,0.311718
+10,88,transitory_technology,Real exchange rate,hpd70_lower,10,0.216945
+10,88,transitory_technology,Real exchange rate,hpd70_lower,11,0.142133
+10,88,transitory_technology,Real exchange rate,hpd70_lower,12,0.094761
+10,88,transitory_technology,Real exchange rate,hpd70_lower,13,0.064836
+10,88,transitory_technology,Real exchange rate,hpd70_lower,14,0.037394
+10,88,transitory_technology,Real exchange rate,hpd70_lower,15,0.019948
+10,88,transitory_technology,Real exchange rate,hpd70_lower,16,0.012467
+10,88,transitory_technology,Real exchange rate,hpd70_lower,17,0.012467
+10,88,transitory_technology,Real exchange rate,hpd70_lower,18,0.009983
+10,88,transitory_technology,Real exchange rate,hpd70_lower,19,0.012467
+10,88,transitory_technology,Real exchange rate,hpd70_lower,20,0.014951
+10,88,transitory_technology,Real exchange rate,hpd70_upper,1,0.820446
+10,88,transitory_technology,Real exchange rate,hpd70_upper,2,1.326690
+10,88,transitory_technology,Real exchange rate,hpd70_upper,3,1.528685
+10,88,transitory_technology,Real exchange rate,hpd70_upper,4,1.481283
+10,88,transitory_technology,Real exchange rate,hpd70_upper,5,1.324176
+10,88,transitory_technology,Real exchange rate,hpd70_upper,6,1.114700
+10,88,transitory_technology,Real exchange rate,hpd70_upper,7,0.915219
+10,88,transitory_technology,Real exchange rate,hpd70_upper,8,0.758112
+10,88,transitory_technology,Real exchange rate,hpd70_upper,9,0.610970
+10,88,transitory_technology,Real exchange rate,hpd70_upper,10,0.503748
+10,88,transitory_technology,Real exchange rate,hpd70_upper,11,0.418940
+10,88,transitory_technology,Real exchange rate,hpd70_upper,12,0.351609
+10,88,transitory_technology,Real exchange rate,hpd70_upper,13,0.301753
+10,88,transitory_technology,Real exchange rate,hpd70_upper,14,0.266831
+10,88,transitory_technology,Real exchange rate,hpd70_upper,15,0.236905
+10,88,transitory_technology,Real exchange rate,hpd70_upper,16,0.206980
+10,88,transitory_technology,Real exchange rate,hpd70_upper,17,0.187020
+10,88,transitory_technology,Real exchange rate,hpd70_upper,18,0.172058
+10,88,transitory_technology,Real exchange rate,hpd70_upper,19,0.159609
+10,88,transitory_technology,Real exchange rate,hpd70_upper,20,0.149614
+10,88,transitory_technology,Real exchange rate,hpd90_lower,1,0.553603
+10,88,transitory_technology,Real exchange rate,hpd90_lower,2,0.927668
+10,88,transitory_technology,Real exchange rate,hpd90_lower,3,1.032406
+10,88,transitory_technology,Real exchange rate,hpd90_lower,4,0.967588
+10,88,transitory_technology,Real exchange rate,hpd90_lower,5,0.803000
+10,88,transitory_technology,Real exchange rate,hpd90_lower,6,0.601005
+10,88,transitory_technology,Real exchange rate,hpd90_lower,7,0.399010
+10,88,transitory_technology,Real exchange rate,hpd90_lower,8,0.249384
+10,88,transitory_technology,Real exchange rate,hpd90_lower,9,0.147130
+10,88,transitory_technology,Real exchange rate,hpd90_lower,10,0.067320
+10,88,transitory_technology,Real exchange rate,hpd90_lower,11,0.022432
+10,88,transitory_technology,Real exchange rate,hpd90_lower,12,-0.007493
+10,88,transitory_technology,Real exchange rate,hpd90_lower,13,-0.024940
+10,88,transitory_technology,Real exchange rate,hpd90_lower,14,-0.039902
+10,88,transitory_technology,Real exchange rate,hpd90_lower,15,-0.039902
+10,88,transitory_technology,Real exchange rate,hpd90_lower,16,-0.042386
+10,88,transitory_technology,Real exchange rate,hpd90_lower,17,-0.039902
+10,88,transitory_technology,Real exchange rate,hpd90_lower,18,-0.034905
+10,88,transitory_technology,Real exchange rate,hpd90_lower,19,-0.032421
+10,88,transitory_technology,Real exchange rate,hpd90_lower,20,-0.027423
+10,88,transitory_technology,Real exchange rate,hpd90_upper,1,0.937663
+10,88,transitory_technology,Real exchange rate,hpd90_upper,2,1.521203
+10,88,transitory_technology,Real exchange rate,hpd90_upper,3,1.745642
+10,88,transitory_technology,Real exchange rate,hpd90_upper,4,1.710719
+10,88,transitory_technology,Real exchange rate,hpd90_upper,5,1.541134
+10,88,transitory_technology,Real exchange rate,hpd90_upper,6,1.344136
+10,88,transitory_technology,Real exchange rate,hpd90_upper,7,1.169583
+10,88,transitory_technology,Real exchange rate,hpd90_upper,8,1.019957
+10,88,transitory_technology,Real exchange rate,hpd90_upper,9,0.877813
+10,88,transitory_technology,Real exchange rate,hpd90_upper,10,0.768077
+10,88,transitory_technology,Real exchange rate,hpd90_upper,11,0.705743
+10,88,transitory_technology,Real exchange rate,hpd90_upper,12,0.648376
+10,88,transitory_technology,Real exchange rate,hpd90_upper,13,0.583529
+10,88,transitory_technology,Real exchange rate,hpd90_upper,14,0.543638
+10,88,transitory_technology,Real exchange rate,hpd90_upper,15,0.503748
+10,88,transitory_technology,Real exchange rate,hpd90_upper,16,0.476307
+10,88,transitory_technology,Real exchange rate,hpd90_upper,17,0.453863
+10,88,transitory_technology,Real exchange rate,hpd90_upper,18,0.426422
+10,88,transitory_technology,Real exchange rate,hpd90_upper,19,0.403978
+10,88,transitory_technology,Real exchange rate,hpd90_upper,20,0.381534
+10,88,transitory_technology,CPI inflation,mean,1,-0.144481
+10,88,transitory_technology,CPI inflation,mean,2,-0.089297
+10,88,transitory_technology,CPI inflation,mean,3,-0.031116
+10,88,transitory_technology,CPI inflation,mean,4,-0.003857
+10,88,transitory_technology,CPI inflation,mean,5,0.001461
+10,88,transitory_technology,CPI inflation,mean,6,-0.002528
+10,88,transitory_technology,CPI inflation,mean,7,-0.008177
+10,88,transitory_technology,CPI inflation,mean,8,-0.012166
+10,88,transitory_technology,CPI inflation,mean,9,-0.014161
+10,88,transitory_technology,CPI inflation,mean,10,-0.014827
+10,88,transitory_technology,CPI inflation,mean,11,-0.014496
+10,88,transitory_technology,CPI inflation,mean,12,-0.014161
+10,88,transitory_technology,CPI inflation,mean,13,-0.013830
+10,88,transitory_technology,CPI inflation,mean,14,-0.013499
+10,88,transitory_technology,CPI inflation,mean,15,-0.013164
+10,88,transitory_technology,CPI inflation,mean,16,-0.013164
+10,88,transitory_technology,CPI inflation,mean,17,-0.012833
+10,88,transitory_technology,CPI inflation,mean,18,-0.012833
+10,88,transitory_technology,CPI inflation,mean,19,-0.012501
+10,88,transitory_technology,CPI inflation,mean,20,-0.012501
+10,88,transitory_technology,CPI inflation,hpd70_lower,1,-0.170412
+10,88,transitory_technology,CPI inflation,hpd70_lower,2,-0.103590
+10,88,transitory_technology,CPI inflation,hpd70_lower,3,-0.041089
+10,88,transitory_technology,CPI inflation,hpd70_lower,4,-0.014827
+10,88,transitory_technology,CPI inflation,hpd70_lower,5,-0.008512
+10,88,transitory_technology,CPI inflation,hpd70_lower,6,-0.010507
+10,88,transitory_technology,CPI inflation,hpd70_lower,7,-0.013164
+10,88,transitory_technology,CPI inflation,hpd70_lower,8,-0.016822
+10,88,transitory_technology,CPI inflation,hpd70_lower,9,-0.018485
+10,88,transitory_technology,CPI inflation,hpd70_lower,10,-0.018817
+10,88,transitory_technology,CPI inflation,hpd70_lower,11,-0.017819
+10,88,transitory_technology,CPI inflation,hpd70_lower,12,-0.016822
+10,88,transitory_technology,CPI inflation,hpd70_lower,13,-0.016156
+10,88,transitory_technology,CPI inflation,hpd70_lower,14,-0.015493
+10,88,transitory_technology,CPI inflation,hpd70_lower,15,-0.015158
+10,88,transitory_technology,CPI inflation,hpd70_lower,16,-0.014827
+10,88,transitory_technology,CPI inflation,hpd70_lower,17,-0.014496
+10,88,transitory_technology,CPI inflation,hpd70_lower,18,-0.014161
+10,88,transitory_technology,CPI inflation,hpd70_lower,19,-0.014161
+10,88,transitory_technology,CPI inflation,hpd70_lower,20,-0.014161
+10,88,transitory_technology,CPI inflation,hpd70_upper,1,-0.114230
+10,88,transitory_technology,CPI inflation,hpd70_upper,2,-0.073339
+10,88,transitory_technology,CPI inflation,hpd70_upper,3,-0.019148
+10,88,transitory_technology,CPI inflation,hpd70_upper,4,0.007114
+10,88,transitory_technology,CPI inflation,hpd70_upper,5,0.011770
+10,88,transitory_technology,CPI inflation,hpd70_upper,6,0.004788
+10,88,transitory_technology,CPI inflation,hpd70_upper,7,-0.002528
+10,88,transitory_technology,CPI inflation,hpd70_upper,8,-0.006849
+10,88,transitory_technology,CPI inflation,hpd70_upper,9,-0.008843
+10,88,transitory_technology,CPI inflation,hpd70_upper,10,-0.009841
+10,88,transitory_technology,CPI inflation,hpd70_upper,11,-0.009841
+10,88,transitory_technology,CPI inflation,hpd70_upper,12,-0.009509
+10,88,transitory_technology,CPI inflation,hpd70_upper,13,-0.009174
+10,88,transitory_technology,CPI inflation,hpd70_upper,14,-0.008512
+10,88,transitory_technology,CPI inflation,hpd70_upper,15,-0.008512
+10,88,transitory_technology,CPI inflation,hpd70_upper,16,-0.008177
+10,88,transitory_technology,CPI inflation,hpd70_upper,17,-0.008177
+10,88,transitory_technology,CPI inflation,hpd70_upper,18,-0.008177
+10,88,transitory_technology,CPI inflation,hpd70_upper,19,-0.008177
+10,88,transitory_technology,CPI inflation,hpd70_upper,20,-0.008177
+10,88,transitory_technology,CPI inflation,hpd90_lower,1,-0.212631
+10,88,transitory_technology,CPI inflation,hpd90_lower,2,-0.128855
+10,88,transitory_technology,CPI inflation,hpd90_lower,3,-0.059376
+10,88,transitory_technology,CPI inflation,hpd90_lower,4,-0.030785
+10,88,transitory_technology,CPI inflation,hpd90_lower,5,-0.020811
+10,88,transitory_technology,CPI inflation,hpd90_lower,6,-0.020480
+10,88,transitory_technology,CPI inflation,hpd90_lower,7,-0.023137
+10,88,transitory_technology,CPI inflation,hpd90_lower,8,-0.026129
+10,88,transitory_technology,CPI inflation,hpd90_lower,9,-0.027793
+10,88,transitory_technology,CPI inflation,hpd90_lower,10,-0.027793
+10,88,transitory_technology,CPI inflation,hpd90_lower,11,-0.026464
+10,88,transitory_technology,CPI inflation,hpd90_lower,12,-0.025798
+10,88,transitory_technology,CPI inflation,hpd90_lower,13,-0.024801
+10,88,transitory_technology,CPI inflation,hpd90_lower,14,-0.024470
+10,88,transitory_technology,CPI inflation,hpd90_lower,15,-0.023803
+10,88,transitory_technology,CPI inflation,hpd90_lower,16,-0.023472
+10,88,transitory_technology,CPI inflation,hpd90_lower,17,-0.023137
+10,88,transitory_technology,CPI inflation,hpd90_lower,18,-0.022806
+10,88,transitory_technology,CPI inflation,hpd90_lower,19,-0.022806
+10,88,transitory_technology,CPI inflation,hpd90_lower,20,-0.022475
+10,88,transitory_technology,CPI inflation,hpd90_upper,1,-0.078657
+10,88,transitory_technology,CPI inflation,hpd90_upper,2,-0.052395
+10,88,transitory_technology,CPI inflation,hpd90_upper,3,-0.006182
+10,88,transitory_technology,CPI inflation,hpd90_upper,4,0.024400
+10,88,transitory_technology,CPI inflation,hpd90_upper,5,0.025733
+10,88,transitory_technology,CPI inflation,hpd90_upper,6,0.014762
+10,88,transitory_technology,CPI inflation,hpd90_upper,7,0.004788
+10,88,transitory_technology,CPI inflation,hpd90_upper,8,-0.000864
+10,88,transitory_technology,CPI inflation,hpd90_upper,9,-0.003190
+10,88,transitory_technology,CPI inflation,hpd90_upper,10,-0.004523
+10,88,transitory_technology,CPI inflation,hpd90_upper,11,-0.004854
+10,88,transitory_technology,CPI inflation,hpd90_upper,12,-0.005185
+10,88,transitory_technology,CPI inflation,hpd90_upper,13,-0.005185
+10,88,transitory_technology,CPI inflation,hpd90_upper,14,-0.005185
+10,88,transitory_technology,CPI inflation,hpd90_upper,15,-0.005185
+10,88,transitory_technology,CPI inflation,hpd90_upper,16,-0.005185
+10,88,transitory_technology,CPI inflation,hpd90_upper,17,-0.005185
+10,88,transitory_technology,CPI inflation,hpd90_upper,18,-0.005185
+10,88,transitory_technology,CPI inflation,hpd90_upper,19,-0.005185
+10,88,transitory_technology,CPI inflation,hpd90_upper,20,-0.005185
+10,88,transitory_technology,Domestic inflation,mean,1,-0.385369
+10,88,transitory_technology,Domestic inflation,mean,2,-0.272343
+10,88,transitory_technology,Domestic inflation,mean,3,-0.105452
+10,88,transitory_technology,Domestic inflation,mean,4,0.006250
+10,88,transitory_technology,Domestic inflation,mean,5,0.058774
+10,88,transitory_technology,Domestic inflation,mean,6,0.070742
+10,88,transitory_technology,Domestic inflation,mean,7,0.062763
+10,88,transitory_technology,Domestic inflation,mean,8,0.048138
+10,88,transitory_technology,Domestic inflation,mean,9,0.033513
+10,88,transitory_technology,Domestic inflation,mean,10,0.020875
+10,88,transitory_technology,Domestic inflation,mean,11,0.012234
+10,88,transitory_technology,Domestic inflation,mean,12,0.005587
+10,88,transitory_technology,Domestic inflation,mean,13,0.000266
+10,88,transitory_technology,Domestic inflation,mean,14,-0.003061
+10,88,transitory_technology,Domestic inflation,mean,15,-0.005056
+10,88,transitory_technology,Domestic inflation,mean,16,-0.007051
+10,88,transitory_technology,Domestic inflation,mean,17,-0.008375
+10,88,transitory_technology,Domestic inflation,mean,18,-0.009045
+10,88,transitory_technology,Domestic inflation,mean,19,-0.009708
+10,88,transitory_technology,Domestic inflation,mean,20,-0.010370
+10,88,transitory_technology,Domestic inflation,hpd70_lower,1,-0.430585
+10,88,transitory_technology,Domestic inflation,hpd70_lower,2,-0.300268
+10,88,transitory_technology,Domestic inflation,hpd70_lower,3,-0.126731
+10,88,transitory_technology,Domestic inflation,hpd70_lower,4,-0.016354
+10,88,transitory_technology,Domestic inflation,hpd70_lower,5,0.038165
+10,88,transitory_technology,Domestic inflation,hpd70_lower,6,0.055454
+10,88,transitory_technology,Domestic inflation,hpd70_lower,7,0.052790
+10,88,transitory_technology,Domestic inflation,hpd70_lower,8,0.041492
+10,88,transitory_technology,Domestic inflation,hpd70_lower,9,0.028191
+10,88,transitory_technology,Domestic inflation,hpd70_lower,10,0.016223
+10,88,transitory_technology,Domestic inflation,hpd70_lower,11,0.007582
+10,88,transitory_technology,Domestic inflation,hpd70_lower,12,0.002260
+10,88,transitory_technology,Domestic inflation,hpd70_lower,13,-0.002391
+10,88,transitory_technology,Domestic inflation,hpd70_lower,14,-0.005056
+10,88,transitory_technology,Domestic inflation,hpd70_lower,15,-0.007051
+10,88,transitory_technology,Domestic inflation,hpd70_lower,16,-0.008375
+10,88,transitory_technology,Domestic inflation,hpd70_lower,17,-0.009708
+10,88,transitory_technology,Domestic inflation,hpd70_lower,18,-0.010370
+10,88,transitory_technology,Domestic inflation,hpd70_lower,19,-0.011040
+10,88,transitory_technology,Domestic inflation,hpd70_lower,20,-0.011702
+10,88,transitory_technology,Domestic inflation,hpd70_upper,1,-0.328194
+10,88,transitory_technology,Domestic inflation,hpd70_upper,2,-0.240428
+10,88,transitory_technology,Domestic inflation,hpd70_upper,3,-0.088162
+10,88,transitory_technology,Domestic inflation,hpd70_upper,4,0.022869
+10,88,transitory_technology,Domestic inflation,hpd70_upper,5,0.076726
+10,88,transitory_technology,Domestic inflation,hpd70_upper,6,0.084704
+10,88,transitory_technology,Domestic inflation,hpd70_upper,7,0.072074
+10,88,transitory_technology,Domestic inflation,hpd70_upper,8,0.055454
+10,88,transitory_technology,Domestic inflation,hpd70_upper,9,0.040821
+10,88,transitory_technology,Domestic inflation,hpd70_upper,10,0.027529
+10,88,transitory_technology,Domestic inflation,hpd70_upper,11,0.017556
+10,88,transitory_technology,Domestic inflation,hpd70_upper,12,0.009577
+10,88,transitory_technology,Domestic inflation,hpd70_upper,13,0.004255
+10,88,transitory_technology,Domestic inflation,hpd70_upper,14,0.000266
+10,88,transitory_technology,Domestic inflation,hpd70_upper,15,-0.002391
+10,88,transitory_technology,Domestic inflation,hpd70_upper,16,-0.003724
+10,88,transitory_technology,Domestic inflation,hpd70_upper,17,-0.005056
+10,88,transitory_technology,Domestic inflation,hpd70_upper,18,-0.006381
+10,88,transitory_technology,Domestic inflation,hpd70_upper,19,-0.007051
+10,88,transitory_technology,Domestic inflation,hpd70_upper,20,-0.007713
+10,88,transitory_technology,Domestic inflation,hpd90_lower,1,-0.502393
+10,88,transitory_technology,Domestic inflation,hpd90_lower,2,-0.341487
+10,88,transitory_technology,Domestic inflation,hpd90_lower,3,-0.149997
+10,88,transitory_technology,Domestic inflation,hpd90_lower,4,-0.040960
+10,88,transitory_technology,Domestic inflation,hpd90_lower,5,0.016223
+10,88,transitory_technology,Domestic inflation,hpd90_lower,6,0.036832
+10,88,transitory_technology,Domestic inflation,hpd90_lower,7,0.038827
+10,88,transitory_technology,Domestic inflation,hpd90_lower,8,0.028853
+10,88,transitory_technology,Domestic inflation,hpd90_lower,9,0.017556
+10,88,transitory_technology,Domestic inflation,hpd90_lower,10,0.008244
+10,88,transitory_technology,Domestic inflation,hpd90_lower,11,0.000266
+10,88,transitory_technology,Domestic inflation,hpd90_lower,12,-0.005056
+10,88,transitory_technology,Domestic inflation,hpd90_lower,13,-0.008375
+10,88,transitory_technology,Domestic inflation,hpd90_lower,14,-0.011040
+10,88,transitory_technology,Domestic inflation,hpd90_lower,15,-0.013035
+10,88,transitory_technology,Domestic inflation,hpd90_lower,16,-0.014359
+10,88,transitory_technology,Domestic inflation,hpd90_lower,17,-0.015692
+10,88,transitory_technology,Domestic inflation,hpd90_lower,18,-0.016354
+10,88,transitory_technology,Domestic inflation,hpd90_lower,19,-0.017024
+10,88,transitory_technology,Domestic inflation,hpd90_lower,20,-0.017024
+10,88,transitory_technology,Domestic inflation,hpd90_upper,1,-0.270348
+10,88,transitory_technology,Domestic inflation,hpd90_upper,2,-0.201859
+10,88,transitory_technology,Domestic inflation,hpd90_upper,3,-0.060237
+10,88,transitory_technology,Domestic inflation,hpd90_upper,4,0.058111
+10,88,transitory_technology,Domestic inflation,hpd90_upper,5,0.102657
+10,88,transitory_technology,Domestic inflation,hpd90_upper,6,0.105321
+10,88,transitory_technology,Domestic inflation,hpd90_upper,7,0.087369
+10,88,transitory_technology,Domestic inflation,hpd90_upper,8,0.066090
+10,88,transitory_technology,Domestic inflation,hpd90_upper,9,0.047476
+10,88,transitory_technology,Domestic inflation,hpd90_upper,10,0.033513
+10,88,transitory_technology,Domestic inflation,hpd90_upper,11,0.022207
+10,88,transitory_technology,Domestic inflation,hpd90_upper,12,0.014891
+10,88,transitory_technology,Domestic inflation,hpd90_upper,13,0.008907
+10,88,transitory_technology,Domestic inflation,hpd90_upper,14,0.004917
+10,88,transitory_technology,Domestic inflation,hpd90_upper,15,0.001598
+10,88,transitory_technology,Domestic inflation,hpd90_upper,16,-0.001067
+10,88,transitory_technology,Domestic inflation,hpd90_upper,17,-0.002391
+10,88,transitory_technology,Domestic inflation,hpd90_upper,18,-0.003724
+10,88,transitory_technology,Domestic inflation,hpd90_upper,19,-0.005056
+10,88,transitory_technology,Domestic inflation,hpd90_upper,20,-0.005718
+10,88,transitory_technology,Imported inflation,mean,1,0.303189
+10,88,transitory_technology,Imported inflation,mean,2,0.251327
+10,88,transitory_technology,Imported inflation,mean,3,0.106386
+10,88,transitory_technology,Imported inflation,mean,4,-0.022606
+10,88,transitory_technology,Imported inflation,mean,5,-0.104388
+10,88,transitory_technology,Imported inflation,mean,6,-0.138960
+10,88,transitory_technology,Imported inflation,mean,7,-0.140292
+10,88,transitory_technology,Imported inflation,mean,8,-0.124335
+10,88,transitory_technology,Imported inflation,mean,9,-0.102393
+10,88,transitory_technology,Imported inflation,mean,10,-0.081784
+10,88,transitory_technology,Imported inflation,mean,11,-0.063832
+10,88,transitory_technology,Imported inflation,mean,12,-0.050532
+10,88,transitory_technology,Imported inflation,mean,13,-0.040558
+10,88,transitory_technology,Imported inflation,mean,14,-0.033242
+10,88,transitory_technology,Imported inflation,mean,15,-0.027928
+10,88,transitory_technology,Imported inflation,mean,16,-0.023939
+10,88,transitory_technology,Imported inflation,mean,17,-0.021274
+10,88,transitory_technology,Imported inflation,mean,18,-0.018617
+10,88,transitory_technology,Imported inflation,mean,19,-0.017284
+10,88,transitory_technology,Imported inflation,mean,20,-0.015960
+10,88,transitory_technology,Imported inflation,hpd70_lower,1,0.264628
+10,88,transitory_technology,Imported inflation,hpd70_lower,2,0.216093
+10,88,transitory_technology,Imported inflation,hpd70_lower,3,0.076466
+10,88,transitory_technology,Imported inflation,hpd70_lower,4,-0.047875
+10,88,transitory_technology,Imported inflation,hpd70_lower,5,-0.123672
+10,88,transitory_technology,Imported inflation,hpd70_lower,6,-0.154917
+10,88,transitory_technology,Imported inflation,hpd70_lower,7,-0.154255
+10,88,transitory_technology,Imported inflation,hpd70_lower,8,-0.138960
+10,88,transitory_technology,Imported inflation,hpd70_lower,9,-0.116356
+10,88,transitory_technology,Imported inflation,hpd70_lower,10,-0.094415
+10,88,transitory_technology,Imported inflation,hpd70_lower,11,-0.075130
+10,88,transitory_technology,Imported inflation,hpd70_lower,12,-0.060505
+10,88,transitory_technology,Imported inflation,hpd70_lower,13,-0.049869
+10,88,transitory_technology,Imported inflation,hpd70_lower,14,-0.041891
+10,88,transitory_technology,Imported inflation,hpd70_lower,15,-0.036569
+10,88,transitory_technology,Imported inflation,hpd70_lower,16,-0.031917
+10,88,transitory_technology,Imported inflation,hpd70_lower,17,-0.028590
+10,88,transitory_technology,Imported inflation,hpd70_lower,18,-0.025263
+10,88,transitory_technology,Imported inflation,hpd70_lower,19,-0.022606
+10,88,transitory_technology,Imported inflation,hpd70_lower,20,-0.021274
+10,88,transitory_technology,Imported inflation,hpd70_upper,1,0.333109
+10,88,transitory_technology,Imported inflation,hpd70_upper,2,0.279923
+10,88,transitory_technology,Imported inflation,hpd70_upper,3,0.137630
+10,88,transitory_technology,Imported inflation,hpd70_upper,4,0.004657
+10,88,transitory_technology,Imported inflation,hpd70_upper,5,-0.085103
+10,88,transitory_technology,Imported inflation,hpd70_upper,6,-0.122340
+10,88,transitory_technology,Imported inflation,hpd70_upper,7,-0.124335
+10,88,transitory_technology,Imported inflation,hpd70_upper,8,-0.110372
+10,88,transitory_technology,Imported inflation,hpd70_upper,9,-0.090425
+10,88,transitory_technology,Imported inflation,hpd70_upper,10,-0.071141
+10,88,transitory_technology,Imported inflation,hpd70_upper,11,-0.054521
+10,88,transitory_technology,Imported inflation,hpd70_upper,12,-0.041891
+10,88,transitory_technology,Imported inflation,hpd70_upper,13,-0.031247
+10,88,transitory_technology,Imported inflation,hpd70_upper,14,-0.024601
+10,88,transitory_technology,Imported inflation,hpd70_upper,15,-0.018617
+10,88,transitory_technology,Imported inflation,hpd70_upper,16,-0.014627
+10,88,transitory_technology,Imported inflation,hpd70_upper,17,-0.011970
+10,88,transitory_technology,Imported inflation,hpd70_upper,18,-0.009976
+10,88,transitory_technology,Imported inflation,hpd70_upper,19,-0.008643
+10,88,transitory_technology,Imported inflation,hpd70_upper,20,-0.007311
+10,88,transitory_technology,Imported inflation,hpd90_lower,1,0.220745
+10,88,transitory_technology,Imported inflation,hpd90_lower,2,0.178194
+10,88,transitory_technology,Imported inflation,hpd90_lower,3,0.037896
+10,88,transitory_technology,Imported inflation,hpd90_lower,4,-0.083779
+10,88,transitory_technology,Imported inflation,hpd90_lower,5,-0.151598
+10,88,transitory_technology,Imported inflation,hpd90_lower,6,-0.176196
+10,88,transitory_technology,Imported inflation,hpd90_lower,7,-0.175534
+10,88,transitory_technology,Imported inflation,hpd90_lower,8,-0.156912
+10,88,transitory_technology,Imported inflation,hpd90_lower,9,-0.133646
+10,88,transitory_technology,Imported inflation,hpd90_lower,10,-0.109039
+10,88,transitory_technology,Imported inflation,hpd90_lower,11,-0.087768
+10,88,transitory_technology,Imported inflation,hpd90_lower,12,-0.073805
+10,88,transitory_technology,Imported inflation,hpd90_lower,13,-0.062500
+10,88,transitory_technology,Imported inflation,hpd90_lower,14,-0.055853
+10,88,transitory_technology,Imported inflation,hpd90_lower,15,-0.049199
+10,88,transitory_technology,Imported inflation,hpd90_lower,16,-0.045210
+10,88,transitory_technology,Imported inflation,hpd90_lower,17,-0.041220
+10,88,transitory_technology,Imported inflation,hpd90_lower,18,-0.038564
+10,88,transitory_technology,Imported inflation,hpd90_lower,19,-0.036569
+10,88,transitory_technology,Imported inflation,hpd90_lower,20,-0.034574
+10,88,transitory_technology,Imported inflation,hpd90_upper,1,0.388298
+10,88,transitory_technology,Imported inflation,hpd90_upper,2,0.326463
+10,88,transitory_technology,Imported inflation,hpd90_upper,3,0.169545
+10,88,transitory_technology,Imported inflation,hpd90_upper,4,0.032583
+10,88,transitory_technology,Imported inflation,hpd90_upper,5,-0.057178
+10,88,transitory_technology,Imported inflation,hpd90_upper,6,-0.099736
+10,88,transitory_technology,Imported inflation,hpd90_upper,7,-0.105720
+10,88,transitory_technology,Imported inflation,hpd90_upper,8,-0.094415
+10,88,transitory_technology,Imported inflation,hpd90_upper,9,-0.072473
+10,88,transitory_technology,Imported inflation,hpd90_upper,10,-0.053188
+10,88,transitory_technology,Imported inflation,hpd90_upper,11,-0.036569
+10,88,transitory_technology,Imported inflation,hpd90_upper,12,-0.025263
+10,88,transitory_technology,Imported inflation,hpd90_upper,13,-0.017284
+10,88,transitory_technology,Imported inflation,hpd90_upper,14,-0.011300
+10,88,transitory_technology,Imported inflation,hpd90_upper,15,-0.006649
+10,88,transitory_technology,Imported inflation,hpd90_upper,16,-0.003992
+10,88,transitory_technology,Imported inflation,hpd90_upper,17,-0.003322
+10,88,transitory_technology,Imported inflation,hpd90_upper,18,-0.002659
+10,88,transitory_technology,Imported inflation,hpd90_upper,19,-0.001997
+10,88,transitory_technology,Imported inflation,hpd90_upper,20,-0.001997

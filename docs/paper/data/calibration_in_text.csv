@@ -1,0 +1,20 @@
+parameter,symbol,value,unit,remark,source,page,pdf_page
+Cost of varying capital utilization,"$\gamma_{u,2}$",10000,,set high so that capital utilization does not vary,text 4.4.1,43,49
+Wage indexation to actual productivity growth,"$\chi_{W,g_{z}}$",0,,wages indexed to steady-state productivity growth instead,text 4.4.1,43,49
+Import-intensity adjustment cost (consumption),$\gamma_{IM^{C}}$,0,,no adjustment costs in final-goods production,text 4.4.1,43,49
+Import-intensity adjustment cost (investment),$\gamma_{IM^{I}}$,0,,no adjustment costs in final-goods production,text 4.4.1,43,49
+Import-intensity adjustment cost (government),$\gamma_{IM^{G}}$,0,,no adjustment costs in final-goods production,text 4.4.1,43,49
+Import-intensity adjustment cost (exports),$\gamma_{IM^{X}}$,0,,no adjustment costs in final-goods production,text 4.4.1,43,49
+Long-run growth of per capita hours worked,,0.7,% per year,about the sample average; no symbol given in the text,text 4.4.1,43,49
+Long-run growth of per capita GDP,,1.7,% per year,implied by hours growth plus labor-productivity growth,text 4.4.1,43,49
+Long-run growth of foreign GDP,$g_{\Delta Y^{*}}$,2.2,% per year,,text 4.4.1,44-45,50-51
+Long-run growth of world trade,$g_{\Delta WT^{*}}$,5.3,% per year,,text 4.4.1,44-45,50-51
+Long-run growth of per capita private consumption,$g_{\Delta C}$,1.7,% per year,,text 4.4.1,44-45,50-51
+Long-run growth of per capita fixed investment,$g_{\Delta I}$,1.7,% per year,,text 4.4.1,44-45,50-51
+Long-run growth of per capita exports,$g_{\Delta X}$,4.9,% per year,,text 4.4.1,44-45,50-51
+Long-run growth of per capita imports,$g_{\Delta IM}$,2.9,% per year,,text 4.4.1,44-45,50-51
+Long-run growth of per capita government consumption (implied),$g_{\Delta G}$,-1,% per year,implied by the calibration above,text 4.4.1,45,51
+Persistence of the domestic premium shock,$\varepsilon^{DRP}$ process,0.99,,fixed coefficient in the AR(1) process,display 3.u1,8,14
+Persistence of the VAT rate,$\tau^{C}$ process,0.99,,fixed coefficient in the AR(1) process,eq. (60),25,31
+Persistence of the inflation target,$\hat{\bar{\pi}}$ process,0.99,,fixed coefficient in the AR(1) process; Appendix D (260) writes it as a parameter $\rho_{\bar{\pi}}$,eq. (64),26,32
+Persistence of the foreign forward real rate,"$\widehat{rr}^{*,fwd}$ process",0.99,,fixed coefficient in the AR(1) process,eq. (90),33,39

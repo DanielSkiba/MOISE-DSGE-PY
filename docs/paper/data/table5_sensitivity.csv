@@ -1,0 +1,44 @@
+row_type,group,parameter,symbol,baseline,alt1_phi_DeltaR,alt2_phi_DeltaR_eq_1,alt3_phi_DeltaY_phi_y_eq_0,alt4_phi_DeltaY,alt5_fwd_looking,page,pdf_page
+data,,Habit formation,$\kappa$,0.616,0.620,0.625,0.619,0.611,0.607,60,66
+group_label,Indexation parameters,Indexation parameters,,,,,,,,60,66
+data,Indexation parameters,Employment,$\chi_{E}$,0.494,0.490,0.476,0.502,0.494,0.499,60,66
+data,Indexation parameters,Dom. prices,$\chi_{H}$,0.365,0.368,0.364,0.375,0.364,0.339,60,66
+data,Indexation parameters,Import prices,$\chi_{IM}$,0.300,0.305,0.318,0.310,0.298,0.285,60,66
+data,Indexation parameters,Wages,$\chi_{W}$,0.377,0.378,0.377,0.379,0.376,0.387,60,66
+data,Indexation parameters,Exports,$\chi_{X}$,0.281,0.279,0.273,0.284,0.279,0.275,60,66
+group_label,Calvo parameters,Calvo parameters,,,,,,,,60,66
+data,Calvo parameters,Employment,$\xi_{E}$,0.614,0.615,0.621,0.614,0.614,0.618,60,66
+data,Calvo parameters,Dom. prices,$\xi_{H}$,0.606,0.602,0.601,0.608,0.609,0.676,60,66
+data,Calvo parameters,Import prices,$\xi_{IM}$,0.428,0.423,0.396,0.430,0.429,0.473,60,66
+data,Calvo parameters,Wages,$\xi_{W}$,0.456,0.459,0.476,0.447,0.459,0.474,60,66
+data,Calvo parameters,Exports,$\xi_{X}$,0.588,0.590,0.594,0.589,0.588,0.593,60,66
+data,,Adj. cost inv.,$\gamma_{I}$,2.816,2.788,2.528,3.056,2.786,2.541,60,66
+data,,Adj. cost inv. lag,$\omega_{\Gamma_{I}}$,0.554,0.554,0.558,0.554,0.556,0.549,60,66
+data,,Adj. cost export,$\gamma^{*}$,0.295,0.304,0.322,0.316,0.295,0.287,60,66
+data,,FX premium - B*,$\gamma_{B}$,0.012,0.012,0.012,0.013,0.012,0.011,60,66
+data,,FX premium - S,$\gamma_{S}$,0.325,0.352,0.412,0.326,0.334,0.326,60,66
+data,,Oil import share,$\omega^{*}$,0.118,0.120,0.122,0.122,0.118,0.118,60,66
+group_label,Monetary policy,Monetary policy,,,,,,,,60,66
+data,Monetary policy,Smoothing,$\phi_{R}$,0.814,0.805,0.743,0.858,0.813,0.837,60,66
+data,Monetary policy,Resp. to inflation,$\phi_{\Pi}$,2.538,2.273,1.801,2.681,2.515,2.733,60,66
+data,Monetary policy,Resp. to output,$\phi_{y}$,0.204,0.209,0.296,-,0.194,0.233,60,66
+data,Monetary policy,Resp. to depreciation,$\phi_{\Delta S}$,0.090,0.112,0.228,0.116,0.095,0.085,60,66
+data,Monetary policy,Resp. to R change,$\phi_{\Delta R}$,-,0.234,0.924,-,-,-,60,66
+data,Monetary policy,Resp. to output growth,$\phi_{\Delta Y}$,-,-,-,0.172,0.149,-,60,66
+group_label,Autoregressive coeff.,Autoregressive coeff.,,,,,,,,60,66
+data,Autoregressive coeff.,Transitory techn.,$\rho$,0.920,0.913,0.875,0.926,0.917,0.911,60,66
+data,Autoregressive coeff.,Permanent techn.,$\rho_{g_{z}}$,0.693,0.684,0.673,0.796,0.697,0.775,60,66
+data,Autoregressive coeff.,Symmetric prem.,$\rho_{RP}$,0.767,0.768,0.788,0.622,0.766,0.734,60,66
+data,Autoregressive coeff.,External prem.,$\rho_{RP^{*}}$,0.582,0.543,0.427,0.609,0.574,0.587,60,66
+data,Autoregressive coeff.,Consumption,$\rho_{C}$,0.782,0.778,0.743,0.758,0.780,0.746,60,66
+data,Autoregressive coeff.,Inv. techn.,$\rho_{I}$,0.906,0.904,0.899,0.913,0.904,0.914,60,66
+data,Autoregressive coeff.,Inventory inv.,$\rho_{\Delta INV}$,0.708,0.704,0.695,0.689,0.707,0.697,60,66
+data,Autoregressive coeff.,Government,$\rho_{G}$,0.679,0.680,0.677,0.677,0.680,0.684,60,66
+data,Autoregressive coeff.,Export share,$\rho_{\nu^{*}}$,0.839,0.830,0.810,0.828,0.839,0.861,60,66
+data,Autoregressive coeff.,Home bias,$\rho_{\nu}$,0.802,0.798,0.788,0.763,0.804,0.779,60,66
+data,Autoregressive coeff.,Domestic markup,$\rho_{H}$,0.196,0.202,0.204,0.179,0.195,0.191,60,66
+data,Autoregressive coeff.,Import markup,$\rho^{*}$,0.203,0.211,0.232,0.207,0.198,0.196,60,66
+data,Autoregressive coeff.,Wage markup,$\rho_{W}$,0.109,0.113,0.120,0.098,0.109,0.109,60,66
+data,Autoregressive coeff.,Export markup,$\rho_{X}$,0.102,0.100,0.090,0.108,0.102,0.104,60,66
+data,Autoregressive coeff.,Foreign transfers,$\rho_{FTR}$,0.431,0.420,0.379,0.435,0.432,0.439,60,66
+summary,,Marginal likelihood,,4444.6,4444.8,4429.7,4443.9,4447.5,4439.5,60,66

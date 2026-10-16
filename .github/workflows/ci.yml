@@ -16,3 +16,4 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - run: pip install -e ".[dev]"
       - run: pytest -q
+      - run: python tools/paper/check_paper.py

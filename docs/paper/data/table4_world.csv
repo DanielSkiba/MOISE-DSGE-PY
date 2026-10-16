@@ -1,0 +1,30 @@
+row_type,group,parameter,symbol,prior_type,prior_mean,prior_std,post_mode,post_std,post_mean,post_5pct,post_95pct,page,pdf_page
+group_label,Output equation,Output equation,,,,,,,,,,52,58
+data,Output equation,Expectations,"$c_{y^{*},+}$",beta,0.50,0.10,0.227,0.048,0.225,0.146,0.302,52,58
+data,Output equation,Real rate,"$c_{y^{*},r}$",gamma,0.20,0.05,0.156,0.030,0.157,0.107,0.205,52,58
+data,Output equation,AR in shock,$\rho_{Y^{*}}$,beta,0.70,0.07,0.643,0.063,0.636,0.535,0.738,52,58
+group_label,Inflation equation,Inflation equation,,,,,,,,,,52,58
+data,Inflation equation,Expectations,"$c_{\pi^{*},+}$",beta,0.70,0.15,0.966,0.026,0.953,0.915,0.993,52,58
+data,Inflation equation,Output,"$c_{\pi^{*},y}$",gamma,0.10,0.03,0.071,0.017,0.076,0.046,0.105,52,58
+data,Inflation equation,Oil - level,"$c_{\pi^{*},OIL}$",gamma,0.05,0.03,0.025,0.007,0.028,0.015,0.041,52,58
+data,Inflation equation,Oil - change,"$c_{\pi^{*},\Delta OIL}$",gamma,0.05,0.03,0.016,0.005,0.017,0.008,0.026,52,58
+data,Inflation equation,AR in shock,$\rho_{\Pi^{*}}$,beta,0.70,0.15,0.247,0.084,0.261,0.125,0.391,52,58
+group_label,Monetary policy equation,Monetary policy equation,,,,,,,,,,52,58
+data,Monetary policy equation,Smoothing,"$c_{r^{*},-}$",beta,0.75,0.10,0.832,0.033,0.831,0.778,0.885,52,58
+data,Monetary policy equation,Resp. to inflation,"$c_{r^{*},\pi}$",gamma,2.50,0.50,2.087,0.429,2.211,1.487,2.908,52,58
+data,Monetary policy equation,Resp. to output,"$c_{r^{*},y}$",gamma,0.50,0.05,0.516,0.051,0.523,0.437,0.606,52,58
+data,Monetary policy equation,AR in shock,$\rho_{R^{*}}$,beta,0.25,0.05,0.302,0.053,0.301,0.215,0.385,52,58
+group_label,World trade equation,World trade equation,,,,,,,,,,52,58
+data,World trade equation,Output,"$c_{wt,y}$",normal,2.50,0.50,2.336,0.371,2.331,1.719,2.961,52,58
+data,World trade equation,Lagged output,"$c_{wt,y-}$",normal,0.00,1.00,1.509,0.746,1.380,0.165,2.626,52,58
+data,World trade equation,Lagged world trade,"$c_{wt,-}$",normal,0.00,0.50,0.176,0.149,0.215,-0.029,0.468,52,58
+group_label,Oil price inflation,Oil price inflation,,,,,,,,,,52,58
+data,Oil price inflation,Lag,"$c_{oil,-}$",beta,0.70,0.15,0.667,0.078,0.635,0.505,0.771,52,58
+data,Oil price inflation,Lagged change,"$c_{oil,\Delta}$",normal,0.00,0.50,-0.415,0.096,-0.411,-0.576,-0.250,52,58
+group_label,Shocks' standard deviations,Shocks' standard deviations,,,,,,,,,,52,58
+data,Shocks' standard deviations,Demand,S.D.($\eta^{Y^{*}}$),inv. gamma,0.01,Inf,0.002,0.000,0.002,0.002,0.003,52,58
+data,Shocks' standard deviations,Supply,S.D.($\eta^{\Pi^{*}}$),inv. gamma,0.01,Inf,0.007,0.001,0.007,0.006,0.009,52,58
+data,Shocks' standard deviations,Interest rate,S.D.($\eta^{R^{*}}$),inv. gamma,0.00,Inf,0.002,0.000,0.002,0.002,0.003,52,58
+data,Shocks' standard deviations,World trade,S.D.($\eta^{WT^{*}}$),inv. gamma,0.03,Inf,0.007,0.001,0.007,0.005,0.009,52,58
+data,Shocks' standard deviations,Oil price,S.D.($\eta^{OIL}$),inv. gamma,0.10,Inf,0.124,0.012,0.124,0.101,0.146,52,58
+data,Shocks' standard deviations,LR rate,"S.D.($\eta^{*,fwd}$)",inv. gamma,0.00,Inf,0.001,0.000,0.001,0.000,0.001,52,58

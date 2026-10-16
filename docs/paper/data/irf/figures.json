@@ -1,0 +1,197 @@
+[
+ {
+  "figure": 6,
+  "page_pdf": 80,
+  "page_printed": 74,
+  "shock": "interest_rate",
+  "printed_title": "Figure 6: Impulse Response to an Interest Rate Shock",
+  "scale": 0.9,
+  "grid_pt": 0.07500000000000001,
+  "csv": "fig06_interest_rate.csv",
+  "rows": 1200,
+  "embedded_matlab_file": [
+   "BaysianIRF_ETA_R.pdf"
+  ],
+  "units": "real variables: % deviation from steady state; inflation: percentage-point deviation from steady state; interest rate: annualized percentage-point deviation from steady state; x axis: quarters 1-20 after a one-standard-deviation shock"
+ },
+ {
+  "figure": 7,
+  "page_pdf": 82,
+  "page_printed": 76,
+  "shock": "external_risk_premium",
+  "printed_title": "Figure 7: Impulse Response to an External Risk Premium Shock",
+  "scale": 0.9,
+  "grid_pt": 0.07500000000000001,
+  "csv": "fig07_external_risk_premium.csv",
+  "rows": 1200,
+  "embedded_matlab_file": [
+   "BaysianIRF_ETA_RP_FX.pdf"
+  ],
+  "units": "real variables: % deviation from steady state; inflation: percentage-point deviation from steady state; interest rate: annualized percentage-point deviation from steady state; x axis: quarters 1-20 after a one-standard-deviation shock"
+ },
+ {
+  "figure": 8,
+  "page_pdf": 84,
+  "page_printed": 78,
+  "shock": "symmetric_premium",
+  "printed_title": "Figure 8: Impulse Response to a Symmetric Premium Shock",
+  "scale": 0.9,
+  "grid_pt": 0.07500000000000001,
+  "csv": "fig08_symmetric_premium.csv",
+  "rows": 1200,
+  "embedded_matlab_file": [
+   "BaysianIRF_ETA_RP.pdf"
+  ],
+  "units": "real variables: % deviation from steady state; inflation: percentage-point deviation from steady state; interest rate: annualized percentage-point deviation from steady state; x axis: quarters 1-20 after a one-standard-deviation shock"
+ },
+ {
+  "figure": 9,
+  "page_pdf": 86,
+  "page_printed": 80,
+  "shock": "foreign_demand",
+  "printed_title": "Figure 9: Impulse Response to a Foreign Demand Shock",
+  "scale": 0.9,
+  "grid_pt": 0.07500000000000001,
+  "csv": "fig09_foreign_demand.csv",
+  "rows": 1200,
+  "embedded_matlab_file": [
+   "BaysianIRF_ETA_Y_ROW.pdf"
+  ],
+  "units": "real variables: % deviation from steady state; inflation: percentage-point deviation from steady state; interest rate: annualized percentage-point deviation from steady state; x axis: quarters 1-20 after a one-standard-deviation shock"
+ },
+ {
+  "figure": 10,
+  "page_pdf": 88,
+  "page_printed": 82,
+  "shock": "transitory_technology",
+  "printed_title": "Figure 10: Impulse Response to a Transitory Technology Shock",
+  "scale": 0.9,
+  "grid_pt": 0.07500000000000001,
+  "csv": "fig10_transitory_technology.csv",
+  "rows": 1200,
+  "embedded_matlab_file": [
+   "BaysianIRF_ETA.pdf"
+  ],
+  "units": "real variables: % deviation from steady state; inflation: percentage-point deviation from steady state; interest rate: annualized percentage-point deviation from steady state; x axis: quarters 1-20 after a one-standard-deviation shock"
+ },
+ {
+  "figure": 11,
+  "page_pdf": 133,
+  "page_printed": 127,
+  "shock": "domestic_price_markup",
+  "printed_title": "Figure 11: Impulse Response to a Domestic Price Markup Shock",
+  "scale": 0.6,
+  "grid_pt": 0.049999999999999996,
+  "csv": "fig11_domestic_price_markup.csv",
+  "rows": 1200,
+  "embedded_matlab_file": [
+   "BaysianIRF_ETA_H.pdf"
+  ],
+  "units": "real variables: % deviation from steady state; inflation: percentage-point deviation from steady state; interest rate: annualized percentage-point deviation from steady state; x axis: quarters 1-20 after a one-standard-deviation shock"
+ },
+ {
+  "figure": 12,
+  "page_pdf": 134,
+  "page_printed": 128,
+  "shock": "import_price_markup",
+  "printed_title": "Figure 12: Impulse Response to an Import Price Markup Shock",
+  "scale": 0.9,
+  "grid_pt": 0.07500000000000001,
+  "csv": "fig12_import_price_markup.csv",
+  "rows": 1200,
+  "embedded_matlab_file": [
+   "BaysianIRF_ETA_PIM.pdf"
+  ],
+  "units": "real variables: % deviation from steady state; inflation: percentage-point deviation from steady state; interest rate: annualized percentage-point deviation from steady state; x axis: quarters 1-20 after a one-standard-deviation shock"
+ },
+ {
+  "figure": 13,
+  "page_pdf": 135,
+  "page_printed": 129,
+  "shock": "oil_price",
+  "printed_title": "Figure 13: Impulse Response to an Oil Price Shock",
+  "scale": 0.9,
+  "grid_pt": 0.07500000000000001,
+  "csv": "fig13_oil_price.csv",
+  "rows": 1200,
+  "embedded_matlab_file": [
+   "BaysianIRF_ETA_P_OIL.pdf"
+  ],
+  "units": "real variables: % deviation from steady state; inflation: percentage-point deviation from steady state; interest rate: annualized percentage-point deviation from steady state; x axis: quarters 1-20 after a one-standard-deviation shock"
+ },
+ {
+  "figure": 14,
+  "page_pdf": 136,
+  "page_printed": 130,
+  "shock": "investment_specific_technology",
+  "printed_title": "Figure 14: Impulse Response to an Investment Specific Technology Shock",
+  "scale": 0.9,
+  "grid_pt": 0.07500000000000001,
+  "csv": "fig14_investment_specific_technology.csv",
+  "rows": 1200,
+  "embedded_matlab_file": [
+   "BaysianIRF_ETA_I.pdf"
+  ],
+  "units": "real variables: % deviation from steady state; inflation: percentage-point deviation from steady state; interest rate: annualized percentage-point deviation from steady state; x axis: quarters 1-20 after a one-standard-deviation shock"
+ },
+ {
+  "figure": 15,
+  "page_pdf": 137,
+  "page_printed": 131,
+  "shock": "export_share",
+  "printed_title": "Figure 15: Impulse Response to an Export Share Shock",
+  "scale": 0.9,
+  "grid_pt": 0.07500000000000001,
+  "csv": "fig15_export_share.csv",
+  "rows": 1200,
+  "embedded_matlab_file": [
+   "BaysianIRF_ETA_NU_ROW.pdf"
+  ],
+  "units": "real variables: % deviation from steady state; inflation: percentage-point deviation from steady state; interest rate: annualized percentage-point deviation from steady state; x axis: quarters 1-20 after a one-standard-deviation shock"
+ },
+ {
+  "figure": 16,
+  "page_pdf": 138,
+  "page_printed": 132,
+  "shock": "home_bias",
+  "printed_title": "Figure 16: Impulse Response to a Home Bias Shock",
+  "scale": 0.9,
+  "grid_pt": 0.07500000000000001,
+  "csv": "fig16_home_bias.csv",
+  "rows": 1200,
+  "embedded_matlab_file": [
+   "BaysianIRF_ETA_NU.pdf"
+  ],
+  "units": "real variables: % deviation from steady state; inflation: percentage-point deviation from steady state; interest rate: annualized percentage-point deviation from steady state; x axis: quarters 1-20 after a one-standard-deviation shock"
+ },
+ {
+  "figure": 17,
+  "page_pdf": 139,
+  "page_printed": 133,
+  "shock": "wage_markup",
+  "printed_title": "Figure 17: Impulse Response to a Wage Markup Shock",
+  "scale": 0.9,
+  "grid_pt": 0.07500000000000001,
+  "csv": "fig17_wage_markup.csv",
+  "rows": 1200,
+  "embedded_matlab_file": [
+   "BaysianIRF_ETA_W.pdf"
+  ],
+  "units": "real variables: % deviation from steady state; inflation: percentage-point deviation from steady state; interest rate: annualized percentage-point deviation from steady state; x axis: quarters 1-20 after a one-standard-deviation shock"
+ },
+ {
+  "figure": 18,
+  "page_pdf": 140,
+  "page_printed": 134,
+  "shock": "inventories_investment_demand",
+  "printed_title": "Figure 18: Impulse Response to an Inventories Investment Demand Shock",
+  "scale": 0.9,
+  "grid_pt": 0.07500000000000001,
+  "csv": "fig18_inventories_investment_demand.csv",
+  "rows": 1200,
+  "embedded_matlab_file": [
+   "BaysianIRF_ETA_DINV.pdf"
+  ],
+  "units": "real variables: % deviation from steady state; inflation: percentage-point deviation from steady state; interest rate: annualized percentage-point deviation from steady state; x axis: quarters 1-20 after a one-standard-deviation shock"
+ }
+]
