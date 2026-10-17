@@ -56,14 +56,28 @@ model/          Model definition (equations, parameters, shocks) in YAML
 src/moise/      Python package: parser, solver, IRFs, simulation
 tests/          Tests, including replication checks against the paper
 tools/paper/    Checks for docs/paper (ids, completeness, LaTeX, code-form sync)
+docs/phase1/    Phase 1 report: replication results and decisions to review
+tools/replication/  Plots of the model against the paper's figures
 docs/           Roadmap, equation-file spec, verification log
 web/            Browser playground (Phase 2)
 ```
 
 ## Status
 
-🚧 **Phase 0 done** (repository setup) and the **agent edition of the paper** is in `docs/paper/`.
-Next: Phase 1, transcribing the log-linearized model into `model/moise.yaml` and writing the solver.
+🚧 **Phase 1 drafted, waiting for human review.** The full log-linearized model is in
+`model/moise.yaml` (all Appendix D equations, the Appendix C steady state, Tables 1–4) and the
+generic solver is in `src/moise/`. The model has a unique stable solution, and the replication tests
+pass: at the posterior-mean parameters the impulse responses match the paper's Figures 6–18
+(median correlation 0.999; 99.9% of plotted points inside the paper's 90% bands) and the variance
+decomposition matches Table 7 to 0.4 percentage points on average. No equation is human-verified
+yet, and the 35 decisions about the paper's misprints are proposals. See
+[`docs/phase1/`](docs/phase1/README.md) for the results and what needs review.
+
+```python
+import moise
+sol = moise.solve(moise.load(param_set="posterior_mean").linear_system())
+irf = moise.impulse_response(sol, "eta_R", periods=20, variables=["y", "pi_C", "r"])  # policy-rate shock
+```
 
 ## Contributing
 
