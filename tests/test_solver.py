@@ -90,6 +90,19 @@ def test_predetermined_capital_timing():
     np.testing.assert_allclose(irf["z"], [1, rho, rho**2, rho**3])
 
 
+def test_complex_roots_give_a_real_solution():
+    # AR(2) with complex roots (modulus sqrt(0.5)) and a forward-looking variable on top of it
+    m = build(["x", "y"], ["x = 1.2*x(-1) - 0.5*x(-2) + e", "y = 0.9*y(+1) + x"])
+    sol = solve(m.linear_system())
+    assert sol.P.dtype.kind == "f" and sol.Q.dtype.kind == "f"
+    irf = impulse_response(sol, "e", periods=4)
+    psi = [1.0, 1.2, 1.2 * 1.2 - 0.5]
+    psi.append(1.2 * psi[2] - 0.5 * psi[1])
+    np.testing.assert_allclose(irf["x"], psi, rtol=1e-10)
+    # y_t = sum_j 0.9^j E_t x_{t+j}: check the recursion y_t - 0.9 E_t y_{t+1} = x_t along the path
+    np.testing.assert_allclose(irf["y"][:-1] - 0.9 * irf["y"][1:], irf["x"][:-1], atol=1e-10)
+
+
 def test_long_leads_and_lags():
     rho = 0.6
     m = build(["y", "w", "z"], ["y = z(+3)", "w = z(-2)", "z = rho*z(-1) + e"], {"rho": rho})

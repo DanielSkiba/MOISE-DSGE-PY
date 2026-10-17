@@ -76,8 +76,10 @@ def solve(sys: LinearSystem, qz_criterium: float = 1.0 + 1e-9) -> Solution:
     def stable(alpha, beta):
         return np.abs(alpha) < qz_criterium * np.abs(beta)
 
+    # Real QZ: complex-conjugate pairs stay together in 2x2 blocks, so the stable deflating
+    # subspace, and with it P, is real by construction (as in Dynare).
     try:
-        BB, AA, alpha, beta, Qm, Zm = la.ordqz(B, A, sort=stable, output="complex")
+        BB, AA, alpha, beta, Qm, Zm = la.ordqz(B, A, sort=stable, output="real")
     except (la.LinAlgError, ValueError) as e:
         raise SolveError(f"QZ decomposition failed: {e}") from e
     with np.errstate(divide="ignore", invalid="ignore"):
@@ -92,11 +94,7 @@ def solve(sys: LinearSystem, qz_criterium: float = 1.0 + 1e-9) -> Solution:
     if np.linalg.cond(Z21) > 1e12:
         raise SolveError("rank condition fails: the stable subspace does not pin down y_t from y_{t-1}",
                          eig, n_stable, n)
-    P = np.real_if_close(Z11 @ np.linalg.inv(Z21), tol=1e6)
-    if np.iscomplexobj(P):
-        if np.max(np.abs(P.imag)) > 1e-8:
-            raise SolveError("solution has a non-negligible imaginary part", eig, n_stable, n)
-        P = P.real
+    P = np.linalg.solve(Z21.T, Z11.T).T          # P = Z11 Z21^{-1}
     M = sys.F_lead @ P + sys.F_0
     if np.linalg.cond(M) > 1e12:
         raise SolveError("F_lead P + F_0 is singular: shock responses are not determined", eig, n_stable, n)
