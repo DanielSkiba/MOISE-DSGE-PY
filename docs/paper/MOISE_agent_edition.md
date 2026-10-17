@@ -247,6 +247,7 @@ Conventions in Appendix D: a hat marks a log deviation from the steady state; a 
 | `Delta_G` | $\Delta{G}$ | observable | per capita government consumption growth (excl. defence imports) | yes | (294) |
 | `Delta_I_NI` | $\Delta{I_{NI}}$ | observable | observed real per-capita fixed investment growth (excluding inventories) | yes | (293) |
 | `Delta_IM` | $\Delta{IM}$ | observable | per capita imports growth (excl. defence, ships, aircraft, diamonds) | yes | (296) |
+| `Delta_inv` | $\Delta{inv}@t$ | observable | observed change in inventories as a share of GDP (the symbol with a time index) | yes | (317) |
 | `Delta_N` | $\Delta{N}$ | observable | growth of hours worked per working-age person | yes | (303) |
 | `Delta_P_C` | $\Delta{P_{C}}$ | observable | CPI inflation (excl. fruit/vegetables; housing excl. 1992-2006), VAT changes deducted | yes | (298) |
 | `Delta_P_I` | $\Delta{P_{I}}$ | observable | observed investment-deflator inflation | yes | (299) |
@@ -299,6 +300,7 @@ Conventions in Appendix D: a hat marks a log deviation from the steady state; a 
 | `eta_FTR` | $\eta^{FTR}$ | innovation | foreign transfers innovation | yes | (270) |
 | `eta_G` | $\eta^{G}$ | innovation | government consumption innovation | yes | (251) |
 | `eta_OIL` | $\eta^{OIL}$ | innovation | oil price innovation | yes | (290) |
+| `eta_Pibar` | $\eta^{\bar{\Pi}}$ | innovation | inflation-target innovation | no | (260) |
 | `eta_R` | $\eta^{R}$ | innovation | monetary policy shock (white noise) | yes | (259) |
 | `eta_tauC` | $\eta^{\tau^{C}}$ | innovation | consumption tax rate innovation | yes | (252) |
 | `eta_tauD` | $\eta^{\tau^{D}}$ | innovation | dividend tax rate innovation | yes | (253) |
@@ -7436,7 +7438,7 @@ $$
 
 Code form (derived from the LaTeX above; LaTeX is authoritative):
 ```text
-pibar = rho_barpi*pibar(-1) + eta^(Pibar)
+pibar = rho_barpi*pibar(-1) + eta_Pibar
 ```
 
 Meaning: The time-varying inflation target is an AR(1) process with persistence parameter indexed by the target and its own innovation.
@@ -8382,7 +8384,7 @@ $$
 
 Code form (derived from the LaTeX above; LaTeX is authoritative):
 ```text
-dinv_ss = dinv + dinv_ss + EX_DeltaINV
+Delta_inv = dinv + dinv_ss + EX_DeltaINV
 ```
 
 Meaning: The observed change in inventories as a share of GDP equals the model deviation plus its steady-state share plus an excess term.

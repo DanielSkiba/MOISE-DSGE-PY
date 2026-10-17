@@ -333,3 +333,5 @@ y_ss,y,steady_state,steady-state real output,no,267
 y_star,\hat{y}^{*},endogenous,"foreign output, log deviation",yes,286
 zeta,\zeta,parameter,inverse Frisch elasticity of labor supply,no,220
 ztilde,\hat{\tilde{z}},endogenous,"relative level of foreign to domestic technology, deviation",yes,271
+eta_Pibar,\eta^{\bar{\Pi}},innovation,inflation-target innovation,no,260
+Delta_inv,\Delta{inv}@t,observable,observed change in inventories as a share of GDP (with time index),yes,317

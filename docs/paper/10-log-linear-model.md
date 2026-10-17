@@ -869,7 +869,7 @@ $$
 
 Code form (derived from the LaTeX above; LaTeX is authoritative):
 ```text
-pibar = rho_barpi*pibar(-1) + eta^(Pibar)
+pibar = rho_barpi*pibar(-1) + eta_Pibar
 ```
 
 Meaning: The time-varying inflation target is an AR(1) process with persistence parameter indexed by the target and its own innovation.
@@ -1815,7 +1815,7 @@ $$
 
 Code form (derived from the LaTeX above; LaTeX is authoritative):
 ```text
-dinv_ss = dinv + dinv_ss + EX_DeltaINV
+Delta_inv = dinv + dinv_ss + EX_DeltaINV
 ```
 
 Meaning: The observed change in inventories as a share of GDP equals the model deviation plus its steady-state share plus an excess term.
