@@ -11,7 +11,7 @@ what still needs a person's review.
 |---|---|---|
 | Model file | `model/moise.yaml` | All 120 Appendix D equations (212)–(331), each with the paper's code form (`printed`) and the form the solver uses (`expr`). 23 equations added from the main text (shock processes, the foreign real rate, observation errors). 143 variables, 46 innovations, 128 parameters, the Appendix C.2 steady state (63 steps), 35 documented decisions. |
 | Solver | `src/moise/` | Generic: reads any model in this YAML format, builds the linear system, solves it with QZ (Blanchard–Kahn checks), computes impulse responses, simulations and variance decompositions. No MOISE-specific code. |
-| Tests | `tests/` | 15 solver tests on models with known solutions; 15 checks of the YAML against `docs/paper` (every printed equation, every table value); 14 replication tests against Figures 6–18 and Tables 6–7. |
+| Tests | `tests/` | 16 solver tests on models with known solutions; 15 checks of the YAML against `docs/paper` (every printed equation, every table value); 14 replication tests against Figures 6–18 and Tables 6–7. |
 | Plots | `tools/replication/plot_irfs.py`, `figures/` | Model vs paper for all 13 impulse-response figures. |
 
 The model has a unique stable solution at both the posterior mode and the posterior mean. The
