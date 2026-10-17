@@ -4738,7 +4738,7 @@
   "title": "(260) Time-varying inflation objective",
   "latex": "\\hat{\\bar{\\pi}}_{t} = \\rho_{\\bar{\\pi}} \\hat{\\bar{\\pi}}_{t-1} + \\eta_{t}^{\\bar{\\Pi}}\n\\tag{260}",
   "file": "10-log-linear-model.md",
-  "code": "pibar = rho_barpi*pibar(-1) + eta^(Pibar)"
+  "code": "pibar = rho_barpi*pibar(-1) + eta_Pibar"
  },
  {
   "kind": "eq",
@@ -5376,7 +5376,7 @@
   "title": "(317) The change in inventories, as a share of GDP",
   "latex": "\\Delta inv_{t} = \\Delta \\widehat{inv}_{t} + \\Delta inv + EX_{\\Delta INV,t}\n\\tag{317}",
   "file": "10-log-linear-model.md",
-  "code": "dinv_ss = dinv + dinv_ss + EX_DeltaINV"
+  "code": "Delta_inv = dinv + dinv_ss + EX_DeltaINV"
  },
  {
   "kind": "eq",

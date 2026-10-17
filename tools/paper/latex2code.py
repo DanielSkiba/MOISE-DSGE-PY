@@ -164,6 +164,8 @@ def is_label_sup(raw):
         return False
     if any(t[0] == "cmd" and t[1] in ("frac", "ln", "exp", "log") for t in raw):
         return False
+    if any(t[0] == "cmd" and t[1] in ACCENTS for t in raw):
+        return True           # an accented symbol is a label, e.g. eta^{bar{Pi}}
     if all(t[0] == "num" for t in raw):
         return False
     if any(t[0] == "cmd" and t[1] in GREEK for t in raw) and not any(t[0] == "let" or t == ("sym", "*") for t in raw):
@@ -340,7 +342,13 @@ class Parser:
     def lookup(self, a):
         key = a.key()
         self.uses.append((key, a.has_time))
-        name = self.g.get(key)
+        name = None
+        if a.has_time and not a.accents and (key + "@t") in self.g:
+            # an unhatted symbol with a time index (an observed level) can have its own name,
+            # distinct from the same letters without a time index (a steady-state value)
+            name = self.g[key + "@t"]
+        if name is None:
+            name = self.g.get(key)
         if name is None:
             self.unknown.append(key)
             name = "<" + key + ">"
