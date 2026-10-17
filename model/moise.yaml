@@ -1,15 +1,4230 @@
-# MOISE — log-linearized model definition.
-# Source: Argov et al. (2012), Bank of Israel Discussion Paper 2012.06.
-# Format: see docs/equation-spec.md
-# Status: empty — transcription starts in Phase 1.
+# MOISE (Bank of Israel, Argov et al. 2012, DP 2012.06): log-linearized model.
+# Independent replication; not affiliated with the Bank of Israel.
+#
+# Format: docs/equation-spec.md. Source: docs/paper/ (Appendix D equations, Appendix C steady state,
+# Tables 1-4). Code names: docs/paper/data/notation_codes.csv.
+#
+# Each Appendix D equation keeps the paper's code form in `printed` (verbatim from
+# docs/paper/10-log-linear-model.md). `expr` is what the solver uses; it differs from `printed` only
+# where a decision (see `decisions`) applies. Load with a decision set to 'printed' to get the paper's
+# version back. Nothing here is verified by a person yet (verified: false everywhere).
 
 meta:
-  source: "Argov, Barnea, Binyamini, Borenstein, Elkayam & Rozenshtrom (2012), BoI DP 2012.06"
-  paper_url: "https://boi.org.il/media/ybvpydng/dp12065e.pdf"
-  appendix_equations: "D"
-  appendix_steady_state: "C"
+  title: MOISE log-linearized model
+  source: 'Argov, Barnea, Binyamini, Borenstein, Elkayam & Rozenshtrom (2012), Bank of Israel DP 2012.06'
+  paper_url: 'https://boi.org.il/media/ybvpydng/dp12065e.pdf'
+  appendix_equations: D
+  appendix_steady_state: C
+  status: draft
+  parameter_values: 'value = posterior mode (Tables 2-4) or calibration (Table 1, text); posterior_mean is also given'
+  shock_size: 'std = posterior mode of the innovation S.D.; impulse responses use one S.D.'
+  timing: 'x = x_t, x(+1) = E_t x_{t+1}, x(-1) = x_{t-1}; ^ is a power'
+  units: 'hatted variables are log deviations from the steady state; shares (s_X, s_IM, s_TB, CA_over_Y, dinv, tax rates) are level deviations'
 
-variables: []
-shocks: []
-parameters: []
-equations: []
+decisions:
+  - id: D01
+    title: 'π̄ without a hat is the inflation-target deviation π̂̄'
+    status: proposed
+    applies_to: ['(259)', '(298)', '(299)', '(300)', '(304)', '(305)', '(306)']
+    printed: 'Some equations print the target as \bar{\pi}_t (no hat), others as \hat{\bar{\pi}}_t.'
+    adopted: 'Alias pibar_nohat -> pibar.'
+    alternatives: []
+    rationale: '(62) prints the hat in the policy rule; Appendix B text says the exchange-rate and wage observation equations subtract the target deviation; (300) only makes sense with the deviation.'
+    reviewed_by: null
+  - id: D02
+    title: 'Foreign inflation target is constant'
+    status: proposed
+    applies_to: ['(217)', '(248)', '(287)', '(318)']
+    printed: '\hat{\bar{\pi}}^{*}_t (and \bar{\pi}^{*}_t) appear, but no process or shock is given for them.'
+    adopted: 'pibar_star fixed at zero; pibar_star_nohat is an alias of pibar_star.'
+    alternatives: []
+    rationale: 'None of the 25 shocks of Section 4.4.2 moves the foreign target, and no law of motion is printed.'
+    reviewed_by: null
+  - id: D03
+    title: 's_{B^*} without a hat is the NFA-ratio deviation'
+    status: proposed
+    applies_to: ['(272)']
+    printed: '(272) writes s_{B^*_{t+1}} = r^*[...] without hats.'
+    adopted: 'Alias s_Bstar_nohat -> s_Bstar (steady-state NFA is zero, 109.i9, so level = deviation).'
+    alternatives: []
+    reviewed_by: null
+  - id: D04
+    title: '(273) defines the real exchange rate in CPI terms as a new variable'
+    status: proposed
+    applies_to: ['(273)']
+    printed: '\hat{s}_t = \hat{c}_t + \hat{p}_{Y,t}'
+    adopted: 's_C = s + p_Y, with s_C a new variable (CPI-based real exchange rate).'
+    alternatives: []
+    rationale: 's_t = P*_Y S/P_Y (123.i1), so the CPI-based rate is s*p_Y. Read literally, (273) would tie the real exchange rate to consumption and leave the system with one equation too many. s_C enters no other equation, so this reading only matters for reporting (the figures'' real-exchange-rate panel matches s, not s_C).'
+    reviewed_by: null
+  - id: D05
+    title: '(282), (284): ĉ in the export-value term is ŝ'
+    status: proposed
+    applies_to: ['(282)', '(284)']
+    printed: '(... )(\hat{c}_t + \hat{p}_{X,t} + \hat{p}_{Y,t} + \hat{x}_t)'
+    adopted: '\hat{s}_t in place of \hat{c}_t'
+    alternatives: [printed]
+    rationale: 'Export value is S P_X X (84), (152), (154); (280) prints \hat{s} in the same term.'
+    evidence: 'Figures 6-18: mean relative RMSE 0.056 adopted vs 0.174 printed.'
+    reviewed_by: null
+  - id: D06
+    title: '(288): the last term is the foreign cost-push shock'
+    status: proposed
+    applies_to: ['(288)']
+    printed: '... + \hat{\pi}^{*}_{Y,t} (the left-hand variable again)'
+    adopted: '+ epsilon_Pistar, an AR(1) shock (rho_Pistar, eta_Pistar from Table 4), as in (92).'
+    alternatives: [printed]
+    evidence: 'Printed form makes the model indeterminate (one stable root too many).'
+    reviewed_by: null
+  - id: D07
+    title: '(290): sign of the lagged oil-price change'
+    status: proposed
+    applies_to: ['(290)', '(93)']
+    printed: 'Appendix D (290): - c_{OIL,Δ}(p_{t-1} - p_{t-2}); main text (93): + c_{oil,Δ}(...)'
+    adopted: 'Appendix D sign (printed). See notes for the evidence from Figure 13.'
+    alternatives: [main_text]
+    rationale: 'The estimate is negative (mode -0.415), so the sign changes the dynamics. With the Appendix D sign the oil price is a hump-shaped AR(2) (complex roots, modulus 0.64); with (93) the roots are 0.78 and -0.53. The prior on c_oil,Δ is symmetric (normal, mean 0), so it gives no hint; the choice rests on the fit to the figures.'
+    evidence: 'Figures 6-18: mean relative RMSE 0.056 with the Appendix D sign vs 0.082 with the sign of (93).'
+    reviewed_by: null
+  - id: D08
+    title: '(262): the ellipsis is expanded with the Appendix D indices'
+    status: proposed
+    applies_to: ['(262)', '(63)']
+    printed: '\frac{1}{20}E_t(\hat{ri}_{t+20} + ... + \hat{ri}_{t+39}); (63) has t+21 ... t+40'
+    adopted: 'rr_fw = (1/20) * sum of ri(+20) ... ri(+39), written out term by term.'
+    alternatives: [main_text]
+    evidence: 'No visible effect on Figures 6-18.'
+    reviewed_by: null
+  - id: D09
+    title: '(265): keep the factor 0.25'
+    status: proposed
+    applies_to: ['(265)', '(65)']
+    printed: '(265) has 0.25[...]; (65) prints the plain sum.'
+    adopted: '0.25 (average quarterly inflation, same units as the quarterly target in (259)).'
+    alternatives: [main_text]
+    evidence: 'Figures 6-18: mean relative RMSE 0.056 adopted vs 0.172 with the plain sum of (65).'
+    reviewed_by: null
+  - id: D10
+    title: 'Inflation-target persistence ρ_π̄ = 0.99'
+    status: proposed
+    applies_to: ['(260)', '(64)']
+    printed: '(260) writes a parameter ρ_{\bar{\pi}}; (64) fixes it at 0.99.'
+    adopted: 'rho_barpi = 0.99 (64).'
+    alternatives: []
+    reviewed_by: null
+  - id: D11
+    title: '(212), (284): VAT term numerator kept as printed'
+    status: proposed
+    applies_to: ['(212)', '(284)']
+    printed: '\frac{1}{1+0.78\tau^c}\hat{\tau}^C'
+    adopted: 'As printed (numerator 1).'
+    alternatives: [w_tauC]
+    rationale: 'Log-linearizing (5) gives w_{τ^C}/(1+w_{τ^C}τ^C) = 0.78/(1+0.78*0.16) if \hat{τ}^C is the level deviation of the VAT rate, as in (314). Only the scale of the VAT shock is affected. Alternative ''w_tauC'' uses 0.78 in the numerator of (212) (the structural equation; (284) only defines the market-price deflator).'
+    evidence: 'No effect on Figures 6-18 (VAT shock only). Table 7 supports the printed numerator: its VAT shares at h=inf (hours 1.3, real wage 0.8, consumption 0.7, output 0.2) are 1.6 times the model''s in all four variables, i.e. an S.D. of about 0.0025, which still prints as 0.002; the 0.78 numerator would need about 0.0032, which would print as 0.003.'
+    reviewed_by: null
+  - id: D12
+    title: '(214): ĝ_z terms and the exponent of g_z'
+    status: proposed
+    applies_to: ['(214)']
+    printed: '(\beta\omega(1-\omega)\hat{g}_{z,t} - 1) + \omega\hat{g}_{z,t-1}; exponent 2(1-\omega)'
+    adopted: '(\beta\omega(1-\omega) - 1)\hat{g}_{z,t} - \omega\hat{g}_{z,t-1}; exponent 2(1+\omega)'
+    alternatives: [printed]
+    rationale: 'Log-linearizing (9)-(11) with (10) and 10.u1 (done twice independently, symbolically and by finite differences) reproduces every other coefficient of (214) and gives these three. The printed ''-1'' is a constant that would shift the steady state.'
+    evidence: 'No visible effect on Figures 6-18 (no figure for the permanent-technology shock); adopted on the derivation.'
+    reviewed_by: null
+  - id: D13
+    title: '(217): (1-γ_S) on the expected inflation differential'
+    status: proposed
+    applies_to: ['(217)']
+    printed: 'coefficient 1 on E_t(\hat{\pi}_{Y,t+1} - \hat{\pi}^{*}_{Y,t+1})'
+    adopted: '(1 - gamma_S) on that term'
+    alternatives: [printed]
+    rationale: 'From (4), (6), (7) the premium multiplies the whole expected nominal depreciation E(s_{t+1} - s_t + π_{Y,t+1} - π*_{Y,t+1}), so the real-exchange-rate part and the inflation part must carry the same coefficient (1-γ_S).'
+    evidence: 'Figures 6-18: mean relative RMSE 0.056 adopted vs 0.078 printed.'
+    reviewed_by: null
+  - id: D14
+    title: '(225): denominators 1 + ν^f(R-1)'
+    status: proposed
+    applies_to: ['(225)']
+    printed: '1 - \nu^f(R-1) twice'
+    adopted: '1 + \nu^f(R-1) (steady state of R^F, (119)/(170))'
+    alternatives: [printed]
+    evidence: 'No visible effect on Figures 6-18.'
+    reviewed_by: null
+  - id: D15
+    title: '(233): ν_E is ν_C'
+    status: proposed
+    applies_to: ['(233)']
+    printed: '\frac{\nu_E}{1-\nu_E}\hat{\nu}_{C,t}'
+    adopted: 'nu_C_ss in place of nu_E (as (237), (241), (245) use their own sector''s ν).'
+    alternatives: []
+    rationale: 'ν_E is not defined anywhere in the paper, so the printed form cannot be evaluated and is not offered as an alternative.'
+    reviewed_by: null
+  - id: D16
+    title: '(246): ε^X kept as printed (no numerical effect)'
+    status: proposed
+    applies_to: ['(246)']
+    printed: '\hat{\epsilon}^{X}_t where (234), (238), (242) have \hat{\epsilon}^{IM}_t'
+    adopted: 'As printed; both epsilon_X and epsilon_IM are fixed at zero (D25).'
+    alternatives: []
+    reviewed_by: null
+  - id: D17
+    title: '(248): lagged export-price inflation term'
+    status: proposed
+    applies_to: ['(248)']
+    printed: '\frac{\chi_X}{1+\beta\chi_X}[E_t(\hat{\bar{\pi}}^{*}_{t+1}) - \hat{\bar{\pi}}^{*}_t] (the same bracket twice)'
+    adopted: '\frac{\chi_X}{1+\beta\chi_X}(\hat{\pi}_{X,t-1} - \hat{\bar{\pi}}^{*}_t), the term (226) and (229) have in this position'
+    alternatives: [printed]
+    rationale: 'With indexation χ_X the lagged own inflation must appear; as printed χ_X only multiplies terms in the (constant) foreign target.'
+    evidence: 'Figures 6-18: mean relative RMSE 0.056 adopted vs 0.059 printed (weak evidence); adopted on the derivation.'
+    reviewed_by: null
+  - id: D18
+    title: '(280): government-spending weight p_G g/(p_Y y)'
+    status: proposed
+    applies_to: ['(280)']
+    printed: '\frac{p_G g}{p_Y g}'
+    adopted: '\frac{p_G g}{p_Y y} (as in (284))'
+    alternatives: [printed]
+    evidence: 'Figures 6-18: mean relative RMSE 0.056 adopted vs 0.118 printed.'
+    reviewed_by: null
+  - id: D19
+    title: '(300): left-hand side is the observed domestic target'
+    status: proposed
+    applies_to: ['(300)', '94.i5']
+    printed: '4\bar{\pi}^{*}_t = 4(\bar{\pi}_t + \pi - 1)'
+    adopted: 'pibar_OB = 4*(pibar + pi_ss - 1); pibar_OB is the observable 4·π̄_t of 94.i5 / Appendix A.'
+    alternatives: []
+    reviewed_by: null
+  - id: D20
+    title: '(306): ĉ in the depreciation equation is ŝ'
+    status: proposed
+    applies_to: ['(306)', '(105)']
+    printed: '\hat{c}_t - \hat{c}_{t-1}'
+    adopted: '\hat{s}_t - \hat{s}_{t-1} (as (105) and (263))'
+    alternatives: [printed]
+    reviewed_by: null
+  - id: D21
+    title: 'Shock processes not printed in Appendix D are added from Section 3 and 4.4.2'
+    status: proposed
+    applies_to: ['(18)', '(20)', '(3)', '3.u1', '(89)-(94)', '4.4.2']
+    printed: 'Appendix D uses \hat{\epsilon}_t, \hat{g}_{z,t}, \hat{\epsilon}^{C}_t, ... as given processes.'
+    adopted: 'Each is a log-AR(1) x = rho*x(-1) + eta (footnotes 4 and 26), with ρ and S.D. from Tables 2-4 or the fixed values printed in the text.'
+    alternatives: []
+    reviewed_by: null
+  - id: D22
+    title: 'One home-bias process for all final-good sectors'
+    status: proposed
+    applies_to: ['(232)-(247)', '4.4.2 item 11']
+    printed: '\hat{\nu}_{C}, \hat{\nu}_{I}, \hat{\nu}_{G}, \hat{\nu}_{X} appear separately.'
+    adopted: 'nu_C, nu_I, nu_G, nu_X are aliases of one process nu (rho_nu, eta_nu).'
+    alternatives: []
+    reviewed_by: null
+  - id: D23
+    title: 'Relative technology z̃ is constant'
+    status: proposed
+    applies_to: ['(271)', '(307)', '(319)']
+    printed: '\hat{\tilde{z}}_t appears without a process.'
+    adopted: 'ztilde fixed at zero (Table 1 calibrates \tilde{z} = 1; no shock among the 25 moves it).'
+    alternatives: []
+    reviewed_by: null
+  - id: D24
+    title: 'Competitors'' export price is constant'
+    status: proposed
+    applies_to: ['(271)', '(310)', '94.i1']
+    printed: '\hat{p}^{*}_{x,t} appears in (271) and (310).'
+    adopted: 'p_x_star fixed at zero: 94.i1 sets p^{c,*}_{X,t} = 1.'
+    alternatives: []
+    reviewed_by: null
+  - id: D25
+    title: 'Shocks the estimated model does not use are fixed at zero'
+    status: proposed
+    applies_to: ['(220)', '(221)', '(225)', '(234)', '(238)', '(242)', '(246)', '4.4.2']
+    printed: '\hat{\epsilon}_{N}, \hat{\epsilon}^{IM}, \hat{\epsilon}^{X}, \hat{\epsilon}^{F}, \hat{\nu}_{f}'
+    adopted: 'All fixed at zero. 4.4.2: ε^N is replaced by φ^W (item 14), ε^IM is not used (item 11), ε^X is replaced by ν* (item 10); ε^F and ν_f are not among the 25 shocks.'
+    alternatives: []
+    reviewed_by: null
+  - id: D26
+    title: 'Tax rates other than VAT do not move'
+    status: proposed
+    applies_to: ['(253)-(257)']
+    printed: 'AR(1) processes with ρ_τ and η_τ for τ^D, τ^K, τ^N, τ^{W_h}, τ^{W_f}'
+    adopted: 'Kept as printed with ρ = 0 and innovation S.D. 0 (no values in the paper; not among the 25 shocks).'
+    alternatives: []
+    reviewed_by: null
+  - id: D27
+    title: 'Foreign real rate ri* defined from (89)'
+    status: proposed
+    applies_to: ['(286)', '(89)']
+    printed: '(286) uses \widehat{ri}^{*}_t without a definition.'
+    adopted: 'ri_star = r_star - pi_Y_star(+1), the term in (89).'
+    alternatives: []
+    reviewed_by: null
+  - id: D28
+    title: '(312): the domestic forward rate observes the domestic rr^{fwd}'
+    status: proposed
+    applies_to: ['(312)', '(108)']
+    printed: '\hat{fw}_{ri^{*},t} (the foreign forward rate)'
+    adopted: 'rr_fw, as in (108) and the Appendix A description (derived from Israeli indexed bonds).'
+    alternatives: [printed]
+    reviewed_by: null
+  - id: D29
+    title: 'Foreign discount factor β* = β'
+    status: proposed
+    applies_to: ['(229)', '(169)']
+    printed: 'β* appears in (229) without a value; (169) prices R* with the domestic β.'
+    adopted: 'beta_star = beta.'
+    alternatives: []
+    reviewed_by: null
+  - id: D30
+    title: 'Excess trends in depreciation and wages are i.i.d.'
+    status: proposed
+    applies_to: ['(320)', '(321)']
+    printed: 'AR(1) with ρ^{ΔS}_{EX}, ρ^{ΔW}_{EX}'
+    adopted: 'ρ = 0: Appendix B says EX^S and EX^W are i.i.d., and Table 3 reports only their S.D.s.'
+    alternatives: []
+    reviewed_by: null
+  - id: D31
+    title: 'Observation errors are AR(1)'
+    status: proposed
+    applies_to: ['(297)', '(301)', '(312)', '(318)']
+    printed: '\hat{\epsilon}_{OB\_DPY}, \hat{\epsilon}_{OB\_E}, \hat{\epsilon}_{fwd\_ob}, \hat{\epsilon}_{fwd\_ob^*} appear without processes.'
+    adopted: 'AR(1) with ρ_{OB,ΔY}, ρ_{OB,E}, ρ_{OB,fwd}, ρ_{OB,fwd*} and the S.D.s of Table 3.'
+    alternatives: []
+    reviewed_by: null
+  - id: D32
+    title: 'γ_{u,1} uses g_z/β'
+    status: proposed
+    applies_to: ['(115)', '115.u2', '172.u1', '(213)']
+    printed: '\gamma_{u,1} = [\beta/g_z - (1-\delta+\tau^K\delta)](1-\tau^K)^{-1} (≈ 0.005)'
+    adopted: '[g_z/\beta - (1-\delta+\tau^K\delta)](1-\tau^K)^{-1} (≈ 0.035), implied by 114.u1 and by the steady state of (213)'
+    alternatives: [printed]
+    evidence: 'Printed value (0.005) makes steady-state consumption negative (c/N = -3.79 in (179); c/y = -0.71, i/y = 1.47); adopted value gives c/y = 0.55 and i/y = 0.21, the ratios stated in 4.4.1.'
+    reviewed_by: null
+  - id: D33
+    title: '(200): exponent -μ_X'
+    status: proposed
+    applies_to: ['(131)', '(200)']
+    printed: '-\mu_G'
+    adopted: '-\mu_X (as (245)); no numerical effect because p_IM/p_DX = 1 at the steady state.'
+    alternatives: []
+    reviewed_by: null
+  - id: D34
+    title: 'Long-run growth rates for the measurement block'
+    status: proposed
+    applies_to: ['(321)-(330)', '4.4.1']
+    printed: 'Annual % rates in 4.4.1 (hours 0.7, consumption 1.7, ...); g_{ΔW} is not reported.'
+    adopted: 'Quarterly gross rates 1 + annual/400; g_ΔN is a net quarterly rate 0.007/4 (it is added to growth rates in (291)-(303)). g_ΔW = g_z + π - 1 (no excess wage trend) - TODO: no value in the paper.'
+    alternatives: []
+    reviewed_by: null
+  - id: D35
+    title: 'Unreported innovation S.D.s are zero'
+    status: proposed
+    applies_to: ['(253)-(257)', '(299)', '(327)']
+    printed: 'η^{τ^D}, η^{τ^K}, η^{τ^N}, η^{τ^{W_h}}, η^{τ^{W_f}}, η^{ΔP_I}, η^{ΔINV}_{EX}'
+    adopted: 'S.D. 0 (TODO: not reported in Tables 2-4).'
+    alternatives: []
+    reviewed_by: null
+  - id: D36
+    title: 'η^DRP: the posterior mode prints as 0.000'
+    status: proposed
+    applies_to: ['Table 3', '3.u1']
+    printed: 'S.D.(η^DRP): mode 0.000, mean 0.001 (three decimals)'
+    adopted: 'Printed values kept: std 0 (mode) and posterior_mean 0.001. The domestic premium shock is therefore switched off in the posterior-mode parameter set.'
+    alternatives: []
+    rationale: 'No value inside the rounding interval is better founded than another. Table 7 gives this shock 75.5% of the long-run variance of the policy rate, which the mode cannot reproduce, so the replication tests use the posterior-mean set. Open question: no S.D. reproduces all three Table 7 horizons (0.6 / 2.3 / 75.5%): 0.0015 gives 4.6 / 15.6 / 71.8%, so the shock seems to propagate more slowly in the paper''s code than here.'
+    evidence: 'Posterior-mean set (S.D. 0.001): this shock''s share of the policy rate is 2.1 / 7.6 / 53.1% at h = 1 / 4 / inf, against 0.6 / 2.3 / 75.5% in Table 7.'
+    reviewed_by: null
+  - id: D37
+    title: 'The world-trade shock is i.i.d.'
+    status: proposed
+    applies_to: ['(289)', '(91)', '4.4.2 item 23']
+    printed: '4.4.2 lists ρ_{WT*} for the world-trade shock, but no estimate is reported anywhere; Table 4 gives only its S.D.; (289) prints the shock as \hat{\epsilon}_{IM^*}.'
+    adopted: 'epsilon_IMstar is the innovation itself (S.D. of η^{WT*}, Table 4); world trade gets its persistence from c_{wt,-} in (289).'
+    alternatives: []
+    evidence: 'Table 7, world trade''s share of exports (h=1/4/inf): model 4.6/0.8/0.4, table 4.8/0.9/0.4.'
+    reviewed_by: null
+
+variables:
+  - name: lambda
+    paper_symbol: '\hat{\lambda}'
+    description: 'marginal utility of consumption (Lagrange multiplier), log deviation'
+    block: households
+  - name: c
+    paper_symbol: '\hat{c}'
+    description: 'private consumption (detrended), log deviation'
+    block: households
+  - name: Q
+    paper_symbol: '\hat{Q}'
+    description: 'Tobin''s Q (real price of installed capital), log deviation'
+    block: households
+  - name: i
+    paper_symbol: '\hat{\imath}'
+    description: 'investment (detrended), log deviation'
+    block: households
+  - name: r_k
+    paper_symbol: '\hat{r}_{k}'
+    description: 'real rental rate of capital, log deviation'
+    block: households
+  - name: u
+    paper_symbol: '\hat{u}'
+    description: 'capital utilization intensity, deviation'
+    block: households
+  - name: k
+    paper_symbol: '\hat{k}'
+    description: 'capital stock (detrended), log deviation'
+    block: households
+    predetermined: true
+    notes: 'beginning-of-period capital stock: (218) is written k(+1) = f(k, ...)'
+  - name: r
+    paper_symbol: '\hat{r}'
+    description: 'domestic nominal policy interest rate, deviation'
+    block: households
+  - name: ri
+    paper_symbol: '\widehat{ri}'
+    description: 'real interest rate (nominal rate minus next-period CPI inflation)'
+    block: households
+  - name: s
+    paper_symbol: '\hat{s}'
+    description: 'real exchange rate, log deviation'
+    block: households
+  - name: s_Bstar
+    paper_symbol: '\hat{s}_{B^{*}}'
+    description: 'net foreign assets to nominal GDP ratio, deviation'
+    block: households
+    predetermined: true
+    notes: 'net foreign assets chosen at t: (272) is written s_B*(+1) = f(s_B*, ...)'
+  - name: w
+    paper_symbol: '\hat{w}'
+    description: 'real wage (detrended), log deviation'
+    block: labor
+  - name: w_tau
+    paper_symbol: '\hat{w}_{\tau}'
+    description: 'after-tax real wage, log deviation'
+    block: labor
+  - name: mrs
+    paper_symbol: '\widehat{mrs}'
+    description: 'marginal rate of substitution consumption-leisure, log deviation'
+    block: labor
+  - name: 'n'
+    paper_symbol: '\hat{n}'
+    description: 'hours worked (employment), log deviation'
+    block: labor
+  - name: h_s
+    paper_symbol: '\hat{h}^{s}'
+    description: 'supply of domestic intermediate goods, deviation'
+    block: production
+  - name: k_s
+    paper_symbol: '\hat{k}^{s}'
+    description: 'capital services, log deviation'
+    block: production
+  - name: mc
+    paper_symbol: '\widehat{mc}'
+    description: 'real marginal cost of domestic firms (vs CPI), log deviation'
+    block: production
+  - name: R_f
+    paper_symbol: '\hat{R}_{f}'
+    description: 'gross interest rate on working capital, log deviation'
+    block: production
+  - name: pi_H
+    paper_symbol: '\hat{\pi}_{H}'
+    description: 'domestic intermediate goods inflation, deviation'
+    block: pricing
+  - name: mc_H
+    paper_symbol: '\widehat{mc}^{H}'
+    description: 'real marginal cost of domestic firms relative to domestic price index'
+    block: pricing
+  - name: p_H
+    paper_symbol: '\hat{p}_{H}'
+    description: 'relative price of domestic intermediate goods (vs CPI), log deviation'
+    block: pricing
+  - name: pi_IM
+    paper_symbol: '\hat{\pi}_{IM}'
+    description: 'import price inflation (local currency), deviation'
+    block: pricing
+  - name: mc_IM
+    paper_symbol: '\widehat{mc}_{IM}'
+    description: 'real marginal cost of foreign intermediate goods firms'
+    block: pricing
+  - name: p_IM
+    paper_symbol: '\hat{p}_{IM}'
+    description: 'relative price of imported goods (vs CPI), log deviation'
+    block: pricing
+  - name: h_C
+    paper_symbol: '\hat{h}_{C}'
+    description: 'domestic intermediate input into consumption good, log deviation'
+    block: final_goods
+  - name: im_C
+    paper_symbol: '\widehat{im}_{C}'
+    description: 'imported intermediate input into consumption good, log deviation'
+    block: final_goods
+  - name: Gamma_IMC_p
+    paper_symbol: '\hat{\Gamma}_{IM^{C}}^{+}'
+    description: 'import-share adjustment-cost term, consumption sector'
+    block: final_goods
+  - name: q_C
+    paper_symbol: '\hat{q}_{C}'
+    description: 'output of final private consumption good, log deviation'
+    block: final_goods
+  - name: h_I
+    paper_symbol: '\hat{h}_{I}'
+    description: 'domestic intermediate input into investment good, log deviation'
+    block: final_goods
+  - name: im_I
+    paper_symbol: '\widehat{im}_{I}'
+    description: 'imported intermediate input into investment good, log deviation'
+    block: final_goods
+  - name: Gamma_IMI_p
+    paper_symbol: '\hat{\Gamma}_{IM^{I}t}^{+}'
+    description: 'import-share adjustment-cost term, investment sector (printed variant)'
+    block: final_goods
+  - name: q_I
+    paper_symbol: '\hat{q}_{I}'
+    description: 'output of final investment good, log deviation'
+    block: final_goods
+  - name: p_I
+    paper_symbol: '\hat{p}_{I}'
+    description: 'relative price of investment good (vs CPI), log deviation'
+    block: final_goods
+  - name: h_G
+    paper_symbol: '\hat{h}_{G}'
+    description: 'domestic intermediate input into public consumption good'
+    block: final_goods
+  - name: im_G
+    paper_symbol: '\widehat{im}_{G}'
+    description: 'imported intermediate input into public consumption good'
+    block: final_goods
+  - name: Gamma_IMG_p
+    paper_symbol: '\hat{\Gamma}_{IM^{G}}^{+}'
+    description: 'import-share adjustment-cost term, public consumption sector'
+    block: final_goods
+  - name: q_G
+    paper_symbol: '\hat{q}_{G}'
+    description: 'output of final public consumption good, log deviation'
+    block: final_goods
+  - name: p_G
+    paper_symbol: '\hat{p}_{G}'
+    description: 'relative price of public consumption good, log deviation'
+    block: final_goods
+  - name: h_X
+    paper_symbol: '\hat{h}_{X}'
+    description: 'domestic intermediate input into exported good, log deviation'
+    block: final_goods
+  - name: im_X
+    paper_symbol: '\widehat{im}_{X}'
+    description: 'imported intermediate input into exported good, log deviation'
+    block: final_goods
+  - name: Gamma_IMX_p
+    paper_symbol: '\hat{\Gamma}_{IM^{X}}^{+}'
+    description: 'import-share adjustment-cost term, exports sector'
+    block: final_goods
+  - name: q_X
+    paper_symbol: '\hat{q}_{X}'
+    description: 'output of final exports good, log deviation'
+    block: final_goods
+  - name: p_DX
+    paper_symbol: '\hat{p}_{DX}'
+    description: 'domestic-currency relative price of exported good, log deviation'
+    block: final_goods
+  - name: pi_X
+    paper_symbol: '\hat{\pi}_{X}'
+    description: 'export price inflation in foreign currency, deviation'
+    block: exports
+  - name: mc_X
+    paper_symbol: '\widehat{mc}^{X}'
+    description: 'exporters'' real marginal cost, log deviation'
+    block: exports
+  - name: p_X
+    paper_symbol: '\hat{p}_{X}'
+    description: 'real export price (foreign currency, vs foreign output deflator)'
+    block: exports
+  - name: x
+    paper_symbol: '\hat{x}'
+    description: 'exports, log deviation'
+    block: exports
+  - name: g
+    paper_symbol: '\hat{g}'
+    description: 'government consumption, log deviation'
+    block: policy
+  - name: tau_C
+    paper_symbol: '\hat{\tau}^{C}'
+    description: 'consumption tax (VAT) rate, deviation'
+    block: policy
+  - name: tau_D
+    paper_symbol: '\hat{\tau}^{D}'
+    description: 'dividend tax rate, deviation'
+    block: policy
+  - name: tau_K
+    paper_symbol: '\hat{\tau}^{K}'
+    description: 'capital income tax rate, deviation'
+    block: policy
+  - name: tau_N
+    paper_symbol: '\hat{\tau}^{N}'
+    description: 'labor income tax rate on households, deviation'
+    block: policy
+  - name: tau_W_h
+    paper_symbol: '\hat{\tau}^{W_{h}}'
+    description: 'payroll (social security) tax rate on households, deviation'
+    block: policy
+  - name: tau_W_f
+    paper_symbol: '\hat{\tau}^{W_{f}}'
+    description: 'payroll (social security) tax rate on firms, deviation'
+    block: policy
+  - name: g_Y
+    paper_symbol: '\hat{g}_{Y}'
+    description: 'output growth, deviation'
+    block: policy
+  - name: pibar
+    paper_symbol: '\hat{\bar{\pi}}'
+    description: 'domestic inflation target, deviation'
+    block: policy
+  - name: rr_fw
+    paper_symbol: '\hat{rr}^{fw}'
+    description: '5-10 year forward expected real interest rate'
+    block: policy
+  - name: dS
+    paper_symbol: '\Delta{\hat{S}}'
+    description: 'nominal depreciation of the shekel, deviation (policy rule (259))'
+    block: policy
+  - name: y_GAP
+    paper_symbol: 'y^{GAP}'
+    description: 'output gap: output relative to technology-driven trend'
+    block: policy
+  - name: pi_CB
+    paper_symbol: '\hat{\pi}^{CB}'
+    description: 'four-quarter inflation measure the central bank reacts to'
+    block: policy
+  - name: s_TB
+    paper_symbol: '\hat{s}_{TB}'
+    description: 'trade balance to output ratio, deviation'
+    block: external
+  - name: s_X
+    paper_symbol: '\hat{s}_{X}'
+    description: 'exports to output ratio, deviation'
+    block: external
+  - name: s_IM
+    paper_symbol: '\hat{s}_{IM}'
+    description: 'imports to output ratio, deviation'
+    block: external
+  - name: CA_over_Y
+    paper_symbol: '(CA/Y)'
+    description: 'model current-account-to-GDP ratio'
+    block: external
+  - name: s_FTR
+    paper_symbol: '\hat{s}_{FTR}'
+    description: 'foreign transfers to output ratio, deviation'
+    block: external
+  - name: s_C
+    paper_symbol: '\hat{s}_{t}^{C}'
+    description: 'Real exchange rate in CPI terms, defined by (273) (D04)'
+    block: external
+  - name: h
+    paper_symbol: '\hat{h}'
+    description: 'production-relevant aggregate of domestic intermediate goods'
+    block: market_clearing
+  - name: 'y'
+    paper_symbol: '\hat{y}'
+    description: 'real output (GDP), log deviation'
+    block: market_clearing
+  - name: p_Y
+    paper_symbol: '\hat{p}_{Y}'
+    description: 'GDP (output) deflator relative to CPI, log deviation'
+    block: market_clearing
+  - name: pi_Y
+    paper_symbol: '\hat{\pi}_{Y}'
+    description: 'inflation of output deflator, deviation'
+    block: market_clearing
+  - name: pi_C
+    paper_symbol: '\hat{\pi}_{C}'
+    description: 'CPI inflation, deviation'
+    block: market_clearing
+  - name: im
+    paper_symbol: '\hat{im}'
+    description: 'imports (log deviation); Table 7 column header, same as \widehat{im}'
+    block: market_clearing
+  - name: p_Y_M
+    paper_symbol: '\hat{p}_{Y}^{M}'
+    description: 'output deflator in market prices, deviation'
+    block: market_clearing
+  - name: y_star
+    paper_symbol: '\hat{y}^{*}'
+    description: 'foreign output, log deviation'
+    block: foreign
+  - name: r_star
+    paper_symbol: '\hat{r}^{*}'
+    description: 'foreign nominal interest rate, deviation'
+    block: foreign
+  - name: ri_star
+    paper_symbol: '\widehat{ri}^{*}_{t}'
+    description: 'Foreign real interest rate r* - E pi*_Y(+1) (D27)'
+    block: foreign
+  - name: pi_Y_star
+    paper_symbol: '\hat{\pi}_{Y}^{*}'
+    description: 'foreign output-price inflation, deviation'
+    block: foreign
+  - name: im_star
+    paper_symbol: '\widehat{im}^{*}'
+    description: 'world imports (world trade), log deviation'
+    block: foreign
+  - name: p_OIL
+    paper_symbol: '\hat{p}_{OILl}'
+    description: 'relative price of oil, log deviation (printed variant)'
+    block: foreign
+  - name: fw_ristar
+    paper_symbol: '\hat{fw}_{ri^{*}}'
+    description: 'forward real-rate term as printed in (312)'
+    block: foreign
+  - name: epsilon
+    paper_symbol: '\hat{\epsilon}'
+    description: 'transitory technology shock'
+    block: shocks
+  - name: g_z
+    paper_symbol: '\hat{g}_{z}'
+    description: 'growth rate of labor-augmenting productivity, deviation'
+    block: shocks
+  - name: epsilon_C
+    paper_symbol: '\hat{\epsilon}^{C}'
+    description: 'consumption-demand (preference) shock'
+    block: shocks
+  - name: epsilon_I
+    paper_symbol: '\hat{\epsilon}^{I}'
+    description: 'investment-specific technology shock'
+    block: shocks
+  - name: epsilon_RP
+    paper_symbol: '\hat{\epsilon}^{RP}'
+    description: 'symmetric (common) risk-premium shock'
+    block: shocks
+  - name: epsilon_RPstar
+    paper_symbol: '\hat{\epsilon}^{RP^{*}}'
+    description: 'external risk-premium shock'
+    block: shocks
+  - name: epsilon_DRP
+    paper_symbol: '\hat{\epsilon}^{DRP}'
+    description: 'domestic, highly inertial risk-premium shock'
+    block: shocks
+  - name: dinv
+    paper_symbol: '\Delta{\widehat{inv}}'
+    description: 'change in inventories (share of GDP), model deviation'
+    block: shocks
+  - name: nu
+    paper_symbol: '\hat{\nu}_{t}'
+    description: 'Common home-bias process of all final-good sectors (D22)'
+    block: shocks
+  - name: nu_star
+    paper_symbol: '\hat{\nu}^{*}'
+    description: 'country-specific export-demand shock'
+    block: shocks
+  - name: phi_w
+    paper_symbol: '\hat{\phi}_{w}'
+    description: 'wage markup shock'
+    block: shocks
+  - name: varphi_H
+    paper_symbol: '\hat{\varphi}^{H}'
+    description: 'domestic price markup shock'
+    block: shocks
+  - name: varphi_star
+    paper_symbol: '\hat{\varphi}^{*}'
+    description: 'import price markup shock'
+    block: shocks
+  - name: varphi_X
+    paper_symbol: '\hat{\varphi}^{X}'
+    description: 'export price markup shock'
+    block: shocks
+  - name: epsilon_Ystar
+    paper_symbol: '\hat{\epsilon}_{Y^{*}}'
+    description: 'foreign demand (output) shock'
+    block: shocks
+  - name: epsilon_Pistar
+    paper_symbol: '\varepsilon_{t}^{\Pi^{*}}'
+    description: 'World cost-push shock of (92) (D06)'
+    block: shocks
+  - name: epsilon_Rstar
+    paper_symbol: '\hat{\epsilon}_{R^{*}}'
+    description: 'foreign monetary policy shock'
+    block: shocks
+  - name: Delta_Y
+    paper_symbol: '\Delta{Y}'
+    description: 'per capita real GDP growth (observed)'
+    block: measurement
+  - name: Delta_C
+    paper_symbol: '\Delta{C}'
+    description: 'per capita real private consumption growth'
+    block: measurement
+  - name: Delta_I_NI
+    paper_symbol: '\Delta{I_{NI}}'
+    description: 'observed real per-capita fixed investment growth (excluding inventories)'
+    block: measurement
+  - name: Delta_G
+    paper_symbol: '\Delta{G}'
+    description: 'per capita government consumption growth (excl. defence imports)'
+    block: measurement
+  - name: Delta_X
+    paper_symbol: '\Delta{X}'
+    description: 'per capita exports growth (excl. diamonds, start-ups)'
+    block: measurement
+  - name: Delta_IM
+    paper_symbol: '\Delta{IM}'
+    description: 'per capita imports growth (excl. defence, ships, aircraft, diamonds)'
+    block: measurement
+  - name: Delta_P_Y_M
+    paper_symbol: '\Delta{P_{Y}^{M}}'
+    description: 'GDP deflator inflation, market prices'
+    block: measurement
+  - name: Delta_P_C
+    paper_symbol: '\Delta{P_{C}}'
+    description: 'CPI inflation (excl. fruit/vegetables; housing excl. 1992-2006), VAT changes deducted'
+    block: measurement
+  - name: Delta_P_I
+    paper_symbol: '\Delta{P_{I}}'
+    description: 'observed investment-deflator inflation'
+    block: measurement
+  - name: pibar_OB
+    paper_symbol: '4\cdot\bar{\pi}_{t}'
+    description: 'Observed annualized inflation target (94.i5; D19)'
+    block: measurement
+  - name: 'e'
+    paper_symbol: '\hat{e}'
+    description: 'per-capita employment, deviation from HP trend'
+    block: measurement
+  - name: Delta_EM
+    paper_symbol: '\Delta{EM}'
+    description: 'growth of employees per working-age person'
+    block: measurement
+  - name: Delta_N
+    paper_symbol: '\Delta{N}'
+    description: 'growth of hours worked per working-age person'
+    block: measurement
+  - name: Delta_W
+    paper_symbol: '\Delta{W}'
+    description: 'nominal hourly wage growth'
+    block: measurement
+  - name: r_OB
+    paper_symbol: 'r^{OB}'
+    description: 'observed annualized Bank of Israel nominal interest rate'
+    block: measurement
+  - name: Delta_S
+    paper_symbol: '\Delta{S}'
+    description: 'nominal depreciation'
+    block: measurement
+  - name: Delta_Y_star
+    paper_symbol: '\Delta{Y^{*}}'
+    description: 'G4 real GDP growth (weighted)'
+    block: measurement
+  - name: Delta_P_Ystar
+    paper_symbol: '\Delta{P_{Y^{*}}}'
+    description: 'observed foreign price inflation (G4 CPI)'
+    block: measurement
+  - name: R_starOB
+    paper_symbol: 'R^{*OB}'
+    description: 'observed annualized foreign (G4) nominal interest rate'
+    block: measurement
+  - name: Delta_P_Xstar
+    paper_symbol: '\Delta{P_{X^{*}}}'
+    description: 'inflation in foreign competitors'' price'
+    block: measurement
+  - name: Delta_P_X_NIS
+    paper_symbol: '\Delta{P_{X}^{NIS}}'
+    description: 'export deflator inflation in domestic currency (NIS)'
+    block: measurement
+  - name: rr_fwd_ob
+    paper_symbol: 'rr^{fwd\_ob}'
+    description: 'observed domestic 5-10 year forward real interest rate'
+    block: measurement
+  - name: S_CA
+    paper_symbol: 'S_{CA}'
+    description: 'observed current-account-to-GDP ratio'
+    block: measurement
+  - name: tau_C_OB
+    paper_symbol: '\tau^{C\_OB}'
+    description: 'observed consumption (VAT) tax rate'
+    block: measurement
+  - name: tau_N_OB
+    paper_symbol: '\tau^{N\_OB}'
+    description: 'observed income tax rate'
+    block: measurement
+  - name: Delta_P_OIL
+    paper_symbol: '\Delta{P_{OIL}}'
+    description: 'observed change in oil prices'
+    block: measurement
+  - name: Delta_inv
+    paper_symbol: '\Delta{inv}@t'
+    description: 'observed change in inventories as a share of GDP (with time index)'
+    block: measurement
+  - name: r_starfwd_ob
+    paper_symbol: 'r^{*fwd\_ob}'
+    description: 'observed foreign 5-10 year forward nominal interest rate'
+    block: measurement
+  - name: Delta_WT_star
+    paper_symbol: '\Delta{WT^{*}}'
+    description: 'OECD import volume growth (world trade)'
+    block: measurement
+  - name: EX_DeltaS
+    paper_symbol: 'EX_{\Delta S}'
+    description: 'excess trend in nominal depreciation'
+    block: measurement
+  - name: EX_DeltaW
+    paper_symbol: 'EX_{\Delta W}'
+    description: 'excess trend in nominal wage growth'
+    block: measurement
+  - name: EX_DeltaN
+    paper_symbol: 'EX_{\Delta N}'
+    description: 'common excess trend in per-capita hours growth'
+    block: measurement
+  - name: EX_DeltaC
+    paper_symbol: 'EX_{\Delta C}'
+    description: 'excess trend in consumption growth'
+    block: measurement
+  - name: EX_DeltaINI
+    paper_symbol: 'EX_{\Delta INI}'
+    description: 'excess trend in fixed-investment growth'
+    block: measurement
+  - name: EX_DeltaIM
+    paper_symbol: 'EX_{\Delta IM}'
+    description: 'excess trend in import growth'
+    block: measurement
+  - name: EX_DeltaX
+    paper_symbol: 'EX_{\Delta X}'
+    description: 'excess trend in export growth'
+    block: measurement
+  - name: EX_DeltaINV
+    paper_symbol: 'EX_{\Delta INV}'
+    description: 'excess term in the inventory share'
+    block: measurement
+  - name: EX_DeltaG
+    paper_symbol: 'EX_{\Delta G}'
+    description: 'excess trend in government consumption growth'
+    block: measurement
+  - name: EX_DeltaYstar
+    paper_symbol: 'EX_{\Delta Y*}'
+    description: 'excess trend in foreign output growth'
+    block: measurement
+  - name: EX_DeltaWTstar
+    paper_symbol: 'EX_{\Delta WT*}'
+    description: 'excess trend in world import growth'
+    block: measurement
+  - name: EX_DeltaPOIL
+    paper_symbol: 'EX_{\Delta POIL}'
+    description: 'excess trend in oil-price changes'
+    block: measurement
+  - name: epsilon_OB_DPY
+    paper_symbol: '\hat{\epsilon}_{OB\_DPY}'
+    description: 'observation error in GDP-deflator inflation'
+    block: measurement
+  - name: epsilon_OB_E
+    paper_symbol: '\hat{\epsilon}_{OB\_E}'
+    description: 'observation shock in the employment equation'
+    block: measurement
+  - name: epsilon_fwd_ob
+    paper_symbol: '\hat{\epsilon}_{fwd\_ob}'
+    description: 'observation error in the domestic forward real rate'
+    block: measurement
+  - name: epsilon_fwd_obstar
+    paper_symbol: '\hat{\epsilon}_{fwd\_ob^{*}}'
+    description: 'observation error in the foreign forward nominal rate'
+    block: measurement
+
+shocks:
+  - name: eta
+    paper_symbol: '\eta'
+    description: 'Transitory technology'
+    std: 0.011
+    posterior_mean: 0.012
+    prior: {dist: inv_gamma, mean: 0.03, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_gz
+    paper_symbol: '\eta^{g_{z}}'
+    description: 'Permanent technology'
+    std: 0.002
+    posterior_mean: 0.002
+    prior: {dist: inv_gamma, mean: 0.01, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_RP
+    paper_symbol: '\eta^{RP}'
+    description: 'Symmetric premium'
+    std: 0.01
+    posterior_mean: 0.013
+    prior: {dist: inv_gamma, mean: 0.03, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_RPstar
+    paper_symbol: '\eta^{RP^{*}}'
+    description: 'External premium'
+    std: 0.011
+    posterior_mean: 0.011
+    prior: {dist: inv_gamma, mean: 0.03, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_DRP
+    paper_symbol: '\eta^{DRP}'
+    description: 'Domestic premium'
+    std: 0.0
+    posterior_mean: 0.001
+    prior: {dist: inv_gamma, mean: 0.0, std: Inf}
+    source: 'Table 3'
+    page: 51
+    notes: 'mode printed 0.000 (rounded): D36'
+    decision: D36
+  - name: eta_C
+    paper_symbol: '\eta^{C}'
+    description: Consumption
+    std: 0.012
+    posterior_mean: 0.035
+    prior: {dist: inv_gamma, mean: 0.03, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_I
+    paper_symbol: '\eta^{I}'
+    description: 'Investment technology'
+    std: 0.042
+    posterior_mean: 0.052
+    prior: {dist: inv_gamma, mean: 0.05, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_DINV
+    paper_symbol: '\eta^{\Delta INV}'
+    description: 'Inventory investment'
+    std: 0.013
+    posterior_mean: 0.013
+    prior: {dist: inv_gamma, mean: 0.01, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_G
+    paper_symbol: '\eta^{G}'
+    description: 'Government consumption'
+    std: 0.006
+    posterior_mean: 0.006
+    prior: {dist: inv_gamma, mean: 0.01, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_nustar
+    paper_symbol: '\eta^{\nu^{*}}'
+    description: 'Export share'
+    std: 0.042
+    posterior_mean: 0.058
+    prior: {dist: inv_gamma, mean: 0.05, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_nu
+    paper_symbol: '\eta^{\nu}'
+    description: 'Home bias'
+    std: 0.008
+    posterior_mean: 0.008
+    prior: {dist: inv_gamma, mean: 0.01, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_varphiH
+    paper_symbol: '\eta^{\varphi^{H}}'
+    description: 'Domestic markup'
+    std: 0.028
+    posterior_mean: 0.038
+    prior: {dist: inv_gamma, mean: 0.05, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_varphistar
+    paper_symbol: '\eta^{\varphi^{*}}'
+    description: 'Import markup'
+    std: 0.026
+    posterior_mean: 0.029
+    prior: {dist: inv_gamma, mean: 0.03, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_varphiW
+    paper_symbol: '\eta^{\varphi^{W}}'
+    description: 'Wage markup'
+    std: 0.238
+    posterior_mean: 0.335
+    prior: {dist: inv_gamma, mean: 0.5, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_varphiX
+    paper_symbol: '\eta^{\varphi^{X}}'
+    description: 'Export markup'
+    std: 0.066
+    posterior_mean: 0.076
+    prior: {dist: inv_gamma, mean: 0.1, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_FTR
+    paper_symbol: '\eta^{FTR}'
+    description: 'Foreign transfers'
+    std: 0.016
+    posterior_mean: 0.016
+    prior: {dist: inv_gamma, mean: 0.01, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_R
+    paper_symbol: '\eta^{R}'
+    description: 'Interest rate (i.i.d.)'
+    std: 0.002
+    posterior_mean: 0.002
+    prior: {dist: inv_gamma, mean: 0.01, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_Pibar
+    paper_symbol: '\eta^{\bar{\Pi}}'
+    description: 'Inflation target'
+    std: 0.001
+    posterior_mean: 0.001
+    prior: {dist: inv_gamma, mean: 0.0, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_tauC
+    paper_symbol: '\eta^{\tau^{C}}'
+    description: 'Consumption tax (VAT)'
+    std: 0.002
+    posterior_mean: 0.002
+    prior: {dist: inv_gamma, mean: 0.0, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_Ystar
+    paper_symbol: '\eta^{Y^{*}}'
+    description: 'World demand'
+    std: 0.002
+    posterior_mean: 0.002
+    prior: {dist: inv_gamma, mean: 0.01, std: Inf}
+    source: 'Table 4'
+    page: 52
+  - name: eta_Pistar
+    paper_symbol: '\eta^{\Pi^{*}}'
+    description: 'World cost push (supply)'
+    std: 0.007
+    posterior_mean: 0.007
+    prior: {dist: inv_gamma, mean: 0.01, std: Inf}
+    source: 'Table 4'
+    page: 52
+  - name: eta_Rstar
+    paper_symbol: '\eta^{R^{*}}'
+    description: 'World interest rate'
+    std: 0.002
+    posterior_mean: 0.002
+    prior: {dist: inv_gamma, mean: 0.0, std: Inf}
+    source: 'Table 4'
+    page: 52
+  - name: epsilon_IMstar
+    paper_symbol: '\eta^{WT^{*}}'
+    description: 'World trade (i.i.d.; printed \hat{\epsilon}_{IM^*} in (289))'
+    std: 0.007
+    posterior_mean: 0.007
+    prior: {dist: inv_gamma, mean: 0.03, std: Inf}
+    source: 'Table 4'
+    page: 52
+    notes: 'no AR coefficient reported for world trade (4.4.2 item 23): D37'
+    decision: D37
+  - name: eta_OIL
+    paper_symbol: '\eta^{OIL}'
+    description: 'Oil price'
+    std: 0.124
+    posterior_mean: 0.124
+    prior: {dist: inv_gamma, mean: 0.1, std: Inf}
+    source: 'Table 4'
+    page: 52
+  - name: eta_fwdstar
+    paper_symbol: '\eta^{*,fwd}'
+    description: 'World long-run real rate'
+    std: 0.001
+    posterior_mean: 0.001
+    prior: {dist: inv_gamma, mean: 0.0, std: Inf}
+    source: 'Table 4'
+    page: 52
+  - name: eta_OB_DPY
+    paper_symbol: '\eta^{\Delta P_{Y}^{M}}'
+    description: 'Observation error, output deflator'
+    std: 0.007
+    posterior_mean: 0.007
+    prior: {dist: inv_gamma, mean: 0.01, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_OB_E
+    paper_symbol: '\eta^{OB,E}'
+    description: 'Employment observation shock'
+    std: 0.003
+    posterior_mean: 0.003
+    prior: {dist: inv_gamma, mean: 0.01, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_fwd_ob
+    paper_symbol: '\eta^{fwd,OB}'
+    description: 'Domestic term premium'
+    std: 0.002
+    posterior_mean: 0.002
+    prior: {dist: inv_gamma, mean: 0.01, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_fwd_obstar
+    paper_symbol: '\eta^{*,fwd,OB}'
+    description: 'Foreign term premium'
+    std: 0.002
+    posterior_mean: 0.002
+    prior: {dist: inv_gamma, mean: 0.01, std: Inf}
+    source: 'Table 3'
+    page: 51
+  - name: eta_EX_N
+    paper_symbol: '\eta_{EX}^{N}'
+    description: 'Excess trend, hours'
+    std: 0.001
+    posterior_mean: 0.001
+    prior: {dist: inv_gamma, mean: 0.0, std: 0.0}
+    source: 'Table 3'
+    page: 51
+  - name: eta_EX_C
+    paper_symbol: '\eta_{EX}^{C}'
+    description: 'Excess trend, consumption'
+    std: 0.003
+    posterior_mean: 0.003
+    prior: {dist: inv_gamma, mean: 0.01, std: 0.0}
+    source: 'Table 3'
+    page: 51
+  - name: eta_EX_I
+    paper_symbol: '\eta_{EX}^{I}'
+    description: 'Excess trend, investment'
+    std: 0.004
+    posterior_mean: 0.004
+    prior: {dist: inv_gamma, mean: 0.01, std: 0.0}
+    source: 'Table 3'
+    page: 51
+  - name: eta_EX_X
+    paper_symbol: '\eta_{EX}^{X}'
+    description: 'Excess trend, exports'
+    std: 0.003
+    posterior_mean: 0.003
+    prior: {dist: inv_gamma, mean: 0.01, std: 0.0}
+    source: 'Table 3'
+    page: 51
+  - name: eta_EX_IM
+    paper_symbol: '\eta_{EX}^{IM}'
+    description: 'Excess trend, imports'
+    std: 0.003
+    posterior_mean: 0.003
+    prior: {dist: inv_gamma, mean: 0.01, std: 0.0}
+    source: 'Table 3'
+    page: 51
+  - name: eta_EX_W
+    paper_symbol: '\eta_{EX}^{W}'
+    description: 'Excess trend, wages'
+    std: 0.01
+    posterior_mean: 0.011
+    prior: {dist: inv_gamma, mean: 0.01, std: 0.0}
+    source: 'Table 3'
+    page: 51
+  - name: eta_EX_Ystar
+    paper_symbol: '\eta_{EX}^{Y^{*}}'
+    description: 'Excess trend, foreign GDP'
+    std: 0.003
+    posterior_mean: 0.003
+    prior: {dist: inv_gamma, mean: 0.01, std: 0.0}
+    source: 'Table 3'
+    page: 51
+  - name: eta_EX_WTstar
+    paper_symbol: '\eta_{EX}^{WT^{*}}'
+    description: 'Excess trend, world trade'
+    std: 0.004
+    posterior_mean: 0.004
+    prior: {dist: inv_gamma, mean: 0.01, std: 0.0}
+    source: 'Table 3'
+    page: 51
+  - name: eta_EX_P_OILstar
+    paper_symbol: '\eta_{EX}^{P_{OIL}^{*}}'
+    description: 'Excess trend, oil price'
+    std: 0.032
+    posterior_mean: 0.038
+    prior: {dist: inv_gamma, mean: 0.03, std: 0.01}
+    source: 'Table 3'
+    page: 51
+  - name: eta_EX_S
+    paper_symbol: '\eta_{EX}^{S}'
+    description: 'Excess trend, exchange rate'
+    std: 0.013
+    posterior_mean: 0.014
+    prior: {dist: inv_gamma, mean: 0.01, std: 0.01}
+    source: 'Table 3'
+    page: 51
+  - name: eta_tauD
+    paper_symbol: '\eta^{\tau^{D}}'
+    description: 'Dividend tax'
+    std: 0.0
+    source: 'eq. (253)'
+    notes: 'TODO: S.D. not reported in the paper (D35)'
+  - name: eta_tauK
+    paper_symbol: '\eta^{\tau^{K}}'
+    description: 'Capital tax'
+    std: 0.0
+    source: 'eq. (254)'
+    notes: 'TODO: S.D. not reported in the paper (D35)'
+  - name: eta_tauN
+    paper_symbol: '\eta^{\tau^{N}}'
+    description: 'Labor income tax'
+    std: 0.0
+    source: 'eq. (255)'
+    notes: 'TODO: S.D. not reported in the paper (D35)'
+  - name: eta_tauW_h
+    paper_symbol: '\eta^{\tau^{W_{h}}}'
+    description: 'Payroll tax, households'
+    std: 0.0
+    source: 'eq. (256)'
+    notes: 'TODO: S.D. not reported in the paper (D35)'
+  - name: eta_tauW_f
+    paper_symbol: '\eta^{\tau^{W_{f}}}'
+    description: 'Payroll tax, firms'
+    std: 0.0
+    source: 'eq. (257)'
+    notes: 'TODO: S.D. not reported in the paper (D35)'
+  - name: eta_DeltaP_I
+    paper_symbol: '\eta^{\Delta P_{I}}'
+    description: 'Measurement error, investment deflator'
+    std: 0.0
+    source: 'eq. (299)'
+    notes: 'TODO: S.D. not reported in the paper (D35)'
+  - name: eta_EX_DeltaINV
+    paper_symbol: '\eta_{EX}^{\Delta INV}'
+    description: 'Excess term, inventory share'
+    std: 0.0
+    source: 'eq. (327)'
+    notes: 'TODO: S.D. not reported in the paper (D35)'
+
+parameters:
+  - name: beta
+    paper_symbol: '\beta'
+    description: 'Discount factor'
+    kind: calibrated
+    value: 0.995
+    source: 'Table 1'
+    page: 44
+  - name: zeta
+    paper_symbol: '\zeta'
+    description: 'Inverse of the labor elasticity of supply'
+    kind: calibrated
+    value: 2.0
+    source: 'Table 1'
+    page: 44
+  - name: alpha
+    paper_symbol: '\alpha'
+    description: 'Capital share in production'
+    kind: calibrated
+    value: 0.33
+    source: 'Table 1'
+    page: 44
+  - name: g_z_ss
+    paper_symbol: 'g_{z}'
+    description: 'Long-run (gross, quarterly) productivity growth'
+    kind: calibrated
+    value: 1.0025
+    source: 'Table 1'
+    page: 44
+  - name: delta
+    paper_symbol: '\delta'
+    description: 'Depreciation rate'
+    kind: calibrated
+    value: 0.02
+    source: 'Table 1'
+    page: 44
+  - name: mu_C
+    paper_symbol: '\mu^{C}'
+    description: 'Elasticity of substitution, consumption good'
+    kind: calibrated
+    value: 1.1
+    source: 'Table 1'
+    page: 44
+  - name: mu_I
+    paper_symbol: '\mu^{I}'
+    description: 'Elasticity of substitution, investment good'
+    kind: calibrated
+    value: 1.1
+    source: 'Table 1'
+    page: 44
+  - name: mu_G
+    paper_symbol: '\mu^{G}'
+    description: 'Elasticity of substitution, government good'
+    kind: calibrated
+    value: 0.2
+    source: 'Table 1'
+    page: 44
+  - name: mu_X
+    paper_symbol: '\mu^{X}'
+    description: 'Elasticity of substitution, export good'
+    kind: calibrated
+    value: 1.1
+    source: 'Table 1'
+    page: 44
+  - name: mu_star
+    paper_symbol: '\mu^{*}'
+    description: 'Foreign price elasticity of export demand'
+    kind: calibrated
+    value: 1.5
+    source: 'Table 1'
+    page: 44
+  - name: p_Xc_star_ss
+    paper_symbol: 'p_{X}^{C}'
+    description: 'Exports'' competitors price (steady state)'
+    kind: calibrated
+    value: 1.0
+    source: 'Table 1'
+    page: 44
+  - name: ztilde_ss
+    paper_symbol: '\tilde{z}'
+    description: 'Relative technology (steady state)'
+    kind: calibrated
+    value: 1.0
+    source: 'Table 1'
+    page: 44
+  - name: nu_star_ss
+    paper_symbol: '\nu^{*}'
+    description: 'Israeli exports'' weight in world imports'
+    kind: calibrated
+    value: 0.005
+    source: 'Table 1'
+    page: 44
+  - name: nu_f_ss
+    paper_symbol: '\nu^{F}'
+    description: 'Working-capital weight'
+    kind: calibrated
+    value: 0.2
+    source: 'Table 1'
+    page: 44
+  - name: s_FTR_ss
+    paper_symbol: 's_{FTR}'
+    description: 'Foreign transfers to GDP'
+    kind: calibrated
+    value: 0.03
+    source: 'Table 1'
+    page: 44
+  - name: Pibar
+    paper_symbol: '\bar{\Pi}'
+    description: 'Long-run (gross, quarterly) inflation rate'
+    kind: calibrated
+    value: 1.005
+    source: 'Table 1'
+    page: 44
+  - name: w_tauC
+    paper_symbol: 'w_{\tau^{C}}'
+    description: 'Share of taxed goods (printed as the number 0.78 in Appendix D)'
+    kind: calibrated
+    value: 0.78
+    source: 'Table 1'
+    page: 44
+  - name: phi_w_ss
+    paper_symbol: '\varphi^{W}'
+    description: 'Wage markup (Appendix D writes \phi_w)'
+    kind: calibrated
+    value: 1.3
+    source: 'Table 1'
+    page: 44
+  - name: varphi_H_ss
+    paper_symbol: '\varphi^{H}'
+    description: 'Domestic price markup'
+    kind: calibrated
+    value: 1.3
+    source: 'Table 1'
+    page: 44
+  - name: varphi_star_ss
+    paper_symbol: '\varphi^{*}'
+    description: 'Import price markup'
+    kind: calibrated
+    value: 1.3
+    source: 'Table 1'
+    page: 44
+  - name: varphi_X_ss
+    paper_symbol: '\varphi^{X}'
+    description: 'Export price markup'
+    kind: calibrated
+    value: 1.1
+    source: 'Table 1'
+    page: 44
+  - name: nu_C_ss
+    paper_symbol: '\nu^{C}'
+    description: 'Home bias, consumption (4.4.1 text: import intensity 31%; Table 1 implies 35%)'
+    kind: calibrated
+    value: 0.65
+    source: 'Table 1'
+    page: 44
+  - name: nu_I_ss
+    paper_symbol: '\nu^{I}'
+    description: 'Home bias, investment (4.4.1 text: import intensity 42%; Table 1 implies 40%)'
+    kind: calibrated
+    value: 0.6
+    source: 'Table 1'
+    page: 44
+  - name: nu_G_ss
+    paper_symbol: '\nu^{G}'
+    description: 'Home bias, government'
+    kind: calibrated
+    value: 0.95
+    source: 'Table 1'
+    page: 44
+  - name: nu_X_ss
+    paper_symbol: '\nu^{X}'
+    description: 'Home bias, exports'
+    kind: calibrated
+    value: 0.68
+    source: 'Table 1'
+    page: 44
+  - name: s_G
+    paper_symbol: 's_{G}'
+    description: 'Government consumption to GDP'
+    kind: calibrated
+    value: 0.26
+    source: 'Table 1'
+    page: 44
+  - name: tau_C_ss
+    paper_symbol: '\tau^{C}'
+    description: 'Consumption tax (VAT)'
+    kind: calibrated
+    value: 0.16
+    source: 'Table 1'
+    page: 44
+  - name: tau_K_ss
+    paper_symbol: '\tau^{K}'
+    description: 'Capital tax'
+    kind: calibrated
+    value: 0.5
+    source: 'Table 1'
+    page: 44
+  - name: tau_N_ss
+    paper_symbol: '\tau^{N}'
+    description: 'Labor income tax'
+    kind: calibrated
+    value: 0.28
+    source: 'Table 1'
+    page: 44
+  - name: tau_W_h_ss
+    paper_symbol: '\tau^{W_{h}}'
+    description: 'Payroll tax, households'
+    kind: calibrated
+    value: 0.09
+    source: 'Table 1'
+    page: 44
+  - name: tau_W_f_ss
+    paper_symbol: '\tau^{W_{f}}'
+    description: 'Payroll tax, firms'
+    kind: calibrated
+    value: 0.07
+    source: 'Table 1'
+    page: 44
+  - name: s_TR
+    paper_symbol: 's_{TR}'
+    description: 'Government transfers to GDP (not used by the linear model)'
+    kind: calibrated
+    value: 0.15
+    source: 'Table 1'
+    page: 44
+  - name: dinv_ss
+    paper_symbol: '\Delta inv'
+    description: 'Change in inventories to GDP'
+    kind: calibrated
+    value: 0.01
+    source: 'Table 1'
+    page: 44
+  - name: gamma_u_2
+    paper_symbol: '\gamma_{u,2}'
+    description: 'Cost of varying capital utilization'
+    kind: fixed
+    value: 10000
+    source: 'text 4.4.1'
+    page: 43
+    notes: 'set high so that capital utilization does not vary'
+  - name: chi_W_g_z
+    paper_symbol: '\chi_{W,g_{z}}'
+    description: 'Wage indexation to actual productivity growth'
+    kind: fixed
+    value: 0
+    source: 'text 4.4.1'
+    page: 43
+    notes: 'wages are indexed to steady-state productivity growth instead'
+  - name: gamma_IM_C
+    paper_symbol: '\gamma_{IM^{C}}'
+    description: 'Import-intensity adjustment cost, consumption'
+    kind: fixed
+    value: 0
+    source: 'text 4.4.1'
+    page: 43
+    notes: 'no adjustment costs'
+  - name: gamma_IM_I
+    paper_symbol: '\gamma_{IM^{I}}'
+    description: 'Import-intensity adjustment cost, investment'
+    kind: fixed
+    value: 0
+    source: 'text 4.4.1'
+    page: 43
+    notes: 'no adjustment costs'
+  - name: gamma_IM_G
+    paper_symbol: '\gamma_{IM^{G}}'
+    description: 'Import-intensity adjustment cost, government'
+    kind: fixed
+    value: 0
+    source: 'text 4.4.1'
+    page: 43
+    notes: 'no adjustment costs'
+  - name: gamma_IM_X
+    paper_symbol: '\gamma_{IM^{X}}'
+    description: 'Import-intensity adjustment cost, exports'
+    kind: fixed
+    value: 0
+    source: 'text 4.4.1'
+    page: 43
+    notes: 'no adjustment costs'
+  - name: rho_DRP
+    paper_symbol: '\rho_{DRP}'
+    description: 'Persistence of the domestic risk-premium shock'
+    kind: fixed
+    value: 0.99
+    source: 'display 3.u1'
+    page: 8
+    notes: 'fixed in 3.u1'
+  - name: rho_tauC
+    paper_symbol: '\rho_{\tau^{C}}'
+    description: 'Persistence of the VAT rate'
+    kind: fixed
+    value: 0.99
+    source: 'eq. (60)'
+    page: 25
+    notes: 'fixed in (60)'
+  - name: rho_barpi
+    paper_symbol: '\rho_{\bar{\pi}}'
+    description: 'Persistence of the inflation target'
+    kind: fixed
+    value: 0.99
+    source: 'eq. (64)'
+    page: 26
+    notes: 'fixed in (64); D10'
+  - name: rho_fwdstar
+    description: 'Persistence of the foreign forward real rate'
+    kind: fixed
+    value: 0.99
+    source: 'eq. (90)'
+    page: 33
+    notes: 'fixed in (90)'
+  - name: kappa
+    paper_symbol: '\kappa'
+    description: 'Habit formation'
+    kind: estimated
+    value: 0.616
+    posterior_mean: 0.706
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: chi_E
+    paper_symbol: '\chi_{E}'
+    description: 'Indexation, employment'
+    kind: estimated
+    value: 0.494
+    posterior_mean: 0.485
+    prior: {dist: beta, mean: 0.4, std: 0.1}
+    source: 'Table 2'
+    page: 50
+    notes: '(95) writes \chi_{EM}'
+  - name: chi_H
+    paper_symbol: '\chi_{H}'
+    description: 'Indexation, domestic prices'
+    kind: estimated
+    value: 0.365
+    posterior_mean: 0.355
+    prior: {dist: beta, mean: 0.4, std: 0.1}
+    source: 'Table 2'
+    page: 50
+  - name: chi_star
+    paper_symbol: '\chi_{IM}'
+    description: 'Indexation, import prices (Appendix D (229) writes \chi^{*})'
+    kind: estimated
+    value: 0.3
+    posterior_mean: 0.322
+    prior: {dist: beta, mean: 0.4, std: 0.1}
+    source: 'Table 2'
+    page: 50
+  - name: chi_W
+    paper_symbol: '\chi_{W}'
+    description: 'Indexation, wages'
+    kind: estimated
+    value: 0.377
+    posterior_mean: 0.377
+    prior: {dist: beta, mean: 0.4, std: 0.1}
+    source: 'Table 2'
+    page: 50
+  - name: chi_X
+    paper_symbol: '\chi_{X}'
+    description: 'Indexation, export prices'
+    kind: estimated
+    value: 0.281
+    posterior_mean: 0.294
+    prior: {dist: beta, mean: 0.4, std: 0.1}
+    source: 'Table 2'
+    page: 50
+  - name: xi_E
+    paper_symbol: '\xi_{E}'
+    description: 'Calvo, employment'
+    kind: estimated
+    value: 0.614
+    posterior_mean: 0.646
+    prior: {dist: beta, mean: 0.6, std: 0.1}
+    source: 'Table 2'
+    page: 50
+    notes: '(95) writes \xi_{EM}'
+  - name: xi_H
+    paper_symbol: '\xi_{H}'
+    description: 'Calvo, domestic prices'
+    kind: estimated
+    value: 0.606
+    posterior_mean: 0.648
+    prior: {dist: beta, mean: 0.6, std: 0.1}
+    source: 'Table 2'
+    page: 50
+  - name: xi_star
+    paper_symbol: '\xi_{IM}'
+    description: 'Calvo, import prices (Appendix D (229) writes \xi^{*})'
+    kind: estimated
+    value: 0.428
+    posterior_mean: 0.443
+    prior: {dist: beta, mean: 0.6, std: 0.1}
+    source: 'Table 2'
+    page: 50
+  - name: xi_W
+    paper_symbol: '\xi_{W}'
+    description: 'Calvo, wages'
+    kind: estimated
+    value: 0.456
+    posterior_mean: 0.543
+    prior: {dist: beta, mean: 0.6, std: 0.1}
+    source: 'Table 2'
+    page: 50
+  - name: xi_X
+    paper_symbol: '\xi_{X}'
+    description: 'Calvo, export prices'
+    kind: estimated
+    value: 0.588
+    posterior_mean: 0.596
+    prior: {dist: beta, mean: 0.6, std: 0.1}
+    source: 'Table 2'
+    page: 50
+  - name: gamma_I
+    paper_symbol: '\gamma_{I}'
+    description: 'Investment adjustment cost'
+    kind: estimated
+    value: 2.816
+    posterior_mean: 3.305
+    prior: {dist: gamma, mean: 2.0, std: 1.0}
+    source: 'Table 2'
+    page: 50
+  - name: omega_Gamma_I
+    paper_symbol: '\omega_{\Gamma_{I}}'
+    description: 'Investment adjustment cost, weight of the lag'
+    kind: estimated
+    value: 0.554
+    posterior_mean: 0.536
+    prior: {dist: beta, mean: 0.5, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: gamma_star
+    paper_symbol: '\gamma^{*}'
+    description: 'Export-share adjustment cost'
+    kind: estimated
+    value: 0.295
+    posterior_mean: 0.645
+    prior: {dist: gamma, mean: 1.2, std: 0.5}
+    source: 'Table 2'
+    page: 50
+  - name: gamma_B
+    paper_symbol: '\gamma_{B}'
+    description: 'FX premium, net foreign assets (\gamma_{B^*} in (4))'
+    kind: estimated
+    value: 0.012
+    posterior_mean: 0.012
+    prior: {dist: gamma, mean: 0.01, std: 0.01}
+    source: 'Table 2'
+    page: 50
+    notes: 'prior std printed 0.01; docs/paper README argues it is 0.005 rounded'
+  - name: gamma_S
+    paper_symbol: '\gamma_{S}'
+    description: 'FX premium, expected depreciation'
+    kind: estimated
+    value: 0.325
+    posterior_mean: 0.358
+    prior: {dist: beta, mean: 0.45, std: 0.2}
+    source: 'Table 2'
+    page: 50
+  - name: omega_star
+    paper_symbol: '\omega^{*}'
+    description: 'Oil share in imports'
+    kind: estimated
+    value: 0.118
+    posterior_mean: 0.133
+    prior: {dist: beta, mean: 0.15, std: 0.05}
+    source: 'Table 2'
+    page: 50
+  - name: phi_R
+    paper_symbol: '\phi_{R}'
+    description: 'Policy rule, smoothing'
+    kind: estimated
+    value: 0.814
+    posterior_mean: 0.833
+    prior: {dist: beta, mean: 0.7, std: 0.1}
+    source: 'Table 2'
+    page: 50
+  - name: phi_Pi
+    paper_symbol: '\phi_{\Pi}'
+    description: 'Policy rule, response to inflation'
+    kind: estimated
+    value: 2.538
+    posterior_mean: 2.656
+    prior: {dist: gamma, mean: 2.5, std: 0.5}
+    source: 'Table 2'
+    page: 50
+  - name: phi_y
+    paper_symbol: '\phi_{y}'
+    description: 'Policy rule, response to the output gap'
+    kind: estimated
+    value: 0.204
+    posterior_mean: 0.205
+    prior: {dist: gamma, mean: 0.2, std: 0.1}
+    source: 'Table 2'
+    page: 50
+  - name: phi_DeltaS
+    paper_symbol: '\phi_{\Delta S}'
+    description: 'Policy rule, response to depreciation'
+    kind: estimated
+    value: 0.09
+    posterior_mean: 0.124
+    prior: {dist: gamma, mean: 0.2, std: 0.1}
+    source: 'Table 2'
+    page: 50
+  - name: rho_epsilon
+    paper_symbol: '\rho'
+    description: 'AR, transitory technology'
+    kind: estimated
+    value: 0.92
+    posterior_mean: 0.859
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_gz
+    paper_symbol: '\rho_{g_{z}}'
+    description: 'AR, permanent technology'
+    kind: estimated
+    value: 0.693
+    posterior_mean: 0.668
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_RP
+    paper_symbol: '\rho_{RP}'
+    description: 'AR, symmetric premium'
+    kind: estimated
+    value: 0.767
+    posterior_mean: 0.737
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_RPstar
+    paper_symbol: '\rho_{RP^{*}}'
+    description: 'AR, external premium'
+    kind: estimated
+    value: 0.582
+    posterior_mean: 0.55
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_C
+    paper_symbol: '\rho_{C}'
+    description: 'AR, consumption'
+    kind: estimated
+    value: 0.782
+    posterior_mean: 0.584
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_I
+    paper_symbol: '\rho_{I}'
+    description: 'AR, investment technology'
+    kind: estimated
+    value: 0.906
+    posterior_mean: 0.732
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_DINV
+    paper_symbol: '\rho_{\Delta INV}'
+    description: 'AR, inventory investment'
+    kind: estimated
+    value: 0.708
+    posterior_mean: 0.678
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_G
+    paper_symbol: '\rho_{G}'
+    description: 'AR, government'
+    kind: estimated
+    value: 0.679
+    posterior_mean: 0.672
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_nustar
+    paper_symbol: '\rho_{\nu^{*}}'
+    description: 'AR, export share'
+    kind: estimated
+    value: 0.839
+    posterior_mean: 0.664
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_nu
+    paper_symbol: '\rho_{\nu}'
+    description: 'AR, home bias'
+    kind: estimated
+    value: 0.802
+    posterior_mean: 0.77
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_varphiH
+    paper_symbol: '\rho_{\varphi^{H}}'
+    description: 'AR, domestic markup'
+    kind: estimated
+    value: 0.196
+    posterior_mean: 0.241
+    prior: {dist: beta, mean: 0.3, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_varphistar
+    paper_symbol: '\rho_{\varphi^{*}}'
+    description: 'AR, import markup'
+    kind: estimated
+    value: 0.203
+    posterior_mean: 0.258
+    prior: {dist: beta, mean: 0.3, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_varphiW
+    paper_symbol: '\rho_{\varphi^{W}}'
+    description: 'AR, wage markup'
+    kind: estimated
+    value: 0.109
+    posterior_mean: 0.187
+    prior: {dist: beta, mean: 0.3, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_varphiX
+    paper_symbol: '\rho_{\varphi^{X}}'
+    description: 'AR, export markup'
+    kind: estimated
+    value: 0.102
+    posterior_mean: 0.142
+    prior: {dist: beta, mean: 0.3, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_FTR
+    paper_symbol: '\rho_{FTR}'
+    description: 'AR, foreign transfers'
+    kind: estimated
+    value: 0.431
+    posterior_mean: 0.441
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 2'
+    page: 50
+  - name: rho_OB_DPY
+    paper_symbol: '\rho_{OB,\Delta Y}'
+    description: 'AR, observation error in the output deflator'
+    kind: estimated
+    value: -0.185
+    posterior_mean: -0.189
+    prior: {dist: normal, mean: 0.0, std: 0.25}
+    source: 'Table 3'
+    page: 51
+  - name: rho_OB_E
+    paper_symbol: '\rho_{OB,E}'
+    description: 'AR, employment observation shock'
+    kind: estimated
+    value: 0.907
+    posterior_mean: 0.837
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 3'
+    page: 51
+  - name: tp
+    paper_symbol: tp
+    description: 'Domestic term premium (constant)'
+    kind: estimated
+    value: 0.012
+    posterior_mean: 0.011
+    prior: {dist: normal, mean: 0.01, std: 0.01}
+    source: 'Table 3'
+    page: 51
+  - name: rho_OB_fwd
+    paper_symbol: '\rho_{OB,fwd}'
+    description: 'AR, domestic forward-rate observation error'
+    kind: estimated
+    value: 0.74
+    posterior_mean: 0.716
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 3'
+    page: 51
+  - name: tp_star
+    paper_symbol: 'tp^{*}'
+    description: 'Foreign term premium (constant)'
+    kind: estimated
+    value: 0.018
+    posterior_mean: 0.018
+    prior: {dist: normal, mean: 0.02, std: 0.01}
+    source: 'Table 3'
+    page: 51
+  - name: rho_OB_fwdstar
+    paper_symbol: '\rho_{OB,fwd^{*}}'
+    description: 'AR, foreign forward-rate observation error'
+    kind: estimated
+    value: 0.832
+    posterior_mean: 0.791
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 3'
+    page: 51
+  - name: rho_EX_N
+    paper_symbol: '\rho_{EX}^{N}'
+    description: 'AR, excess trend in hours'
+    kind: estimated
+    value: 0.933
+    posterior_mean: 0.792
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 3'
+    page: 51
+  - name: rho_EX_C
+    paper_symbol: '\rho_{EX}^{C}'
+    description: 'AR, excess trend in consumption'
+    kind: estimated
+    value: 0.546
+    posterior_mean: 0.6
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 3'
+    page: 51
+  - name: rho_EX_I
+    paper_symbol: '\rho_{EX}^{I}'
+    description: 'AR, excess trend in investment'
+    kind: estimated
+    value: 0.735
+    posterior_mean: 0.737
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 3'
+    page: 51
+  - name: rho_EX_X
+    paper_symbol: '\rho_{EX}^{X}'
+    description: 'AR, excess trend in exports'
+    kind: estimated
+    value: 0.602
+    posterior_mean: 0.58
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 3'
+    page: 51
+  - name: rho_EX_IM
+    paper_symbol: '\rho_{EX}^{IM}'
+    description: 'AR, excess trend in imports'
+    kind: estimated
+    value: 0.675
+    posterior_mean: 0.615
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 3'
+    page: 51
+  - name: rho_EX_Ystar
+    paper_symbol: '\rho_{EX}^{Y^{*}}'
+    description: 'AR, excess trend in foreign GDP'
+    kind: estimated
+    value: 0.655
+    posterior_mean: 0.645
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 3'
+    page: 51
+  - name: rho_EX_WTstar
+    paper_symbol: '\rho_{EX}^{WT^{*}}'
+    description: 'AR, excess trend in world trade'
+    kind: estimated
+    value: 0.849
+    posterior_mean: 0.8
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 3'
+    page: 51
+  - name: rho_EX_P_OILstar
+    paper_symbol: '\rho_{EX}^{P_{OIL}^{*}}'
+    description: 'AR, excess trend in the oil price'
+    kind: estimated
+    value: 0.566
+    posterior_mean: 0.552
+    prior: {dist: beta, mean: 0.5, std: 0.07}
+    source: 'Table 3'
+    page: 51
+  - name: c_ystar_p
+    paper_symbol: 'c_{y^{*},+}'
+    description: 'Foreign output, expectations'
+    kind: estimated
+    value: 0.227
+    posterior_mean: 0.225
+    prior: {dist: beta, mean: 0.5, std: 0.1}
+    source: 'Table 4'
+    page: 52
+  - name: c_ystar_r
+    paper_symbol: 'c_{y^{*},r}'
+    description: 'Foreign output, real rate'
+    kind: estimated
+    value: 0.156
+    posterior_mean: 0.157
+    prior: {dist: gamma, mean: 0.2, std: 0.05}
+    source: 'Table 4'
+    page: 52
+  - name: rho_Ystar
+    paper_symbol: '\rho_{Y^{*}}'
+    description: 'AR, world demand shock'
+    kind: estimated
+    value: 0.643
+    posterior_mean: 0.636
+    prior: {dist: beta, mean: 0.7, std: 0.07}
+    source: 'Table 4'
+    page: 52
+  - name: c_pistar_p
+    paper_symbol: 'c_{\pi^{*},+}'
+    description: 'Foreign inflation, expectations'
+    kind: estimated
+    value: 0.966
+    posterior_mean: 0.953
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 4'
+    page: 52
+  - name: c_pistar_y
+    paper_symbol: 'c_{\pi^{*},y}'
+    description: 'Foreign inflation, output'
+    kind: estimated
+    value: 0.071
+    posterior_mean: 0.076
+    prior: {dist: gamma, mean: 0.1, std: 0.03}
+    source: 'Table 4'
+    page: 52
+  - name: c_pistar_OIL
+    paper_symbol: 'c_{\pi^{*},OIL}'
+    description: 'Foreign inflation, oil level'
+    kind: estimated
+    value: 0.025
+    posterior_mean: 0.028
+    prior: {dist: gamma, mean: 0.05, std: 0.03}
+    source: 'Table 4'
+    page: 52
+  - name: c_pistar_DeltaOIL
+    paper_symbol: 'c_{\pi^{*},\Delta OIL}'
+    description: 'Foreign inflation, oil change'
+    kind: estimated
+    value: 0.016
+    posterior_mean: 0.017
+    prior: {dist: gamma, mean: 0.05, std: 0.03}
+    source: 'Table 4'
+    page: 52
+  - name: rho_Pistar
+    paper_symbol: '\rho_{\Pi^{*}}'
+    description: 'AR, world cost-push shock'
+    kind: estimated
+    value: 0.247
+    posterior_mean: 0.261
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 4'
+    page: 52
+  - name: c_rstar_m
+    paper_symbol: 'c_{r^{*},-}'
+    description: 'Foreign policy rule, smoothing'
+    kind: estimated
+    value: 0.832
+    posterior_mean: 0.831
+    prior: {dist: beta, mean: 0.75, std: 0.1}
+    source: 'Table 4'
+    page: 52
+  - name: c_rstar_pi
+    paper_symbol: 'c_{r^{*},\pi}'
+    description: 'Foreign policy rule, inflation'
+    kind: estimated
+    value: 2.087
+    posterior_mean: 2.211
+    prior: {dist: gamma, mean: 2.5, std: 0.5}
+    source: 'Table 4'
+    page: 52
+  - name: c_rstar_y
+    paper_symbol: 'c_{r^{*},y}'
+    description: 'Foreign policy rule, output'
+    kind: estimated
+    value: 0.516
+    posterior_mean: 0.523
+    prior: {dist: gamma, mean: 0.5, std: 0.05}
+    source: 'Table 4'
+    page: 52
+  - name: rho_Rstar
+    paper_symbol: '\rho_{R^{*}}'
+    description: 'AR, world interest-rate shock'
+    kind: estimated
+    value: 0.302
+    posterior_mean: 0.301
+    prior: {dist: beta, mean: 0.25, std: 0.05}
+    source: 'Table 4'
+    page: 52
+  - name: c_wt_y
+    paper_symbol: 'c_{wt,y}'
+    description: 'World trade, output'
+    kind: estimated
+    value: 2.336
+    posterior_mean: 2.331
+    prior: {dist: normal, mean: 2.5, std: 0.5}
+    source: 'Table 4'
+    page: 52
+  - name: c_wt_ym
+    paper_symbol: 'c_{wt,y-}'
+    description: 'World trade, lagged output'
+    kind: estimated
+    value: 1.509
+    posterior_mean: 1.38
+    prior: {dist: normal, mean: 0.0, std: 1.0}
+    source: 'Table 4'
+    page: 52
+  - name: c_wt_m_star
+    paper_symbol: 'c_{wt,-}'
+    description: 'World trade, lagged world trade'
+    kind: estimated
+    value: 0.176
+    posterior_mean: 0.215
+    prior: {dist: normal, mean: 0.0, std: 0.5}
+    source: 'Table 4'
+    page: 52
+  - name: c_OIL_m
+    paper_symbol: 'c_{oil,-}'
+    description: 'Oil price, lag'
+    kind: estimated
+    value: 0.667
+    posterior_mean: 0.635
+    prior: {dist: beta, mean: 0.7, std: 0.15}
+    source: 'Table 4'
+    page: 52
+  - name: c_OIL_Delta
+    paper_symbol: 'c_{oil,\Delta}'
+    description: 'Oil price, lagged change'
+    kind: estimated
+    value: -0.415
+    posterior_mean: -0.411
+    prior: {dist: normal, mean: 0.0, std: 0.5}
+    source: 'Table 4'
+    page: 52
+    notes: 'sign convention differs between (93) and (290): D07'
+  - name: g_DeltaN
+    paper_symbol: 'g_{\Delta N}'
+    description: 'Long-run growth of per-capita hours (net quarterly rate) (0.7% a year)'
+    kind: calibrated
+    value: 0.00175
+    source: 'text 4.4.1'
+    page: 43
+    decision: D34
+  - name: g_DeltaC
+    paper_symbol: 'g_{\Delta C}'
+    description: 'Long-run growth of per-capita private consumption (1.7% a year)'
+    kind: calibrated
+    value: 1.00425
+    source: 'text 4.4.1'
+    page: 44
+    decision: D34
+  - name: g_DeltaI
+    paper_symbol: 'g_{\Delta I}'
+    description: 'Long-run growth of per-capita fixed investment (1.7% a year)'
+    kind: calibrated
+    value: 1.00425
+    source: 'text 4.4.1'
+    page: 44
+    decision: D34
+  - name: g_DeltaX
+    paper_symbol: 'g_{\Delta X}'
+    description: 'Long-run growth of per-capita exports (4.9% a year)'
+    kind: calibrated
+    value: 1.01225
+    source: 'text 4.4.1'
+    page: 44
+    decision: D34
+  - name: g_DeltaIM
+    paper_symbol: 'g_{\Delta IM}'
+    description: 'Long-run growth of per-capita imports (2.9% a year)'
+    kind: calibrated
+    value: 1.00725
+    source: 'text 4.4.1'
+    page: 44
+    decision: D34
+  - name: g_DeltaYstar
+    paper_symbol: 'g_{\Delta Y^{*}}'
+    description: 'Long-run growth of foreign GDP (2.2% a year)'
+    kind: calibrated
+    value: 1.0055
+    source: 'text 4.4.1'
+    page: 44
+    decision: D34
+  - name: g_DeltaWTstar
+    paper_symbol: 'g_{\Delta WT^{*}}'
+    description: 'Long-run growth of world trade (5.3% a year)'
+    kind: calibrated
+    value: 1.01325
+    source: 'text 4.4.1'
+    page: 44
+    decision: D34
+  - name: rho_tauD
+    paper_symbol: '\rho_{\tau^{D}}'
+    description: 'AR, dividend tax'
+    kind: assumed
+    value: 0
+    decision: D26
+    notes: 'TODO: no value in the paper (D26)'
+  - name: rho_tauK
+    paper_symbol: '\rho_{\tau^{K}}'
+    description: 'AR, capital tax'
+    kind: assumed
+    value: 0
+    decision: D26
+    notes: 'TODO: no value in the paper (D26)'
+  - name: rho_tauN
+    paper_symbol: '\rho_{\tau^{N}}'
+    description: 'AR, labor income tax'
+    kind: assumed
+    value: 0
+    decision: D26
+    notes: 'TODO: no value in the paper (D26)'
+  - name: rho_tauW_h
+    paper_symbol: '\rho_{\tau^{W_{h}}}'
+    description: 'AR, payroll tax on households'
+    kind: assumed
+    value: 0
+    decision: D26
+    notes: 'TODO: no value in the paper (D26)'
+  - name: rho_tauW_f
+    paper_symbol: '\rho_{\tau^{W_{f}}}'
+    description: 'AR, payroll tax on firms'
+    kind: assumed
+    value: 0
+    decision: D26
+    notes: 'TODO: no value in the paper (D26)'
+  - name: rho_EX_DeltaS
+    paper_symbol: '\rho_{EX}^{\Delta S}'
+    description: 'AR, excess trend in depreciation'
+    kind: assumed
+    value: 0
+    decision: D30
+    notes: 'i.i.d. per Appendix B (D30)'
+  - name: rho_EX_DeltaW
+    paper_symbol: '\rho_{EX}^{\Delta W}'
+    description: 'AR, excess trend in nominal wages'
+    kind: assumed
+    value: 0
+    decision: D30
+    notes: 'i.i.d. per Appendix B (D30)'
+  - name: beta_star
+    paper_symbol: '\beta^{*}'
+    description: 'Foreign discount factor'
+    kind: assumed
+    value: beta
+    printed: null
+    decision: D29
+    source: 'eq. (169)'
+    page: 106
+    notes: '(169) prices R* with the domestic beta; no separate value is given.'
+  - name: gamma_u_1
+    paper_symbol: '\gamma_{u,1}'
+    description: 'Linear coefficient of the utilization cost (8)'
+    kind: derived
+    value: '(g_z_ss/beta - (1 - delta + tau_K_ss*delta))*(1 - tau_K_ss)^(-1)'
+    printed: '(beta/g_z_ss - (1 - delta + tau_K_ss*delta))*(1 - tau_K_ss)^(-1)'
+    decision: D32
+    source: '172.u1'
+    page: 107
+    notes: 'Parameter restriction that makes u = 1 in the steady state (r_K = gamma_u_1 p_I).'
+  - name: g_DeltaW
+    paper_symbol: 'g_{\Delta W}'
+    description: 'Long-run gross growth of nominal wages'
+    kind: assumed
+    value: 'g_z_ss + Pibar - 1'
+    printed: null
+    decision: D34
+    source: 'eq. (321)'
+    page: 126
+    notes: 'TODO: not reported in the paper. This value makes the excess wage trend zero on average.'
+
+steady_state:
+  - name: s_ss
+    expr: '1'
+    paper_eq: '157.i1'
+    page: 103
+    notes: 'normalization of the real exchange rate'
+  - name: s_D
+    expr: '0'
+    paper_eq: '157.i2'
+    page: 103
+    notes: 'zero profit share'
+  - name: s_DX
+    expr: '0'
+    paper_eq: '157.i2'
+    page: 103
+    notes: 'zero profit share of exporters'
+  - name: u_ss
+    expr: '1'
+    paper_eq: '(158)'
+    page: 104
+  - name: p_OIL_star_ss
+    expr: '((1 - s_DX)/(varphi_star_ss*s_ss))^(1/omega_star)'
+    paper_eq: '167.u1'
+    page: 106
+    notes: 'solves 167.u1 for the oil price'
+  - name: p_IM_H
+    expr: 'varphi_star_ss*p_OIL_star_ss^omega_star*s_ss*(1 - s_DX)^(-1)'
+    paper_eq: '(159)'
+    page: 104
+    notes: '= 1 by 167.u1'
+  - name: A_C
+    expr: '(nu_C_ss + (1 - nu_C_ss)*p_IM_H^(1 - mu_C))^(1/(1 - mu_C))'
+    paper_eq: '(160)'
+    page: 105
+  - name: A_I
+    expr: '(nu_I_ss + (1 - nu_I_ss)*p_IM_H^(1 - mu_I))^(1/(1 - mu_I))'
+    paper_eq: '(164)'
+    page: 105
+  - name: A_G
+    expr: '(nu_G_ss + (1 - nu_G_ss)*p_IM_H^(1 - mu_G))^(1/(1 - mu_G))'
+    paper_eq: '(165)'
+    page: 105
+  - name: A_X
+    expr: '(nu_X_ss + (1 - nu_X_ss)*p_IM_H^(1 - mu_X))^(1/(1 - mu_X))'
+    paper_eq: '(166)'
+    page: 106
+  - name: p_H_ss
+    expr: 'A_C^(-1)'
+    paper_eq: '(160)'
+    page: 105
+  - name: p_Y_ss
+    expr: '(1 - s_DX)^(-1)*A_C^(-1)'
+    paper_eq: '(161)'
+    page: 105
+  - name: p_IM_ss
+    expr: 'varphi_star_ss*p_OIL_star_ss^omega_star*s_ss*(1 - s_DX)^(-1)*A_C^(-1)'
+    paper_eq: '(162)'
+    page: 105
+  - name: mc_ss
+    expr: '1/varphi_H_ss*A_C^(-1)'
+    paper_eq: '(163)'
+    page: 105
+  - name: p_I_ss
+    expr: 'A_C^(-1)*A_I'
+    paper_eq: '(164)'
+    page: 105
+  - name: p_G_ss
+    expr: 'A_C^(-1)*A_G'
+    paper_eq: '(165)'
+    page: 105
+  - name: p_DX_ss
+    expr: 'A_C^(-1)*A_X'
+    paper_eq: '(166)'
+    page: 106
+  - name: p_X_ss
+    expr: 'varphi_X_ss*p_DX_ss/(s_ss*p_Y_ss)'
+    paper_eq: '(167)'
+    page: 106
+  - name: p_C_ss
+    expr: '1'
+    paper_eq: '(132)'
+    page: 99
+    notes: 'the CPI is the numeraire'
+  - name: pi_ss
+    expr: Pibar
+    paper_eq: '(111), 109.i7'
+    page: 96
+    notes: 'steady-state inflation equals the target'
+  - name: pi_star_ss
+    expr: pi_ss
+    paper_eq: '112.i1'
+    page: 96
+  - name: R_ss
+    expr: 'g_z_ss*pi_ss/beta'
+    paper_eq: '(168)'
+    page: 106
+  - name: r_star_ss
+    expr: 'g_z_ss*pi_ss/beta'
+    paper_eq: '(169)'
+    page: 106
+  - name: R_F_ss
+    expr: '1 + nu_f_ss*(R_ss - 1)'
+    paper_eq: '(170)'
+    page: 106
+  - name: Q_ss
+    expr: p_I_ss
+    paper_eq: '(171)'
+    page: 106
+  - name: r_K_ss
+    expr: 'gamma_u_1*p_I_ss'
+    paper_eq: '(172)'
+    page: 107
+  - name: w_ss
+    expr: '(alpha^alpha*(1 - alpha)^(1 - alpha)/(1 + tau_W_f_ss)^(1 - alpha)*mc_ss*r_K_ss^(-alpha)*R_F_ss^(-(1 - alpha)))^(1/(1 - alpha))'
+    paper_eq: '(173)'
+    page: 107
+  - name: s_TB_ss
+    expr: '-s_FTR_ss'
+    paper_eq: '(174)'
+    page: 107
+  - name: kN
+    expr: 'alpha/(1 - alpha)*g_z_ss*(1 + tau_W_f_ss)*R_F_ss*w_ss/r_K_ss'
+    paper_eq: '(175)'
+    page: 107
+    notes: 'k/N'
+  - name: iN
+    expr: '(1 - (1 - delta)/g_z_ss)*kN'
+    paper_eq: '(176)'
+    page: 107
+    notes: 'i/N'
+  - name: yN
+    expr: '(1 - s_D)^(-1)*(g_z_ss^(-1)*kN)^alpha*mc_ss/p_Y_ss'
+    paper_eq: '(177)'
+    page: 107
+    notes: 'y/N'
+  - name: gN
+    expr: 's_G*p_Y_ss/p_G_ss*yN'
+    paper_eq: '(178)'
+    page: 107
+    notes: 'g/N'
+  - name: cN
+    expr: 'p_Y_ss*yN - p_I_ss*iN - dinv_ss*p_I_ss*yN - p_G_ss*gN - s_TB_ss*p_Y_ss*yN'
+    paper_eq: '(179)'
+    page: 108
+    notes: 'c/N'
+  - name: N_ss
+    expr: '(phi_w_ss*(1 + w_tauC*tau_C_ss)*(1 - kappa/g_z_ss)*(1 - tau_N_ss - tau_W_h_ss)^(-1)*cN*w_ss^(-1))^(-(1/(zeta + 1)))'
+    paper_eq: '(180)'
+    page: 108
+    notes: hours
+  - name: c_ss
+    expr: 'cN*N_ss'
+    paper_eq: '(181)'
+    page: 108
+  - name: y_ss
+    expr: 'yN*N_ss'
+    paper_eq: '(182)'
+    page: 108
+  - name: g_ss
+    expr: 'gN*N_ss'
+    paper_eq: '(183)'
+    page: 108
+  - name: i_ss
+    expr: 'iN*N_ss'
+    paper_eq: '(184)'
+    page: 108
+  - name: k_ss
+    expr: 'kN*N_ss'
+    paper_eq: '(185)'
+    page: 109
+  - name: k_s_ss
+    expr: k_ss
+    paper_eq: '(186)'
+    page: 109
+  - name: h_s_ss
+    expr: y_ss
+    paper_eq: '(187)'
+    page: 109
+  - name: h_ss
+    expr: h_s_ss
+    paper_eq: '(188)'
+    page: 109
+  - name: q_C_ss
+    expr: c_ss
+    paper_eq: '(189)'
+    page: 109
+  - name: q_I_ss
+    expr: 'i_ss + dinv_ss*y_ss'
+    paper_eq: '(190)'
+    page: 109
+  - name: q_G_ss
+    expr: g_ss
+    paper_eq: '(191)'
+    page: 109
+  - name: h_C_ss
+    expr: 'nu_C_ss*p_H_ss^(-mu_C)*q_C_ss'
+    paper_eq: '(192)'
+    page: 109
+  - name: h_I_ss
+    expr: 'nu_I_ss*(p_H_ss/p_I_ss)^(-mu_I)*q_I_ss'
+    paper_eq: '(193)'
+    page: 109
+  - name: h_G_ss
+    expr: 'nu_G_ss*(p_H_ss/p_G_ss)^(-mu_G)*q_G_ss'
+    paper_eq: '(194)'
+    page: 109
+  - name: im_C_ss
+    expr: '(1 - nu_C_ss)*p_IM_ss^(-mu_C)*q_C_ss'
+    paper_eq: '(195)'
+    page: 109
+  - name: im_I_ss
+    expr: '(1 - nu_I_ss)*(p_IM_ss/p_I_ss)^(-mu_I)*q_I_ss'
+    paper_eq: '(196)'
+    page: 109
+  - name: im_G_ss
+    expr: '(1 - nu_G_ss)*(p_IM_ss/p_G_ss)^(-mu_G)*q_G_ss'
+    paper_eq: '(197)'
+    page: 109
+  - name: h_X_ss
+    expr: 'h_ss - h_C_ss - h_I_ss - h_G_ss'
+    paper_eq: '(198)'
+    page: 110
+  - name: q_X_ss
+    expr: 'nu_X_ss^(-1)*(p_H_ss/p_DX_ss)^mu_X*h_X_ss'
+    paper_eq: '(199)'
+    page: 110
+  - name: im_X_ss
+    expr: '(1 - nu_X_ss)*(p_IM_ss/p_DX_ss)^(-mu_X)*q_X_ss'
+    paper_eq: '(200)'
+    page: 110
+    printed: '(1 - nu_X_ss)*(p_IM_ss/p_DX_ss)^(-mu_G)*q_X_ss'
+    decision: D33
+  - name: im_ss
+    expr: 'im_C_ss + im_I_ss + im_G_ss + im_X_ss'
+    paper_eq: '(201)'
+    page: 110
+  - name: s_IM_ss
+    expr: 'p_IM_ss*im_ss/(p_Y_ss*y_ss)'
+    paper_eq: '(202)'
+    page: 110
+  - name: s_X_ss
+    expr: 's_TB_ss + s_IM_ss'
+    paper_eq: '(203)'
+    page: 110
+  - name: x_ss
+    expr: 's_X_ss*y_ss/(s_ss*p_X_ss)'
+    paper_eq: '(204)'
+    page: 110
+  - name: wt_star_ss
+    expr: '(nu_star_ss*ztilde_ss)^(-1)*p_Xc_star_ss^(-mu_star)*p_X_ss^mu_star*x_ss'
+    paper_eq: '(205)'
+    page: 110
+  - name: psi
+    expr: '((1 - s_D)*p_Y_ss/mc_ss - 1)*y_ss'
+    paper_eq: '(208)'
+    page: 111
+    notes: 'fixed cost of domestic firms'
+  - name: psi_X
+    expr: '(s_ss*p_X_ss*p_Y_ss/p_DX_ss - 1)*x_ss - s_DX*p_Y_ss*y_ss/p_DX_ss'
+    paper_eq: '(209)'
+    page: 111
+    notes: 'fixed cost of exporters'
+  - name: lambda_ss
+    expr: '(1 - kappa/g_z_ss)^(-1)/(1 + w_tauC*tau_C_ss)/c_ss'
+    paper_eq: '(210)'
+    page: 111
+  - name: p_Y_M_ss
+    expr: '(1 + w_tauC*tau_C_ss)*c_ss/y_ss + p_I_ss*i_ss/y_ss + dinv_ss*p_I_ss + p_G_ss*g_ss/y_ss + s_TB_ss*p_Y_ss'
+    paper_eq: '(211)'
+    page: 111
+
+aliases:
+  - name: pibar_nohat
+    target: pibar
+    decision: D01
+  - name: pibar_star_nohat
+    target: pibar_star
+    decision: D02
+  - name: s_Bstar_nohat
+    target: s_Bstar
+    decision: D03
+  - name: nu_C
+    target: nu
+    decision: D22
+  - name: nu_I
+    target: nu
+    decision: D22
+  - name: nu_G
+    target: nu
+    decision: D22
+  - name: nu_X
+    target: nu
+    decision: D22
+
+exogenous_zero:
+  - name: pibar_star
+    decision: D02
+  - name: ztilde
+    decision: D23
+  - name: p_x_star
+    decision: D24
+  - name: epsilon_N
+    decision: D25
+  - name: epsilon_IM
+    decision: D25
+  - name: epsilon_X
+    decision: D25
+  - name: epsilon_F
+    decision: D25
+  - name: nu_f
+    decision: D25
+
+equations:
+  # ---- households
+  - id: '212'
+    paper_eq: '(212)'
+    page: 111
+    section: 'D.1'
+    block: households
+    title: 'Marginal utility from consumption'
+    printed: 'lambda = (kappa*g_z_ss^(-1))/(1 - kappa*g_z_ss^(-1))*c(-1) - (1)/(1 - kappa*g_z_ss^(-1))*c - (kappa*g_z_ss^(-1))/(1 - kappa*g_z_ss^(-1))*g_z - (1)/(1 + 0.78*tau_C_ss)*tau_C + epsilon_C'
+    expr: 'lambda = (kappa*g_z_ss^(-1))/(1 - kappa*g_z_ss^(-1))*c(-1) - (1)/(1 - kappa*g_z_ss^(-1))*c - (kappa*g_z_ss^(-1))/(1 - kappa*g_z_ss^(-1))*g_z - (1)/(1 + 0.78*tau_C_ss)*tau_C + epsilon_C'
+    decision: D11
+    alternatives:
+      w_tauC: 'lambda = (kappa*g_z_ss^(-1))/(1 - kappa*g_z_ss^(-1))*c(-1) - (1)/(1 - kappa*g_z_ss^(-1))*c - (kappa*g_z_ss^(-1))/(1 - kappa*g_z_ss^(-1))*g_z - (0.78)/(1 + 0.78*tau_C_ss)*tau_C + epsilon_C'
+    notes: 'Numerator 1 on the VAT term kept as printed (D11).'
+    verified: false
+    verified_by: null
+  - id: '213'
+    paper_eq: '(213)'
+    page: 112
+    section: 'D.1'
+    block: households
+    title: 'FOC WRT $K_{t+1}$ (Tobin''s Q)'
+    printed: 'Q = (beta*(1 - delta))/(g_z_ss)*(Q(+1)) + (lambda(+1)) - lambda - (g_z(+1)) - (beta*(1 - tau_K_ss)*gamma_u_1)/(g_z_ss)*((1)/(1 - tau_K_ss)*tau_K(+1) - r_k(+1)) + (beta*delta)/(g_z_ss)*(tau_K(+1) + tau_K_ss*p_I(+1))'
+    expr: 'Q = (beta*(1 - delta))/(g_z_ss)*(Q(+1)) + (lambda(+1)) - lambda - (g_z(+1)) - (beta*(1 - tau_K_ss)*gamma_u_1)/(g_z_ss)*((1)/(1 - tau_K_ss)*tau_K(+1) - r_k(+1)) + (beta*delta)/(g_z_ss)*(tau_K(+1) + tau_K_ss*p_I(+1))'
+    verified: false
+    verified_by: null
+  - id: '214'
+    paper_eq: '(214)'
+    page: 112
+    section: 'D.1'
+    block: households
+    title: 'FOC WRT Investment'
+    printed: 'i = (1)/(1 + ((1 - omega_Gamma_I))^(2)*beta + omega_Gamma_I^(2)*beta^(2))*(omega_Gamma_I*beta^(2)*(i(+2)) + (1 - omega_Gamma_I)*beta*(1 - omega_Gamma_I*beta)*(i(+1)) + (1 - omega_Gamma_I)*(1 - omega_Gamma_I*beta)*i(-1) + omega_Gamma_I*i(-2)) + (1)/(1 + ((1 - omega_Gamma_I))^(2)*beta + omega_Gamma_I^(2)*beta^(2))*(omega_Gamma_I*beta^(2)*(g_z(+2)) + (omega_Gamma_I^(2)*beta^(2) + (1 - omega_Gamma_I)*beta)*(g_z(+1)) + (beta*omega_Gamma_I*(1 - omega_Gamma_I)*g_z - 1) + omega_Gamma_I*g_z(-1)) + (1)/((1 + ((1 - omega_Gamma_I))^(2)*beta + omega_Gamma_I^(2)*beta^(2))*gamma_I*g_z_ss^(2*(1 - omega_Gamma_I)))*(Q - p_I + epsilon_I)'
+    expr: 'i = (1)/(1 + ((1 - omega_Gamma_I))^(2)*beta + omega_Gamma_I^(2)*beta^(2))*(omega_Gamma_I*beta^(2)*(i(+2)) + (1 - omega_Gamma_I)*beta*(1 - omega_Gamma_I*beta)*(i(+1)) + (1 - omega_Gamma_I)*(1 - omega_Gamma_I*beta)*i(-1) + omega_Gamma_I*i(-2)) + (1)/(1 + ((1 - omega_Gamma_I))^(2)*beta + omega_Gamma_I^(2)*beta^(2))*(omega_Gamma_I*beta^(2)*(g_z(+2)) + (omega_Gamma_I^(2)*beta^(2) + (1 - omega_Gamma_I)*beta)*(g_z(+1)) + (beta*omega_Gamma_I*(1 - omega_Gamma_I) - 1)*g_z - omega_Gamma_I*g_z(-1)) + (1)/((1 + ((1 - omega_Gamma_I))^(2)*beta + omega_Gamma_I^(2)*beta^(2))*gamma_I*g_z_ss^(2*(1 + omega_Gamma_I)))*(Q - p_I + epsilon_I)'
+    decision: D12
+    verified: false
+    verified_by: null
+  - id: '215'
+    paper_eq: '(215)'
+    page: 112
+    section: 'D.1'
+    block: households
+    title: 'FOC WRT Capital Utilization'
+    printed: 'r_k = p_I + (gamma_u_2)/(gamma_u_1)*u'
+    expr: 'r_k = p_I + (gamma_u_2)/(gamma_u_1)*u'
+    verified: false
+    verified_by: null
+  - id: '216'
+    paper_eq: '(216)'
+    page: 112
+    section: 'D.1'
+    block: households
+    title: 'FOC WRT Domestic Bonds'
+    printed: '(lambda(+1)) - lambda - (g_z(+1)) + r - (pi_C(+1)) + epsilon_RP + epsilon_DRP = 0'
+    expr: '(lambda(+1)) - lambda - (g_z(+1)) + r - (pi_C(+1)) + epsilon_RP + epsilon_DRP = 0'
+    verified: false
+    verified_by: null
+  - id: '217'
+    paper_eq: '(217)'
+    page: 112
+    section: 'D.1'
+    block: households
+    title: 'Modified (Risk-adjusted) UIP Condition'
+    printed: 'r - r_star = (1 - gamma_S)*((s(+1)) - s) + (pi_Y(+1) - pi_Y_star(+1)) - gamma_S*(s - s(-1) + pi_Y - pi_Y_star) + gamma_S*((pibar(+1) - pibar_star(+1)) + (pibar - pibar_star)) - gamma_B*(s_Bstar(+1)) + epsilon_RPstar - epsilon_DRP'
+    expr: 'r - r_star = (1 - gamma_S)*((s(+1)) - s) + (1 - gamma_S)*(pi_Y(+1) - pi_Y_star(+1)) - gamma_S*(s - s(-1) + pi_Y - pi_Y_star) + gamma_S*((pibar(+1) - pibar_star(+1)) + (pibar - pibar_star)) - gamma_B*(s_Bstar(+1)) + epsilon_RPstar - epsilon_DRP'
+    decision: D13
+    notes: 'gamma_B is the γ_{B*} of (4) (Table 2 ''FX premium - B*''); \hat{\pi}^{*}_{y} and \hat{\pi}^{*}_{Y} are the same variable (pi_Y_star).'
+    verified: false
+    verified_by: null
+  - id: '218'
+    paper_eq: '(218)'
+    page: 112
+    section: 'D.1'
+    block: households
+    title: 'Capital Accumulation'
+    printed: 'k(+1) = ((1 - delta))/(g_z_ss)*(k - g_z) + (1 - ((1 - delta))/(g_z_ss))*(i + epsilon_I)'
+    expr: 'k(+1) = ((1 - delta))/(g_z_ss)*(k - g_z) + (1 - ((1 - delta))/(g_z_ss))*(i + epsilon_I)'
+    verified: false
+    verified_by: null
+  # ---- labor
+  - id: '219'
+    paper_eq: '(219)'
+    page: 112
+    section: 'D.2'
+    block: labor
+    title: 'After-tax real wage'
+    printed: 'w_tau = w - (1)/(1 - tau_N_ss - tau_W_h_ss)*(tau_N + tau_W_h)'
+    expr: 'w_tau = w - (1)/(1 - tau_N_ss - tau_W_h_ss)*(tau_N + tau_W_h)'
+    verified: false
+    verified_by: null
+  - id: '220'
+    paper_eq: '(220)'
+    page: 113
+    section: 'D.2'
+    block: labor
+    title: 'MRS between consumption and leisure'
+    printed: 'mrs = epsilon_N + zeta*n - lambda'
+    expr: 'mrs = epsilon_N + zeta*n - lambda'
+    verified: false
+    verified_by: null
+  - id: '221'
+    paper_eq: '(221)'
+    page: 113
+    section: 'D.2'
+    block: labor
+    title: 'Nominal-wage Inflation'
+    printed: 'g_z + w - w(-1) + pi_C - chi_W*pi_C(-1) - (1 - chi_W)*pibar - chi_W_g_z*g_z(-1) = beta*((g_z(+1)) + (pi_C(+1)) + (w(+1)) - w - (pi_C*chi_W + (1 - chi_W)*(pibar(+1)) + chi_W_g_z*g_z)) - ((1 - beta*xi_W)*(1 - xi_W))/(xi_W*(1 + zeta*(phi_w_ss)/(phi_w_ss - 1)))*(w - (1)/(1 - tau_N_ss - tau_W_h_ss)*(tau_N + tau_W_h) - (epsilon_N + zeta*n - lambda) - phi_w)'
+    expr: 'g_z + w - w(-1) + pi_C - chi_W*pi_C(-1) - (1 - chi_W)*pibar - chi_W_g_z*g_z(-1) = beta*((g_z(+1)) + (pi_C(+1)) + (w(+1)) - w - (pi_C*chi_W + (1 - chi_W)*(pibar(+1)) + chi_W_g_z*g_z)) - ((1 - beta*xi_W)*(1 - xi_W))/(xi_W*(1 + zeta*(phi_w_ss)/(phi_w_ss - 1)))*(w - (1)/(1 - tau_N_ss - tau_W_h_ss)*(tau_N + tau_W_h) - (epsilon_N + zeta*n - lambda) - phi_w)'
+    verified: false
+    verified_by: null
+  # ---- production
+  - id: '222'
+    paper_eq: '(222)'
+    page: 113
+    section: 'D.3'
+    block: production
+    title: 'Production technology'
+    printed: 'h_s = (1 + psi*h_ss^(-1))*(epsilon + alpha*(k_s - g_z) + (1 - alpha)*n)'
+    expr: 'h_s = (1 + psi*h_ss^(-1))*(epsilon + alpha*(k_s - g_z) + (1 - alpha)*n)'
+    verified: false
+    verified_by: null
+  - id: '223'
+    paper_eq: '(223)'
+    page: 113
+    section: 'D.3'
+    block: production
+    title: 'Resource allocation'
+    printed: 'r_k = w + n + ((1 + tau_W_f_ss))^(-1)*tau_W_f + R_f - k_s + g_z'
+    expr: 'r_k = w + n + ((1 + tau_W_f_ss))^(-1)*tau_W_f + R_f - k_s + g_z'
+    verified: false
+    verified_by: null
+  - id: '224'
+    paper_eq: '(224)'
+    page: 113
+    section: 'D.3'
+    block: production
+    title: 'Real marginal cost (in terms of CPI)'
+    printed: 'mc = alpha*r_k + (1 - alpha)*(R_f + w + ((1 + tau_W_f_ss))^(-1)*tau_W_f) - epsilon'
+    expr: 'mc = alpha*r_k + (1 - alpha)*(R_f + w + ((1 + tau_W_f_ss))^(-1)*tau_W_f) - epsilon'
+    verified: false
+    verified_by: null
+  - id: '225'
+    paper_eq: '(225)'
+    page: 113
+    section: 'D.3'
+    block: production
+    title: 'Interest rate on working capital'
+    printed: 'R_f = (nu_f_ss*R_ss)/(1 - nu_f_ss*(R_ss - 1))*(r + epsilon_RP + epsilon_F) + (nu_f_ss*(R_ss - 1))/(1 - nu_f_ss*(R_ss - 1))*nu_f'
+    expr: 'R_f = (nu_f_ss*R_ss)/(1 + nu_f_ss*(R_ss - 1))*(r + epsilon_RP + epsilon_F) + (nu_f_ss*(R_ss - 1))/(1 + nu_f_ss*(R_ss - 1))*nu_f'
+    decision: D14
+    verified: false
+    verified_by: null
+  # ---- pricing
+  - id: '226'
+    paper_eq: '(226)'
+    page: 113
+    section: 'D.4'
+    block: pricing
+    title: 'Phillips Curve of the domestic intermediate goods firm'
+    printed: 'pi_H - pibar = (beta)/(1 + beta*chi_H)*(pi_H(+1) - pibar(+1)) + (chi_H)/(1 + beta*chi_H)*(pi_H(-1) - pibar) + (beta*chi_H)/(1 + beta*chi_H)*((pibar(+1)) - pibar) + ((1 - beta*xi_H)*(1 - xi_H))/((1 + beta*chi_H)*xi_H)*(mc_H + varphi_H)'
+    expr: 'pi_H - pibar = (beta)/(1 + beta*chi_H)*(pi_H(+1) - pibar(+1)) + (chi_H)/(1 + beta*chi_H)*(pi_H(-1) - pibar) + (beta*chi_H)/(1 + beta*chi_H)*((pibar(+1)) - pibar) + ((1 - beta*xi_H)*(1 - xi_H))/((1 + beta*chi_H)*xi_H)*(mc_H + varphi_H)'
+    verified: false
+    verified_by: null
+  - id: '227'
+    paper_eq: '(227)'
+    page: 114
+    section: 'D.4'
+    block: pricing
+    title: 'Real marginal cost in terms of the domestic price index'
+    printed: 'mc_H = mc - p_H'
+    expr: 'mc_H = mc - p_H'
+    verified: false
+    verified_by: null
+  - id: '228'
+    paper_eq: '(228)'
+    page: 114
+    section: 'D.4'
+    block: pricing
+    title: 'Real domestic price index (relative to CPI)'
+    printed: 'p_H = pi_H + p_H(-1) - pi_C'
+    expr: 'p_H = pi_H + p_H(-1) - pi_C'
+    verified: false
+    verified_by: null
+  - id: '229'
+    paper_eq: '(229)'
+    page: 114
+    section: 'D.4'
+    block: pricing
+    title: 'Phillips curve of foreign intermediate-goods firms (in local currency)'
+    printed: 'pi_IM - pibar = (beta_star)/(1 + beta_star*chi_star)*(pi_IM(+1) - pibar(+1)) + (chi_star)/(1 + beta_star*chi_star)*(pi_IM(-1) - pibar) + (beta_star*chi_star)/(1 + beta_star*chi_star)*((pibar(+1)) - pibar) + ((1 - beta_star*xi_star)*(1 - xi_star))/((1 + beta_star*chi_star)*xi_star)*(mc_IM + varphi_star)'
+    expr: 'pi_IM - pibar = (beta_star)/(1 + beta_star*chi_star)*(pi_IM(+1) - pibar(+1)) + (chi_star)/(1 + beta_star*chi_star)*(pi_IM(-1) - pibar) + (beta_star*chi_star)/(1 + beta_star*chi_star)*((pibar(+1)) - pibar) + ((1 - beta_star*xi_star)*(1 - xi_star))/((1 + beta_star*chi_star)*xi_star)*(mc_IM + varphi_star)'
+    verified: false
+    verified_by: null
+  - id: '230'
+    paper_eq: '(230)'
+    page: 114
+    section: 'D.4'
+    block: pricing
+    title: 'Real marginal cost of foreign intermediate-goods firms, in terms of the import price'
+    printed: 'mc_IM = s + p_Y + omega_star*(p_OIL - (pi_Y_star + p_OIL - p_OIL(-1))) - p_IM'
+    expr: 'mc_IM = s + p_Y + omega_star*(p_OIL - (pi_Y_star + p_OIL - p_OIL(-1))) - p_IM'
+    verified: false
+    verified_by: null
+  - id: '231'
+    paper_eq: '(231)'
+    page: 114
+    section: 'D.4'
+    block: pricing
+    title: 'Real price of imported goods (local currency, relative to CPI)'
+    printed: 'p_IM = pi_IM + p_IM(-1) - pi_C'
+    expr: 'p_IM = pi_IM + p_IM(-1) - pi_C'
+    verified: false
+    verified_by: null
+  # ---- final_goods
+  - id: '232'
+    paper_eq: '(232)'
+    page: 114
+    section: 'D.5.1'
+    block: final_goods
+    title: 'Demand for domestic intermediate goods (consumption good)'
+    printed: 'h_C = q_C - p_H*mu_C + nu_C'
+    expr: 'h_C = q_C - p_H*mu_C + nu_C'
+    verified: false
+    verified_by: null
+  - id: '233'
+    paper_eq: '(233)'
+    page: 115
+    section: 'D.5.1'
+    block: final_goods
+    title: 'Demand for imported intermediate goods (consumption good)'
+    printed: 'im_C = q_C - mu_C*(p_IM - Gamma_IMC_p) - (nu_E)/(1 - nu_E)*nu_C'
+    expr: 'im_C = q_C - mu_C*(p_IM - Gamma_IMC_p) - (nu_C_ss)/(1 - nu_C_ss)*nu_C'
+    decision: D15
+    verified: false
+    verified_by: null
+  - id: '234'
+    paper_eq: '(234)'
+    page: 115
+    section: 'D.5.1'
+    block: final_goods
+    title: 'Import share adjustment costs (consumption good)'
+    printed: 'Gamma_IMC_p = -gamma_IM_C*((im_C - q_C) - (im_C(-1) - q_C(-1))) + epsilon_IM'
+    expr: 'Gamma_IMC_p = -gamma_IM_C*((im_C - q_C) - (im_C(-1) - q_C(-1))) + epsilon_IM'
+    verified: false
+    verified_by: null
+  - id: '235'
+    paper_eq: '(235)'
+    page: 115
+    section: 'D.5.1'
+    block: final_goods
+    title: 'Price of the private consumption good'
+    printed: '0 = nu_C_ss*p_H_ss^(1 - mu_C)*p_H + (1 - nu_C_ss)*p_IM_ss^(1 - mu_C)*(p_IM - Gamma_IMC_p) + (nu_C_ss)/(1 - mu_C)*(p_H_ss^(1 - mu_C) - p_IM_ss^(1 - mu_C))*nu_C'
+    expr: '0 = nu_C_ss*p_H_ss^(1 - mu_C)*p_H + (1 - nu_C_ss)*p_IM_ss^(1 - mu_C)*(p_IM - Gamma_IMC_p) + (nu_C_ss)/(1 - mu_C)*(p_H_ss^(1 - mu_C) - p_IM_ss^(1 - mu_C))*nu_C'
+    verified: false
+    verified_by: null
+  - id: '236'
+    paper_eq: '(236)'
+    page: 115
+    section: 'D.5.2'
+    block: final_goods
+    title: 'Demand for domestic intermediate goods (investment good)'
+    printed: 'h_I = q_I - mu_I*(p_H - p_I) + nu_I'
+    expr: 'h_I = q_I - mu_I*(p_H - p_I) + nu_I'
+    verified: false
+    verified_by: null
+  - id: '237'
+    paper_eq: '(237)'
+    page: 115
+    section: 'D.5.2'
+    block: final_goods
+    title: 'Demand for imported intermediate goods (investment good)'
+    printed: 'im_I = q_I - mu_I*(p_IM - p_I - Gamma_IMI_p) - (nu_I_ss)/(1 - nu_I_ss)*nu_I'
+    expr: 'im_I = q_I - mu_I*(p_IM - p_I - Gamma_IMI_p) - (nu_I_ss)/(1 - nu_I_ss)*nu_I'
+    verified: false
+    verified_by: null
+  - id: '238'
+    paper_eq: '(238)'
+    page: 115
+    section: 'D.5.2'
+    block: final_goods
+    title: 'Import share adjustment costs (investment good)'
+    printed: 'Gamma_IMI_p = -gamma_IM_I*((im_I - q_I) - (im_I(-1) - q_I(-1))) + epsilon_IM'
+    expr: 'Gamma_IMI_p = -gamma_IM_I*((im_I - q_I) - (im_I(-1) - q_I(-1))) + epsilon_IM'
+    verified: false
+    verified_by: null
+  - id: '239'
+    paper_eq: '(239)'
+    page: 115
+    section: 'D.5.2'
+    block: final_goods
+    title: 'Price of the investment good'
+    printed: 'p_I = p_H*nu_I_ss*(((p_H_ss)/(p_I_ss)))^(1 - mu_I) + (1 - nu_I_ss)*(((p_IM_ss)/(p_I_ss)))^(1 - mu_I)*(p_IM - Gamma_IMI_p) + (nu_I_ss)/(1 - mu_I)*((((p_H_ss)/(p_I_ss)))^(1 - mu_I) - (((p_IM_ss)/(p_I_ss)))^(1 - mu_I))*nu_I'
+    expr: 'p_I = p_H*nu_I_ss*(((p_H_ss)/(p_I_ss)))^(1 - mu_I) + (1 - nu_I_ss)*(((p_IM_ss)/(p_I_ss)))^(1 - mu_I)*(p_IM - Gamma_IMI_p) + (nu_I_ss)/(1 - mu_I)*((((p_H_ss)/(p_I_ss)))^(1 - mu_I) - (((p_IM_ss)/(p_I_ss)))^(1 - mu_I))*nu_I'
+    verified: false
+    verified_by: null
+  - id: '240'
+    paper_eq: '(240)'
+    page: 116
+    section: 'D.5.3'
+    block: final_goods
+    title: 'Demand for domestic intermediate goods (public consumption good)'
+    printed: 'h_G = q_G - mu_G*(p_H - p_G) + nu_G'
+    expr: 'h_G = q_G - mu_G*(p_H - p_G) + nu_G'
+    verified: false
+    verified_by: null
+  - id: '241'
+    paper_eq: '(241)'
+    page: 116
+    section: 'D.5.3'
+    block: final_goods
+    title: 'Demand for imported intermediate goods (public consumption good)'
+    printed: 'im_G = q_G - mu_G*(p_IM - p_G - Gamma_IMG_p) - (nu_G_ss)/(1 - nu_G_ss)*nu_G'
+    expr: 'im_G = q_G - mu_G*(p_IM - p_G - Gamma_IMG_p) - (nu_G_ss)/(1 - nu_G_ss)*nu_G'
+    verified: false
+    verified_by: null
+  - id: '242'
+    paper_eq: '(242)'
+    page: 116
+    section: 'D.5.3'
+    block: final_goods
+    title: 'Import share adjustment costs (public consumption good)'
+    printed: 'Gamma_IMG_p = -gamma_IM_G*((im_G - q_G) - (im_G(-1) - q_G(-1))) + epsilon_IM'
+    expr: 'Gamma_IMG_p = -gamma_IM_G*((im_G - q_G) - (im_G(-1) - q_G(-1))) + epsilon_IM'
+    verified: false
+    verified_by: null
+  - id: '243'
+    paper_eq: '(243)'
+    page: 116
+    section: 'D.5.3'
+    block: final_goods
+    title: 'Price of the public consumption goods'
+    printed: 'p_G = p_H*nu_G_ss*(((p_H_ss)/(p_G_ss)))^(1 - mu_G) + (1 - nu_G_ss)*(((p_IM_ss)/(p_G_ss)))^(1 - mu_G)*(p_IM - Gamma_IMG_p) + (nu_G_ss)/(1 - mu_G)*((((p_H_ss)/(p_G_ss)))^(1 - mu_G) - (((p_IM_ss)/(p_G_ss)))^(1 - mu_G))*nu_G'
+    expr: 'p_G = p_H*nu_G_ss*(((p_H_ss)/(p_G_ss)))^(1 - mu_G) + (1 - nu_G_ss)*(((p_IM_ss)/(p_G_ss)))^(1 - mu_G)*(p_IM - Gamma_IMG_p) + (nu_G_ss)/(1 - mu_G)*((((p_H_ss)/(p_G_ss)))^(1 - mu_G) - (((p_IM_ss)/(p_G_ss)))^(1 - mu_G))*nu_G'
+    verified: false
+    verified_by: null
+  - id: '244'
+    paper_eq: '(244)'
+    page: 116
+    section: 'D.5.4'
+    block: final_goods
+    title: 'Demand for domestic intermediate goods (exports good)'
+    printed: 'h_X = q_X - mu_X*(p_H - p_DX) + nu_X'
+    expr: 'h_X = q_X - mu_X*(p_H - p_DX) + nu_X'
+    verified: false
+    verified_by: null
+  - id: '245'
+    paper_eq: '(245)'
+    page: 116
+    section: 'D.5.4'
+    block: final_goods
+    title: 'Demand for imported intermediate goods (exports good)'
+    printed: 'im_X = q_X - mu_X*(p_IM - p_DX - Gamma_IMX_p) - (nu_X_ss)/(1 - nu_X_ss)*nu_X'
+    expr: 'im_X = q_X - mu_X*(p_IM - p_DX - Gamma_IMX_p) - (nu_X_ss)/(1 - nu_X_ss)*nu_X'
+    verified: false
+    verified_by: null
+  - id: '246'
+    paper_eq: '(246)'
+    page: 116
+    section: 'D.5.4'
+    block: final_goods
+    title: 'Import share adjustment costs (exports good)'
+    printed: 'Gamma_IMX_p = -gamma_IM_X*((im_X - q_X) - (im_X(-1) - q_X(-1))) + epsilon_X'
+    expr: 'Gamma_IMX_p = -gamma_IM_X*((im_X - q_X) - (im_X(-1) - q_X(-1))) + epsilon_X'
+    see: [D16]
+    verified: false
+    verified_by: null
+  - id: '247'
+    paper_eq: '(247)'
+    page: 117
+    section: 'D.5.4'
+    block: final_goods
+    title: '(Domestic) Price of the exported good'
+    printed: 'p_DX = nu_X_ss*(((p_H_ss)/(p_DX_ss)))^(1 - mu_X)*p_H + (1 - nu_X_ss)*(((p_IM_ss)/(p_DX_ss)))^(1 - mu_X)*(p_IM - Gamma_IMX_p) + (nu_X_ss)/(1 - mu_X)*((((p_H_ss)/(p_DX_ss)))^(1 - mu_X) - (((p_IM_ss)/(p_DX_ss)))^(1 - mu_X))*nu_X'
+    expr: 'p_DX = nu_X_ss*(((p_H_ss)/(p_DX_ss)))^(1 - mu_X)*p_H + (1 - nu_X_ss)*(((p_IM_ss)/(p_DX_ss)))^(1 - mu_X)*(p_IM - Gamma_IMX_p) + (nu_X_ss)/(1 - mu_X)*((((p_H_ss)/(p_DX_ss)))^(1 - mu_X) - (((p_IM_ss)/(p_DX_ss)))^(1 - mu_X))*nu_X'
+    verified: false
+    verified_by: null
+  # ---- exports
+  - id: '248'
+    paper_eq: '(248)'
+    page: 117
+    section: 'D.5.5'
+    block: exports
+    title: 'Phillips Curve for the price of the exported good (in foreign currency)'
+    printed: 'pi_X - pibar_star = (beta)/(1 + beta*chi_X)*(pi_X(+1) - pibar_star(+1)) + (chi_X)/(1 + beta*chi_X)*((pibar_star(+1)) - pibar_star) + (beta*chi_X)/(1 + beta*chi_X)*((pibar_star(+1)) - pibar_star) + ((1 - beta*xi_X)*(1 - xi_X))/((1 + beta*chi_X)*xi_X)*(mc_X + varphi_X)'
+    expr: 'pi_X - pibar_star = (beta)/(1 + beta*chi_X)*(pi_X(+1) - pibar_star(+1)) + (chi_X)/(1 + beta*chi_X)*(pi_X(-1) - pibar_star) + (beta*chi_X)/(1 + beta*chi_X)*((pibar_star(+1)) - pibar_star) + ((1 - beta*xi_X)*(1 - xi_X))/((1 + beta*chi_X)*xi_X)*(mc_X + varphi_X)'
+    decision: D17
+    verified: false
+    verified_by: null
+  - id: '249'
+    paper_eq: '(249)'
+    page: 117
+    section: 'D.5.5'
+    block: exports
+    title: 'Exporters'' real marginal cost (WRT the price of the exported good)'
+    printed: 'mc_X = p_DX - s - p_X - p_Y'
+    expr: 'mc_X = p_DX - s - p_X - p_Y'
+    verified: false
+    verified_by: null
+  - id: '250'
+    paper_eq: '(250)'
+    page: 117
+    section: 'D.5.5'
+    block: exports
+    title: 'Real Price of the exported good (foreign currency, WRT foreign output deflator)'
+    printed: 'p_X = pi_X + p_X(-1) - pi_Y_star'
+    expr: 'p_X = pi_X + p_X(-1) - pi_Y_star'
+    verified: false
+    verified_by: null
+  # ---- policy
+  - id: '251'
+    paper_eq: '(251)'
+    page: 117
+    section: 'D.6'
+    block: policy
+    title: 'Government consumption'
+    printed: 'g = rho_G*g(-1) + eta_G'
+    expr: 'g = rho_G*g(-1) + eta_G'
+    notes: '(59) writes the process in levels, g_t = (1-rho_G)g + rho_G g_{t-1} + eta^G, which would scale the shock by 1/g (about 1.74). Table 7''s government row matches this log form (e.g. hours 0.51/0.33/0.27% vs 0.5/0.3/0.3%); the levels reading would roughly triple it.'
+    verified: false
+    verified_by: null
+  - id: '252'
+    paper_eq: '(252)'
+    page: 117
+    section: 'D.6'
+    block: policy
+    title: 'Direct consumption tax-rate'
+    printed: 'tau_C = rho_tauC*tau_C(-1) + eta_tauC'
+    expr: 'tau_C = rho_tauC*tau_C(-1) + eta_tauC'
+    verified: false
+    verified_by: null
+  - id: '253'
+    paper_eq: '(253)'
+    page: 117
+    section: 'D.6'
+    block: policy
+    title: 'Dividend tax'
+    printed: 'tau_D = rho_tauD*tau_D(-1) + eta_tauD'
+    expr: 'tau_D = rho_tauD*tau_D(-1) + eta_tauD'
+    verified: false
+    verified_by: null
+  - id: '254'
+    paper_eq: '(254)'
+    page: 118
+    section: 'D.6'
+    block: policy
+    title: 'Capital rental tax'
+    printed: 'tau_K = rho_tauK*tau_K(-1) + eta_tauK'
+    expr: 'tau_K = rho_tauK*tau_K(-1) + eta_tauK'
+    verified: false
+    verified_by: null
+  - id: '255'
+    paper_eq: '(255)'
+    page: 118
+    section: 'D.6'
+    block: policy
+    title: 'Income tax on households'
+    printed: 'tau_N = rho_tauN*tau_N(-1) + eta_tauN'
+    expr: 'tau_N = rho_tauN*tau_N(-1) + eta_tauN'
+    verified: false
+    verified_by: null
+  - id: '256'
+    paper_eq: '(256)'
+    page: 118
+    section: 'D.6'
+    block: policy
+    title: 'Additional pay-roll tax on households'
+    printed: 'tau_W_h = rho_tauW_h*tau_W_h(-1) + eta_tauW_h'
+    expr: 'tau_W_h = rho_tauW_h*tau_W_h(-1) + eta_tauW_h'
+    verified: false
+    verified_by: null
+  - id: '257'
+    paper_eq: '(257)'
+    page: 118
+    section: 'D.6'
+    block: policy
+    title: 'Additional pay-roll tax on firms'
+    printed: 'tau_W_f = rho_tauW_f*tau_W_f(-1) + eta_tauW_f'
+    expr: 'tau_W_f = rho_tauW_f*tau_W_f(-1) + eta_tauW_f'
+    verified: false
+    verified_by: null
+  - id: '258'
+    paper_eq: '(258)'
+    page: 118
+    section: 'D.6'
+    block: policy
+    title: 'Output growth'
+    printed: 'g_Y = g_z + y - y(-1)'
+    expr: 'g_Y = g_z + y - y(-1)'
+    verified: false
+    verified_by: null
+  - id: '259'
+    paper_eq: '(259)'
+    page: 118
+    section: 'D.6'
+    block: policy
+    title: 'Taylor Rule'
+    printed: 'r = phi_R*r(-1) + (1 - phi_R)*(pibar + rr_fw + phi_Pi*(pi_CB - pibar_nohat) + phi_y*y_GAP + phi_DeltaS*dS) + eta_R'
+    expr: 'r = phi_R*r(-1) + (1 - phi_R)*(pibar + rr_fw + phi_Pi*(pi_CB - pibar_nohat) + phi_y*y_GAP + phi_DeltaS*dS) + eta_R'
+    verified: false
+    verified_by: null
+  - id: '260'
+    paper_eq: '(260)'
+    page: 118
+    section: 'D.6'
+    block: policy
+    title: 'Time-varying inflation objective'
+    printed: 'pibar = rho_barpi*pibar(-1) + eta_Pibar'
+    expr: 'pibar = rho_barpi*pibar(-1) + eta_Pibar'
+    see: [D10]
+    verified: false
+    verified_by: null
+  - id: '261'
+    paper_eq: '(261)'
+    page: 118
+    section: 'D.6'
+    block: policy
+    title: 'Real interest rate'
+    printed: 'ri = r - pi_C(+1)'
+    expr: 'ri = r - pi_C(+1)'
+    verified: false
+    verified_by: null
+  - id: '262'
+    paper_eq: '(262)'
+    page: 118
+    section: 'D.6'
+    block: policy
+    title: 'Forward 5-10 years expected real interest rate'
+    printed: null
+    expr: 'rr_fw = (1/20)*(ri(+20) + ri(+21) + ri(+22) + ri(+23) + ri(+24) + ri(+25) + ri(+26) + ri(+27) + ri(+28) + ri(+29) + ri(+30) + ri(+31) + ri(+32) + ri(+33) + ri(+34) + ri(+35) + ri(+36) + ri(+37) + ri(+38) + ri(+39))'
+    decision: D08
+    alternatives:
+      main_text: 'rr_fw = (1/20)*(ri(+21) + ri(+22) + ri(+23) + ri(+24) + ri(+25) + ri(+26) + ri(+27) + ri(+28) + ri(+29) + ri(+30) + ri(+31) + ri(+32) + ri(+33) + ri(+34) + ri(+35) + ri(+36) + ri(+37) + ri(+38) + ri(+39) + ri(+40))'
+    notes: 'Printed with an ellipsis (no code form in docs/paper); expanded term by term. LaTeX: \frac{1}{20}E_t(\hat{ri}_{t+20} + ... + \hat{ri}_{t+39}).'
+    verified: false
+    verified_by: null
+  - id: '263'
+    paper_eq: '(263)'
+    page: 118
+    section: 'D.6'
+    block: policy
+    title: 'Nominal Depreciation'
+    printed: 'dS = s - s(-1) + pi_Y - pi_Y_star'
+    expr: 'dS = s - s(-1) + pi_Y - pi_Y_star'
+    verified: false
+    verified_by: null
+  - id: '264'
+    paper_eq: '(264)'
+    page: 119
+    section: 'D.6'
+    block: policy
+    title: 'Deviation of production inputs from trend'
+    printed: 'y_GAP = y - epsilon'
+    expr: 'y_GAP = y - epsilon'
+    verified: false
+    verified_by: null
+  - id: '265'
+    paper_eq: '(265)'
+    page: 119
+    section: 'D.6'
+    block: policy
+    title: 'The inflation that the CB reacts to'
+    printed: 'pi_CB = 0.25*((pi_C(+1)) + pi_C + pi_C(-1) + pi_C(-2))'
+    expr: 'pi_CB = 0.25*((pi_C(+1)) + pi_C + pi_C(-1) + pi_C(-2))'
+    decision: D09
+    alternatives:
+      main_text: 'pi_CB = (pi_C(+1)) + pi_C + pi_C(-1) + pi_C(-2)'
+    verified: false
+    verified_by: null
+  # ---- external
+  - id: '266'
+    paper_eq: '(266)'
+    page: 119
+    section: 'D.7'
+    block: external
+    title: 'Ratio of trade balance to domestic output'
+    printed: 's_TB = s_X - s_IM'
+    expr: 's_TB = s_X - s_IM'
+    verified: false
+    verified_by: null
+  - id: '267'
+    paper_eq: '(267)'
+    page: 119
+    section: 'D.7'
+    block: external
+    title: 'Ratio of exports to domestic output'
+    printed: 's_X = (s_ss*p_X_ss*x_ss)/(y_ss)*(s + p_X + x - y)'
+    expr: 's_X = (s_ss*p_X_ss*x_ss)/(y_ss)*(s + p_X + x - y)'
+    verified: false
+    verified_by: null
+  - id: '268'
+    paper_eq: '(268)'
+    page: 119
+    section: 'D.7'
+    block: external
+    title: 'Ratio of imports to domestic output'
+    printed: 's_IM = s_IM_ss*(p_IM + im - p_Y - y)'
+    expr: 's_IM = s_IM_ss*(p_IM + im - p_Y - y)'
+    verified: false
+    verified_by: null
+  - id: '269'
+    paper_eq: '(269)'
+    page: 119
+    section: 'D.7'
+    block: external
+    title: 'Ratio of current account to domestic output'
+    printed: 'CA_over_Y = s_TB + s_FTR'
+    expr: 'CA_over_Y = s_TB + s_FTR'
+    verified: false
+    verified_by: null
+  - id: '270'
+    paper_eq: '(270)'
+    page: 119
+    section: 'D.7'
+    block: external
+    title: 'Ratio of "foreign transfers" to domestic output'
+    printed: 's_FTR = rho_FTR*s_FTR(-1) + eta_FTR'
+    expr: 's_FTR = rho_FTR*s_FTR(-1) + eta_FTR'
+    verified: false
+    verified_by: null
+  - id: '271'
+    paper_eq: '(271)'
+    page: 119
+    section: 'D.7'
+    block: external
+    title: 'Export demand'
+    printed: 'x = ztilde + im_star + nu_star - mu_star*(p_X - p_x_star + gamma_star*((x - im_star - ztilde) - (x(-1) - im_star(-1) - ztilde(-1))))'
+    expr: 'x = ztilde + im_star + nu_star - mu_star*(p_X - p_x_star + gamma_star*((x - im_star - ztilde) - (x(-1) - im_star(-1) - ztilde(-1))))'
+    verified: false
+    verified_by: null
+  - id: '272'
+    paper_eq: '(272)'
+    page: 120
+    section: 'D.7'
+    block: external
+    title: 'Ratio of net foreign assets to domestic output'
+    printed: 's_Bstar_nohat(+1) = r_star_ss*(CA_over_Y + (1)/(g_z_ss*pi_star_ss)*s_Bstar_nohat)'
+    expr: 's_Bstar_nohat(+1) = r_star_ss*(CA_over_Y + (1)/(g_z_ss*pi_star_ss)*s_Bstar_nohat)'
+    verified: false
+    verified_by: null
+  - id: '273'
+    paper_eq: '(273)'
+    page: 120
+    section: 'D.7'
+    block: external
+    title: 'Real exchange rate in CPI terms'
+    printed: 's = c + p_Y'
+    expr: 's_C = s + p_Y'
+    decision: D04
+    verified: false
+    verified_by: null
+  # ---- market_clearing
+  - id: '274'
+    paper_eq: '(274)'
+    page: 120
+    section: 'D.8'
+    block: market_clearing
+    title: 'Market clearing in the domestic intermediate good markets'
+    printed: 'h_s = h'
+    expr: 'h_s = h'
+    verified: false
+    verified_by: null
+  - id: '275'
+    paper_eq: '(275)'
+    page: 120
+    section: 'D.8'
+    block: market_clearing
+    title: 'Market clearing in the final consumption good market'
+    printed: 'q_C = c'
+    expr: 'q_C = c'
+    verified: false
+    verified_by: null
+  - id: '276'
+    paper_eq: '(276)'
+    page: 120
+    section: 'D.8'
+    block: market_clearing
+    title: 'Market clearing in the final investment good market'
+    printed: 'q_I = (i_ss)/(q_I_ss)*i + (gamma_u_1)/(g_z_ss)*(k_ss)/(q_I_ss)*u + (y_ss)/(q_I_ss)*(dinv + y*dinv_ss)'
+    expr: 'q_I = (i_ss)/(q_I_ss)*i + (gamma_u_1)/(g_z_ss)*(k_ss)/(q_I_ss)*u + (y_ss)/(q_I_ss)*(dinv + y*dinv_ss)'
+    verified: false
+    verified_by: null
+  - id: '277'
+    paper_eq: '(277)'
+    page: 120
+    section: 'D.8'
+    block: market_clearing
+    title: 'Market clearing in the final government good market'
+    printed: 'q_G = g'
+    expr: 'q_G = g'
+    verified: false
+    verified_by: null
+  - id: '278'
+    paper_eq: '(278)'
+    page: 120
+    section: 'D.8'
+    block: market_clearing
+    title: 'Market clearing in the final export good market'
+    printed: 'q_X = (x_ss)/(q_X_ss)*x'
+    expr: 'q_X = (x_ss)/(q_X_ss)*x'
+    verified: false
+    verified_by: null
+  - id: '279'
+    paper_eq: '(279)'
+    page: 120
+    section: 'D.8'
+    block: market_clearing
+    title: 'Market clearing in the capital market'
+    printed: 'u + k = k_s'
+    expr: 'u + k = k_s'
+    verified: false
+    verified_by: null
+  - id: '280'
+    paper_eq: '(280)'
+    page: 121
+    section: 'D.8'
+    block: market_clearing
+    title: 'Aggregate resource constraint'
+    printed: 'p_Y + y = (p_C_ss*c_ss)/(p_Y_ss*y_ss)*c + (p_I_ss*i_ss)/(p_Y_ss*y_ss)*(i + p_I) + (p_I_ss*k_ss)/(p_Y_ss*y_ss)*gamma_u_1*u + (p_I_ss)/(p_Y_ss)*(dinv_ss*y + dinv + dinv_ss*p_I) + (p_G_ss*g_ss)/(p_Y_ss*g_ss)*(p_G + g) + (s_ss*p_X_ss*x_ss)/(y_ss)*(x + s + p_Y + p_X) - (p_IM_ss*im_C_ss)/(p_Y_ss*y_ss)*(p_IM + im_C - Gamma_IMC_p) - (p_IM_ss*im_I_ss)/(p_Y_ss*y_ss)*(p_IM + im_I - Gamma_IMI_p) - (p_IM_ss*im_G_ss)/(p_Y_ss*y_ss)*(p_IM + im_G - Gamma_IMG_p) - (p_IM_ss*im_X_ss)/(p_Y_ss*y_ss)*(p_IM + im_X - Gamma_IMX_p)'
+    expr: 'p_Y + y = (p_C_ss*c_ss)/(p_Y_ss*y_ss)*c + (p_I_ss*i_ss)/(p_Y_ss*y_ss)*(i + p_I) + (p_I_ss*k_ss)/(p_Y_ss*y_ss)*gamma_u_1*u + (p_I_ss)/(p_Y_ss)*(dinv_ss*y + dinv + dinv_ss*p_I) + (p_G_ss*g_ss)/(p_Y_ss*y_ss)*(p_G + g) + (s_ss*p_X_ss*x_ss)/(y_ss)*(x + s + p_Y + p_X) - (p_IM_ss*im_C_ss)/(p_Y_ss*y_ss)*(p_IM + im_C - Gamma_IMC_p) - (p_IM_ss*im_I_ss)/(p_Y_ss*y_ss)*(p_IM + im_I - Gamma_IMI_p) - (p_IM_ss*im_G_ss)/(p_Y_ss*y_ss)*(p_IM + im_G - Gamma_IMG_p) - (p_IM_ss*im_X_ss)/(p_Y_ss*y_ss)*(p_IM + im_X - Gamma_IMX_p)'
+    decision: D18
+    notes: 'The capital-utilization term has no 1/g_z factor here, while (276) has one; kept as printed (the effect is nil because gamma_u_2 = 10000 keeps u at zero).'
+    verified: false
+    verified_by: null
+  - id: '281'
+    paper_eq: '(281)'
+    page: 121
+    section: 'D.8'
+    block: market_clearing
+    title: 'Inflation of GDP deflator'
+    printed: 'pi_Y = pi_C + p_Y - p_Y(-1)'
+    expr: 'pi_Y = pi_C + p_Y - p_Y(-1)'
+    verified: false
+    verified_by: null
+  - id: '282'
+    paper_eq: '(282)'
+    page: 121
+    section: 'D.8'
+    block: market_clearing
+    title: 'Output deflator'
+    printed: 'p_Y + y = (h_ss*p_H_ss)/(y_ss*p_Y_ss)*(p_H + h) + (x_ss*s_ss*p_X_ss*p_Y_ss)/(p_Y_ss*y_ss)*(c + p_X + p_Y + x) - (p_DX_ss*q_X_ss)/(p_Y_ss*y_ss)*(q_X + p_DX)'
+    expr: 'p_Y + y = (h_ss*p_H_ss)/(y_ss*p_Y_ss)*(p_H + h) + (x_ss*s_ss*p_X_ss*p_Y_ss)/(p_Y_ss*y_ss)*(s + p_X + p_Y + x) - (p_DX_ss*q_X_ss)/(p_Y_ss*y_ss)*(q_X + p_DX)'
+    decision: D05
+    verified: false
+    verified_by: null
+  - id: '283'
+    paper_eq: '(283)'
+    page: 121
+    section: 'D.8'
+    block: market_clearing
+    title: 'Total imported intermediate goods'
+    printed: 'im = (im_C_ss)/(im_ss)*im_C + (im_I_ss)/(im_ss)*im_I + (im_G_ss)/(im_ss)*im_G + (im_X_ss)/(im_ss)*im_X'
+    expr: 'im = (im_C_ss)/(im_ss)*im_C + (im_I_ss)/(im_ss)*im_I + (im_G_ss)/(im_ss)*im_G + (im_X_ss)/(im_ss)*im_X'
+    verified: false
+    verified_by: null
+  - id: '284'
+    paper_eq: '(284)'
+    page: 121
+    section: 'D.8'
+    block: market_clearing
+    title: 'Aggregate resource constraint in market prices'
+    printed: 'y + p_Y_M = ((1 + 0.78*tau_C_ss)*c_ss)/(p_Y_M_ss*y_ss)*(c + (1)/(1 + 0.78*tau_C_ss)*tau_C) + (p_I_ss*i_ss)/(p_Y_M_ss*y_ss)*(i + p_I) + (p_I_ss*k_ss)/(p_Y_M_ss*y_ss)*gamma_u_1*u + (p_I_ss)/(p_Y_M_ss)*(y*dinv_ss + dinv + p_I*dinv_ss) + (p_G_ss*g_ss)/(p_Y_M_ss*y_ss)*(p_G + g) + (x_ss*s_ss*p_X_ss*p_Y_ss)/(p_Y_M_ss*y_ss)*(x + c + p_Y + p_X) - (p_IM_ss*im_C_ss)/(p_Y_M_ss*y_ss)*(p_IM + im_C - Gamma_IMC_p) - (p_IM_ss*im_I_ss)/(p_Y_M_ss*y_ss)*(p_IM + im_I - Gamma_IMI_p) - (p_IM_ss*im_G_ss)/(y_ss*p_Y_M_ss)*(p_IM + im_G - Gamma_IMG_p) - (p_IM_ss*im_X_ss)/(p_Y_M_ss*y_ss)*(p_IM + im_X - Gamma_IMX_p)'
+    expr: 'y + p_Y_M = ((1 + 0.78*tau_C_ss)*c_ss)/(p_Y_M_ss*y_ss)*(c + (1)/(1 + 0.78*tau_C_ss)*tau_C) + (p_I_ss*i_ss)/(p_Y_M_ss*y_ss)*(i + p_I) + (p_I_ss*k_ss)/(p_Y_M_ss*y_ss)*gamma_u_1*u + (p_I_ss)/(p_Y_M_ss)*(y*dinv_ss + dinv + p_I*dinv_ss) + (p_G_ss*g_ss)/(p_Y_M_ss*y_ss)*(p_G + g) + (x_ss*s_ss*p_X_ss*p_Y_ss)/(p_Y_M_ss*y_ss)*(x + s + p_Y + p_X) - (p_IM_ss*im_C_ss)/(p_Y_M_ss*y_ss)*(p_IM + im_C - Gamma_IMC_p) - (p_IM_ss*im_I_ss)/(p_Y_M_ss*y_ss)*(p_IM + im_I - Gamma_IMI_p) - (p_IM_ss*im_G_ss)/(y_ss*p_Y_M_ss)*(p_IM + im_G - Gamma_IMG_p) - (p_IM_ss*im_X_ss)/(p_Y_M_ss*y_ss)*(p_IM + im_X - Gamma_IMX_p)'
+    decision: D05
+    notes: 'The VAT term keeps the printed numerator 1 (see D11; under the alternative ''w_tauC'' of D11 only (212) changes, which is all that matters for the structural block).'
+    verified: false
+    verified_by: null
+  - id: '285'
+    paper_eq: '(285)'
+    page: 121
+    section: 'D.8'
+    block: market_clearing
+    title: 'Real GDP'
+    printed: 'y = h_s'
+    expr: 'y = h_s'
+    verified: false
+    verified_by: null
+  # ---- foreign
+  - id: '286'
+    paper_eq: '(286)'
+    page: 122
+    section: 'D.9'
+    block: foreign
+    title: 'Foreign Output'
+    printed: 'y_star = c_ystar_p*(y_star(+1)) + (1 - c_ystar_p)*y_star(-1) - 4*c_ystar_r*(ri_star - fw_ristar) + epsilon_Ystar'
+    expr: 'y_star = c_ystar_p*(y_star(+1)) + (1 - c_ystar_p)*y_star(-1) - 4*c_ystar_r*(ri_star - fw_ristar) + epsilon_Ystar'
+    verified: false
+    verified_by: null
+  - id: '287'
+    paper_eq: '(287)'
+    page: 122
+    section: 'D.9'
+    block: foreign
+    title: 'Foreign nominal interest rate'
+    printed: '4*r_star = (1 - c_rstar_m)*(4*(pibar_star_nohat + fw_ristar) + 4*c_rstar_pi*(0.2*(pi_Y_star(+1) + pi_Y_star + pi_Y_star(-1) + pi_Y_star(+2) + pi_Y_star(+3)) - pibar_star_nohat) + c_rstar_y*y_star) + 4*c_rstar_m*r_star(-1) + epsilon_Rstar'
+    expr: '4*r_star = (1 - c_rstar_m)*(4*(pibar_star_nohat + fw_ristar) + 4*c_rstar_pi*(0.2*(pi_Y_star(+1) + pi_Y_star + pi_Y_star(-1) + pi_Y_star(+2) + pi_Y_star(+3)) - pibar_star_nohat) + c_rstar_y*y_star) + 4*c_rstar_m*r_star(-1) + epsilon_Rstar'
+    verified: false
+    verified_by: null
+  - id: '288'
+    paper_eq: '(288)'
+    page: 122
+    section: 'D.9'
+    block: foreign
+    title: 'Foreign CPI inflation'
+    printed: '4*pi_Y_star = 4*c_pistar_p*(pi_Y_star(+1)) + 4*(1 - c_pistar_p)*pi_Y_star(-1) + 0.5*c_pistar_y*(y_star + y_star(-1)) + c_pistar_OIL*p_OIL + c_pistar_DeltaOIL*(p_OIL - p_OIL(-2)) + pi_Y_star'
+    expr: '4*pi_Y_star = 4*c_pistar_p*(pi_Y_star(+1)) + 4*(1 - c_pistar_p)*pi_Y_star(-1) + 0.5*c_pistar_y*(y_star + y_star(-1)) + c_pistar_OIL*p_OIL + c_pistar_DeltaOIL*(p_OIL - p_OIL(-2)) + epsilon_Pistar'
+    decision: D06
+    verified: false
+    verified_by: null
+  - id: '289'
+    paper_eq: '(289)'
+    page: 122
+    section: 'D.9'
+    block: foreign
+    title: 'World import gap'
+    printed: 'im_star = c_wt_y*y_star + c_wt_ym*y_star(-1) + c_wt_m_star*im_star(-1) + epsilon_IMstar'
+    expr: 'im_star = c_wt_y*y_star + c_wt_ym*y_star(-1) + c_wt_m_star*im_star(-1) + epsilon_IMstar'
+    see: [D37]
+    verified: false
+    verified_by: null
+  - id: '290'
+    paper_eq: '(290)'
+    page: 122
+    section: 'D.9'
+    block: foreign
+    title: 'Relative foreign price of oil'
+    printed: 'p_OIL = c_OIL_m*p_OIL(-1) - c_OIL_Delta*(p_OIL(-1) - p_OIL(-2)) + eta_OIL'
+    expr: 'p_OIL = c_OIL_m*p_OIL(-1) - c_OIL_Delta*(p_OIL(-1) - p_OIL(-2)) + eta_OIL'
+    decision: D07
+    alternatives:
+      main_text: 'p_OIL = c_OIL_m*p_OIL(-1) + c_OIL_Delta*(p_OIL(-1) - p_OIL(-2)) + eta_OIL'
+    verified: false
+    verified_by: null
+  # ---- measurement
+  - id: '291'
+    paper_eq: '(291)'
+    page: 122
+    section: 'D.10'
+    block: measurement
+    title: 'Real per-capita GDP growth rate'
+    printed: 'Delta_Y = g_z + y - y(-1) + g_z_ss - 1 + EX_DeltaN'
+    expr: 'Delta_Y = g_z + y - y(-1) + g_z_ss - 1 + EX_DeltaN'
+    verified: false
+    verified_by: null
+  - id: '292'
+    paper_eq: '(292)'
+    page: 122
+    section: 'D.10'
+    block: measurement
+    title: 'Real per-capita consumption growth rate'
+    printed: 'Delta_C = EX_DeltaN + g_z_ss - 1 + g_z + c - c(-1) + EX_DeltaC'
+    expr: 'Delta_C = EX_DeltaN + g_z_ss - 1 + g_z + c - c(-1) + EX_DeltaC'
+    verified: false
+    verified_by: null
+  - id: '293'
+    paper_eq: '(293)'
+    page: 123
+    section: 'D.10'
+    block: measurement
+    title: 'Real per-capita investment growth rate (excluding inventories)'
+    printed: 'Delta_I_NI = EX_DeltaN + g_z_ss - 1 + g_z + i - i(-1) + EX_DeltaINI'
+    expr: 'Delta_I_NI = EX_DeltaN + g_z_ss - 1 + g_z + i - i(-1) + EX_DeltaINI'
+    verified: false
+    verified_by: null
+  - id: '294'
+    paper_eq: '(294)'
+    page: 123
+    section: 'D.10'
+    block: measurement
+    title: 'Real per-capita government consumption growth rate'
+    printed: 'Delta_G = EX_DeltaN + g_z_ss - 1 + g_z + g - g(-1) + EX_DeltaG'
+    expr: 'Delta_G = EX_DeltaN + g_z_ss - 1 + g_z + g - g(-1) + EX_DeltaG'
+    verified: false
+    verified_by: null
+  - id: '295'
+    paper_eq: '(295)'
+    page: 123
+    section: 'D.10'
+    block: measurement
+    title: 'Real per-capita export growth'
+    printed: 'Delta_X = EX_DeltaN + g_z_ss - 1 + g_z + x - x(-1) + EX_DeltaX'
+    expr: 'Delta_X = EX_DeltaN + g_z_ss - 1 + g_z + x - x(-1) + EX_DeltaX'
+    verified: false
+    verified_by: null
+  - id: '296'
+    paper_eq: '(296)'
+    page: 123
+    section: 'D.10'
+    block: measurement
+    title: 'Real per-capita import growth rate'
+    printed: 'Delta_IM = EX_DeltaN + g_z_ss - 1 + g_z + im - im(-1) + EX_DeltaIM'
+    expr: 'Delta_IM = EX_DeltaN + g_z_ss - 1 + g_z + im - im(-1) + EX_DeltaIM'
+    verified: false
+    verified_by: null
+  - id: '297'
+    paper_eq: '(297)'
+    page: 123
+    section: 'D.10'
+    block: measurement
+    title: 'Inflation in market price GDP deflator'
+    printed: 'Delta_P_Y_M = epsilon_OB_DPY + pi_C + p_Y_M - p_Y_M(-1) + pi_ss - 1 - pibar'
+    expr: 'Delta_P_Y_M = epsilon_OB_DPY + pi_C + p_Y_M - p_Y_M(-1) + pi_ss - 1 - pibar'
+    verified: false
+    verified_by: null
+  - id: '298'
+    paper_eq: '(298)'
+    page: 123
+    section: 'D.10'
+    block: measurement
+    title: 'Inflation in factor price CPI (Excluding VAT, fruits and vegetables)'
+    printed: 'Delta_P_C = pi_C + pi_ss - 1 - pibar_nohat'
+    expr: 'Delta_P_C = pi_C + pi_ss - 1 - pibar_nohat'
+    verified: false
+    verified_by: null
+  - id: '299'
+    paper_eq: '(299)'
+    page: 123
+    section: 'D.10'
+    block: measurement
+    title: 'Inflation in investment deflator (including a measurement error)'
+    printed: 'Delta_P_I = pi_ss - 1 + pi_C + p_I - p_I(-1) - pibar_nohat + eta_DeltaP_I'
+    expr: 'Delta_P_I = pi_ss - 1 + pi_C + p_I - p_I(-1) - pibar_nohat + eta_DeltaP_I'
+    verified: false
+    verified_by: null
+  - id: '300'
+    paper_eq: '(300)'
+    page: 123
+    section: 'D.10'
+    block: measurement
+    title: 'Annualized inflation target'
+    printed: '4*pibar_star_nohat = 4*(pibar_nohat + pi_ss - 1)'
+    expr: 'pibar_OB = 4*(pibar_nohat + pi_ss - 1)'
+    decision: D19
+    verified: false
+    verified_by: null
+  - id: '301'
+    paper_eq: '(301)'
+    page: 123
+    section: 'D.10'
+    block: measurement
+    title: 'Per capita employment (deviation from HP trend)'
+    printed: 'e = (beta)/(1 + beta*chi_E)*(e(+1)) + (chi_E)/(1 + beta*chi_E)*e(-1) + ((1 - beta*xi_E)*(1 - xi_E))/((1 + beta*chi_E)*xi_E)*(n - e) + epsilon_OB_E'
+    expr: 'e = (beta)/(1 + beta*chi_E)*(e(+1)) + (chi_E)/(1 + beta*chi_E)*e(-1) + ((1 - beta*xi_E)*(1 - xi_E))/((1 + beta*chi_E)*xi_E)*(n - e) + epsilon_OB_E'
+    verified: false
+    verified_by: null
+  - id: '302'
+    paper_eq: '(302)'
+    page: 124
+    section: 'D.10'
+    block: measurement
+    title: 'Per capita employment'
+    printed: 'Delta_EM = EX_DeltaN + e - e(-1)'
+    expr: 'Delta_EM = EX_DeltaN + e - e(-1)'
+    verified: false
+    verified_by: null
+  - id: '303'
+    paper_eq: '(303)'
+    page: 124
+    section: 'D.10'
+    block: measurement
+    title: 'Per capita labor input'
+    printed: 'Delta_N = EX_DeltaN + n - n(-1)'
+    expr: 'Delta_N = EX_DeltaN + n - n(-1)'
+    verified: false
+    verified_by: null
+  - id: '304'
+    paper_eq: '(304)'
+    page: 124
+    section: 'D.10'
+    block: measurement
+    title: 'Nominal wage growth rate'
+    printed: 'Delta_W = pi_ss - 1 + g_z_ss - 1 + pi_C + g_z + w - w(-1) - pibar_nohat + EX_DeltaW'
+    expr: 'Delta_W = pi_ss - 1 + g_z_ss - 1 + pi_C + g_z + w - w(-1) - pibar_nohat + EX_DeltaW'
+    verified: false
+    verified_by: null
+  - id: '305'
+    paper_eq: '(305)'
+    page: 124
+    section: 'D.10'
+    block: measurement
+    title: 'Annualized nominal interest rate'
+    printed: 'r_OB = 4*(r + R_ss - 1) - 4*pibar_nohat'
+    expr: 'r_OB = 4*(r + R_ss - 1) - 4*pibar_nohat'
+    verified: false
+    verified_by: null
+  - id: '306'
+    paper_eq: '(306)'
+    page: 124
+    section: 'D.10'
+    block: measurement
+    title: 'Nominal depreciation rate'
+    printed: 'Delta_S = c - c(-1) + pi_Y - pi_Y_star + pi_ss - 1 - (pi_star_ss - 1) - pibar_nohat + EX_DeltaS'
+    expr: 'Delta_S = s - s(-1) + pi_Y - pi_Y_star + pi_ss - 1 - (pi_star_ss - 1) - pibar_nohat + EX_DeltaS'
+    decision: D20
+    verified: false
+    verified_by: null
+  - id: '307'
+    paper_eq: '(307)'
+    page: 124
+    section: 'D.10'
+    block: measurement
+    title: 'Foreign output growth rate'
+    printed: 'Delta_Y_star = g_z_ss - 1 + g_z + ztilde + y_star - y_star(-1) - ztilde(-1) + EX_DeltaYstar'
+    expr: 'Delta_Y_star = g_z_ss - 1 + g_z + ztilde + y_star - y_star(-1) - ztilde(-1) + EX_DeltaYstar'
+    verified: false
+    verified_by: null
+  - id: '308'
+    paper_eq: '(308)'
+    page: 124
+    section: 'D.10'
+    block: measurement
+    title: 'Inflation in foreign price deflator'
+    printed: 'Delta_P_Ystar = pi_Y_star + pi_star_ss - 1'
+    expr: 'Delta_P_Ystar = pi_Y_star + pi_star_ss - 1'
+    verified: false
+    verified_by: null
+  - id: '309'
+    paper_eq: '(309)'
+    page: 124
+    section: 'D.10'
+    block: measurement
+    title: 'Annualized foreign nominal interest rate'
+    printed: 'R_starOB = 4*(r_star + r_star_ss - 1)'
+    expr: 'R_starOB = 4*(r_star + r_star_ss - 1)'
+    verified: false
+    verified_by: null
+  - id: '310'
+    paper_eq: '(310)'
+    page: 124
+    section: 'D.10'
+    block: measurement
+    title: 'Inflation in foreign competitors price'
+    printed: 'Delta_P_Xstar = Delta_P_Ystar + p_x_star - p_x_star(-1)'
+    expr: 'Delta_P_Xstar = Delta_P_Ystar + p_x_star - p_x_star(-1)'
+    verified: false
+    verified_by: null
+  - id: '311'
+    paper_eq: '(311)'
+    page: 124
+    section: 'D.10'
+    block: measurement
+    title: 'Inflation in export deflator (NIS terms)'
+    printed: 'Delta_P_X_NIS = Delta_S + Delta_P_Ystar + p_X - p_X(-1)'
+    expr: 'Delta_P_X_NIS = Delta_S + Delta_P_Ystar + p_X - p_X(-1)'
+    verified: false
+    verified_by: null
+  - id: '312'
+    paper_eq: '(312)'
+    page: 125
+    section: 'D.10'
+    block: measurement
+    title: 'Forward long run expected real rate (5-10 years)'
+    printed: 'rr_fwd_ob = epsilon_fwd_ob + 4*(fw_ristar + (g_z_ss)/(beta) - 1) + tp'
+    expr: 'rr_fwd_ob = epsilon_fwd_ob + 4*(rr_fw + (g_z_ss)/(beta) - 1) + tp'
+    decision: D28
+    verified: false
+    verified_by: null
+  - id: '313'
+    paper_eq: '(313)'
+    page: 125
+    section: 'D.10'
+    block: measurement
+    title: 'Observable ratio of Current Account to GDP'
+    printed: 'S_CA = CA_over_Y'
+    expr: 'S_CA = CA_over_Y'
+    verified: false
+    verified_by: null
+  - id: '314'
+    paper_eq: '(314)'
+    page: 125
+    section: 'D.10'
+    block: measurement
+    title: 'Observable consumption tax rate'
+    printed: 'tau_C_OB = tau_C_ss + tau_C'
+    expr: 'tau_C_OB = tau_C_ss + tau_C'
+    verified: false
+    verified_by: null
+  - id: '315'
+    paper_eq: '(315)'
+    page: 125
+    section: 'D.10'
+    block: measurement
+    title: 'Observable income tax rate'
+    printed: 'tau_N_OB = tau_N_ss + tau_N'
+    expr: 'tau_N_OB = tau_N_ss + tau_N'
+    verified: false
+    verified_by: null
+  - id: '316'
+    paper_eq: '(316)'
+    page: 125
+    section: 'D.10'
+    block: measurement
+    title: 'Observable change in oil prices'
+    printed: 'Delta_P_OIL = p_OIL - p_OIL(-1) + Delta_P_Ystar + EX_DeltaPOIL'
+    expr: 'Delta_P_OIL = p_OIL - p_OIL(-1) + Delta_P_Ystar + EX_DeltaPOIL'
+    verified: false
+    verified_by: null
+  - id: '317'
+    paper_eq: '(317)'
+    page: 125
+    section: 'D.10'
+    block: measurement
+    title: 'The change in inventories, as a share of GDP'
+    printed: 'Delta_inv = dinv + dinv_ss + EX_DeltaINV'
+    expr: 'Delta_inv = dinv + dinv_ss + EX_DeltaINV'
+    verified: false
+    verified_by: null
+  - id: '318'
+    paper_eq: '(318)'
+    page: 125
+    section: 'D.10'
+    block: measurement
+    title: 'Forward long run expected nominal rate abroad (5-10 years)'
+    printed: 'r_starfwd_ob = epsilon_fwd_obstar + 4*(pibar_star_nohat + fw_ristar + r_star_ss - 1) + tp_star'
+    expr: 'r_starfwd_ob = epsilon_fwd_obstar + 4*(pibar_star_nohat + fw_ristar + r_star_ss - 1) + tp_star'
+    verified: false
+    verified_by: null
+  - id: '319'
+    paper_eq: '(319)'
+    page: 125
+    section: 'D.10'
+    block: measurement
+    title: 'Observable world import growth rate'
+    printed: 'Delta_WT_star = g_z + ztilde + im_star - im_star(-1) - ztilde(-1) + g_z_ss - 1 + EX_DeltaWTstar'
+    expr: 'Delta_WT_star = g_z + ztilde + im_star - im_star(-1) - ztilde(-1) + g_z_ss - 1 + EX_DeltaWTstar'
+    verified: false
+    verified_by: null
+  - id: '320'
+    paper_eq: '(320)'
+    page: 126
+    section: 'D.11'
+    block: measurement
+    title: 'Excess trend in nominal depreciation'
+    printed: 'EX_DeltaS = rho_EX_DeltaS*EX_DeltaS(-1) + eta_EX_S'
+    expr: 'EX_DeltaS = rho_EX_DeltaS*EX_DeltaS(-1) + eta_EX_S'
+    see: [D30]
+    verified: false
+    verified_by: null
+  - id: '321'
+    paper_eq: '(321)'
+    page: 126
+    section: 'D.11'
+    block: measurement
+    title: 'Excess trend in nominal wage growth'
+    printed: 'EX_DeltaW = (1 - rho_EX_DeltaW)*(g_DeltaW - g_z_ss + 1 - pi_ss) + rho_EX_DeltaW*EX_DeltaW(-1) + eta_EX_W'
+    expr: 'EX_DeltaW = (1 - rho_EX_DeltaW)*(g_DeltaW - g_z_ss + 1 - pi_ss) + rho_EX_DeltaW*EX_DeltaW(-1) + eta_EX_W'
+    see: [D30, D34]
+    verified: false
+    verified_by: null
+  - id: '322'
+    paper_eq: '(322)'
+    page: 126
+    section: 'D.11'
+    block: measurement
+    title: 'Common excess trend in hours (labor input) growth'
+    printed: 'EX_DeltaN = (1 - rho_EX_N)*g_DeltaN + rho_EX_N*EX_DeltaN(-1) + eta_EX_N'
+    expr: 'EX_DeltaN = (1 - rho_EX_N)*g_DeltaN + rho_EX_N*EX_DeltaN(-1) + eta_EX_N'
+    verified: false
+    verified_by: null
+  - id: '323'
+    paper_eq: '(323)'
+    page: 126
+    section: 'D.11'
+    block: measurement
+    title: 'Excess trend in consumption growth'
+    printed: 'EX_DeltaC = (1 - rho_EX_C)*(g_DeltaC - g_z_ss - g_DeltaN) + rho_EX_C*EX_DeltaC(-1) + eta_EX_C'
+    expr: 'EX_DeltaC = (1 - rho_EX_C)*(g_DeltaC - g_z_ss - g_DeltaN) + rho_EX_C*EX_DeltaC(-1) + eta_EX_C'
+    verified: false
+    verified_by: null
+  - id: '324'
+    paper_eq: '(324)'
+    page: 126
+    section: 'D.11'
+    block: measurement
+    title: 'Excess trend in fixed-investment growth'
+    printed: 'EX_DeltaINI = (1 - rho_EX_I)*(g_DeltaI - g_z_ss - g_DeltaN) + rho_EX_I*EX_DeltaINI(-1) + eta_EX_I'
+    expr: 'EX_DeltaINI = (1 - rho_EX_I)*(g_DeltaI - g_z_ss - g_DeltaN) + rho_EX_I*EX_DeltaINI(-1) + eta_EX_I'
+    verified: false
+    verified_by: null
+  - id: '325'
+    paper_eq: '(325)'
+    page: 126
+    section: 'D.11'
+    block: measurement
+    title: 'Excess trend in import growth'
+    printed: 'EX_DeltaIM = (1 - rho_EX_IM)*(g_DeltaIM - g_z_ss - g_DeltaN) + rho_EX_IM*EX_DeltaIM(-1) + eta_EX_IM'
+    expr: 'EX_DeltaIM = (1 - rho_EX_IM)*(g_DeltaIM - g_z_ss - g_DeltaN) + rho_EX_IM*EX_DeltaIM(-1) + eta_EX_IM'
+    verified: false
+    verified_by: null
+  - id: '326'
+    paper_eq: '(326)'
+    page: 126
+    section: 'D.11'
+    block: measurement
+    title: 'Excess trend in export growth'
+    printed: 'EX_DeltaX = (1 - rho_EX_X)*(g_DeltaX - g_z_ss - g_DeltaN) + rho_EX_X*EX_DeltaX(-1) + eta_EX_X'
+    expr: 'EX_DeltaX = (1 - rho_EX_X)*(g_DeltaX - g_z_ss - g_DeltaN) + rho_EX_X*EX_DeltaX(-1) + eta_EX_X'
+    verified: false
+    verified_by: null
+  - id: '327'
+    paper_eq: '(327)'
+    page: 126
+    section: 'D.11'
+    block: measurement
+    title: 'Excess term in the inventory share'
+    printed: 'EX_DeltaINV = eta_EX_DeltaINV'
+    expr: 'EX_DeltaINV = eta_EX_DeltaINV'
+    verified: false
+    verified_by: null
+  - id: '328'
+    paper_eq: '(328)'
+    page: 126
+    section: 'D.11'
+    block: measurement
+    title: 'Adding-up restriction on the excess trends (determines the government term)'
+    printed: '0 = (c_ss)/(y_ss)*EX_DeltaC + (i_ss)/(y_ss)*EX_DeltaINI + dinv_ss*EX_DeltaINV + s_G*EX_DeltaG + s_X_ss*EX_DeltaX - (im_ss)/(y_ss)*EX_DeltaIM'
+    expr: '0 = (c_ss)/(y_ss)*EX_DeltaC + (i_ss)/(y_ss)*EX_DeltaINI + dinv_ss*EX_DeltaINV + s_G*EX_DeltaG + s_X_ss*EX_DeltaX - (im_ss)/(y_ss)*EX_DeltaIM'
+    verified: false
+    verified_by: null
+  - id: '329'
+    paper_eq: '(329)'
+    page: 126
+    section: 'D.11'
+    block: measurement
+    title: 'Excess trend in foreign output growth'
+    printed: 'EX_DeltaYstar = (1 - rho_EX_Ystar)*(g_DeltaYstar - g_z_ss) + rho_EX_Ystar*EX_DeltaYstar(-1) + eta_EX_Ystar'
+    expr: 'EX_DeltaYstar = (1 - rho_EX_Ystar)*(g_DeltaYstar - g_z_ss) + rho_EX_Ystar*EX_DeltaYstar(-1) + eta_EX_Ystar'
+    verified: false
+    verified_by: null
+  - id: '330'
+    paper_eq: '(330)'
+    page: 126
+    section: 'D.11'
+    block: measurement
+    title: 'Excess trend in world import growth'
+    printed: 'EX_DeltaWTstar = (1 - rho_EX_WTstar)*(g_DeltaWTstar - g_z_ss) + rho_EX_WTstar*EX_DeltaWTstar(-1) + eta_EX_WTstar'
+    expr: 'EX_DeltaWTstar = (1 - rho_EX_WTstar)*(g_DeltaWTstar - g_z_ss) + rho_EX_WTstar*EX_DeltaWTstar(-1) + eta_EX_WTstar'
+    verified: false
+    verified_by: null
+  - id: '331'
+    paper_eq: '(331)'
+    page: 126
+    section: 'D.11'
+    block: measurement
+    title: 'Excess trend in oil-price change'
+    printed: 'EX_DeltaPOIL = rho_EX_P_OILstar*EX_DeltaPOIL(-1) + eta_EX_P_OILstar'
+    expr: 'EX_DeltaPOIL = rho_EX_P_OILstar*EX_DeltaPOIL(-1) + eta_EX_P_OILstar'
+    verified: false
+    verified_by: null
+  # ---- shocks
+  - id: 'A.epsilon'
+    paper_eq: '4.4.2 (1); fn. 4, 26'
+    page: 45
+    section: added
+    block: shocks
+    title: 'Transitory technology shock'
+    printed: null
+    expr: 'epsilon = rho_epsilon*epsilon(-1) + eta'
+    notes: 'Not printed in Appendix D. D21'
+    verified: false
+    verified_by: null
+  - id: 'A.g_z'
+    paper_eq: '(18)'
+    page: 14
+    section: added
+    block: shocks
+    title: 'Permanent (labor-augmenting) productivity growth'
+    printed: null
+    expr: 'g_z = rho_gz*g_z(-1) + eta_gz'
+    notes: 'Not printed in Appendix D. D21. (18) is written in levels of the gross rate; in log-deviations the innovation is η/g_z, i.e. 0.25% smaller. Written here as a log-AR(1) like the other shocks (fn. 4).'
+    verified: false
+    verified_by: null
+  - id: 'A.epsilon_C'
+    paper_eq: '4.4.2 (6); (5)'
+    page: 45
+    section: added
+    block: shocks
+    title: 'Consumption-demand (preference) shock'
+    printed: null
+    expr: 'epsilon_C = rho_C*epsilon_C(-1) + eta_C'
+    notes: 'Not printed in Appendix D. D21'
+    verified: false
+    verified_by: null
+  - id: 'A.epsilon_I'
+    paper_eq: '4.4.2 (7); (9), (11)'
+    page: 45
+    section: added
+    block: shocks
+    title: 'Investment-specific technology shock'
+    printed: null
+    expr: 'epsilon_I = rho_I*epsilon_I(-1) + eta_I'
+    notes: 'Not printed in Appendix D. D21'
+    verified: false
+    verified_by: null
+  - id: 'A.epsilon_RP'
+    paper_eq: '4.4.2 (3); (6)'
+    page: 45
+    section: added
+    block: shocks
+    title: 'Symmetric risk-premium shock'
+    printed: null
+    expr: 'epsilon_RP = rho_RP*epsilon_RP(-1) + eta_RP'
+    notes: 'Not printed in Appendix D. D21'
+    verified: false
+    verified_by: null
+  - id: 'A.epsilon_RPstar'
+    paper_eq: '4.4.2 (4); (4)'
+    page: 45
+    section: added
+    block: shocks
+    title: 'External risk-premium shock'
+    printed: null
+    expr: 'epsilon_RPstar = rho_RPstar*epsilon_RPstar(-1) + eta_RPstar'
+    notes: 'Not printed in Appendix D. D21'
+    verified: false
+    verified_by: null
+  - id: 'A.epsilon_DRP'
+    paper_eq: '3.u1'
+    page: 8
+    section: added
+    block: shocks
+    title: 'Domestic risk-premium shock (persistence fixed at 0.99)'
+    printed: null
+    expr: 'epsilon_DRP = rho_DRP*epsilon_DRP(-1) + eta_DRP'
+    notes: 'Not printed in Appendix D. D21. 3.u1: ε^DRP_t = 0.99 ε^DRP_{t-1} + (1-0.99) + η^DRP_t.'
+    verified: false
+    verified_by: null
+  - id: 'A.dinv'
+    paper_eq: '(3)'
+    page: 7
+    section: added
+    block: shocks
+    title: 'Inventory investment (share of GDP)'
+    printed: null
+    expr: 'dinv = rho_DINV*dinv(-1) + eta_DINV'
+    notes: 'Not printed in Appendix D. D21. Level deviation of the share, as (3) is in levels.'
+    verified: false
+    verified_by: null
+  - id: 'A.nu'
+    paper_eq: '4.4.2 (11)'
+    page: 45
+    section: added
+    block: shocks
+    title: 'Common time-varying home bias (all final-good sectors)'
+    printed: null
+    expr: 'nu = rho_nu*nu(-1) + eta_nu'
+    notes: 'Not printed in Appendix D. D21, D22.'
+    verified: false
+    verified_by: null
+  - id: 'A.nu_star'
+    paper_eq: '4.4.2 (10)'
+    page: 45
+    section: added
+    block: shocks
+    title: 'Time-varying export share'
+    printed: null
+    expr: 'nu_star = rho_nustar*nu_star(-1) + eta_nustar'
+    notes: 'Not printed in Appendix D. D21'
+    verified: false
+    verified_by: null
+  - id: 'A.phi_w'
+    paper_eq: '(20)'
+    page: 14
+    section: added
+    block: shocks
+    title: 'Wage markup'
+    printed: null
+    expr: 'phi_w = rho_varphiW*phi_w(-1) + eta_varphiW'
+    notes: 'Not printed in Appendix D. D21. (20) is log-AR(1).'
+    verified: false
+    verified_by: null
+  - id: 'A.varphi_H'
+    paper_eq: '4.4.2 (12)'
+    page: 45
+    section: added
+    block: shocks
+    title: 'Domestic price markup'
+    printed: null
+    expr: 'varphi_H = rho_varphiH*varphi_H(-1) + eta_varphiH'
+    notes: 'Not printed in Appendix D. D21'
+    verified: false
+    verified_by: null
+  - id: 'A.varphi_star'
+    paper_eq: '4.4.2 (13)'
+    page: 45
+    section: added
+    block: shocks
+    title: 'Import price markup'
+    printed: null
+    expr: 'varphi_star = rho_varphistar*varphi_star(-1) + eta_varphistar'
+    notes: 'Not printed in Appendix D. D21'
+    verified: false
+    verified_by: null
+  - id: 'A.varphi_X'
+    paper_eq: '4.4.2 (15)'
+    page: 45
+    section: added
+    block: shocks
+    title: 'Export price markup'
+    printed: null
+    expr: 'varphi_X = rho_varphiX*varphi_X(-1) + eta_varphiX'
+    notes: 'Not printed in Appendix D. D21'
+    verified: false
+    verified_by: null
+  - id: 'A.epsilon_Ystar'
+    paper_eq: '(89); 4.4.2 (20)'
+    page: 33
+    section: added
+    block: shocks
+    title: 'World demand shock'
+    printed: null
+    expr: 'epsilon_Ystar = rho_Ystar*epsilon_Ystar(-1) + eta_Ystar'
+    notes: 'Not printed in Appendix D. D21'
+    verified: false
+    verified_by: null
+  - id: 'A.epsilon_Pistar'
+    paper_eq: '(92); 4.4.2 (21)'
+    page: 33
+    section: added
+    block: shocks
+    title: 'World cost-push shock'
+    printed: null
+    expr: 'epsilon_Pistar = rho_Pistar*epsilon_Pistar(-1) + eta_Pistar'
+    notes: 'Not printed in Appendix D. D06, D21'
+    verified: false
+    verified_by: null
+  - id: 'A.epsilon_Rstar'
+    paper_eq: '(94); 4.4.2 (22)'
+    page: 33
+    section: added
+    block: shocks
+    title: 'World interest-rate shock'
+    printed: null
+    expr: 'epsilon_Rstar = rho_Rstar*epsilon_Rstar(-1) + eta_Rstar'
+    notes: 'Not printed in Appendix D. D21'
+    verified: false
+    verified_by: null
+  # ---- foreign
+  - id: 'A.fw_ristar'
+    paper_eq: '(90)'
+    page: 33
+    section: added
+    block: foreign
+    title: 'Foreign forward (natural) real rate, near random walk'
+    printed: null
+    expr: 'fw_ristar = rho_fwdstar*fw_ristar(-1) + eta_fwdstar'
+    notes: 'Not printed in Appendix D. D21. (90): persistence 0.99, innovation ε^{*,fwd} (S.D. ''LR rate'', Table 4).'
+    verified: false
+    verified_by: null
+  - id: 'A.ri_star'
+    paper_eq: '(89)'
+    page: 33
+    section: added
+    block: foreign
+    title: 'Foreign real interest rate'
+    printed: null
+    expr: 'ri_star = r_star - pi_Y_star(+1)'
+    notes: 'Not printed in Appendix D. D27'
+    verified: false
+    verified_by: null
+  # ---- measurement
+  - id: 'A.epsilon_OB_DPY'
+    paper_eq: 'Table 3'
+    page: 51
+    section: added
+    block: measurement
+    title: 'Observation error, GDP-deflator inflation'
+    printed: null
+    expr: 'epsilon_OB_DPY = rho_OB_DPY*epsilon_OB_DPY(-1) + eta_OB_DPY'
+    notes: 'Not printed in Appendix D. D31'
+    verified: false
+    verified_by: null
+  - id: 'A.epsilon_OB_E'
+    paper_eq: 'Table 3; (95)'
+    page: 51
+    section: added
+    block: measurement
+    title: 'Observation shock in the employment equation'
+    printed: null
+    expr: 'epsilon_OB_E = rho_OB_E*epsilon_OB_E(-1) + eta_OB_E'
+    notes: 'Not printed in Appendix D. D31'
+    verified: false
+    verified_by: null
+  - id: 'A.epsilon_fwd_ob'
+    paper_eq: 'Table 3; (108)'
+    page: 51
+    section: added
+    block: measurement
+    title: 'Observation error, domestic forward rate'
+    printed: null
+    expr: 'epsilon_fwd_ob = rho_OB_fwd*epsilon_fwd_ob(-1) + eta_fwd_ob'
+    notes: 'Not printed in Appendix D. D31'
+    verified: false
+    verified_by: null
+  - id: 'A.epsilon_fwd_obstar'
+    paper_eq: 'Table 3'
+    page: 51
+    section: added
+    block: measurement
+    title: 'Observation error, foreign forward rate'
+    printed: null
+    expr: 'epsilon_fwd_obstar = rho_OB_fwdstar*epsilon_fwd_obstar(-1) + eta_fwd_obstar'
+    notes: 'Not printed in Appendix D. D31'
+    verified: false
+    verified_by: null
+
+reporting:
+  # How the paper reports results; used by tests/test_replication.py. Not part of the model.
+  irf:
+    source: docs/paper/data/irf (digitized Figures 6-18; series 'mean' is the posterior mean response)
+    horizon: 20
+    impact_quarter: 1
+    shock_size: one standard deviation
+    notes: 'Scales chosen by comparing with the figures: inflation panels are quarterly (x100, not x400), the interest rate is annualized (x400) and the real exchange rate panel is s (the GDP-deflator based rate of (217)), which fits better than s_C.'
+    panels:
+      - {panel: Output, variable: y, scale: 100, units: '% deviation'}
+      - {panel: Consumption, variable: c, scale: 100, units: '% deviation'}
+      - {panel: 'Fixed investment', variable: i, scale: 100, units: '% deviation'}
+      - {panel: Exports, variable: x, scale: 100, units: '% deviation'}
+      - {panel: Imports, variable: im, scale: 100, units: '% deviation'}
+      - {panel: 'Hours worked', variable: n, scale: 100, units: '% deviation'}
+      - {panel: 'Interest rate', variable: r, scale: 400, units: 'annualized percentage points'}
+      - {panel: 'Real wage', variable: w, scale: 100, units: '% deviation'}
+      - {panel: 'Real exchange rate', variable: s, scale: 100, units: '% deviation (GDP-deflator based s, not s_C)'}
+      - {panel: 'CPI inflation', variable: pi_C, scale: 100, units: 'quarterly percentage points'}
+      - {panel: 'Domestic inflation', variable: pi_H, scale: 100, units: 'quarterly percentage points'}
+      - {panel: 'Imported inflation', variable: pi_IM, scale: 100, units: 'quarterly percentage points'}
+    figures:
+      - {figure: 6, shock: eta_R, file: 'fig06_interest_rate.csv', title: 'Interest rate (monetary policy) shock'}
+      - {figure: 7, shock: eta_RPstar, file: 'fig07_external_risk_premium.csv', title: 'External risk premium shock'}
+      - {figure: 8, shock: eta_RP, file: 'fig08_symmetric_premium.csv', title: 'Symmetric (domestic demand) premium shock'}
+      - {figure: 9, shock: eta_Ystar, file: 'fig09_foreign_demand.csv', title: 'Foreign demand shock'}
+      - {figure: 10, shock: eta, file: 'fig10_transitory_technology.csv', title: 'Transitory technology shock'}
+      - {figure: 11, shock: eta_varphiH, file: 'fig11_domestic_price_markup.csv', title: 'Domestic price markup shock'}
+      - {figure: 12, shock: eta_varphistar, file: 'fig12_import_price_markup.csv', title: 'Import price markup shock'}
+      - {figure: 13, shock: eta_OIL, file: 'fig13_oil_price.csv', title: 'Oil price shock'}
+      - {figure: 14, shock: eta_I, file: 'fig14_investment_specific_technology.csv', title: 'Investment-specific technology shock'}
+      - {figure: 15, shock: eta_nustar, file: 'fig15_export_share.csv', title: 'Export share shock'}
+      - {figure: 16, shock: eta_nu, file: 'fig16_home_bias.csv', title: 'Home bias shock'}
+      - {figure: 17, shock: eta_varphiW, file: 'fig17_wage_markup.csv', title: 'Wage markup shock'}
+      - {figure: 18, shock: eta_DINV, file: 'fig18_inventories_investment_demand.csv', title: 'Inventory investment shock'}
+  variance_decomposition:
+    source: docs/paper/data/table7_variance_decomposition.csv (Table 7, pages 69-70)
+    horizons: [1, 4, null]
+    variables:
+      - {table: 'Interest rate', variable: r_OB}
+      - {table: Inflation, variable: Delta_P_C}
+      - {table: 'Real exchange rate', variable: s}
+      - {table: 'Real wage', variable: w}
+      - {table: 'Hours worked', variable: n}
+      - {table: Output, variable: y}
+      - {table: Consumption, variable: c}
+      - {table: Investment, variable: i}
+      - {table: Exports, variable: x}
+      - {table: Imports, variable: im}
+    shocks:
+      - {table: 'Transitory techn.', shock: eta}
+      - {table: 'Permanent techn.', shock: eta_gz}
+      - {table: 'Symmetric prem.', shock: eta_RP}
+      - {table: 'External prem.', shock: eta_RPstar}
+      - {table: 'Dom. prem.', shock: eta_DRP}
+      - {table: Consumption, shock: eta_C}
+      - {table: 'Inv. techn.', shock: eta_I}
+      - {table: 'Inventory inv.', shock: eta_DINV}
+      - {table: Government, shock: eta_G}
+      - {table: 'Export share', shock: eta_nustar}
+      - {table: 'Home bias', shock: eta_nu}
+      - {table: 'Domestic markup', shock: eta_varphiH}
+      - {table: 'Import markup', shock: eta_varphistar}
+      - {table: 'Wage markup', shock: eta_varphiW}
+      - {table: 'Export markup', shock: eta_varphiX}
+      - {table: 'Foreign transfers', shock: eta_FTR}
+      - {table: 'Interest rate', shock: eta_R}
+      - {table: 'Inf. target', shock: eta_Pibar}
+      - {table: 'Consumption tax', shock: eta_tauC}
+      - {table: 'Foreign demand', shock: eta_Ystar}
+      - {table: 'Foreign supply', shock: eta_Pistar}
+      - {table: 'Foreign interest rate', shock: eta_Rstar}
+      - {table: 'World trade', shock: epsilon_IMstar}
+      - {table: 'Oil price', shock: eta_OIL}
+      - {table: 'Foreign LR rate', shock: eta_fwdstar}

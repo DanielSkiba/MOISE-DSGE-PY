@@ -14,12 +14,12 @@ they are transcribed as printed.
 
 ## Hard rules
 1. **Do not invent equations or parameter values.** Every entry in `model/moise.yaml` must come from the paper (via `docs/paper/`), with `paper_eq` and `page` filled in. Use the code names from `docs/paper/data/notation_codes.csv`. If something is unclear, leave a `TODO` in `notes` instead of guessing.
-2. **Never set `verified: true`.** Only humans verify equations.
+2. **Never set `verified: true`, and never change a decision's `status`.** Only humans verify equations and accept or reject decisions.
 3. **Keep model and solver separate.** No Israel-specific logic in `src/moise/`; the solver must work on any linear model defined in the YAML format.
 4. **Do not simplify or substitute equations** while transcribing, even when algebraically equivalent.
-5. **Tests before claims.** Do not state that the model "replicates" the paper unless the replication tests in `tests/` pass.
+5. **Tests before claims.** Do not state that the model "replicates" the paper unless the replication tests in `tests/` pass. Run `pytest -q` before every commit; `tests/test_model.py` checks the YAML against `docs/paper`.
 6. Do not commit the paper PDF (it is git-ignored) or reproduce long passages from it.
-7. **Do not "fix" the paper's misprints in `docs/paper/`.** It records the paper as printed. Decide how to handle a misprint in `model/moise.yaml` (with a `notes` entry), not by editing the transcription.
+7. **Do not "fix" the paper's misprints in `docs/paper/`.** It records the paper as printed. Handle a misprint in `model/moise.yaml`: keep the printed form in `printed`, put the fix in `expr`, and document it as an entry under `decisions` (status `proposed`). Do not edit the transcription.
 8. After any change to `docs/paper/`, run `python tools/paper/check_paper.py` (and `--fix-code --write-json` if you changed LaTeX in Appendix D).
 
 ## Stack

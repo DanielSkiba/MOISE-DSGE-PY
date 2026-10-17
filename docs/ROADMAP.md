@@ -8,7 +8,10 @@ License, citation, project structure, CI, contributor and agent guidelines.
 Appendix D, notation with code names, Tables 1–7 as CSV, digitized impulse responses (Figures 6–18).
 Transcribed from page images and checked by an independent second pass (machine-verified only).
 
-## Phase 1 — Core model
+## Phase 1 — Core model (drafted; waiting for human verification)
+Steps 1, 2, 4 and 5 are drafted and machine-checked (see [`docs/phase1/`](phase1/README.md)); step 3,
+human verification, has not started.
+
 1. Transcribe the log-linearized equations (paper Appendix D) into `model/moise.yaml`, one equation per entry, tagged with equation number and page. Start from the code forms in `docs/paper/10-log-linear-model.md` and decide, with a `notes` entry, how to treat each known misprint listed in `docs/paper/README.md`.
 2. Transcribe parameter values (calibrated + posterior estimates from Section 4) and shock definitions.
 3. Human-verify every equation against the PDF; record it in `docs/verification-log.md`.
