@@ -9,8 +9,8 @@ what still needs a person's review.
 
 | Piece | Where | What it does |
 |---|---|---|
-| Model file | `model/moise.yaml` | All 120 Appendix D equations (212)–(331), each with the paper's code form (`printed`) and the form the solver uses (`expr`). 23 equations added from the main text (shock processes, the foreign real rate, observation errors). 143 variables, 46 innovations, 128 parameters, the Appendix C.2 steady state (63 steps), 35 documented decisions. |
-| Solver | `src/moise/` | Generic: reads any model in this YAML format, builds the linear system, solves it with QZ (Blanchard–Kahn checks), computes impulse responses, simulations and variance decompositions. No MOISE-specific code. |
+| Model file | `model/moise.yaml` | All 120 Appendix D equations (212)–(331), each with the paper's code form (`printed`) and the form the solver uses (`expr`). 23 equations added from the main text (shock processes, the foreign real rate, observation errors). 143 variables, 46 innovations, 127 parameters, the Appendix C.2 steady state (63 steps), 37 documented decisions. |
+| Solver | `src/moise/` | Generic: reads any model in this YAML format, builds the linear system, solves it with the real QZ decomposition (Blanchard–Kahn checks), computes impulse responses, simulations and variance decompositions. No MOISE-specific code. |
 | Tests | `tests/` | 16 solver tests on models with known solutions; 15 checks of the YAML against `docs/paper` (every printed equation, every table value); 14 replication tests against Figures 6–18 and Tables 6–7. |
 | Plots | `tools/replication/plot_irfs.py`, `figures/` | Model vs paper for all 13 impulse-response figures. |
 
@@ -80,12 +80,18 @@ At the posterior mean, the model's shares differ from Table 7 by 0.42 percentage
 30 variable-horizon columns. The largest gap is the long-run share of the domestic premium shock in
 the interest rate (53% vs 75.5%).
 
-The biggest gaps all involve four shocks whose S.D.s are printed as 0.001 or 0.002, where rounding
-to three decimals is a large relative error (η^R, η^DRP, η^{*,fwd}, η^Π̄). As a sensitivity check only
+The biggest gaps involve four shocks whose S.D.s are printed as 0.001 or 0.002, where rounding to
+three decimals is a large relative error (η^R, η^DRP, η^{*,fwd}, η^Π̄). As a sensitivity check only
 (the YAML keeps the printed values), choosing them within their rounding intervals (0.00243,
 0.00134, 0.0005 and 0.00071; each still prints as the published value) cuts the mean gap to 0.26 pp
 and the maximum to 10.4 pp. It also brings the Figure 6 interest-rate impact from 0.62 to 0.76
 (paper: 0.78).
+
+Rounding does not explain the **domestic premium shock** (D36), which is an open question. Its
+Table 7 shares of the policy rate are 0.6 / 2.3 / 75.5% at 1 / 4 / ∞ quarters. Here, any S.D. that
+gets the long-run share close (0.0015 gives 72%) makes the short-run shares far too large (4.6% and
+15.6%). In the paper's code this shock seems to build up more slowly than in this model. Its
+posterior mode prints as 0.000, so at the posterior mode the shock is switched off altogether.
 
 ### Moments of the observables (Table 6)
 
@@ -120,8 +126,8 @@ The paper has misprints (listed in `docs/paper/README.md`). Each one is handled 
 the printed form still gives a model that solves, it can be switched back:
 `moise.load(decisions={"D13": "printed"})`.
 
-**Supported by the figures** (switching to the printed or main-text form clearly worsens the fit;
-`tests/test_replication.py` checks this):
+**Supported by the paper's results** (switching to the printed or main-text form clearly worsens
+the fit; `tests/test_replication.py` checks the figure comparisons):
 
 | Decision | What | Fit to Figures 6–18 (mean relative RMSE), adopted vs alternative |
 |---|---|---|
@@ -131,12 +137,13 @@ the printed form still gives a model that solves, it can be switched back:
 | D09 | (265): keep the factor 0.25 (not (65)'s plain sum) | 0.056 vs 0.172 |
 | D13 | (217): (1−γ_S) on expected inflation differential | 0.056 vs 0.078 |
 | D18 | (280): government weight p_G g/(p_Y y) | 0.056 vs 0.118 |
-| D32 | γ_{u,1} with g_z/β | printed value gives negative steady-state consumption |
+| D32 | γ_{u,1} with g_z/β | printed value gives negative steady-state consumption (c/y = −0.71) |
+| D11 | (212): keep the printed numerator 1 on the VAT term | no effect on the figures, but Table 7's VAT shares fit only the printed form |
 
 **Based on derivations or the main text, with no visible effect on the figures:** D12 ((214)
 investment FOC: ĝ_z terms and exponent; derived twice independently), D14 ((225) denominators),
-D17 ((248) lagged export inflation), D08 ((262) horizon), D11 ((212) VAT numerator kept as
-printed), D33 ((200) exponent).
+D17 ((248) lagged export inflation), D08 ((262) horizon), D33 ((200) exponent). D07 also has a
+symmetric prior on the coefficient, so only the figures decide it.
 
 **Readings of notation:** D01–D04 (hat/no-hat spellings; (273) defines the CPI real exchange rate
 as a new variable), D15 (ν_E = ν_C), D16, D19 ((300) observes the domestic target), D20, D27, D28,
@@ -144,16 +151,36 @@ D29 (β* = β).
 
 **Model closure, from Section 4.4.2** (which of the 25 shocks exist and how they are specified):
 D21 (shock processes added from the main text), D22 (one home-bias process), D23–D26 (variables
-and shocks fixed at zero; taxes other than VAT constant).
+and shocks fixed at zero; taxes other than VAT constant), D37 (world-trade shock i.i.d.; Table 7
+agrees).
 
 **Values the paper does not report** (marked `TODO` in the YAML): D26 (persistence of constant taxes;
 no effect), D30 (i.i.d. excess trends, per Appendix B), D31 (observation errors AR(1)), D34
 (g_{ΔW}), D35 (unreported S.D.s set to zero). These affect only the measurement block or shocks that
-are switched off.
+are switched off. D36 records that η^DRP's mode prints as 0.000 and is kept at zero.
 
 To accept or reject a decision, change its `status` to `accepted` or `rejected` and fill
 `reviewed_by`. To verify an equation, compare `printed` and `expr` with the PDF page given and set
 `verified: true` and `verified_by`. Then add a line to `docs/verification-log.md`.
+
+## Independent review
+
+A separate agent that had not seen this work checked `model/moise.yaml` against `docs/paper`:
+- It compared all 120 `printed` fields with the paper.
+- It confirmed that each of the 14 differing `expr` fields makes exactly the change its decision
+  describes.
+- It re-derived (214) and (217) by finite differences from the main-text equations, confirming D12
+  and D13.
+- It checked every steady-state step, every shock and every table value.
+- It found no wrong equation.
+
+Its findings were fixed:
+- The η^DRP mode now has a decision (D36), and so does the world-trade shock (D37).
+- Two evidence or summary lines were wrong (D11, D32) and have been corrected.
+- (300) was added to D01.
+- An invented value for ν_E has been dropped.
+- Two points missing from the paper's known issues were recorded: (59) is written in levels, and
+  the import intensities in 4.4.1 differ from what Table 1 implies.
 
 ## Not done yet
 
@@ -161,6 +188,7 @@ To accept or reject a decision, change its `status` to `accepted` or `rejected` 
 - **Measurement block against the data.** The observation equations (291)–(331) reproduce the
   model-implied moments of Table 6. Running them on the actual Israeli data (Kalman filter,
   likelihood) is Phase 3.
+- **The domestic premium shock** (D36): its propagation does not match Table 7 (see above).
 - **Posterior-mean responses.** The paper averages responses over posterior draws. Reproducing that
   exactly needs the posterior draws, which are not published. The comparison here uses the response
   at the posterior mean.

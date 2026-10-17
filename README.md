@@ -70,7 +70,7 @@ generic solver is in `src/moise/`. The model has a unique stable solution, and t
 pass: at the posterior-mean parameters the impulse responses match the paper's Figures 6–18
 (median correlation 0.999; 99.9% of plotted points inside the paper's 90% bands) and the variance
 decomposition matches Table 7 to 0.4 percentage points on average. No equation is human-verified
-yet, and the 35 decisions about the paper's misprints are proposals. See
+yet, and the 37 decisions about the paper's misprints are proposals. See
 [`docs/phase1/`](docs/phase1/README.md) for the results and what needs review.
 
 ```python

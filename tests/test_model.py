@@ -63,7 +63,7 @@ def test_every_change_is_covered_by_a_decision():
 
 def test_decisions_are_documented_and_referenced():
     refs = set()
-    for section in ("equations", "parameters", "steady_state", "aliases", "exogenous_zero"):
+    for section in ("equations", "parameters", "shocks", "steady_state", "aliases", "exogenous_zero"):
         for item in SPEC[section]:
             if item.get("decision"):
                 refs.add(item["decision"])
@@ -168,6 +168,11 @@ def test_steady_state_identities(model):
     assert v["i_ss"] == pytest.approx((1 - (1 - v["delta"]) / v["g_z_ss"]) * v["k_ss"])            # (113)
     for name in ("c_ss", "i_ss", "x_ss", "im_ss", "h_C_ss", "h_I_ss", "h_G_ss", "h_X_ss", "N_ss", "psi"):
         assert v[name] > 0, name
+    # the great ratios stated in Section 4.4.1, in percent of GDP
+    ratios = {"c_ss": 55, "i_ss": 21, "g_ss": 26, "im_ss": 42}
+    for name, pct in ratios.items():
+        assert round(100 * v[name] / y) == pct, name
+    assert round(100 * v["s_X_ss"]) == 39                                                          # exports
     # 167.u1 normalizes the relative prices to one
     for name in ("p_H_ss", "p_Y_ss", "p_IM_ss", "p_I_ss", "p_G_ss", "p_DX_ss"):
         assert v[name] == pytest.approx(1.0), name

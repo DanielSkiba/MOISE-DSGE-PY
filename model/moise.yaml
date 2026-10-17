@@ -25,7 +25,7 @@ decisions:
   - id: D01
     title: 'π̄ without a hat is the inflation-target deviation π̂̄'
     status: proposed
-    applies_to: ['(259)', '(298)', '(299)', '(304)', '(305)', '(306)']
+    applies_to: ['(259)', '(298)', '(299)', '(300)', '(304)', '(305)', '(306)']
     printed: 'Some equations print the target as \bar{\pi}_t (no hat), others as \hat{\bar{\pi}}_t.'
     adopted: 'Alias pibar_nohat -> pibar.'
     alternatives: []
@@ -55,7 +55,7 @@ decisions:
     printed: '\hat{s}_t = \hat{c}_t + \hat{p}_{Y,t}'
     adopted: 's_C = s + p_Y, with s_C a new variable (CPI-based real exchange rate).'
     alternatives: []
-    rationale: 's_t = P*_Y S/P_Y (123.i1), so the CPI-based rate is s*p_Y. Read literally, (273) would tie the real exchange rate to consumption and leave the system with one equation too many.'
+    rationale: 's_t = P*_Y S/P_Y (123.i1), so the CPI-based rate is s*p_Y. Read literally, (273) would tie the real exchange rate to consumption and leave the system with one equation too many. s_C enters no other equation, so this reading only matters for reporting (the figures'' real-exchange-rate panel matches s, not s_C).'
     reviewed_by: null
   - id: D05
     title: '(282), (284): ĉ in the export-value term is ŝ'
@@ -83,7 +83,7 @@ decisions:
     printed: 'Appendix D (290): - c_{OIL,Δ}(p_{t-1} - p_{t-2}); main text (93): + c_{oil,Δ}(...)'
     adopted: 'Appendix D sign (printed). See notes for the evidence from Figure 13.'
     alternatives: [main_text]
-    rationale: 'The estimate is negative (mode -0.415), so the sign changes the dynamics. With the Appendix D sign the oil price is a hump-shaped AR(2) (roots modulus 0.64); with (93) it oscillates.'
+    rationale: 'The estimate is negative (mode -0.415), so the sign changes the dynamics. With the Appendix D sign the oil price is a hump-shaped AR(2) (complex roots, modulus 0.64); with (93) the roots are 0.78 and -0.53. The prior on c_oil,Δ is symmetric (normal, mean 0), so it gives no hint; the choice rests on the fit to the figures.'
     evidence: 'Figures 6-18: mean relative RMSE 0.056 with the Appendix D sign vs 0.082 with the sign of (93).'
     reviewed_by: null
   - id: D08
@@ -119,8 +119,8 @@ decisions:
     printed: '\frac{1}{1+0.78\tau^c}\hat{\tau}^C'
     adopted: 'As printed (numerator 1).'
     alternatives: [w_tauC]
-    rationale: 'Log-linearizing (5) gives w_{τ^C}/(1+w_{τ^C}τ^C) = 0.78/(1+0.78*0.16) if \hat{τ}^C is the level deviation of the VAT rate, as in (314). Only the scale of the VAT shock is affected. Alternative ''w_tauC'' uses 0.78 in the numerator in both equations.'
-    evidence: 'No effect on Figures 6-18 (VAT shock only).'
+    rationale: 'Log-linearizing (5) gives w_{τ^C}/(1+w_{τ^C}τ^C) = 0.78/(1+0.78*0.16) if \hat{τ}^C is the level deviation of the VAT rate, as in (314). Only the scale of the VAT shock is affected. Alternative ''w_tauC'' uses 0.78 in the numerator of (212) (the structural equation; (284) only defines the market-price deflator).'
+    evidence: 'No effect on Figures 6-18 (VAT shock only). Table 7 supports the printed numerator: its VAT shares at h=inf (hours 1.3, real wage 0.8, consumption 0.7, output 0.2) are 1.6 times the model''s in all four variables, i.e. an S.D. of about 0.0025, which still prints as 0.002; the 0.78 numerator would need about 0.0032, which would print as 0.003.'
     reviewed_by: null
   - id: D12
     title: '(214): ĝ_z terms and the exponent of g_z'
@@ -158,7 +158,7 @@ decisions:
     printed: '\frac{\nu_E}{1-\nu_E}\hat{\nu}_{C,t}'
     adopted: 'nu_C_ss in place of nu_E (as (237), (241), (245) use their own sector''s ν).'
     alternatives: []
-    rationale: 'ν_E is not defined anywhere in the paper, so the printed form cannot be evaluated.'
+    rationale: 'ν_E is not defined anywhere in the paper, so the printed form cannot be evaluated and is not offered as an alternative.'
     reviewed_by: null
   - id: D16
     title: '(246): ε^X kept as printed (no numerical effect)'
@@ -298,7 +298,7 @@ decisions:
     printed: '\gamma_{u,1} = [\beta/g_z - (1-\delta+\tau^K\delta)](1-\tau^K)^{-1} (≈ 0.005)'
     adopted: '[g_z/\beta - (1-\delta+\tau^K\delta)](1-\tau^K)^{-1} (≈ 0.035), implied by 114.u1 and by the steady state of (213)'
     alternatives: [printed]
-    evidence: 'Printed value (0.005) makes steady-state consumption negative (c/N = -1.02 in (179)); adopted value gives c/y = 0.55, i/y = 0.21.'
+    evidence: 'Printed value (0.005) makes steady-state consumption negative (c/N = -3.79 in (179); c/y = -0.71, i/y = 1.47); adopted value gives c/y = 0.55 and i/y = 0.21, the ratios stated in 4.4.1.'
     reviewed_by: null
   - id: D33
     title: '(200): exponent -μ_X'
@@ -323,6 +323,25 @@ decisions:
     printed: 'η^{τ^D}, η^{τ^K}, η^{τ^N}, η^{τ^{W_h}}, η^{τ^{W_f}}, η^{ΔP_I}, η^{ΔINV}_{EX}'
     adopted: 'S.D. 0 (TODO: not reported in Tables 2-4).'
     alternatives: []
+    reviewed_by: null
+  - id: D36
+    title: 'η^DRP: the posterior mode prints as 0.000'
+    status: proposed
+    applies_to: ['Table 3', '3.u1']
+    printed: 'S.D.(η^DRP): mode 0.000, mean 0.001 (three decimals)'
+    adopted: 'Printed values kept: std 0 (mode) and posterior_mean 0.001. The domestic premium shock is therefore switched off in the posterior-mode parameter set.'
+    alternatives: []
+    rationale: 'No value inside the rounding interval is better founded than another. Table 7 gives this shock 75.5% of the long-run variance of the policy rate, which the mode cannot reproduce, so the replication tests use the posterior-mean set. Open question: no S.D. reproduces all three Table 7 horizons (0.6 / 2.3 / 75.5%): 0.0015 gives 4.6 / 15.6 / 71.8%, so the shock seems to propagate more slowly in the paper''s code than here.'
+    evidence: 'Posterior-mean set (S.D. 0.001): this shock''s share of the policy rate is 2.1 / 7.6 / 53.1% at h = 1 / 4 / inf, against 0.6 / 2.3 / 75.5% in Table 7.'
+    reviewed_by: null
+  - id: D37
+    title: 'The world-trade shock is i.i.d.'
+    status: proposed
+    applies_to: ['(289)', '(91)', '4.4.2 item 23']
+    printed: '4.4.2 lists ρ_{WT*} for the world-trade shock, but no estimate is reported anywhere; Table 4 gives only its S.D.; (289) prints the shock as \hat{\epsilon}_{IM^*}.'
+    adopted: 'epsilon_IMstar is the innovation itself (S.D. of η^{WT*}, Table 4); world trade gets its persistence from c_{wt,-} in (289).'
+    alternatives: []
+    evidence: 'Table 7, world trade''s share of exports (h=1/4/inf): model 4.6/0.8/0.4, table 4.8/0.9/0.4.'
     reviewed_by: null
 
 variables:
@@ -944,7 +963,8 @@ shocks:
     prior: {dist: inv_gamma, mean: 0.0, std: Inf}
     source: 'Table 3'
     page: 51
-    notes: 'mode printed 0.000 (rounded)'
+    notes: 'mode printed 0.000 (rounded): D36'
+    decision: D36
   - name: eta_C
     paper_symbol: '\eta^{C}'
     description: Consumption
@@ -1089,7 +1109,8 @@ shocks:
     prior: {dist: inv_gamma, mean: 0.03, std: Inf}
     source: 'Table 4'
     page: 52
-    notes: 'no AR coefficient reported for world trade (4.4.2 item 23)'
+    notes: 'no AR coefficient reported for world trade (4.4.2 item 23): D37'
+    decision: D37
   - name: eta_OIL
     paper_symbol: '\eta^{OIL}'
     description: 'Oil price'
@@ -1411,14 +1432,14 @@ parameters:
     page: 44
   - name: nu_C_ss
     paper_symbol: '\nu^{C}'
-    description: 'Home bias, consumption'
+    description: 'Home bias, consumption (4.4.1 text: import intensity 31%; Table 1 implies 35%)'
     kind: calibrated
     value: 0.65
     source: 'Table 1'
     page: 44
   - name: nu_I_ss
     paper_symbol: '\nu^{I}'
-    description: 'Home bias, investment'
+    description: 'Home bias, investment (4.4.1 text: import intensity 42%; Table 1 implies 40%)'
     kind: calibrated
     value: 0.6
     source: 'Table 1'
@@ -2304,16 +2325,6 @@ parameters:
     source: '172.u1'
     page: 107
     notes: 'Parameter restriction that makes u = 1 in the steady state (r_K = gamma_u_1 p_I).'
-  - name: nu_E
-    paper_symbol: '\nu_{E}'
-    description: 'Printed in (233) only; no value in the paper'
-    kind: assumed
-    value: nu_C_ss
-    printed: null
-    decision: D15
-    source: 'eq. (233)'
-    page: 115
-    notes: 'Defined so that the printed form of (233) can be evaluated; the adopted (233) uses nu_C_ss directly.'
   - name: g_DeltaW
     paper_symbol: 'g_{\Delta W}'
     description: 'Long-run gross growth of nominal wages'
@@ -3054,6 +3065,7 @@ equations:
     title: 'Government consumption'
     printed: 'g = rho_G*g(-1) + eta_G'
     expr: 'g = rho_G*g(-1) + eta_G'
+    notes: '(59) writes the process in levels, g_t = (1-rho_G)g + rho_G g_{t-1} + eta^G, which would scale the shock by 1/g (about 1.74). Table 7''s government row matches this log form (e.g. hours 0.51/0.33/0.27% vs 0.5/0.3/0.3%); the levels reading would roughly triple it.'
     verified: false
     verified_by: null
   - id: '252'
@@ -3452,6 +3464,7 @@ equations:
     title: 'World import gap'
     printed: 'im_star = c_wt_y*y_star + c_wt_ym*y_star(-1) + c_wt_m_star*im_star(-1) + epsilon_IMstar'
     expr: 'im_star = c_wt_y*y_star + c_wt_ym*y_star(-1) + c_wt_m_star*im_star(-1) + epsilon_IMstar'
+    see: [D37]
     verified: false
     verified_by: null
   - id: '290'
